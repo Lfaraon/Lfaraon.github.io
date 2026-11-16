@@ -1,64 +1,66 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-16T15:03:56.489Z",
+  "checkedAt": "2026-11-16T17:12:33.096Z",
   "providers": {
     "football": {
       "state": "ok",
       "detail": "1 jour(s) vérifié(s)",
-      "checkedAt": "2026-11-16T15:03:56.489Z"
+      "checkedAt": "2026-11-16T17:12:33.096Z"
     },
     "tennis": {
       "state": "ok",
-      "detail": "28 directs, 200 à venir ; 0 fiche(s) revérifiée(s)",
-      "checkedAt": "2026-11-16T15:03:56.489Z"
+      "detail": "45 directs, 129 à venir ; 2 fiche(s) revérifiée(s)",
+      "checkedAt": "2026-11-16T17:12:33.096Z"
     }
   },
   "matches": {
     "recCal20261116P68932376": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "API-Football",
       "providerId": "1528987",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": true,
-      "reversed": false
+      "reversed": false,
+      "score": "1-0"
     },
     "recCal20261116P68932378": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "API-Football",
       "providerId": "1528986",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": true,
-      "reversed": false
+      "reversed": false,
+      "score": "2-2"
     },
     "recCal20261116P68932282": {
-      "status": "À venir",
+      "status": "En cours",
       "provider": "API-Football",
       "providerId": "1528988",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
-      "observedLive": false,
+      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "observedLive": true,
       "reversed": false
     },
     "recCal20261116P68932284": {
-      "status": "À venir",
+      "status": "En cours",
       "provider": "API-Football",
       "providerId": "1545617",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
-      "observedLive": false,
+      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "observedLive": true,
       "reversed": false
     },
     "recCal20261116P68932078": {
-      "status": "À venir",
+      "status": "En cours",
       "provider": "API-Football",
       "providerId": "1528989",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
-      "observedLive": false,
+      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "observedLive": true,
       "reversed": false
     },
     "recCal20261116P76168712": {
       "status": "À venir",
       "provider": "API-Football",
       "providerId": "1638605",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": false,
       "reversed": false
     },
@@ -66,7 +68,7 @@
       "status": "À venir",
       "provider": "API-Football",
       "providerId": "1528990",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": false,
       "reversed": false
     },
@@ -74,7 +76,7 @@
       "status": "À venir",
       "provider": "API-Football",
       "providerId": "1545618",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": false,
       "reversed": false
     },
@@ -82,7 +84,7 @@
       "status": "À venir",
       "provider": "API-Football",
       "providerId": "1528991",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": false,
       "reversed": false
     },
@@ -90,7 +92,7 @@
       "status": "À venir",
       "provider": "API-Football",
       "providerId": "1545652",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": false,
       "reversed": false
     },
@@ -104,43 +106,46 @@
       "score": "0-3"
     },
     "recCal20261116L89517": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "API-Football",
       "providerId": "1545906",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": true,
-      "reversed": false
+      "reversed": false,
+      "score": "2-4"
     },
     "recCal20261116L90154": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "API-Football",
       "providerId": "1545909",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": true,
-      "reversed": false
+      "reversed": false,
+      "score": "3-0"
     },
     "recCal20261116L89513": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "API-Football",
       "providerId": "1545904",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": true,
-      "reversed": false
+      "reversed": false,
+      "score": "0-1"
     },
     "recCal20261116L90437": {
-      "status": "À venir",
+      "status": "En cours",
       "provider": "API-Football",
       "providerId": "1545888",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
-      "observedLive": false,
+      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "observedLive": true,
       "reversed": false
     },
     "recCal20261116L90156": {
-      "status": "À venir",
+      "status": "En cours",
       "provider": "API-Football",
       "providerId": "1545890",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
-      "observedLive": false,
+      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "observedLive": true,
       "reversed": false
     },
     "recCal20261116P76736458": {
@@ -155,42 +160,46 @@
       "sourceUrl": "https://www.reuters.com/sports/tennis/alcaraz-outclasses-tiafoe-atp-finals-stretch-winning-run-2026-11-16/"
     },
     "recCal20261116P76841660": {
-      "status": "À venir",
+      "status": "En cours",
       "provider": "Live Tennis API",
       "providerId": "221113",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
-      "observedLive": false,
+      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "observedLive": true,
       "reversed": false
     },
     "recCal20261116P76841658": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Live Tennis API",
       "providerId": "221114",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": true,
-      "reversed": false
+      "reversed": false,
+      "score": "2-0",
+      "lastDetailedAt": "2026-11-16T17:12:33.096Z"
     },
     "recCal20261116P76812390": {
-      "status": "À venir",
+      "status": "En cours",
       "provider": "Live Tennis API",
       "providerId": "220398",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
-      "observedLive": false,
+      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "observedLive": true,
       "reversed": true
     },
     "recCal20261116L90948": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Live Tennis API",
       "providerId": "220406",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": true,
-      "reversed": true
+      "reversed": true,
+      "score": "0-2",
+      "lastDetailedAt": "2026-11-16T17:12:33.096Z"
     },
     "recCal20261116P76812394": {
       "status": "À venir",
       "provider": "Live Tennis API",
       "providerId": "220401",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": false,
       "reversed": true
     },
@@ -198,7 +207,7 @@
       "status": "À venir",
       "provider": "Live Tennis API",
       "providerId": "220405",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": false,
       "reversed": false
     },
@@ -206,7 +215,7 @@
       "status": "À venir",
       "provider": "Live Tennis API",
       "providerId": "219747",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": false,
       "reversed": false
     },
@@ -214,7 +223,7 @@
       "status": "À venir",
       "provider": "Live Tennis API",
       "providerId": "221112",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": false,
       "reversed": true
     },
@@ -222,7 +231,7 @@
       "status": "À venir",
       "provider": "Live Tennis API",
       "providerId": "221111",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-16T17:12:33.096Z",
       "observedLive": false,
       "reversed": false
     }
