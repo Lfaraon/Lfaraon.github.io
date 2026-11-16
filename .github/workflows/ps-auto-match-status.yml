@@ -1,10 +1,23 @@
 name: PS-AUTO — Statuts des matchs (horaire)
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ps-auto-match-status.yml'
+      - 'PS-AUTO/tools/check-match-freshness.mjs'
+      - 'PS-AUTO/tools/freshness-core.mjs'
+      - 'PS-AUTO/tools/freshness-core.test.mjs'
   schedule:
-    # Décalé de l'heure ronde : moins de risques de retard sur GitHub Actions.
-    - cron: '49 * * * *'
+    # Nouvelle minute pour réactiver le planificateur ; décalée de l'heure ronde.
+    - cron: '17 * * * *'
   workflow_dispatch:
+    inputs:
+      force:
+        description: 'Forcer les appels API même si le contrôle précédent est récent'
+        required: false
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -22,12 +35,21 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Vérifier les règles de fraîcheur
+        run: node --test PS-AUTO/tools/freshness-core.test.mjs
+      - name: Éviter les requêtes redondantes
+        id: freshness
+        env:
+          FORCE_REFRESH: ${{ inputs.force }}
+        run: node PS-AUTO/tools/check-match-freshness.mjs refresh
       - name: Lire les résultats vérifiés
+        if: steps.freshness.outputs.run_refresh == 'true'
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           LIVE_TENNIS_API_KEY: ${{ secrets.LIVE_TENNIS_API_KEY }}
         run: node PS-AUTO/tools/refresh-match-status.mjs
       - name: Enregistrer les changements de statuts
+        if: steps.freshness.outputs.run_refresh == 'true'
         run: |
           if git diff --quiet -- PS-AUTO/live-match-status.json; then
             echo 'Aucun changement à publier.'

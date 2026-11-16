@@ -1,0 +1,39 @@
+name: PS-AUTO — Surveillance des actualisations
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ps-auto-match-watchdog.yml'
+  schedule:
+    # Secours indépendant, 30 min après la vérification principale.
+    - cron: '47 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: ps-auto-match-watchdog
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Tester le contrôle de fraîcheur
+        run: node --test PS-AUTO/tools/freshness-core.test.mjs
+      - name: Détecter une actualisation manquante
+        id: health
+        run: node PS-AUTO/tools/check-match-freshness.mjs watchdog
+      - name: Relancer le contrôle sans doubler les appels API
+        if: steps.health.outputs.needs_refresh == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run ps-auto-match-status.yml --ref main -f force=false --repo "$GITHUB_REPOSITORY"
