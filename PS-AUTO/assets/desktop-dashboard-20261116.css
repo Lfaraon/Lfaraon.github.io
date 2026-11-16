@@ -1,0 +1,89 @@
+/* Mise en page ordinateur de PS-AUTO.
+   Les styles iPhone/tablette restent gouvernés par mobile-dashboard-20261116.css. */
+@media (min-width: 1024px) {
+  #root > div > main {
+    width: 100%;
+    max-width: 1600px;
+    margin-inline: auto;
+  }
+
+  #root > div > section[aria-label="Filtres"] {
+    max-width: 1600px;
+    margin-inline: auto;
+  }
+
+  /* Accueil : 6 indicateurs = 3 x 2. Statistiques : 8 = 4 x 2.
+     Ne plus laisser de cellules grises vides dans une grille de 4 ou 6. */
+  section[aria-label="Indicateurs clés"] > p:first-child {
+    padding: 14px 24px 0;
+  }
+
+  section[aria-label="Indicateurs clés"] > div {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+    padding: 14px 24px 20px;
+    background: transparent;
+    align-items: stretch;
+  }
+
+  section[aria-label="Indicateurs clés"] > div:has(> div:nth-child(8)) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  section[aria-label="Indicateurs clés"] > div > div {
+    min-width: 0;
+    min-height: 164px;
+    padding: 17px 19px;
+    border: 1px solid var(--colors-border);
+    border-radius: 12px;
+    background: var(--colors-surface);
+  }
+
+  section[aria-label="Indicateurs clés"] > div > div > p:first-of-type {
+    font-size: clamp(1.7rem, 2.4vw, 2.65rem);
+    line-height: 1.15;
+  }
+
+  /* Liste de runs : deux colonnes sur ordinateur.
+     Une carte ouverte retrouve toute la largeur pour ses pronostics détaillés. */
+  main div:has(> section[id^="pronos-run-"]) {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: 12px;
+  }
+
+  main div:has(> section[id^="pronos-run-"]) > * {
+    min-width: 0;
+    margin-top: 0 !important;
+  }
+
+  main div:has(> section[id^="pronos-run-"]) > p,
+  main div:has(> section[id^="pronos-run-"]) > div {
+    grid-column: 1 / -1;
+  }
+
+  main section[id^="pronos-run-"] {
+    min-width: 0;
+  }
+
+  main section[id^="pronos-run-"]:has(> button[aria-expanded="true"]) {
+    grid-column: 1 / -1;
+  }
+
+  main section[id^="pronos-run-"] > button {
+    min-height: 112px;
+  }
+}
+
+/* Une largeur intermédiaire conserve des indicateurs confortables. */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  section[aria-label="Indicateurs clés"] > div:has(> div:nth-child(8)) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  section[aria-label="Indicateurs clés"] > div > div {
+    padding-inline: 14px;
+  }
+}
