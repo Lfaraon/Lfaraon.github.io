@@ -91,12 +91,14 @@
       "reversed": false
     },
     "recCal20261116P68931590": {
-      "status": "À venir",
-      "provider": "API-Football",
+      "status": "Terminé",
+      "provider": "The Guardian (résultats définitifs)",
       "providerId": "1528991",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
-      "observedLive": false,
-      "reversed": false
+      "checkedAt": "2026-11-16T22:18:23.898Z",
+      "observedLive": true,
+      "reversed": false,
+      "score": "1-0",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live"
     },
     "recCal20261116P68932802": {
       "status": "À venir",
@@ -293,6 +295,24 @@
       "score": "0-2",
       "sets": "1-6, 3-6",
       "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/harrison-c-skupski-n-vs-krawietz-k-puetz-t-2026-11-16"
+    },
+    "recCal20261116P72477582": {
+      "status": "Terminé",
+      "provider": "Sportradar / résultats sportifs",
+      "providerId": "sr:sport_event:72477582",
+      "checkedAt": "2026-11-16T22:18:23.898Z",
+      "observedLive": true,
+      "reversed": false,
+      "score": "1-0"
+    },
+    "recCal20261116P68932800": {
+      "status": "Terminé",
+      "provider": "The Guardian (résultats définitifs)",
+      "checkedAt": "2026-11-16T22:18:23.898Z",
+      "observedLive": true,
+      "reversed": false,
+      "score": "0-3",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live"
     }
   }
 }
