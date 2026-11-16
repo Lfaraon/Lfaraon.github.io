@@ -1,5 +1,5 @@
 /* Harmonisation des 4 indicateurs financiers — mobile et ordinateur.
-   Le chiffre principal se rapproche de sa ligne de séparation, sans modifier
+   Le chiffre principal est centré entre le titre et sa ligne, sans modifier
    les titres, les détails dépliables ni les autres cartes statistiques. */
 section[aria-label="Indicateurs clés"] > div > div:has(> details.pt-3) {
   display: flex;
@@ -8,7 +8,7 @@ section[aria-label="Indicateurs clés"] > div > div:has(> details.pt-3) {
 
 section[aria-label="Indicateurs clés"] > div > div:has(> details.pt-3) > p:first-of-type {
   margin-top: auto !important;
-  margin-bottom: 0;
+  margin-bottom: auto !important;
 }
 
 section[aria-label="Indicateurs clés"] > div > div:has(> details.pt-3) > details.pt-3 {
