@@ -256,6 +256,16 @@
       "observedLive": true,
       "reversed": false,
       "sourceUrl": "https://www.reddit.com/r/FrauenBuLi/comments/1xxrj7v/match_thread_vfb_stuttgart_vs_bayer_leverkusen/"
+    },
+    "recCal20261116P76736466": {
+      "status": "Terminé",
+      "provider": "Résultat vérifié (Tennis.com)",
+      "checkedAt": "2026-11-16T18:39:28.000Z",
+      "observedLive": false,
+      "reversed": false,
+      "score": "0-2",
+      "sets": "1-6, 3-6",
+      "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/harrison-c-skupski-n-vs-krawietz-k-puetz-t-2026-11-16"
     }
   }
 }
