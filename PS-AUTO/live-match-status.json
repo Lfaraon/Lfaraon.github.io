@@ -265,12 +265,13 @@
       "sourceUrl": "https://www.tennisendirect.net/wta/match/valeriya-strakhova-VS-anastasia-tikhonova/lp-open-by-ind-colina-2026/"
     },
     "recCal20261116P76841656": {
-      "status": "À venir",
+      "status": "En cours",
       "provider": "Live Tennis API",
       "providerId": "221111",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
-      "observedLive": false,
-      "reversed": false
+      "checkedAt": "2026-11-16T22:49:05.133Z",
+      "observedLive": true,
+      "reversed": false,
+      "sourceUrl": "https://www.tennisendirect.net/wta/match/luisina-giovannini-VS-ariana-geerlings/lp-open-by-ind-colina-2026/"
     },
     "recCal20261116P76736474": {
       "status": "Terminé",
