@@ -1,0 +1,17 @@
+/* Graphiques de performances par version : lecture tactile dès 8 versions. */
+@media (max-width: 767px) {
+  section[aria-label="Graphiques"] .chart-runner-version .chart-note::after {
+    content: " · Faites glisser pour voir toutes les versions";
+    color: var(--colors-primary);
+  }
+  section[aria-label="Graphiques"] .chart-runner-version .chart-plot {
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+  }
+  section[aria-label="Graphiques"] .chart-runner-version .chart-plot > .recharts-responsive-container {
+    min-width: 680px !important;
+  }
+}
