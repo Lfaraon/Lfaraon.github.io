@@ -33,28 +33,34 @@
       "score": "2-2"
     },
     "recCal20261116P68932282": {
-      "status": "En cours",
-      "provider": "API-Football",
+      "status": "Terminé",
+      "provider": "Résultat vérifié (Guardian)",
       "providerId": "1528988",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-16T19:36:53.000Z",
       "observedLive": true,
-      "reversed": false
+      "reversed": false,
+      "score": "2-1",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live"
     },
     "recCal20261116P68932284": {
-      "status": "En cours",
-      "provider": "API-Football",
+      "status": "Terminé",
+      "provider": "Résultat vérifié (Guardian)",
       "providerId": "1545617",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-16T19:36:53.000Z",
       "observedLive": true,
-      "reversed": false
+      "reversed": false,
+      "score": "3-0",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live"
     },
     "recCal20261116P68932078": {
-      "status": "En cours",
-      "provider": "API-Football",
+      "status": "Terminé",
+      "provider": "Résultat vérifié (Guardian)",
       "providerId": "1528989",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-16T19:36:53.000Z",
       "observedLive": true,
-      "reversed": false
+      "reversed": false,
+      "score": "2-1",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live"
     },
     "recCal20261116P76168712": {
       "status": "À venir",
@@ -160,12 +166,15 @@
       "sourceUrl": "https://www.reuters.com/sports/tennis/alcaraz-outclasses-tiafoe-atp-finals-stretch-winning-run-2026-11-16/"
     },
     "recCal20261116P76841660": {
-      "status": "En cours",
-      "provider": "Live Tennis API",
+      "status": "Terminé",
+      "provider": "Résultat recoupé (scores Colina / r/tennis)",
       "providerId": "221113",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-16T19:36:53.000Z",
       "observedLive": true,
-      "reversed": false
+      "reversed": false,
+      "score": "2-0",
+      "sourceUrl": "https://www.hollywoodbetslivescores.co.za/tennis/league/chile---colina/79457/info",
+      "sets": "6-2, 6-3"
     },
     "recCal20261116P76841658": {
       "status": "Terminé",
@@ -180,12 +189,15 @@
       "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind"
     },
     "recCal20261116P76812390": {
-      "status": "En cours",
-      "provider": "Live Tennis API",
+      "status": "Terminé",
+      "provider": "Résultat recoupé (scores Colina / r/tennis)",
       "providerId": "220398",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-16T19:36:53.000Z",
       "observedLive": true,
-      "reversed": true
+      "reversed": true,
+      "score": "2-0",
+      "sourceUrl": "https://www.hollywoodbetslivescores.co.za/tennis/league/chile---colina/79457/info",
+      "sets": "6-2, 6-4"
     },
     "recCal20261116L90948": {
       "status": "Terminé",
