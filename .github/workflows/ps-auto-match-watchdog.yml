@@ -1,13 +1,6 @@
 name: PS-AUTO — Surveillance des actualisations
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/ps-auto-match-watchdog.yml'
-  schedule:
-    # Secours indépendant, 30 min après la vérification principale.
-    - cron: '47 * * * *'
   workflow_dispatch:
 
 permissions:
