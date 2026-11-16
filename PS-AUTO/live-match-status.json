@@ -266,12 +266,13 @@
       "sourceUrl": "https://www.nittoatpfinals.com/en/scores-centre/schedule"
     },
     "recCal20261116L90157": {
-      "status": "En cours",
-      "provider": "Vérification du direct (manuelle)",
-      "checkedAt": "2026-11-16T17:37:34.174Z",
+      "status": "Terminé",
+      "provider": "Résultat vérifié (SWR / WDR)",
+      "checkedAt": "2026-11-16T20:37:45.000Z",
       "observedLive": true,
       "reversed": false,
-      "sourceUrl": "https://www.reddit.com/r/FrauenBuLi/comments/1xxrj7v/match_thread_vfb_stuttgart_vs_bayer_leverkusen/"
+      "sourceUrl": "https://www.swr.de/sport/fussball/vfb-frauen-leverkusen-bundesliga-100.html",
+      "score": "2-3"
     },
     "recCal20261116P76736466": {
       "status": "Terminé",
