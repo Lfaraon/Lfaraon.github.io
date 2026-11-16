@@ -171,11 +171,13 @@
       "status": "Terminé",
       "provider": "Live Tennis API",
       "providerId": "221114",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-16T17:38:21.050Z",
       "observedLive": true,
       "reversed": false,
       "score": "2-0",
-      "lastDetailedAt": "2026-11-16T17:12:33.096Z"
+      "lastDetailedAt": "2026-11-16T17:12:33.096Z",
+      "sets": "7-5, 6-3",
+      "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind"
     },
     "recCal20261116P76812390": {
       "status": "En cours",
@@ -189,11 +191,13 @@
       "status": "Terminé",
       "provider": "Live Tennis API",
       "providerId": "220406",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-16T17:38:21.050Z",
       "observedLive": true,
       "reversed": true,
       "score": "0-2",
-      "lastDetailedAt": "2026-11-16T17:12:33.096Z"
+      "lastDetailedAt": "2026-11-16T17:12:33.096Z",
+      "sets": "2-6, 4-6",
+      "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind"
     },
     "recCal20261116P76812394": {
       "status": "À venir",
