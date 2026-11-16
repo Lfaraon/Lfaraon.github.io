@@ -256,12 +256,13 @@
       "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/d-medvedev-vs-f-cobolli-2026-11-16"
     },
     "recCal20261116P76841662": {
-      "status": "À venir",
+      "status": "En cours",
       "provider": "Live Tennis API",
       "providerId": "221112",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
-      "observedLive": false,
-      "reversed": true
+      "checkedAt": "2026-11-16T22:46:10.162Z",
+      "observedLive": true,
+      "reversed": true,
+      "sourceUrl": "https://www.tennisendirect.net/wta/match/valeriya-strakhova-VS-anastasia-tikhonova/lp-open-by-ind-colina-2026/"
     },
     "recCal20261116P76841656": {
       "status": "À venir",
