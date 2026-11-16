@@ -1,0 +1,129 @@
+/* PS-AUTO — parité des cartes iPhone / ordinateur, 17.11.2026.
+   Une seule présentation de pronostics et de tickets sur les deux supports.
+   Le calendrier et les derniers tickets restent côte à côte sur ordinateur. */
+
+@media (min-width: 768px) {
+  /* Même navigation équilibrée que sur téléphone. */
+  #root > div > nav[aria-label="Rubriques"] {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0;
+  }
+  #root > div > nav[aria-label="Rubriques"] > button[role="tab"] {
+    flex: 1 1 0;
+    min-width: 0;
+    text-align: center;
+    justify-content: center;
+  }
+  #root > div > nav[aria-label="Rubriques"] > button[title="Diagnostics"] {
+    flex: 0 0 58px;
+    margin-left: 0;
+  }
+
+  /* Le filtre garde la carte arrondie de l'iPhone. */
+  #root > div > section[aria-label="Filtres"] > h2 { display: none !important; }
+  #root > div > section[aria-label="Filtres"] {
+    padding: 12px 24px;
+    background: var(--colors-background);
+  }
+  #root > div > section[aria-label="Filtres"] > div > button[aria-expanded] {
+    min-height: 52px;
+    border-radius: 12px;
+    background: var(--colors-surface);
+    padding-inline: 16px;
+  }
+
+  /* Les cartes de pronostics utilisent la même hiérarchie sur grand écran. */
+  .prono-card { min-width: 0; height: 100%; }
+  .prono-card .prono-card-body { padding: 18px 20px; }
+  .prono-card .prono-card-body .text-xs { font-size: 13px; }
+  .prono-card .prono-card-body .text-sm { font-size: 15px; }
+  .prono-card .prono-card-body .text-base { font-size: 18px; }
+
+  /* Les tickets de la rubrique Tickets ne redeviennent pas un tableau. */
+  #root > div > main .ticket-cards-grid { min-width: 0; }
+  #root > div > main .ticket-cards-grid > li { min-width: 0; margin-top: 0 !important; }
+  #root > div > main .ticket-cards-grid > li > button { height: 100%; padding: 18px 20px; }
+  #root > div > main .ticket-cards-grid > li > button .text-xs { font-size: 13px; }
+  #root > div > main .ticket-cards-grid > li > button .text-sm { font-size: 15px; }
+}
+
+@media (min-width: 1024px) {
+  /* Accueil : garder calendrier / tickets côte à côte.
+     Les derniers pronostics se rangent sous le calendrier, pas sous les tickets :
+     ils occupent donc le grand vide signalé sur la version PC. */
+  #root > div > main .dashboard-home {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(350px, 1fr);
+    grid-template-areas: "calendrier tickets" "pronos tickets";
+    align-items: start;
+    grid-template-rows: auto auto;
+  }
+  #root > div > main .dashboard-home > div:first-child { display: contents; }
+  #root > div > main .dashboard-home > div:first-child > div:first-child {
+    grid-area: calendrier;
+    min-width: 0;
+    min-height: 0;
+    align-self: start;
+    border-right: 1px solid var(--colors-border);
+  }
+  #root > div > main .dashboard-home > div:first-child > aside {
+    grid-area: tickets;
+    min-width: 0;
+    align-self: start;
+    height: auto;
+    padding: 18px 20px;
+  }
+  #root > div > main .dashboard-home > section[aria-label="Derniers pronostics"] {
+    grid-area: pronos;
+    min-width: 0;
+    align-self: start;
+  }
+  #root > div > main .dashboard-home > section[aria-label="Derniers pronostics"] > div[class~="space-y-3"] {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 14px;
+  }
+  #root > div > main .dashboard-home > section[aria-label="Derniers pronostics"] > div[class~="space-y-3"] > * {
+    min-width: 0;
+    margin-top: 0 !important;
+  }
+
+  /* Cartes complètes des tickets en grille plutôt qu'en tableau illisible. */
+  #root > div > main ul.ticket-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: 14px;
+  }
+
+  /* À droite de l'accueil, conserver une colonne de cartes au format téléphone. */
+  #root > div > main .dashboard-home aside ul.ticket-cards-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  /* À l'ouverture d'un run, ses tops restent en cartes uniformes. */
+  #root > div > main section[id^="pronos-run-"] div[class~="space-y-2.5"] {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 12px;
+  }
+  #root > div > main section[id^="pronos-run-"] div[class~="space-y-2.5"] > * {
+    min-width: 0;
+    margin-top: 0 !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  #root > div > main .dashboard-home {
+    grid-template-columns: minmax(0, 1.7fr) minmax(320px, 1fr);
+  }
+  #root > div > main .dashboard-home > section[aria-label="Derniers pronostics"] > div[class~="space-y-3"] {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
