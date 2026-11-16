@@ -3,7 +3,7 @@ name: PS-AUTO — Statuts des matchs (horaire)
 on:
   schedule:
     # Décalé de l'heure ronde : moins de risques de retard sur GitHub Actions.
-    - cron: '13 * * * *'
+    - cron: '49 * * * *'
   workflow_dispatch:
 
 permissions:
