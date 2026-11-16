@@ -1,0 +1,7 @@
+/* Alignement de la version publiée avec les composants du tableau de bord. */
+#root > div > header > div:last-child > span[title^="Version figée"] {
+  display: none !important;
+}
+#root > div > main aside[class~="space-y-3"] > section:first-child:not([aria-label]) {
+  display: none !important;
+}
