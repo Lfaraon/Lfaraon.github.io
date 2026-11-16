@@ -1,0 +1,13 @@
+
+/* Mobile readability for statistics graphs: labels, chart heights and legends. */
+@media (max-width: 767px) {
+  section[aria-label="Graphiques"] { padding-inline: 12px; gap: 14px; }
+  section[aria-label="Graphiques"] .chart-panel { padding: 16px 14px; border-radius: 12px; }
+  section[aria-label="Graphiques"] .chart-title { font-size: 18px; line-height: 1.22; letter-spacing: .01em; overflow-wrap: anywhere; }
+  section[aria-label="Graphiques"] .chart-note { margin-top: 7px; font-size: 12px; line-height: 1.48; }
+  section[aria-label="Graphiques"] .chart-plot { height: 260px; margin-top: 14px; }
+  section[aria-label="Graphiques"] .recharts-cartesian-axis-tick text { font-size: 11px; }
+  section[aria-label="Graphiques"] .recharts-default-legend { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 4px 12px; }
+  section[aria-label="Graphiques"] .recharts-default-legend .recharts-legend-item { margin-right: 0 !important; }
+  section[aria-label="Graphiques"] .recharts-legend-item-text { font-size: 11px; }
+}
