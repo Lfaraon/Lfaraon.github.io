@@ -72,8 +72,13 @@ async function tennis(active, state, key) {
   if (!key) return 'clé manquante';
   const items = active.filter((m) => m.sport === 'Tennis');
   if (!items.length) return 'aucun match à suivre';
+  // Réduire la liste des futurs matchs à la période réellement suivie.
+  // Sans filtre, les 200 premiers matchs mondiaux masquent parfois nos affiches.
+  const dates = items.map((m) => m.kickoff.slice(0, 10)).sort();
+  const period = `&from=${dates[0]}&to=${dates[dates.length - 1]}`;
   const [live, upcoming] = await Promise.all(['live', 'upcoming'].map((status) => getJson(
-    `https://api.livetennisapi.com/api/public/v1/matches?status=${status}&limit=200`, key, 'X-API-Key',
+    `https://api.livetennisapi.com/api/public/v1/matches?status=${status}&limit=200${status === 'upcoming' ? period : ''}`,
+    key, 'X-API-Key',
   )));
   if (!Array.isArray(live.data) || !Array.isArray(upcoming.data)) throw new Error('Réponse tennis incomplète');
   const candidates = [...live.data, ...upcoming.data].map(tennisCandidate);
@@ -98,11 +103,18 @@ async function tennis(active, state, key) {
     state.matches[match.id] = missingAfterLive(old, checkedAt, complete);
   }
 
-  // La fiche d'un match connu reste accessible en offre gratuite APRÈS le direct.
+  // L'ID d'une fiche connue permet de lire son état final, même si elle n'a
+  // jamais été observée en direct ou si les listes sont paginées.
   // 2 détails max/heure : 48 appels de listes + 48 détails = 96/jour.
-  const toCheck = complete ? missing.sort((a, b) =>
+  const toCheck = items.filter((match) => {
+    const previous = state.matches[match.id];
+    return previous?.provider === 'Live Tennis API' && previous.providerId &&
+      previous.status !== 'Terminé' && Date.parse(match.kickoff) <= Date.parse(checkedAt) &&
+      !seenIds.has(previous.providerId);
+  }).sort((a, b) =>
+    Number(Boolean(state.matches[b.id].observedLive)) - Number(Boolean(state.matches[a.id].observedLive)) ||
     (state.matches[a.id].lastDetailedAt || '').localeCompare(state.matches[b.id].lastDetailedAt || '')
-  ).slice(0, 2) : [];
+  ).slice(0, 2);
   for (const match of toCheck) {
     const previous = state.matches[match.id];
     try {
