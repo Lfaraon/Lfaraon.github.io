@@ -83,12 +83,14 @@
       "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live"
     },
     "recCal20261116P68932816": {
-      "status": "À venir",
-      "provider": "API-Football",
+      "status": "Terminé",
+      "provider": "Résultat recoupé (presse sportive)",
       "providerId": "1545618",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-16T22:38:00.000Z",
       "observedLive": false,
-      "reversed": false
+      "reversed": false,
+      "score": "1-1",
+      "sourceUrl": "https://cornerflick.com/football/nations-league/matches/gibraltar-vs-malta-nations-league-2026-11-16"
     },
     "recCal20261116P68931590": {
       "status": "Terminé",
@@ -101,12 +103,14 @@
       "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live"
     },
     "recCal20261116P68932802": {
-      "status": "À venir",
-      "provider": "API-Football",
+      "status": "Terminé",
+      "provider": "Résultat recoupé (presse sportive)",
       "providerId": "1545652",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-16T22:38:00.000Z",
       "observedLive": false,
-      "reversed": false
+      "reversed": false,
+      "score": "4-0",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live"
     },
     "recCal20261116L89516": {
       "status": "Terminé",
