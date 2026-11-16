@@ -1,0 +1,482 @@
+{
+  "schema": 1,
+  "snapshotAt": "2026-11-16T08:06:20.474Z",
+  "matches": [
+    {
+      "id": "rec1ybDU0vG4J8E0m",
+      "name": "Portimonense SAD vs Academica de Coimbra",
+      "sport": "Football",
+      "kickoff": "2026-11-15T14:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "rec2t43FYbIs6uk8G",
+      "name": "Finland vs San Marino",
+      "sport": "Football",
+      "kickoff": "2026-11-15T17:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "rec3ZJtArTFBmxOSw",
+      "name": "Shelton, Ben vs Fils, Arthur",
+      "sport": "Tennis",
+      "kickoff": "2026-11-15T19:30:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "rec7nXtWt2BBiOiOl",
+      "name": "FC Penafiel vs Lusitania FC Lourosa",
+      "sport": "Football",
+      "kickoff": "2026-11-15T15:30:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recAfzdIlgvsvTxtf",
+      "name": "Spain vs England",
+      "sport": "Football",
+      "kickoff": "2026-11-15T19:45:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recC4ng08wJ27eghJ",
+      "name": "Seville F v Atletico Madrid F",
+      "sport": "Football",
+      "kickoff": "2026-11-15T15:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recE7eOe2u6YY79xm",
+      "name": "Aston Villa F v Birmingham F",
+      "sport": "Football",
+      "kickoff": "2026-11-15T14:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recEFlQz2nkHoWHMK",
+      "name": "Cyprus vs Montenegro",
+      "sport": "Football",
+      "kickoff": "2026-11-15T14:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recGJPhLACXiCSJZc",
+      "name": "Suriname vs Eswatini",
+      "sport": "Football",
+      "kickoff": "2026-11-15T17:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recJYeLCEhQ9xXmog",
+      "name": "Trevisan, Martina vs Alvarez, Samantha",
+      "sport": "Tennis",
+      "kickoff": "2026-11-15T17:25:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recMOZ3rVN395PnV3",
+      "name": "Valence F v Grenade F",
+      "sport": "Football",
+      "kickoff": "2026-11-15T17:15:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recQaWqPQW99XlXZU",
+      "name": "Club Deportivo Eldense vs CE Sabadell FC",
+      "sport": "Football",
+      "kickoff": "2026-11-15T17:30:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recSJPVuG7btiWIEu",
+      "name": "Geerlings Martinez, Ariana vs Rodero Contreras, Camila",
+      "sport": "Tennis",
+      "kickoff": "2026-11-15T17:35:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recU00IhieIvXB5sD",
+      "name": "West Ham F v Charlton F",
+      "sport": "Football",
+      "kickoff": "2026-11-15T14:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recY10oDfreT5y2GR",
+      "name": "FC Spaeri v Iberia 1999",
+      "sport": "Football",
+      "kickoff": "2026-11-15T15:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recdigPn6SLbClA6F",
+      "name": "Danubio v Liverpool Montevideo",
+      "sport": "Football",
+      "kickoff": "2026-11-15T19:30:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recgXXcTEy57maGPn",
+      "name": "Granada CF vs UD Las Palmas",
+      "sport": "Football",
+      "kickoff": "2026-11-15T15:15:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recgzTnoBPH8Rqzzr",
+      "name": "Croatia vs Czechia",
+      "sport": "Football",
+      "kickoff": "2026-11-15T19:45:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "rech9un3Tk5yWGA5x",
+      "name": "Cherubini, Diletta vs Osborne, Alexandra",
+      "sport": "Tennis",
+      "kickoff": "2026-11-15T16:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "rechOCm3EBsLRsuNm",
+      "name": "SD Eibar vs Cadiz CF",
+      "sport": "Football",
+      "kickoff": "2026-11-15T17:30:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "reciCwNNNwZDHEqSx",
+      "name": "Arsenal F v London City Lionesses F",
+      "sport": "Football",
+      "kickoff": "2026-11-15T16:30:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "reciVzCgihUZskYTl",
+      "name": "France vs Turkiye",
+      "sport": "Football",
+      "kickoff": "2026-11-15T19:45:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "reciZRfIjw2siHo8w",
+      "name": "Como 1907 F v Como F",
+      "sport": "Football",
+      "kickoff": "2026-11-15T14:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "reckWB98CO32CW5fa",
+      "name": "GFA Rumilly-Vallieres vs AS Saint-Etienne",
+      "sport": "Football",
+      "kickoff": "2026-11-15T14:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recmeUxjVMbx3XfwN",
+      "name": "Leixoes SC vs GD Chaves",
+      "sport": "Football",
+      "kickoff": "2026-11-15T18:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recn6v4HawRQvUCwt",
+      "name": "Belarus vs Albania",
+      "sport": "Football",
+      "kickoff": "2026-11-15T17:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recnoK3vwEVwk8FOO",
+      "name": "Montpellier Atlas Paillade vs AS Cannes",
+      "sport": "Football",
+      "kickoff": "2026-11-15T14:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recoOB0je7srtY9Ae",
+      "name": "Svitolina, Elina vs Andreeva, Mirra",
+      "sport": "Tennis",
+      "kickoff": "2026-11-15T20:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recob6aQlaRNn77AP",
+      "name": "Latvia vs Armenia",
+      "sport": "Football",
+      "kickoff": "2026-11-15T14:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recpfSJQhkmL5Gcc3",
+      "name": "Belgium vs Italy",
+      "sport": "Football",
+      "kickoff": "2026-11-15T19:45:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recpzB6c8yIlBh7zG",
+      "name": "Inter Milan F v Juventus F",
+      "sport": "Football",
+      "kickoff": "2026-11-15T14:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recrzGvK30Fr9iaxE",
+      "name": "La Corogne F v FC Barcelone F",
+      "sport": "Football",
+      "kickoff": "2026-11-15T17:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recuaiFBm8xPewVRk",
+      "name": "RB Leipzig F v Eintracht Francfort F",
+      "sport": "Football",
+      "kickoff": "2026-11-15T15:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recukcajX6Ysbnk80",
+      "name": "Kulambayeva, Zhibek vs Strakhova, Valeriya",
+      "sport": "Tennis",
+      "kickoff": "2026-11-15T18:25:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recv4cGFWf1Oj5JCS",
+      "name": "Siniakova K / Townsend T vs Errani S / Paolini J",
+      "sport": "Tennis",
+      "kickoff": "2026-11-15T21:10:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recxhg442KJbbGB2p",
+      "name": "Arevalo M / Pavic M vs Arribage T / Olivetti A",
+      "sport": "Tennis",
+      "kickoff": "2026-11-15T17:05:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recyimtgfd2tHg7gD",
+      "name": "Nuremberg F v FC Cologne F",
+      "sport": "Football",
+      "kickoff": "2026-11-15T15:00:00.000Z",
+      "snapshotStatus": "Terminé"
+    },
+    {
+      "id": "recCal20261116P68932376",
+      "name": "Îles Féroé – Moldavie",
+      "sport": "Football",
+      "kickoff": "2026-11-16T15:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P68932378",
+      "name": "Kazakhstan – Slovaquie",
+      "sport": "Football",
+      "kickoff": "2026-11-16T15:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P68932282",
+      "name": "Estonie – Bulgarie",
+      "sport": "Football",
+      "kickoff": "2026-11-16T17:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P68932284",
+      "name": "Islande – Luxembourg",
+      "sport": "Football",
+      "kickoff": "2026-11-16T17:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P68932078",
+      "name": "Lituanie – Liechtenstein",
+      "sport": "Football",
+      "kickoff": "2026-11-16T17:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P76168712",
+      "name": "Andorre – Azerbaïdjan",
+      "sport": "Football",
+      "kickoff": "2026-11-16T18:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P72477582",
+      "name": "Albacete – Celta Fortuna",
+      "sport": "Football",
+      "kickoff": "2026-11-16T19:30:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P68931588",
+      "name": "Allemagne – Pays-Bas",
+      "sport": "Football",
+      "kickoff": "2026-11-16T19:45:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P68932816",
+      "name": "Gibraltar – Malte",
+      "sport": "Football",
+      "kickoff": "2026-11-16T19:45:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P68931590",
+      "name": "Grèce – Serbie",
+      "sport": "Football",
+      "kickoff": "2026-11-16T19:45:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P68932800",
+      "name": "Macédoine du Nord – Slovénie",
+      "sport": "Football",
+      "kickoff": "2026-11-16T19:45:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P68932802",
+      "name": "Suisse – Écosse",
+      "sport": "Football",
+      "kickoff": "2026-11-16T19:45:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P76736474",
+      "name": "Granollers / Zeballos – Bolelli / Vavassori",
+      "sport": "Tennis",
+      "kickoff": "2026-11-16T10:30:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P76736458",
+      "name": "Alcaraz – Tiafoe",
+      "sport": "Tennis",
+      "kickoff": "2026-11-16T13:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P76841660",
+      "name": "Maristany – Trevisan",
+      "sport": "Tennis",
+      "kickoff": "2026-11-16T13:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P76841658",
+      "name": "Masarova – Cherubini",
+      "sport": "Tennis",
+      "kickoff": "2026-11-16T14:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P76812390",
+      "name": "Costoulas – Brancaccio",
+      "sport": "Tennis",
+      "kickoff": "2026-11-16T15:10:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P76812394",
+      "name": "Jimenez Kasintseva – Monnet",
+      "sport": "Tennis",
+      "kickoff": "2026-11-16T16:20:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P76812404",
+      "name": "Romero Gormaz – Oz",
+      "sport": "Tennis",
+      "kickoff": "2026-11-16T16:20:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P76736466",
+      "name": "Harrison / Skupski – Krawietz / Pütz",
+      "sport": "Tennis",
+      "kickoff": "2026-11-16T17:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P76736460",
+      "name": "Medvedev – Cobolli",
+      "sport": "Tennis",
+      "kickoff": "2026-11-16T19:30:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P76841662",
+      "name": "Strakhova – Tikhonova",
+      "sport": "Tennis",
+      "kickoff": "2026-11-16T21:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116P76841656",
+      "name": "Giovannini – Geerlings Martinez",
+      "sport": "Tennis",
+      "kickoff": "2026-11-16T22:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116L89516",
+      "name": "Namibie – Cameroun",
+      "sport": "Football",
+      "kickoff": "2026-11-16T13:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116L89517",
+      "name": "Soudan – Sénégal",
+      "sport": "Football",
+      "kickoff": "2026-11-16T13:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116L90154",
+      "name": "Zimbabwe – Guinée équatoriale",
+      "sport": "Football",
+      "kickoff": "2026-11-16T13:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116L89513",
+      "name": "Somalie – Ghana",
+      "sport": "Football",
+      "kickoff": "2026-11-16T15:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116L90437",
+      "name": "Centrafrique – Bénin",
+      "sport": "Football",
+      "kickoff": "2026-11-16T16:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116L90156",
+      "name": "Érythrée – Guinée",
+      "sport": "Football",
+      "kickoff": "2026-11-16T16:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116L90157",
+      "name": "Stuttgart F – Bayer Leverkusen F",
+      "sport": "Football",
+      "kickoff": "2026-11-16T17:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261116L90948",
+      "name": "Scott – Zolotareva",
+      "sport": "Tennis",
+      "kickoff": "2026-11-16T14:00:00Z",
+      "snapshotStatus": "À venir"
+    }
+  ]
+}

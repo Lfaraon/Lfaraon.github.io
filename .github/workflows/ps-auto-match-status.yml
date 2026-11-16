@@ -1,0 +1,41 @@
+name: PS-AUTO — Statuts des matchs (horaire)
+
+on:
+  schedule:
+    # Décalé de l'heure ronde : moins de risques de retard sur GitHub Actions.
+    - cron: '13 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ps-auto-match-status
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Lire les résultats vérifiés
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          LIVE_TENNIS_API_KEY: ${{ secrets.LIVE_TENNIS_API_KEY }}
+        run: node PS-AUTO/tools/refresh-match-status.mjs
+      - name: Enregistrer les changements de statuts
+        run: |
+          if git diff --quiet -- PS-AUTO/live-match-status.json; then
+            echo 'Aucun changement à publier.'
+            exit 0
+          fi
+          git config user.name 'PS-AUTO automatisation'
+          git config user.email 'actions@users.noreply.github.com'
+          git add PS-AUTO/live-match-status.json
+          git commit -m 'Actualiser les états vérifiés des matchs'
+          git pull --rebase origin main
+          git push origin HEAD:main
