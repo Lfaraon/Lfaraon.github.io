@@ -220,28 +220,34 @@
       "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind"
     },
     "recCal20261116P76812394": {
-      "status": "À venir",
+      "status": "Terminé",
       "provider": "Live Tennis API",
       "providerId": "220401",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-16T21:55:38.252Z",
       "observedLive": false,
-      "reversed": true
+      "reversed": true,
+      "score": "1-2",
+      "sourceUrl": "https://www.tennislive.it/wta/incontro/carole-monnet-VS-victoria-jimenez-kasintseva/lp-open-by-ind-colina-2026/"
     },
     "recCal20261116P76812404": {
-      "status": "À venir",
+      "status": "Terminé",
       "provider": "Live Tennis API",
       "providerId": "220405",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-16T21:55:38.252Z",
       "observedLive": false,
-      "reversed": false
+      "reversed": false,
+      "score": "2-1",
+      "sourceUrl": "https://www.mykhel.com/tennis/lp-open-by-ind-2026-womens-singles-1-32-final-live-scoreboard-441542/"
     },
     "recCal20261116P76736460": {
-      "status": "À venir",
+      "status": "Terminé",
       "provider": "Live Tennis API",
       "providerId": "219747",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-16T21:55:38.252Z",
       "observedLive": false,
-      "reversed": false
+      "reversed": false,
+      "score": "2-0",
+      "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/d-medvedev-vs-f-cobolli-2026-11-16"
     },
     "recCal20261116P76841662": {
       "status": "À venir",
