@@ -1,16 +1,6 @@
 name: PS-AUTO — Statuts des matchs (horaire)
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/ps-auto-match-status.yml'
-      - 'PS-AUTO/tools/check-match-freshness.mjs'
-      - 'PS-AUTO/tools/freshness-core.mjs'
-      - 'PS-AUTO/tools/freshness-core.test.mjs'
-  schedule:
-    # Nouvelle minute pour réactiver le planificateur ; décalée de l'heure ronde.
-    - cron: '17 * * * *'
   workflow_dispatch:
     inputs:
       force:
