@@ -143,12 +143,15 @@
       "reversed": false
     },
     "recCal20261116P76736458": {
-      "status": "À venir",
-      "provider": "Live Tennis API",
+      "status": "Terminé",
+      "provider": "Résultat vérifié",
       "providerId": "219744",
-      "checkedAt": "2026-11-16T12:05:51.292Z",
+      "checkedAt": "2026-11-16T15:02:22.575Z",
       "observedLive": false,
-      "reversed": true
+      "reversed": false,
+      "score": "2-0",
+      "sets": "6-2, 6-2",
+      "sourceUrl": "https://www.reuters.com/sports/tennis/alcaraz-outclasses-tiafoe-atp-finals-stretch-winning-run-2026-11-16/"
     },
     "recCal20261116P76841660": {
       "status": "À venir",
