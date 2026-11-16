@@ -48,65 +48,77 @@
   #root > div > main .ticket-cards-grid > li > button { height: 100%; padding: 18px 20px; }
   #root > div > main .ticket-cards-grid > li > button .text-xs { font-size: 13px; }
   #root > div > main .ticket-cards-grid > li > button .text-sm { font-size: 15px; }
+  #root > div > nav[aria-label="Rubriques"] > div[role="tablist"] {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    width: 100%;
+    min-width: 0;
+    flex: 1 1 auto;
+    overflow: visible;
+  }
+  #root > div > nav[aria-label="Rubriques"] > div[role="tablist"] > button[role="tab"] {
+    min-width: 0;
+    justify-content: center;
+    padding: 10px 6px;
+    white-space: normal;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1023px) {
+  /* L'ordre de l'iPhone est préservé : matchs, tickets, puis pronostics. */
+  #root > div > main .dashboard-home { display: flex; flex-direction: column; }
+  #root > div > main .dashboard-home-left { display: contents; }
+  #root > div > main .dashboard-home-left > div:first-child { order: 1; width: 100%; }
+  #root > div > main .dashboard-home > aside { order: 2; width: 100%; }
+  #root > div > main .dashboard-home-left > section[aria-label="Derniers pronostics"] { order: 3; width: 100%; }
 }
 
 @media (min-width: 1024px) {
-  /* Accueil : garder calendrier / tickets côte à côte.
-     Les derniers pronostics se rangent sous le calendrier, pas sous les tickets :
-     ils occupent donc le grand vide signalé sur la version PC. */
+  /* Deux colonnes indépendantes : calendrier et pronostics à gauche,
+     derniers tickets à droite. L'espace sous les matchs n'est plus vide. */
   #root > div > main .dashboard-home {
     display: grid;
     grid-template-columns: minmax(0, 2fr) minmax(350px, 1fr);
-    grid-template-areas: "calendrier tickets" "pronos tickets";
     align-items: start;
-    grid-template-rows: auto auto;
   }
-  #root > div > main .dashboard-home > div:first-child { display: contents; }
-  #root > div > main .dashboard-home > div:first-child > div:first-child {
-    grid-area: calendrier;
+  #root > div > main .dashboard-home-left { min-width: 0; }
+  #root > div > main .dashboard-home-left > div:first-child {
     min-width: 0;
     min-height: 0;
-    align-self: start;
     border-right: 1px solid var(--colors-border);
   }
-  #root > div > main .dashboard-home > div:first-child > aside {
-    grid-area: tickets;
+  #root > div > main .dashboard-home > aside {
     min-width: 0;
     align-self: start;
     height: auto;
     padding: 18px 20px;
   }
-  #root > div > main .dashboard-home > section[aria-label="Derniers pronostics"] {
-    grid-area: pronos;
+  #root > div > main .dashboard-home-left > section[aria-label="Derniers pronostics"] {
     min-width: 0;
-    align-self: start;
   }
-  #root > div > main .dashboard-home > section[aria-label="Derniers pronostics"] > div[class~="space-y-3"] {
+  #root > div > main .dashboard-home-left > section[aria-label="Derniers pronostics"] > div[class~="space-y-3"] {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     align-items: stretch;
     gap: 14px;
   }
-  #root > div > main .dashboard-home > section[aria-label="Derniers pronostics"] > div[class~="space-y-3"] > * {
+  #root > div > main .dashboard-home-left > section[aria-label="Derniers pronostics"] > div[class~="space-y-3"] > * {
     min-width: 0;
     margin-top: 0 !important;
   }
 
-  /* Cartes complètes des tickets en grille plutôt qu'en tableau illisible. */
   #root > div > main ul.ticket-cards-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     align-items: start;
     gap: 14px;
   }
-
-  /* À droite de l'accueil, conserver une colonne de cartes au format téléphone. */
   #root > div > main .dashboard-home aside ul.ticket-cards-grid {
     grid-template-columns: minmax(0, 1fr);
     gap: 12px;
   }
 
-  /* À l'ouverture d'un run, ses tops restent en cartes uniformes. */
   #root > div > main section[id^="pronos-run-"] div[class~="space-y-2.5"] {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -123,7 +135,7 @@
   #root > div > main .dashboard-home {
     grid-template-columns: minmax(0, 1.7fr) minmax(320px, 1fr);
   }
-  #root > div > main .dashboard-home > section[aria-label="Derniers pronostics"] > div[class~="space-y-3"] {
+  #root > div > main .dashboard-home-left > section[aria-label="Derniers pronostics"] > div[class~="space-y-3"] {
     grid-template-columns: minmax(0, 1fr);
   }
 }
