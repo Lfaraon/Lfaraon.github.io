@@ -1,0 +1,47 @@
+{
+  "schema_version": "PSAUTO_RUNNER_VERSION_STATS_V1",
+  "generated_at": "2026-11-16T22:32:50.972Z",
+  "run_id": "PSF-2026-11-16-162343-5744",
+  "release_id": "4.4.0-data-usage-lineage-20261115",
+  "version": "4.4.0",
+  "platform": "PSF",
+  "source": "Runner run.json + pronostics PS-AUTO déjà réglés",
+  "settled_count": 5,
+  "won_count": 3,
+  "lost_count": 2,
+  "success_rate_percent": 60,
+  "brier_mean": 0.18437941,
+  "brier_formula": "(probability_percent / 100 - outcome)^2 ; outcome WON=1, LOST=0",
+  "included_predictions": [
+    {
+      "id": "PSF-2026-11-16-162343-5744:C1",
+      "result": "WON",
+      "probability_percent": 84.56,
+      "brier": 0.02383936
+    },
+    {
+      "id": "PSF-2026-11-16-162343-5744:C2",
+      "result": "WON",
+      "probability_percent": 79.03,
+      "brier": 0.04397409
+    },
+    {
+      "id": "PSF-2026-11-16-162343-5744:C3",
+      "result": "LOST",
+      "probability_percent": 67.53,
+      "brier": 0.45603009
+    },
+    {
+      "id": "PSF-2026-11-16-162343-5744:T1",
+      "result": "WON",
+      "probability_percent": 72.66,
+      "brier": 0.07474756
+    },
+    {
+      "id": "PSF-2026-11-16-162343-5744:T2",
+      "result": "LOST",
+      "probability_percent": 56.86,
+      "brier": 0.32330596
+    }
+  ]
+}
