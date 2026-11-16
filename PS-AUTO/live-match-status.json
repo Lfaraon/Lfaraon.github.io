@@ -139,20 +139,24 @@
       "score": "0-1"
     },
     "recCal20261116L90437": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "API-Football",
       "providerId": "1545888",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-16T19:52:28.671Z",
       "observedLive": true,
-      "reversed": false
+      "reversed": false,
+      "score": "0-1",
+      "sourceUrl": "https://www.foot-direct.com/live/8794294697535626289-republique-centrafricaine-vs-benin"
     },
     "recCal20261116L90156": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "API-Football",
       "providerId": "1545890",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-16T19:52:28.671Z",
       "observedLive": true,
-      "reversed": false
+      "reversed": false,
+      "score": "1-3",
+      "sourceUrl": "https://www.tntsports.co.uk/football/totalenergies-africa-cup-of-nations-qualification/2027/live-eritrea-guinea_mtc20000537/live-stats.shtml"
     },
     "recCal20261116P76736458": {
       "status": "Terminé",
