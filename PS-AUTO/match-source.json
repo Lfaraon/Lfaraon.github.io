@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "snapshotAt": "2026-11-16T08:06:20.474Z",
+  "snapshotAt": "2026-11-16T22:55:24.653Z",
   "matches": [
     {
       "id": "rec1ybDU0vG4J8E0m",
@@ -476,6 +476,377 @@
       "name": "Scott – Zolotareva",
       "sport": "Tennis",
       "kickoff": "2026-11-16T14:00:00Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L88914",
+      "name": "Montevideo Wanderers – CA Juventud De Las Piedras",
+      "sport": "Football",
+      "kickoff": "2026-11-16T23:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L89644",
+      "name": "Canada – Guatemala",
+      "sport": "Football",
+      "kickoff": "2026-11-17T01:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76582718",
+      "name": "New Mexico United – Sacramento Republic FC",
+      "sport": "Football",
+      "kickoff": "2026-11-17T02:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76123806",
+      "name": "Singapore – Brazil",
+      "sport": "Football",
+      "kickoff": "2026-11-17T10:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76736488",
+      "name": "Heliovaara H / Patten H – Arevalo M / Pavic M",
+      "sport": "Tennis",
+      "kickoff": "2026-11-17T10:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76168950",
+      "name": "China PR – Bahrain",
+      "sport": "Football",
+      "kickoff": "2026-11-17T12:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76148794",
+      "name": "Kyrgyzstan – Vietnam",
+      "sport": "Football",
+      "kickoff": "2026-11-17T12:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76736446",
+      "name": "Arthur Fils – Rafael Jodar",
+      "sport": "Tennis",
+      "kickoff": "2026-11-17T13:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L89655",
+      "name": "Burundi – Zambie",
+      "sport": "Football",
+      "kickoff": "2026-11-17T13:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L90181",
+      "name": "Ethiopie – Mozambique",
+      "sport": "Football",
+      "kickoff": "2026-11-17T13:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76814080",
+      "name": "Lebanon – Palestine",
+      "sport": "Football",
+      "kickoff": "2026-11-17T13:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L90182",
+      "name": "Lesotho – Gabon",
+      "sport": "Football",
+      "kickoff": "2026-11-17T13:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L89560",
+      "name": "Malawi – Egypte",
+      "sport": "Football",
+      "kickoff": "2026-11-17T13:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L89710",
+      "name": "Soudan du Sud – Angola",
+      "sport": "Football",
+      "kickoff": "2026-11-17T13:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L89653",
+      "name": "Tanzanie – Nigeria",
+      "sport": "Football",
+      "kickoff": "2026-11-17T13:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76123776",
+      "name": "Japon – Paraguay",
+      "sport": "Football",
+      "kickoff": "2026-11-17T13:10:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76812398",
+      "name": "Irene Burillo – Darja Semenistaja",
+      "sport": "Tennis",
+      "kickoff": "2026-11-17T14:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76812402",
+      "name": "Nadia Podoroska – Varvara Lepchenko",
+      "sport": "Tennis",
+      "kickoff": "2026-11-17T14:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76169018",
+      "name": "Qatar – Corée du Sud",
+      "sport": "Football",
+      "kickoff": "2026-11-17T14:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76810112",
+      "name": "United Arab Emirates – Syria",
+      "sport": "Football",
+      "kickoff": "2026-11-17T14:10:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L91100",
+      "name": "Arabie Saoudite – Ouzbékistan",
+      "sport": "Football",
+      "kickoff": "2026-11-17T15:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L90180",
+      "name": "Gambie – Cote d’Ivoire",
+      "sport": "Football",
+      "kickoff": "2026-11-17T16:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L90183",
+      "name": "Guinée-Bissau – Madagascar",
+      "sport": "Football",
+      "kickoff": "2026-11-17T16:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P75467650",
+      "name": "Jordanie – Australie",
+      "sport": "Football",
+      "kickoff": "2026-11-17T16:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L89631",
+      "name": "Kenya – Afrique du Sud",
+      "sport": "Football",
+      "kickoff": "2026-11-17T16:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L90184",
+      "name": "Libye – Tunisie",
+      "sport": "Football",
+      "kickoff": "2026-11-17T16:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76812396",
+      "name": "Lucia Bronzetti – Alicia Herrero Linana",
+      "sport": "Tennis",
+      "kickoff": "2026-11-17T16:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76812384",
+      "name": "Polona Hercog – Miriam Bianca Bulgaru",
+      "sport": "Tennis",
+      "kickoff": "2026-11-17T16:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L90439",
+      "name": "Sierra Leone – RD Congo",
+      "sport": "Football",
+      "kickoff": "2026-11-17T16:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L90440",
+      "name": "Togo – Algérie",
+      "sport": "Football",
+      "kickoff": "2026-11-17T16:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76814082",
+      "name": "Iraq – IR Iran",
+      "sport": "Football",
+      "kickoff": "2026-11-17T16:15:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76878814",
+      "name": "Brancaccio N / Maristany Zuleta de Reales G – Costoulas S / Semenistaja D",
+      "sport": "Tennis",
+      "kickoff": "2026-11-17T16:20:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76438858",
+      "name": "Kuwait – Honduras",
+      "sport": "Football",
+      "kickoff": "2026-11-17T16:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76736490",
+      "name": "Arribage T / Olivetti A – Luz O / Matos R",
+      "sport": "Tennis",
+      "kickoff": "2026-11-17T17:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76812392",
+      "name": "Maria Lourdes Carle – Veronika Erjavec",
+      "sport": "Tennis",
+      "kickoff": "2026-11-17T18:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L90447",
+      "name": "Liberia – Cap-Vert",
+      "sport": "Football",
+      "kickoff": "2026-11-17T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P73661312",
+      "name": "Luton Town – Peterborough United",
+      "sport": "Football",
+      "kickoff": "2026-11-17T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L90703",
+      "name": "Mauritanie – Burkina Faso",
+      "sport": "Football",
+      "kickoff": "2026-11-17T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L90702",
+      "name": "Republique du Congo – Comores",
+      "sport": "Football",
+      "kickoff": "2026-11-17T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L90438",
+      "name": "Rwanda – Mali",
+      "sport": "Football",
+      "kickoff": "2026-11-17T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76736442",
+      "name": "Alexander Zverev – Ben Shelton",
+      "sport": "Tennis",
+      "kickoff": "2026-11-17T19:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P68932630",
+      "name": "Bosnie-Herzégovine – Roumanie",
+      "sport": "Football",
+      "kickoff": "2026-11-17T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P68932054",
+      "name": "Danemark – Norvège",
+      "sport": "Football",
+      "kickoff": "2026-11-17T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P68932770",
+      "name": "Hongrie – Irlande du Nord",
+      "sport": "Football",
+      "kickoff": "2026-11-17T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P68932742",
+      "name": "Irlande – Kosovo",
+      "sport": "Football",
+      "kickoff": "2026-11-17T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P68932740",
+      "name": "Israël – Autriche",
+      "sport": "Football",
+      "kickoff": "2026-11-17T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P68932056",
+      "name": "Pays de Galles – Portugal",
+      "sport": "Football",
+      "kickoff": "2026-11-17T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P68932632",
+      "name": "Pologne – Suède",
+      "sport": "Football",
+      "kickoff": "2026-11-17T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P68932772",
+      "name": "Ukraine – Géorgie",
+      "sport": "Football",
+      "kickoff": "2026-11-17T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76812382",
+      "name": "Despina Papamichail – Laura Samson",
+      "sport": "Tennis",
+      "kickoff": "2026-11-17T20:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117L90287",
+      "name": "Niger – Maroc",
+      "sport": "Football",
+      "kickoff": "2026-11-17T20:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76812386",
+      "name": "Barbara Gatica – Andrea Lazaro Garcia",
+      "sport": "Tennis",
+      "kickoff": "2026-11-17T20:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261117P76812388",
+      "name": "Fernanda Labrana – Antonia Vergara Rivera",
+      "sport": "Tennis",
+      "kickoff": "2026-11-17T22:30:00.000Z",
       "snapshotStatus": "À venir"
     }
   ]
