@@ -1006,11 +1006,11 @@
     },
     "recCal20261117P76812392": {
       "status": "En cours",
-      "provider": "Sportybet, fiche tennis live — jeux et points observables; signalement utilisateur",
-      "sourceUrl": "https://www.sportybet.com/ng/lite/live/list?eventId=sr%3Amatch%3A76807186&marketGroupsName=Main&marketId=186&odds=9.00&outcomeId=4&productId=1&selected=0&sportId=sr%3Asport%3A5",
-      "checkedAt": "2026-11-17T20:13:57.000Z",
+      "provider": "Marathonbet live — Carle/Erjavec, score actif troisième set",
+      "sourceUrl": "https://www.marathonbet.dk/da/live/33077204",
+      "checkedAt": "2026-11-17T20:40:00.000Z",
       "observedLive": true,
-      "statusBasis": "Match en cours d'après signalement utilisateur + fiche affichant set 1, 2–2 et points. Capture de flux potentiellement retardée; score non final."
+      "statusBasis": "Match confirmé en cours, sets provisoires 7–5, 5–7, 0–0 au troisième selon fiche dynamique; ne pas publier de score final."
     },
     "recCal20261117P68932770": {
       "status": "En cours",
