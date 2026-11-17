@@ -1116,12 +1116,22 @@
       "sets": "6-2, 7-6(4)"
     },
     "recCal20261117P76812382": {
-      "status": "En cours",
-      "provider": "Tennis Majors — fiche match actualisée 17.11 (sets 6-3, 3-6), corroborée par Marathonbet live",
+      "status": "Terminé",
+      "provider": "Tennis Majors — fiche Colina 17.11.2026, Laura Samsonova bat Papamichail 3-6 6-3 6-4 (résultat final), corroboré par ScoreMondo",
       "sourceUrl": "https://www.tennismajors.com/matches/wta/lp-open-by-ind/despina-papamichail-vs-laura-samson",
-      "checkedAt": "2026-11-17T21:33:41.000Z",
+      "checkedAt": "2026-11-17T22:40:51.711Z",
+      "observedLive": false,
+      "statusBasis": "Résultat final prouvé sur la fiche détaillée, dans l'ordre Papamichail–Samson.",
+      "score": "1-2",
+      "sets": "6-3, 3-6, 4-6"
+    },
+    "recCal20261117P76812386": {
+      "status": "En cours",
+      "checkedAt": "2026-11-17T22:40:51.711Z",
+      "provider": "Tennis.com — fiche du match Colina 17.11 affichant jeux de service/points effectivement disputés",
+      "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/b-gatica-vs-a-lazaro-garcia-2026-11-17",
       "observedLive": true,
-      "statusBasis": "Tennis Majors (fiche match) affiche 6-3, 3-6 en sets non finaux; Marathonbet fiche live montre 1-1 sets, 0-0 troisième et point 15-0. Début réel confirmé, observedLive=true. Pas de résultat final."
+      "statusBasis": "Début prouvé par statistiques précises (Gatica 6/6 jeux de service gagnés; Lazaro Garcia 4/5; points de service). Le texte Upcoming est périmé; aucun score final établi."
     }
   }
 }
