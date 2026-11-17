@@ -822,10 +822,10 @@
       "score": "4-2"
     },
     "recCal20261117L91100": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
-      "checkedAt": "2026-11-17T15:36:05.744Z",
+      "checkedAt": "2026-11-17T17:35:54.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261117P76812398": {
