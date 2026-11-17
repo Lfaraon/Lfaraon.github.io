@@ -611,6 +611,33 @@
       "checkedAt": "2026-11-17T02:33:31.306Z",
       "observedLive": false,
       "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recGJPhLACXiCSJZc": {
+      "status": "Terminé",
+      "score": "4-0",
+      "sourceUrl": "https://www.footballwebpages.co.uk/match/2026-2027/international-friendly/suriname/eswatini/596762",
+      "provider": "Football Web Pages (FT)",
+      "checkedAt": "2026-11-17T02:33:41.034Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recmeUxjVMbx3XfwN": {
+      "status": "Terminé",
+      "score": "2-0",
+      "sourceUrl": "https://scoremondo.com/en/match/leixoes-sc-gd-chaves-31510648",
+      "provider": "ScoreMondo (FT)",
+      "checkedAt": "2026-11-17T02:33:41.034Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "reciZRfIjw2siHo8w": {
+      "status": "Terminé",
+      "score": "3-0",
+      "sourceUrl": "https://flashsportapp.com/en/football/match/como-1907-w-como-w-2026-11-15-1601285/",
+      "provider": "FlashSport (Full-time)",
+      "checkedAt": "2026-11-17T02:33:41.034Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
     }
   }
 }
