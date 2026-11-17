@@ -1025,36 +1025,40 @@
       "sets": "7-5, 5-7, 4-6"
     },
     "recCal20261117P68932770": {
-      "status": "En cours",
+      "status": "Terminé",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-17T20:38:30.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+      "provider": "r/soccer — post-match thread FT Hongrie–Irlande du Nord (17.11.2026)",
+      "checkedAt": "2026-11-17T22:33:46.537Z",
+      "sourceUrl": "https://www.reddit.com/r/soccer/comments/1xyx4pf/post_match_thread_hungary_11_northern_ireland/",
+      "statusBasis": "Résultat final vérifié sur fiche sportive, non déduit de l'horaire",
+      "score": "1-1"
     },
     "recCal20261117P68932632": {
-      "status": "En cours",
+      "status": "Terminé",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-17T20:38:30.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+      "provider": "r/soccer — match thread Full Time Pologne–Suède (17.11.2026)",
+      "checkedAt": "2026-11-17T22:33:46.537Z",
+      "sourceUrl": "https://www.reddit.com/r/soccer/comments/1xytt3y/match_thread_poland_vs_sweden_uefa_nations_league/",
+      "statusBasis": "Résultat final vérifié sur fiche sportive, non déduit de l'horaire",
+      "score": "1-1"
     },
     "recCal20261117P68932054": {
-      "status": "En cours",
+      "status": "Terminé",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-17T20:38:30.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+      "provider": "Reuters — compte rendu final Danemark–Norvège (17.11.2026)",
+      "checkedAt": "2026-11-17T22:33:46.537Z",
+      "sourceUrl": "https://www.reuters.com/sports/soccer/haalands-late-penalty-sends-norway-into-nations-league-quarters-portugal-top-2026-11-17/",
+      "statusBasis": "Résultat final vérifié sur fiche sportive, non déduit de l'horaire",
+      "score": "2-3"
     },
     "recCal20261117P68932772": {
-      "status": "En cours",
+      "status": "Terminé",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-17T20:38:30.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+      "provider": "Sky Sports — fiche Ukraine–Géorgie affichant FT (17.11.2026)",
+      "checkedAt": "2026-11-17T22:33:46.537Z",
+      "sourceUrl": "https://www.skysports.com/football/ukraine-vs-georgia/teams/554135",
+      "statusBasis": "Résultat final vérifié sur fiche sportive, non déduit de l'horaire",
+      "score": "1-0"
     },
     "recCal20261117P68932740": {
       "status": "Terminé",
@@ -1075,12 +1079,13 @@
       "score": "2-3"
     },
     "recCal20261117P68932742": {
-      "status": "En cours",
+      "status": "Terminé",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-17T20:38:30.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+      "provider": "The Irish Sun — compte rendu final Irlande–Kosovo (17.11.2026)",
+      "checkedAt": "2026-11-17T22:33:46.537Z",
+      "sourceUrl": "https://www.thesun.ie/sport/17933672/ireland-ratings-kosovo-jack-moylan-troy-parrott/",
+      "statusBasis": "Résultat final vérifié sur fiche sportive, non déduit de l'horaire",
+      "score": "3-0"
     },
     "recCal20261117P68932630": {
       "status": "Terminé",
