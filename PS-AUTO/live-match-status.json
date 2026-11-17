@@ -698,10 +698,19 @@
     },
     "recCal20261117P76123806": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-17T10:37:43.000Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "Football Today – fiche live Singapore–Brazil (45e minute affichée)",
+      "checkedAt": "2026-11-17T11:41:07.563Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.footballtoday.net/livescore/2032953167700716898-singapore-vs-brazil",
+      "statusBasis": "Match effectivement observé en cours sur une fiche avec minute, buteurs et score provisoire ; score final absent"
+    },
+    "recCal20261117P76736488": {
+      "status": "En cours",
+      "observedLive": true,
+      "provider": "Tennislive.at – ATP Finals (2e set, suivi point par point)",
+      "statusBasis": "Direct prouvé par jeux/serveur/points de la fiche du match, pas seulement l'horaire",
+      "sourceUrl": "https://www.tennislive.at/atp/spiel/harri-heliovaara-henry-patten-VS-marcelo-arevalo-mate-pavic/nitto-atp-finals-turin-2026/",
+      "checkedAt": "2026-11-17T11:41:07.563Z"
     }
   }
 }
