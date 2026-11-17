@@ -733,10 +733,11 @@
     },
     "recCal20261117L89655": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Scores24 — Burundi-Zambie 17.11.2026, Final del partido",
+      "sourceUrl": "https://scores24.live/es/soccer/m-15-11-2026-burundi-zambia",
       "observedLive": false,
-      "checkedAt": "2026-11-17T15:36:05.744Z"
+      "checkedAt": "2026-11-17T15:40:54.023Z",
+      "score": "1-1"
     },
     "recCal20261117L90181": {
       "status": "Terminé",
@@ -761,10 +762,11 @@
     },
     "recCal20261117L89560": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Scores24 — Malawi-Egypte 17.11.2026, Final del partido",
+      "sourceUrl": "https://scores24.live/es/soccer/m-15-11-2026-malawi-egypt",
       "observedLive": false,
-      "checkedAt": "2026-11-17T15:36:05.744Z"
+      "checkedAt": "2026-11-17T15:40:54.023Z",
+      "score": "0-0"
     },
     "recCal20261117L89710": {
       "status": "Terminé",
