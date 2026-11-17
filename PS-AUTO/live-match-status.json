@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-16T17:12:33.096Z",
+  "checkedAt": "2026-11-17T22:15:39.837Z",
   "providers": {
     "football": {
       "state": "ok",
@@ -1057,20 +1057,22 @@
       "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
     },
     "recCal20261117P68932740": {
-      "status": "En cours",
+      "status": "Terminé",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-17T20:38:30.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+      "provider": "Résultat final vérifié (17.11.2026)",
+      "checkedAt": "2026-11-17T22:15:39.837Z",
+      "sourceUrl": "https://xmas.oe24.at/a/1-1-super-sasa-rettet-oefb-team-gegen-israel-900134068",
+      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé",
+      "score": "1-1"
     },
     "recCal20261117P68932056": {
-      "status": "En cours",
+      "status": "Terminé",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-17T20:38:30.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+      "provider": "Résultat final vérifié (17.11.2026)",
+      "checkedAt": "2026-11-17T22:15:39.837Z",
+      "sourceUrl": "https://www.theguardian.com/football/2026/nov/17/wales-portugal-nations-league-match-report",
+      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé",
+      "score": "2-3"
     },
     "recCal20261117P68932742": {
       "status": "En cours",
@@ -1081,20 +1083,22 @@
       "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
     },
     "recCal20261117P68932630": {
-      "status": "En cours",
+      "status": "Terminé",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-17T20:38:30.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+      "provider": "Résultat final vérifié (17.11.2026)",
+      "checkedAt": "2026-11-17T22:15:39.837Z",
+      "sourceUrl": "https://www.mediafax.ro/sport/bosnia-romania-2-1-tricolorii-au-condus-cu-1-0-dar-gazdele-au-reusit-sa-intoarca-scorul-23844912",
+      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé",
+      "score": "2-1"
     },
     "recCal20261117L90287": {
-      "status": "En cours",
+      "status": "Terminé",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-17T20:38:30.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+      "provider": "Résultat final vérifié (17.11.2026)",
+      "checkedAt": "2026-11-17T22:15:39.837Z",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2027_Africa_Cup_of_Nations_qualification_Group_A",
+      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé",
+      "score": "0-1"
     },
     "recCal20261117P76736442": {
       "status": "Terminé",
