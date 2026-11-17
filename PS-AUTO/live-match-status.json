@@ -697,12 +697,13 @@
       "statusBasis": "Score final du 15 novembre 2026"
     },
     "recCal20261117P76123806": {
-      "status": "En cours",
-      "provider": "Football Today – fiche live Singapore–Brazil (45e minute affichée)",
-      "checkedAt": "2026-11-17T11:41:07.563Z",
+      "status": "Terminé",
+      "provider": "Reuters — Singapore 0-7 Brazil, résultat final du 17.11.2026",
+      "checkedAt": "2026-11-17T12:41:57.908Z",
       "observedLive": true,
-      "sourceUrl": "https://www.footballtoday.net/livescore/2032953167700716898-singapore-vs-brazil",
-      "statusBasis": "Match effectivement observé en cours sur une fiche avec minute, buteurs et score provisoire ; score final absent"
+      "sourceUrl": "https://www.reuters.com/sports/soccer/vinicius-nets-first-half-hat-trick-brazil-crush-singapore-7-0-2026-11-17/",
+      "statusBasis": "Match effectivement observé en cours sur une fiche avec minute, buteurs et score provisoire ; score final absent",
+      "score": "0-7"
     },
     "recCal20261117P76736488": {
       "status": "En cours",
@@ -711,6 +712,20 @@
       "statusBasis": "Direct prouvé par jeux/serveur/points de la fiche du match, pas seulement l'horaire",
       "sourceUrl": "https://www.tennislive.at/atp/spiel/harri-heliovaara-henry-patten-VS-marcelo-arevalo-mate-pavic/nitto-atp-finals-turin-2026/",
       "checkedAt": "2026-11-17T11:41:07.563Z"
+    },
+    "recCal20261117P76168950": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-17T12:41:57.908Z"
+    },
+    "recCal20261117P76148794": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-17T12:41:57.908Z"
     }
   }
 }
