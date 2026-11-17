@@ -741,24 +741,27 @@
     },
     "recCal20261117L90181": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Scores24 — Ethiopie-Mozambique, résultat final 17.11.2026",
+      "sourceUrl": "https://scores24.live/es/soccer/m-15-11-2026-ethiopia-mozambique",
       "observedLive": false,
-      "checkedAt": "2026-11-17T15:36:05.744Z"
+      "checkedAt": "2026-11-17T15:41:44.353Z",
+      "score": "0-1"
     },
     "recCal20261117P76814080": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Scores24 — Liban-Palestine, Terminado 17.11.2026",
+      "sourceUrl": "https://scores24.live/es/soccer/m-17-11-2026-lebanon-palestine",
       "observedLive": false,
-      "checkedAt": "2026-11-17T15:36:05.744Z"
+      "checkedAt": "2026-11-17T15:41:44.353Z",
+      "score": "0-0"
     },
     "recCal20261117L90182": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Scores24 — Lesotho-Gabon, résultat final 17.11.2026",
+      "sourceUrl": "https://scores24.live/es/soccer/m-15-11-2026-lesotho-gabon",
       "observedLive": false,
-      "checkedAt": "2026-11-17T15:36:05.744Z"
+      "checkedAt": "2026-11-17T15:41:44.353Z",
+      "score": "2-1"
     },
     "recCal20261117L89560": {
       "status": "Terminé",
