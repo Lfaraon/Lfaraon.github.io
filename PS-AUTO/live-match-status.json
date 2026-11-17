@@ -716,18 +716,20 @@
       "sets": "7-6(5), 3-6, 4-10"
     },
     "recCal20261117P76168950": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Reddit r/ArabCup — fiche de match Post-Match, Full Time 2-2 (17.11.2026)",
+      "sourceUrl": "https://www.reddit.com/r/ArabCup/comments/1xylfba/postmatch_thread_china_vs_bahrain_international/",
       "observedLive": false,
-      "checkedAt": "2026-11-17T12:41:57.908Z"
+      "checkedAt": "2026-11-17T14:38:07.764Z",
+      "score": "2-2"
     },
     "recCal20261117P76148794": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Báo Lào Cai / Vietnam.vn — compte rendu 17.11.2026, temps écoulé et score final 2-1",
+      "sourceUrl": "https://www.vietnam.vn/en/dt-viet-nam-thua-nguoc-kyrgyzstan-1-2-hai-ban-thua-chong-vanh-trong-3-phut-cuoi-tran",
       "observedLive": false,
-      "checkedAt": "2026-11-17T12:41:57.908Z"
+      "checkedAt": "2026-11-17T14:38:07.764Z",
+      "score": "2-1"
     },
     "recCal20261117L89655": {
       "status": "En cours",
@@ -792,6 +794,20 @@
       "observedLive": true,
       "sourceUrl": "https://www.tennislive.it/atp/incontro/arthur-fils-VS-rafael-jodar/nitto-atp-finals-turin-2026/",
       "checkedAt": "2026-11-17T13:40:34.505Z"
+    },
+    "recCal20261117P76169018": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-17T14:38:07.764Z",
+      "observedLive": false
+    },
+    "recCal20261117P76810112": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-17T14:38:07.764Z",
+      "observedLive": false
     }
   }
 }
