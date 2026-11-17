@@ -773,10 +773,11 @@
     },
     "recCal20261117L89710": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Scores24 — Soudan du Sud-Angola 17.11.2026, Fin du match",
+      "sourceUrl": "https://scores24.live/fr/soccer/m-15-11-2026-south-sudan-angola",
       "observedLive": false,
-      "checkedAt": "2026-11-17T15:36:05.744Z"
+      "checkedAt": "2026-11-17T15:42:25.889Z",
+      "score": "0-1"
     },
     "recCal20261117L89653": {
       "status": "Terminé",
