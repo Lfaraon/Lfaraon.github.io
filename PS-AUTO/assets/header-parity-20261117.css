@@ -1,0 +1,155 @@
+/* En-tête PS-AUTO unifié : mêmes informations et composants sur ordinateur et téléphone. */
+#root > div > header.psa-app-header {
+  display: block;
+  width: 100%;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--colors-border);
+  background: var(--colors-surface);
+}
+#root > div > header.psa-app-header .psa-app-header-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+#root > div > header.psa-app-header .psa-app-header-title {
+  margin: 0;
+  color: var(--colors-foreground);
+  font-size: clamp(23px, 2.4vw, 31px);
+  line-height: 1.15;
+  letter-spacing: .01em;
+  overflow-wrap: anywhere;
+}
+#root > div > header.psa-app-header .psa-app-header-alert {
+  border: 1px solid var(--colors-destructive, #fd5959);
+  border-radius: 8px;
+  padding: 7px 10px;
+  color: var(--colors-destructive, #fd5959);
+  font-size: 12px;
+  font-weight: 650;
+}
+#root > div > header.psa-app-header .psa-app-header-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(260px, .85fr);
+  align-items: stretch;
+  gap: 12px;
+  margin-top: 14px;
+  min-width: 0;
+}
+#root > div > header.psa-app-header .psa-next-match-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  min-height: 108px;
+  padding: 15px 18px;
+  border: 1px solid var(--colors-border);
+  border-radius: 12px;
+  background: var(--colors-background);
+}
+#root > div > header.psa-app-header .psa-next-match-eyebrow {
+  margin: 0 0 7px;
+  color: var(--colors-foregroundMuted);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+#root > div > header.psa-app-header .psa-next-match-link {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--colors-foreground);
+  text-align: left;
+  font-size: clamp(17px, 1.6vw, 22px);
+  font-weight: 700;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+#root > div > header.psa-app-header .psa-next-match-link > svg {
+  flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
+  color: var(--colors-foregroundMuted);
+}
+#root > div > header.psa-app-header .psa-next-match-link:hover { color: var(--colors-primary); }
+#root > div > header.psa-app-header .psa-next-match-link:focus-visible {
+  outline: 2px solid var(--colors-primary);
+  outline-offset: 4px;
+}
+#root > div > header.psa-app-header .psa-next-match-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px 14px;
+  margin-top: 7px;
+  color: var(--colors-foregroundMuted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+#root > div > header.psa-app-header .psa-next-match-meta > p { margin: 0; min-width: 0; }
+#root > div > header.psa-app-header .psa-next-match-empty {
+  font-size: 14px;
+  color: var(--colors-foregroundMuted);
+}
+#root > div > header.psa-app-header .psa-header-countdown {
+  display: grid;
+  width: 100%;
+  min-width: 0;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--colors-border);
+  border-radius: 12px;
+  background: var(--colors-border);
+}
+#root > div > header.psa-app-header .psa-countdown-unit {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 4px;
+  background: var(--colors-background);
+}
+#root > div > header.psa-app-header .psa-countdown-number {
+  color: var(--colors-primary);
+  font-size: clamp(28px, 3vw, 39px);
+  font-weight: 750;
+  line-height: 1;
+}
+#root > div > header.psa-app-header .psa-countdown-name {
+  margin-top: 7px;
+  color: var(--colors-foregroundMuted);
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+@media (max-width: 1023px) {
+  #root > div > header.psa-app-header { padding: 17px 16px; }
+  #root > div > header.psa-app-header .psa-app-header-title { font-size: clamp(20px, 5.2vw, 25px); }
+  #root > div > header.psa-app-header .psa-app-header-layout {
+    grid-template-columns: minmax(0, 1fr);
+    margin-top: 13px;
+    gap: 11px;
+  }
+  #root > div > header.psa-app-header .psa-next-match-card {
+    min-height: 0;
+    padding: 13px 14px;
+  }
+  #root > div > header.psa-app-header .psa-next-match-link { font-size: 17px; }
+  #root > div > header.psa-app-header .psa-next-match-meta {
+    display: block;
+    margin-top: 7px;
+    font-size: 12px;
+  }
+  #root > div > header.psa-app-header .psa-next-match-meta > p + p { margin-top: 2px; }
+  #root > div > header.psa-app-header .psa-countdown-unit { padding: 11px 4px 10px; }
+  #root > div > header.psa-app-header .psa-countdown-number { font-size: clamp(28px, 7vw, 35px); }
+}
