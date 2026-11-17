@@ -878,11 +878,12 @@
     },
     "recCal20261117P75467650": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-17T18:34:34.112Z",
+      "provider": "Sky Sports — commentaire détaillé, Match ends, 17.11.2026",
+      "sourceUrl": "https://www.skysports.com/football/jordan-vs-australia/578393",
+      "checkedAt": "2026-11-17T18:36:39.790Z",
       "observedLive": false,
-      "statusBasis": "+120 min depuis kickoff football publié ; fin présumée, score non vérifié"
+      "statusBasis": "Résultat final explicite sur la fiche du 17.11.2026",
+      "score": "2-0"
     },
     "recCal20261117L89631": {
       "status": "Terminé",
@@ -922,11 +923,12 @@
     },
     "recCal20261117P76814082": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-17T18:34:34.112Z",
+      "provider": "Sky Sports — commentaire détaillé, Second Half ends, 17.11.2026",
+      "sourceUrl": "https://www.skysports.com/football/iraq-vs-iran/579120",
+      "checkedAt": "2026-11-17T18:36:39.790Z",
       "observedLive": false,
-      "statusBasis": "+120 min depuis kickoff football publié ; fin présumée, score non vérifié"
+      "statusBasis": "Résultat final explicite sur la fiche du 17.11.2026",
+      "score": "1-1"
     },
     "recCal20261117P76438858": {
       "status": "Terminé",
