@@ -508,6 +508,109 @@
       "checkedAt": "2026-11-17T02:33:20.905Z",
       "observedLive": false,
       "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recgXXcTEy57maGPn": {
+      "status": "Terminé",
+      "score": "1-0",
+      "provider": "LaLiga official",
+      "sourceUrl": "https://www.laliga.com/es-GB/partido/temporada-2026-2027-laliga-hypermotion-granada-cf-ud-las-palmas-14",
+      "checkedAt": "2026-11-17T02:33:31.306Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recdigPn6SLbClA6F": {
+      "status": "Terminé",
+      "score": "1-2",
+      "provider": "Rotascore (Final)",
+      "sourceUrl": "https://www.rotascore.com/es/match/danubio-liverpool-uru/zp5rzgh3j5dlq82",
+      "checkedAt": "2026-11-17T02:33:31.306Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "rec7nXtWt2BBiOiOl": {
+      "status": "Terminé",
+      "score": "1-2",
+      "provider": "FotMob (Full time)",
+      "sourceUrl": "https://www.fotmob.com/en-GB/matches/penafiel-vs-lusitania-lourosa/8pgxd4e",
+      "checkedAt": "2026-11-17T02:33:31.306Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "rechOCm3EBsLRsuNm": {
+      "status": "Terminé",
+      "score": "1-1",
+      "provider": "Cadena SER (match report)",
+      "sourceUrl": "https://cadenaser.com/andalucia/2026/11/15/borja-vazquez-rescata-al-cadiz-cf-en-ipurua-radio-cadiz/",
+      "checkedAt": "2026-11-17T02:33:31.306Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recC4ng08wJ27eghJ": {
+      "status": "Terminé",
+      "score": "1-2",
+      "provider": "Liga F results",
+      "sourceUrl": "https://bankofoklahoma.fixtur.es/en/matches/primera-division-femenina/round/11",
+      "checkedAt": "2026-11-17T02:33:31.306Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recrzGvK30Fr9iaxE": {
+      "status": "Terminé",
+      "score": "1-1",
+      "provider": "Liga F results",
+      "sourceUrl": "https://bankofoklahoma.fixtur.es/en/matches/primera-division-femenina/round/11",
+      "checkedAt": "2026-11-17T02:33:31.306Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recMOZ3rVN395PnV3": {
+      "status": "Terminé",
+      "score": "0-0",
+      "provider": "Liga F results",
+      "sourceUrl": "https://bankofoklahoma.fixtur.es/en/matches/primera-division-femenina/round/11",
+      "checkedAt": "2026-11-17T02:33:31.306Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recJYeLCEhQ9xXmog": {
+      "status": "Terminé",
+      "score": "2-0",
+      "sets": "6-1, 6-0",
+      "provider": "Tennis France (Colina result)",
+      "sourceUrl": "https://www.tennis-france.com/programme/2026-11-15",
+      "checkedAt": "2026-11-17T02:33:31.306Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recSJPVuG7btiWIEu": {
+      "status": "Terminé",
+      "score": "2-0",
+      "sets": "6-3, 6-1",
+      "provider": "Tennis France (Colina result)",
+      "sourceUrl": "https://www.tennis-france.com/programme/2026-11-15",
+      "checkedAt": "2026-11-17T02:33:31.306Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "rech9un3Tk5yWGA5x": {
+      "status": "Terminé",
+      "score": "2-0",
+      "sets": "6-2, 6-2",
+      "provider": "Tennis France (Colina result)",
+      "sourceUrl": "https://www.tennis-france.com/programme/2026-11-15",
+      "checkedAt": "2026-11-17T02:33:31.306Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recukcajX6Ysbnk80": {
+      "status": "Terminé",
+      "score": "0-2",
+      "sets": "5-7, 2-6",
+      "provider": "Tennis France (Colina result)",
+      "sourceUrl": "https://www.tennis-france.com/programme/2026-11-15",
+      "checkedAt": "2026-11-17T02:33:31.306Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
     }
   }
 }
