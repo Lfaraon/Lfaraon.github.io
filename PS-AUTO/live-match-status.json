@@ -732,60 +732,60 @@
       "score": "2-1"
     },
     "recCal20261117L89655": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-17T13:38:44.155Z"
+      "checkedAt": "2026-11-17T15:36:05.744Z"
     },
     "recCal20261117L90181": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-17T13:38:44.155Z"
+      "checkedAt": "2026-11-17T15:36:05.744Z"
     },
     "recCal20261117P76814080": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-17T13:38:44.155Z"
+      "checkedAt": "2026-11-17T15:36:05.744Z"
     },
     "recCal20261117L90182": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-17T13:38:44.155Z"
+      "checkedAt": "2026-11-17T15:36:05.744Z"
     },
     "recCal20261117L89560": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-17T13:38:44.155Z"
+      "checkedAt": "2026-11-17T15:36:05.744Z"
     },
     "recCal20261117L89710": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-17T13:38:44.155Z"
+      "checkedAt": "2026-11-17T15:36:05.744Z"
     },
     "recCal20261117L89653": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-17T13:38:44.155Z"
+      "checkedAt": "2026-11-17T15:36:05.744Z"
     },
     "recCal20261117P76123776": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-17T13:38:44.155Z"
+      "checkedAt": "2026-11-17T15:36:05.744Z"
     },
     "recCal20261117P76736446": {
       "status": "En cours",
@@ -808,6 +808,13 @@
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "checkedAt": "2026-11-17T14:38:07.764Z",
       "observedLive": false
+    },
+    "recCal20261117L91100": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-17T15:36:05.744Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     }
   }
 }
