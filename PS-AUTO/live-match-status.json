@@ -1090,12 +1090,14 @@
       "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
     },
     "recCal20261117P76736442": {
-      "status": "En cours",
-      "observedLive": true,
-      "provider": "The Guardian — direct Zverev–Shelton, jeux en cours ATP Finals",
-      "checkedAt": "2026-11-17T20:38:30.000Z",
+      "status": "Terminé",
+      "observedLive": false,
+      "provider": "The Guardian — ATP Finals 17.11.2026, direct conclu par résultat final",
+      "checkedAt": "2026-11-17T21:31:33.000Z",
       "sourceUrl": "https://www.theguardian.com/sport/live/2026/nov/17/alexander-zverev-v-ben-shelton-atp-finals-tennis-group-stage-live",
-      "statusBasis": "Début confirmé: set 1 6–2 Zverev; set 2 en cours 1–1 selon la fiche live, pas de score final"
+      "statusBasis": "Résultat final Zverev 2-0 vérifié",
+      "score": "2-0",
+      "sets": "6-2, 7-6(4)"
     }
   }
 }
