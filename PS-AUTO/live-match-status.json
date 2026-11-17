@@ -784,6 +784,14 @@
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
       "checkedAt": "2026-11-17T13:38:44.155Z"
+    },
+    "recCal20261117P76736446": {
+      "status": "En cours",
+      "provider": "Tennislive.it — ATP Finals Turin (1er set, service et points)",
+      "statusBasis": "Direct avéré : 1er set Fils 3 jeux, Jodar 4 jeux, service de Fils et points détaillés, sans score final",
+      "observedLive": true,
+      "sourceUrl": "https://www.tennislive.it/atp/incontro/arthur-fils-VS-rafael-jodar/nitto-atp-finals-turin-2026/",
+      "checkedAt": "2026-11-17T13:40:34.505Z"
     }
   }
 }
