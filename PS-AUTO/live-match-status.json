@@ -782,18 +782,21 @@
     },
     "recCal20261117P76123776": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "UOL Esporte — victoire finale Paraguay 2-1 Japon, amical du 17.11.2026",
+      "sourceUrl": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/17/paraguai-japao-amistoso-gol-gustavo-gomez.ghtm",
       "observedLive": false,
-      "checkedAt": "2026-11-17T15:36:05.744Z"
+      "checkedAt": "2026-11-17T15:37:27.129Z",
+      "score": "1-2"
     },
     "recCal20261117P76736446": {
-      "status": "En cours",
-      "provider": "Tennislive.it — ATP Finals Turin (1er set, service et points)",
+      "status": "Terminé",
+      "provider": "Reuters — Fils bat Jodar, ATP Finals Turin 17.11.2026 (résultat final)",
       "statusBasis": "Direct avéré : 1er set Fils 3 jeux, Jodar 4 jeux, service de Fils et points détaillés, sans score final",
       "observedLive": true,
-      "sourceUrl": "https://www.tennislive.it/atp/incontro/arthur-fils-VS-rafael-jodar/nitto-atp-finals-turin-2026/",
-      "checkedAt": "2026-11-17T13:40:34.505Z"
+      "sourceUrl": "https://www.reuters.com/sports/tennis/fils-digs-deep-see-off-jodar-first-atp-finals-win-2026-11-17/",
+      "checkedAt": "2026-11-17T15:37:27.129Z",
+      "score": "2-1",
+      "sets": "4-6, 6-2, 6-2"
     },
     "recCal20261117P76169018": {
       "status": "En cours",
