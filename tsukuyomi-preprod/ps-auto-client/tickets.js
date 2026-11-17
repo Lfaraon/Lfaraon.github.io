@@ -104,9 +104,9 @@ function renderFeed(mount, { tickets = [], status, onRetry }, onViewAll) {
   const feed = element(doc, "div", onViewAll ? "tsukuyomi-tickets-latest" : "tsukuyomi-tickets-page");
   const rows = status === "ready" ? publishedRows(tickets) : [];
   if (!rows.length) {
-    let message = "Aucun ticket publié pour le moment.";
-    if (status === "loading") message = "Chargement des tickets…";
-    if (status === "error") message = "Les tickets sont momentanément indisponibles.";
+    let message = "Aucun pronostic publié pour le moment.";
+    if (status === "loading") message = "Chargement des pronostics…";
+    if (status === "error") message = "Les pronostics sont momentanément indisponibles.";
     const notice = element(doc, "p", "tsukuyomi-ticket-notice", message);
     notice.setAttribute("role", "status");
     feed.append(notice);
@@ -118,7 +118,7 @@ function renderFeed(mount, { tickets = [], status, onRetry }, onViewAll) {
     }
   } else {
     if (!onViewAll) {
-      const count = rows.length === 1 ? "1 ticket" : rows.length + " tickets";
+      const count = rows.length === 1 ? "1 pronostic" : rows.length + " pronostics";
       feed.append(element(doc, "p", "tsukuyomi-ticket-count", count));
     }
     const list = element(doc, "ul", "tsukuyomi-ticket-list");
@@ -127,7 +127,7 @@ function renderFeed(mount, { tickets = [], status, onRetry }, onViewAll) {
     feed.append(list);
   }
   if (onViewAll) {
-    const button = element(doc, "button", "tsukuyomi-tickets-button tsukuyomi-tickets-view-all", "Voir tous les tickets");
+    const button = element(doc, "button", "tsukuyomi-tickets-button tsukuyomi-tickets-view-all", "Voir tous les pronostics");
     button.type = "button";
     button.addEventListener("click", onViewAll);
     feed.append(button);

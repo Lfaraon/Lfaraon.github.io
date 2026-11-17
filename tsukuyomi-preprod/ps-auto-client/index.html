@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://lfaraon.github.io/PS-AUTO/assets/mobile-dashboard-20261116.css" />
     <link rel="stylesheet" href="https://lfaraon.github.io/PS-AUTO/assets/home-cleanup-20261116.css" />
     <link rel="stylesheet" href="https://lfaraon.github.io/PS-AUTO/assets/charts-legends-20261116.css?rev=legend-v2" />
-    <script type="module" src="./bridge.js"></script>
+    <script type="module" src="./bridge.js?rev=pronostics"></script>
     <script type="module" crossorigin src="https://lfaraon.github.io/PS-AUTO/assets/index-LoRo-Ticket-20261117.js"></script>
     <link rel="stylesheet" crossorigin href="https://lfaraon.github.io/PS-AUTO/assets/index-BvM4UU9J.css" />
     <link rel="stylesheet" href="https://lfaraon.github.io/PS-AUTO/assets/desktop-dashboard-20261116.css" />
@@ -19,8 +19,15 @@
     <link rel="stylesheet" href="https://lfaraon.github.io/PS-AUTO/assets/header-parity-20261117.css?v=1" />
     <link rel="stylesheet" href="./tickets.css" />
     <style>
-      [data-tsukuyomi-native-tickets],
+      #root nav[aria-label="Rubriques"] [role="tab"][hidden],
+      #root nav[aria-label="Rubriques"] > button[title="Diagnostics"],
+      #root[data-tsukuyomi-editorial] > div > section[aria-label="Filtres"],
+      .dashboard-home-left > section[aria-label="Derniers pronostics"],
+      [data-tsukuyomi-native-feed],
       section[data-tsukuyomi-latest] > :not(h2, .tsukuyomi-ticket-feed) { display: none !important; }
+      #root > div > nav[aria-label="Rubriques"] > div[role="tablist"] {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
     </style>
   </head>
   <body>

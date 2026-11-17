@@ -1,7 +1,7 @@
-import { renderLatestTickets, renderTickets } from "./tickets.js";
+import { renderLatestTickets, renderTickets } from "./tickets.js?rev=pronostics";
 
 const tabsSelector = '[role="tablist"][aria-label="Navigation principale"] [role="tab"]';
-const latestSelector = 'section[aria-label="Derniers tickets"]';
+const latestSelector = 'section[aria-label="Derniers tickets"], section[data-tsukuyomi-latest]';
 const states = new Set(["loading", "ready", "error"]);
 
 function ticketFeed() {
@@ -10,11 +10,11 @@ function ticketFeed() {
   return feed;
 }
 
-function connectDashboard(nonce, openTicketsInitially) {
+function connectDashboard(nonce, openPronosticsInitially) {
   const root = document.getElementById("root");
   const parentOrigin = new URL(window.location.href).origin;
   const page = document.createElement("main");
-  page.dataset.tsukuyomiTickets = "";
+  page.dataset.tsukuyomiPronostics = "";
   const tickets = ticketFeed();
   const latest = ticketFeed();
   page.append(tickets);
@@ -23,28 +23,32 @@ function connectDashboard(nonce, openTicketsInitially) {
   let data = { status: "loading", tickets: [] };
   let lastTicketsRender;
   let lastLatestRender;
-  let shouldOpenTickets = openTicketsInitially;
+  let shouldOpenPronostics = openPronosticsInitially;
 
-  function ticketTab() {
-    return Array.from(root.querySelectorAll(tabsSelector)).find((tab) => tab.textContent.trim() === "Tickets");
+  function tabByName(name) {
+    return Array.from(root.querySelectorAll(tabsSelector)).find((tab) => tab.textContent.trim() === name);
   }
 
-  const onViewAll = () => ticketTab()?.click();
+  const onViewAll = () => tabByName("Pronostics")?.click();
   const onRetry = () => port?.postMessage({ type: "tsukuyomi:retry" });
 
   function syncDashboard() {
-    const originalMain = root.querySelector("main:not([data-tsukuyomi-tickets])");
-    const tab = ticketTab();
+    const originalMain = root.querySelector("main:not([data-tsukuyomi-pronostics])");
+    const tab = tabByName("Pronostics");
     if (!originalMain || !tab) return;
 
-    if (shouldOpenTickets) {
-      shouldOpenTickets = false;
+    const legacyTab = tabByName("Tickets");
+    if (legacyTab) legacyTab.hidden = true;
+    const legacySelected = legacyTab?.getAttribute("aria-selected") === "true";
+    if (shouldOpenPronostics || legacySelected) {
+      shouldOpenPronostics = false;
       tab.click();
     }
 
-    const showTickets = tab.getAttribute("aria-selected") === "true";
-    originalMain.toggleAttribute("data-tsukuyomi-native-tickets", showTickets);
-    if (showTickets) {
+    const showPronostics = legacySelected || tab.getAttribute("aria-selected") === "true";
+    root.toggleAttribute("data-tsukuyomi-editorial", showPronostics);
+    originalMain.toggleAttribute("data-tsukuyomi-native-feed", showPronostics);
+    if (showPronostics) {
       if (originalMain.nextElementSibling !== page) originalMain.after(page);
       if (lastTicketsRender !== data) {
         renderTickets(tickets, { ...data, onRetry });
@@ -59,6 +63,11 @@ function connectDashboard(nonce, openTicketsInitially) {
       if (latest.parentElement !== originalLatest) originalLatest.append(latest);
       if (!originalLatest.hasAttribute("data-tsukuyomi-latest")) {
         originalLatest.setAttribute("data-tsukuyomi-latest", "");
+      }
+      const title = originalLatest.querySelector("h2");
+      if (title && title.textContent !== "Derniers pronostics") title.textContent = "Derniers pronostics";
+      if (originalLatest.getAttribute("aria-label") !== "Derniers pronostics") {
+        originalLatest.setAttribute("aria-label", "Derniers pronostics");
       }
       if (lastLatestRender !== data) {
         renderLatestTickets(latest, { ...data, onViewAll, onRetry });
@@ -94,5 +103,5 @@ function connectDashboard(nonce, openTicketsInitially) {
 const params = new URLSearchParams(window.location.hash.slice(1));
 const nonce = params.get("nonce");
 if (window.parent !== window && nonce) {
-  connectDashboard(nonce, params.get("tab") === "tickets");
+  connectDashboard(nonce, ["pronostics", "tickets"].includes(params.get("tab")));
 }
