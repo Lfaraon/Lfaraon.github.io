@@ -257,25 +257,25 @@
     },
     "recCal20261116P76841662": {
       "status": "Terminé",
-      "provider": "Résultat final vérifié (Sofascore)",
+      "provider": "ScoreMondo (fiche résultat final)",
       "providerId": "221112",
-      "checkedAt": "2026-11-17T01:39:18.290Z",
+      "checkedAt": "2026-11-17T02:32:58.719Z",
       "observedLive": true,
       "reversed": true,
-      "sourceUrl": "https://www.sofascore.com/tennis/match/anastasia-tikhonova-valeriya-strakhova/TNvsacWb",
-      "statusBasis": "score final lu sur une fiche détaillée de match indiquant FT/Terminado",
+      "sourceUrl": "https://scoremondo.com/es/partido/valeriya-strakhova-anastasia-tikhonova-31581747",
+      "statusBasis": "Score final affiché sur fiche précise du 16 novembre 2026",
       "score": "2-1",
       "sets": "6-2, 4-6, 6-4"
     },
     "recCal20261116P76841656": {
       "status": "Terminé",
-      "provider": "Résultat final vérifié (Sofascore)",
+      "provider": "Tennislive.net (fiche FINISHED)",
       "providerId": "221111",
-      "checkedAt": "2026-11-17T01:39:18.290Z",
+      "checkedAt": "2026-11-17T02:32:58.719Z",
       "observedLive": true,
       "reversed": false,
-      "sourceUrl": "https://www.sofascore.com/tennis/match/luisina-giovannini-ariana-geerlings-martinez/NuQcspFbd",
-      "statusBasis": "score final lu sur une fiche détaillée de match indiquant FT/Terminado",
+      "sourceUrl": "https://www.tennislive.net/wta/match/ariana-geerlings-VS-luisina-giovannini/lp-open-by-ind-colina-2026/",
+      "statusBasis": "Ordre des sets inversé par rapport à la fiche source pour correspondre à Giovannini–Geerlings",
       "score": "0-2",
       "sets": "4-6, 0-6"
     },
@@ -328,13 +328,13 @@
     },
     "recCal20261117L88914": {
       "status": "Terminé",
-      "provider": "Résultat final vérifié (Scores24)",
-      "checkedAt": "2026-11-17T01:39:18.290Z",
+      "provider": "Spotip (fiche Full-time)",
+      "checkedAt": "2026-11-17T02:32:58.719Z",
       "observedLive": false,
       "reversed": false,
-      "sourceUrl": "https://scores24.live/es/soccer/m-16-11-2026-montevideo-wanderers-juventud-de-las-piedras",
+      "sourceUrl": "https://spotip.app/match/montevideo-wanderers-fc-vs-ca-juventud-4jwq2ghg4e5lm0v",
       "score": "2-1",
-      "statusBasis": "score final lu sur une fiche détaillée de match indiquant FT/Terminado"
+      "statusBasis": "Score final domicile–extérieur confirmé sur fiche du 16 novembre 2026"
     },
     "recCal20261117L89644": {
       "status": "En cours",
@@ -343,6 +343,14 @@
       "observedLive": false,
       "reversed": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261117P76582718": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-17T02:32:58.719Z",
+      "observedLive": false,
+      "statusBasis": "Début horaire présumé; aucun score vérifié"
     }
   }
 }
