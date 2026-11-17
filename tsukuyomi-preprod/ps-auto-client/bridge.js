@@ -35,7 +35,9 @@ function connectDashboard(nonce, openPronosticsInitially) {
   function syncDashboard() {
     const originalMain = root.querySelector("main:not([data-tsukuyomi-pronostics])");
     const tab = tabByName("Pronostics");
-    if (!originalMain || !tab) return;
+    const homeTab = tabByName("Accueil");
+    const originalLatest = originalMain?.querySelector(latestSelector);
+    if (!originalMain || !tab || !homeTab || (homeTab.getAttribute("aria-selected") === "true" && !originalLatest)) return;
 
     const legacyTab = tabByName("Tickets");
     if (legacyTab) legacyTab.hidden = true;
@@ -58,7 +60,6 @@ function connectDashboard(nonce, openPronosticsInitially) {
       page.remove();
     }
 
-    const originalLatest = originalMain.querySelector(latestSelector);
     if (originalLatest) {
       if (latest.parentElement !== originalLatest) originalLatest.append(latest);
       if (!originalLatest.hasAttribute("data-tsukuyomi-latest")) {
@@ -74,6 +75,7 @@ function connectDashboard(nonce, openPronosticsInitially) {
         lastLatestRender = data;
       }
     }
+    if (root.hidden) root.hidden = false;
   }
 
   function acceptChannel(event) {

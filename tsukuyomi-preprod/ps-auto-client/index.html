@@ -6,19 +6,30 @@
     <meta name="theme-color" content="#101010" />
     <meta name="color-scheme" content="dark" />
     <title>PS-AUTO · Centre de commande</title>
-    <link rel="stylesheet" href="https://lfaraon.github.io/PS-AUTO/assets/mobile-dashboard-20261116.css" />
-    <link rel="stylesheet" href="https://lfaraon.github.io/PS-AUTO/assets/home-cleanup-20261116.css" />
-    <link rel="stylesheet" href="https://lfaraon.github.io/PS-AUTO/assets/charts-legends-20261116.css?rev=legend-v2" />
-    <script type="module" src="./bridge.js?rev=pronostics"></script>
-    <script type="module" crossorigin src="https://lfaraon.github.io/PS-AUTO/assets/index-LoRo-Ticket-20261117.js"></script>
-    <link rel="stylesheet" crossorigin href="https://lfaraon.github.io/PS-AUTO/assets/index-BvM4UU9J.css" />
-    <link rel="stylesheet" href="https://lfaraon.github.io/PS-AUTO/assets/desktop-dashboard-20261116.css" />
-    <link rel="stylesheet" href="https://lfaraon.github.io/PS-AUTO/assets/runner-version-mobile-20261116.css" />
-    <link rel="stylesheet" href="https://lfaraon.github.io/PS-AUTO/assets/desktop-mobile-parity-20261117.css?layout=sidebyside2" />
-    <link rel="stylesheet" href="https://lfaraon.github.io/PS-AUTO/assets/stats-kpi-alignment-20261117.css?v=2-centered" />
-    <link rel="stylesheet" href="https://lfaraon.github.io/PS-AUTO/assets/header-parity-20261117.css?v=1" />
-    <link rel="stylesheet" href="./tickets.css" />
+    <link id="tsukuyomi-theme" rel="stylesheet" href="./tickets.css" />
+    <script type="module">
+      import { startPsAutoDashboard } from "./source.js";
+      startPsAutoDashboard();
+    </script>
     <style>
+      html:has(#root[hidden]) { background: #101010; }
+      #ps-auto-status {
+        background: #101010;
+        color: #f4f4f5;
+        font: 14px/1.5 system-ui, sans-serif;
+        padding: 12px 16px;
+      }
+      #ps-auto-status button {
+        background: #1c1c1c;
+        border: 1px solid #505050;
+        border-radius: 6px;
+        color: inherit;
+        cursor: pointer;
+        margin-inline-start: 10px;
+        min-height: 40px;
+        padding-inline: 12px;
+      }
+      #root[hidden], #ps-auto-status[hidden],
       #root nav[aria-label="Rubriques"] [role="tab"][hidden],
       #root nav[aria-label="Rubriques"] > button[title="Diagnostics"],
       #root[data-tsukuyomi-editorial] > div > section[aria-label="Filtres"],
@@ -31,6 +42,7 @@
     </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="ps-auto-status" role="status">Chargement de PS-AUTO…</div>
+    <div id="root" hidden></div>
   </body>
 </html>
