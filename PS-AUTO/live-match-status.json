@@ -806,18 +806,20 @@
       "sets": "4-6, 6-2, 6-2"
     },
     "recCal20261117P76169018": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-17T14:38:07.764Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Résultat final 17.11.2026, Qatar–Corée du Sud (Oh Se-hun 43e), fiche calendrier équipe coréenne / post-match FT",
+      "sourceUrl": "https://www.reddit.com/r/ArabCup/comments/1xyocdx/postmatch_thread_qatar_vs_south_korea/",
+      "checkedAt": "2026-11-17T16:32:27.000Z",
+      "observedLive": false,
+      "score": "0-1"
     },
     "recCal20261117P76810112": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-17T14:38:07.764Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Résultat final 17.11.2026, EAU–Syrie, compte-rendu FT buts 36e,49e,67e,69e,44e,90+2e",
+      "sourceUrl": "https://www.reddit.com/r/ArabCup/comments/1xyol4m/postmatch_thread_united_arab_emirates_vs_syria/",
+      "checkedAt": "2026-11-17T16:32:27.000Z",
+      "observedLive": false,
+      "score": "4-2"
     },
     "recCal20261117L91100": {
       "status": "En cours",
@@ -825,6 +827,94 @@
       "observedLive": false,
       "checkedAt": "2026-11-17T15:36:05.744Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261117P76812398": {
+      "status": "Terminé",
+      "provider": "Tennis Majors — fiche détaillée Ended, LP Open by IND 17.11.2026",
+      "sourceUrl": "https://www.tennismajors.com/matches/wta/lp-open-by-ind/irene-burillo-vs-darja-semenistaja",
+      "checkedAt": "2026-11-17T16:32:27.000Z",
+      "observedLive": false,
+      "score": "2-0",
+      "sets": "6-4, 6-0"
+    },
+    "recCal20261117P76812402": {
+      "status": "Terminé",
+      "provider": "Tennis Majors — fiche détaillée Ended, LP Open by IND 17.11.2026",
+      "sourceUrl": "https://www.tennismajors.com/matches/wta/lp-open-by-ind/nadia-podoroska-vs-varvara-lepchenko",
+      "checkedAt": "2026-11-17T16:32:27.000Z",
+      "observedLive": false,
+      "score": "2-0",
+      "sets": "6-3, 7-5"
+    },
+    "recCal20261117P76812396": {
+      "status": "En cours",
+      "provider": "Tennis Majors — fiche spécifique Live 17.11.2026, 1er set 2-1",
+      "sourceUrl": "https://www.tennismajors.com/matches/wta/lp-open-by-ind/lucia-bronzetti-vs-alicia-herrero-linana",
+      "checkedAt": "2026-11-17T16:32:27.000Z",
+      "observedLive": true
+    },
+    "recCal20261117L90180": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-17T16:32:27.000Z",
+      "observedLive": false
+    },
+    "recCal20261117L90183": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-17T16:32:27.000Z",
+      "observedLive": false
+    },
+    "recCal20261117P75467650": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-17T16:32:27.000Z",
+      "observedLive": false
+    },
+    "recCal20261117L89631": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-17T16:32:27.000Z",
+      "observedLive": false
+    },
+    "recCal20261117L90184": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-17T16:32:27.000Z",
+      "observedLive": false
+    },
+    "recCal20261117L90439": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-17T16:32:27.000Z",
+      "observedLive": false
+    },
+    "recCal20261117L90440": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-17T16:32:27.000Z",
+      "observedLive": false
+    },
+    "recCal20261117P76814082": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-17T16:32:27.000Z",
+      "observedLive": false
+    },
+    "recCal20261117P76438858": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-17T16:32:27.000Z",
+      "observedLive": false
     }
   }
 }
