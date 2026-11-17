@@ -1099,6 +1099,14 @@
       "statusBasis": "Résultat final Zverev 2-0 vérifié",
       "score": "2-0",
       "sets": "6-2, 7-6(4)"
+    },
+    "recCal20261117P76812382": {
+      "status": "En cours",
+      "provider": "Tennis Majors — fiche match actualisée 17.11 (sets 6-3, 3-6), corroborée par Marathonbet live",
+      "sourceUrl": "https://www.tennismajors.com/matches/wta/lp-open-by-ind/despina-papamichail-vs-laura-samson",
+      "checkedAt": "2026-11-17T21:33:41.000Z",
+      "observedLive": true,
+      "statusBasis": "Tennis Majors (fiche match) affiche 6-3, 3-6 en sets non finaux; Marathonbet fiche live montre 1-1 sets, 0-0 troisième et point 15-0. Début réel confirmé, observedLive=true. Pas de résultat final."
     }
   }
 }
