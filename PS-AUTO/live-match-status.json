@@ -337,12 +337,14 @@
       "statusBasis": "Score final domicile–extérieur confirmé sur fiche du 16 novembre 2026"
     },
     "recCal20261117L89644": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-17T01:32:46.000Z",
+      "status": "Terminé",
+      "provider": "Résultat FT (fiche match r/CanadaSoccer)",
+      "checkedAt": "2026-11-17T03:36:36.000Z",
       "observedLive": false,
       "reversed": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.reddit.com/r/CanadaSoccer/comments/1xy4tae/match_thread_canada_vs_guatemala_concacaf_nations/",
+      "score": "4-1",
+      "statusBasis": "Résultat final explicite Canada 4-1 Guatemala, 16 novembre 2026"
     },
     "recCal20261117P76582718": {
       "status": "En cours",
