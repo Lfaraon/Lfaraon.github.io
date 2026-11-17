@@ -351,6 +351,91 @@
       "checkedAt": "2026-11-17T02:32:58.719Z",
       "observedLive": false,
       "statusBasis": "Début horaire présumé; aucun score vérifié"
+    },
+    "rec2t43FYbIs6uk8G": {
+      "status": "Terminé",
+      "score": "7-2",
+      "provider": "Sky Sport (match terminé)",
+      "sourceUrl": "https://sport.sky.it/calcio/nations-league/partite/2026/giornata-6/finlandia-san-marino",
+      "checkedAt": "2026-11-17T02:33:11.073Z",
+      "observedLive": false,
+      "statusBasis": "Résultat final de la rencontre du 15 novembre 2026"
+    },
+    "rec3ZJtArTFBmxOSw": {
+      "status": "Terminé",
+      "score": "2-1",
+      "sets": "6-2, 3-6, 6-3",
+      "provider": "ATP Finals (compte rendu officiel)",
+      "sourceUrl": "https://www.nittoatpfinals.com/en/news/shelton-fils-nitto-atp-finals-2026-sunday",
+      "checkedAt": "2026-11-17T02:33:11.073Z",
+      "observedLive": false,
+      "statusBasis": "Résultat final de la rencontre du 15 novembre 2026"
+    },
+    "recAfzdIlgvsvTxtf": {
+      "status": "Terminé",
+      "score": "2-3",
+      "provider": "Reuters (résultat Nations League)",
+      "sourceUrl": "https://www.reuters.com/sports/soccer/england-end-spains-long-unbeaten-run-italy-crash-out-nations-league-2026-11-15/",
+      "checkedAt": "2026-11-17T02:33:11.073Z",
+      "observedLive": false,
+      "statusBasis": "Résultat final de la rencontre du 15 novembre 2026"
+    },
+    "recgzTnoBPH8Rqzzr": {
+      "status": "Terminé",
+      "score": "2-1",
+      "provider": "Reuters (résultat Nations League)",
+      "sourceUrl": "https://www.reuters.com/sports/soccer/england-end-spains-long-unbeaten-run-italy-crash-out-nations-league-2026-11-15/",
+      "checkedAt": "2026-11-17T02:33:11.073Z",
+      "observedLive": false,
+      "statusBasis": "Résultat final de la rencontre du 15 novembre 2026"
+    },
+    "recpfSJQhkmL5Gcc3": {
+      "status": "Terminé",
+      "score": "4-1",
+      "provider": "Reuters (résultat Nations League)",
+      "sourceUrl": "https://www.reuters.com/sports/soccer/england-end-spains-long-unbeaten-run-italy-crash-out-nations-league-2026-11-15/",
+      "checkedAt": "2026-11-17T02:33:11.073Z",
+      "observedLive": false,
+      "statusBasis": "Résultat final de la rencontre du 15 novembre 2026"
+    },
+    "reciVzCgihUZskYTl": {
+      "status": "Terminé",
+      "score": "2-1",
+      "provider": "Reuters (résultat Nations League)",
+      "sourceUrl": "https://www.reuters.com/sports/soccer/england-end-spains-long-unbeaten-run-italy-crash-out-nations-league-2026-11-15/",
+      "checkedAt": "2026-11-17T02:33:11.073Z",
+      "observedLive": false,
+      "statusBasis": "Résultat final de la rencontre du 15 novembre 2026"
+    },
+    "recoOB0je7srtY9Ae": {
+      "status": "Terminé",
+      "score": "0-2",
+      "sets": "5-7, 3-6",
+      "provider": "Tennis.com (WTA Finals completed)",
+      "sourceUrl": "https://www.tennis.com/tournaments/wta-finals/matches/e-svitolina-vs-m-andreeva-2026-11-15",
+      "checkedAt": "2026-11-17T02:33:11.073Z",
+      "observedLive": false,
+      "statusBasis": "Résultat final de la rencontre du 15 novembre 2026"
+    },
+    "recv4cGFWf1Oj5JCS": {
+      "status": "Terminé",
+      "score": "2-0",
+      "sets": "6-4, 6-3",
+      "provider": "Tennis.com (WTA doubles final completed)",
+      "sourceUrl": "https://www.tennis.com/tournaments/wta-finals/matches/siniakova-k-townsend-t-vs-errani-s-paolini-j-2026-11-15",
+      "checkedAt": "2026-11-17T02:33:11.073Z",
+      "observedLive": false,
+      "statusBasis": "Résultat final de la rencontre du 15 novembre 2026"
+    },
+    "recxhg442KJbbGB2p": {
+      "status": "Terminé",
+      "score": "2-0",
+      "sets": "7-6(9-7), 6-4",
+      "provider": "ScoreMondo (ATP doubles FT)",
+      "sourceUrl": "https://scoremondo.com/en/match/marcelo-arevalo-mate-pavic-theo-arribage-albano-olivetti-31563759",
+      "checkedAt": "2026-11-17T02:33:11.073Z",
+      "observedLive": false,
+      "statusBasis": "Résultat final de la rencontre du 15 novembre 2026"
     }
   }
 }
