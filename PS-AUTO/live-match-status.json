@@ -1127,11 +1127,11 @@
     },
     "recCal20261117P76812386": {
       "status": "En cours",
-      "checkedAt": "2026-11-17T22:40:51.711Z",
-      "provider": "Tennis.com — fiche du match Colina 17.11 affichant jeux de service/points effectivement disputés",
+      "checkedAt": "2026-11-17T23:34:08.010Z",
+      "provider": "Tennis.com — fiche interactive Colina 17.11, serveur et 3e set observés",
       "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/b-gatica-vs-a-lazaro-garcia-2026-11-17",
       "observedLive": true,
-      "statusBasis": "Début prouvé par statistiques précises (Gatica 6/6 jeux de service gagnés; Lazaro Garcia 4/5; points de service). Le texte Upcoming est périmé; aucun score final établi."
+      "statusBasis": "En cours confirmé dans le navigateur interactif: Gatica 6–2, 2–6, 2–2 au 3e set, service Lázaro García, point à 40. Score en cours uniquement; aucun score final."
     },
     "recCal20261118P76281536": {
       "status": "En cours",
