@@ -1132,6 +1132,38 @@
       "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/b-gatica-vs-a-lazaro-garcia-2026-11-17",
       "observedLive": true,
       "statusBasis": "Début prouvé par statistiques précises (Gatica 6/6 jeux de service gagnés; Lazaro Garcia 4/5; points de service). Le texte Upcoming est périmé; aucun score final établi."
+    },
+    "recCal20261118P76281536": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-17T23:33:24.423Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "Statut présumé par kickoff, début théorique. Aucun direct observé."
+    },
+    "recCal20261118P76123794": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-17T23:33:24.423Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "Statut présumé par kickoff, début théorique. Aucun direct observé."
+    },
+    "recCal20261118P76438860": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-17T23:33:24.423Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "Statut présumé par kickoff, début théorique. Aucun direct observé."
+    },
+    "recCal20261118P76482478": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-17T23:33:24.423Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "Statut présumé par kickoff, début théorique. Aucun direct observé."
     }
   }
 }
