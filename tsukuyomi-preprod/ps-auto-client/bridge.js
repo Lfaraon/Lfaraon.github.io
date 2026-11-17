@@ -2,6 +2,13 @@ import { renderLatestTickets, renderTickets } from "./tickets.js?rev=pronostics"
 
 const tabsSelector = '[role="tablist"][aria-label="Navigation principale"] [role="tab"]';
 const latestSelector = 'section[aria-label="Derniers tickets"], section[data-tsukuyomi-latest]';
+const calendarSelector = 'section[aria-label="Calendrier des matchs"]';
+const initialTabs = new Map([
+  ["calendrier", "Accueil"],
+  ["statistiques", "Statistiques"],
+  ["pronostics", "Pronostics"],
+  ["tickets", "Pronostics"],
+]);
 const states = new Set(["loading", "ready", "error"]);
 
 function ticketFeed() {
@@ -10,7 +17,7 @@ function ticketFeed() {
   return feed;
 }
 
-function connectDashboard(nonce, openPronosticsInitially) {
+function connectDashboard(nonce, destination) {
   const root = document.getElementById("root");
   const parentOrigin = new URL(window.location.href).origin;
   const page = document.createElement("main");
@@ -23,7 +30,8 @@ function connectDashboard(nonce, openPronosticsInitially) {
   let data = { status: "loading", tickets: [] };
   let lastTicketsRender;
   let lastLatestRender;
-  let shouldOpenPronostics = openPronosticsInitially;
+  let pendingTab = initialTabs.get(destination);
+  let scrollToCalendar = destination === "calendrier";
 
   function tabByName(name) {
     return Array.from(root.querySelectorAll(tabsSelector)).find((tab) => tab.textContent.trim() === name);
@@ -42,8 +50,11 @@ function connectDashboard(nonce, openPronosticsInitially) {
     const legacyTab = tabByName("Tickets");
     if (legacyTab) legacyTab.hidden = true;
     const legacySelected = legacyTab?.getAttribute("aria-selected") === "true";
-    if (shouldOpenPronostics || legacySelected) {
-      shouldOpenPronostics = false;
+    const requestedTab = pendingTab && tabByName(pendingTab);
+    if (requestedTab) {
+      pendingTab = undefined;
+      if (requestedTab.getAttribute("aria-selected") !== "true") requestedTab.click();
+    } else if (legacySelected) {
       tab.click();
     }
 
@@ -76,6 +87,21 @@ function connectDashboard(nonce, openPronosticsInitially) {
       }
     }
     if (root.hidden) root.hidden = false;
+
+    if (scrollToCalendar && homeTab.getAttribute("aria-selected") === "true") {
+      const calendar = originalMain.querySelector(calendarSelector);
+      if (calendar) {
+        scrollToCalendar = false;
+        window.requestAnimationFrame(() => {
+          if (!calendar.isConnected) return;
+          const navHeight = homeTab.closest("nav")?.getBoundingClientRect().height ?? 0;
+          calendar.style.scrollMarginTop = `${navHeight + 12}px`;
+          calendar.tabIndex = -1;
+          calendar.focus({ preventScroll: true });
+          calendar.scrollIntoView({ block: "start" });
+        });
+      }
+    }
   }
 
   function acceptChannel(event) {
@@ -105,5 +131,5 @@ function connectDashboard(nonce, openPronosticsInitially) {
 const params = new URLSearchParams(window.location.hash.slice(1));
 const nonce = params.get("nonce");
 if (window.parent !== window && nonce) {
-  connectDashboard(nonce, ["pronostics", "tickets"].includes(params.get("tab")));
+  connectDashboard(nonce, params.get("tab"));
 }
