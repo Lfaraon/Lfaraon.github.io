@@ -961,9 +961,10 @@
       "status": "Terminé",
       "observedLive": false,
       "checkedAt": "2026-11-17T21:31:33.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "+120 minutes après l'horaire prévu; score non vérifié"
+      "provider": "Match thread r/COYH (Full Time) — Luton v Peterborough EFL Trophy 17.11.2026",
+      "sourceUrl": "https://www.reddit.com/r/COYH/comments/1xyrd9c/match_thread_luton_town_vs_peterborough_united/",
+      "statusBasis": "Score final 3-0 confirmé",
+      "score": "3-0"
     },
     "recCal20261117L90703": {
       "status": "Terminé",
