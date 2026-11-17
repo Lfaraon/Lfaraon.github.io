@@ -952,10 +952,11 @@
     "recCal20261117L90447": {
       "status": "Terminé",
       "observedLive": false,
-      "checkedAt": "2026-11-17T21:31:33.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "+120 minutes après l'horaire prévu; score non vérifié"
+      "checkedAt": "2026-11-17T21:35:01.000Z",
+      "provider": "Scores24, fiche finale 17.11.2026 « Final del partido »",
+      "sourceUrl": "https://scores24.live/es/soccer/m-15-11-2026-liberia-cape-verde",
+      "statusBasis": "Résultat final prouvé, match retour 17.11",
+      "score": "2-0"
     },
     "recCal20261117P73661312": {
       "status": "Terminé",
@@ -969,26 +970,29 @@
     "recCal20261117L90703": {
       "status": "Terminé",
       "observedLive": false,
-      "checkedAt": "2026-11-17T21:31:33.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "+120 minutes après l'horaire prévu; score non vérifié"
+      "checkedAt": "2026-11-17T21:35:01.000Z",
+      "provider": "Scores24, fiche finale 17.11.2026 « Final del partido »",
+      "sourceUrl": "https://scores24.live/es/soccer/m-15-11-2026-mauritania-burkina-faso",
+      "statusBasis": "Résultat final prouvé, match retour 17.11",
+      "score": "1-3"
     },
     "recCal20261117L90702": {
       "status": "Terminé",
       "observedLive": false,
-      "checkedAt": "2026-11-17T21:31:33.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "+120 minutes après l'horaire prévu; score non vérifié"
+      "checkedAt": "2026-11-17T21:35:01.000Z",
+      "provider": "Scores24, fiche finale 17.11.2026 « Final del partido »",
+      "sourceUrl": "https://scores24.live/es/soccer/m-15-11-2026-congo-comoros",
+      "statusBasis": "Résultat final prouvé, match retour 17.11",
+      "score": "0-1"
     },
     "recCal20261117L90438": {
       "status": "Terminé",
       "observedLive": false,
-      "checkedAt": "2026-11-17T21:31:33.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "+120 minutes après l'horaire prévu; score non vérifié"
+      "checkedAt": "2026-11-17T21:35:01.000Z",
+      "provider": "Scores24, fiche finale 17.11.2026 « Final del partido »",
+      "sourceUrl": "https://scores24.live/es/soccer/m-15-11-2026-rwanda-mali",
+      "statusBasis": "Résultat final prouvé, match retour 17.11",
+      "score": "0-2"
     },
     "recCal20261117P76736490": {
       "status": "Terminé",
