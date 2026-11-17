@@ -256,22 +256,24 @@
       "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/d-medvedev-vs-f-cobolli-2026-11-16"
     },
     "recCal20261116P76841662": {
-      "status": "En cours",
-      "provider": "Live Tennis API",
+      "status": "Terminé",
+      "provider": "Fin signalée explicitement par l’utilisateur (score non vérifié)",
       "providerId": "221112",
-      "checkedAt": "2026-11-16T22:46:10.162Z",
+      "checkedAt": "2026-11-17T00:26:05.597Z",
       "observedLive": true,
       "reversed": true,
-      "sourceUrl": "https://www.tennisendirect.net/wta/match/valeriya-strakhova-VS-anastasia-tikhonova/lp-open-by-ind-colina-2026/"
+      "sourceUrl": "https://www.tennisendirect.net/wta/match/valeriya-strakhova-VS-anastasia-tikhonova/lp-open-by-ind-colina-2026/",
+      "statusBasis": "signalement utilisateur; sourceUrl = fiche de suivi antérieure, pas preuve du score final"
     },
     "recCal20261116P76841656": {
-      "status": "En cours",
-      "provider": "Live Tennis API",
+      "status": "Terminé",
+      "provider": "Fin signalée explicitement par l’utilisateur (score non vérifié)",
       "providerId": "221111",
-      "checkedAt": "2026-11-16T22:49:05.133Z",
+      "checkedAt": "2026-11-17T00:26:05.597Z",
       "observedLive": true,
       "reversed": false,
-      "sourceUrl": "https://www.tennisendirect.net/wta/match/luisina-giovannini-VS-ariana-geerlings/lp-open-by-ind-colina-2026/"
+      "sourceUrl": "https://www.tennisendirect.net/wta/match/luisina-giovannini-VS-ariana-geerlings/lp-open-by-ind-colina-2026/",
+      "statusBasis": "signalement utilisateur; sourceUrl = fiche de suivi antérieure, pas preuve du score final"
     },
     "recCal20261116P76736474": {
       "status": "Terminé",
