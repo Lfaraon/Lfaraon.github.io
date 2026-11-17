@@ -319,6 +319,14 @@
       "reversed": false,
       "score": "0-3",
       "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live"
+    },
+    "recCal20261117L88914": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-17T00:16:33.034Z",
+      "observedLive": false,
+      "reversed": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     }
   }
 }
