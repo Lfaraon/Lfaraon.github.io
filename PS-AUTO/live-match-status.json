@@ -932,11 +932,12 @@
     },
     "recCal20261117P76438858": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-17T18:34:34.112Z",
+      "provider": "Compte-rendu de match r/ArabCup — FT détaillé, Kuwait–Honduras 17.11.2026",
+      "sourceUrl": "https://www.reddit.com/r/ArabCup/comments/1xynevm/match_thread_kuwait_vs_honduras_international/",
+      "checkedAt": "2026-11-17T18:37:04.628Z",
       "observedLive": false,
-      "statusBasis": "+120 min depuis kickoff football publié ; fin présumée, score non vérifié"
+      "statusBasis": "Résultat FT explicite avec compte rendu complet du match du 17.11.2026",
+      "score": "0-2"
     },
     "recCal20261117P76812384": {
       "status": "En cours",
