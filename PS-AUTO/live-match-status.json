@@ -1001,6 +1001,14 @@
       "checkedAt": "2026-11-17T19:34:38.000Z",
       "statusBasis": "Suivi effectif : Brancaccio/Maristany mènent 1-0 en manches (6-2), 4-1 provisoire dans le 2e set, service 40-15. Aucun score final.",
       "observedLive": true
+    },
+    "recCal20261117P76812392": {
+      "status": "En cours",
+      "provider": "Sportybet, fiche tennis live — jeux et points observables; signalement utilisateur",
+      "sourceUrl": "https://www.sportybet.com/ng/lite/live/list?eventId=sr%3Amatch%3A76807186&marketGroupsName=Main&marketId=186&odds=9.00&outcomeId=4&productId=1&selected=0&sportId=sr%3Asport%3A5",
+      "checkedAt": "2026-11-17T20:13:57.000Z",
+      "observedLive": true,
+      "statusBasis": "Match en cours d'après signalement utilisateur + fiche affichant set 1, 2–2 et points. Capture de flux potentiellement retardée; score non final."
     }
   }
 }
