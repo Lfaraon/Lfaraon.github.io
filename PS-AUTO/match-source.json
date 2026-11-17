@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "snapshotAt": "2026-11-16T22:55:24.653Z",
+  "snapshotAt": "2026-11-17T22:35:13.146Z",
   "matches": [
     {
       "id": "rec1ybDU0vG4J8E0m",
@@ -847,6 +847,223 @@
       "name": "Fernanda Labrana – Antonia Vergara Rivera",
       "sport": "Tennis",
       "kickoff": "2026-11-17T22:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76281536",
+      "name": "Argentine – Costa Rica",
+      "sport": "Football",
+      "kickoff": "2026-11-17T23:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76123794",
+      "name": "Chili – Colombie",
+      "sport": "Football",
+      "kickoff": "2026-11-17T23:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76438860",
+      "name": "Ecuador – Bolivia",
+      "sport": "Football",
+      "kickoff": "2026-11-17T23:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76482478",
+      "name": "Uruguay – Dominican Republic",
+      "sport": "Football",
+      "kickoff": "2026-11-17T23:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118L89862",
+      "name": "Etats-Unis – Haiti",
+      "sport": "Football",
+      "kickoff": "2026-11-18T00:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118L89867",
+      "name": "Mexique – Jamaïque",
+      "sport": "Football",
+      "kickoff": "2026-11-18T02:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76736468",
+      "name": "Harrison C / Skupski N – Bolelli S / Vavassori A",
+      "sport": "Tennis",
+      "kickoff": "2026-11-18T10:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76736464",
+      "name": "Carlos Alcaraz – Daniil Medvedev",
+      "sport": "Tennis",
+      "kickoff": "2026-11-18T13:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76682274",
+      "name": "Bronzetti, Lucia – Monnet, Carole",
+      "sport": "Tennis",
+      "kickoff": "2026-11-18T15:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76878812",
+      "name": "Labrana F / Vergara Rivera A – McGiffin T / Osborne A",
+      "sport": "Tennis",
+      "kickoff": "2026-11-18T15:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76682264",
+      "name": "Maristany Zuleta de Reales, Guiomar – Costoulas, Sofia",
+      "sport": "Tennis",
+      "kickoff": "2026-11-18T15:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76682268",
+      "name": "Masarova, Rebeka – Hercog, Polona",
+      "sport": "Tennis",
+      "kickoff": "2026-11-18T15:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76878810",
+      "name": "Oz I / Papamichail D – Erjavec V / Kulambayeva Z",
+      "sport": "Tennis",
+      "kickoff": "2026-11-18T15:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76682270",
+      "name": "Romero Gormaz, Leyre – Podoroska, Nadia",
+      "sport": "Tennis",
+      "kickoff": "2026-11-18T15:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76878816",
+      "name": "Strakhova V / Tikhonova A – Burillo Escorihuela I / Zolotareva A",
+      "sport": "Tennis",
+      "kickoff": "2026-11-18T15:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76682272",
+      "name": "Zolotareva, Anastasia – Burillo Escorihuela, Irene",
+      "sport": "Tennis",
+      "kickoff": "2026-11-18T15:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118L91187",
+      "name": "CS Constantine – ES Ben Aknoun",
+      "sport": "Football",
+      "kickoff": "2026-11-18T16:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118L91186",
+      "name": "Zr Temouchent – Js El Biar",
+      "sport": "Football",
+      "kickoff": "2026-11-18T16:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76736470",
+      "name": "Granollers M / Zeballos H – Krawietz K / Puetz T",
+      "sport": "Tennis",
+      "kickoff": "2026-11-18T17:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118L90906",
+      "name": "Hacken F – Manchester City F",
+      "sport": "Football",
+      "kickoff": "2026-11-18T17:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118L90905",
+      "name": "Real Madrid F – Inter Milan F",
+      "sport": "Football",
+      "kickoff": "2026-11-18T17:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76482550",
+      "name": "Club Portugalete – Real Union de Irun",
+      "sport": "Football",
+      "kickoff": "2026-11-18T18:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76661768",
+      "name": "Utebo FC – CE Sabadell FC",
+      "sport": "Football",
+      "kickoff": "2026-11-18T18:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76489976",
+      "name": "CD Alcoyano – RCD Mallorca",
+      "sport": "Football",
+      "kickoff": "2026-11-18T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76546760",
+      "name": "CD Badajoz – Tenerife CD",
+      "sport": "Football",
+      "kickoff": "2026-11-18T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76516978",
+      "name": "CD Minera – FC Cartagena",
+      "sport": "Football",
+      "kickoff": "2026-11-18T19:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76736462",
+      "name": "Flavio Cobolli – Frances Tiafoe",
+      "sport": "Tennis",
+      "kickoff": "2026-11-18T19:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P76516980",
+      "name": "Reus FC Reddis – Barakaldo CF",
+      "sport": "Football",
+      "kickoff": "2026-11-18T19:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118L90904",
+      "name": "Chelsea F – Paris SG F",
+      "sport": "Football",
+      "kickoff": "2026-11-18T20:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118L90907",
+      "name": "Juventus F – Louvain F",
+      "sport": "Football",
+      "kickoff": "2026-11-18T20:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261118P66887172",
+      "name": "Coritiba – Santos",
+      "sport": "Football",
+      "kickoff": "2026-11-18T22:30:00.000Z",
       "snapshotStatus": "À venir"
     }
   ]
