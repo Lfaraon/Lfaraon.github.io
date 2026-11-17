@@ -781,10 +781,11 @@
     },
     "recCal20261117L89653": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Scores24 — Tanzania-Nigeria 17.11.2026, Ended / Full-time",
+      "sourceUrl": "https://scores24.live/en/soccer/m-15-11-2026-tanzania-nigeria",
       "observedLive": false,
-      "checkedAt": "2026-11-17T15:36:05.744Z"
+      "checkedAt": "2026-11-17T15:43:03.823Z",
+      "score": "0-0"
     },
     "recCal20261117P76123776": {
       "status": "Terminé",
