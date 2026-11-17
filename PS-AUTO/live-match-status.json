@@ -638,6 +638,60 @@
       "checkedAt": "2026-11-17T02:33:41.034Z",
       "observedLive": false,
       "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recY10oDfreT5y2GR": {
+      "status": "Terminé",
+      "score": "2-2",
+      "sourceUrl": "https://flashsportapp.com/fr/football/match/spaeri-fc-iberia-1999-2026-11-15-1509232/",
+      "provider": "FlashSport (Terminé)",
+      "checkedAt": "2026-11-17T02:33:53.325Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "reckWB98CO32CW5fa": {
+      "status": "Terminé",
+      "score": "1-2",
+      "sourceUrl": "https://sports.lesoir.be/sport/football/coupe-de-france/septieme-tour/rencontre/548773/gfa-rumilly-vallieres-saint-etienne",
+      "provider": "Le Soir (Score final)",
+      "checkedAt": "2026-11-17T02:33:53.325Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recnoK3vwEVwk8FOO": {
+      "status": "Terminé",
+      "score": "0-2",
+      "sourceUrl": "https://vjstats.com/matches/4258560/montpellier-atlas-paillade-vs-association-sportive-de-cannes",
+      "provider": "VJStats (Full time)",
+      "checkedAt": "2026-11-17T02:33:53.325Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recpzB6c8yIlBh7zG": {
+      "status": "Terminé",
+      "score": "2-3",
+      "sourceUrl": "https://www.inter.it/en/news/inter-women-juventus-serie-a-women-2026-27",
+      "provider": "Inter Milan official",
+      "checkedAt": "2026-11-17T02:33:53.325Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recuaiFBm8xPewVRk": {
+      "status": "Terminé",
+      "score": "1-5",
+      "sourceUrl": "https://datencenter.dfb.de/datencenter/google-pixel-frauen-bundesliga/google-pixel-frauen-bundesliga-2026-2027/10/rb-leipzig-eintracht-frankfurt-2426876",
+      "provider": "DFB official",
+      "checkedAt": "2026-11-17T02:33:53.325Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recyimtgfd2tHg7gD": {
+      "status": "Terminé",
+      "score": "0-1",
+      "sourceUrl": "https://www.dfb.de/news/carolin-elsen-laesst-koeln-in-nuernberg-jubeln",
+      "provider": "DFB official",
+      "checkedAt": "2026-11-17T02:33:53.325Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
     }
   }
 }
