@@ -1,0 +1,185 @@
+.tsukuyomi-tickets-page {
+  padding: 12px 16px;
+}
+
+.tsukuyomi-ticket-list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tsukuyomi-ticket-count {
+  margin: 0 0 12px;
+  color: var(--colors-foregroundMuted);
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+.tsukuyomi-ticket-notice {
+  color: var(--colors-foregroundMuted);
+  font-size: 14px;
+}
+
+.tsukuyomi-ticket-item {
+  min-width: 0;
+}
+
+.tsukuyomi-ticket {
+  padding: 14px 16px;
+  border: 1px solid var(--colors-border);
+  background: var(--colors-surface);
+  color: var(--colors-foreground);
+}
+
+.tsukuyomi-ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.tsukuyomi-ticket-heading {
+  min-width: 0;
+}
+
+.tsukuyomi-ticket-title {
+  font-size: 14px;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.tsukuyomi-ticket-meta {
+  color: var(--colors-foregroundMuted);
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+
+.tsukuyomi-ticket-status {
+  flex-shrink: 0;
+  border: 1px solid color-mix(in srgb, var(--colors-primary) 45%, transparent);
+  border-radius: 999px;
+  padding: 2px 8px;
+  color: var(--colors-primary);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.tsukuyomi-ticket-legs {
+  display: grid;
+  gap: 10px;
+  margin: 12px 0;
+  padding: 0 0 0 20px;
+  list-style-type: decimal;
+}
+
+.tsukuyomi-ticket-leg {
+  padding-left: 3px;
+  overflow-wrap: anywhere;
+}
+
+.tsukuyomi-ticket-leg::marker {
+  color: var(--colors-foregroundMuted);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.tsukuyomi-ticket-selection {
+  margin-top: 2px;
+  color: var(--colors-foreground);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.tsukuyomi-ticket-measurement {
+  margin-top: 2px;
+  color: var(--colors-primary);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.tsukuyomi-ticket-odds {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  padding-top: 10px;
+  border-top: 1px solid var(--colors-border);
+  font-variant-numeric: tabular-nums;
+}
+
+.tsukuyomi-ticket-metric dt {
+  color: var(--colors-foregroundMuted);
+  font-size: 12px;
+}
+
+.tsukuyomi-ticket-metric dd {
+  margin-top: 2px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.tsukuyomi-tickets-latest {
+  margin-top: 4px;
+}
+
+.tsukuyomi-tickets-button {
+  min-height: 44px;
+  margin-top: 8px;
+  border: 1px solid var(--colors-border);
+  color: var(--colors-foregroundMuted);
+  font-size: 14px;
+}
+
+.tsukuyomi-tickets-view-all {
+  width: 100%;
+}
+
+.tsukuyomi-tickets-retry {
+  padding-inline: 12px;
+}
+
+.tsukuyomi-tickets-button:hover {
+  background: var(--colors-surface);
+}
+
+.tsukuyomi-tickets-button:focus-visible {
+  outline: 2px solid var(--colors-primary);
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .tsukuyomi-tickets-page {
+    padding-inline: 24px;
+  }
+
+  .tsukuyomi-ticket {
+    padding: 18px 20px;
+  }
+
+  .tsukuyomi-ticket-meta,
+  .tsukuyomi-ticket-measurement,
+  .tsukuyomi-ticket-metric dt {
+    font-size: 13px;
+  }
+
+  .tsukuyomi-ticket-title,
+  .tsukuyomi-ticket-selection,
+  .tsukuyomi-ticket-metric dd {
+    font-size: 15px;
+  }
+
+  .tsukuyomi-tickets-button {
+    min-height: 0;
+    padding-block: 6px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .tsukuyomi-tickets-page .tsukuyomi-ticket-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+}
