@@ -1009,6 +1009,86 @@
       "checkedAt": "2026-11-17T20:13:57.000Z",
       "observedLive": true,
       "statusBasis": "Match en cours d'après signalement utilisateur + fiche affichant set 1, 2–2 et points. Capture de flux potentiellement retardée; score non final."
+    },
+    "recCal20261117P68932770": {
+      "status": "En cours",
+      "observedLive": false,
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-17T20:38:30.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+    },
+    "recCal20261117P68932632": {
+      "status": "En cours",
+      "observedLive": false,
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-17T20:38:30.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+    },
+    "recCal20261117P68932054": {
+      "status": "En cours",
+      "observedLive": false,
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-17T20:38:30.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+    },
+    "recCal20261117P68932772": {
+      "status": "En cours",
+      "observedLive": false,
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-17T20:38:30.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+    },
+    "recCal20261117P68932740": {
+      "status": "En cours",
+      "observedLive": false,
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-17T20:38:30.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+    },
+    "recCal20261117P68932056": {
+      "status": "En cours",
+      "observedLive": false,
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-17T20:38:30.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+    },
+    "recCal20261117P68932742": {
+      "status": "En cours",
+      "observedLive": false,
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-17T20:38:30.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+    },
+    "recCal20261117P68932630": {
+      "status": "En cours",
+      "observedLive": false,
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-17T20:38:30.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+    },
+    "recCal20261117L90287": {
+      "status": "En cours",
+      "observedLive": false,
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-17T20:38:30.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé"
+    },
+    "recCal20261117P76736442": {
+      "status": "En cours",
+      "observedLive": true,
+      "provider": "The Guardian — direct Zverev–Shelton, jeux en cours ATP Finals",
+      "checkedAt": "2026-11-17T20:38:30.000Z",
+      "sourceUrl": "https://www.theguardian.com/sport/live/2026/nov/17/alexander-zverev-v-ben-shelton-atp-finals-tennis-group-stage-live",
+      "statusBasis": "Début confirmé: set 1 6–2 Zverev; set 2 en cours 1–1 selon la fiche live, pas de score final"
     }
   }
 }
