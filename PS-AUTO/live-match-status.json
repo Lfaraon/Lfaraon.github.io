@@ -855,10 +855,10 @@
     },
     "recCal20261117L90180": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-17T16:32:27.000Z",
-      "observedLive": false
+      "provider": "Soccerway — fiche Gambia–Côte d’Ivoire 17.11.2026 (0–1 mi-temps, score provisoire)",
+      "sourceUrl": "https://gh.soccerway.com/match/gambia-hADVg0uE/ivory-coast-G2FRjBgn/",
+      "checkedAt": "2026-11-17T17:35:54.000Z",
+      "observedLive": true
     },
     "recCal20261117L90183": {
       "status": "En cours",
@@ -876,10 +876,10 @@
     },
     "recCal20261117L89631": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-17T16:32:27.000Z",
-      "observedLive": false
+      "provider": "FootballHours/ESPN — fiche Kenya–Afrique du Sud du 17.11.2026 (0–0 HT, actualisée 16:50 UTC)",
+      "sourceUrl": "https://www.footballhours.com/match/401927175",
+      "checkedAt": "2026-11-17T17:35:54.000Z",
+      "observedLive": true
     },
     "recCal20261117L90184": {
       "status": "En cours",
@@ -911,10 +911,10 @@
     },
     "recCal20261117P76438858": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-17T16:32:27.000Z",
-      "observedLive": false
+      "provider": "Suivi du match r/ArabCup 17.11.2026, Koweït–Honduras 0–2 à 46', provisoire",
+      "sourceUrl": "https://www.reddit.com/r/ArabCup/comments/1xynxh2/prematch_thread_kuwait_vs_honduras_international/",
+      "checkedAt": "2026-11-17T17:35:54.000Z",
+      "observedLive": true
     }
   }
 }
