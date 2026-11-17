@@ -995,12 +995,14 @@
       "sets": "6-4, 7-6(4)"
     },
     "recCal20261117P76878814": {
-      "status": "En cours",
-      "provider": "Tennislive.in — fiche live Colina doubles, jeu et points actuels 17.11.2026",
-      "sourceUrl": "https://www.tennislive.in/wta/match/brancaccio-maristany-VS-sofia-costoulas-darja-semenistaja/lp-open-by-ind-colina-2026/",
-      "checkedAt": "2026-11-17T19:34:38.000Z",
-      "statusBasis": "Suivi effectif : Brancaccio/Maristany mènent 1-0 en manches (6-2), 4-1 provisoire dans le 2e set, service 40-15. Aucun score final.",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "Tennis.com — fiche détaillée Completed, double Colina du 17.11.2026",
+      "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/brancaccio-n-maristany-zuleta-de-reales-g-vs-costoulas-s-semenistaja-d-2026-11-17",
+      "checkedAt": "2026-11-17T20:39:14.000Z",
+      "statusBasis": "Terminé, score final 2-0 (6-2,6-4) confirmé sur la fiche Tennis.com. Ordre calendrier vérifié.",
+      "observedLive": false,
+      "score": "2-0",
+      "sets": "6-2, 6-4"
     },
     "recCal20261117P76812392": {
       "status": "En cours",
