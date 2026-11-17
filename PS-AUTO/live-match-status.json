@@ -946,6 +946,41 @@
       "checkedAt": "2026-11-17T18:34:34.112Z",
       "statusBasis": "Jeux de deuxième set affichés : Hercog mène 1–0 en manches (7–6 puis 5–2 provisoire); score final non établi",
       "observedLive": true
+    },
+    "recCal20261117L90447": {
+      "status": "En cours",
+      "observedLive": false,
+      "checkedAt": "2026-11-17T19:34:38.000Z",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261117P73661312": {
+      "status": "En cours",
+      "observedLive": false,
+      "checkedAt": "2026-11-17T19:34:38.000Z",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261117L90703": {
+      "status": "En cours",
+      "observedLive": false,
+      "checkedAt": "2026-11-17T19:34:38.000Z",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261117L90702": {
+      "status": "En cours",
+      "observedLive": false,
+      "checkedAt": "2026-11-17T19:34:38.000Z",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261117L90438": {
+      "status": "En cours",
+      "observedLive": false,
+      "checkedAt": "2026-11-17T19:34:38.000Z",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     }
   }
 }
