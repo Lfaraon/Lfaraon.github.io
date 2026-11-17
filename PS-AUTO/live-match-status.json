@@ -436,6 +436,78 @@
       "checkedAt": "2026-11-17T02:33:11.073Z",
       "observedLive": false,
       "statusBasis": "Résultat final de la rencontre du 15 novembre 2026"
+    },
+    "recEFlQz2nkHoWHMK": {
+      "status": "Terminé",
+      "score": "1-4",
+      "sourceUrl": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+      "provider": "UEFA résultats officiels",
+      "checkedAt": "2026-11-17T02:33:20.905Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recob6aQlaRNn77AP": {
+      "status": "Terminé",
+      "score": "0-0",
+      "sourceUrl": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+      "provider": "UEFA résultats officiels",
+      "checkedAt": "2026-11-17T02:33:20.905Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recn6v4HawRQvUCwt": {
+      "status": "Terminé",
+      "score": "0-2",
+      "sourceUrl": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+      "provider": "UEFA résultats officiels",
+      "checkedAt": "2026-11-17T02:33:20.905Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recE7eOe2u6YY79xm": {
+      "status": "Terminé",
+      "score": "1-0",
+      "sourceUrl": "https://www.footballwebpages.co.uk/league-one/vidiprinter/womens-super-league",
+      "provider": "Women's Super League scores FT",
+      "checkedAt": "2026-11-17T02:33:20.905Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recU00IhieIvXB5sD": {
+      "status": "Terminé",
+      "score": "2-0",
+      "sourceUrl": "https://www.footballwebpages.co.uk/league-one/vidiprinter/womens-super-league",
+      "provider": "Women's Super League scores FT",
+      "checkedAt": "2026-11-17T02:33:20.905Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "reciCwNNNwZDHEqSx": {
+      "status": "Terminé",
+      "score": "1-1",
+      "sourceUrl": "https://www.footballwebpages.co.uk/league-one/vidiprinter/womens-super-league",
+      "provider": "Women's Super League scores FT",
+      "checkedAt": "2026-11-17T02:33:20.905Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "recQaWqPQW99XlXZU": {
+      "status": "Terminé",
+      "score": "2-0",
+      "sourceUrl": "https://cadenaser.com/comunitat-valenciana/2026/11/15/el-eldense-recupera-la-sonrisa-ante-el-sabadell-2-0-radio-elda/",
+      "provider": "Cadena SER match report",
+      "checkedAt": "2026-11-17T02:33:20.905Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
+    },
+    "rec1ybDU0vG4J8E0m": {
+      "status": "Terminé",
+      "score": "0-0",
+      "sourceUrl": "https://www.portimonensesad.portimonense.pt/",
+      "provider": "Portimonense official match report",
+      "checkedAt": "2026-11-17T02:33:20.905Z",
+      "observedLive": false,
+      "statusBasis": "Score final du 15 novembre 2026"
     }
   }
 }
