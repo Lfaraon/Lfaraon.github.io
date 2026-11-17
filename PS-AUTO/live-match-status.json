@@ -823,10 +823,12 @@
     },
     "recCal20261117L91100": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "YSscores — fiche Saudi Arabia–Uzbekistan du 17.11.2026, Ended",
       "observedLive": false,
-      "checkedAt": "2026-11-17T17:35:54.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-17T18:34:34.112Z",
+      "sourceUrl": "https://www.ysscores.com/en/match/6539358/Saudi-Arabia-vs-Uzbekistan-statics",
+      "statusBasis": "Score final 1-2 confirmé, pas le score provisoire à la 57e minute",
+      "score": "1-2"
     },
     "recCal20261117P76812398": {
       "status": "Terminé",
@@ -847,73 +849,99 @@
       "sets": "6-3, 7-5"
     },
     "recCal20261117P76812396": {
-      "status": "En cours",
-      "provider": "Tennis Majors — fiche spécifique Live 17.11.2026, 1er set 2-1",
+      "status": "Terminé",
+      "provider": "Tennis Majors — fiche Lucia Bronzetti–Alicia Herrero Linana, Ended",
       "sourceUrl": "https://www.tennismajors.com/matches/wta/lp-open-by-ind/lucia-bronzetti-vs-alicia-herrero-linana",
-      "checkedAt": "2026-11-17T16:32:27.000Z",
-      "observedLive": true
+      "checkedAt": "2026-11-17T18:34:34.112Z",
+      "observedLive": true,
+      "statusBasis": "Résultat final vérifié 2–0, sets 6–3 et 6–1",
+      "score": "2-0",
+      "sets": "6-3, 6-1"
     },
     "recCal20261117L90180": {
-      "status": "En cours",
-      "provider": "Soccerway — fiche Gambia–Côte d’Ivoire 17.11.2026 (0–1 mi-temps, score provisoire)",
-      "sourceUrl": "https://gh.soccerway.com/match/gambia-hADVg0uE/ivory-coast-G2FRjBgn/",
-      "checkedAt": "2026-11-17T17:35:54.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "Africa Top Sports — compte rendu final du 17.11.2026",
+      "sourceUrl": "https://en.africatopsports.com/afcon-2027-the-gambia-held-to-a-2-2-draw-by-ivory-coast/",
+      "checkedAt": "2026-11-17T18:34:34.112Z",
+      "observedLive": true,
+      "statusBasis": "Résultat final Gambie 2–2 Côte d’Ivoire, égalisation à la 90e",
+      "score": "2-2"
     },
     "recCal20261117L90183": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-17T16:32:27.000Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Dailysports — fiche du match 17.11.2026, Finished",
+      "sourceUrl": "https://dailysports.net/predictions/can-the-group-leaders-break-down-stubborn-madagascar-caf-qualifying-match-prediction-guinea-bissau-vs-madagascar/",
+      "checkedAt": "2026-11-17T18:34:34.112Z",
+      "observedLive": false,
+      "statusBasis": "Résultat final Guinée-Bissau 2–0 Madagascar avec buteurs",
+      "score": "2-0"
     },
     "recCal20261117P75467650": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-17T16:32:27.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-17T18:34:34.112Z",
+      "observedLive": false,
+      "statusBasis": "+120 min depuis kickoff football publié ; fin présumée, score non vérifié"
     },
     "recCal20261117L89631": {
-      "status": "En cours",
-      "provider": "FootballHours/ESPN — fiche Kenya–Afrique du Sud du 17.11.2026 (0–0 HT, actualisée 16:50 UTC)",
-      "sourceUrl": "https://www.footballhours.com/match/401927175",
-      "checkedAt": "2026-11-17T17:35:54.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "Dailysports — fiche du match 17.11.2026, Finished",
+      "sourceUrl": "https://dailysports.net/predictions/south-africa-risk-losing-top-spot-in-the-group-kenya-vs-south-africa-prediction/",
+      "checkedAt": "2026-11-17T18:34:34.112Z",
+      "observedLive": true,
+      "statusBasis": "Résultat final Kenya 1–2 Afrique du Sud avec buteurs",
+      "score": "1-2"
     },
     "recCal20261117L90184": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-17T16:32:27.000Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Dailysports — fiche du match 17.11.2026, Finished",
+      "sourceUrl": "https://dailysports.net/predictions/tunisia-on-the-brink-of-qualifying-disaster-libya-vs-tunisia-prediction/",
+      "checkedAt": "2026-11-17T18:34:34.112Z",
+      "observedLive": false,
+      "statusBasis": "Résultat final Libye 1–1 Tunisie avec buteurs",
+      "score": "1-1"
     },
     "recCal20261117L90439": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-17T16:32:27.000Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Africa Top Sports — compte rendu final du 17.11.2026",
+      "sourceUrl": "https://en.africatopsports.com/afcon-2027-qualifiers-sierra-leone-hold-dr-congo-to-a-draw/",
+      "checkedAt": "2026-11-17T18:34:34.112Z",
+      "observedLive": false,
+      "statusBasis": "Résultat final Sierra Leone 1–1 RD Congo, égalisation à la 90+4",
+      "score": "1-1"
     },
     "recCal20261117L90440": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-17T16:32:27.000Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Dailysports — fiche du match 17.11.2026, Finished",
+      "sourceUrl": "https://dailysports.net/predictions/can-togo-finally-breach-algerias-defence-togo-vs-algeria-prediction-17112026/",
+      "checkedAt": "2026-11-17T18:34:34.112Z",
+      "observedLive": false,
+      "statusBasis": "Résultat final Togo 3–0 Algérie avec buteurs",
+      "score": "3-0"
     },
     "recCal20261117P76814082": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-17T16:32:27.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-17T18:34:34.112Z",
+      "observedLive": false,
+      "statusBasis": "+120 min depuis kickoff football publié ; fin présumée, score non vérifié"
     },
     "recCal20261117P76438858": {
+      "status": "Terminé",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-17T18:34:34.112Z",
+      "observedLive": false,
+      "statusBasis": "+120 min depuis kickoff football publié ; fin présumée, score non vérifié"
+    },
+    "recCal20261117P76812384": {
       "status": "En cours",
-      "provider": "Suivi du match r/ArabCup 17.11.2026, Koweït–Honduras 0–2 à 46', provisoire",
-      "sourceUrl": "https://www.reddit.com/r/ArabCup/comments/1xynxh2/prematch_thread_kuwait_vs_honduras_international/",
-      "checkedAt": "2026-11-17T17:35:54.000Z",
+      "provider": "Tennis Majors — fiche en direct Polona Hercog–Miriam Bulgaru, Live",
+      "sourceUrl": "https://www.tennismajors.com/matches/wta/lp-open-by-ind/polona-hercog-vs-miriam-bulgaru-2",
+      "checkedAt": "2026-11-17T18:34:34.112Z",
+      "statusBasis": "Jeux de deuxième set affichés : Hercog mène 1–0 en manches (7–6 puis 5–2 provisoire); score final non établi",
       "observedLive": true
     }
   }
