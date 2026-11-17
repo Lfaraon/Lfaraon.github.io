@@ -347,12 +347,13 @@
       "statusBasis": "Résultat final explicite Canada 4-1 Guatemala, 16 novembre 2026"
     },
     "recCal20261117P76582718": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-17T02:32:58.719Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final après prolongation",
+      "sourceUrl": "https://www.fotmob.com/matches/sacramento-republic-fc-vs-new-mexico-united/etmy0z8u",
+      "checkedAt": "2026-11-17T05:35:12.000Z",
       "observedLive": false,
-      "statusBasis": "Début horaire présumé; aucun score vérifié"
+      "statusBasis": "Résultat final 1-2 après prolongation vérifié sur la fiche précise FotMob",
+      "score": "1-2"
     },
     "rec2t43FYbIs6uk8G": {
       "status": "Terminé",
