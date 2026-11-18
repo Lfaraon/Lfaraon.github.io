@@ -3,6 +3,7 @@ import { recalculatedSelectionProbability, recalculatedTicketProbability, select
 
 const kinds = { simple: "Simple", combine: "Combiné", triple: "Triplé" };
 const hiddenPlayedTicketId = "LORO-2026-11-12-T002";
+const playedTicketSwap = ["PSF-2026-11-12-T002", "LORO-2026-11-12-T001"];
 const selectionOutcomes = { won: "Gagnée", lost: "Perdue", void: "Remboursée" };
 const decimal = new Intl.NumberFormat("fr-FR", {
   minimumFractionDigits: 2,
@@ -154,8 +155,7 @@ function metric(doc, label, value, outcome) {
   return item;
 }
 
-function renderTicket(doc, ticket, played, open) {
-  const listItem = element(doc, "li", "tsukuyomi-ticket-item");
+function createTicketCard(doc, ticket, played, open) {
   const card = element(doc, "article", "tsukuyomi-ticket");
   const header = element(doc, played ? "summary" : "header", "tsukuyomi-ticket-header");
   const heading = element(doc, played ? "span" : "div", "tsukuyomi-ticket-heading");
@@ -223,8 +223,7 @@ function renderTicket(doc, ticket, played, open) {
   const net = netAmount(ticket);
   if (Number.isFinite(net)) metrics.append(metric(doc, net < 0 ? "Perte nette" : "Gain net", formatChf(net, true), outcome));
   card.append(metrics);
-  listItem.append(card);
-  return listItem;
+  return card;
 }
 
 function isPublished(ticket) {
@@ -252,13 +251,18 @@ export function nextTicketKickoff(tickets, now = Date.now()) {
 
 export function ticketsForView(tickets, { view = "upcoming", now = Date.now() } = {}) {
   const played = view === "played";
-  return tickets.filter((ticket) => {
+  const ordered = tickets.filter((ticket) => {
     if (played && ticket.placed_at) return ticket.id !== hiddenPlayedTicketId;
     if (!isPublished(ticket)) return false;
     if (view === "latest") return true;
     const upcoming = !ticket.settlement && Number.isFinite(upcomingTicketKickoff(ticket, now));
     return played ? !upcoming : upcoming;
   }).sort((a, b) => Date.parse(ticketDate(b)) - Date.parse(ticketDate(a)));
+  if (played) {
+    const [first, second] = playedTicketSwap.map((id) => ordered.findIndex((ticket) => ticket.id === id));
+    if (first !== -1 && second !== -1) [ordered[first], ordered[second]] = [ordered[second], ordered[first]];
+  }
+  return ordered;
 }
 
 function renderFeed(mount, { tickets = [], status, onRetry, filtered, now }, { view, onViewAll }) {
@@ -298,7 +302,8 @@ function renderFeed(mount, { tickets = [], status, onRetry, filtered, now }, { v
     const list = element(doc, "ul", "tsukuyomi-ticket-list");
     const shown = onViewAll ? rows.slice(0, 4) : rows;
     for (const ticket of shown) {
-      const item = renderTicket(doc, ticket, played, openTickets.has(ticket.id));
+      const item = element(doc, "li", "tsukuyomi-ticket-item");
+      item.append(createTicketCard(doc, ticket, played, openTickets.has(ticket.id)));
       if (focusedTicket && focusedTicket === ticket.id) nextFocus = item.querySelector("summary");
       list.append(item);
     }
@@ -320,6 +325,10 @@ export function renderTickets(mount, data) {
 
 export function renderPlayedTickets(mount, data) {
   renderFeed(mount, data, { view: "played" });
+}
+
+export function renderFeaturedTicket(mount, ticket) {
+  mount.replaceChildren(createTicketCard(mount.ownerDocument, ticket, true, true));
 }
 
 export function renderLatestTickets(mount, { tickets, status, onRetry, onViewAll }) {
