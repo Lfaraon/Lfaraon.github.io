@@ -1,8 +1,9 @@
-import { formatChf, netAmount, referenceStake, summarize, ticketDate } from "./ledgerAccounting.js?rev=chf-charts";
+import { formatChf, netAmount, outcomeLabel, referenceStake, summarize, ticketDate } from "./ledgerAccounting.js?rev=chf-charts";
 import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=stats-auto";
 
 const rate = new Intl.NumberFormat("fr-CH", { style: "percent", maximumFractionDigits: 1 });
 const period = new Intl.DateTimeFormat("fr-CH", { month: "long", year: "numeric", timeZone: "Europe/Zurich" });
+const formatLabels = new Map([["simple", "Simples"], ["combine", "Combinés"], ["triple", "Triplés"]]);
 
 function element(doc, tag, className, text) {
   const node = doc.createElement(tag);
@@ -12,42 +13,59 @@ function element(doc, tag, className, text) {
 }
 
 function ledgerMetrics(tickets, totals) {
-  const { won, lost, void: refunded, pending, net, roi, winRate } = totals;
+  const { won, lost, pending, net, roi, winRate } = totals;
   const counted = won + lost;
-  const stake = counted * referenceStake;
-  const countedRow = ["Tickets comptabilisés", counted];
-  const stakeRow = ["Mises réglées", formatChf(stake)];
-  const outcomes = [["Gagnés", won], ["Perdus", lost]];
-  const pendingFormats = new Map([["simple", 0], ["combine", 0], ["triple", 0]]);
+  const losingStakes = lost * referenceStake;
+  const stakeRow = ["Mises réglées", formatChf(counted * referenceStake)];
+  const byFormat = new Map();
+  let noResults = 0;
+  let partialResults = 0;
+  let allResults = 0;
   for (const ticket of tickets) {
-    if (!Number.isFinite(netAmount(ticket)) && pendingFormats.has(ticket.kind)) {
-      pendingFormats.set(ticket.kind, pendingFormats.get(ticket.kind) + 1);
+    if (!Number.isFinite(netAmount(ticket))) {
+      const legs = ticket.legs ?? [];
+      const verified = legs.filter((leg) => Object.hasOwn(outcomeLabel, leg?.outcome)).length;
+      if (!verified) noResults += 1;
+      else if (verified < legs.length) partialResults += 1;
+      else allResults += 1;
+      continue;
     }
+    const outcome = ticket.settlement.outcome;
+    if (outcome !== "won" && outcome !== "lost") continue;
+    const label = formatLabels.get(ticket.kind) ?? "Autres formats";
+    if (!byFormat.has(label)) byFormat.set(label, { won: 0, counted: 0 });
+    const format = byFormat.get(label);
+    format.counted += 1;
+    if (outcome === "won") format.won += 1;
   }
+  const winRows = [...formatLabels.values(), "Autres formats"].flatMap((label) => {
+    const format = byFormat.get(label);
+    return format ? [[label, format.won + " / " + format.counted]] : [];
+  });
   const pendingRows = [
-    ["Simples", pendingFormats.get("simple")],
-    ["Combinés", pendingFormats.get("combine")],
-    ["Triplés", pendingFormats.get("triple")],
-  ];
-  const other = pending - pendingRows.reduce((sum, [, count]) => sum + count, 0);
-  if (other) pendingRows.push(["Autres formats", other]);
+    ["Aucun résultat confirmé", noResults],
+    ["Résultats partiels", partialResults],
+    ["Toutes les sélections réglées", allResults],
+  ].filter(([, count]) => count > 0);
   pendingRows.push(["Mises en attente", formatChf(pending * referenceStake)]);
+
+  const roiRows = [["Bilan net", formatChf(net, true)], stakeRow];
+  if (roi != null) roiRows.push([`Pour ${referenceStake} CHF misés`, formatChf(roi * referenceStake, true)]);
 
   return [
     ["net", "Bilan net", formatChf(net, true), [
-      countedRow, ...outcomes, stakeRow, ["Retours", formatChf(stake + net)],
+      ["Gains nets des tickets gagnés", formatChf(net + losingStakes, true)],
+      ["Mises perdues", formatChf(-losingStakes, true)],
     ]],
-    ["roi", "ROI", roi == null ? "—" : rate.format(roi), [
-      ["Bilan net", formatChf(net, true)], stakeRow, countedRow,
-    ]],
-    ["won", "Tickets gagnés", won + " / " + counted, [
-      ...outcomes, ["Remboursés", refunded],
-    ]],
+    ["roi", "ROI", roi == null ? "—" : rate.format(roi), roiRows],
+    ["won", "Tickets gagnés", won + " / " + counted, winRows],
     ["win-rate", "Taux de réussite", winRate == null ? "—" : rate.format(winRate), [
-      ...outcomes, countedRow,
+      ["Tickets gagnés", won], ["Tickets gagnés ou perdus", counted],
     ]],
     ["stake", "Mises réglées", stakeRow[1], [
-      ["Mise par ticket", formatChf(referenceStake)], countedRow, ["Mises remboursées", formatChf(refunded * referenceStake)],
+      ["Mise par ticket", formatChf(referenceStake)],
+      ["Sur les tickets gagnés", formatChf(won * referenceStake)],
+      ["Sur les tickets perdus", formatChf(losingStakes)],
     ]],
     ["pending", "Tickets en attente", pending, pendingRows],
   ];
@@ -77,7 +95,7 @@ function addMetrics(section, tickets, totals) {
       row.append(element(doc, "dt", "", name), element(doc, "dd", "", amount));
       breakdown.append(row);
     }
-    details.append(toggle, breakdown);
+    details.append(toggle, rows.length ? breakdown : element(doc, "p", "tsukuyomi-ticket-notice", "Aucun ticket réglé."));
     detailValue.append(details);
     card.append(element(doc, "dt", "tsukuyomi-ledger-label", label),
       element(doc, "dd", "tsukuyomi-ledger-value", value), detailValue);
