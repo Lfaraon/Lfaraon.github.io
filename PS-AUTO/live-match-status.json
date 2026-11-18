@@ -1181,12 +1181,22 @@
       "score": "1-0"
     },
     "recCal20261117P76812388": {
-      "status": "En cours",
-      "observedLive": true,
-      "checkedAt": "2026-11-18T01:43:20.476Z",
-      "provider": "Tennis Majors — fiche LP Open by IND, LIVE et point par point du 3e set",
+      "status": "Terminé",
+      "observedLive": false,
+      "checkedAt": "2026-11-18T02:37:33.000Z",
+      "provider": "Tennis Majors — fiche LP Open by IND 18.11.2026, Ended, résultat complet",
       "sourceUrl": "https://www.tennismajors.com/matches/wta/lp-open-by-ind/fernanda-labrana-vs-antonia-vergara-rivera",
-      "statusBasis": "Suivi LIVE confirmé sur fiche Tennis Majors: sets 6–1, 3–6 ; 3e set 1–0 Labraña avec points visibles (0:15, 15:15, 30:15, 40:15, 40:30, G:30). Scores provisoires, PAS de score final. La fiche affiche « 18 Nov/Third round », différent du kickoff 17.11 UTC de PS-AUTO; vérifier ce décalage, sans déduire de fin. Vérifié 2026-11-18T01:43:20.476Z"
+      "statusBasis": "Fin prouvée sur fiche détaillée tennismajors (Ended; Labrana bat Vergara Rivera 6–1 3–6 6–0).",
+      "score": "2-1",
+      "sets": "6-1, 3-6, 6-0"
+    },
+    "recCal20261118L89867": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-18T02:37:33.000Z",
+      "observedLive": false,
+      "statusBasis": "Kickoff 2026-11-18T02:30:00Z dépassé de 7 minutes; statut présumé uniquement par horaire, sans confirmation d'un coup d'envoi réel."
     }
   }
 }
