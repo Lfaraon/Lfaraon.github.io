@@ -3,11 +3,21 @@ import { createTicketFilters } from "./ticketFilters.js?rev=stats-auto";
 import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
 import { renderLedger } from "./ledger.js?rev=shared-motion";
 import { clearLedgerCharts } from "./ledgerCharts.js?rev=admin-brier";
+import { createScrollReveal } from "../tsukuyomi-scroll-reveal.js?rev=scroll-reveal";
 
 const tabsSelector = '[role="tablist"][aria-label="Navigation principale"] [role="tab"]';
 const latestSelector = 'section[aria-label="Derniers tickets"], section[data-tsukuyomi-latest]';
 const calendarSelector = 'section[aria-label="Calendrier des matchs"]';
 const nativeMetrics = 'section[aria-label="Indicateurs clés"]';
+const ledgerCards = ".tsukuyomi-ledger-metrics > div";
+const ticketCards = ".tsukuyomi-ticket-item";
+const calendarRows = `${calendarSelector} > .space-y-4 ul > li`;
+const scrollRevealSelectors = {
+  home: `${ledgerCards}, ${calendarRows}, [data-tsukuyomi-latest] ${ticketCards}`,
+  upcoming: ticketCards,
+  played: ticketCards,
+  statistics: `${ledgerCards}, [data-tsukuyomi-native-charts] .chart-panel`,
+};
 const historyUrl = new URL("./history.json?rev=ticket-review", import.meta.url);
 const initialTabs = new Map([
   ["calendrier", "Accueil"],
@@ -90,6 +100,9 @@ function connectDashboard(window, nonce, destination) {
   let lastStatisticsRender;
   let kickoffTimer;
   let activeView;
+  let activeContent;
+  let scrollReveal;
+  let scrollRevealQueued = false;
   let viewTransition;
   let revealingTitle;
   let dashboardRendered = false;
@@ -97,6 +110,17 @@ function connectDashboard(window, nonce, destination) {
   let showPlayed = false;
   let pendingTab = initialTabs.get(destination);
   let scrollToCalendar = destination === "calendrier";
+
+  function scheduleScrollReveal() {
+    if (!scrollReveal || scrollRevealQueued) return;
+    scrollRevealQueued = true;
+    window.requestAnimationFrame(() => {
+      scrollRevealQueued = false;
+      const elements = activeContent?.isConnected
+        ? activeContent.querySelectorAll(scrollRevealSelectors[activeView]) : [];
+      scrollReveal?.observe(elements);
+    });
+  }
 
   function stopTransitions() {
     viewTransition?.cancel();
@@ -125,6 +149,8 @@ function connectDashboard(window, nonce, destination) {
 
   function transitionTo(view, element) {
     const previousView = activeView;
+    if (element !== activeContent || view !== previousView) scheduleScrollReveal();
+    activeContent = element;
     if (view === previousView) return;
     activeView = view;
     stopTransitions();
@@ -344,6 +370,10 @@ function connectDashboard(window, nonce, destination) {
     port.onmessage = ({ data: message }) => {
       if (message?.type === "tsukuyomi:reveal-initial-title") {
         revealingTitle?.removeAttribute("data-reveal-pending");
+        if (!scrollReveal) {
+          scrollReveal = createScrollReveal(root);
+          scheduleScrollReveal();
+        }
         return;
       }
       if (message?.type !== "tsukuyomi:tickets" || !states.has(message.status) || !Array.isArray(message.tickets)) return;
@@ -356,7 +386,14 @@ function connectDashboard(window, nonce, destination) {
     reportRendered();
   }
 
-  new MutationObserver(syncDashboard).observe(root, {
+  new MutationObserver((records) => {
+    syncDashboard();
+    if (!scrollReveal || scrollRevealQueued) return;
+    const selector = scrollRevealSelectors[activeView];
+    const contentChanged = records.some(({ type, target }) => type === "childList"
+      && activeContent?.contains(target) && !target.closest?.(selector));
+    if (contentChanged) scheduleScrollReveal();
+  }).observe(root, {
     subtree: true,
     childList: true,
     characterData: true,
@@ -364,6 +401,11 @@ function connectDashboard(window, nonce, destination) {
     attributeFilter: ["aria-selected"],
   });
   loadHistory();
+  window.addEventListener("pagehide", ({ persisted }) => {
+    if (persisted) return;
+    scrollReveal?.disconnect();
+    scrollReveal = undefined;
+  });
   window.addEventListener("message", acceptChannel);
   window.parent.postMessage({ type: "tsukuyomi:ready", nonce }, parentOrigin);
   return () => {

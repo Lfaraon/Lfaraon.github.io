@@ -83,6 +83,21 @@
 .tsukuyomi-reveal > .tsukuyomi-reveal-text { display: block; }
 
 @media (prefers-reduced-motion: no-preference) {
+  [data-tsukuyomi-scroll-state="pending"]:not(:focus-within) {
+    opacity: .25;
+    filter: blur(6px);
+  }
+
+  [data-tsukuyomi-scroll-state="entering"]:not(:focus-within) {
+    animation: tsukuyomi-scroll-in 600ms var(--tsukuyomi-scroll-delay, 0ms)
+      cubic-bezier(.25, .25, .35, 1) both;
+  }
+
+  @keyframes tsukuyomi-scroll-in {
+    from { opacity: .25; filter: blur(6px); }
+    to { opacity: 1; filter: blur(0); }
+  }
+
   .tsukuyomi-iris-rotating::after {
     animation: tsukuyomi-iris-rotate var(--tsukuyomi-iris-turn-duration, 16s) linear infinite;
   }
