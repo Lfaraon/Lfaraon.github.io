@@ -1,4 +1,4 @@
-import { buildLedgerSeries } from "./ledgerSeries.js?rev=probability-replay";
+import { buildLedgerSeries } from "./ledgerSeries.js?rev=admin-brier";
 
 const views = new WeakMap();
 let moduleRequest;
@@ -6,7 +6,7 @@ let loadAttempts = 0;
 
 function loadNativeCharts() {
   if (!moduleRequest) {
-    const url = new URL("./nativeChartsRuntime.js?rev=landing-unified", import.meta.url);
+    const url = new URL("./nativeChartsRuntime.js?rev=admin-brier", import.meta.url);
     if (loadAttempts) url.searchParams.set("retry", String(loadAttempts));
     moduleRequest = import(url.href).catch((error) => {
       moduleRequest = undefined;
@@ -28,7 +28,7 @@ export function renderLedgerCharts(section, tickets, totals) {
   const host = doc.createElement("div");
   host.dataset.tsukuyomiNativeCharts = "";
   const view = {};
-  const model = buildLedgerSeries(tickets);
+  const model = buildLedgerSeries(tickets, { includeBrier: false });
   views.set(section, view);
   section.append(host);
 

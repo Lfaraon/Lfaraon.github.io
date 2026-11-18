@@ -209,7 +209,7 @@ function isPublished(ticket) {
   return typeof ticket?.published_at === "string" && Number.isFinite(Date.parse(ticket.published_at));
 }
 
-function upcomingKickoff(ticket, now) {
+export function upcomingTicketKickoff(ticket, now = Date.now()) {
   if (!Array.isArray(ticket.legs) || !ticket.legs.length) return Infinity;
   let firstKickoff = Infinity;
   for (const leg of ticket.legs) {
@@ -223,7 +223,7 @@ function upcomingKickoff(ticket, now) {
 export function nextTicketKickoff(tickets, now = Date.now()) {
   let next = Infinity;
   for (const ticket of tickets) {
-    if (isPublished(ticket)) next = Math.min(next, upcomingKickoff(ticket, now));
+    if (isPublished(ticket)) next = Math.min(next, upcomingTicketKickoff(ticket, now));
   }
   return next;
 }
@@ -234,7 +234,7 @@ export function ticketsForView(tickets, { view = "upcoming", now = Date.now() } 
     if (played && ticket.placed_at) return true;
     if (!isPublished(ticket)) return false;
     if (view === "latest") return true;
-    const upcoming = !ticket.settlement && Number.isFinite(upcomingKickoff(ticket, now));
+    const upcoming = !ticket.settlement && Number.isFinite(upcomingTicketKickoff(ticket, now));
     return played ? !upcoming : upcoming;
   }).sort((a, b) => Date.parse(ticketDate(b)) - Date.parse(ticketDate(a)));
 }

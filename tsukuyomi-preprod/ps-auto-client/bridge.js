@@ -1,8 +1,8 @@
-import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=ticket-probability-label";
+import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=admin-brier";
 import { createTicketFilters } from "./ticketFilters.js?rev=stats-auto";
 import { deduplicateTickets } from "./ticketIdentity.js?rev=tsukuyomi-portfolio";
-import { renderLedger } from "./ledger.js?rev=probability-replay";
-import { clearLedgerCharts } from "./ledgerCharts.js?rev=probability-replay";
+import { renderLedger } from "./ledger.js?rev=admin-brier";
+import { clearLedgerCharts } from "./ledgerCharts.js?rev=admin-brier";
 
 const tabsSelector = '[role="tablist"][aria-label="Navigation principale"] [role="tab"]';
 const latestSelector = 'section[aria-label="Derniers tickets"], section[data-tsukuyomi-latest]';

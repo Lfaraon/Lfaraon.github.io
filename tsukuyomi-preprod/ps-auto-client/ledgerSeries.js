@@ -65,7 +65,7 @@ function brierFor(tickets) {
   return { count, score: count ? total / count : null };
 }
 
-export function buildLedgerSeries(tickets) {
+export function buildLedgerSeries(tickets, { includeBrier = true } = {}) {
   const days = new Map();
   const sports = new Map();
   const selectionScores = new Map();
@@ -76,7 +76,9 @@ export function buildLedgerSeries(tickets) {
     if (!Number.isFinite(timestamp)) continue;
     const day = dayOf(timestamp);
     if (settled.has(ticket.settlement?.outcome)) addTo(days, day, ticket);
-    for (const score of selectionBrierScores(ticket)) addTo(selectionScores, day, score);
+    if (includeBrier) {
+      for (const score of selectionBrierScores(ticket)) addTo(selectionScores, day, score);
+    }
   }
 
   let net = 0;
@@ -95,8 +97,10 @@ export function buildLedgerSeries(tickets) {
       day, net, won, lost, roi: stake ? net / stake : null,
       dayWon: daily.won, dayLost: daily.lost, dayVoid: daily.void,
     });
-    const { score, count } = brierFor(dailyTickets);
-    if (count) brier.push({ day, score, count });
+    if (includeBrier) {
+      const { score, count } = brierFor(dailyTickets);
+      if (count) brier.push({ day, score, count });
+    }
   }
 
   const bySport = [...sports.values()].sort((a, b) => a.sport.localeCompare(b.sport, "fr-CH"))
