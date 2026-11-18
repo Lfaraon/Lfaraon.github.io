@@ -51,7 +51,7 @@
 
 .tsukuyomi-mark,
 .tsukuyomi-iris {
-  background: url("./tsukuyomi-eye.svg?rev=eye-sharingan") center / 100% auto no-repeat;
+  background: url("./tsukuyomi-eye.svg?rev=iris-macro") center / 100% auto no-repeat;
 }
 
 .tsukuyomi-mark {
@@ -67,11 +67,9 @@
 .tsukuyomi-mark::after,
 .tsukuyomi-iris::after {
   aspect-ratio: 1;
-  background: #11090a;
+  background: url("./tsukuyomi-sharingan.svg?rev=iris-macro") center / contain no-repeat;
   content: "";
   left: 50%;
-  -webkit-mask: url("./tsukuyomi-sharingan.svg?rev=eye-sharingan") center / contain no-repeat;
-  mask: url("./tsukuyomi-sharingan.svg?rev=eye-sharingan") center / contain no-repeat;
   position: absolute;
   top: 50%;
   translate: -50% -50%;
