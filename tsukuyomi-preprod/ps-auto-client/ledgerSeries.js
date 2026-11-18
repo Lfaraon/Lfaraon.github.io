@@ -1,6 +1,6 @@
 import { referenceStake, selectionOutcome, summarize, ticketDate } from "./ledgerAccounting.js?rev=stats-auto";
-import { archivedTicketForecast, ticketProbability } from "./ticketForecasts.js?rev=probability-display";
-import { selectionBrierScores } from "./selectionBrier.js?rev=probability-display";
+import { archivedTicketForecast, ticketProbability } from "./ticketForecasts.js?rev=probability-replay";
+import { selectionBrierScores } from "./selectionBrier.js?rev=probability-replay";
 
 const swissCalendar = new Intl.DateTimeFormat("fr-CH", {
   year: "numeric",

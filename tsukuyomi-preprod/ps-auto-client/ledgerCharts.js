@@ -1,4 +1,4 @@
-import { buildLedgerSeries } from "./ledgerSeries.js?rev=probability-display";
+import { buildLedgerSeries } from "./ledgerSeries.js?rev=probability-replay";
 
 const views = new WeakMap();
 let moduleRequest;

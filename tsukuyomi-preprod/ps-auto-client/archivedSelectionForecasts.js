@@ -21,6 +21,9 @@ export const archivedSelectionForecasts = new Map([
     ["Bianca Andreescu – Rebeka Masarova", "Bianca Andreescu vainqueure", 64],
   ]],
   ["LORO-2026-11-11-T001", [
+    // PSAUTO-2026-11-11-141414-05D2/analyse_matchs/data_freeze.json,
+    // event 89728, price-independent home_win.central, frozen at 14:22:53Z.
+    ["FK Zeleziarne Podbrezova – FC Vion Zlate Moravce", "FK Zeleziarne Podbrezova vainqueur", 61.676],
     ["Juventus F – Lyon F", "Juventus F – Lyon F Under4.5 buts (match)", 85.247],
   ]],
   ["LORO-2026-11-12-T001", [
@@ -44,6 +47,12 @@ export const archivedSelectionForecasts = new Map([
     ["Estonie – Bulgarie", "Bulgarie +2.0 (handicap 1X2)", 89.1],
     ["Albacete Balompié – Celta Vigo B", "Albacete Balompié moins de 2.5 buts (équipe)", 87.5],
     ["Grèce – Serbie", "Serbie +3.0 (handicap 1X2)", 93.2],
+  ]],
+  // PSF-2026-11-06-234140-2846/analyse_matchs/analysis.md, C1 and C2.
+  // The RICH_DATA_MODEL_ENGINE_V1 matrix was frozen before placement on 7 Nov.
+  ["PSF-2026-11-07-T001", [
+    ["GIF Sundsvall – Varbergs BoIS", "Varbergs BoIS : moins de 3,5 buts", 87.6],
+    ["Borussia Dortmund – SV 07 Elversberg", "Borussia Dortmund : moins de 3,5 buts", 85.4],
   ]],
   // Exact ticket mappings in n3 and ZTicketRunnerMap, in the played-ticket order.
   ["PSF-2026-11-07-T002", [

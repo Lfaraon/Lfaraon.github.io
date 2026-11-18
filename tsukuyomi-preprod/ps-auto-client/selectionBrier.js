@@ -1,4 +1,4 @@
-import { selectionProbability } from "./ticketForecasts.js?rev=probability-display";
+import { selectionProbability } from "./ticketForecasts.js?rev=probability-replay";
 import { selectionOutcome } from "./ledgerAccounting.js?rev=stats-auto";
 
 export function selectionBrierScores(ticket) {

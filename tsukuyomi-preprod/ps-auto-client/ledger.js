@@ -1,5 +1,5 @@
 import { formatChf, netAmount, outcomeLabel, referenceStake, summarize } from "./ledgerAccounting.js?rev=chf-charts";
-import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=probability-display";
+import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=probability-replay";
 
 const rate = new Intl.NumberFormat("fr-CH", { style: "percent", maximumFractionDigits: 1 });
 const formatLabels = new Map([["simple", "Simples"], ["combine", "Combinés"], ["triple", "Triplés"]]);

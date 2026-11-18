@@ -1,5 +1,5 @@
 import { formatChf, netAmount, outcomeLabel, referenceStake, ticketDate } from "./ledgerAccounting.js?rev=chf-charts";
-import { selectionProbability, ticketProbability } from "./ticketForecasts.js?rev=probability-display";
+import { recalculatedSelectionProbability, recalculatedTicketProbability, selectionProbability, ticketProbability } from "./ticketForecasts.js?rev=probability-replay";
 
 const kinds = { simple: "Simple", combine: "Combiné", triple: "Triplé" };
 const selectionOutcomes = { won: "Gagnée", lost: "Perdue", void: "Remboursée" };
@@ -121,7 +121,9 @@ function renderLeg(doc, leg, index, ticket, played, settled) {
   const facts = element(doc, "div", "tsukuyomi-ticket-leg-facts");
   const measurements = [];
   if (Number.isFinite(leg.odds)) measurements.push(["Cote", decimal.format(leg.odds)]);
-  measurements.push(["Prob. estimée", formatProbability(selectionProbability(ticket, leg))]);
+  const recorded = selectionProbability(ticket, leg);
+  const recalculated = recorded === null ? recalculatedSelectionProbability(ticket, leg) : null;
+  measurements.push([recalculated === null ? "Prob. estimée" : "Prob. recalculée", formatProbability(recorded ?? recalculated)]);
   const metrics = element(doc, "p", "tsukuyomi-ticket-measurement");
   for (const [label, value] of measurements) {
     const pair = element(doc, "span", "", label + " ");
@@ -184,8 +186,11 @@ function renderTicket(doc, ticket, played) {
   if (!legs.length) legList.append(element(doc, "li", "tsukuyomi-ticket-meta", "Sélections non renseignées"));
   card.append(legList);
 
-  const probability = element(doc, "p", "tsukuyomi-ticket-probability", "Probabilité du ticket · ");
-  probability.append(element(doc, "strong", "", formatProbability(ticketProbability(ticket))));
+  const recorded = ticketProbability(ticket);
+  const recalculated = recorded === null ? recalculatedTicketProbability(ticket) : null;
+  const probability = element(doc, "p", "tsukuyomi-ticket-probability",
+    recalculated === null ? "Probabilité du ticket · " : "Probabilité recalculée · ");
+  probability.append(element(doc, "strong", "", formatProbability(recorded ?? recalculated)));
   card.append(probability);
 
   const metrics = element(doc, "dl", "tsukuyomi-ticket-odds");

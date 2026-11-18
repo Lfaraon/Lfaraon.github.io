@@ -143,7 +143,7 @@ export async function startPsAutoDashboard(document = globalThis.document) {
   root.dataset.psAutoSource = latest ? "latest" : "fallback";
 
   try {
-    await import("./bridge.js?rev=probability-display");
+    await import("./bridge.js?rev=probability-replay");
     await Promise.all(release.styles.map((href) => {
       const link = document.createElement("link");
       link.rel = "stylesheet";
