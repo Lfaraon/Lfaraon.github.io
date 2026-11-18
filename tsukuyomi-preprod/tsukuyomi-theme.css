@@ -68,7 +68,7 @@
   background: var(--tsukuyomi-sharingan-ink, var(--tsukuyomi-mark-background, var(--tsukuyomi-bg)));
   content: "";
   inset: var(--tsukuyomi-sharingan-inset, 0);
-  -webkit-mask: url("./tsukuyomi-sharingan.svg") center / contain no-repeat;
-  mask: url("./tsukuyomi-sharingan.svg") center / contain no-repeat;
+  -webkit-mask: url("./tsukuyomi-sharingan.svg?rev=rotating-sharingan") center / contain no-repeat;
+  mask: url("./tsukuyomi-sharingan.svg?rev=rotating-sharingan") center / contain no-repeat;
   position: absolute;
 }
