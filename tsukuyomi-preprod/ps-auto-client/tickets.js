@@ -28,7 +28,7 @@ const kickoffDate = new Intl.DateTimeFormat("fr-CH", {
 });
 
 function formatProbability(value) {
-  return value === null ? "Indisponible" : percentage.format(value) + "\u00a0%";
+  return value === null ? "—" : percentage.format(value) + "\u00a0%";
 }
 
 function element(doc, tag, className, text) {
@@ -121,9 +121,8 @@ function renderLeg(doc, leg, index, ticket, played, settled) {
   const facts = element(doc, "div", "tsukuyomi-ticket-leg-facts");
   const measurements = [];
   if (Number.isFinite(leg.odds)) measurements.push(["Cote", decimal.format(leg.odds)]);
-  const recorded = selectionProbability(ticket, leg);
-  const recalculated = recorded === null ? recalculatedSelectionProbability(ticket, leg) : null;
-  measurements.push([recalculated === null ? "Prob. estimée" : "Prob. recalculée", formatProbability(recorded ?? recalculated)]);
+  const estimate = selectionProbability(ticket, leg) ?? recalculatedSelectionProbability(ticket, leg);
+  measurements.push(["Prob. estimée", formatProbability(estimate)]);
   const metrics = element(doc, "p", "tsukuyomi-ticket-measurement");
   for (const [label, value] of measurements) {
     const pair = element(doc, "span", "", label + " ");
@@ -186,11 +185,9 @@ function renderTicket(doc, ticket, played) {
   if (!legs.length) legList.append(element(doc, "li", "tsukuyomi-ticket-meta", "Sélections non renseignées"));
   card.append(legList);
 
-  const recorded = ticketProbability(ticket);
-  const recalculated = recorded === null ? recalculatedTicketProbability(ticket) : null;
-  const probability = element(doc, "p", "tsukuyomi-ticket-probability",
-    recalculated === null ? "Probabilité du ticket · " : "Probabilité recalculée · ");
-  probability.append(element(doc, "strong", "", formatProbability(recorded ?? recalculated)));
+  const estimate = ticketProbability(ticket) ?? recalculatedTicketProbability(ticket);
+  const probability = element(doc, "p", "tsukuyomi-ticket-probability", "Probabilité du ticket · ");
+  probability.append(element(doc, "strong", "", formatProbability(estimate)));
   card.append(probability);
 
   const metrics = element(doc, "dl", "tsukuyomi-ticket-odds");

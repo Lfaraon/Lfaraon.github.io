@@ -1,4 +1,4 @@
-import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=probability-replay";
+import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=ticket-probability-label";
 import { createTicketFilters } from "./ticketFilters.js?rev=stats-auto";
 import { deduplicateTickets } from "./ticketIdentity.js?rev=tsukuyomi-portfolio";
 import { renderLedger } from "./ledger.js?rev=probability-replay";
