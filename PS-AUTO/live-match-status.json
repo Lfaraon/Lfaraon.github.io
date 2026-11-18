@@ -1241,6 +1241,22 @@
       "checkedAt": "2026-11-18T15:36:51.477Z",
       "observedLive": true,
       "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/strakhova-v-tikhonova-a-vs-burillo-escorihuela-i-zolotareva-a-2026-11-18"
+    },
+    "recCal20261118L91187": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-18T16:46:31.000Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Transition à l'heure prévue du coup d'envoi 18.11.2026 16:45 UTC, début non observé en direct, aucun score vérifié"
+    },
+    "recCal20261118L91186": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-18T16:46:31.000Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Transition à l'heure prévue du coup d'envoi 18.11.2026 16:45 UTC, début non observé en direct, aucun score vérifié"
     }
   }
 }
