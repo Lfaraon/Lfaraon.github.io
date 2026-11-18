@@ -1155,11 +1155,12 @@
     },
     "recCal20261118P76438860": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-18T01:38:03.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Sky Sports — fiche Équateur–Bolivie, Match ends 2-0; second half ends (17.11.2026)",
+      "checkedAt": "2026-11-18T01:41:55.706Z",
+      "sourceUrl": "https://www.skysports.com/football/ecuador-vs-bolivia/live/578902",
       "observedLive": false,
-      "statusBasis": "Clôture présumée à +120 minutes du kickoff; score final non vérifié"
+      "statusBasis": "Score final confirmé sur fiche de match spécifique (Match ends, Ecuador 2, Bolivia 0)",
+      "score": "2-0"
     },
     "recCal20261118P76482478": {
       "status": "Terminé",
