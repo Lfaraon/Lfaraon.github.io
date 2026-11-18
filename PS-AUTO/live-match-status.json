@@ -1374,20 +1374,22 @@
       "statusBasis": "Résultat final confirmé par le compte rendu détaillé LaLiga."
     },
     "recCal20261118P76516978": {
-      "status": "En cours",
-      "provider": "LaLiga — direct officiel, deuxième prolongation observée à 1–1 (score provisoire)",
-      "checkedAt": "2026-11-18T21:47:11.269Z",
+      "status": "Terminé",
+      "provider": "Cadena SER Radio Cartagena — résultat final après prolongation 18.11.2026",
+      "checkedAt": "2026-11-18T22:38:18.011Z",
       "observedLive": true,
-      "sourceUrl": "https://www.laliga.com/partido/temporada-2026-2027-copa-del-rey-deportiva-minera-fc-cartagena-3",
-      "statusBasis": "Direct réellement observé sur la fiche LaLiga : prolongation en cours à 1–1 (score provisoire) ; la clôture présumée selon l'horaire a été annulée."
+      "sourceUrl": "https://cadenaser.com/murcia/2026/11/18/el-efese-se-lleva-el-derbi-y-pasa-a-la-siguiente-ronda-de-copa-del-rey-radio-cartagena/",
+      "statusBasis": "Résultat final prouvé : Minera 1–2 Cartagena, Da Costa 115e minute ; pas une clôture basée uniquement sur l'horaire.",
+      "score": "1-2"
     },
     "recCal20261118P76516980": {
-      "status": "En cours",
-      "provider": "LaLiga — direct officiel, prolongation observée à 1–1 (score provisoire)",
-      "checkedAt": "2026-11-18T21:47:11.269Z",
+      "status": "Terminé",
+      "provider": "YSScores — résultat final après prolongation et tirs au but 18.11.2026",
+      "checkedAt": "2026-11-18T22:38:18.011Z",
       "observedLive": true,
-      "sourceUrl": "https://www.laliga.com/partido/temporada-2026-2027-copa-del-rey-reus-fc-reddis-barakaldo-cf-3",
-      "statusBasis": "Direct réellement observé sur la fiche LaLiga : prolongation en cours à 1–1 (score provisoire) ; la clôture présumée selon l'horaire a été annulée."
+      "sourceUrl": "https://www.ysscores.com/en/match/6386077/Reus-FC-Reddis-vs-Barakaldo-CF",
+      "statusBasis": "Match terminé : 1–1 après prolongation ; Reus Reddis gagne 4–3 aux tirs au but (séance distincte du score de la rencontre).",
+      "score": "1-1"
     },
     "recCal20261118P76736462": {
       "status": "Terminé",
@@ -1400,18 +1402,30 @@
       "statusBasis": "Correction de lecture du tableau de score dynamique : 6-7(6-8), 0-6, Tiafoe vainqueur 2-0. Ancienne transcription 5-7, 6-7 invalide. Confirmé Guardian + RaiNews."
     },
     "recCal20261118L90904": {
-      "status": "En cours",
-      "provider": "The Guardian — live UEFA Women’s Champions League, 26e minute",
+      "status": "Terminé",
+      "provider": "UEFA Women's Champions League — résultat final officiel 18.11.2026",
       "observedLive": true,
-      "checkedAt": "2026-11-18T20:33:52.296Z",
-      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/18/chelsea-v-paris-saint-germain-psg-womens-champions-league-live-score-updates"
+      "checkedAt": "2026-11-18T22:38:18.011Z",
+      "sourceUrl": "https://www.uefa.com/womenschampionsleague/match/2050565--chelsea-vs-paris-sg/",
+      "score": "1-0",
+      "statusBasis": "Résultat final UEFA 1–0, but Veerle Buurman ; confirmé par compte rendu officiel de la 5e journée."
     },
     "recCal20261118L90907": {
-      "status": "En cours",
-      "provider": "FussballHeute — fiche dynamique, 89e minute, Juventus 1–0 OH Leuven (provisoire)",
+      "status": "Terminé",
+      "provider": "UEFA Women's Champions League — résultat final officiel 18.11.2026",
       "observedLive": true,
-      "checkedAt": "2026-11-18T21:47:11.269Z",
-      "sourceUrl": "https://www.fussballheute.de/livescore/4938550832222818922-juventus-vs-oh-leuven"
+      "checkedAt": "2026-11-18T22:38:18.011Z",
+      "sourceUrl": "https://www.uefa.com/womenschampionsleague/match/2050567--juventus-vs-oh-leuven/",
+      "score": "2-0",
+      "statusBasis": "Résultat final UEFA 2–0, buts Serturini et Pavan ; confirmé par compte rendu officiel de la 5e journée."
+    },
+    "recCal20261118P66887172": {
+      "status": "En cours",
+      "provider": "FotMob — chrono réel 0:48 et score provisoire observés 18.11.2026",
+      "checkedAt": "2026-11-18T22:38:18.011Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/en-GB/matches/santos-vs-coritiba/2rhvtw",
+      "statusBasis": "Début réel observé sur la fiche FotMob, affichage du temps de jeu et score provisoire 0–0 ; score final non renseigné."
     }
   }
 }
