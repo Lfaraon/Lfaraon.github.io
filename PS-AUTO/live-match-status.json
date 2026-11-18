@@ -1329,17 +1329,17 @@
       "observedLive": false
     },
     "recCal20261118P76482550": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
-      "checkedAt": "2026-11-18T18:41:12.520Z",
+      "checkedAt": "2026-11-18T20:33:52.296Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261118P76661768": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
-      "checkedAt": "2026-11-18T18:41:12.520Z",
+      "checkedAt": "2026-11-18T20:33:52.296Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261118P76682270": {
@@ -1376,6 +1376,27 @@
       "checkedAt": "2026-11-18T19:38:58.036Z",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261118P76736462": {
+      "status": "En cours",
+      "provider": "Eurosport — commentaire direct ATP Finals, 1er set 3-3, points 30-0",
+      "observedLive": true,
+      "checkedAt": "2026-11-18T20:33:52.296Z",
+      "sourceUrl": "https://www.eurosport.fr/tennis/atp-finals/2026/flavio-cobolli-frances-tiafoe_mtc22079864/live-commentary.shtml"
+    },
+    "recCal20261118L90904": {
+      "status": "En cours",
+      "provider": "The Guardian — live UEFA Women’s Champions League, 26e minute",
+      "observedLive": true,
+      "checkedAt": "2026-11-18T20:33:52.296Z",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/18/chelsea-v-paris-saint-germain-psg-womens-champions-league-live-score-updates"
+    },
+    "recCal20261118L90907": {
+      "status": "En cours",
+      "provider": "Dailysports — score live Juventus–OH Leuven, 10e minute; Reddit match thread 21e min",
+      "observedLive": true,
+      "checkedAt": "2026-11-18T20:33:52.296Z",
+      "sourceUrl": "https://dailysports.net/predictions/can-juventus-respond-to-their-lyon-humiliation-juventus-vs-oh-leuven-prediction-18112026/"
     }
   }
 }
