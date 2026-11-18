@@ -2,9 +2,9 @@ import { formatChf, netAmount, outcomeLabel, referenceStake, ticketDate } from "
 
 const kinds = { simple: "Simple", combine: "Combiné", triple: "Triplé" };
 const selectionOutcomes = { won: "Gagnée", lost: "Perdue", void: "Remboursée" };
-const decimal = new Intl.NumberFormat("fr-CH", {
+const decimal = new Intl.NumberFormat("fr-FR", {
   minimumFractionDigits: 2,
-  maximumFractionDigits: 4,
+  maximumFractionDigits: 2,
 });
 const percentage = new Intl.NumberFormat("fr-CH", { maximumFractionDigits: 1 });
 const publicationDate = new Intl.DateTimeFormat("fr-CH", {
@@ -98,31 +98,35 @@ function statusChip(doc, className, label, outcome) {
 function renderLeg(doc, leg, index, ticket, played, settled) {
   const item = element(doc, "li", "tsukuyomi-ticket-leg");
   const content = element(doc, "div", "tsukuyomi-ticket-leg-content");
-  const number = element(doc, "span", "tsukuyomi-ticket-leg-number", (index + 1) + ".");
+  const number = element(doc, "span", "tsukuyomi-ticket-leg-number", index + 1);
   number.setAttribute("aria-hidden", "true");
   item.append(number, content);
-  const event = element(doc, "p", "tsukuyomi-ticket-meta", leg.event);
+  const fixture = element(doc, "div", "tsukuyomi-ticket-fixture");
+  fixture.append(element(doc, "span", "tsukuyomi-ticket-event", leg.event));
   const kickoff = time(doc, leg.starts_at, kickoffDate);
-  if (kickoff) event.append(" · ", kickoff);
-  content.append(event);
+  if (kickoff) fixture.append(" ", kickoff);
+  content.append(fixture);
 
   const [market, choice] = selectionParts(leg, ticket.sport);
   const selection = element(doc, "p", "tsukuyomi-ticket-selection");
-  if (market) {
-    const separator = element(doc, "span", "tsukuyomi-ticket-selection-separator", "·");
-    separator.setAttribute("aria-hidden", "true");
-    selection.append(element(doc, "span", "tsukuyomi-ticket-market", market), separator);
-  }
   selection.append(element(doc, "span", "tsukuyomi-ticket-choice", choice));
+  if (market) selection.append(" ", element(doc, "span", "tsukuyomi-ticket-market", market));
   content.append(selection);
 
+  const facts = element(doc, "div", "tsukuyomi-ticket-leg-facts");
   const measurements = [];
-  if (Number.isFinite(leg.odds)) measurements.push("Cote " + decimal.format(leg.odds));
+  if (Number.isFinite(leg.odds)) measurements.push(["Cote", decimal.format(leg.odds)]);
   if (Number.isFinite(leg.probability_pct)) {
-    measurements.push("Prob. estimée " + percentage.format(leg.probability_pct) + " %");
+    measurements.push(["Prob. estimée", percentage.format(leg.probability_pct) + "\u00a0%"]);
   }
   if (measurements.length) {
-    content.append(element(doc, "p", "tsukuyomi-ticket-measurement", measurements.join(" · ")));
+    const metrics = element(doc, "p", "tsukuyomi-ticket-measurement");
+    for (const [label, value] of measurements) {
+      const pair = element(doc, "span", "", label + " ");
+      pair.append(element(doc, "strong", "", value));
+      metrics.append(pair, " ");
+    }
+    facts.append(metrics);
   }
   const outcome = Object.hasOwn(selectionOutcomes, leg.outcome) ? leg.outcome : null;
   const score = typeof leg.score === "string" && leg.score.trim();
@@ -134,8 +138,10 @@ function renderLeg(doc, leg, index, ticket, played, settled) {
       result.append(statusChip(doc, "tsukuyomi-ticket-leg-status", label, outcome));
     }
     if (score) result.append(element(doc, "span", "tsukuyomi-ticket-score", score));
-    content.append(result);
+    if (facts.childElementCount) facts.append(" ");
+    facts.append(result);
   }
+  if (facts.childElementCount) content.append(facts);
   return item;
 }
 
@@ -178,28 +184,20 @@ function renderTicket(doc, ticket, played) {
   if (!legs.length) legList.append(element(doc, "li", "tsukuyomi-ticket-meta", "Sélections non renseignées"));
   card.append(legList);
 
-  const breakdown = Object.keys(selectionOutcomes).map((result) => [result, legs.filter((leg) => leg.outcome === result).length]);
-  const verified = breakdown.reduce((count, [, amount]) => count + amount, 0);
-  if (verified) {
-    const outcomes = breakdown.filter(([, amount]) => amount).map(([result, amount]) => {
-      return amount + " " + selectionOutcomes[result].toLowerCase() + (amount === 1 ? "" : "s");
-    });
-    card.append(element(doc, "p", "tsukuyomi-ticket-summary", `${verified}/${legs.length} vérifiée${verified === 1 ? "" : "s"} · ${outcomes.join(", ")}`));
-  }
   if (Number.isFinite(ticket.probability_pct)) {
     card.append(element(doc, "p", "tsukuyomi-ticket-probability", `Probabilité du ticket · ${percentage.format(ticket.probability_pct)} %`));
   }
 
   const metrics = element(doc, "dl", "tsukuyomi-ticket-odds");
-  metrics.append(metric(doc, "Mise de référence", formatChf(referenceStake)));
   const odds = Number.isFinite(ticket.odds) ? decimal.format(ticket.odds) : "—";
   metrics.append(metric(doc, "Cote totale", odds));
-  const net = netAmount(ticket);
-  if (Number.isFinite(net)) metrics.append(metric(doc, net < 0 ? "Perte nette" : "Gain net", formatChf(net, true), outcome));
   const payoutOdds = ticket.settlement?.payout_odds;
   if (outcome === "won" && Number.isFinite(payoutOdds) && payoutOdds >= 1 && decimal.format(payoutOdds) !== odds) {
     metrics.append(metric(doc, "Cote réglée", decimal.format(payoutOdds)));
   }
+  metrics.append(metric(doc, "Mise de référence", formatChf(referenceStake)));
+  const net = netAmount(ticket);
+  if (Number.isFinite(net)) metrics.append(metric(doc, net < 0 ? "Perte nette" : "Gain net", formatChf(net, true), outcome));
   card.append(metrics);
   listItem.append(card);
   return listItem;

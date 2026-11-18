@@ -1,8 +1,7 @@
-import { formatChf, netAmount, outcomeLabel, referenceStake, summarize, ticketDate } from "./ledgerAccounting.js?rev=chf-charts";
+import { formatChf, netAmount, outcomeLabel, referenceStake, summarize } from "./ledgerAccounting.js?rev=chf-charts";
 import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=landing-unified";
 
 const rate = new Intl.NumberFormat("fr-CH", { style: "percent", maximumFractionDigits: 1 });
-const period = new Intl.DateTimeFormat("fr-CH", { month: "long", year: "numeric", timeZone: "Europe/Zurich" });
 const formatLabels = new Map([["simple", "Simples"], ["combine", "Combinés"], ["triple", "Triplés"]]);
 
 function element(doc, tag, className, text) {
@@ -104,44 +103,6 @@ function addMetrics(section, tickets, totals) {
   return { grid, nextFocus };
 }
 
-function addBreakdown(section, tickets) {
-  const doc = section.ownerDocument;
-  const months = new Map();
-  for (const ticket of [...tickets].sort((a, b) => Date.parse(ticketDate(b)) - Date.parse(ticketDate(a)))) {
-    const date = Date.parse(ticketDate(ticket));
-    const month = Number.isFinite(date) ? period.format(date) : "Date inconnue";
-    if (!months.has(month)) months.set(month, []);
-    months.get(month).push(ticket);
-  }
-  if (!months.size) return;
-
-  const wrapper = element(doc, "div", "tsukuyomi-ledger-table-wrap");
-  wrapper.tabIndex = 0;
-  wrapper.setAttribute("role", "region");
-  wrapper.setAttribute("aria-label", "Bilan par mois");
-  const table = element(doc, "table", "tsukuyomi-ledger-table");
-  table.append(element(doc, "caption", "", "Bilan par mois"));
-  const heading = table.createTHead().insertRow();
-  for (const label of ["Mois", "Gagnés", "Perdus", "Remboursés", "En attente", "Net", "ROI"]) {
-    const th = element(doc, "th", "", label);
-    th.scope = "col";
-    heading.append(th);
-  }
-  const body = table.createTBody();
-  for (const [month, rows] of months) {
-    const row = body.insertRow();
-    const label = element(doc, "th", "", month);
-    label.scope = "row";
-    row.append(label);
-    const { won, lost, void: refunded, pending, net, roi } = summarize(rows);
-    for (const value of [won, lost, refunded, pending, formatChf(net, true), roi == null ? "—" : rate.format(roi)]) {
-      row.insertCell().textContent = value;
-    }
-  }
-  wrapper.append(table);
-  section.append(wrapper);
-}
-
 export function renderLedger(section, { status, tickets, onRetry }, detail = false) {
   clearLedgerCharts(section);
   const doc = section.ownerDocument;
@@ -166,8 +127,5 @@ export function renderLedger(section, { status, tickets, onRetry }, detail = fal
   contents.push(grid);
   section.replaceChildren(...contents);
   nextFocus?.focus({ preventScroll: true });
-  if (detail) {
-    renderLedgerCharts(section, tickets, totals);
-    addBreakdown(section, tickets);
-  }
+  if (detail) renderLedgerCharts(section, tickets, totals);
 }

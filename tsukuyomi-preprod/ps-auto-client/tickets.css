@@ -84,15 +84,13 @@ article.tsukuyomi-ticket {
 .tsukuyomi-ticket-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   gap: 8px;
 }
 
 .tsukuyomi-ticket-heading {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 2px 8px;
+  display: grid;
+  gap: 3px;
   min-width: 0;
 }
 
@@ -157,8 +155,7 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
   background: var(--tsukuyomi-panel);
 }
 
-.tsukuyomi-ledger-label,
-.tsukuyomi-ledger-table thead {
+.tsukuyomi-ledger-label {
   color: var(--colors-foregroundMuted);
   font-size: 13px;
 }
@@ -233,36 +230,6 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
   font-variant-numeric: tabular-nums;
 }
 
-.tsukuyomi-ledger-table-wrap {
-  margin-top: 20px;
-  overflow-x: auto;
-  border: 1px solid var(--tsukuyomi-accent-border);
-  border-radius: var(--tsukuyomi-card-radius);
-  background: var(--tsukuyomi-panel);
-}
-
-.tsukuyomi-ledger-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 14px;
-  font-variant-numeric: tabular-nums;
-}
-
-.tsukuyomi-ledger-table caption {
-  padding: 12px;
-  text-align: left;
-  font: 700 1.25rem/1.1 var(--tsukuyomi-display);
-}
-
-.tsukuyomi-ledger-table :is(th, td) {
-  padding: 10px 12px;
-  border-top: 1px solid var(--tsukuyomi-border);
-  text-align: right;
-  white-space: nowrap;
-}
-
-.tsukuyomi-ledger-table th:first-child { text-align: left; }
-
 @media (min-width: 768px) {
   .tsukuyomi-ledger-metrics { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
@@ -272,95 +239,111 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 }
 
 .tsukuyomi-ticket-legs {
-  display: grid;
-  gap: 10px;
   margin: 12px 0 0;
   padding: 0;
+  border-top: 1px solid var(--tsukuyomi-border);
   list-style: none;
 }
 
+.tsukuyomi-ticket-legs > li { padding-block: 10px; }
+.tsukuyomi-ticket-legs > li + li { border-top: 1px solid var(--tsukuyomi-border); }
+
 .tsukuyomi-ticket-leg {
   display: grid;
-  grid-template-columns: 16px minmax(0, 1fr);
+  grid-template-columns: 22px minmax(0, 1fr);
   align-items: start;
-  gap: 8px;
+  gap: 9px;
   overflow-wrap: anywhere;
 }
 
-.tsukuyomi-ticket-leg[data-outcome="lost"] {
-  border-inline-start: 2px solid var(--ticket-lost);
-  padding-inline-start: 6px;
-}
-
 .tsukuyomi-ticket-leg-number {
-  color: var(--colors-foregroundMuted);
-  font-size: 12px;
-  font-variant-numeric: tabular-nums;
-  text-align: end;
-}
-
-.tsukuyomi-ticket-leg-content {
-  min-width: 0;
-}
-
-.tsukuyomi-ticket-selection {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  column-gap: 6px;
-  margin: 2px 0 0;
-  color: var(--colors-foreground);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.35;
-}
-
-.tsukuyomi-ticket-market {
-  color: var(--colors-primary);
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.tsukuyomi-ticket-selection-separator {
-  color: var(--colors-foregroundMuted);
-  font-size: 12px;
-}
-
-.tsukuyomi-ticket-measurement {
-  margin-top: 2px;
-  color: var(--colors-primary);
+  display: grid;
+  min-height: 22px;
+  place-items: center;
+  border: 1px solid var(--tsukuyomi-border);
+  border-radius: var(--tsukuyomi-control-radius);
+  color: var(--tsukuyomi-muted);
   font-size: 11px;
-  font-weight: 500;
+  font-weight: 650;
   font-variant-numeric: tabular-nums;
 }
 
+.tsukuyomi-ticket-leg[data-outcome="lost"] .tsukuyomi-ticket-leg-number {
+  border-color: color-mix(in srgb, var(--ticket-lost) 40%, var(--tsukuyomi-border));
+  color: var(--ticket-lost);
+}
+
+.tsukuyomi-ticket-leg-content { min-width: 0; }
+
+.tsukuyomi-ticket-fixture,
+.tsukuyomi-ticket-selection,
+.tsukuyomi-ticket-leg-facts,
+.tsukuyomi-ticket-measurement,
 .tsukuyomi-ticket-leg-result {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 4px 8px;
-  margin-top: 3px;
 }
 
-.tsukuyomi-ticket-score,
-.tsukuyomi-ticket-summary,
-.tsukuyomi-ticket-probability {
-  color: var(--colors-foregroundMuted);
+.tsukuyomi-ticket-fixture {
+  gap: 2px 9px;
+  color: var(--tsukuyomi-muted);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.tsukuyomi-ticket-event { color: var(--tsukuyomi-ink); font-weight: 550; }
+.tsukuyomi-ticket-fixture time { white-space: nowrap; }
+
+.tsukuyomi-ticket-selection {
+  gap: 1px 8px;
+  margin: 3px 0 0;
+  color: var(--tsukuyomi-ink);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.tsukuyomi-ticket-market {
+  color: var(--tsukuyomi-muted);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.tsukuyomi-ticket-leg-facts {
+  gap: 5px 14px;
+  margin-top: 6px;
+}
+
+.tsukuyomi-ticket-measurement {
+  gap: 2px 10px;
+  color: var(--tsukuyomi-muted);
   font-size: 12px;
   font-variant-numeric: tabular-nums;
 }
 
-.tsukuyomi-ticket-summary,
-.tsukuyomi-ticket-probability { margin-top: 10px; }
-.tsukuyomi-ticket-probability { color: var(--colors-primary); font-weight: 550; }
+.tsukuyomi-ticket-measurement span { white-space: nowrap; }
+.tsukuyomi-ticket-measurement strong { color: var(--tsukuyomi-ink); font-weight: 650; }
+.tsukuyomi-ticket-leg-result { gap: 3px 7px; }
+
+.tsukuyomi-ticket-score,
+.tsukuyomi-ticket-probability {
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.tsukuyomi-ticket-score { color: var(--tsukuyomi-ink); font-weight: 600; }
+.tsukuyomi-ticket-probability { color: var(--tsukuyomi-muted); }
 
 .tsukuyomi-ticket-odds {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 6px 8px;
-  margin-top: 12px;
-  padding-top: 10px;
-  border-top: 1px solid var(--colors-border);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 90px), 1fr));
+  gap: 8px 10px;
+  margin: 6px 0 0;
+  padding: 9px 10px;
+  border: 1px solid var(--tsukuyomi-border);
+  border-radius: var(--tsukuyomi-control-radius);
+  background: color-mix(in srgb, var(--tsukuyomi-bg) 55%, transparent);
   font-variant-numeric: tabular-nums;
 }
 
@@ -375,8 +358,8 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 
 .tsukuyomi-ticket-metric dd {
   margin-top: 2px;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .tsukuyomi-tickets-latest {
@@ -419,13 +402,10 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 
 @media (min-width: 1024px) {
   .tsukuyomi-ticket-meta,
+  .tsukuyomi-ticket-fixture,
   .tsukuyomi-ticket-market,
-  .tsukuyomi-ticket-summary,
   .tsukuyomi-ticket-probability,
   .tsukuyomi-ticket-metric dt { font-size: 13px; }
-
-  .tsukuyomi-ticket-selection,
-  .tsukuyomi-ticket-metric dd { font-size: 15px; }
 
   .tsukuyomi-tickets-page .tsukuyomi-ticket-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
