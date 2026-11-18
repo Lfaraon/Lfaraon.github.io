@@ -2,6 +2,7 @@ import { formatChf, netAmount, outcomeLabel, referenceStake, ticketDate } from "
 import { recalculatedSelectionProbability, recalculatedTicketProbability, selectionProbability, ticketProbability } from "./ticketForecasts.js?rev=probability-replay";
 
 const kinds = { simple: "Simple", combine: "Combiné", triple: "Triplé" };
+const hiddenPlayedTicketId = "LORO-2026-11-12-T002";
 const selectionOutcomes = { won: "Gagnée", lost: "Perdue", void: "Remboursée" };
 const decimal = new Intl.NumberFormat("fr-FR", {
   minimumFractionDigits: 2,
@@ -252,7 +253,7 @@ export function nextTicketKickoff(tickets, now = Date.now()) {
 export function ticketsForView(tickets, { view = "upcoming", now = Date.now() } = {}) {
   const played = view === "played";
   return tickets.filter((ticket) => {
-    if (played && ticket.placed_at) return true;
+    if (played && ticket.placed_at) return ticket.id !== hiddenPlayedTicketId;
     if (!isPublished(ticket)) return false;
     if (view === "latest") return true;
     const upcoming = !ticket.settlement && Number.isFinite(upcomingTicketKickoff(ticket, now));
