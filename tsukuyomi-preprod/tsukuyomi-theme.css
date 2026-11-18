@@ -49,28 +49,33 @@
   white-space: nowrap;
 }
 
+.tsukuyomi-mark,
+.tsukuyomi-iris {
+  background: url("./tsukuyomi-eye.svg?rev=eye-sharingan") center / 100% auto no-repeat;
+}
+
 .tsukuyomi-mark {
   --mark-size: var(--tsukuyomi-mark-size, 23px);
-  --tsukuyomi-sharingan-inset: 1px;
-  background: var(--tsukuyomi-accent);
-  background: radial-gradient(circle at 32% 24%, color-mix(in srgb, var(--tsukuyomi-accent) 84%, var(--tsukuyomi-ink)), var(--tsukuyomi-accent) 62%, color-mix(in srgb, var(--tsukuyomi-accent) 70%, var(--tsukuyomi-bg)));
-  border-radius: 50%;
+  --mark-width: calc(var(--mark-size) * 1.24);
   display: inline-block;
-  flex: 0 0 var(--mark-size);
+  flex: 0 0 var(--mark-width);
   height: var(--mark-size);
-  overflow: hidden;
   position: relative;
-  width: var(--mark-size);
+  width: var(--mark-width);
 }
 
 .tsukuyomi-mark::after,
 .tsukuyomi-iris::after {
-  background: var(--tsukuyomi-sharingan-ink, var(--tsukuyomi-mark-background, var(--tsukuyomi-bg)));
+  aspect-ratio: 1;
+  background: #11090a;
   content: "";
-  inset: var(--tsukuyomi-sharingan-inset, 0);
-  -webkit-mask: url("./tsukuyomi-sharingan.svg?rev=rotating-sharingan") center / contain no-repeat;
-  mask: url("./tsukuyomi-sharingan.svg?rev=rotating-sharingan") center / contain no-repeat;
+  left: 50%;
+  -webkit-mask: url("./tsukuyomi-sharingan.svg?rev=eye-sharingan") center / contain no-repeat;
+  mask: url("./tsukuyomi-sharingan.svg?rev=eye-sharingan") center / contain no-repeat;
   position: absolute;
+  top: 50%;
+  translate: -50% -50%;
+  width: 50%;
 }
 
 .tsukuyomi-reveal {

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120">
+  <defs>
+    <path id="opening" d="M7 63C32 37 64 15 100 15c37 0 67 16 93 42-25 28-55 47-94 47C63 104 32 85 7 63Z"/>
+    <clipPath id="lids"><use href="#opening"/></clipPath>
+    <linearGradient id="sclera" x2="0%" y2="100%">
+      <stop stop-color="#0c0b0d"/>
+      <stop offset=".54" stop-color="#282227"/>
+      <stop offset="1" stop-color="#151215"/>
+    </linearGradient>
+    <radialGradient id="iris" cx="50%" cy="54%" r="52%" fx="56%" fy="65%">
+      <stop stop-color="#bd4c24"/>
+      <stop offset=".48" stop-color="#ce5a2b"/>
+      <stop offset=".76" stop-color="#9c3d21"/>
+      <stop offset=".93" stop-color="#542419"/>
+      <stop offset="1" stop-color="#251413"/>
+    </radialGradient>
+    <linearGradient id="shadow" x2="0%" y2="100%">
+      <stop stop-color="#090708" stop-opacity=".93"/>
+      <stop offset=".56" stop-color="#090708" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#090708" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="upper">
+      <stop stop-color="#49302e"/>
+      <stop offset=".52" stop-color="#dc8452"/>
+      <stop offset="1" stop-color="#72432e"/>
+    </linearGradient>
+    <linearGradient id="lower">
+      <stop stop-color="#583632"/>
+      <stop offset=".54" stop-color="#9e5c3d"/>
+      <stop offset="1" stop-color="#56322c"/>
+    </linearGradient>
+  </defs>
+  <path d="M8 54C34 27 65 9 105 9c35 0 65 16 84 37" fill="none" stroke="#412822" stroke-opacity=".65" stroke-width="1.2"/>
+  <use href="#opening" fill="url(#sclera)"/>
+  <g clip-path="url(#lids)">
+    <circle cx="100" cy="60" r="50" fill="url(#iris)" stroke="#171012" stroke-width="2"/>
+    <path d="M5 13h190v76H5z" fill="url(#shadow)"/>
+    <circle cx="100" cy="60" r="14" fill="#11090a"/>
+    <path d="M82 36c3-3 8-5 13-5 2 0 3 2 1 3l-11 6c-3 1-5-1-3-4Z" fill="#ffd0a9" opacity=".9"/>
+    <circle cx="113" cy="69" r="1.7" fill="#ed9c65" opacity=".65"/>
+  </g>
+  <path d="M7 63c25 22 56 41 92 41 39 0 69-19 94-47" fill="none" stroke="url(#lower)" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M7 63C32 37 64 15 100 15c37 0 67 16 93 42" fill="none" stroke="#110d10" stroke-width="6.5" stroke-linecap="round"/>
+  <path d="M7 63C32 37 64 15 100 15c37 0 67 16 93 42" fill="none" stroke="url(#upper)" stroke-width="2.8" stroke-linecap="round"/>
+</svg>
