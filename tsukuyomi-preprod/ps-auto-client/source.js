@@ -142,8 +142,10 @@ export async function startPsAutoDashboard(document = globalThis.document) {
   root.dataset.psAutoRelease = release.revision;
   root.dataset.psAutoSource = latest ? "latest" : "fallback";
 
+  let reportRendered;
   try {
-    await import("./bridge.js?rev=shared-landing-ticket");
+    const bridge = await import("./bridge.js?rev=space-transitions");
+    reportRendered = bridge.markDashboardRendered;
     await Promise.all(release.styles.map((href) => {
       const link = document.createElement("link");
       link.rel = "stylesheet";
@@ -171,4 +173,5 @@ export async function startPsAutoDashboard(document = globalThis.document) {
     root.style.setProperty("display", "none", "important");
     showRetry(status, "L’espace Tsukuyomi est temporairement indisponible.", page);
   }
+  reportRendered?.();
 }

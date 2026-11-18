@@ -54,6 +54,7 @@ function connectDashboard(window, nonce, destination) {
   const { document, MutationObserver } = window;
   const root = document.getElementById("root");
   const parentOrigin = new URL(window.location.href).origin;
+  const reducedMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)");
   const page = document.createElement("main");
   page.dataset.tsukuyomiPronostics = "";
   const tickets = ticketFeed();
@@ -88,9 +89,41 @@ function connectDashboard(window, nonce, destination) {
   let lastSummaryRender;
   let lastStatisticsRender;
   let kickoffTimer;
+  let activeView;
+  let viewTransition;
+  let dashboardRendered = false;
+  let renderedMessageQueued = false;
   let showPlayed = false;
   let pendingTab = initialTabs.get(destination);
   let scrollToCalendar = destination === "calendrier";
+
+  reducedMotion?.addEventListener?.("change", ({ matches }) => {
+    if (matches) viewTransition?.cancel();
+  });
+
+  function transitionTo(view, element) {
+    const previousView = activeView;
+    if (view === previousView) return;
+    activeView = view;
+    viewTransition?.cancel();
+    if (!previousView || reducedMotion?.matches) return;
+    const switchingTicketView = (previousView === "upcoming" && view === "played")
+      || (previousView === "played" && view === "upcoming");
+    const content = switchingTicketView ? tickets : element;
+    viewTransition = content.animate?.([
+      { opacity: 0.65, transform: "translateY(5px)" },
+      { opacity: 1, transform: "translateY(0)" },
+    ], { duration: 180, easing: "cubic-bezier(0.2, 0.65, 0.3, 1)" });
+  }
+
+  function reportRendered() {
+    if (!dashboardRendered || !port || renderedMessageQueued) return;
+    renderedMessageQueued = true;
+    // A frame can paint the updated DOM before the parent uncovers the iframe.
+    window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(() => port.postMessage({ type: "tsukuyomi:rendered" }));
+    });
+  }
 
   function tabByName(name) {
     return Array.from(root.querySelectorAll(tabsSelector))
@@ -243,6 +276,10 @@ function connectDashboard(window, nonce, destination) {
     for (const dialog of document.querySelectorAll('[role="dialog"][aria-modal="true"]')) removePlatforms(dialog);
     if (root.hidden) root.hidden = false;
 
+    if (inPronostics) transitionTo(showPlayed ? "played" : "upcoming", page);
+    else if (inStatistics) transitionTo("statistics", statistics);
+    else if (inHome) transitionTo("home", originalMain);
+
     if (scrollToCalendar && inHome) {
       if (calendar) {
         scrollToCalendar = false;
@@ -285,6 +322,7 @@ function connectDashboard(window, nonce, destination) {
       syncDashboard();
       scheduleUpcomingRefresh();
     };
+    reportRendered();
   }
 
   new MutationObserver(syncDashboard).observe(root, {
@@ -297,10 +335,14 @@ function connectDashboard(window, nonce, destination) {
   loadHistory();
   window.addEventListener("message", acceptChannel);
   window.parent.postMessage({ type: "tsukuyomi:ready", nonce }, parentOrigin);
+  return () => {
+    dashboardRendered = true;
+    reportRendered();
+  };
 }
 
 const params = new URLSearchParams(window.location.hash.slice(1));
 const nonce = params.get("nonce");
-if (window.parent !== window && nonce) {
-  connectDashboard(window, nonce, params.get("tab"));
-}
+export const markDashboardRendered = window.parent !== window && nonce
+  ? connectDashboard(window, nonce, params.get("tab"))
+  : () => {};
