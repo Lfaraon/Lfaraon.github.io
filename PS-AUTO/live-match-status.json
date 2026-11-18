@@ -1306,18 +1306,20 @@
       "rescheduledKickoff": "2026-11-19T13:00:00.000Z"
     },
     "recCal20261118L90906": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "provider": "Manchester City FC — suivi officiel FT le 18.11.2026; résultat 0-2 confirmé par Aftonbladet",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-18T17:45:26.008Z"
+      "sourceUrl": "https://www.mancity.com/matchday/fixtures/womens/2026/uefa-wcl/haecken-women-v-city-18-nov-2026",
+      "checkedAt": "2026-11-18T19:45:52.077Z",
+      "score": "0-2"
     },
     "recCal20261118L90905": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "provider": "Sky Sports — commentaire live actualisé 'Match ends', résultat final Real Madrid 3-1 Inter le 18.11.2026",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-18T17:45:26.008Z"
+      "sourceUrl": "https://www.skysports.com/football/real-madrid-women-vs-inter-milan-women/578271",
+      "checkedAt": "2026-11-18T19:45:52.077Z",
+      "score": "3-1"
     },
     "recCal20261118P76878812": {
       "status": "Annulé",
