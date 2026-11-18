@@ -1224,6 +1224,20 @@
       "sourceUrl": "https://www.theguardian.com/sport/live/2026/nov/18/carlos-alcaraz-v-daniil-medvedev-atp-finals-tennis-group-stage-live",
       "score": "2-0",
       "sets": "6-2, 6-4"
+    },
+    "recCal20261118P76682264": {
+      "status": "En cours",
+      "provider": "TennisTemple — points et jeux observés en direct",
+      "checkedAt": "2026-11-18T15:36:51.477Z",
+      "observedLive": true,
+      "sourceUrl": "https://fr.tennistemple.com/match/maristany-zuleta-de-reales-costoulas-colina-2026/9570680/"
+    },
+    "recCal20261118P76878816": {
+      "status": "En cours",
+      "provider": "Tennis.com — statistiques de jeux et de service actualisées",
+      "checkedAt": "2026-11-18T15:36:51.477Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/strakhova-v-tikhonova-a-vs-burillo-escorihuela-i-zolotareva-a-2026-11-18"
     }
   }
 }
