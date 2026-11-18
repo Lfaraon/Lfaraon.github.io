@@ -1390,13 +1390,13 @@
     },
     "recCal20261118P76736462": {
       "status": "Terminé",
-      "provider": "Tennis.com — ATP Finals, fiche dynamique Completed, 18.11.2026",
+      "provider": "Tennis.com — Completed, sets 6-7(6-8), 0-6; Guardian et RaiNews confirment",
       "observedLive": true,
-      "checkedAt": "2026-11-18T21:34:50.306Z",
+      "checkedAt": "2026-11-18T21:39:17.849Z",
       "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/f-cobolli-vs-f-tiafoe-2026-11-18",
       "score": "0-2",
-      "sets": "5-7, 6-7",
-      "statusBasis": "Résultat final prouvé, sets dans l'ordre Cobolli puis Tiafoe."
+      "sets": "6-7(6-8), 0-6",
+      "statusBasis": "Correction de lecture du tableau de score dynamique : 6-7(6-8), 0-6, Tiafoe vainqueur 2-0. Ancienne transcription 5-7, 6-7 invalide. Confirmé Guardian + RaiNews."
     },
     "recCal20261118L90904": {
       "status": "En cours",
