@@ -1,0 +1,184 @@
+.tsukuyomi-ledger > .tsukuyomi-charts {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.tsukuyomi-chart {
+  --chart-accent: var(--tsukuyomi-accent);
+  --chart-won: oklch(76% .14 151);
+  --chart-lost: oklch(71% .15 27);
+  --chart-void: oklch(71% .015 260);
+  --chart-pending: oklch(75% .15 77);
+  min-width: 0;
+  padding: clamp(14px, 2vw, 20px);
+  border: 1px solid var(--tsukuyomi-border);
+  border-radius: var(--tsukuyomi-radius);
+  background: var(--tsukuyomi-wash), var(--tsukuyomi-surface);
+}
+
+.tsukuyomi-chart-title {
+  margin: 0;
+  color: var(--tsukuyomi-ink);
+  font: 700 clamp(1.32rem, 2.5vw, 1.65rem)/1.12 var(--tsukuyomi-display);
+}
+
+.tsukuyomi-chart-note,
+.tsukuyomi-chart-empty,
+.tsukuyomi-chart-bar-detail {
+  margin-top: 6px;
+  color: var(--tsukuyomi-muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.tsukuyomi-charts-period { grid-column: 1 / -1; margin: 0; }
+
+.tsukuyomi-chart-plot {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 12px;
+  overflow: visible;
+}
+
+.tsukuyomi-chart-plot text {
+  fill: var(--tsukuyomi-muted);
+  font: 12.5px var(--tsukuyomi-body);
+  font-variant-numeric: tabular-nums;
+}
+
+.tsukuyomi-chart-gridline { stroke: var(--tsukuyomi-border); }
+.tsukuyomi-chart-area { fill: var(--chart-accent); opacity: .13; }
+.tsukuyomi-chart-line { fill: none; stroke: var(--chart-accent); stroke-width: 2.25; }
+.tsukuyomi-chart-marker { stroke: var(--tsukuyomi-muted); stroke-dasharray: 3 4; opacity: .6; }
+.tsukuyomi-chart-dot { fill: var(--chart-accent); stroke: var(--tsukuyomi-bg); stroke-width: 1.5; }
+
+.tsukuyomi-chart [data-outcome="won"] { --bar-color: var(--chart-won); }
+.tsukuyomi-chart [data-outcome="lost"] { --bar-color: var(--chart-lost); }
+.tsukuyomi-chart [data-outcome="void"] { --bar-color: var(--chart-void); }
+.tsukuyomi-chart [data-outcome="pending"] { --bar-color: var(--chart-pending); }
+.tsukuyomi-chart rect { fill: var(--bar-color); }
+
+.tsukuyomi-chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  padding: 0;
+  color: var(--tsukuyomi-muted);
+  font-size: 12px;
+  list-style: none;
+}
+
+.tsukuyomi-chart-legend li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tsukuyomi-chart-legend li::before {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: var(--bar-color);
+  content: "";
+}
+
+.tsukuyomi-chart-scrubber {
+  display: block;
+  width: 100%;
+  min-height: 24px;
+  margin-top: 4px;
+  appearance: none;
+  border-radius: var(--tsukuyomi-control-radius);
+  background: transparent;
+  cursor: pointer;
+}
+
+.tsukuyomi-chart-scrubber::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--tsukuyomi-border);
+}
+
+.tsukuyomi-chart-scrubber::-moz-range-track {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--tsukuyomi-border);
+}
+
+.tsukuyomi-chart-scrubber::-webkit-slider-thumb {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  margin-top: -5px;
+  border-radius: 50%;
+  background: var(--chart-accent);
+}
+
+.tsukuyomi-chart-scrubber::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--chart-accent);
+}
+
+.tsukuyomi-chart-scrubber:focus-visible {
+  outline: 2px solid var(--chart-accent);
+  outline-offset: 3px;
+}
+
+.tsukuyomi-chart-readout {
+  margin-top: 4px;
+  color: var(--tsukuyomi-ink);
+  font-size: 13px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.tsukuyomi-chart-bars {
+  display: grid;
+  gap: 14px;
+  margin-top: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.tsukuyomi-chart-bar-label {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  color: var(--tsukuyomi-ink);
+  font-size: 14px;
+}
+
+.tsukuyomi-chart-bar-track {
+  height: 7px;
+  margin-top: 5px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: var(--tsukuyomi-surface-raised);
+}
+
+.tsukuyomi-chart-bar-fill {
+  display: block;
+  width: var(--bar);
+  height: 100%;
+  border-radius: inherit;
+  background: var(--bar-color, var(--chart-accent));
+}
+
+@media (min-width: 768px) {
+  .tsukuyomi-ledger > .tsukuyomi-charts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .tsukuyomi-chart:last-child { grid-column: 1 / -1; }
+  .tsukuyomi-chart:last-child .tsukuyomi-chart-bars {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

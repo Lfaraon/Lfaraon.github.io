@@ -1,46 +1,8 @@
-const number = new Intl.NumberFormat("fr-CH", { maximumFractionDigits: 2, signDisplay: "exceptZero" });
+import { formatChf, referenceStake, summarize, ticketDate } from "./ledgerAccounting.js?rev=chf-charts";
+import { renderLedgerCharts } from "./ledgerCharts.js?rev=chf-charts";
+
 const rate = new Intl.NumberFormat("fr-CH", { style: "percent", maximumFractionDigits: 1 });
 const period = new Intl.DateTimeFormat("fr-CH", { month: "long", year: "numeric", timeZone: "Europe/Zurich" });
-const stake = new Intl.NumberFormat("fr-CH");
-
-export const referenceStake = 100;
-export const outcomeLabel = { won: "Gagné", lost: "Perdu", void: "Remboursé" };
-
-export function ticketDate(ticket) {
-  return ticket.placed_at || ticket.published_at;
-}
-
-export function netUnits(ticket) {
-  const { outcome, payout_odds } = ticket.settlement ?? {};
-  if (outcome === "won") return referenceStake * ((payout_odds ?? ticket.odds) - 1);
-  if (outcome === "lost") return -referenceStake;
-  if (outcome === "void") return 0;
-  return null;
-}
-
-export function formatUnits(units) {
-  return Number.isFinite(units) ? number.format(units) + " u" : "—";
-}
-
-export function summarize(tickets) {
-  const totals = { won: 0, lost: 0, void: 0, pending: 0, net: 0, roi: null, winRate: null };
-  for (const ticket of tickets) {
-    const outcome = ticket.settlement?.outcome;
-    const units = netUnits(ticket);
-    if (!Number.isFinite(units)) {
-      totals.pending += 1;
-      continue;
-    }
-    totals[outcome] += 1;
-    totals.net += units;
-  }
-  const staked = totals.won + totals.lost;
-  if (staked) {
-    totals.roi = totals.net / (referenceStake * staked);
-    totals.winRate = totals.won / staked;
-  }
-  return totals;
-}
 
 function element(doc, tag, className, text) {
   const node = doc.createElement(tag);
@@ -79,7 +41,7 @@ function addBreakdown(section, tickets) {
     label.scope = "row";
     row.append(label);
     const { won, lost, void: refunded, pending, net, roi } = summarize(rows);
-    for (const value of [won, lost, refunded, pending, formatUnits(net), roi == null ? "—" : rate.format(roi)]) {
+    for (const value of [won, lost, refunded, pending, formatChf(net, true), roi == null ? "—" : rate.format(roi)]) {
       row.insertCell().textContent = value;
     }
   }
@@ -107,11 +69,11 @@ export function renderLedger(section, { status, tickets, onRetry }, detail = fal
 
   const totals = summarize(tickets);
   const metrics = [
-    ["Bilan net", formatUnits(totals.net)],
+    ["Bilan net", formatChf(totals.net, true)],
     ["ROI", totals.roi == null ? "—" : rate.format(totals.roi)],
     ["Tickets gagnés", totals.won + " / " + (totals.won + totals.lost)],
     ["Taux de réussite", totals.winRate == null ? "—" : rate.format(totals.winRate)],
-    ["Mises réglées", stake.format(referenceStake * (totals.won + totals.lost)) + " u"],
+    ["Mises réglées", formatChf(referenceStake * (totals.won + totals.lost))],
     ["Tickets en attente", String(totals.pending)],
   ];
   const grid = element(doc, "dl", "tsukuyomi-ledger-metrics");
@@ -121,7 +83,10 @@ export function renderLedger(section, { status, tickets, onRetry }, detail = fal
     grid.append(card);
   }
   contents.push(grid, element(doc, "p", "tsukuyomi-ledger-note",
-    `Historique Tsukuyomi et tickets publiés. Mise de référence de ${referenceStake} unités par ticket. Le ROI et le taux de réussite portent sur les tickets gagnés ou perdus.`));
+    `Historique Tsukuyomi et tickets publiés. Mise de référence de ${formatChf(referenceStake)} par ticket. Le ROI et le taux de réussite portent sur les tickets gagnés ou perdus.`));
   section.replaceChildren(...contents);
-  if (detail) addBreakdown(section, tickets);
+  if (detail) {
+    renderLedgerCharts(section, tickets, totals);
+    addBreakdown(section, tickets);
+  }
 }

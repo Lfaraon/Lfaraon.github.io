@@ -1,4 +1,4 @@
-import { formatUnits, netUnits, outcomeLabel, referenceStake, ticketDate } from "./ledger.js?rev=tsukuyomi-portfolio";
+import { formatChf, netAmount, outcomeLabel, referenceStake, ticketDate } from "./ledgerAccounting.js?rev=chf-charts";
 
 const kinds = { simple: "Simple", combine: "Combiné", triple: "Triplé" };
 const decimal = new Intl.NumberFormat("fr-CH", {
@@ -92,12 +92,12 @@ function renderTicket(doc, ticket, played) {
 
   const metrics = element(doc, "dl", "tsukuyomi-ticket-odds");
   metrics.append(metric(doc, "Cote totale", Number.isFinite(ticket.odds) ? decimal.format(ticket.odds) : "—"));
-  metrics.append(metric(doc, "Mise de référence", referenceStake + " u"));
+  metrics.append(metric(doc, "Mise de référence", formatChf(referenceStake)));
   if (Number.isFinite(ticket.probability_pct)) {
     metrics.append(metric(doc, "Probabilité estimée", percentage.format(ticket.probability_pct) + " %"));
   }
-  const units = netUnits(ticket);
-  if (played && Number.isFinite(units)) metrics.append(metric(doc, "Bilan net", formatUnits(units)));
+  const net = netAmount(ticket);
+  if (played && Number.isFinite(net)) metrics.append(metric(doc, "Bilan net", formatChf(net, true)));
   if (played && Number.isFinite(ticket.settlement?.payout_odds) && ticket.settlement.payout_odds !== ticket.odds) {
     metrics.append(metric(doc, "Cote réglée", decimal.format(ticket.settlement.payout_odds)));
   }
