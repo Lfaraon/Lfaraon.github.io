@@ -1198,6 +1198,14 @@
       "observedLive": true,
       "statusBasis": "Score final 1–0 prouvé par match-thread FT pour retour du 17/18 novembre 2026 ; Jesús Corona 35', fin 90+6.",
       "score": "1-0"
+    },
+    "recCal20261118P76736468": {
+      "status": "En cours",
+      "provider": "Tennis.com — fiche interactive, points en direct",
+      "checkedAt": "2026-11-18T10:43:21.785Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/harrison-c-skupski-n-vs-bolelli-s-vavassori-a-2026-11-18",
+      "statusBasis": "Début réel vérifié sur fiche dynamique : 1er jeu à 0-0, points 15-0 pour Harrison/Skupski (score provisoire)"
     }
   }
 }
