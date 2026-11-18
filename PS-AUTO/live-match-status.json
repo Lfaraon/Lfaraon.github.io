@@ -1137,19 +1137,21 @@
     },
     "recCal20261118P76281536": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-18T01:38:03.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "eScore — fiche Argentine–Costa Rica, ended 7:0 (17.11.2026)",
+      "checkedAt": "2026-11-18T01:40:35.938Z",
+      "sourceUrl": "https://escore.com/en/en/game/argentina-costa-rica/711796/summary",
       "observedLive": false,
-      "statusBasis": "Clôture présumée à +120 minutes du kickoff; score final non vérifié"
+      "statusBasis": "Score final du match identifié et vérifié sur source spécifique; non déduit de l'heure.",
+      "score": "7-0"
     },
     "recCal20261118P76123794": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-18T01:38:03.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "BioBioChile — compte rendu de fin du match Chile–Colombia 0-0 (17.11.2026)",
+      "checkedAt": "2026-11-18T01:40:35.938Z",
+      "sourceUrl": "https://www.biobiochile.cl/noticias/deportes/futbol/la-roja/2026/11/17/amistoso-chile-colombia-estadio-monumental.shtml",
       "observedLive": false,
-      "statusBasis": "Clôture présumée à +120 minutes du kickoff; score final non vérifié"
+      "statusBasis": "Score final du match identifié et vérifié sur source spécifique; non déduit de l'heure.",
+      "score": "0-0"
     },
     "recCal20261118P76438860": {
       "status": "Terminé",
@@ -1161,19 +1163,21 @@
     },
     "recCal20261118P76482478": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-18T01:38:03.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "r/soccer — Match Thread Uruguay–République dominicaine, Full Time et buts (17.11.2026)",
+      "checkedAt": "2026-11-18T01:40:35.938Z",
+      "sourceUrl": "https://www.reddit.com/r/soccer/comments/1xz1ula/match_thread_uruguay_vs_dominican_republic/",
       "observedLive": false,
-      "statusBasis": "Clôture présumée à +120 minutes du kickoff; score final non vérifié"
+      "statusBasis": "Score final du match identifié et vérifié sur source spécifique; non déduit de l'heure.",
+      "score": "5-0"
     },
     "recCal20261118L89862": {
-      "status": "En cours",
+      "status": "Terminé",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-18T00:33:02.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé +33 min après kickoff 2026-11-18T00:00Z, pas de suivi direct confirmé"
+      "provider": "New York Post — compte rendu victoire États-Unis 1-0 Haïti, Pulisic (17.11.2026)",
+      "checkedAt": "2026-11-18T01:40:35.938Z",
+      "sourceUrl": "https://nypost.com/2026/11/17/sports/christian-pulisics-ridiculous-goal-a-fitting-sendoff-for-mauricio-pochettino/",
+      "statusBasis": "Score final du match identifié et vérifié sur source spécifique; non déduit de l'heure.",
+      "score": "1-0"
     },
     "recCal20261117P76812388": {
       "status": "En cours",
