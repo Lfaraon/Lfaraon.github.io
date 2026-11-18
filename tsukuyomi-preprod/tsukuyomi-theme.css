@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --tsukuyomi-bg: oklch(10% 0 0);
+  --tsukuyomi-surface: oklch(17% 0.002 260);
+  --tsukuyomi-surface-raised: oklch(22% 0.002 260);
+  --tsukuyomi-border: oklch(32% 0.002 260);
+  --tsukuyomi-ink: oklch(95% 0.002 260);
+  --tsukuyomi-muted: oklch(72% 0.002 260);
+  --tsukuyomi-accent: oklch(70% 0.19 48);
+  --tsukuyomi-accent-text: var(--tsukuyomi-bg);
+  --tsukuyomi-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --tsukuyomi-body: Inter, system-ui, sans-serif;
+  --tsukuyomi-radius: 10px;
+  --tsukuyomi-control-radius: 6px;
+  --tsukuyomi-accent-border: color-mix(in srgb, var(--tsukuyomi-accent) 42%, var(--tsukuyomi-border));
+  --tsukuyomi-wash: radial-gradient(ellipse at 100% 0%, color-mix(in srgb, var(--tsukuyomi-accent) 13%, transparent), transparent 64%);
+}
+
+.tsukuyomi-wordmark {
+  align-items: center;
+  display: inline-flex;
+  font: 700 26px/.95 var(--tsukuyomi-display);
+  gap: 9px;
+  letter-spacing: .095em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.tsukuyomi-mark {
+  --mark-size: var(--tsukuyomi-mark-size, 23px);
+  background: var(--tsukuyomi-accent);
+  border-radius: 50%;
+  display: inline-block;
+  flex: 0 0 var(--mark-size);
+  height: var(--mark-size);
+  overflow: hidden;
+  position: relative;
+  width: var(--mark-size);
+}
+
+.tsukuyomi-mark::after {
+  background: var(--tsukuyomi-mark-background, var(--tsukuyomi-bg));
+  border-radius: 50%;
+  content: "";
+  inset: -13% -13% 9% 13%;
+  position: absolute;
+}

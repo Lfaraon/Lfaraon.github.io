@@ -1,0 +1,120 @@
+/* La palette Tsukuyomi alimente les composants du tableau de bord PS-AUTO. */
+:root,
+.dark {
+  --colors-background: var(--tsukuyomi-bg);
+  --colors-surface: var(--tsukuyomi-surface);
+  --colors-surfaceAlt: var(--tsukuyomi-surface-raised);
+  --colors-border: var(--tsukuyomi-border);
+  --colors-foreground: var(--tsukuyomi-ink);
+  --colors-foregroundMuted: var(--tsukuyomi-muted);
+  --colors-primary: var(--tsukuyomi-accent);
+  --colors-primaryForeground: var(--tsukuyomi-accent-text);
+  --typography-fontFamily-display: var(--tsukuyomi-display);
+  --typography-fontFamily-body: var(--tsukuyomi-body);
+  --shape-borderRadius-DEFAULT: var(--tsukuyomi-control-radius);
+}
+
+html,
+body {
+  background: var(--tsukuyomi-bg);
+  color: var(--tsukuyomi-ink);
+  font-family: var(--tsukuyomi-body);
+}
+
+#root > div > header.psa-app-header {
+  background: var(--tsukuyomi-wash), var(--tsukuyomi-surface);
+  border-bottom-color: var(--tsukuyomi-accent-border);
+}
+
+#root > div > header.psa-app-header .psa-app-header-title {
+  font-family: var(--tsukuyomi-display);
+  letter-spacing: .035em;
+}
+
+#root > div > header.psa-app-header .psa-next-match-card {
+  background: var(--tsukuyomi-wash), var(--tsukuyomi-bg);
+  border-color: var(--tsukuyomi-accent-border);
+  border-radius: var(--tsukuyomi-radius);
+}
+
+#root > div > header.psa-app-header .psa-next-match-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--tsukuyomi-accent);
+}
+
+#root > div > header.psa-app-header .psa-next-match-eyebrow::before {
+  width: 16px;
+  height: 1px;
+  background: currentColor;
+  content: "";
+}
+
+#root > div > header.psa-app-header .psa-header-countdown {
+  border-radius: var(--tsukuyomi-radius);
+}
+
+#root > div > header.psa-app-header .psa-countdown-unit {
+  background: var(--tsukuyomi-bg);
+}
+
+nav[aria-label="Rubriques"] [role="tab"][aria-selected="true"] {
+  background: linear-gradient(to top, color-mix(in srgb, var(--tsukuyomi-accent) 9%, transparent), transparent);
+}
+
+section[aria-label="Indicateurs clés"] > div > div,
+section[aria-label="Calendrier des matchs"] [aria-controls="calendar-filter-options"],
+#calendar-filter-options,
+.chart-panel,
+.ticket-cards-grid > li,
+.tsukuyomi-ticket {
+  border-radius: var(--tsukuyomi-radius);
+}
+
+section[aria-label="Indicateurs clés"] > div > div {
+  background: var(--tsukuyomi-wash), var(--tsukuyomi-surface);
+}
+
+section[aria-label="Calendrier des matchs"] [aria-expanded="true"][aria-controls="calendar-filter-options"],
+.tsukuyomi-ticket {
+  border-color: var(--tsukuyomi-accent-border);
+}
+
+#calendar-filter-options :is(button[aria-pressed], button[aria-expanded]),
+section[aria-label="Calendrier des matchs"] li > button,
+section[aria-label="Filtres"] > div > button[aria-expanded],
+.tsukuyomi-pronostic-views button,
+.tsukuyomi-tickets-button {
+  border-radius: var(--tsukuyomi-control-radius);
+}
+
+.ticket-cards-grid > li > button {
+  border-radius: inherit;
+}
+
+.tsukuyomi-ticket {
+  background: var(--tsukuyomi-wash), var(--tsukuyomi-surface);
+}
+
+.tsukuyomi-ticket .tsukuyomi-ticket-title {
+  font: 700 1.25rem/1.2 var(--tsukuyomi-display);
+  letter-spacing: .02em;
+}
+
+.chart-panel .recharts-cartesian-grid line {
+  stroke: var(--tsukuyomi-border);
+}
+
+.chart-panel .recharts-cartesian-axis-tick-value {
+  fill: var(--tsukuyomi-muted);
+}
+
+#root [role="dialog"][aria-modal="true"] > div:first-child {
+  background: var(--tsukuyomi-wash), var(--tsukuyomi-surface);
+  border-bottom-color: var(--tsukuyomi-accent-border);
+}
+
+#root [role="dialog"][aria-modal="true"] > div:first-child button {
+  border-radius: var(--tsukuyomi-control-radius);
+}
