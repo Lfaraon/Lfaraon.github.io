@@ -1337,10 +1337,11 @@
     },
     "recCal20261118P76661768": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-18T20:33:52.296Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "El Nacional — compte rendu final Copa del Rey (coup de sifflet final, 0-3)",
+      "observedLive": true,
+      "checkedAt": "2026-11-18T20:37:35.192Z",
+      "sourceUrl": "https://www.elnacional.cat/ca/esports/sabadell-contundent-liquida-utebo-0-3-avanca-seguent-ronda-copa-rei_1727792_102_amp.html",
+      "score": "0-3"
     },
     "recCal20261118P76682270": {
       "status": "En cours",
