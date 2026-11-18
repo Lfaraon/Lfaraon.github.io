@@ -1280,6 +1280,36 @@
       "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/granollers-m-zeballos-h-vs-krawietz-k-puetz-t-2026-11-18",
       "checkedAt": "2026-11-18T17:43:37.875Z",
       "observedLive": true
+    },
+    "recCal20261118P76682274": {
+      "status": "Reporté",
+      "provider": "Reprogrammation le 19.11.2026 à 13:00 UTC — Tennislive.net",
+      "observedLive": false,
+      "sourceUrl": "https://www.tennislive.net/wta/match/lucia-bronzetti-VS-carole-monnet/lp-open-by-ind-colina-2026/",
+      "checkedAt": "2026-11-18T17:45:26.008Z",
+      "rescheduledKickoff": "2026-11-19T13:00:00.000Z"
+    },
+    "recCal20261118P76682272": {
+      "status": "Reporté",
+      "provider": "Reprogrammation le 19.11.2026 à 13:00 UTC — TenisHoy et Tennislive.net",
+      "observedLive": false,
+      "sourceUrl": "https://www.tenishoy.net/partido/zolotareva-a-burillo-escorihuela-i-2026-11-19-gllkimwp",
+      "checkedAt": "2026-11-18T17:45:26.008Z",
+      "rescheduledKickoff": "2026-11-19T13:00:00.000Z"
+    },
+    "recCal20261118L90906": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-18T17:45:26.008Z"
+    },
+    "recCal20261118L90905": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-18T17:45:26.008Z"
     }
   }
 }
