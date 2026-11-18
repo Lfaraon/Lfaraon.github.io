@@ -1245,20 +1245,22 @@
       "sets": "6-1, 6-4"
     },
     "recCal20261118L91187": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-18T16:46:31.000Z",
+      "status": "Terminé",
+      "provider": "FootMercato — fiche précise, terminé 1-0 CS Constantine contre ES Ben Aknoun le 18.11.2026",
+      "checkedAt": "2026-11-18T19:38:58.036Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Transition à l'heure prévue du coup d'envoi 18.11.2026 16:45 UTC, début non observé en direct, aucun score vérifié"
+      "sourceUrl": "https://www.footmercato.net/live/4922225076798866188-cs-constantine-vs-es-ben-aknoun",
+      "statusBasis": "Transition à l'heure prévue du coup d'envoi 18.11.2026 16:45 UTC, début non observé en direct, aucun score vérifié",
+      "score": "1-0"
     },
     "recCal20261118L91186": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-18T16:46:31.000Z",
+      "status": "Terminé",
+      "provider": "FootMercato — fiche précise, terminé 0-0 Témouchent contre JS El Biar le 18.11.2026",
+      "checkedAt": "2026-11-18T19:38:58.036Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Transition à l'heure prévue du coup d'envoi 18.11.2026 16:45 UTC, début non observé en direct, aucun score vérifié"
+      "sourceUrl": "https://www.footmercato.net/live/4713613947954409448-cr-temouchent-vs-js-el-biar",
+      "statusBasis": "Transition à l'heure prévue du coup d'envoi 18.11.2026 16:45 UTC, début non observé en direct, aucun score vérifié",
+      "score": "0-0"
     },
     "recCal20261118P76682268": {
       "status": "Terminé",
@@ -1279,11 +1281,13 @@
       "sets": "0-6, 2-6"
     },
     "recCal20261118P76736470": {
-      "status": "En cours",
-      "provider": "Tennis.com — statistiques de jeux/service du double ATP Finals 18.11.2026",
-      "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/granollers-m-zeballos-h-vs-krawietz-k-puetz-t-2026-11-18",
-      "checkedAt": "2026-11-18T17:43:37.875Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "ATP Finals — compte rendu officiel du 18.11.2026, Krawietz/Puetz vainqueurs 6-7(4), 6-1, 10-5",
+      "sourceUrl": "https://www.nittoatpfinals.com/en/news/krawietz-puetz-granollers-zeballos-nitto-atp-finals-2026-wednesday",
+      "checkedAt": "2026-11-18T19:38:58.036Z",
+      "observedLive": true,
+      "score": "1-2",
+      "sets": "7-6(7-4), 1-6, 5-10"
     },
     "recCal20261118P76682274": {
       "status": "Reporté",
@@ -1334,6 +1338,41 @@
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "checkedAt": "2026-11-18T18:41:12.520Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261118P76682270": {
+      "status": "En cours",
+      "provider": "Tennislive.net — flux point par point Colina (jeux 1-2, service Podoroska, points 30-40), début réel observé",
+      "checkedAt": "2026-11-18T19:38:58.036Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.tennislive.net/wta/match/leyre-romero-gormaz-VS-nadia-podoroska/lp-open-by-ind-colina-2026/"
+    },
+    "recCal20261118P76489976": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-18T19:38:58.036Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261118P76546760": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-18T19:38:58.036Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261118P76516978": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-18T19:38:58.036Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261118P76516980": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-18T19:38:58.036Z",
+      "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     }
   }
