@@ -118,7 +118,12 @@
 .tsukuyomi-ticket-status[data-outcome="void"] { color: var(--colors-foregroundMuted); border-color: var(--colors-border); }
 
 .tsukuyomi-ledger {
-  padding: 16px clamp(16px, 2vw, 24px);
+  --ledger-gutter: clamp(16px, 2vw, 24px);
+  padding: 16px var(--ledger-gutter);
+}
+
+[data-tsukuyomi-native-charts] {
+  margin-inline: calc(-1 * var(--ledger-gutter));
 }
 
 .tsukuyomi-ledger-heading {
