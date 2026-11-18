@@ -10,6 +10,11 @@ const reviewedArchiveGroups = new Map(reviewedArchivePairs.flatMap((pair) =>
   pair.map((id) => [id, `archive:${pair[0]}`]),
 ));
 
+const withdrawnArchiveTickets = new Set([
+  "LORO-2026-11-07-T003",
+  "PSF-2026-11-14-T005",
+]);
+
 function normalizedLabel(value) {
   if (typeof value !== "string") return "";
   return value.normalize("NFD")
@@ -77,4 +82,8 @@ export function deduplicateTickets(tickets) {
     }
   }
   return tickets.filter((_, index) => !duplicates.has(index));
+}
+
+export function selectTsukuyomiPortfolio(tickets) {
+  return deduplicateTickets(tickets.filter((ticket) => !ticket?.placed_at || !withdrawnArchiveTickets.has(ticket.id)));
 }

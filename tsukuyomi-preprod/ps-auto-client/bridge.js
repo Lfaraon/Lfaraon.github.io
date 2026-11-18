@@ -1,6 +1,6 @@
 import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=admin-brier";
 import { createTicketFilters } from "./ticketFilters.js?rev=stats-auto";
-import { deduplicateTickets } from "./ticketIdentity.js?rev=reviewed-ticket-duplicates";
+import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
 import { renderLedger } from "./ledger.js?rev=admin-brier";
 import { clearLedgerCharts } from "./ledgerCharts.js?rev=admin-brier";
 
@@ -105,7 +105,7 @@ function connectDashboard(window, nonce, destination) {
   function reindex() {
     const status = history.status === "error" || data.status === "error" ? "error"
       : history.status === "ready" && data.status === "ready" ? "ready" : "loading";
-    ledger = { status, tickets: status === "ready" ? deduplicateTickets([...history.tickets, ...publications]) : [] };
+    ledger = { status, tickets: status === "ready" ? selectTsukuyomiPortfolio([...history.tickets, ...publications]) : [] };
   }
   async function loadHistory() {
     history = { status: "loading", tickets: [] };
