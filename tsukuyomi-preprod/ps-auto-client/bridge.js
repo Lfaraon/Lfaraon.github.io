@@ -1,6 +1,7 @@
 import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets } from "./tickets.js?rev=chf-charts";
 import { deduplicateTickets } from "./ticketIdentity.js?rev=tsukuyomi-portfolio";
-import { renderLedger } from "./ledger.js?rev=chf-charts";
+import { renderLedger } from "./ledger.js?rev=ps-auto-charts";
+import { clearLedgerCharts } from "./ledgerCharts.js?rev=ps-auto-charts";
 
 const tabsSelector = '[role="tablist"][aria-label="Navigation principale"] [role="tab"]';
 const latestSelector = 'section[aria-label="Derniers tickets"], section[data-tsukuyomi-latest]';
@@ -202,7 +203,11 @@ function connectDashboard(window, nonce, destination) {
         renderLedger(statistics, { ...ledger, onRetry: retryLedger }, true);
         lastStatisticsRender = ledger;
       }
-    } else statistics.remove();
+    } else if (statistics.isConnected) {
+      clearLedgerCharts(statistics);
+      statistics.remove();
+      lastStatisticsRender = undefined;
+    }
 
     if (inHome && originalLatest) {
       if (latest.parentElement !== originalLatest) originalLatest.append(latest);

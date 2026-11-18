@@ -66,7 +66,6 @@ nav[aria-label="Rubriques"] [role="tab"][aria-selected="true"] {
 section[aria-label="Indicateurs clés"] > div > div,
 section[aria-label="Calendrier des matchs"] [aria-controls="calendar-filter-options"],
 #calendar-filter-options,
-.chart-panel,
 .ticket-cards-grid > li,
 .tsukuyomi-ticket {
   border-radius: var(--tsukuyomi-radius);
@@ -100,14 +99,6 @@ section[aria-label="Filtres"] > div > button[aria-expanded],
 .tsukuyomi-ticket .tsukuyomi-ticket-title {
   font: 700 1.25rem/1.2 var(--tsukuyomi-display);
   letter-spacing: .02em;
-}
-
-.chart-panel .recharts-cartesian-grid line {
-  stroke: var(--tsukuyomi-border);
-}
-
-.chart-panel .recharts-cartesian-axis-tick-value {
-  fill: var(--tsukuyomi-muted);
 }
 
 #root [role="dialog"][aria-modal="true"] > div:first-child {

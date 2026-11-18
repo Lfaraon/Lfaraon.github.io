@@ -1,5 +1,5 @@
 import { formatChf, referenceStake, summarize, ticketDate } from "./ledgerAccounting.js?rev=chf-charts";
-import { renderLedgerCharts } from "./ledgerCharts.js?rev=chf-charts";
+import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=ps-auto-charts";
 
 const rate = new Intl.NumberFormat("fr-CH", { style: "percent", maximumFractionDigits: 1 });
 const period = new Intl.DateTimeFormat("fr-CH", { month: "long", year: "numeric", timeZone: "Europe/Zurich" });
@@ -50,6 +50,7 @@ function addBreakdown(section, tickets) {
 }
 
 export function renderLedger(section, { status, tickets, onRetry }, detail = false) {
+  clearLedgerCharts(section);
   const doc = section.ownerDocument;
   const contents = [element(doc, "h2", "tsukuyomi-ledger-heading", detail ? "Statistiques Tsukuyomi" : "Bilan Tsukuyomi")];
   if (status !== "ready") {
