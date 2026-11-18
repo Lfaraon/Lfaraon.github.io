@@ -1192,11 +1192,11 @@
     },
     "recCal20261118L89867": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-18T02:37:33.000Z",
-      "observedLive": false,
-      "statusBasis": "Kickoff 2026-11-18T02:30:00Z dépassé de 7 minutes; statut présumé uniquement par horaire, sans confirmation d'un coup d'envoi réel."
+      "provider": "FOX Sports — fiche du match du 18.11 avec actions horodatées (7e–28e minutes)",
+      "sourceUrl": "https://www.foxsports.com/soccer/concacaf-nations-league-mexico-vs-jamaica-nov-17-2026-game-boxscore-1059782",
+      "checkedAt": "2026-11-18T03:39:54.088Z",
+      "observedLive": true,
+      "statusBasis": "Direct confirmé par activités réelles (tirs, corners, carton) sur la fiche du retour CONCACAF. Score 0-0 seulement provisoire, aucun résultat final."
     }
   }
 }
