@@ -323,7 +323,8 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 }
 
 .tsukuyomi-ticket-measurement span { white-space: nowrap; }
-.tsukuyomi-ticket-measurement strong { color: var(--tsukuyomi-ink); font-weight: 650; }
+.tsukuyomi-ticket-measurement strong,
+.tsukuyomi-ticket-probability strong { color: var(--tsukuyomi-ink); font-weight: 650; }
 .tsukuyomi-ticket-leg-result { gap: 3px 7px; }
 
 .tsukuyomi-ticket-score,

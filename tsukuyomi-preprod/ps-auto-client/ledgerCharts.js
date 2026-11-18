@@ -1,4 +1,4 @@
-import { buildLedgerSeries } from "./ledgerSeries.js?rev=stats-auto";
+import { buildLedgerSeries } from "./ledgerSeries.js?rev=probability-display";
 
 const views = new WeakMap();
 let moduleRequest;

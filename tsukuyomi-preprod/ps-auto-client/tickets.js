@@ -1,4 +1,5 @@
 import { formatChf, netAmount, outcomeLabel, referenceStake, ticketDate } from "./ledgerAccounting.js?rev=chf-charts";
+import { selectionProbability, ticketProbability } from "./ticketForecasts.js?rev=probability-display";
 
 const kinds = { simple: "Simple", combine: "Combiné", triple: "Triplé" };
 const selectionOutcomes = { won: "Gagnée", lost: "Perdue", void: "Remboursée" };
@@ -25,6 +26,10 @@ const kickoffDate = new Intl.DateTimeFormat("fr-CH", {
   minute: "2-digit",
   timeZone: "Europe/Zurich",
 });
+
+function formatProbability(value) {
+  return value === null ? "Indisponible" : percentage.format(value) + "\u00a0%";
+}
 
 function element(doc, tag, className, text) {
   const node = doc.createElement(tag);
@@ -116,18 +121,14 @@ function renderLeg(doc, leg, index, ticket, played, settled) {
   const facts = element(doc, "div", "tsukuyomi-ticket-leg-facts");
   const measurements = [];
   if (Number.isFinite(leg.odds)) measurements.push(["Cote", decimal.format(leg.odds)]);
-  if (Number.isFinite(leg.probability_pct)) {
-    measurements.push(["Prob. estimée", percentage.format(leg.probability_pct) + "\u00a0%"]);
+  measurements.push(["Prob. estimée", formatProbability(selectionProbability(ticket, leg))]);
+  const metrics = element(doc, "p", "tsukuyomi-ticket-measurement");
+  for (const [label, value] of measurements) {
+    const pair = element(doc, "span", "", label + " ");
+    pair.append(element(doc, "strong", "", value));
+    metrics.append(pair, " ");
   }
-  if (measurements.length) {
-    const metrics = element(doc, "p", "tsukuyomi-ticket-measurement");
-    for (const [label, value] of measurements) {
-      const pair = element(doc, "span", "", label + " ");
-      pair.append(element(doc, "strong", "", value));
-      metrics.append(pair, " ");
-    }
-    facts.append(metrics);
-  }
+  facts.append(metrics);
   const outcome = Object.hasOwn(selectionOutcomes, leg.outcome) ? leg.outcome : null;
   const score = typeof leg.score === "string" && leg.score.trim();
   if (outcome || score || played || settled) {
@@ -138,10 +139,9 @@ function renderLeg(doc, leg, index, ticket, played, settled) {
       result.append(statusChip(doc, "tsukuyomi-ticket-leg-status", label, outcome));
     }
     if (score) result.append(element(doc, "span", "tsukuyomi-ticket-score", score));
-    if (facts.childElementCount) facts.append(" ");
-    facts.append(result);
+    facts.append(" ", result);
   }
-  if (facts.childElementCount) content.append(facts);
+  content.append(facts);
   return item;
 }
 
@@ -184,9 +184,9 @@ function renderTicket(doc, ticket, played) {
   if (!legs.length) legList.append(element(doc, "li", "tsukuyomi-ticket-meta", "Sélections non renseignées"));
   card.append(legList);
 
-  if (Number.isFinite(ticket.probability_pct)) {
-    card.append(element(doc, "p", "tsukuyomi-ticket-probability", `Probabilité du ticket · ${percentage.format(ticket.probability_pct)} %`));
-  }
+  const probability = element(doc, "p", "tsukuyomi-ticket-probability", "Probabilité du ticket · ");
+  probability.append(element(doc, "strong", "", formatProbability(ticketProbability(ticket))));
+  card.append(probability);
 
   const metrics = element(doc, "dl", "tsukuyomi-ticket-odds");
   const odds = Number.isFinite(ticket.odds) ? decimal.format(ticket.odds) : "—";

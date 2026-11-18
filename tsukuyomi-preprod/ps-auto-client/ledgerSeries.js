@@ -1,6 +1,6 @@
 import { referenceStake, selectionOutcome, summarize, ticketDate } from "./ledgerAccounting.js?rev=stats-auto";
-import { archivedForecasts } from "./archivedForecasts.js?rev=ticket-review";
-import { selectionBrierScores } from "./selectionBrier.js?rev=stats-auto";
+import { archivedTicketForecast, ticketProbability } from "./ticketForecasts.js?rev=probability-display";
+import { selectionBrierScores } from "./selectionBrier.js?rev=probability-display";
 
 const swissCalendar = new Intl.DateTimeFormat("fr-CH", {
   year: "numeric",
@@ -45,13 +45,11 @@ function ticketBrier(ticket) {
   const { outcome } = ticket.settlement;
   if (outcome !== "won" && outcome !== "lost") return null;
 
-  const archived = ticket.placed_at ? archivedForecasts.get(ticket.id) : null;
-  const reference = archived?.outcome === outcome ? archived : null;
-  const recorded = ticket.probability_pct;
-  if (recorded == null && Number.isFinite(reference?.score)) return reference.score;
+  const archived = archivedTicketForecast(ticket);
+  if (ticket.probability_pct == null && Number.isFinite(archived?.score)) return archived.score;
 
-  const probability = recorded ?? reference?.probability;
-  if (!Number.isFinite(probability) || probability < 0 || probability > 100) return null;
+  const probability = ticketProbability(ticket);
+  if (probability === null) return null;
   return (probability / 100 - (outcome === "won" ? 1 : 0)) ** 2;
 }
 
