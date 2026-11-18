@@ -16,21 +16,23 @@
   "matches": {
     "recCal20261116P68932376": {
       "status": "Terminé",
-      "provider": "API-Football",
+      "provider": "Sofascore — résultat final confirmé (source initiale : API-Football)",
       "providerId": "1528987",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-18T11:39:33.400Z",
       "observedLive": true,
       "reversed": false,
-      "score": "1-0"
+      "score": "1-0",
+      "sourceUrl": "https://www.sofascore.com/football/match/moldova-faroe-islands/kVbsHVb"
     },
     "recCal20261116P68932378": {
       "status": "Terminé",
-      "provider": "API-Football",
+      "provider": "Sofascore — résultat final confirmé (source initiale : API-Football)",
       "providerId": "1528986",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-18T11:39:33.400Z",
       "observedLive": true,
       "reversed": false,
-      "score": "2-2"
+      "score": "2-2",
+      "sourceUrl": "https://www.sofascore.com/football/match/kazakhstan-slovakia/XTbsxVb"
     },
     "recCal20261116P68932282": {
       "status": "Terminé",
@@ -114,39 +116,43 @@
     },
     "recCal20261116L89516": {
       "status": "Terminé",
-      "provider": "API-Football",
+      "provider": "Sofascore — résultat final confirmé (source initiale : API-Football)",
       "providerId": "1545900",
-      "checkedAt": "2026-11-16T15:03:56.489Z",
+      "checkedAt": "2026-11-18T11:39:33.400Z",
       "observedLive": true,
       "reversed": false,
-      "score": "0-3"
+      "score": "0-3",
+      "sourceUrl": "https://www.sofascore.com/es/football/match/namibia-cameroon/bVbsHWb"
     },
     "recCal20261116L89517": {
       "status": "Terminé",
-      "provider": "API-Football",
+      "provider": "Sofascore — résultat final confirmé (source initiale : API-Football)",
       "providerId": "1545906",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-18T11:39:33.400Z",
       "observedLive": true,
       "reversed": false,
-      "score": "2-4"
+      "score": "2-4",
+      "sourceUrl": "https://www.sofascore.com/football/match/senegal-sudan/JUbsOUb"
     },
     "recCal20261116L90154": {
       "status": "Terminé",
-      "provider": "API-Football",
+      "provider": "Sofascore — résultat final confirmé (source initiale : API-Football)",
       "providerId": "1545909",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-18T11:39:33.400Z",
       "observedLive": true,
       "reversed": false,
-      "score": "3-0"
+      "score": "3-0",
+      "sourceUrl": "https://www.sofascore.com/es/football/match/equatorial-guinea-zimbabwe/uUbsHkd"
     },
     "recCal20261116L89513": {
       "status": "Terminé",
-      "provider": "API-Football",
+      "provider": "Sofascore — résultat final confirmé (source initiale : API-Football)",
       "providerId": "1545904",
-      "checkedAt": "2026-11-16T17:12:33.096Z",
+      "checkedAt": "2026-11-18T11:39:33.400Z",
       "observedLive": true,
       "reversed": false,
-      "score": "0-1"
+      "score": "0-1",
+      "sourceUrl": "https://www.sofascore.com/football/match/somalia-ghana/oVbsxuj"
     },
     "recCal20261116L90437": {
       "status": "Terminé",
@@ -310,12 +316,13 @@
     },
     "recCal20261116P72477582": {
       "status": "Terminé",
-      "provider": "Sportradar / résultats sportifs",
+      "provider": "LaLiga officielle — résultat final confirmé (source initiale : Sportradar / résultats sportifs)",
       "providerId": "sr:sport_event:72477582",
-      "checkedAt": "2026-11-16T22:18:23.898Z",
+      "checkedAt": "2026-11-18T11:39:33.400Z",
       "observedLive": true,
       "reversed": false,
-      "score": "1-0"
+      "score": "1-0",
+      "sourceUrl": "https://www.laliga.com/en-MX/match/temporada-2026-2027-laliga-hypermotion-albacete-bp-rc-celta-fortuna-14"
     },
     "recCal20261116P68932800": {
       "status": "Terminé",
