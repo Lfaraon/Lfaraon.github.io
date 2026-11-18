@@ -1329,11 +1329,13 @@
       "observedLive": false
     },
     "recCal20261118P76482550": {
-      "status": "En cours",
-      "provider": "HalaScore — suivi live prolongations (ET 97e), Portugalete–Real Unión",
+      "status": "Terminé",
+      "provider": "Sofascore — FT 0-0 après prolongations, Portugalete qualifié 4-1 aux tirs au but",
       "observedLive": true,
-      "checkedAt": "2026-11-18T20:36:49.224Z",
-      "sourceUrl": "https://halascore.com/pt/games/portugalete-vs-real-union-1644369/"
+      "checkedAt": "2026-11-18T21:34:50.306Z",
+      "sourceUrl": "https://www.sofascore.com/pt/football/match/club-portugalete-real-union-club/Ghbsdik",
+      "score": "0-0",
+      "statusBasis": "Résultat final exact confirmé Sofascore, score 0-0 après prolongation, tirs au but 4-1 distincts."
     },
     "recCal20261118P76661768": {
       "status": "Terminé",
@@ -1351,39 +1353,47 @@
       "sourceUrl": "https://www.tennislive.net/wta/match/leyre-romero-gormaz-VS-nadia-podoroska/lp-open-by-ind-colina-2026/"
     },
     "recCal20261118P76489976": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-18T19:38:58.036Z",
+      "checkedAt": "2026-11-18T21:34:50.306Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "+120 min depuis 19:00 UTC sans FT vérifié ; score final inconnu, recherche à poursuivre."
     },
     "recCal20261118P76546760": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-18T19:38:58.036Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "status": "Terminé",
+      "provider": "LaLiga — Full Time CD Badajoz 2, CD Tenerife 5",
+      "checkedAt": "2026-11-18T21:34:50.306Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.laliga.com/en-GB/match/temporada-2026-2027-copa-del-rey-cd-badajoz-cd-tenerife-3",
+      "score": "2-5",
+      "statusBasis": "Résultat final confirmé par le compte rendu détaillé LaLiga."
     },
     "recCal20261118P76516978": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-18T19:38:58.036Z",
+      "checkedAt": "2026-11-18T21:34:50.306Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "+120 min depuis 19:30 UTC sans FT vérifié ; score final inconnu, recherche à poursuivre."
     },
     "recCal20261118P76516980": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-18T19:38:58.036Z",
+      "checkedAt": "2026-11-18T21:34:50.306Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "+120 min depuis 19:30 UTC sans FT vérifié ; score final inconnu, recherche à poursuivre."
     },
     "recCal20261118P76736462": {
-      "status": "En cours",
-      "provider": "Eurosport — commentaire direct ATP Finals, 1er set 3-3, points 30-0",
+      "status": "Terminé",
+      "provider": "Tennis.com — ATP Finals, fiche dynamique Completed, 18.11.2026",
       "observedLive": true,
-      "checkedAt": "2026-11-18T20:33:52.296Z",
-      "sourceUrl": "https://www.eurosport.fr/tennis/atp-finals/2026/flavio-cobolli-frances-tiafoe_mtc22079864/live-commentary.shtml"
+      "checkedAt": "2026-11-18T21:34:50.306Z",
+      "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/f-cobolli-vs-f-tiafoe-2026-11-18",
+      "score": "0-2",
+      "sets": "5-7, 6-7",
+      "statusBasis": "Résultat final prouvé, sets dans l'ordre Cobolli puis Tiafoe."
     },
     "recCal20261118L90904": {
       "status": "En cours",
