@@ -1,4 +1,4 @@
-import { formatChf, referenceStake, summarize, ticketDate } from "./ledgerAccounting.js?rev=chf-charts";
+import { formatChf, netAmount, referenceStake, summarize, ticketDate } from "./ledgerAccounting.js?rev=chf-charts";
 import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=stats-auto";
 
 const rate = new Intl.NumberFormat("fr-CH", { style: "percent", maximumFractionDigits: 1 });
@@ -9,6 +9,81 @@ function element(doc, tag, className, text) {
   node.className = className;
   if (text !== undefined) node.textContent = text;
   return node;
+}
+
+function ledgerMetrics(tickets, totals) {
+  const { won, lost, void: refunded, pending, net, roi, winRate } = totals;
+  const counted = won + lost;
+  const stake = counted * referenceStake;
+  const countedRow = ["Tickets comptabilisés", counted];
+  const stakeRow = ["Mises réglées", formatChf(stake)];
+  const outcomes = [["Gagnés", won], ["Perdus", lost]];
+  const pendingFormats = new Map([["simple", 0], ["combine", 0], ["triple", 0]]);
+  for (const ticket of tickets) {
+    if (!Number.isFinite(netAmount(ticket)) && pendingFormats.has(ticket.kind)) {
+      pendingFormats.set(ticket.kind, pendingFormats.get(ticket.kind) + 1);
+    }
+  }
+  const pendingRows = [
+    ["Simples", pendingFormats.get("simple")],
+    ["Combinés", pendingFormats.get("combine")],
+    ["Triplés", pendingFormats.get("triple")],
+  ];
+  const other = pending - pendingRows.reduce((sum, [, count]) => sum + count, 0);
+  if (other) pendingRows.push(["Autres formats", other]);
+  pendingRows.push(["Mises en attente", formatChf(pending * referenceStake)]);
+
+  return [
+    ["net", "Bilan net", formatChf(net, true), [
+      countedRow, ...outcomes, stakeRow, ["Retours", formatChf(stake + net)],
+    ]],
+    ["roi", "ROI", roi == null ? "—" : rate.format(roi), [
+      ["Bilan net", formatChf(net, true)], stakeRow, countedRow,
+    ]],
+    ["won", "Tickets gagnés", won + " / " + counted, [
+      ...outcomes, ["Remboursés", refunded],
+    ]],
+    ["win-rate", "Taux de réussite", winRate == null ? "—" : rate.format(winRate), [
+      ...outcomes, countedRow,
+    ]],
+    ["stake", "Mises réglées", stakeRow[1], [
+      ["Mise par ticket", formatChf(referenceStake)], countedRow, ["Mises remboursées", formatChf(refunded * referenceStake)],
+    ]],
+    ["pending", "Tickets en attente", pending, pendingRows],
+  ];
+}
+
+function addMetrics(section, tickets, totals) {
+  const doc = section.ownerDocument;
+  const openMetrics = new Set(Array.from(section.querySelectorAll(".tsukuyomi-ledger-details[open]"),
+    (details) => details.dataset.metric));
+  const active = doc.activeElement;
+  const focusedMetric = section.contains(active) && active.matches(".tsukuyomi-ledger-detail-toggle")
+    ? active.parentElement.dataset.metric : null;
+  let nextFocus;
+  const grid = element(doc, "dl", "tsukuyomi-ledger-metrics");
+  for (const [id, label, value, rows] of ledgerMetrics(tickets, totals)) {
+    const card = element(doc, "div", "");
+    const detailValue = element(doc, "dd", "tsukuyomi-ledger-detail-value");
+    const details = element(doc, "details", "tsukuyomi-ledger-details");
+    details.dataset.metric = id;
+    details.open = openMetrics.has(id);
+    const toggle = element(doc, "summary", "tsukuyomi-ledger-detail-toggle", "Détails");
+    toggle.setAttribute("aria-label", `Détails (${label})`);
+    if (focusedMetric === id) nextFocus = toggle;
+    const breakdown = element(doc, "dl", "tsukuyomi-ledger-detail-rows");
+    for (const [name, amount] of rows) {
+      const row = element(doc, "div", "");
+      row.append(element(doc, "dt", "", name), element(doc, "dd", "", amount));
+      breakdown.append(row);
+    }
+    details.append(toggle, breakdown);
+    detailValue.append(details);
+    card.append(element(doc, "dt", "tsukuyomi-ledger-label", label),
+      element(doc, "dd", "tsukuyomi-ledger-value", value), detailValue);
+    grid.append(card);
+  }
+  return { grid, nextFocus };
 }
 
 function addBreakdown(section, tickets) {
@@ -69,22 +144,10 @@ export function renderLedger(section, { status, tickets, onRetry }, detail = fal
   }
 
   const totals = summarize(tickets);
-  const metrics = [
-    ["Bilan net", formatChf(totals.net, true)],
-    ["ROI", totals.roi == null ? "—" : rate.format(totals.roi)],
-    ["Tickets gagnés", totals.won + " / " + (totals.won + totals.lost)],
-    ["Taux de réussite", totals.winRate == null ? "—" : rate.format(totals.winRate)],
-    ["Mises réglées", formatChf(referenceStake * (totals.won + totals.lost))],
-    ["Tickets en attente", String(totals.pending)],
-  ];
-  const grid = element(doc, "dl", "tsukuyomi-ledger-metrics");
-  for (const [label, value] of metrics) {
-    const card = element(doc, "div", "");
-    card.append(element(doc, "dt", "", label), element(doc, "dd", "", value));
-    grid.append(card);
-  }
+  const { grid, nextFocus } = addMetrics(section, tickets, totals);
   contents.push(grid);
   section.replaceChildren(...contents);
+  nextFocus?.focus({ preventScroll: true });
   if (detail) {
     renderLedgerCharts(section, tickets, totals);
     addBreakdown(section, tickets);

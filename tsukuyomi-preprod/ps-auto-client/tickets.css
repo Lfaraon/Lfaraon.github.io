@@ -152,6 +152,7 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 .tsukuyomi-ledger-metrics {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
   gap: 8px;
   margin: 0;
 }
@@ -163,15 +164,77 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
   background: var(--tsukuyomi-wash), var(--tsukuyomi-surface);
 }
 
-.tsukuyomi-ledger-metrics dt,
+.tsukuyomi-ledger-label,
 .tsukuyomi-ledger-table thead {
   color: var(--colors-foregroundMuted);
   font-size: 13px;
 }
 
-.tsukuyomi-ledger-metrics dd {
+.tsukuyomi-ledger-value {
   margin: 4px 0 0;
   font: 700 clamp(1.5rem, 3vw, 2rem)/1.1 var(--tsukuyomi-display);
+  font-variant-numeric: tabular-nums;
+}
+
+.tsukuyomi-ledger-detail-value { margin: 10px 0 0; }
+
+.tsukuyomi-ledger-detail-toggle {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+  border-top: 1px solid var(--tsukuyomi-border);
+  color: var(--tsukuyomi-accent);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  list-style: none;
+}
+
+.tsukuyomi-ledger-detail-toggle::-webkit-details-marker { display: none; }
+
+.tsukuyomi-ledger-detail-toggle::after {
+  width: 7px;
+  height: 7px;
+  margin-bottom: 4px;
+  border-inline-end: 1.5px solid currentColor;
+  border-block-end: 1.5px solid currentColor;
+  content: "";
+  transform: rotate(45deg);
+}
+
+.tsukuyomi-ledger-details[open] > summary::after { transform: translateY(4px) rotate(225deg); }
+
+.tsukuyomi-ledger-detail-toggle:focus-visible {
+  outline: 2px solid var(--tsukuyomi-accent);
+  outline-offset: 2px;
+}
+
+.tsukuyomi-ledger-detail-rows {
+  margin: 0;
+  padding: 0 9px;
+  border: 1px solid var(--tsukuyomi-border);
+  border-radius: var(--tsukuyomi-control-radius);
+  background: var(--tsukuyomi-bg);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.tsukuyomi-ledger-detail-rows > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2px 8px;
+  padding-block: 6px;
+}
+
+.tsukuyomi-ledger-detail-rows > div + div { border-top: 1px solid var(--tsukuyomi-border); }
+.tsukuyomi-ledger-detail-rows dt { color: var(--tsukuyomi-muted); }
+.tsukuyomi-ledger-detail-rows dd {
+  margin: 0;
+  color: var(--tsukuyomi-ink);
+  font-weight: 600;
   font-variant-numeric: tabular-nums;
 }
 
