@@ -9,6 +9,9 @@
   --colors-foregroundMuted: var(--tsukuyomi-muted);
   --colors-primary: var(--tsukuyomi-accent);
   --colors-primaryForeground: var(--tsukuyomi-accent-text);
+  --colors-success: var(--tsukuyomi-success);
+  --colors-warning: var(--tsukuyomi-warning);
+  --colors-destructive: var(--tsukuyomi-danger);
   --typography-fontFamily-display: var(--tsukuyomi-display);
   --typography-fontFamily-body: var(--tsukuyomi-body);
   --shape-borderRadius-DEFAULT: var(--tsukuyomi-control-radius);
@@ -19,22 +22,37 @@ body {
   background: var(--tsukuyomi-bg);
   color: var(--tsukuyomi-ink);
   font-family: var(--tsukuyomi-body);
+  margin: 0;
+}
+
+#root > div > header.psa-app-header,
+#root > div > :is(.tsukuyomi-pronostic-views, [data-tsukuyomi-pronostics], [data-tsukuyomi-statistics]),
+#root > div > main > :is(.tsukuyomi-ledger, .dashboard-home) {
+  width: var(--tsukuyomi-content-width);
+  margin-inline: auto;
 }
 
 #root > div > header.psa-app-header {
-  background: var(--tsukuyomi-wash), var(--tsukuyomi-surface);
-  border-bottom-color: var(--tsukuyomi-accent-border);
+  margin-block: clamp(12px, 2.1vw, 26px) clamp(8px, 1.1vw, 16px);
+  padding: clamp(16px, 2.25vw, 32px);
+  border: 1px solid var(--tsukuyomi-border);
+  border-radius: var(--tsukuyomi-radius);
+  background: var(--tsukuyomi-hero-panel);
 }
 
 #root > div > header.psa-app-header .psa-app-header-title {
-  font-family: var(--tsukuyomi-display);
-  letter-spacing: .035em;
+  font: 700 clamp(1.75rem, 3.65vw, 3.25rem)/1 var(--tsukuyomi-display);
+  letter-spacing: .015em;
 }
 
 #root > div > header.psa-app-header .psa-next-match-card {
-  background: var(--tsukuyomi-wash), var(--tsukuyomi-bg);
+  background: var(--tsukuyomi-panel);
   border-color: var(--tsukuyomi-accent-border);
-  border-radius: var(--tsukuyomi-radius);
+  border-radius: var(--tsukuyomi-card-radius);
+}
+
+#root > div > header.psa-app-header .psa-next-match-card:focus-within {
+  border-color: var(--tsukuyomi-accent);
 }
 
 #root > div > header.psa-app-header .psa-next-match-eyebrow {
@@ -52,57 +70,134 @@ body {
 }
 
 #root > div > header.psa-app-header .psa-header-countdown {
-  border-radius: var(--tsukuyomi-radius);
+  border-radius: var(--tsukuyomi-card-radius);
 }
 
 #root > div > header.psa-app-header .psa-countdown-unit {
+  background: var(--tsukuyomi-surface);
+}
+
+#root > div > nav[aria-label="Rubriques"] {
+  overflow: visible;
+  padding: 6px max(var(--tsukuyomi-gutter), calc((100% - 1480px) / 2));
+  border: 0;
   background: var(--tsukuyomi-bg);
 }
 
-nav[aria-label="Rubriques"] [role="tab"][aria-selected="true"] {
-  background: linear-gradient(to top, color-mix(in srgb, var(--tsukuyomi-accent) 9%, transparent), transparent);
+#root > div > nav[aria-label="Rubriques"] > [role="tablist"] {
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--tsukuyomi-border);
+  border-radius: var(--tsukuyomi-card-radius);
+  background: var(--tsukuyomi-surface);
 }
 
-section[aria-label="Indicateurs clés"] > div > div,
-section[aria-label="Calendrier des matchs"] [aria-controls="calendar-filter-options"],
-#calendar-filter-options,
-.ticket-cards-grid > li,
-.tsukuyomi-ticket {
-  border-radius: var(--tsukuyomi-radius);
+#root > div > nav[aria-label="Rubriques"] > [role="tablist"] > [role="tab"] {
+  min-height: 44px;
+  border: 1px solid transparent;
+  border-radius: var(--tsukuyomi-control-radius);
+  font: 600 13px/1.2 var(--tsukuyomi-body);
+  text-transform: none;
+  letter-spacing: 0;
 }
 
-section[aria-label="Indicateurs clés"] > div > div {
-  background: var(--tsukuyomi-wash), var(--tsukuyomi-surface);
+#root > div > nav[aria-label="Rubriques"] [role="tab"][aria-selected="true"] {
+  border-color: var(--tsukuyomi-accent-border);
+  background: color-mix(in srgb, var(--tsukuyomi-accent) 9%, var(--tsukuyomi-surface));
+  color: var(--tsukuyomi-accent);
 }
 
-section[aria-label="Calendrier des matchs"] [aria-expanded="true"][aria-controls="calendar-filter-options"],
-.tsukuyomi-ticket {
+#root > div > nav[aria-label="Rubriques"] [role="tab"][aria-selected="false"]:hover {
+  border-color: var(--tsukuyomi-border);
+  color: var(--tsukuyomi-ink);
+}
+
+#root > div > main .dashboard-home {
+  gap: clamp(12px, 1.6vw, 24px);
+  padding-bottom: clamp(28px, 5vw, 64px);
+}
+
+#root > div > main .dashboard-home-left > div:first-child {
+  border: 0;
+}
+
+#root > div > main .dashboard-home > aside,
+#root section[aria-label="Calendrier des matchs"] {
+  padding: clamp(14px, 1.65vw, 24px);
+  border: 1px solid var(--tsukuyomi-border);
+  border-radius: var(--tsukuyomi-card-radius);
+  background: var(--tsukuyomi-surface);
+}
+
+#root :is(section[aria-label="Calendrier des matchs"], section[data-tsukuyomi-latest]) > h2 {
+  font: 700 clamp(1.35rem, 2.05vw, 2rem)/1.1 var(--tsukuyomi-display);
+  letter-spacing: .025em;
+}
+
+#root section[aria-label="Calendrier des matchs"] li > button {
+  padding-inline: 10px;
+}
+
+:is([aria-controls="calendar-filter-options"], [aria-controls="tsukuyomi-ticket-filter-options"]) {
+  border-radius: var(--tsukuyomi-control-radius);
+  background: var(--tsukuyomi-bg);
+  color: var(--tsukuyomi-ink);
+}
+
+:is([aria-controls="calendar-filter-options"], [aria-controls="tsukuyomi-ticket-filter-options"]):is(:hover, [aria-expanded="true"]) {
   border-color: var(--tsukuyomi-accent-border);
 }
 
-#calendar-filter-options :is(button[aria-pressed], button[aria-expanded]),
-section[aria-label="Calendrier des matchs"] li > button,
-section[aria-label="Filtres"] > div > button[aria-expanded],
-.tsukuyomi-pronostic-views button,
-.tsukuyomi-tickets-button {
+:is(#calendar-filter-options, #tsukuyomi-ticket-filter-options) {
+  border-color: var(--tsukuyomi-border);
+  border-radius: var(--tsukuyomi-card-radius);
+  background: var(--tsukuyomi-panel);
+}
+
+:is(#calendar-filter-options, #tsukuyomi-ticket-filter-options) :is(button[aria-pressed], [role="combobox"], [role="listbox"], input),
+#root section[aria-label="Calendrier des matchs"] :is(li > button, .space-y-4 > button) {
   border-radius: var(--tsukuyomi-control-radius);
 }
 
-.ticket-cards-grid > li > button {
-  border-radius: inherit;
+:is(#calendar-filter-options, #tsukuyomi-ticket-filter-options) :is([role="combobox"], [role="listbox"], input) {
+  border-color: var(--tsukuyomi-border);
+  background: var(--tsukuyomi-surface-raised);
 }
 
-.tsukuyomi-ticket {
-  background: var(--tsukuyomi-wash), var(--tsukuyomi-surface);
+:is(#calendar-filter-options, #tsukuyomi-ticket-filter-options) [role="combobox"]:is(:hover, [aria-expanded="true"]) {
+  border-color: var(--tsukuyomi-accent);
 }
 
-.tsukuyomi-ticket .tsukuyomi-ticket-title {
-  font: 700 1.25rem/1.2 var(--tsukuyomi-display);
-  letter-spacing: .02em;
+[data-tsukuyomi-native-charts] > section {
+  gap: clamp(12px, 1.6vw, 24px);
+  padding-inline: 0;
+}
+
+[data-tsukuyomi-native-charts] .chart-panel {
+  background: var(--tsukuyomi-surface);
+  border-color: var(--tsukuyomi-border);
+  border-radius: var(--tsukuyomi-card-radius);
+}
+
+[data-tsukuyomi-native-charts] .chart-panel:first-child {
+  background: var(--tsukuyomi-panel);
+  border-color: var(--tsukuyomi-accent-border);
+}
+
+[data-tsukuyomi-native-charts] .chart-title {
+  color: var(--tsukuyomi-ink);
+  font-family: var(--tsukuyomi-display);
+  font-weight: 700;
+  letter-spacing: .035em;
+}
+
+#root [role="dialog"][aria-modal="true"] {
+  border-color: var(--tsukuyomi-accent-border);
+  background: var(--tsukuyomi-bg);
 }
 
 #root [role="dialog"][aria-modal="true"] > div:first-child {
-  background: var(--tsukuyomi-wash), var(--tsukuyomi-surface);
+  background: var(--tsukuyomi-panel);
   border-bottom-color: var(--tsukuyomi-accent-border);
 }
 

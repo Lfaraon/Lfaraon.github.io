@@ -1,21 +1,8 @@
 .tsukuyomi-ticket-filters {
-  padding: 12px clamp(16px, 2.2vw, 24px) 0;
+  padding-block: 14px 0;
 }
 
 .tsukuyomi-ticket-filters [hidden],
 .tsukuyomi-ticket-filters[hidden] {
   display: none;
-}
-
-.tsukuyomi-ticket-filters > [aria-controls],
-#tsukuyomi-ticket-filter-options {
-  border-radius: var(--tsukuyomi-radius);
-}
-
-.tsukuyomi-ticket-filters > [aria-controls][aria-expanded="true"] {
-  border-color: var(--tsukuyomi-accent-border);
-}
-
-#tsukuyomi-ticket-filter-options :is(button[aria-pressed], button[aria-expanded]) {
-  border-radius: var(--tsukuyomi-control-radius);
 }

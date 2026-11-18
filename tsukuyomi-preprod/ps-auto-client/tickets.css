@@ -1,10 +1,8 @@
 .tsukuyomi-pronostic-views {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  padding: 12px 16px;
-  border-bottom: 1px solid var(--colors-border);
-  background: var(--colors-background);
+  gap: 10px;
+  padding-block: clamp(16px, 2.7vw, 34px) 0;
 }
 
 .tsukuyomi-pronostic-views[hidden] {
@@ -16,24 +14,24 @@
   min-height: 44px;
   padding: 8px 12px;
   border: 1px solid var(--colors-border);
-  border-radius: 8px;
-  background: var(--colors-surface);
+  border-radius: var(--tsukuyomi-control-radius);
+  background: transparent;
   color: var(--colors-foregroundMuted);
   cursor: pointer;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   line-height: 1.3;
 }
 
 .tsukuyomi-pronostic-views button[aria-pressed="true"] {
-  border-color: var(--colors-primary);
-  background: color-mix(in srgb, var(--colors-primary) 12%, var(--colors-surface));
-  color: var(--colors-primary);
+  border-color: var(--tsukuyomi-accent-border);
+  background: var(--tsukuyomi-panel);
+  color: var(--tsukuyomi-accent);
 }
 
 @media (hover: hover) {
   .tsukuyomi-pronostic-views button[aria-pressed="false"]:hover {
-    border-color: var(--colors-foregroundMuted);
+    border-color: var(--tsukuyomi-accent);
     color: var(--colors-foreground);
   }
 }
@@ -44,14 +42,14 @@
 }
 
 .tsukuyomi-tickets-page {
-  padding: 12px 16px;
+  padding-block: 16px clamp(28px, 5vw, 64px);
 }
 
 .tsukuyomi-ticket-list {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   align-items: start;
-  gap: 12px;
+  gap: clamp(12px, 1.5vw, 20px);
   margin: 0;
   padding: 0;
   list-style: none;
@@ -74,13 +72,18 @@
 }
 
 article.tsukuyomi-ticket {
-  --ticket-won: var(--colors-success, oklch(75% .17 150));
-  --ticket-lost: var(--colors-destructive, oklch(70% .2 25));
-  padding: 14px;
+  --ticket-won: var(--tsukuyomi-success);
+  --ticket-lost: var(--tsukuyomi-danger);
+  padding: clamp(14px, 1.5vw, 22px);
   border: 1px solid var(--colors-border);
-  border-radius: var(--tsukuyomi-radius);
+  border-radius: var(--tsukuyomi-card-radius);
   background: var(--colors-surface);
   color: var(--colors-foreground);
+}
+
+.tsukuyomi-ticket:has(.tsukuyomi-ticket-status:not([data-outcome])) {
+  background: var(--tsukuyomi-panel);
+  border-color: var(--tsukuyomi-accent-border);
 }
 
 .tsukuyomi-ticket-header {
@@ -100,11 +103,8 @@ article.tsukuyomi-ticket {
 
 article.tsukuyomi-ticket .tsukuyomi-ticket-title {
   color: var(--colors-foreground);
-  font-family: var(--tsukuyomi-body);
-  font-size: 12px;
-  font-weight: 650;
-  line-height: 1.35;
-  letter-spacing: normal;
+  font: 700 clamp(1.14rem, 1.5vw, 1.4rem)/1.15 var(--tsukuyomi-display);
+  letter-spacing: .02em;
   overflow-wrap: anywhere;
 }
 
@@ -118,9 +118,10 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 .tsukuyomi-ticket-leg-status {
   --status-color: var(--colors-foregroundMuted);
   flex-shrink: 0;
-  border-radius: 3px;
+  border: 1px solid color-mix(in srgb, var(--status-color) 34%, transparent);
+  border-radius: var(--tsukuyomi-control-radius);
   padding: 2px 6px;
-  background: color-mix(in oklab, var(--status-color) 19%, transparent);
+  background: color-mix(in srgb, var(--status-color) 9%, transparent);
   color: var(--status-color);
   font-weight: 550;
   line-height: 1.3;
@@ -132,20 +133,16 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 .tsukuyomi-ticket-leg-status[data-outcome="won"] { --status-color: var(--ticket-won); }
 .tsukuyomi-ticket-status[data-outcome="lost"],
 .tsukuyomi-ticket-leg-status[data-outcome="lost"] { --status-color: var(--ticket-lost); }
+.tsukuyomi-ticket-status:not([data-outcome]) { --status-color: var(--tsukuyomi-accent); }
 
 .tsukuyomi-ledger {
-  --ledger-gutter: clamp(16px, 2vw, 24px);
-  padding: 16px var(--ledger-gutter);
-}
-
-[data-tsukuyomi-native-charts] {
-  margin-inline: calc(-1 * var(--ledger-gutter));
+  padding-block: clamp(22px, 3.4vw, 44px) clamp(18px, 2.7vw, 32px);
 }
 
 .tsukuyomi-ledger-heading {
-  margin: 0 0 12px;
-  font: 700 clamp(1.5rem, 3vw, 2rem)/1.1 var(--tsukuyomi-display);
-  letter-spacing: .02em;
+  margin: 0 0 clamp(14px, 2vw, 22px);
+  font: 700 clamp(1.75rem, 3.5vw, 2.8rem)/1 var(--tsukuyomi-display);
+  letter-spacing: .015em;
   text-transform: uppercase;
 }
 
@@ -153,15 +150,21 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: start;
-  gap: 8px;
+  gap: clamp(8px, 1vw, 16px);
   margin: 0;
 }
 
 .tsukuyomi-ledger-metrics > div {
-  padding: 12px;
-  border: 1px solid var(--tsukuyomi-accent-border);
-  border-radius: var(--tsukuyomi-radius);
-  background: var(--tsukuyomi-wash), var(--tsukuyomi-surface);
+  min-width: 0;
+  padding: clamp(12px, 1.25vw, 18px);
+  border: 1px solid var(--tsukuyomi-border);
+  border-radius: var(--tsukuyomi-card-radius);
+  background: var(--tsukuyomi-surface);
+}
+
+.tsukuyomi-ledger-metrics > div:is(:first-child, :has(details[open])) {
+  border-color: var(--tsukuyomi-accent-border);
+  background: var(--tsukuyomi-panel);
 }
 
 .tsukuyomi-ledger-label,
@@ -172,8 +175,9 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 
 .tsukuyomi-ledger-value {
   margin: 4px 0 0;
-  font: 700 clamp(1.5rem, 3vw, 2rem)/1.1 var(--tsukuyomi-display);
+  font: 700 clamp(1.4rem, 2.15vw, 2rem)/1.05 var(--tsukuyomi-display);
   font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
 }
 
 .tsukuyomi-ledger-detail-value { margin: 10px 0 0; }
@@ -192,6 +196,7 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 }
 
 .tsukuyomi-ledger-detail-toggle::-webkit-details-marker { display: none; }
+.tsukuyomi-ledger-detail-toggle:hover { color: var(--tsukuyomi-accent-hover); }
 
 .tsukuyomi-ledger-detail-toggle::after {
   width: 7px;
@@ -242,7 +247,7 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
   margin-top: 20px;
   overflow-x: auto;
   border: 1px solid var(--tsukuyomi-border);
-  border-radius: var(--tsukuyomi-radius);
+  border-radius: var(--tsukuyomi-card-radius);
 }
 
 .tsukuyomi-ledger-table {
@@ -255,7 +260,7 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 
 .tsukuyomi-ledger-table caption {
   padding: 12px;
-  background: var(--tsukuyomi-wash), var(--tsukuyomi-surface);
+  background: var(--tsukuyomi-panel);
   text-align: left;
   font: 700 1.25rem/1.1 var(--tsukuyomi-display);
 }
@@ -273,7 +278,7 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
   .tsukuyomi-ledger-metrics { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1360px) {
   .tsukuyomi-ledger-metrics { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 }
 
@@ -393,8 +398,9 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
   min-height: 44px;
   margin-top: 8px;
   border: 1px solid var(--colors-border);
-  color: var(--colors-foregroundMuted);
-  font-size: 14px;
+  border-radius: var(--tsukuyomi-control-radius);
+  color: var(--tsukuyomi-ink);
+  font: 700 13px/1.2 var(--tsukuyomi-body);
 }
 
 .tsukuyomi-tickets-view-all {
@@ -407,6 +413,7 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 
 .tsukuyomi-tickets-button:hover {
   background: var(--colors-surface);
+  border-color: var(--tsukuyomi-accent);
 }
 
 .tsukuyomi-tickets-button:focus-visible {
@@ -415,29 +422,13 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 }
 
 @media (min-width: 768px) {
-  .tsukuyomi-pronostic-views {
-    padding-inline: 24px;
-  }
-
   .tsukuyomi-pronostic-views button {
     flex: 0 1 auto;
     min-width: 134px;
   }
-
-  .tsukuyomi-tickets-page {
-    padding-inline: 24px;
-  }
-
-  .tsukuyomi-tickets-button {
-    min-height: 0;
-    padding-block: 6px;
-  }
 }
 
 @media (min-width: 1024px) {
-  article.tsukuyomi-ticket { padding: 18px 20px; }
-
-  article.tsukuyomi-ticket .tsukuyomi-ticket-title,
   .tsukuyomi-ticket-meta,
   .tsukuyomi-ticket-market,
   .tsukuyomi-ticket-summary,

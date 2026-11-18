@@ -1,5 +1,5 @@
 import { formatChf, netAmount, outcomeLabel, referenceStake, summarize, ticketDate } from "./ledgerAccounting.js?rev=chf-charts";
-import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=stats-auto";
+import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=landing-unified";
 
 const rate = new Intl.NumberFormat("fr-CH", { style: "percent", maximumFractionDigits: 1 });
 const period = new Intl.DateTimeFormat("fr-CH", { month: "long", year: "numeric", timeZone: "Europe/Zurich" });

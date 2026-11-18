@@ -6,7 +6,7 @@ let loadAttempts = 0;
 
 function loadNativeCharts() {
   if (!moduleRequest) {
-    const url = new URL("./nativeChartsRuntime.js?rev=stats-auto", import.meta.url);
+    const url = new URL("./nativeChartsRuntime.js?rev=landing-unified", import.meta.url);
     if (loadAttempts) url.searchParams.set("retry", String(loadAttempts));
     moduleRequest = import(url.href).catch((error) => {
       moduleRequest = undefined;

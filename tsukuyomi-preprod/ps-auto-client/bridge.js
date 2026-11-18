@@ -1,8 +1,8 @@
 import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=ticket-review";
 import { createTicketFilters } from "./ticketFilters.js?rev=stats-auto";
 import { deduplicateTickets } from "./ticketIdentity.js?rev=tsukuyomi-portfolio";
-import { renderLedger } from "./ledger.js?rev=kpi-detail-content";
-import { clearLedgerCharts } from "./ledgerCharts.js?rev=stats-auto";
+import { renderLedger } from "./ledger.js?rev=landing-unified";
+import { clearLedgerCharts } from "./ledgerCharts.js?rev=landing-unified";
 
 const tabsSelector = '[role="tablist"][aria-label="Navigation principale"] [role="tab"]';
 const latestSelector = 'section[aria-label="Derniers tickets"], section[data-tsukuyomi-latest]';
