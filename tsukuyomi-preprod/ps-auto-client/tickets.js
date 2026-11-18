@@ -93,18 +93,38 @@ function renderTicket(doc, ticket) {
   return listItem;
 }
 
-function publishedRows(tickets) {
-  return tickets
-    .filter((ticket) => typeof ticket?.published_at === "string" && Number.isFinite(Date.parse(ticket.published_at)))
-    .sort((a, b) => Date.parse(b.published_at) - Date.parse(a.published_at));
+function isPublished(ticket) {
+  return typeof ticket?.published_at === "string" && Number.isFinite(Date.parse(ticket.published_at));
 }
 
-function renderFeed(mount, { tickets = [], status, onRetry }, onViewAll) {
+function upcomingKickoff(ticket, now) {
+  if (!Array.isArray(ticket.legs) || !ticket.legs.length) return Infinity;
+  let firstKickoff = Infinity;
+  for (const leg of ticket.legs) {
+    const kickoff = Date.parse(leg?.starts_at);
+    if (!Number.isFinite(kickoff) || kickoff <= now) return Infinity;
+    firstKickoff = Math.min(firstKickoff, kickoff);
+  }
+  return firstKickoff;
+}
+
+export function nextTicketKickoff(tickets, now = Date.now()) {
+  let next = Infinity;
+  for (const ticket of tickets) {
+    if (isPublished(ticket)) next = Math.min(next, upcomingKickoff(ticket, now));
+  }
+  return next;
+}
+
+function renderFeed(mount, { tickets = [], status, onRetry, now = Date.now() }, { upcomingOnly = false, onViewAll }) {
   const doc = mount.ownerDocument;
   const feed = element(doc, "div", onViewAll ? "tsukuyomi-tickets-latest" : "tsukuyomi-tickets-page");
-  const rows = status === "ready" ? publishedRows(tickets) : [];
+  const rows = status === "ready"
+    ? tickets.filter((ticket) => isPublished(ticket) && (!upcomingOnly || Number.isFinite(upcomingKickoff(ticket, now))))
+      .sort((a, b) => Date.parse(b.published_at) - Date.parse(a.published_at))
+    : [];
   if (!rows.length) {
-    let message = "Aucun pronostic publié pour le moment.";
+    let message = upcomingOnly ? "Aucun ticket à jouer pour le moment." : "Aucun pronostic publié pour le moment.";
     if (status === "loading") message = "Chargement des pronostics…";
     if (status === "error") message = "Les pronostics sont momentanément indisponibles.";
     const notice = element(doc, "p", "tsukuyomi-ticket-notice", message);
@@ -136,9 +156,9 @@ function renderFeed(mount, { tickets = [], status, onRetry }, onViewAll) {
 }
 
 export function renderTickets(mount, data) {
-  renderFeed(mount, data);
+  renderFeed(mount, data, { upcomingOnly: true });
 }
 
 export function renderLatestTickets(mount, { tickets, status, onRetry, onViewAll }) {
-  renderFeed(mount, { tickets, status, onRetry }, onViewAll);
+  renderFeed(mount, { tickets, status, onRetry }, { onViewAll });
 }

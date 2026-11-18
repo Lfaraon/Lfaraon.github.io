@@ -1,4 +1,4 @@
-import { renderLatestTickets, renderTickets } from "./tickets.js?rev=pronostics";
+import { nextTicketKickoff, renderLatestTickets, renderTickets } from "./tickets.js?rev=played-tickets";
 
 const tabsSelector = '[role="tablist"][aria-label="Navigation principale"] [role="tab"]';
 const latestSelector = 'section[aria-label="Derniers tickets"], section[data-tsukuyomi-latest]';
@@ -10,6 +10,7 @@ const initialTabs = new Map([
   ["tickets", "Pronostics"],
 ]);
 const states = new Set(["loading", "ready", "error"]);
+const maxTimeout = 2 ** 31 - 1;
 
 function ticketFeed() {
   const feed = document.createElement("section");
@@ -26,42 +27,85 @@ function connectDashboard(nonce, destination) {
   const latest = ticketFeed();
   page.append(tickets);
 
+  const views = document.createElement("div");
+  views.className = "tsukuyomi-pronostic-views";
+  views.setAttribute("role", "group");
+  views.setAttribute("aria-label", "Vue des pronostics");
+  const upcomingButton = document.createElement("button");
+  upcomingButton.type = "button";
+  upcomingButton.textContent = "À jouer";
+  const playedButton = document.createElement("button");
+  playedButton.type = "button";
+  playedButton.textContent = "Tickets joués";
+  views.append(upcomingButton, playedButton);
+
   let port;
   let data = { status: "loading", tickets: [] };
   let lastTicketsRender;
   let lastLatestRender;
+  let kickoffTimer;
+  let showPlayed = false;
   let pendingTab = initialTabs.get(destination);
   let scrollToCalendar = destination === "calendrier";
 
   function tabByName(name) {
-    return Array.from(root.querySelectorAll(tabsSelector)).find((tab) => tab.textContent.trim() === name);
+    return Array.from(root.querySelectorAll(tabsSelector))
+      .find((tab) => !tab.hasAttribute("data-tsukuyomi-played-tab") && tab.textContent.trim() === name);
   }
 
-  const onViewAll = () => tabByName("Pronostics")?.click();
+  function playedTab() {
+    return root.querySelector("[data-tsukuyomi-played-tab]") || tabByName("Tickets");
+  }
+
+  const onViewAll = () => playedTab()?.click();
   const onRetry = () => port?.postMessage({ type: "tsukuyomi:retry" });
+  upcomingButton.addEventListener("click", () => {
+    showPlayed = false;
+    syncDashboard();
+  });
+  playedButton.addEventListener("click", () => {
+    showPlayed = true;
+    syncDashboard();
+  });
 
   function syncDashboard() {
     const originalMain = root.querySelector("main:not([data-tsukuyomi-pronostics])");
-    const tab = tabByName("Pronostics");
+    const sourcePronostics = tabByName("Pronostics");
+    const publicationTab = playedTab();
     const homeTab = tabByName("Accueil");
+    const navigation = homeTab?.closest("nav");
     const originalLatest = originalMain?.querySelector(latestSelector);
-    if (!originalMain || !tab || !homeTab || (homeTab.getAttribute("aria-selected") === "true" && !originalLatest)) return;
+    if (!originalMain || !sourcePronostics || !publicationTab || !navigation
+        || (homeTab.getAttribute("aria-selected") === "true" && !originalLatest)) return;
 
-    const legacyTab = tabByName("Tickets");
-    if (legacyTab) legacyTab.hidden = true;
-    const legacySelected = legacyTab?.getAttribute("aria-selected") === "true";
-    const requestedTab = pendingTab && tabByName(pendingTab);
+    // Reuse the source's ticket tab so selection and native history controls remain in sync.
+    sourcePronostics.hidden = true;
+    publicationTab.setAttribute("data-tsukuyomi-played-tab", "");
+    if (publicationTab.textContent.trim() !== "Pronostics") publicationTab.textContent = "Pronostics";
+
+    const requestedTab = pendingTab === "Pronostics" ? publicationTab : pendingTab && tabByName(pendingTab);
     if (requestedTab) {
       pendingTab = undefined;
       if (requestedTab.getAttribute("aria-selected") !== "true") requestedTab.click();
-    } else if (legacySelected) {
-      tab.click();
+    } else if (sourcePronostics.getAttribute("aria-selected") === "true") {
+      showPlayed = false;
+      publicationTab.click();
     }
 
-    const showPronostics = legacySelected || tab.getAttribute("aria-selected") === "true";
-    root.toggleAttribute("data-tsukuyomi-editorial", showPronostics);
-    originalMain.toggleAttribute("data-tsukuyomi-native-feed", showPronostics);
-    if (showPronostics) {
+    const inPronostics = publicationTab.getAttribute("aria-selected") === "true";
+    const showUpcoming = inPronostics && !showPlayed;
+    const hideNative = showUpcoming || sourcePronostics.getAttribute("aria-selected") === "true";
+    root.toggleAttribute("data-tsukuyomi-editorial", hideNative);
+    originalMain.toggleAttribute("data-tsukuyomi-native-feed", hideNative);
+    if (inPronostics) {
+      if (navigation.nextElementSibling !== views) navigation.after(views);
+      upcomingButton.setAttribute("aria-pressed", String(!showPlayed));
+      playedButton.setAttribute("aria-pressed", String(showPlayed));
+    } else {
+      views.remove();
+      showPlayed = false;
+    }
+    if (showUpcoming) {
       if (originalMain.nextElementSibling !== page) originalMain.after(page);
       if (lastTicketsRender !== data) {
         renderTickets(tickets, { ...data, onRetry });
@@ -94,7 +138,7 @@ function connectDashboard(nonce, destination) {
         scrollToCalendar = false;
         window.requestAnimationFrame(() => {
           if (!calendar.isConnected) return;
-          const navHeight = homeTab.closest("nav")?.getBoundingClientRect().height ?? 0;
+          const navHeight = navigation.getBoundingClientRect().height;
           calendar.style.scrollMarginTop = `${navHeight + 12}px`;
           calendar.tabIndex = -1;
           calendar.focus({ preventScroll: true });
@@ -102,6 +146,19 @@ function connectDashboard(nonce, destination) {
         });
       }
     }
+  }
+
+  function scheduleUpcomingRefresh() {
+    window.clearTimeout(kickoffTimer);
+    if (data.status !== "ready") return;
+    const now = Date.now();
+    const kickoff = nextTicketKickoff(data.tickets, now);
+    if (!Number.isFinite(kickoff)) return;
+    kickoffTimer = window.setTimeout(() => {
+      lastTicketsRender = undefined;
+      syncDashboard();
+      scheduleUpcomingRefresh();
+    }, Math.min(maxTimeout, kickoff - now));
   }
 
   function acceptChannel(event) {
@@ -114,6 +171,7 @@ function connectDashboard(nonce, destination) {
       if (message?.type !== "tsukuyomi:tickets" || !states.has(message.status) || !Array.isArray(message.tickets)) return;
       data = { status: message.status, tickets: message.tickets };
       syncDashboard();
+      scheduleUpcomingRefresh();
     };
   }
 
