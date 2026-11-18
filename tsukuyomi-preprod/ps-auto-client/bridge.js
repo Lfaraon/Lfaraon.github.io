@@ -1,6 +1,6 @@
 import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=admin-brier";
 import { createTicketFilters } from "./ticketFilters.js?rev=stats-auto";
-import { deduplicateTickets } from "./ticketIdentity.js?rev=tsukuyomi-portfolio";
+import { deduplicateTickets } from "./ticketIdentity.js?rev=reviewed-ticket-duplicates";
 import { renderLedger } from "./ledger.js?rev=admin-brier";
 import { clearLedgerCharts } from "./ledgerCharts.js?rev=admin-brier";
 

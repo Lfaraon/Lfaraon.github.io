@@ -1,5 +1,15 @@
 const ticketSources = new Set(["PSF", "LORO"]);
 
+// Confirmed archive pairs whose match or market labels differ across sources.
+const reviewedArchivePairs = [
+  ["PSF-2026-11-09-T001", "LORO-2026-11-09-T001"],
+  ["PSF-2026-11-13-T003", "LORO-2026-11-13-T001"],
+  ["PSF-2026-11-16-T001", "LORO-2026-11-16-T001"],
+];
+const reviewedArchiveGroups = new Map(reviewedArchivePairs.flatMap((pair) =>
+  pair.map((id) => [id, `archive:${pair[0]}`]),
+));
+
 function normalizedLabel(value) {
   if (typeof value !== "string") return "";
   return value.normalize("NFD")
@@ -27,6 +37,8 @@ function legIdentity(leg) {
 }
 
 function ticketIdentity(ticket) {
+  const reviewed = ticket?.placed_at && reviewedArchiveGroups.get(ticket.id);
+  if (reviewed) return reviewed;
   if (!Array.isArray(ticket?.legs) || !ticket.legs.length) return null;
   const legs = ticket.legs.map(legIdentity);
   if (legs.some((key) => key === null)) return null;
