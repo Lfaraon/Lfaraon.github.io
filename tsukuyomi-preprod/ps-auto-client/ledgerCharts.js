@@ -1,4 +1,4 @@
-import { buildLedgerSeries } from "./ledgerSeries.js?rev=ticket-review";
+import { buildLedgerSeries } from "./ledgerSeries.js?rev=stats-auto";
 
 const views = new WeakMap();
 let moduleRequest;
@@ -6,7 +6,7 @@ let loadAttempts = 0;
 
 function loadNativeCharts() {
   if (!moduleRequest) {
-    const url = new URL("./nativeChartsRuntime.js?rev=ticket-review", import.meta.url);
+    const url = new URL("./nativeChartsRuntime.js?rev=stats-auto", import.meta.url);
     if (loadAttempts) url.searchParams.set("retry", String(loadAttempts));
     moduleRequest = import(url.href).catch((error) => {
       moduleRequest = undefined;

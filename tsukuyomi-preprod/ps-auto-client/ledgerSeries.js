@@ -1,5 +1,6 @@
-import { referenceStake, summarize, ticketDate } from "./ledgerAccounting.js?rev=chf-charts";
+import { referenceStake, selectionOutcome, summarize, ticketDate } from "./ledgerAccounting.js?rev=stats-auto";
 import { archivedForecasts } from "./archivedForecasts.js?rev=ticket-review";
+import { selectionBrierScores } from "./selectionBrier.js?rev=stats-auto";
 
 const swissCalendar = new Intl.DateTimeFormat("fr-CH", {
   year: "numeric",
@@ -9,6 +10,8 @@ const swissCalendar = new Intl.DateTimeFormat("fr-CH", {
 });
 const settled = new Set(["won", "lost", "void"]);
 const kinds = ["simple", "combine", "triple"];
+const mixedSports = new Set(["multiple", "multi", "multisport", "multisports", "multi-sport",
+  "multi-sports", "mixte", "mixed", "all", "tous sports", "tous les sports", "sport non renseigné"]);
 
 function dayOf(timestamp) {
   const parts = Object.fromEntries(swissCalendar.formatToParts(timestamp).map(({ type, value }) => [type, value]));
@@ -22,7 +25,20 @@ function addTo(groups, key, ticket) {
 
 function sportLabel(sport) {
   const normalized = typeof sport === "string" ? sport.trim().toLocaleLowerCase("fr-CH") : "";
-  return normalized ? normalized[0].toLocaleUpperCase("fr-CH") + normalized.slice(1) : "Sport non renseigné";
+  if (!normalized || mixedSports.has(normalized) || /[,/|+&·]/.test(normalized)) return null;
+  return normalized[0].toLocaleUpperCase("fr-CH") + normalized.slice(1);
+}
+
+function addSportResults(sports, ticket) {
+  const ticketSport = sportLabel(ticket.sport);
+  for (const leg of ticket.legs ?? []) {
+    const outcome = selectionOutcome(ticket, leg);
+    if (outcome !== "won" && outcome !== "lost") continue;
+    const sport = sportLabel(leg?.sport) || ticketSport;
+    if (!sport) continue;
+    if (!sports.has(sport)) sports.set(sport, { sport, won: 0, lost: 0 });
+    sports.get(sport)[outcome] += 1;
+  }
 }
 
 function ticketBrier(ticket) {
@@ -54,13 +70,15 @@ function brierFor(tickets) {
 export function buildLedgerSeries(tickets) {
   const days = new Map();
   const sports = new Map();
+  const selectionScores = new Map();
   const byKind = kinds.map((kind) => ({ kind, ...summarize(tickets.filter((ticket) => ticket.kind === kind)) }));
   for (const ticket of tickets) {
-    addTo(sports, sportLabel(ticket.sport), ticket);
+    addSportResults(sports, ticket);
     const timestamp = Date.parse(ticketDate(ticket));
-    if (Number.isFinite(timestamp) && settled.has(ticket.settlement?.outcome)) {
-      addTo(days, dayOf(timestamp), ticket);
-    }
+    if (!Number.isFinite(timestamp)) continue;
+    const day = dayOf(timestamp);
+    if (settled.has(ticket.settlement?.outcome)) addTo(days, day, ticket);
+    for (const score of selectionBrierScores(ticket)) addTo(selectionScores, day, score);
   }
 
   let net = 0;
@@ -83,7 +101,11 @@ export function buildLedgerSeries(tickets) {
     if (count) brier.push({ day, score, count });
   }
 
-  const bySport = [...sports].sort(([a], [b]) => a.localeCompare(b, "fr-CH"))
-    .map(([sport, rows]) => ({ sport, ...summarize(rows) }));
-  return { timeline, byKind, bySport, brier };
+  const bySport = [...sports.values()].sort((a, b) => a.sport.localeCompare(b.sport, "fr-CH"))
+    .map((result) => ({ ...result, winRate: result.won / (result.won + result.lost) }));
+  const selectionBrier = [...selectionScores.keys()].sort().map((day) => {
+    const scores = selectionScores.get(day);
+    return { day, score: scores.reduce((sum, score) => sum + score, 0) / scores.length, count: scores.length };
+  });
+  return { timeline, byKind, bySport, brier, selectionBrier };
 }

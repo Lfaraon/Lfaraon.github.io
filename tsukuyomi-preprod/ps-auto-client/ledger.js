@@ -1,5 +1,5 @@
 import { formatChf, referenceStake, summarize, ticketDate } from "./ledgerAccounting.js?rev=chf-charts";
-import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=ticket-review";
+import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=stats-auto";
 
 const rate = new Intl.NumberFormat("fr-CH", { style: "percent", maximumFractionDigits: 1 });
 const period = new Intl.DateTimeFormat("fr-CH", { month: "long", year: "numeric", timeZone: "Europe/Zurich" });
@@ -83,8 +83,7 @@ export function renderLedger(section, { status, tickets, onRetry }, detail = fal
     card.append(element(doc, "dt", "", label), element(doc, "dd", "", value));
     grid.append(card);
   }
-  contents.push(grid, element(doc, "p", "tsukuyomi-ledger-note",
-    `Historique Tsukuyomi et tickets publiés. Mise de référence de ${formatChf(referenceStake)} par ticket. Le ROI et le taux de réussite portent sur les tickets gagnés ou perdus.`));
+  contents.push(grid);
   section.replaceChildren(...contents);
   if (detail) {
     renderLedgerCharts(section, tickets, totals);

@@ -164,7 +164,6 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 }
 
 .tsukuyomi-ledger-metrics dt,
-.tsukuyomi-ledger-note,
 .tsukuyomi-ledger-table thead {
   color: var(--colors-foregroundMuted);
   font-size: 13px;
@@ -175,8 +174,6 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
   font: 700 clamp(1.5rem, 3vw, 2rem)/1.1 var(--tsukuyomi-display);
   font-variant-numeric: tabular-nums;
 }
-
-.tsukuyomi-ledger-note { margin-top: 10px; }
 
 .tsukuyomi-ledger-table-wrap {
   margin-top: 20px;

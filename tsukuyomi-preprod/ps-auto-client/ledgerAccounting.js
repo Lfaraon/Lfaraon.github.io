@@ -10,6 +10,11 @@ export function ticketDate(ticket) {
   return ticket.placed_at || ticket.published_at;
 }
 
+export function selectionOutcome(ticket, leg) {
+  if (!leg) return null;
+  return leg.outcome ?? (ticket.legs?.length === 1 ? ticket.settlement?.outcome : null);
+}
+
 export function netAmount(ticket) {
   const { outcome, payout_odds } = ticket.settlement ?? {};
   if (outcome === "won") return referenceStake * ((payout_odds ?? ticket.odds) - 1);
