@@ -1426,6 +1426,38 @@
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/en-GB/matches/santos-vs-coritiba/2rhvtw",
       "statusBasis": "Début réel observé sur la fiche FotMob, affichage du temps de jeu et score provisoire 0–0 ; score final non renseigné."
+    },
+    "recCal20261119L91359": {
+      "status": "En cours",
+      "provider": "Tennis.com — statistiques de points, services et jeux réellement joués",
+      "checkedAt": "2026-11-18T23:35:37.946Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/a-geerlings-martinez-vs-l-samson-2026-11-18",
+      "statusBasis": "Début réel confirmé : 14 et 24 points sur première balle servis, jeux de service et balles de break dans la fiche exacte. Score provisoire non enregistré comme final."
+    },
+    "recCal20261119P66887176": {
+      "status": "En cours",
+      "provider": "FotMob — événements de but et minutes réelles sur la fiche Remo–Chapecoense",
+      "checkedAt": "2026-11-18T23:35:37.946Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/pt-PT/matches/remo-vs-chapecoense/94ipij5",
+      "statusBasis": "Début réel confirmé : buts à 3e (Jajá) et 20e (Patrick) minutes. Score provisoire 2–0 non enregistré comme final."
+    },
+    "recCal20261119P66887168": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-18T23:35:37.946Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Statut présumé selon le kickoff exact du 18 novembre 2026 à 23:30 UTC ; début réel non confirmé, aucun score final."
+    },
+    "recCal20261119P66887158": {
+      "status": "En cours",
+      "provider": "FotMob — chrono réel et score provisoire observés",
+      "checkedAt": "2026-11-18T23:35:37.946Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/matches/flamengo-vs-athletico-paranaense/3blkjw",
+      "statusBasis": "Début réel confirmé sur la fiche précise : chronomètre de jeu 0:15 et 0–0 provisoire, aucun score final."
     }
   }
 }
