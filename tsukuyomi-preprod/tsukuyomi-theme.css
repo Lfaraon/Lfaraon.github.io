@@ -72,3 +72,34 @@
   mask: url("./tsukuyomi-sharingan.svg?rev=rotating-sharingan") center / contain no-repeat;
   position: absolute;
 }
+
+.tsukuyomi-reveal {
+  display: block;
+  margin-block: -.095em;
+  overflow: hidden;
+  padding-block: .095em;
+}
+
+.tsukuyomi-reveal > .tsukuyomi-reveal-text { display: block; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .tsukuyomi-iris-rotating::after {
+    animation: tsukuyomi-iris-rotate var(--tsukuyomi-iris-turn-duration, 16s) linear infinite;
+  }
+
+  .tsukuyomi-reveal > .tsukuyomi-reveal-text {
+    animation: tsukuyomi-title-reveal var(--tsukuyomi-reveal-duration, 420ms)
+      var(--tsukuyomi-reveal-delay, 0ms) cubic-bezier(.2, .7, .2, 1) both;
+  }
+
+  .tsukuyomi-reveal > .tsukuyomi-reveal-text[data-reveal-pending] { animation-play-state: paused; }
+
+  @keyframes tsukuyomi-iris-rotate {
+    to { transform: rotate(1turn); }
+  }
+
+  @keyframes tsukuyomi-title-reveal {
+    from { transform: translateY(108%); }
+    to { transform: translateY(0); }
+  }
+}

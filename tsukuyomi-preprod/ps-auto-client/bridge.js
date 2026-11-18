@@ -1,7 +1,7 @@
 import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=shared-landing-ticket";
 import { createTicketFilters } from "./ticketFilters.js?rev=stats-auto";
 import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
-import { renderLedger } from "./ledger.js?rev=admin-brier";
+import { renderLedger } from "./ledger.js?rev=shared-motion";
 import { clearLedgerCharts } from "./ledgerCharts.js?rev=admin-brier";
 
 const tabsSelector = '[role="tablist"][aria-label="Navigation principale"] [role="tab"]';
@@ -91,22 +91,45 @@ function connectDashboard(window, nonce, destination) {
   let kickoffTimer;
   let activeView;
   let viewTransition;
+  let revealingTitle;
   let dashboardRendered = false;
-  let renderedMessageQueued = false;
+  let renderReport = "idle";
   let showPlayed = false;
   let pendingTab = initialTabs.get(destination);
   let scrollToCalendar = destination === "calendrier";
 
+  function stopTransitions() {
+    viewTransition?.cancel();
+    viewTransition = undefined;
+    if (revealingTitle) revealingTitle.parentElement.replaceWith(revealingTitle.textContent);
+    revealingTitle = undefined;
+  }
+
   reducedMotion?.addEventListener?.("change", ({ matches }) => {
-    if (matches) viewTransition?.cancel();
+    if (matches) stopTransitions();
   });
+
+  function revealLedgerHeading(panel, { pending = false } = {}) {
+    if (!panel?.isConnected || revealingTitle || reducedMotion?.matches) return;
+    const heading = panel.querySelector(".tsukuyomi-ledger-heading");
+    if (!heading) return;
+    const frame = document.createElement("span");
+    frame.className = "tsukuyomi-reveal";
+    revealingTitle = document.createElement("span");
+    revealingTitle.className = "tsukuyomi-reveal-text";
+    revealingTitle.textContent = heading.textContent;
+    if (pending) revealingTitle.setAttribute("data-reveal-pending", "");
+    frame.append(revealingTitle);
+    heading.replaceChildren(frame);
+  }
 
   function transitionTo(view, element) {
     const previousView = activeView;
     if (view === previousView) return;
     activeView = view;
-    viewTransition?.cancel();
+    stopTransitions();
     if (!previousView || reducedMotion?.matches) return;
+    if (renderReport === "sent") revealLedgerHeading(element);
     const switchingTicketView = (previousView === "upcoming" && view === "played")
       || (previousView === "played" && view === "upcoming");
     const content = switchingTicketView ? tickets : element;
@@ -117,11 +140,15 @@ function connectDashboard(window, nonce, destination) {
   }
 
   function reportRendered() {
-    if (!dashboardRendered || !port || renderedMessageQueued) return;
-    renderedMessageQueued = true;
+    if (!dashboardRendered || !port || renderReport !== "idle") return;
+    renderReport = "queued";
     // A frame can paint the updated DOM before the parent uncovers the iframe.
     window.requestAnimationFrame(() => {
-      window.requestAnimationFrame(() => port.postMessage({ type: "tsukuyomi:rendered" }));
+      window.requestAnimationFrame(() => {
+        revealLedgerHeading(activeView === "home" ? summary : statistics, { pending: true });
+        renderReport = "sent";
+        port.postMessage({ type: "tsukuyomi:rendered" });
+      });
     });
   }
 
@@ -315,6 +342,10 @@ function connectDashboard(window, nonce, destination) {
     window.removeEventListener("message", acceptChannel);
     port = event.ports[0];
     port.onmessage = ({ data: message }) => {
+      if (message?.type === "tsukuyomi:reveal-initial-title") {
+        revealingTitle?.removeAttribute("data-reveal-pending");
+        return;
+      }
       if (message?.type !== "tsukuyomi:tickets" || !states.has(message.status) || !Array.isArray(message.tickets)) return;
       publications = message.tickets.filter((ticket) => Number.isFinite(Date.parse(ticket.published_at)));
       data = { status: message.status, tickets: deduplicateTickets(publications) };

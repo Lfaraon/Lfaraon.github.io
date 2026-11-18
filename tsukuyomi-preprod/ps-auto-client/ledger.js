@@ -103,29 +103,40 @@ function addMetrics(section, tickets, totals) {
   return { grid, nextFocus };
 }
 
+function replaceLedgerContent(heading, ...contents) {
+  while (heading.nextSibling) heading.nextSibling.remove();
+  heading.after(...contents);
+}
+
 export function renderLedger(section, { status, tickets, onRetry }, detail = false) {
   clearLedgerCharts(section);
   const doc = section.ownerDocument;
-  const contents = [element(doc, "h2", "tsukuyomi-ledger-heading", detail ? "Statistiques Tsukuyomi" : "Bilan Tsukuyomi")];
+  const label = detail ? "Statistiques Tsukuyomi" : "Bilan Tsukuyomi";
+  let heading = section.firstElementChild;
+  if (!heading?.matches("h2.tsukuyomi-ledger-heading")) {
+    heading = element(doc, "h2", "tsukuyomi-ledger-heading", label);
+    section.replaceChildren(heading);
+  } else if (heading.textContent !== label) {
+    heading.textContent = label;
+  }
   if (status !== "ready") {
     const message = status === "error" ? "Le bilan est momentanément indisponible." : "Chargement du bilan…";
     const notice = element(doc, "p", "tsukuyomi-ticket-notice", message);
     notice.setAttribute("role", "status");
-    contents.push(notice);
+    const contents = [notice];
     if (status === "error") {
       const retry = element(doc, "button", "tsukuyomi-tickets-button tsukuyomi-tickets-retry", "Réessayer");
       retry.type = "button";
       retry.addEventListener("click", onRetry);
       contents.push(retry);
     }
-    section.replaceChildren(...contents);
+    replaceLedgerContent(heading, ...contents);
     return;
   }
 
   const totals = summarize(tickets);
   const { grid, nextFocus } = addMetrics(section, tickets, totals);
-  contents.push(grid);
-  section.replaceChildren(...contents);
+  replaceLedgerContent(heading, grid);
   nextFocus?.focus({ preventScroll: true });
   if (detail) renderLedgerCharts(section, tickets, totals);
 }
