@@ -51,7 +51,9 @@
 
 .tsukuyomi-mark {
   --mark-size: var(--tsukuyomi-mark-size, 23px);
+  --tsukuyomi-sharingan-inset: 1px;
   background: var(--tsukuyomi-accent);
+  background: radial-gradient(circle at 32% 24%, color-mix(in srgb, var(--tsukuyomi-accent) 84%, var(--tsukuyomi-ink)), var(--tsukuyomi-accent) 62%, color-mix(in srgb, var(--tsukuyomi-accent) 70%, var(--tsukuyomi-bg)));
   border-radius: 50%;
   display: inline-block;
   flex: 0 0 var(--mark-size);
@@ -61,10 +63,12 @@
   width: var(--mark-size);
 }
 
-.tsukuyomi-mark::after {
-  background: var(--tsukuyomi-mark-background, var(--tsukuyomi-bg));
-  border-radius: 50%;
+.tsukuyomi-mark::after,
+.tsukuyomi-iris::after {
+  background: var(--tsukuyomi-sharingan-ink, var(--tsukuyomi-mark-background, var(--tsukuyomi-bg)));
   content: "";
-  inset: -13% -13% 9% 13%;
+  inset: var(--tsukuyomi-sharingan-inset, 0);
+  -webkit-mask: url("./tsukuyomi-sharingan.svg") center / contain no-repeat;
+  mask: url("./tsukuyomi-sharingan.svg") center / contain no-repeat;
   position: absolute;
 }
