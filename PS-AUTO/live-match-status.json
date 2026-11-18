@@ -1126,12 +1126,14 @@
       "sets": "6-3, 3-6, 4-6"
     },
     "recCal20261117P76812386": {
-      "status": "En cours",
-      "checkedAt": "2026-11-17T23:34:08.010Z",
-      "provider": "Tennis.com — fiche interactive Colina 17.11, serveur et 3e set observés",
-      "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/b-gatica-vs-a-lazaro-garcia-2026-11-17",
+      "status": "Terminé",
+      "checkedAt": "2026-11-18T00:33:55.000Z",
+      "provider": "Tennis Majors — résultat final LP Open by IND 17.11.2026 (victoire Lázaro García)",
+      "sourceUrl": "https://www.tennismajors.com/matches/wta/lp-open-by-ind/barbara-gatica-vs-andrea-lazaro-garcia",
       "observedLive": true,
-      "statusBasis": "En cours confirmé dans le navigateur interactif: Gatica 6–2, 2–6, 2–2 au 3e set, service Lázaro García, point à 40. Score en cours uniquement; aucun score final."
+      "statusBasis": "Score final confirmé par fiche du match, victor: Andrea Lázaro García; première manche 6–3 vs ancien relevé live 6–2 (désaccord non bloquant)",
+      "score": "1-2",
+      "sets": "6-3, 2-6, 3-6"
     },
     "recCal20261118P76281536": {
       "status": "En cours",
@@ -1172,6 +1174,14 @@
       "checkedAt": "2026-11-18T00:33:02.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "statusBasis": "Début présumé +33 min après kickoff 2026-11-18T00:00Z, pas de suivi direct confirmé"
+    },
+    "recCal20261117P76812388": {
+      "status": "En cours",
+      "observedLive": true,
+      "checkedAt": "2026-11-18T00:33:55.000Z",
+      "provider": "Tennis Majors — fiche détaillée Colina, jeux du 1er set visibles (5–0)",
+      "sourceUrl": "https://www.tennismajors.com/matches/wta/lp-open-by-ind/fernanda-labrana-vs-antonia-vergara-rivera",
+      "statusBasis": "En cours confirmé : jeux 5–0 au premier set sur la fiche actualisée; autre source Tennis.com encore Upcoming (index périmé); pas de score final"
     }
   }
 }
