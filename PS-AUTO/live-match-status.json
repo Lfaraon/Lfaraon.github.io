@@ -1136,36 +1136,36 @@
       "sets": "6-3, 2-6, 3-6"
     },
     "recCal20261118P76281536": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-17T23:33:24.423Z",
+      "checkedAt": "2026-11-18T01:38:03.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
-      "statusBasis": "Statut présumé par kickoff, début théorique. Aucun direct observé."
+      "statusBasis": "Clôture présumée à +120 minutes du kickoff; score final non vérifié"
     },
     "recCal20261118P76123794": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-17T23:33:24.423Z",
+      "checkedAt": "2026-11-18T01:38:03.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
-      "statusBasis": "Statut présumé par kickoff, début théorique. Aucun direct observé."
+      "statusBasis": "Clôture présumée à +120 minutes du kickoff; score final non vérifié"
     },
     "recCal20261118P76438860": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-17T23:33:24.423Z",
+      "checkedAt": "2026-11-18T01:38:03.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
-      "statusBasis": "Statut présumé par kickoff, début théorique. Aucun direct observé."
+      "statusBasis": "Clôture présumée à +120 minutes du kickoff; score final non vérifié"
     },
     "recCal20261118P76482478": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-17T23:33:24.423Z",
+      "checkedAt": "2026-11-18T01:38:03.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
-      "statusBasis": "Statut présumé par kickoff, début théorique. Aucun direct observé."
+      "statusBasis": "Clôture présumée à +120 minutes du kickoff; score final non vérifié"
     },
     "recCal20261118L89862": {
       "status": "En cours",
