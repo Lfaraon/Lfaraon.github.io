@@ -1164,6 +1164,14 @@
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
       "statusBasis": "Statut présumé par kickoff, début théorique. Aucun direct observé."
+    },
+    "recCal20261118L89862": {
+      "status": "En cours",
+      "observedLive": false,
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-18T00:33:02.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé +33 min après kickoff 2026-11-18T00:00Z, pas de suivi direct confirmé"
     }
   }
 }
