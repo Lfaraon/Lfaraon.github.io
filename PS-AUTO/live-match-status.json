@@ -1226,11 +1226,14 @@
       "sets": "6-2, 6-4"
     },
     "recCal20261118P76682264": {
-      "status": "En cours",
-      "provider": "TennisTemple — points et jeux observés en direct",
-      "checkedAt": "2026-11-18T15:36:51.477Z",
+      "status": "Terminé",
+      "provider": "TennisTemple — fiche détaillée Colina, résultat final 18.11.2026",
+      "checkedAt": "2026-11-18T16:42:27.000Z",
       "observedLive": true,
-      "sourceUrl": "https://fr.tennistemple.com/match/maristany-zuleta-de-reales-costoulas-colina-2026/9570680/"
+      "sourceUrl": "https://fr.tennistemple.com/match/maristany-zuleta-de-reales-costoulas-colina-2026/9570680/",
+      "statusBasis": "Résultat final attesté par la fiche TennisTemple (7-5, 6-3), victoire Maristany. Ancienne fiche Live non actualisée sans incidence.",
+      "score": "2-0",
+      "sets": "7-5, 6-3"
     },
     "recCal20261118P76878816": {
       "status": "En cours",
