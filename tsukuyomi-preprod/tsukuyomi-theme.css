@@ -51,7 +51,7 @@
 
 .tsukuyomi-mark,
 .tsukuyomi-iris {
-  background: url("./tsukuyomi-eye.svg?rev=mangekyo") center / 100% auto no-repeat;
+  background: url("./tsukuyomi-eye.svg?rev=mangekyo-ink") center / 100% auto no-repeat;
 }
 
 .tsukuyomi-mark {
@@ -66,7 +66,7 @@
 
 .tsukuyomi-mark::after {
   aspect-ratio: 1;
-  background: url("./tsukuyomi-sharingan.svg?rev=iris-macro") center / contain no-repeat;
+  background: url("./tsukuyomi-sharingan.svg?rev=mangekyo-ink") center / contain no-repeat;
   content: "";
   left: 50%;
   position: absolute;
