@@ -1236,11 +1236,13 @@
       "sets": "7-5, 6-3"
     },
     "recCal20261118P76878816": {
-      "status": "En cours",
-      "provider": "Tennis.com — statistiques de jeux et de service actualisées",
-      "checkedAt": "2026-11-18T15:36:51.477Z",
+      "status": "Terminé",
+      "provider": "Tennis.com — Completed, score final et sets détaillés, Colina 18.11.2026",
+      "checkedAt": "2026-11-18T17:43:37.875Z",
       "observedLive": true,
-      "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/strakhova-v-tikhonova-a-vs-burillo-escorihuela-i-zolotareva-a-2026-11-18"
+      "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/strakhova-v-tikhonova-a-vs-burillo-escorihuela-i-zolotareva-a-2026-11-18",
+      "score": "2-0",
+      "sets": "6-1, 6-4"
     },
     "recCal20261118L91187": {
       "status": "En cours",
@@ -1257,6 +1259,27 @@
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "statusBasis": "Transition à l'heure prévue du coup d'envoi 18.11.2026 16:45 UTC, début non observé en direct, aucun score vérifié"
+    },
+    "recCal20261118P76682268": {
+      "status": "En cours",
+      "provider": "Tennis.com — statistiques de jeux/service de la fiche du match du 18.11.2026",
+      "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/r-masarova-vs-p-hercog-2026-11-18",
+      "checkedAt": "2026-11-18T17:43:37.875Z",
+      "observedLive": true
+    },
+    "recCal20261118P76878810": {
+      "status": "En cours",
+      "provider": "Tennis.com — statistiques de jeux/service de la fiche du double du 18.11.2026",
+      "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/oz-i-papamichail-d-vs-erjavec-v-kulambayeva-z-2026-11-18",
+      "checkedAt": "2026-11-18T17:43:37.875Z",
+      "observedLive": true
+    },
+    "recCal20261118P76736470": {
+      "status": "En cours",
+      "provider": "Tennis.com — statistiques de jeux/service du double ATP Finals 18.11.2026",
+      "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/granollers-m-zeballos-h-vs-krawietz-k-puetz-t-2026-11-18",
+      "checkedAt": "2026-11-18T17:43:37.875Z",
+      "observedLive": true
     }
   }
 }
