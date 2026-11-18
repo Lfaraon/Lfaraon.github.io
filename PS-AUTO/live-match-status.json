@@ -1191,12 +1191,13 @@
       "sets": "6-1, 3-6, 6-0"
     },
     "recCal20261118L89867": {
-      "status": "En cours",
-      "provider": "FOX Sports — fiche du match du 18.11 avec actions horodatées (7e–28e minutes)",
-      "sourceUrl": "https://www.foxsports.com/soccer/concacaf-nations-league-mexico-vs-jamaica-nov-17-2026-game-boxscore-1059782",
-      "checkedAt": "2026-11-18T03:39:54.088Z",
+      "status": "Terminé",
+      "provider": "r/LigaMX — compte rendu match retour Concacaf, Full Time 90+6",
+      "sourceUrl": "https://www.reddit.com/r/LigaMX/comments/1xz2ip6/match_thread_mexico_vs_jamaica_concacaf_nations/",
+      "checkedAt": "2026-11-18T04:40:21.866Z",
       "observedLive": true,
-      "statusBasis": "Direct confirmé par activités réelles (tirs, corners, carton) sur la fiche du retour CONCACAF. Score 0-0 seulement provisoire, aucun résultat final."
+      "statusBasis": "Score final 1–0 prouvé par match-thread FT pour retour du 17/18 novembre 2026 ; Jesús Corona 35', fin 90+6.",
+      "score": "1-0"
     }
   }
 }
