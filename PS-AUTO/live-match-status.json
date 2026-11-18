@@ -1329,11 +1329,11 @@
       "observedLive": false
     },
     "recCal20261118P76482550": {
-      "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-18T20:33:52.296Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "status": "En cours",
+      "provider": "HalaScore — suivi live prolongations (ET 97e), Portugalete–Real Unión",
+      "observedLive": true,
+      "checkedAt": "2026-11-18T20:36:49.224Z",
+      "sourceUrl": "https://halascore.com/pt/games/portugalete-vs-real-union-1644369/"
     },
     "recCal20261118P76661768": {
       "status": "Terminé",
