@@ -1215,6 +1215,13 @@
       "statusBasis": "Fin réelle et score 6-3, 6-4 prouvés par la fiche Tennis.com ; confirmation LTA ATP Finals. Ne pas confondre avec le direct antérieur.",
       "score": "2-0",
       "sets": "6-3, 6-4"
+    },
+    "recCal20261118P76736464": {
+      "status": "En cours",
+      "provider": "Tennis.com — fiche de match à statistiques live; The Guardian — liveblog 18.11.2026, Alcaraz 3–2 Medvedev",
+      "checkedAt": "2026-11-18T13:37:57.231Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/c-alcaraz-vs-d-medvedev-2026-11-18"
     }
   }
 }
