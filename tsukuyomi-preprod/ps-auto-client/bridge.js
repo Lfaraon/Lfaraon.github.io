@@ -1,4 +1,4 @@
-import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=admin-brier";
+import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=played-ticket-details";
 import { createTicketFilters } from "./ticketFilters.js?rev=stats-auto";
 import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
 import { renderLedger } from "./ledger.js?rev=admin-brier";

@@ -153,16 +153,16 @@ function metric(doc, label, value, outcome) {
   return item;
 }
 
-function renderTicket(doc, ticket, played) {
+function renderTicket(doc, ticket, played, open) {
   const listItem = element(doc, "li", "tsukuyomi-ticket-item");
   const card = element(doc, "article", "tsukuyomi-ticket");
-  const header = element(doc, "header", "tsukuyomi-ticket-header");
-  const heading = element(doc, "div", "tsukuyomi-ticket-heading");
+  const header = element(doc, played ? "summary" : "header", "tsukuyomi-ticket-header");
+  const heading = element(doc, played ? "span" : "div", "tsukuyomi-ticket-heading");
   const sports = typeof ticket.sport === "string" ? ticket.sport.trim() : "";
   const sport = sports ? sports[0].toLocaleUpperCase("fr") + sports.slice(1) : "";
   const title = [kinds[ticket.kind] || "Ticket", sport].filter(Boolean).join(" · ");
   const legs = Array.isArray(ticket.legs) ? ticket.legs.filter(Boolean) : [];
-  const metadata = element(doc, "p", "tsukuyomi-ticket-meta");
+  const metadata = element(doc, played ? "span" : "p", "tsukuyomi-ticket-meta");
   const published = time(doc, ticketDate(ticket), shortDate);
   const selections = legs.length === 1 ? "1 sélection" : legs.length + " sélections";
 
@@ -171,24 +171,45 @@ function renderTicket(doc, ticket, played) {
     metadata.append(published, " · ");
   }
   metadata.append(selections);
-  heading.append(element(doc, "h3", "tsukuyomi-ticket-title", title), metadata);
+  heading.append(element(doc, played ? "span" : "h3", "tsukuyomi-ticket-title", title), metadata);
   const outcome = ticket.settlement?.outcome;
   const settled = Object.hasOwn(outcomeLabel, outcome);
   const label = settled ? outcomeLabel[outcome] : played ? "En attente" : "Publié";
   const badge = statusChip(doc, "tsukuyomi-ticket-status", label, settled ? outcome : null);
-  header.append(heading, badge);
-  card.append(header);
+  header.append(heading);
+  let content = card;
+  if (played) {
+    const details = element(doc, "details", "tsukuyomi-ticket-disclosure");
+    if (ticket.id) details.dataset.ticketId = ticket.id;
+    details.open = open;
+    const controls = element(doc, "span", "tsukuyomi-ticket-summary-end");
+    const chevron = element(doc, "span", "tsukuyomi-ticket-chevron");
+    chevron.setAttribute("aria-hidden", "true");
+    controls.append(badge, chevron);
+    header.append(controls);
+    card.classList.add("tsukuyomi-ticket--played");
+    card.append(details);
+    content = details;
+    card.addEventListener("click", ({ target }) => {
+      // The native summary handles clicks and keyboard events inside the details.
+      if (details.contains(target)) return;
+      const selection = doc.getSelection();
+      if (selection?.toString() && card.contains(selection.anchorNode)) return;
+      details.open = !details.open;
+    });
+  } else {
+    header.append(badge);
+  }
 
   const legList = element(doc, "ol", "tsukuyomi-ticket-legs");
   legList.setAttribute("role", "list");
   legs.forEach((leg, index) => legList.append(renderLeg(doc, leg, index, ticket, played, settled)));
   if (!legs.length) legList.append(element(doc, "li", "tsukuyomi-ticket-meta", "Sélections non renseignées"));
-  card.append(legList);
 
   const estimate = ticketProbability(ticket) ?? recalculatedTicketProbability(ticket);
   const probability = element(doc, "p", "tsukuyomi-ticket-probability", "Probabilité du ticket · ");
   probability.append(element(doc, "strong", "", formatProbability(estimate)));
-  card.append(probability);
+  content.append(header, legList, probability);
 
   const metrics = element(doc, "dl", "tsukuyomi-ticket-odds");
   const odds = Number.isFinite(ticket.odds) ? decimal.format(ticket.odds) : "—";
@@ -243,6 +264,15 @@ function renderFeed(mount, { tickets = [], status, onRetry, filtered, now }, { v
   const doc = mount.ownerDocument;
   const feed = element(doc, "div", onViewAll ? "tsukuyomi-tickets-latest" : "tsukuyomi-tickets-page");
   const played = view === "played";
+  const openTickets = new Set(played ? Array.from(
+    mount.querySelectorAll(".tsukuyomi-ticket-disclosure[open][data-ticket-id]"),
+    (details) => details.dataset.ticketId,
+  ) : []);
+  const active = doc.activeElement;
+  const focusedTicket = played && mount.contains(active) && active.matches(".tsukuyomi-ticket-disclosure > summary")
+    ? active.parentElement.dataset.ticketId
+    : null;
+  let nextFocus;
   const rows = status === "ready" ? ticketsForView(tickets, { view, now }) : [];
   if (!rows.length) {
     let message = view === "upcoming" ? "Aucun ticket à jouer pour le moment." : "Aucun ticket dans cet historique.";
@@ -266,7 +296,11 @@ function renderFeed(mount, { tickets = [], status, onRetry, filtered, now }, { v
     }
     const list = element(doc, "ul", "tsukuyomi-ticket-list");
     const shown = onViewAll ? rows.slice(0, 4) : rows;
-    for (const ticket of shown) list.append(renderTicket(doc, ticket, played));
+    for (const ticket of shown) {
+      const item = renderTicket(doc, ticket, played, openTickets.has(ticket.id));
+      if (focusedTicket && focusedTicket === ticket.id) nextFocus = item.querySelector("summary");
+      list.append(item);
+    }
     feed.append(list);
   }
   if (onViewAll) {
@@ -276,6 +310,7 @@ function renderFeed(mount, { tickets = [], status, onRetry, filtered, now }, { v
     feed.append(button);
   }
   mount.replaceChildren(feed);
+  nextFocus?.focus({ preventScroll: true });
 }
 
 export function renderTickets(mount, data) {

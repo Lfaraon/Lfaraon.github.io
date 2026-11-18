@@ -128,6 +128,59 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 .tsukuyomi-ticket-leg-status[data-outcome="lost"] { --status-color: var(--ticket-lost); }
 .tsukuyomi-ticket-status:not([data-outcome]) { --status-color: var(--tsukuyomi-accent); }
 
+.tsukuyomi-ticket--played { cursor: pointer; }
+.tsukuyomi-ticket-disclosure[open] { cursor: auto; }
+
+.tsukuyomi-ticket-disclosure > summary {
+  align-items: center;
+  border-radius: var(--tsukuyomi-control-radius);
+  cursor: pointer;
+  list-style: none;
+  min-height: 44px;
+}
+
+.tsukuyomi-ticket-disclosure > summary::-webkit-details-marker { display: none; }
+
+.tsukuyomi-ticket-disclosure > summary:focus-visible {
+  outline: 2px solid var(--tsukuyomi-accent);
+  outline-offset: 3px;
+}
+
+.tsukuyomi-ticket-summary-end {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  gap: 7px;
+}
+
+.tsukuyomi-ticket-chevron {
+  align-items: center;
+  border: 1px solid var(--tsukuyomi-border);
+  border-radius: var(--tsukuyomi-control-radius);
+  color: var(--tsukuyomi-accent);
+  display: flex;
+  height: 24px;
+  justify-content: center;
+  width: 24px;
+}
+
+.tsukuyomi-ticket-chevron::before {
+  border-block-end: 1.5px solid currentColor;
+  border-inline-end: 1.5px solid currentColor;
+  content: "";
+  height: 7px;
+  transform: translateY(-2px) rotate(45deg);
+  width: 7px;
+}
+
+.tsukuyomi-ticket-disclosure[open] .tsukuyomi-ticket-chevron::before {
+  transform: translateY(2px) rotate(225deg);
+}
+
+@media (hover: hover) {
+  .tsukuyomi-ticket--played:hover .tsukuyomi-ticket-chevron { border-color: var(--tsukuyomi-accent-border); }
+}
+
 .tsukuyomi-ledger {
   padding-block: clamp(22px, 3.4vw, 44px) clamp(18px, 2.7vw, 32px);
 }
