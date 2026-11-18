@@ -1,0 +1,1012 @@
+{
+  "source": {
+    "url": "https://lfaraon.github.io/PS-AUTO/assets/index-Settlement-tickets-20261117-platformfix-v4.js",
+    "sha256": "4c9571e6046e06c900ad7d966c0272760c8c257a5ac1b348a2c81342c7e7caca",
+    "scope": "27 tickets joués auparavant affichés sur PS-AUTO, avec cotes et résultats. Les montants personnels sont exclus."
+  },
+  "tickets": [
+    {
+      "id": "LORO-2026-11-17-T001",
+      "source_platform": "LORO",
+      "kind": "triple",
+      "sport": "Football",
+      "odds": 1.8995,
+      "probability_pct": null,
+      "placed_at": "2026-11-17T19:05:00.000Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 1.8995
+      },
+      "legs": [
+        {
+          "event": "Israël – Autriche",
+          "selection": "Israël – Autriche moins de 4.5 buts (match)",
+          "starts_at": "2026-11-17T19:45:00.000Z",
+          "odds": 1.16,
+          "sport": "Football",
+          "outcome": "won",
+          "probability_pct": 89.8,
+          "score": "Israël 1–1 Autriche ; Under 4,5 match gagné"
+        },
+        {
+          "event": "Pays de Galles – Portugal",
+          "selection": "Pays de Galles +3.0 (handicap 1X2 européen, issue Pays de Galles)",
+          "starts_at": "2026-11-17T19:45:00.000Z",
+          "odds": 1.25,
+          "sport": "Football",
+          "outcome": "won",
+          "probability_pct": 87.8464,
+          "score": "Pays de Galles 2–3 Portugal ; Galles +3 handicap européen 1X2 gagné"
+        },
+        {
+          "event": "Niger – Maroc",
+          "selection": "Niger +4.0 (handicap 1X2 européen, issue Niger)",
+          "starts_at": "2026-11-17T20:00:00.000Z",
+          "odds": 1.31,
+          "sport": "Football",
+          "outcome": "won",
+          "probability_pct": 89.8756,
+          "score": "Niger 0–1 Maroc ; Niger +4 handicap européen 1X2 gagné"
+        }
+      ]
+    },
+    {
+      "id": "PSF-2026-11-17-T001",
+      "source_platform": "PSF",
+      "kind": "combine",
+      "sport": "Football",
+      "odds": 1.56,
+      "probability_pct": 78.89,
+      "placed_at": "2026-11-17",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 1.56
+      },
+      "legs": [
+        {
+          "event": "Pays de Galles – Portugal",
+          "selection": "Pays de Galles +2.5",
+          "starts_at": "2026-11-17T19:45:00.000Z",
+          "odds": 1.3,
+          "sport": "Football",
+          "outcome": "won",
+          "probability_pct": 87.8464,
+          "score": "Pays de Galles 2–3 Portugal ; Galles +2,5 gagné"
+        },
+        {
+          "event": "Israël – Autriche",
+          "selection": "Israël – Autriche moins de 4.5 buts (match)",
+          "starts_at": "2026-11-17T19:45:00.000Z",
+          "odds": 1.2,
+          "sport": "Football",
+          "outcome": "won",
+          "probability_pct": 89.8,
+          "score": "Israël 1–1 Autriche ; moins de 4,5 buts du match gagné"
+        }
+      ]
+    },
+    {
+      "id": "LORO-2026-11-16-T001",
+      "source_platform": "LORO",
+      "kind": "triple",
+      "sport": "Football",
+      "odds": 1.85136,
+      "probability_pct": null,
+      "placed_at": "2026-11-16T16:55:00.000Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 1.85136
+      },
+      "legs": [
+        {
+          "event": "Estonie – Bulgarie",
+          "selection": "Bulgarie +2.0 (handicap 1X2)",
+          "starts_at": "2026-11-16T17:00:00Z",
+          "odds": 1.16,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Estonie 2–1 Bulgarie (fin) ; Bulgarie +2,0 handicap 1X2 gagné"
+        },
+        {
+          "event": "Albacete Balompié – Celta Vigo B",
+          "selection": "Albacete Balompié moins de 2.5 buts (équipe)",
+          "starts_at": null,
+          "odds": 1.33,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Albacete 1–0 Celta Fortuna (fin) ; Albacete moins de 2,5 buts d’équipe gagné"
+        },
+        {
+          "event": "Grèce – Serbie",
+          "selection": "Serbie +3.0 (handicap 1X2)",
+          "starts_at": "2026-11-16T19:45:00Z",
+          "odds": 1.2,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Grèce 1–0 Serbie (fin) ; Serbie +3,0 handicap 1X2 gagné"
+        }
+      ]
+    },
+    {
+      "id": "PSF-2026-11-16-T001",
+      "source_platform": "PSF",
+      "kind": "triple",
+      "sport": "Football",
+      "odds": 2.24,
+      "probability_pct": null,
+      "placed_at": "2026-11-16T16:48:00.000Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 2.24
+      },
+      "legs": [
+        {
+          "event": "Estonie – Bulgarie",
+          "selection": "Bulgarie +1.5 (handicap asiatique)",
+          "starts_at": "2026-11-16T17:00:00Z",
+          "odds": 1.28,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Estonie 2–1 Bulgarie (fin) ; Bulgarie +1,5 asiatique gagné"
+        },
+        {
+          "event": "Grèce – Serbie",
+          "selection": "Serbie +2.5 (handicap asiatique)",
+          "starts_at": "2026-11-16T19:45:00Z",
+          "odds": 1.25,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Grèce 1–0 Serbie (fin) ; Serbie +2,5 asiatique gagné"
+        },
+        {
+          "event": "Albacete Balompié – Celta Vigo B",
+          "selection": "Albacete Balompié moins de 2.5 buts (équipe)",
+          "starts_at": null,
+          "odds": 1.4,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Albacete 1–0 Celta Fortuna (fin) ; Albacete moins de 2,5 buts d’équipe gagné"
+        }
+      ]
+    },
+    {
+      "id": "PSF-2026-11-14-T005",
+      "source_platform": "PSF",
+      "kind": "simple",
+      "sport": "Football",
+      "odds": 4.33,
+      "probability_pct": null,
+      "placed_at": "2026-11-14T18:49:19.937Z",
+      "settlement": {
+        "outcome": "lost",
+        "payout_odds": 0
+      },
+      "legs": [
+        {
+          "event": "Basque Country – Venezuela",
+          "selection": "Venezuela (remboursé si nul)",
+          "starts_at": null,
+          "odds": 4.33,
+          "sport": "Football",
+          "outcome": "lost",
+          "score": "Pays basque 1–0 Venezuela (fin)"
+        }
+      ]
+    },
+    {
+      "id": "LORO-2026-11-14-T001",
+      "source_platform": "LORO",
+      "kind": "triple",
+      "sport": "Football",
+      "odds": 1.99104,
+      "probability_pct": null,
+      "placed_at": "2026-11-14T17:15:00.000Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 1.99104
+      },
+      "legs": [
+        {
+          "event": "Géorgie – Hongrie",
+          "selection": "Géorgie Under1.5 buts (équipe)",
+          "starts_at": null,
+          "odds": 1.2,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Géorgie 0–2 Hongrie"
+        },
+        {
+          "event": "Atlético Goianiense – Cuiabá",
+          "selection": "Atlético Goianiense Under2.5 buts (équipe)",
+          "starts_at": null,
+          "odds": 1.36,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Atlético Goianiense 1–0 Cuiabá"
+        },
+        {
+          "event": "Irlande du Nord – Ukraine",
+          "selection": "Ukraine Under1.5 buts (équipe)",
+          "starts_at": null,
+          "odds": 1.22,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Irlande du Nord 1–0 Ukraine"
+        }
+      ]
+    },
+    {
+      "id": "PSF-2026-11-14-T004",
+      "source_platform": "PSF",
+      "kind": "triple",
+      "sport": "Football",
+      "odds": 2.02,
+      "probability_pct": null,
+      "placed_at": "2026-11-14T16:52:00.000Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 2.02
+      },
+      "legs": [
+        {
+          "event": "Georgia–Hungary",
+          "selection": "Georgia Under1.5 goals",
+          "starts_at": null,
+          "odds": 1.29,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Géorgie 0–2 Hongrie (fin)"
+        },
+        {
+          "event": "Atletico-GO–Cuiabá",
+          "selection": "Cuiabá +2.5",
+          "starts_at": null,
+          "odds": 1.25,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Atlético-GO 1–0 Cuiabá (fin) ; handicap +2,5 validé"
+        },
+        {
+          "event": "Northern Ireland–Ukraine",
+          "selection": "Ukraine Under1.5 goals",
+          "starts_at": null,
+          "odds": 1.25,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Irlande du Nord 1–0 Ukraine (fin)"
+        }
+      ]
+    },
+    {
+      "id": "LORO-2026-11-13-T001",
+      "source_platform": "LORO",
+      "kind": "triple",
+      "sport": "Football",
+      "odds": 1.903104,
+      "probability_pct": null,
+      "placed_at": "2026-11-13T19:39:00.000Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 1.903104
+      },
+      "legs": [
+        {
+          "event": "Écosse – Macédoine du Nord",
+          "selection": "Écosse – Macédoine du Nord Under4.5 buts (match)",
+          "starts_at": null,
+          "odds": 1.18,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Écosse 2–1 Macédoine du Nord"
+        },
+        {
+          "event": "Luxembourg – Estonie",
+          "selection": "Luxembourg – Estonie Under3.5 buts (match)",
+          "starts_at": null,
+          "odds": 1.12,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Luxembourg 0–1 Estonie"
+        },
+        {
+          "event": "Serbie – Allemagne",
+          "selection": "Serbie +3.0 handicap",
+          "starts_at": null,
+          "odds": 1.44,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Serbie 1–3 Allemagne"
+        }
+      ]
+    },
+    {
+      "id": "PSF-2026-11-13-T003",
+      "source_platform": "PSF",
+      "kind": "triple",
+      "sport": "Football",
+      "odds": 2.14,
+      "probability_pct": null,
+      "placed_at": "2026-11-13T19:31:00.000Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 2.14
+      },
+      "legs": [
+        {
+          "event": "Scotland–North Macedonia",
+          "selection": "Scotland–North Macedonia under4.5",
+          "starts_at": null,
+          "odds": 1.22,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Écosse 2–1 Macédoine du Nord (fin)"
+        },
+        {
+          "event": "Luxembourg–Estonia",
+          "selection": "Luxembourg–Estonia under3.5",
+          "starts_at": null,
+          "odds": 1.17,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Luxembourg 0–1 Estonie (fin)"
+        },
+        {
+          "event": "Serbia–Germany",
+          "selection": "Serbia +2.5 handicap asiatique",
+          "starts_at": null,
+          "odds": 1.5,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Serbie 1–3 Allemagne (fin) ; handicap +2,5 validé"
+        }
+      ]
+    },
+    {
+      "id": "PSF-2026-11-12-T002",
+      "source_platform": "PSF",
+      "kind": "triple",
+      "sport": "Football",
+      "odds": 1.9,
+      "probability_pct": null,
+      "placed_at": "2026-11-12T13:19:00.000Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 1.9
+      },
+      "legs": [
+        {
+          "event": "Montenegro–Latvia",
+          "selection": "Montenegro – moins de 3.5 buts équipe",
+          "starts_at": null,
+          "odds": 1.2,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Monténégro 2–1 Lettonie (fin)"
+        },
+        {
+          "event": "England–Croatia",
+          "selection": "England–Croatia moins de 4.5 buts",
+          "starts_at": null,
+          "odds": 1.3,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Angleterre 2–1 Croatie (fin)"
+        },
+        {
+          "event": "Turkiye–Belgium",
+          "selection": "Turkiye–Belgium moins de 4.5 buts",
+          "starts_at": null,
+          "odds": 1.22,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Turquie 1–2 Belgique (fin)"
+        }
+      ]
+    },
+    {
+      "id": "LORO-2026-11-12-T002",
+      "source_platform": "LORO",
+      "kind": "combine",
+      "sport": "Football",
+      "odds": 1.4268,
+      "probability_pct": null,
+      "placed_at": "2026-11-12T10:45:00.000Z",
+      "settlement": {
+        "outcome": "lost",
+        "payout_odds": 0
+      },
+      "legs": [
+        {
+          "event": "Sénégal – Soudan",
+          "selection": "Sénégal ou nul et Under4.5 buts (match)",
+          "starts_at": null,
+          "odds": 1.23,
+          "sport": "Football",
+          "outcome": "lost",
+          "score": "Sénégal 4–1 Soudan"
+        },
+        {
+          "event": "Monténégro – Lettonie",
+          "selection": "Monténégro Under3.5 buts (équipe)",
+          "starts_at": null,
+          "odds": 1.16,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Monténégro 2–1 Lettonie"
+        }
+      ]
+    },
+    {
+      "id": "LORO-2026-11-12-T001",
+      "source_platform": "LORO",
+      "kind": "triple",
+      "sport": "Football",
+      "odds": 2.01096,
+      "probability_pct": null,
+      "placed_at": "2026-11-12T10:41:00.000Z",
+      "settlement": {
+        "outcome": "lost",
+        "payout_odds": 0
+      },
+      "legs": [
+        {
+          "event": "Bénin – Centrafrique",
+          "selection": "Bénin Under2.5 buts (équipe)",
+          "starts_at": null,
+          "odds": 1.2,
+          "sport": "Football",
+          "outcome": "lost",
+          "score": "Bénin 4–1 Centrafrique"
+        },
+        {
+          "event": "Sénégal – Soudan",
+          "selection": "Sénégal Under3.5 buts (équipe)",
+          "starts_at": null,
+          "odds": 1.33,
+          "sport": "Football",
+          "outcome": "lost",
+          "score": "Sénégal 4–1 Soudan"
+        },
+        {
+          "event": "Angleterre – Croatie",
+          "selection": "Angleterre Under3.5 buts (équipe)",
+          "starts_at": null,
+          "odds": 1.26,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Angleterre 2–1 Croatie"
+        }
+      ]
+    },
+    {
+      "id": "LORO-2026-11-11-T001",
+      "source_platform": "LORO",
+      "kind": "combine",
+      "sport": "Football",
+      "odds": 2.1021,
+      "probability_pct": null,
+      "placed_at": "2026-11-11T15:34:00.000Z",
+      "settlement": {
+        "outcome": "lost",
+        "payout_odds": 0
+      },
+      "legs": [
+        {
+          "event": "FK Zeleziarne Podbrezova – FC Vion Zlate Moravce",
+          "selection": "FK Zeleziarne Podbrezova vainqueur",
+          "starts_at": null,
+          "odds": 1.43,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "FK Zeleziarne Podbrezova 2–0 FC Vion Zlate Moravce"
+        },
+        {
+          "event": "Juventus F – Lyon F",
+          "selection": "Juventus F – Lyon F Under4.5 buts (match)",
+          "starts_at": null,
+          "odds": 1.47,
+          "sport": "Football",
+          "outcome": "lost",
+          "score": "Juventus F 0–6 Lyon F"
+        }
+      ]
+    },
+    {
+      "id": "PSF-2026-11-11-T001",
+      "source_platform": "PSF",
+      "kind": "combine",
+      "sport": "Multisport",
+      "odds": 1.55,
+      "probability_pct": null,
+      "placed_at": "2026-11-11T11:48:00.000Z",
+      "settlement": {
+        "outcome": "lost",
+        "payout_odds": 0
+      },
+      "legs": [
+        {
+          "event": "Aryna Sabalenka – Mirra Andreeva",
+          "selection": "Sabalenka +1.5 sets",
+          "starts_at": null,
+          "odds": 1.35,
+          "sport": "Tennis",
+          "outcome": "lost",
+          "score": "Sabalenka 0–2 Andreeva (4–6, 0–6)"
+        },
+        {
+          "event": "Vietnam – Chinese Taipei",
+          "selection": "Chinese Taipei +4.5 asian",
+          "starts_at": null,
+          "odds": 1.15,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Vietnam 2–0 Chinese Taipei (fin) ; handicap +4,5 validé"
+        }
+      ]
+    },
+    {
+      "id": "LORO-2026-11-10-T001",
+      "source_platform": "LORO",
+      "kind": "triple",
+      "sport": "Tennis",
+      "odds": 1.75,
+      "probability_pct": null,
+      "placed_at": "2026-11-10T10:48:00.000Z",
+      "settlement": {
+        "outcome": "lost",
+        "payout_odds": 0
+      },
+      "legs": [
+        {
+          "event": "Alex Michelsen – Juan Manuel Cerundolo",
+          "selection": "Alex Michelsen vainqueur",
+          "starts_at": null,
+          "odds": 1.21,
+          "sport": "Tennis",
+          "outcome": "won",
+          "score": "Alex Michelsen gagnant"
+        },
+        {
+          "event": "Carole Monnet – Leyre Romero Gormaz",
+          "selection": "Leyre Romero Gormaz +1.5 sets",
+          "starts_at": null,
+          "odds": 1.16,
+          "sport": "Tennis",
+          "outcome": "lost",
+          "score": "Leyre Romero Gormaz handicap +1,5 sets perdant"
+        },
+        {
+          "event": "Bianca Andreescu – Rebeka Masarova",
+          "selection": "Bianca Andreescu vainqueure",
+          "starts_at": null,
+          "odds": 1.25,
+          "sport": "Tennis",
+          "outcome": "won",
+          "score": "Bianca Andreescu gagnante"
+        }
+      ]
+    },
+    {
+      "id": "PSF-2026-11-09-T002",
+      "source_platform": "PSF",
+      "kind": "combine",
+      "sport": "Multisport",
+      "odds": 1.566,
+      "probability_pct": null,
+      "placed_at": "2026-11-09T18:44:08.572Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 1.566
+      },
+      "legs": [
+        {
+          "event": "Sabalenka, Aryna – Muchova, Karolina",
+          "selection": "Sabalenka, Aryna +1.5 (handicap sets)",
+          "starts_at": null,
+          "odds": 1.16,
+          "sport": "Tennis",
+          "outcome": "won",
+          "score": "Sabalenka 2–0 Muchová (7–6 [7–2], 7–5) ; Sabalenka +1,5 set validé"
+        },
+        {
+          "event": "CE Sabadell FC – Real Sociedad San Sebastian B",
+          "selection": "Real Sociedad San Sebastian B +1.5 (handicap buts)",
+          "starts_at": null,
+          "odds": 1.35,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Sabadell 0–0 Real Sociedad B (fin) ; Real Sociedad B +1,5 validé"
+        }
+      ]
+    },
+    {
+      "id": "LORO-2026-11-09-T001",
+      "source_platform": "LORO",
+      "kind": "combine",
+      "sport": "Football",
+      "odds": 1.42,
+      "probability_pct": null,
+      "placed_at": "2026-11-09T13:01:00.000Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 1.42
+      },
+      "legs": [
+        {
+          "event": "Kristiansund BK – Vålerenga",
+          "selection": "Kristiansund BK +2.0 handicap",
+          "starts_at": null,
+          "odds": 1.18,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Kristiansund BK 1–0 Vålerenga"
+        },
+        {
+          "event": "Torreense – UD Leiria",
+          "selection": "Torreense Under2.5 buts (équipe)",
+          "starts_at": null,
+          "odds": 1.21,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Torreense 2–3 UD Leiria"
+        }
+      ]
+    },
+    {
+      "id": "PSF-2026-11-09-T001",
+      "source_platform": "PSF",
+      "kind": "combine",
+      "sport": "Football",
+      "odds": 1.55,
+      "probability_pct": null,
+      "placed_at": "2026-11-09T12:59:00.000Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 1.55
+      },
+      "legs": [
+        {
+          "event": "Kristiansund BK – Vålerenga IF",
+          "selection": "Kristiansund BK +1.5",
+          "starts_at": null,
+          "odds": 1.27,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Kristiansund 1–0 Vålerenga (fin)"
+        },
+        {
+          "event": "SCU Torreense – UD Leiria",
+          "selection": "SCU Torreense moins de2.5 buts",
+          "starts_at": null,
+          "odds": 1.22,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "SCU Torreense 1–2 UD Leiria (fin)"
+        }
+      ]
+    },
+    {
+      "id": "LORO-2026-11-08-T002",
+      "source_platform": "LORO",
+      "kind": "triple",
+      "sport": "Football",
+      "odds": 2.47,
+      "probability_pct": null,
+      "placed_at": "2026-11-08T16:25:00.000Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 2.47
+      },
+      "legs": [
+        {
+          "event": "AIK – Häcken",
+          "selection": "AIK ou nul (double chance)",
+          "starts_at": null,
+          "odds": 1.33,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "AIK 3–2 Häcken"
+        },
+        {
+          "event": "Estrela – Benfica",
+          "selection": "Benfica Under3.5 buts (équipe)",
+          "starts_at": null,
+          "odds": 1.33,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Estrela 2–3 Benfica"
+        },
+        {
+          "event": "Goiás – Ponte Preta",
+          "selection": "Goiás Under3.5 buts (équipe)",
+          "starts_at": null,
+          "odds": 1.4,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Goiás 1–0 Ponte Preta"
+        }
+      ]
+    },
+    {
+      "id": "PSF-2026-11-08-T002",
+      "source_platform": "PSF",
+      "kind": "combine",
+      "sport": "Football",
+      "odds": 1.5048,
+      "probability_pct": null,
+      "placed_at": "2026-11-08T15:39:59.580Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 1.5048
+      },
+      "legs": [
+        {
+          "event": "Estrela Amadora – SL Benfica",
+          "selection": "SL Benfica : moins de 4,5 buts",
+          "starts_at": null,
+          "odds": 1.14,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Estrela Amadora 2–3 Benfica (fin) ; Benfica : 3 buts, moins de 4,5 validé"
+        },
+        {
+          "event": "Goias EC GO – AA Ponte Preta SP",
+          "selection": "AA Ponte Preta SP +3.5 (handicap buts)",
+          "starts_at": null,
+          "odds": 1.32,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Goiás 1–0 Ponte Preta (fin) ; Ponte Preta +3,5 validé"
+        }
+      ]
+    },
+    {
+      "id": "PSF-2026-11-08-T001",
+      "source_platform": "PSF",
+      "kind": "combine",
+      "sport": "Football",
+      "odds": 1.5372,
+      "probability_pct": null,
+      "placed_at": "2026-11-08T12:44:50.056Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 1.5372
+      },
+      "legs": [
+        {
+          "event": "Tromsoe IL – Bodoe/Glimt",
+          "selection": "Bodoe/Glimt : moins de 3,5 buts",
+          "starts_at": null,
+          "odds": 1.22,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Tromsø 0–2 Bodø/Glimt (fin) ; Bodø/Glimt : 2 buts, moins de 3,5 validé"
+        },
+        {
+          "event": "HJK Helsinki – AC Oulu",
+          "selection": "AC Oulu +3.5 (handicap buts)",
+          "starts_at": null,
+          "odds": 1.26,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "HJK 3–3 AC Oulu (fin) ; AC Oulu +3,5 validé"
+        }
+      ]
+    },
+    {
+      "id": "LORO-2026-11-08-T001",
+      "source_platform": "LORO",
+      "kind": "combine",
+      "sport": "Football",
+      "odds": 1.53,
+      "probability_pct": null,
+      "placed_at": "2026-11-08T12:35:00.000Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 1.53
+      },
+      "legs": [
+        {
+          "event": "Brighton – Brentford",
+          "selection": "Brighton ou nul (double chance)",
+          "starts_at": null,
+          "odds": 1.25,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Brighton 2–0 Brentford"
+        },
+        {
+          "event": "Sunderland – Chelsea",
+          "selection": "Chelsea Under2.5 buts (équipe)",
+          "starts_at": null,
+          "odds": 1.23,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Sunderland 1–0 Chelsea"
+        }
+      ]
+    },
+    {
+      "id": "LORO-2026-11-07-T003",
+      "source_platform": "LORO",
+      "kind": "triple",
+      "sport": "Football",
+      "odds": 6.32,
+      "probability_pct": null,
+      "placed_at": "2026-11-07T20:16:00.000Z",
+      "settlement": {
+        "outcome": "lost",
+        "payout_odds": 0
+      },
+      "legs": [
+        {
+          "event": "AS Rome – Sassuolo",
+          "selection": "Donyell Malen buteur",
+          "starts_at": null,
+          "odds": 2,
+          "sport": "Football",
+          "outcome": "lost",
+          "score": "AS Rome 3–0 Sassuolo ; Donyell Malen non buteur"
+        },
+        {
+          "event": "St. Mirren – Rangers",
+          "selection": "Kevin Kelsy buteur",
+          "starts_at": null,
+          "odds": 2.15,
+          "sport": "Football",
+          "outcome": "lost",
+          "score": "St. Mirren 0–2 Rangers ; Kevin Kelsy non buteur"
+        },
+        {
+          "event": "Valence – Real Madrid",
+          "selection": "Kylian Mbappé buteur",
+          "starts_at": null,
+          "odds": 1.47,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Valence 0–3 Real Madrid ; Kylian Mbappé buteur"
+        }
+      ]
+    },
+    {
+      "id": "PSF-2026-11-07-T002",
+      "source_platform": "PSF",
+      "kind": "combine",
+      "sport": "Football",
+      "odds": 1.521,
+      "probability_pct": null,
+      "placed_at": "2026-11-07T19:30:26.102Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 1.521
+      },
+      "legs": [
+        {
+          "event": "Sporting CP – Moreirense FC",
+          "selection": "Moreirense FC +3.5 (handicap buts)",
+          "starts_at": null,
+          "odds": 1.3,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Sporting 1–0 Moreirense (fin) ; Moreirense +3,5 validé"
+        },
+        {
+          "event": "Paris Saint-Germain – ESTAC Troyes",
+          "selection": "Paris Saint-Germain : moins de 4,5 buts",
+          "starts_at": null,
+          "odds": 1.17,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "PSG 1–0 Troyes (fin) ; PSG : 1 but, moins de 4,5 validé"
+        }
+      ]
+    },
+    {
+      "id": "LORO-2026-11-07-T002",
+      "source_platform": "LORO",
+      "kind": "combine",
+      "sport": "Football",
+      "odds": 2.39,
+      "probability_pct": null,
+      "placed_at": "2026-11-07T19:27:00.000Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 2.39
+      },
+      "legs": [
+        {
+          "event": "Paris Saint-Germain – Troyes",
+          "selection": "Paris Saint-Germain Under3.5 buts (équipe)",
+          "starts_at": null,
+          "odds": 1.47,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Paris SG 1–0 Troyes"
+        },
+        {
+          "event": "Sporting CP – Moreirense",
+          "selection": "Moreirense +3.0 handicap",
+          "starts_at": null,
+          "odds": 1.63,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Sporting CP 1–0 Moreirense"
+        }
+      ]
+    },
+    {
+      "id": "PSF-2026-11-07-T001",
+      "source_platform": "PSF",
+      "kind": "combine",
+      "sport": "Football",
+      "odds": 1.7024,
+      "probability_pct": null,
+      "placed_at": "2026-11-07T06:33:54.973Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 1.7024
+      },
+      "legs": [
+        {
+          "event": "GIF Sundsvall – Varbergs BoIS",
+          "selection": "Varbergs BoIS : moins de 3,5 buts",
+          "starts_at": null,
+          "odds": 1.28,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "GIF Sundsvall 0–2 Varbergs BoIS (fin) ; Varbergs : 2 buts, moins de 3,5 validé",
+          "event_key": "2026-11-07:gif-sundsvall-varbergs-bois",
+          "market_key": "team-goals:varbergs-bois:under:3.5"
+        },
+        {
+          "event": "Borussia Dortmund – SV 07 Elversberg",
+          "selection": "Borussia Dortmund : moins de 3,5 buts",
+          "starts_at": null,
+          "odds": 1.33,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Dortmund 2–1 Elversberg (fin) ; Dortmund : 2 buts, moins de 3,5 validé",
+          "event_key": "2026-11-07:borussia-dortmund-sv-07-elversberg",
+          "market_key": "team-goals:borussia-dortmund:under:3.5"
+        }
+      ]
+    },
+    {
+      "id": "LORO-2026-11-07-T001",
+      "source_platform": "LORO",
+      "kind": "combine",
+      "sport": "Football",
+      "odds": 1.57,
+      "probability_pct": null,
+      "placed_at": "2026-11-07T06:30:00.000Z",
+      "settlement": {
+        "outcome": "won",
+        "payout_odds": 1.57
+      },
+      "legs": [
+        {
+          "event": "GIF Sundsvall – Varbergs BoIS",
+          "selection": "Varbergs BoIS Under3.5 buts (équipe)",
+          "starts_at": null,
+          "odds": 1.25,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "GIF Sundsvall 0–2 Varbergs BoIS",
+          "event_key": "2026-11-07:gif-sundsvall-varbergs-bois",
+          "market_key": "team-goals:varbergs-bois:under:3.5"
+        },
+        {
+          "event": "Borussia Dortmund – Elversberg",
+          "selection": "Borussia Dortmund Under3.5 buts (équipe)",
+          "starts_at": null,
+          "odds": 1.26,
+          "sport": "Football",
+          "outcome": "won",
+          "score": "Dortmund 2–1 Elversberg",
+          "event_key": "2026-11-07:borussia-dortmund-sv-07-elversberg",
+          "market_key": "team-goals:borussia-dortmund:under:3.5"
+        }
+      ]
+    }
+  ]
+}

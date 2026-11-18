@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#101010" />
     <meta name="color-scheme" content="dark" />
-    <title>PS-AUTO · Centre de commande</title>
+    <title>Tsukuyomi · Centre de commande</title>
     <link id="tsukuyomi-theme" rel="stylesheet" href="../tsukuyomi-theme.css?rev=landing-da" />
-    <link rel="stylesheet" href="./tickets.css?rev=landing-da" />
+    <link rel="stylesheet" href="./tickets.css?rev=tsukuyomi-portfolio" />
     <link rel="stylesheet" href="./theme.css?rev=landing-da" />
     <script type="module">
-      import { startPsAutoDashboard } from "./source.js?rev=played-tickets";
+      import { startPsAutoDashboard } from "./source.js?rev=tsukuyomi-portfolio";
       startPsAutoDashboard();
     </script>
     <style>
@@ -34,7 +34,11 @@
       #root[hidden], #ps-auto-status[hidden],
       #root nav[aria-label="Rubriques"] [role="tab"][hidden],
       #root nav[aria-label="Rubriques"] > button[title="Diagnostics"],
+      .psa-app-header-alert,
       #root[data-tsukuyomi-editorial] > div > section[aria-label="Filtres"],
+      #root section[aria-label="Indicateurs clés"],
+      #calendar-filter-options [hidden],
+      #root section[aria-label="Pronostics associés à ce match"],
       .dashboard-home-left > section[aria-label="Derniers pronostics"],
       [data-tsukuyomi-native-feed],
       section[data-tsukuyomi-latest] > :not(h2, .tsukuyomi-ticket-feed) { display: none !important; }
@@ -44,7 +48,7 @@
     </style>
   </head>
   <body>
-    <div id="ps-auto-status" role="status">Chargement de PS-AUTO…</div>
+    <div id="ps-auto-status" role="status">Chargement de ton espace…</div>
     <div id="root" hidden></div>
   </body>
 </html>

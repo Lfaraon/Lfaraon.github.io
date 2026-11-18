@@ -113,6 +113,89 @@
   font-weight: 600;
 }
 
+.tsukuyomi-ticket-status[data-outcome="won"] { color: oklch(82% .14 145); border-color: oklch(55% .11 145); }
+.tsukuyomi-ticket-status[data-outcome="lost"] { color: oklch(78% .13 25); border-color: oklch(55% .12 25); }
+.tsukuyomi-ticket-status[data-outcome="void"] { color: var(--colors-foregroundMuted); border-color: var(--colors-border); }
+
+.tsukuyomi-ledger {
+  padding: 16px clamp(16px, 2vw, 24px);
+}
+
+.tsukuyomi-ledger-heading {
+  margin: 0 0 12px;
+  font: 700 clamp(1.5rem, 3vw, 2rem)/1.1 var(--tsukuyomi-display);
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+.tsukuyomi-ledger-metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 0;
+}
+
+.tsukuyomi-ledger-metrics > div {
+  padding: 12px;
+  border: 1px solid var(--tsukuyomi-accent-border);
+  border-radius: var(--tsukuyomi-radius);
+  background: var(--tsukuyomi-wash), var(--tsukuyomi-surface);
+}
+
+.tsukuyomi-ledger-metrics dt,
+.tsukuyomi-ledger-note,
+.tsukuyomi-ledger-table thead {
+  color: var(--colors-foregroundMuted);
+  font-size: 13px;
+}
+
+.tsukuyomi-ledger-metrics dd {
+  margin: 4px 0 0;
+  font: 700 clamp(1.5rem, 3vw, 2rem)/1.1 var(--tsukuyomi-display);
+  font-variant-numeric: tabular-nums;
+}
+
+.tsukuyomi-ledger-note { margin-top: 10px; }
+
+.tsukuyomi-ledger-table-wrap {
+  margin-top: 20px;
+  overflow-x: auto;
+  border: 1px solid var(--tsukuyomi-border);
+  border-radius: var(--tsukuyomi-radius);
+}
+
+.tsukuyomi-ledger-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--tsukuyomi-surface);
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+.tsukuyomi-ledger-table caption {
+  padding: 12px;
+  background: var(--tsukuyomi-wash), var(--tsukuyomi-surface);
+  text-align: left;
+  font: 700 1.25rem/1.1 var(--tsukuyomi-display);
+}
+
+.tsukuyomi-ledger-table :is(th, td) {
+  padding: 10px 12px;
+  border-top: 1px solid var(--tsukuyomi-border);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.tsukuyomi-ledger-table th:first-child { text-align: left; }
+
+@media (min-width: 768px) {
+  .tsukuyomi-ledger-metrics { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (min-width: 1200px) {
+  .tsukuyomi-ledger-metrics { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+}
+
 .tsukuyomi-ticket-legs {
   display: grid;
   gap: 10px;

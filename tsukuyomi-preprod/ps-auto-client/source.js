@@ -143,7 +143,7 @@ export async function startPsAutoDashboard(document = globalThis.document) {
   root.dataset.psAutoSource = latest ? "latest" : "fallback";
 
   try {
-    await import("./bridge.js?rev=played-tickets");
+    await import("./bridge.js?rev=tsukuyomi-portfolio");
     await Promise.all(release.styles.map((href) => {
       const link = document.createElement("link");
       link.rel = "stylesheet";
@@ -159,7 +159,7 @@ export async function startPsAutoDashboard(document = globalThis.document) {
     await loadAsset(script, theme);
     await waitForDashboard(root);
     if (latest) status.hidden = true;
-    else showRetry(status, "Les dernières données PS-AUTO sont indisponibles. Une version de secours est affichée.", page);
+    else showRetry(status, "Les dernières données du calendrier sont indisponibles. Une version de secours est affichée.", page);
   } catch {
     if (latest) {
       // A fresh iframe guarantees the previous bundle and styles cannot conflict with the fallback.
@@ -169,6 +169,6 @@ export async function startPsAutoDashboard(document = globalThis.document) {
     }
     root.hidden = true;
     root.style.setProperty("display", "none", "important");
-    showRetry(status, "Les données PS-AUTO sont temporairement indisponibles.", page);
+    showRetry(status, "L’espace Tsukuyomi est temporairement indisponible.", page);
   }
 }
