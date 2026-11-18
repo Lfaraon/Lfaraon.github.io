@@ -1183,10 +1183,10 @@
     "recCal20261117P76812388": {
       "status": "En cours",
       "observedLive": true,
-      "checkedAt": "2026-11-18T00:33:55.000Z",
-      "provider": "Tennis Majors — fiche détaillée Colina, jeux du 1er set visibles (5–0)",
+      "checkedAt": "2026-11-18T01:43:20.476Z",
+      "provider": "Tennis Majors — fiche LP Open by IND, LIVE et point par point du 3e set",
       "sourceUrl": "https://www.tennismajors.com/matches/wta/lp-open-by-ind/fernanda-labrana-vs-antonia-vergara-rivera",
-      "statusBasis": "En cours confirmé : jeux 5–0 au premier set sur la fiche actualisée; autre source Tennis.com encore Upcoming (index périmé); pas de score final"
+      "statusBasis": "Suivi LIVE confirmé sur fiche Tennis Majors: sets 6–1, 3–6 ; 3e set 1–0 Labraña avec points visibles (0:15, 15:15, 30:15, 40:15, 40:30, G:30). Scores provisoires, PAS de score final. La fiche affiche « 18 Nov/Third round », différent du kickoff 17.11 UTC de PS-AUTO; vérifier ce décalage, sans déduire de fin. Vérifié 2026-11-18T01:43:20.476Z"
     }
   }
 }
