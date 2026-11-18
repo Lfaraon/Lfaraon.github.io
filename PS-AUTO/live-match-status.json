@@ -1346,11 +1346,14 @@
       "score": "0-3"
     },
     "recCal20261118P76682270": {
-      "status": "En cours",
-      "provider": "Tennislive.net — flux point par point Colina (jeux 1-2, service Podoroska, points 30-40), début réel observé",
-      "checkedAt": "2026-11-18T19:38:58.036Z",
+      "status": "Terminé",
+      "provider": "TennisTemple — fiche dynamique Colina, résultat final 18.11.2026",
+      "checkedAt": "2026-11-18T21:38:15.723Z",
       "observedLive": true,
-      "sourceUrl": "https://www.tennislive.net/wta/match/leyre-romero-gormaz-VS-nadia-podoroska/lp-open-by-ind-colina-2026/"
+      "sourceUrl": "https://en.tennistemple.com/match/romero-gormaz-podoroska-colina-2026/9570703/",
+      "score": "2-0",
+      "sets": "6-3, 6-4",
+      "statusBasis": "TennisTemple : Romero Gormaz gagne 6-3, 6-4 contre Podoroska. Ancienne donnée live Tennislive non rafraîchie, sans blocage."
     },
     "recCal20261118P76489976": {
       "status": "Terminé",
