@@ -41,8 +41,18 @@ body {
 }
 
 #root > div > header.psa-app-header .psa-app-header-title {
-  font: 700 clamp(1.75rem, 3.65vw, 3.25rem)/1 var(--tsukuyomi-display);
-  letter-spacing: .015em;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+#root > div > header.psa-app-header .psa-app-header-layout {
+  margin-top: 0;
 }
 
 #root > div > header.psa-app-header :is(.psa-next-match-card, .psa-header-countdown) {
