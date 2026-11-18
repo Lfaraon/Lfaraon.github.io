@@ -26,7 +26,7 @@
           "sport": "Football",
           "outcome": "won",
           "probability_pct": 89.8,
-          "score": "Israël 1–1 Autriche ; Under 4,5 match gagné"
+          "score": "1–1"
         },
         {
           "event": "Pays de Galles – Portugal",
@@ -36,7 +36,7 @@
           "sport": "Football",
           "outcome": "won",
           "probability_pct": 87.8464,
-          "score": "Pays de Galles 2–3 Portugal ; Galles +3 handicap européen 1X2 gagné"
+          "score": "2–3"
         },
         {
           "event": "Niger – Maroc",
@@ -46,7 +46,7 @@
           "sport": "Football",
           "outcome": "won",
           "probability_pct": 89.8756,
-          "score": "Niger 0–1 Maroc ; Niger +4 handicap européen 1X2 gagné"
+          "score": "0–1"
         }
       ]
     },
@@ -71,7 +71,7 @@
           "sport": "Football",
           "outcome": "won",
           "probability_pct": 87.8464,
-          "score": "Pays de Galles 2–3 Portugal ; Galles +2,5 gagné"
+          "score": "2–3"
         },
         {
           "event": "Israël – Autriche",
@@ -81,7 +81,7 @@
           "sport": "Football",
           "outcome": "won",
           "probability_pct": 89.8,
-          "score": "Israël 1–1 Autriche ; moins de 4,5 buts du match gagné"
+          "score": "1–1"
         }
       ]
     },
@@ -105,7 +105,7 @@
           "odds": 1.16,
           "sport": "Football",
           "outcome": "won",
-          "score": "Estonie 2–1 Bulgarie (fin) ; Bulgarie +2,0 handicap 1X2 gagné"
+          "score": "2–1"
         },
         {
           "event": "Albacete Balompié – Celta Vigo B",
@@ -114,7 +114,7 @@
           "odds": 1.33,
           "sport": "Football",
           "outcome": "won",
-          "score": "Albacete 1–0 Celta Fortuna (fin) ; Albacete moins de 2,5 buts d’équipe gagné"
+          "score": "1–0"
         },
         {
           "event": "Grèce – Serbie",
@@ -123,7 +123,7 @@
           "odds": 1.2,
           "sport": "Football",
           "outcome": "won",
-          "score": "Grèce 1–0 Serbie (fin) ; Serbie +3,0 handicap 1X2 gagné"
+          "score": "1–0"
         }
       ]
     },
@@ -147,7 +147,7 @@
           "odds": 1.28,
           "sport": "Football",
           "outcome": "won",
-          "score": "Estonie 2–1 Bulgarie (fin) ; Bulgarie +1,5 asiatique gagné"
+          "score": "2–1"
         },
         {
           "event": "Grèce – Serbie",
@@ -156,7 +156,7 @@
           "odds": 1.25,
           "sport": "Football",
           "outcome": "won",
-          "score": "Grèce 1–0 Serbie (fin) ; Serbie +2,5 asiatique gagné"
+          "score": "1–0"
         },
         {
           "event": "Albacete Balompié – Celta Vigo B",
@@ -165,7 +165,7 @@
           "odds": 1.4,
           "sport": "Football",
           "outcome": "won",
-          "score": "Albacete 1–0 Celta Fortuna (fin) ; Albacete moins de 2,5 buts d’équipe gagné"
+          "score": "1–0"
         }
       ]
     },
@@ -189,7 +189,7 @@
           "odds": 4.33,
           "sport": "Football",
           "outcome": "lost",
-          "score": "Pays basque 1–0 Venezuela (fin)"
+          "score": "1–0"
         }
       ]
     },
@@ -213,7 +213,7 @@
           "odds": 1.2,
           "sport": "Football",
           "outcome": "won",
-          "score": "Géorgie 0–2 Hongrie"
+          "score": "0–2"
         },
         {
           "event": "Atlético Goianiense – Cuiabá",
@@ -222,7 +222,7 @@
           "odds": 1.36,
           "sport": "Football",
           "outcome": "won",
-          "score": "Atlético Goianiense 1–0 Cuiabá"
+          "score": "1–0"
         },
         {
           "event": "Irlande du Nord – Ukraine",
@@ -231,7 +231,7 @@
           "odds": 1.22,
           "sport": "Football",
           "outcome": "won",
-          "score": "Irlande du Nord 1–0 Ukraine"
+          "score": "1–0"
         }
       ]
     },
@@ -255,7 +255,7 @@
           "odds": 1.29,
           "sport": "Football",
           "outcome": "won",
-          "score": "Géorgie 0–2 Hongrie (fin)"
+          "score": "0–2"
         },
         {
           "event": "Atletico-GO–Cuiabá",
@@ -264,7 +264,7 @@
           "odds": 1.25,
           "sport": "Football",
           "outcome": "won",
-          "score": "Atlético-GO 1–0 Cuiabá (fin) ; handicap +2,5 validé"
+          "score": "1–0"
         },
         {
           "event": "Northern Ireland–Ukraine",
@@ -273,7 +273,7 @@
           "odds": 1.25,
           "sport": "Football",
           "outcome": "won",
-          "score": "Irlande du Nord 1–0 Ukraine (fin)"
+          "score": "1–0"
         }
       ]
     },
@@ -297,7 +297,7 @@
           "odds": 1.18,
           "sport": "Football",
           "outcome": "won",
-          "score": "Écosse 2–1 Macédoine du Nord"
+          "score": "2–1"
         },
         {
           "event": "Luxembourg – Estonie",
@@ -306,7 +306,7 @@
           "odds": 1.12,
           "sport": "Football",
           "outcome": "won",
-          "score": "Luxembourg 0–1 Estonie"
+          "score": "0–1"
         },
         {
           "event": "Serbie – Allemagne",
@@ -315,7 +315,7 @@
           "odds": 1.44,
           "sport": "Football",
           "outcome": "won",
-          "score": "Serbie 1–3 Allemagne"
+          "score": "1–3"
         }
       ]
     },
@@ -339,7 +339,7 @@
           "odds": 1.22,
           "sport": "Football",
           "outcome": "won",
-          "score": "Écosse 2–1 Macédoine du Nord (fin)"
+          "score": "2–1"
         },
         {
           "event": "Luxembourg–Estonia",
@@ -348,7 +348,7 @@
           "odds": 1.17,
           "sport": "Football",
           "outcome": "won",
-          "score": "Luxembourg 0–1 Estonie (fin)"
+          "score": "0–1"
         },
         {
           "event": "Serbia–Germany",
@@ -357,7 +357,7 @@
           "odds": 1.5,
           "sport": "Football",
           "outcome": "won",
-          "score": "Serbie 1–3 Allemagne (fin) ; handicap +2,5 validé"
+          "score": "1–3"
         }
       ]
     },
@@ -381,7 +381,7 @@
           "odds": 1.2,
           "sport": "Football",
           "outcome": "won",
-          "score": "Monténégro 2–1 Lettonie (fin)"
+          "score": "2–1"
         },
         {
           "event": "England–Croatia",
@@ -390,7 +390,7 @@
           "odds": 1.3,
           "sport": "Football",
           "outcome": "won",
-          "score": "Angleterre 2–1 Croatie (fin)"
+          "score": "2–1"
         },
         {
           "event": "Turkiye–Belgium",
@@ -399,7 +399,7 @@
           "odds": 1.22,
           "sport": "Football",
           "outcome": "won",
-          "score": "Turquie 1–2 Belgique (fin)"
+          "score": "1–2"
         }
       ]
     },
@@ -423,7 +423,7 @@
           "odds": 1.23,
           "sport": "Football",
           "outcome": "lost",
-          "score": "Sénégal 4–1 Soudan"
+          "score": "4–1"
         },
         {
           "event": "Monténégro – Lettonie",
@@ -432,7 +432,7 @@
           "odds": 1.16,
           "sport": "Football",
           "outcome": "won",
-          "score": "Monténégro 2–1 Lettonie"
+          "score": "2–1"
         }
       ]
     },
@@ -456,7 +456,7 @@
           "odds": 1.2,
           "sport": "Football",
           "outcome": "lost",
-          "score": "Bénin 4–1 Centrafrique"
+          "score": "4–1"
         },
         {
           "event": "Sénégal – Soudan",
@@ -465,7 +465,7 @@
           "odds": 1.33,
           "sport": "Football",
           "outcome": "lost",
-          "score": "Sénégal 4–1 Soudan"
+          "score": "4–1"
         },
         {
           "event": "Angleterre – Croatie",
@@ -474,7 +474,7 @@
           "odds": 1.26,
           "sport": "Football",
           "outcome": "won",
-          "score": "Angleterre 2–1 Croatie"
+          "score": "2–1"
         }
       ]
     },
@@ -498,7 +498,7 @@
           "odds": 1.43,
           "sport": "Football",
           "outcome": "won",
-          "score": "FK Zeleziarne Podbrezova 2–0 FC Vion Zlate Moravce"
+          "score": "2–0"
         },
         {
           "event": "Juventus F – Lyon F",
@@ -507,7 +507,7 @@
           "odds": 1.47,
           "sport": "Football",
           "outcome": "lost",
-          "score": "Juventus F 0–6 Lyon F"
+          "score": "0–6"
         }
       ]
     },
@@ -531,7 +531,7 @@
           "odds": 1.35,
           "sport": "Tennis",
           "outcome": "lost",
-          "score": "Sabalenka 0–2 Andreeva (4–6, 0–6)"
+          "score": "0–2"
         },
         {
           "event": "Vietnam – Chinese Taipei",
@@ -540,7 +540,7 @@
           "odds": 1.15,
           "sport": "Football",
           "outcome": "won",
-          "score": "Vietnam 2–0 Chinese Taipei (fin) ; handicap +4,5 validé"
+          "score": "2–0"
         }
       ]
     },
@@ -563,8 +563,7 @@
           "starts_at": null,
           "odds": 1.21,
           "sport": "Tennis",
-          "outcome": "won",
-          "score": "Alex Michelsen gagnant"
+          "outcome": "won"
         },
         {
           "event": "Carole Monnet – Leyre Romero Gormaz",
@@ -572,8 +571,7 @@
           "starts_at": null,
           "odds": 1.16,
           "sport": "Tennis",
-          "outcome": "lost",
-          "score": "Leyre Romero Gormaz handicap +1,5 sets perdant"
+          "outcome": "lost"
         },
         {
           "event": "Bianca Andreescu – Rebeka Masarova",
@@ -581,8 +579,7 @@
           "starts_at": null,
           "odds": 1.25,
           "sport": "Tennis",
-          "outcome": "won",
-          "score": "Bianca Andreescu gagnante"
+          "outcome": "won"
         }
       ]
     },
@@ -606,7 +603,7 @@
           "odds": 1.16,
           "sport": "Tennis",
           "outcome": "won",
-          "score": "Sabalenka 2–0 Muchová (7–6 [7–2], 7–5) ; Sabalenka +1,5 set validé"
+          "score": "2–0"
         },
         {
           "event": "CE Sabadell FC – Real Sociedad San Sebastian B",
@@ -615,7 +612,7 @@
           "odds": 1.35,
           "sport": "Football",
           "outcome": "won",
-          "score": "Sabadell 0–0 Real Sociedad B (fin) ; Real Sociedad B +1,5 validé"
+          "score": "0–0"
         }
       ]
     },
@@ -639,7 +636,7 @@
           "odds": 1.18,
           "sport": "Football",
           "outcome": "won",
-          "score": "Kristiansund BK 1–0 Vålerenga"
+          "score": "1–0"
         },
         {
           "event": "Torreense – UD Leiria",
@@ -647,8 +644,7 @@
           "starts_at": null,
           "odds": 1.21,
           "sport": "Football",
-          "outcome": "won",
-          "score": "Torreense 2–3 UD Leiria"
+          "outcome": "won"
         }
       ]
     },
@@ -672,7 +668,7 @@
           "odds": 1.27,
           "sport": "Football",
           "outcome": "won",
-          "score": "Kristiansund 1–0 Vålerenga (fin)"
+          "score": "1–0"
         },
         {
           "event": "SCU Torreense – UD Leiria",
@@ -680,8 +676,7 @@
           "starts_at": null,
           "odds": 1.22,
           "sport": "Football",
-          "outcome": "won",
-          "score": "SCU Torreense 1–2 UD Leiria (fin)"
+          "outcome": "won"
         }
       ]
     },
@@ -705,7 +700,7 @@
           "odds": 1.33,
           "sport": "Football",
           "outcome": "won",
-          "score": "AIK 3–2 Häcken"
+          "score": "3–2"
         },
         {
           "event": "Estrela – Benfica",
@@ -714,7 +709,7 @@
           "odds": 1.33,
           "sport": "Football",
           "outcome": "won",
-          "score": "Estrela 2–3 Benfica"
+          "score": "2–3"
         },
         {
           "event": "Goiás – Ponte Preta",
@@ -723,7 +718,7 @@
           "odds": 1.4,
           "sport": "Football",
           "outcome": "won",
-          "score": "Goiás 1–0 Ponte Preta"
+          "score": "1–0"
         }
       ]
     },
@@ -747,7 +742,7 @@
           "odds": 1.14,
           "sport": "Football",
           "outcome": "won",
-          "score": "Estrela Amadora 2–3 Benfica (fin) ; Benfica : 3 buts, moins de 4,5 validé"
+          "score": "2–3"
         },
         {
           "event": "Goias EC GO – AA Ponte Preta SP",
@@ -756,7 +751,7 @@
           "odds": 1.32,
           "sport": "Football",
           "outcome": "won",
-          "score": "Goiás 1–0 Ponte Preta (fin) ; Ponte Preta +3,5 validé"
+          "score": "1–0"
         }
       ]
     },
@@ -780,7 +775,7 @@
           "odds": 1.22,
           "sport": "Football",
           "outcome": "won",
-          "score": "Tromsø 0–2 Bodø/Glimt (fin) ; Bodø/Glimt : 2 buts, moins de 3,5 validé"
+          "score": "0–2"
         },
         {
           "event": "HJK Helsinki – AC Oulu",
@@ -789,7 +784,7 @@
           "odds": 1.26,
           "sport": "Football",
           "outcome": "won",
-          "score": "HJK 3–3 AC Oulu (fin) ; AC Oulu +3,5 validé"
+          "score": "3–3"
         }
       ]
     },
@@ -813,7 +808,7 @@
           "odds": 1.25,
           "sport": "Football",
           "outcome": "won",
-          "score": "Brighton 2–0 Brentford"
+          "score": "2–0"
         },
         {
           "event": "Sunderland – Chelsea",
@@ -822,7 +817,7 @@
           "odds": 1.23,
           "sport": "Football",
           "outcome": "won",
-          "score": "Sunderland 1–0 Chelsea"
+          "score": "1–0"
         }
       ]
     },
@@ -846,7 +841,7 @@
           "odds": 2,
           "sport": "Football",
           "outcome": "lost",
-          "score": "AS Rome 3–0 Sassuolo ; Donyell Malen non buteur"
+          "score": "3–0"
         },
         {
           "event": "St. Mirren – Rangers",
@@ -855,7 +850,7 @@
           "odds": 2.15,
           "sport": "Football",
           "outcome": "lost",
-          "score": "St. Mirren 0–2 Rangers ; Kevin Kelsy non buteur"
+          "score": "0–2"
         },
         {
           "event": "Valence – Real Madrid",
@@ -864,7 +859,7 @@
           "odds": 1.47,
           "sport": "Football",
           "outcome": "won",
-          "score": "Valence 0–3 Real Madrid ; Kylian Mbappé buteur"
+          "score": "0–3"
         }
       ]
     },
@@ -888,7 +883,7 @@
           "odds": 1.3,
           "sport": "Football",
           "outcome": "won",
-          "score": "Sporting 1–0 Moreirense (fin) ; Moreirense +3,5 validé"
+          "score": "1–0"
         },
         {
           "event": "Paris Saint-Germain – ESTAC Troyes",
@@ -897,7 +892,7 @@
           "odds": 1.17,
           "sport": "Football",
           "outcome": "won",
-          "score": "PSG 1–0 Troyes (fin) ; PSG : 1 but, moins de 4,5 validé"
+          "score": "1–0"
         }
       ]
     },
@@ -921,7 +916,7 @@
           "odds": 1.47,
           "sport": "Football",
           "outcome": "won",
-          "score": "Paris SG 1–0 Troyes"
+          "score": "1–0"
         },
         {
           "event": "Sporting CP – Moreirense",
@@ -930,7 +925,7 @@
           "odds": 1.63,
           "sport": "Football",
           "outcome": "won",
-          "score": "Sporting CP 1–0 Moreirense"
+          "score": "1–0"
         }
       ]
     },
@@ -954,7 +949,7 @@
           "odds": 1.28,
           "sport": "Football",
           "outcome": "won",
-          "score": "GIF Sundsvall 0–2 Varbergs BoIS (fin) ; Varbergs : 2 buts, moins de 3,5 validé",
+          "score": "0–2",
           "event_key": "2026-11-07:gif-sundsvall-varbergs-bois",
           "market_key": "team-goals:varbergs-bois:under:3.5"
         },
@@ -965,7 +960,7 @@
           "odds": 1.33,
           "sport": "Football",
           "outcome": "won",
-          "score": "Dortmund 2–1 Elversberg (fin) ; Dortmund : 2 buts, moins de 3,5 validé",
+          "score": "2–1",
           "event_key": "2026-11-07:borussia-dortmund-sv-07-elversberg",
           "market_key": "team-goals:borussia-dortmund:under:3.5"
         }
@@ -991,7 +986,7 @@
           "odds": 1.25,
           "sport": "Football",
           "outcome": "won",
-          "score": "GIF Sundsvall 0–2 Varbergs BoIS",
+          "score": "0–2",
           "event_key": "2026-11-07:gif-sundsvall-varbergs-bois",
           "market_key": "team-goals:varbergs-bois:under:3.5"
         },
@@ -1002,7 +997,7 @@
           "odds": 1.26,
           "sport": "Football",
           "outcome": "won",
-          "score": "Dortmund 2–1 Elversberg",
+          "score": "2–1",
           "event_key": "2026-11-07:borussia-dortmund-sv-07-elversberg",
           "market_key": "team-goals:borussia-dortmund:under:3.5"
         }

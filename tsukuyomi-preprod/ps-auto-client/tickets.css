@@ -73,9 +73,12 @@
   min-width: 0;
 }
 
-.tsukuyomi-ticket {
-  padding: 14px 16px;
+article.tsukuyomi-ticket {
+  --ticket-won: var(--colors-success, oklch(75% .17 150));
+  --ticket-lost: var(--colors-destructive, oklch(70% .2 25));
+  padding: 14px;
   border: 1px solid var(--colors-border);
+  border-radius: var(--tsukuyomi-radius);
   background: var(--colors-surface);
   color: var(--colors-foreground);
 }
@@ -83,17 +86,25 @@
 .tsukuyomi-ticket-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 12px;
+  align-items: center;
+  gap: 8px;
 }
 
 .tsukuyomi-ticket-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 8px;
   min-width: 0;
 }
 
-.tsukuyomi-ticket-title {
-  font-size: 14px;
-  font-weight: 600;
+article.tsukuyomi-ticket .tsukuyomi-ticket-title {
+  color: var(--colors-foreground);
+  font-family: var(--tsukuyomi-body);
+  font-size: 12px;
+  font-weight: 650;
+  line-height: 1.35;
+  letter-spacing: normal;
   overflow-wrap: anywhere;
 }
 
@@ -103,19 +114,24 @@
   overflow-wrap: anywhere;
 }
 
-.tsukuyomi-ticket-status {
+.tsukuyomi-ticket-status,
+.tsukuyomi-ticket-leg-status {
+  --status-color: var(--colors-foregroundMuted);
   flex-shrink: 0;
-  border: 1px solid color-mix(in srgb, var(--colors-primary) 45%, transparent);
-  border-radius: 999px;
-  padding: 2px 8px;
-  color: var(--colors-primary);
-  font-size: 11px;
-  font-weight: 600;
+  border-radius: 3px;
+  padding: 2px 6px;
+  background: color-mix(in oklab, var(--status-color) 19%, transparent);
+  color: var(--status-color);
+  font-weight: 550;
+  line-height: 1.3;
 }
 
-.tsukuyomi-ticket-status[data-outcome="won"] { color: oklch(82% .14 145); border-color: oklch(55% .11 145); }
-.tsukuyomi-ticket-status[data-outcome="lost"] { color: oklch(78% .13 25); border-color: oklch(55% .12 25); }
-.tsukuyomi-ticket-status[data-outcome="void"] { color: var(--colors-foregroundMuted); border-color: var(--colors-border); }
+.tsukuyomi-ticket-status { font-size: 12px; }
+.tsukuyomi-ticket-leg-status { font-size: 11px; }
+.tsukuyomi-ticket-status[data-outcome="won"],
+.tsukuyomi-ticket-leg-status[data-outcome="won"] { --status-color: var(--ticket-won); }
+.tsukuyomi-ticket-status[data-outcome="lost"],
+.tsukuyomi-ticket-leg-status[data-outcome="lost"] { --status-color: var(--ticket-lost); }
 
 .tsukuyomi-ledger {
   --ledger-gutter: clamp(16px, 2vw, 24px);
@@ -204,44 +220,99 @@
 .tsukuyomi-ticket-legs {
   display: grid;
   gap: 10px;
-  margin: 12px 0;
-  padding: 0 0 0 20px;
-  list-style-type: decimal;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
 }
 
 .tsukuyomi-ticket-leg {
-  padding-left: 3px;
+  display: grid;
+  grid-template-columns: 16px minmax(0, 1fr);
+  align-items: start;
+  gap: 8px;
   overflow-wrap: anywhere;
 }
 
-.tsukuyomi-ticket-leg::marker {
+.tsukuyomi-ticket-leg[data-outcome="lost"] {
+  border-inline-start: 2px solid var(--ticket-lost);
+  padding-inline-start: 6px;
+}
+
+.tsukuyomi-ticket-leg-number {
   color: var(--colors-foregroundMuted);
   font-size: 12px;
   font-variant-numeric: tabular-nums;
+  text-align: end;
+}
+
+.tsukuyomi-ticket-leg-content {
+  min-width: 0;
 }
 
 .tsukuyomi-ticket-selection {
-  margin-top: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 6px;
+  margin: 2px 0 0;
   color: var(--colors-foreground);
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.35;
+}
+
+.tsukuyomi-ticket-market {
+  color: var(--colors-primary);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.tsukuyomi-ticket-selection-separator {
+  color: var(--colors-foregroundMuted);
+  font-size: 12px;
 }
 
 .tsukuyomi-ticket-measurement {
   margin-top: 2px;
   color: var(--colors-primary);
+  font-size: 11px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.tsukuyomi-ticket-leg-result {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 8px;
+  margin-top: 3px;
+}
+
+.tsukuyomi-ticket-score,
+.tsukuyomi-ticket-summary,
+.tsukuyomi-ticket-probability {
+  color: var(--colors-foregroundMuted);
   font-size: 12px;
   font-variant-numeric: tabular-nums;
 }
 
+.tsukuyomi-ticket-summary,
+.tsukuyomi-ticket-probability { margin-top: 10px; }
+.tsukuyomi-ticket-probability { color: var(--colors-primary); font-weight: 550; }
+
 .tsukuyomi-ticket-odds {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px 8px;
+  margin-top: 12px;
   padding-top: 10px;
   border-top: 1px solid var(--colors-border);
   font-variant-numeric: tabular-nums;
 }
+
+.tsukuyomi-ticket-metric { min-width: 0; overflow-wrap: anywhere; }
+.tsukuyomi-ticket-metric[data-outcome="won"] dd { color: var(--ticket-won); }
+.tsukuyomi-ticket-metric[data-outcome="lost"] dd { color: var(--ticket-lost); }
 
 .tsukuyomi-ticket-metric dt {
   color: var(--colors-foregroundMuted);
@@ -297,22 +368,6 @@
     padding-inline: 24px;
   }
 
-  .tsukuyomi-ticket {
-    padding: 18px 20px;
-  }
-
-  .tsukuyomi-ticket-meta,
-  .tsukuyomi-ticket-measurement,
-  .tsukuyomi-ticket-metric dt {
-    font-size: 13px;
-  }
-
-  .tsukuyomi-ticket-title,
-  .tsukuyomi-ticket-selection,
-  .tsukuyomi-ticket-metric dd {
-    font-size: 15px;
-  }
-
   .tsukuyomi-tickets-button {
     min-height: 0;
     padding-block: 6px;
@@ -320,6 +375,18 @@
 }
 
 @media (min-width: 1024px) {
+  article.tsukuyomi-ticket { padding: 18px 20px; }
+
+  article.tsukuyomi-ticket .tsukuyomi-ticket-title,
+  .tsukuyomi-ticket-meta,
+  .tsukuyomi-ticket-market,
+  .tsukuyomi-ticket-summary,
+  .tsukuyomi-ticket-probability,
+  .tsukuyomi-ticket-metric dt { font-size: 13px; }
+
+  .tsukuyomi-ticket-selection,
+  .tsukuyomi-ticket-metric dd { font-size: 15px; }
+
   .tsukuyomi-tickets-page .tsukuyomi-ticket-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 14px;

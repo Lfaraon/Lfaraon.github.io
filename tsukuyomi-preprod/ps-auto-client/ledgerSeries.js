@@ -1,4 +1,5 @@
 import { referenceStake, summarize, ticketDate } from "./ledgerAccounting.js?rev=chf-charts";
+import { archivedForecasts } from "./archivedForecasts.js?rev=ticket-review";
 
 const swissCalendar = new Intl.DateTimeFormat("fr-CH", {
   year: "numeric",
@@ -24,13 +25,27 @@ function sportLabel(sport) {
   return normalized ? normalized[0].toLocaleUpperCase("fr-CH") + normalized.slice(1) : "Sport non renseigné";
 }
 
+function ticketBrier(ticket) {
+  const { outcome } = ticket.settlement;
+  if (outcome !== "won" && outcome !== "lost") return null;
+
+  const archived = ticket.placed_at ? archivedForecasts.get(ticket.id) : null;
+  const reference = archived?.outcome === outcome ? archived : null;
+  const recorded = ticket.probability_pct;
+  if (recorded == null && Number.isFinite(reference?.score)) return reference.score;
+
+  const probability = recorded ?? reference?.probability;
+  if (!Number.isFinite(probability) || probability < 0 || probability > 100) return null;
+  return (probability / 100 - (outcome === "won" ? 1 : 0)) ** 2;
+}
+
 function brierFor(tickets) {
   let total = 0;
   let count = 0;
-  for (const { probability_pct: probability, settlement } of tickets) {
-    if (settlement.outcome === "void" || !Number.isFinite(probability) || probability < 0 || probability > 100) continue;
-    const observed = settlement.outcome === "won" ? 1 : 0;
-    total += (probability / 100 - observed) ** 2;
+  for (const ticket of tickets) {
+    const score = ticketBrier(ticket);
+    if (score === null) continue;
+    total += score;
     count += 1;
   }
   return { count, score: count ? total / count : null };

@@ -1,13 +1,14 @@
-import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets } from "./tickets.js?rev=chf-charts";
+import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=ticket-review";
+import { createTicketFilters } from "./ticketFilters.js?rev=ticket-review";
 import { deduplicateTickets } from "./ticketIdentity.js?rev=tsukuyomi-portfolio";
-import { renderLedger } from "./ledger.js?rev=ps-auto-charts";
-import { clearLedgerCharts } from "./ledgerCharts.js?rev=ps-auto-charts";
+import { renderLedger } from "./ledger.js?rev=ticket-review";
+import { clearLedgerCharts } from "./ledgerCharts.js?rev=ticket-review";
 
 const tabsSelector = '[role="tablist"][aria-label="Navigation principale"] [role="tab"]';
 const latestSelector = 'section[aria-label="Derniers tickets"], section[data-tsukuyomi-latest]';
 const calendarSelector = 'section[aria-label="Calendrier des matchs"]';
 const nativeMetrics = 'section[aria-label="Indicateurs clés"]';
-const historyUrl = new URL("./history.json?rev=tsukuyomi-portfolio", import.meta.url);
+const historyUrl = new URL("./history.json?rev=ticket-review", import.meta.url);
 const initialTabs = new Map([
   ["calendrier", "Accueil"],
   ["statistiques", "Statistiques"],
@@ -62,7 +63,8 @@ function connectDashboard(window, nonce, destination) {
   const statistics = document.createElement("main");
   statistics.className = "tsukuyomi-ledger";
   statistics.dataset.tsukuyomiStatistics = "";
-  page.append(tickets);
+  const filters = createTicketFilters(document, () => drawTickets());
+  page.append(filters.element, tickets);
 
   const views = document.createElement("div");
   views.className = "tsukuyomi-pronostic-views";
@@ -126,6 +128,14 @@ function connectDashboard(window, nonce, destination) {
     if (history.status === "error") loadHistory();
     if (data.status === "error") onRetry();
   }
+  function drawTickets(now = Date.now()) {
+    const current = showPlayed ? ledger : data;
+    const render = showPlayed ? renderPlayedTickets : renderTickets;
+    render(tickets, {
+      ...current, now, tickets: filters.apply(current.tickets), filtered: filters.isActive(),
+      onRetry: showPlayed ? retryLedger : onRetry,
+    });
+  }
   upcomingButton.addEventListener("click", () => {
     showPlayed = false;
     syncDashboard();
@@ -164,7 +174,6 @@ function connectDashboard(window, nonce, destination) {
     const inPronostics = publicationTab.getAttribute("aria-selected") === "true";
     const inStatistics = statsTab?.getAttribute("aria-selected") === "true";
     const inHome = homeTab.getAttribute("aria-selected") === "true";
-    const showUpcoming = inPronostics && !showPlayed;
     const hideNative = inPronostics || inStatistics || sourcePronostics.getAttribute("aria-selected") === "true";
     root.toggleAttribute("data-tsukuyomi-editorial", hideNative);
     originalMain.toggleAttribute("data-tsukuyomi-native-feed", hideNative);
@@ -178,10 +187,12 @@ function connectDashboard(window, nonce, destination) {
     }
     if (inPronostics) {
       if (originalMain.nextElementSibling !== page) originalMain.after(page);
-      const current = showUpcoming ? data : ledger;
+      const current = showPlayed ? ledger : data;
       if (lastTicketsRender?.current !== current || lastTicketsRender.showPlayed !== showPlayed) {
-        if (showUpcoming) renderTickets(tickets, { ...data, onRetry });
-        else renderPlayedTickets(tickets, { ...ledger, onRetry: retryLedger });
+        const now = Date.now();
+        const view = showPlayed ? "played" : "upcoming";
+        filters.refresh(view, ticketsForView(current.tickets, { view, now }), current.status);
+        drawTickets(now);
         lastTicketsRender = { current, showPlayed };
       }
     } else {

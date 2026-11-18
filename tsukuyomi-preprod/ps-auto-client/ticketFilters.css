@@ -1,0 +1,81 @@
+.tsukuyomi-ticket-filters {
+  padding: 12px clamp(16px, 2.2vw, 24px) 0;
+}
+
+.tsukuyomi-ticket-filters [hidden],
+.tsukuyomi-ticket-filters[hidden] {
+  display: none;
+}
+
+.tsukuyomi-ticket-filter-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 48px;
+  padding-inline: 14px;
+  border: 1px solid var(--colors-border);
+  border-radius: var(--tsukuyomi-control-radius);
+  background: var(--colors-surface);
+  color: var(--colors-foreground);
+  font-weight: 600;
+}
+
+.tsukuyomi-ticket-filter-toggle[aria-expanded="true"] {
+  border-color: var(--tsukuyomi-accent-border);
+}
+
+.tsukuyomi-ticket-filter-chevron {
+  width: 8px;
+  height: 8px;
+  margin-inline-end: 3px;
+  border-inline-end: 1.5px solid currentColor;
+  border-block-end: 1.5px solid currentColor;
+  color: var(--colors-foregroundMuted);
+  transform: rotate(45deg);
+}
+
+.tsukuyomi-ticket-filter-toggle[aria-expanded="true"] .tsukuyomi-ticket-filter-chevron {
+  transform: rotate(225deg);
+}
+
+.tsukuyomi-ticket-filter-panel {
+  margin-top: 10px;
+  padding: 12px;
+  border: 1px solid var(--colors-border);
+  border-radius: var(--tsukuyomi-radius);
+  background: var(--colors-surface);
+}
+
+.tsukuyomi-ticket-filter-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tsukuyomi-ticket-filter-field {
+  display: grid;
+  flex: 1 1 120px;
+  min-width: 0;
+  gap: 5px;
+  color: var(--colors-foregroundMuted);
+  font-size: 13px;
+}
+
+.tsukuyomi-ticket-filter-field select,
+.tsukuyomi-ticket-filter-reset {
+  min-height: 44px;
+  padding-inline: 9px;
+  border: 1px solid var(--colors-border);
+  border-radius: var(--tsukuyomi-control-radius);
+  background: var(--colors-background);
+  color: var(--colors-foreground);
+}
+
+.tsukuyomi-ticket-filter-field select { width: 100%; }
+.tsukuyomi-ticket-filter-reset { margin-top: 10px; }
+.tsukuyomi-ticket-filter-reset:disabled { opacity: .45; }
+.tsukuyomi-ticket-filters :focus-visible {
+  outline: 2px solid var(--colors-primary);
+  outline-offset: 2px;
+}
