@@ -1655,27 +1655,27 @@
     },
     "recCal20261119L90932": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-19T20:33:27.713Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "19.11.2026 : kickoff 20h00 UTC atteint. En cours présumé à l'horaire ; aucun début réel vérifié."
+      "provider": "The Guardian — direct minute par minute, Arsenal–Lyon WCL",
+      "observedLive": true,
+      "checkedAt": "2026-11-19T21:40:06.338Z",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/19/arsenal-v-ol-lyonnes-womens-champions-league-live",
+      "statusBasis": "19.11.2026: The Guardian publie un direct réellement actif avec les actions jusqu'à la 74e minute, OL Lyonnes mène alors 2-0 (Brand 24e, Dumornay 57e). En cours OBSERVÉ, score PROVISOIRE non enregistré dans le champ score final."
     },
     "recCal20261119L90936": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-19T20:33:27.713Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "19.11.2026 : kickoff 20h00 UTC atteint. En cours présumé à l'horaire ; aucun début réel vérifié."
+      "provider": "MatchPal / Reddit r/WomensSoccer — suivi des événements Benfica–Roma WCL",
+      "observedLive": true,
+      "checkedAt": "2026-11-19T21:40:06.338Z",
+      "sourceUrl": "https://www.reddit.com/r/WomensSoccer/comments/1y0hmdg/match_thread_sl_benfica_w_vs_roma_w_uefa_womens/",
+      "statusBasis": "19.11.2026: match thread dynamique alimenté par MatchPal indique Benfica–Roma 2-2, buts aux 18e, 40e, 54e, 66e minutes, changements à 65e; direct effectif OBSERVÉ, score PROVISOIRE non enregistré comme final."
     },
     "recCal20261119L90884": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-19T20:33:27.713Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "19.11.2026 : kickoff 20h00 UTC atteint. En cours présumé à l'horaire ; aucun début réel vérifié."
+      "provider": "MatchPal / Reddit r/WomensSoccer — suivi des événements Barcelone–Servette WCL",
+      "observedLive": true,
+      "checkedAt": "2026-11-19T21:40:06.338Z",
+      "sourceUrl": "https://www.reddit.com/r/WomensSoccer/comments/1y0hmhv/match_thread_barcelona_w_vs_servette_ch%C3%AAnois_w/",
+      "statusBasis": "19.11.2026 : match thread dynamique MatchPal donne Barcelone–Servette 5-0 en cours, buts à 19e 26e 32e 63e 77e. Direct OBSERVÉ, score de match PROVISOIRE non inscrit au champ final."
     }
   }
 }
