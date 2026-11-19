@@ -1491,9 +1491,9 @@
     },
     "recCal20261119P76736486": {
       "status": "En cours",
-      "provider": "Onlajny — début réel annoncé en direct à 11:41:10 (Zurich), Arévalo au service; aucun jeu/point vérifié à l'observation",
-      "statusBasis": "début réel confirmé par commentaire sportif dynamique horodaté",
-      "checkedAt": "2026-11-19T10:42:38.000Z",
+      "provider": "Onlajny — flux dynamique actualisé : 1re manche Arévalo/Pavić 6-3, 2e manche 3-2 à 12:33:24 CET; points et jeux observés, non définitifs",
+      "statusBasis": "Flux vivant avec jeux, points et service consultables — match réellement en cours",
+      "checkedAt": "2026-11-19T11:34:48.178Z",
       "observedLive": true,
       "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/555657",
       "reversed": false
