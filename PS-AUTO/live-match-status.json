@@ -1106,10 +1106,10 @@
     "recCal20261117L90287": {
       "status": "Terminé",
       "observedLive": false,
-      "provider": "Résultat final vérifié (17.11.2026)",
-      "checkedAt": "2026-11-17T22:15:39.837Z",
-      "sourceUrl": "https://en.wikipedia.org/wiki/2027_Africa_Cup_of_Nations_qualification_Group_A",
-      "statusBasis": "Coup d'envoi atteint selon match-source.json; début effectif non observé",
+      "provider": "Sofascore — fiche du match, résultat final FT vérifié",
+      "checkedAt": "2026-11-19T04:39:56.336Z",
+      "sourceUrl": "https://www.sofascore.com/fr/football/match/niger-morocco/DVbsGkd",
+      "statusBasis": "Résultat final 0-1 confirmé par fiche précise Sofascore (17.11.2026)",
       "score": "0-1"
     },
     "recCal20261117P76736442": {
