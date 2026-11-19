@@ -11,7 +11,7 @@ const calendarSelector = 'section[aria-label="Calendrier des matchs"]';
 const nativeMetrics = 'section[aria-label="Indicateurs clés"]';
 const ledgerCards = ".tsukuyomi-ledger-metrics > div";
 const ticketCards = ".tsukuyomi-ticket-item";
-const calendarRows = `${calendarSelector} > .space-y-4 ul > li`;
+const calendarRows = `${calendarSelector} > .space-y-4 ul > li, [data-tsukuyomi-calendar] .tsu-calendar-match`;
 const scrollRevealSelectors = {
   home: `${ledgerCards}, ${calendarRows}, [data-tsukuyomi-latest] ${ticketCards}`,
   upcoming: ticketCards,
@@ -110,6 +110,32 @@ function connectDashboard(window, nonce, destination) {
   let showPlayed = false;
   let pendingTab = initialTabs.get(destination);
   let scrollToCalendar = destination === "calendrier";
+  let calendarMount;
+
+  function syncCalendar(native) {
+    if (calendarMount?.native === native) return;
+    if (calendarMount) {
+      calendarMount.dispose?.();
+      calendarMount.host.remove();
+      calendarMount.native.hidden = false;
+      calendarMount = undefined;
+    }
+    if (!native) return;
+
+    const host = document.createElement("div");
+    host.dataset.tsukuyomiCalendar = "";
+    host.hidden = true;
+    native.before(host);
+    const mount = { native, host };
+    calendarMount = mount;
+    import("./calendarRuntime.js?rev=calendar-sync").then(({ mountCalendar }) => {
+      if (calendarMount !== mount || !native.isConnected) return;
+      mount.dispose = mountCalendar(host);
+      host.hidden = false;
+      native.hidden = true;
+      scheduleScrollReveal();
+    }).catch(() => host.remove());
+  }
 
   function scheduleScrollReveal() {
     if (!scrollReveal || scrollRevealQueued) return;
@@ -326,6 +352,7 @@ function connectDashboard(window, nonce, destination) {
     if (title && title.textContent !== "Centre de commande Tsukuyomi") title.textContent = "Centre de commande Tsukuyomi";
     const calendar = inHome && originalMain.querySelector(calendarSelector);
     if (calendar) removePlatforms(calendar);
+    syncCalendar(calendar || undefined);
     for (const dialog of document.querySelectorAll('[role="dialog"][aria-modal="true"]')) removePlatforms(dialog);
     if (root.hidden) root.hidden = false;
 
@@ -338,11 +365,13 @@ function connectDashboard(window, nonce, destination) {
         scrollToCalendar = false;
         window.requestAnimationFrame(() => {
           if (!calendar.isConnected) return;
+          const pane = calendarMount?.host;
+          const target = pane && !pane.hidden ? pane : calendar;
           const navHeight = navigation.getBoundingClientRect().height;
-          calendar.style.scrollMarginTop = `${navHeight + 12}px`;
-          calendar.tabIndex = -1;
-          calendar.focus({ preventScroll: true });
-          calendar.scrollIntoView({ block: "start" });
+          target.style.scrollMarginTop = `${navHeight + 12}px`;
+          target.tabIndex = -1;
+          target.focus({ preventScroll: true });
+          target.scrollIntoView({ block: "start" });
         });
       }
     }
