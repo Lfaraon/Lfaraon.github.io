@@ -1439,44 +1439,47 @@
       "sets": "3-6, 6-2, 0-6"
     },
     "recCal20261119P66887176": {
-      "status": "En cours",
-      "provider": "FotMob — événements de but et minutes réelles sur la fiche Remo–Chapecoense",
-      "checkedAt": "2026-11-18T23:35:37.946Z",
+      "status": "Terminé",
+      "provider": "FotMob — fiche Remo–Chapecoense, Tempo completo",
+      "checkedAt": "2026-11-19T01:39:06.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/pt-PT/matches/remo-vs-chapecoense/94ipij5",
-      "statusBasis": "Début réel confirmé : buts à 3e (Jajá) et 20e (Patrick) minutes. Score provisoire 2–0 non enregistré comme final."
+      "sourceUrl": "https://www.fotmob.com/pt-BR/matches/remo-vs-chapecoense/94ipij5",
+      "statusBasis": "Résultat final Remo 2–0 Chapecoense vérifié sur fiche détaillée FotMob avec Tempo completo (Jajá 3e, Patrick 20e).",
+      "score": "2-0"
     },
     "recCal20261119P66887168": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-18T23:35:37.946Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut présumé selon le kickoff exact du 18 novembre 2026 à 23:30 UTC ; début réel non confirmé, aucun score final."
+      "status": "Terminé",
+      "provider": "UOL — compte rendu final Cruzeiro–Palmeiras",
+      "checkedAt": "2026-11-19T01:39:06.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/18/cruzeiro-x-palmeiras-brasileirao-rodada-35.ghtm",
+      "statusBasis": "Résultat final vérifié Cruzeiro 2–1 Palmeiras (UOL, 18 novembre 2026), appuyé par la fiche FotMob de la même rencontre avec événements réels.",
+      "score": "2-1"
     },
     "recCal20261119P66887158": {
-      "status": "En cours",
-      "provider": "FotMob — chrono réel et score provisoire observés",
-      "checkedAt": "2026-11-18T23:35:37.946Z",
+      "status": "Terminé",
+      "provider": "Folha de S.Paulo — compte rendu final Flamengo–Athletico Paranaense",
+      "checkedAt": "2026-11-19T01:39:06.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/flamengo-vs-athletico-paranaense/3blkjw",
-      "statusBasis": "Début réel confirmé sur la fiche précise : chronomètre de jeu 0:15 et 0–0 provisoire, aucun score final."
+      "sourceUrl": "https://www1.folha.uol.com.br/esporte/2026/11/flamengo-vence-o-athletico-e-pode-decidir-titulo-no-confronto-direto-com-o-palmeiras.shtml",
+      "statusBasis": "Résultat final Flamengo 2–1 Athletico Paranaense établi par compte rendu Folha (18 novembre 2026), malgré fiche FotMob provisoirement à 90+5.",
+      "score": "2-1"
     },
     "recCal20261119P66887164": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "statusBasis": "Début présumé selon calendrier 2026-11-19 00:30 UTC; pas de suivi de jeu confirmé, aucun score final.",
-      "checkedAt": "2026-11-19T00:43:11.485Z"
+      "provider": "FotMob — fiche dynamique Corinthians–Botafogo, événements 28e/34e",
+      "sourceUrl": "https://www.fotmob.com/pt-BR/matches/botafogo-vs-corinthians/2rz59z",
+      "observedLive": true,
+      "statusBasis": "Début réel confirmé : buts à 28e et 34e et 2–0 à la pause observés sur FotMob. Score provisoire non enregistré comme score final.",
+      "checkedAt": "2026-11-19T01:39:06.000Z"
     },
     "recCal20261119P66887170": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "statusBasis": "Début présumé selon calendrier 2026-11-19 00:30 UTC; pas de suivi de jeu confirmé, aucun score final.",
-      "checkedAt": "2026-11-19T00:43:11.485Z"
+      "provider": "FotMob — fiche dynamique Grêmio–Bahia, 49e minute",
+      "sourceUrl": "https://www.fotmob.com/cs/matches/bahia-vs-gremio/2kpe0y",
+      "observedLive": true,
+      "statusBasis": "Début réel confirmé sur FotMob : chrono 49:38, événements de match, 0–0 provisoire. Aucun score final établi.",
+      "checkedAt": "2026-11-19T01:39:06.000Z"
     }
   }
 }
