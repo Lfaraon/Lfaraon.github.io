@@ -1501,26 +1501,28 @@
       "sets": "6-3, 6-4"
     },
     "recCal20261119L90724": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-19T12:35:36.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "status": "Terminé",
+      "provider": "Onlajny — Slovnaft Cup 19.11.2026, résultat FT 2-2, FC Košice qualifié aux tirs au but 4-2",
+      "observedLive": true,
+      "checkedAt": "2026-11-19T14:37:22.000Z",
+      "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/554441",
+      "score": "2-2",
+      "statusBasis": "Fin sportive confirmée par la fiche dynamique exacte à 15:00:11 heure suisse ; Zvolen–Košice 2-2 après 90 minutes et Košice gagne tirs au but 4-2 (Zvolen–Košice 2-4). Score final 2-2 = buts, non tirs au but."
     },
     "recCal20261119L90245": {
       "status": "En cours",
-      "provider": "TNT Sports — fiche Al-Wasl vs Hatta, live confirmé (1–0 à 30', score provisoire)",
-      "statusBasis": "En cours confirmé par fiche live TNT Sports du 19.11.2026 montrant 30e minute, 1–0 ; règle horaire PS-AUTO applicable dès 12:45 UTC. Aucun score final établi.",
+      "provider": "TNT Sports — Al-Wasl–Hatta, 2-0 à 87e (score provisoire)",
+      "statusBasis": "Live confirmé sur fiche TNT Sports du 19.11.2026 : Al-Wasl 2–0 Hatta à la 87e, Taremi 17e, Malheiro 63e. Aucun score final prouvé.",
       "observedLive": true,
-      "checkedAt": "2026-11-19T13:36:05.321Z",
+      "checkedAt": "2026-11-19T14:37:22.000Z",
       "sourceUrl": "https://www.tntsports.co.uk/football/uae-premier-league/2026-2027/al-wasl-hatta_mtc21898331/live.shtml"
     },
     "recCal20261119P76736432": {
       "status": "En cours",
-      "provider": "Onlajny — suivi point par point Shelton–Jódar (ATP Finals Turin, 19.11.2026)",
-      "statusBasis": "Début réel confirmé par fiche Onlajny avec premier set 1–0 en jeux pour Shelton, score du jeu 30–30 à 14:18 (CET), commentaire de service actuel. Score et sets non finaux.",
+      "provider": "Onlajny — suivi point par point Shelton–Jódar, 2e set, 19.11.2026",
+      "statusBasis": "Direct confirmé à 15:32:40 heure suisse : Shelton mène 1-0 en sets (7–6, tie-break 10–8), Jódar 1–0 au deuxième set, 30–0 sur service Shelton. Aucun score final prouvé.",
       "observedLive": true,
-      "checkedAt": "2026-11-19T13:36:05.321Z",
+      "checkedAt": "2026-11-19T14:37:22.000Z",
       "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/555639"
     }
   }
