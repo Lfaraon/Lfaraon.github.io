@@ -1542,12 +1542,13 @@
       "score": "2-1"
     },
     "recCal20261119L90900": {
-      "status": "En cours",
-      "provider": "TNT Sports — suivi en direct confirmé",
+      "status": "Terminé",
+      "provider": "FotMob — Full time 1-1, Qatar Stars League",
       "observedLive": true,
-      "checkedAt": "2026-11-19T16:38:06.690Z",
-      "sourceUrl": "https://www.tntsports.co.uk/football/doha-bank-stars-league/2026-2027/al-ahli-al-shamal_mtc21915883/live.shtml",
-      "statusBasis": "Direct TNT Sports, Al-Ahli Doha–Al-Shamal 0-0 à la 49e min au dernier relevé. Score partiel, aucun résultat final."
+      "checkedAt": "2026-11-19T17:43:43.244Z",
+      "sourceUrl": "https://www.fotmob.com/matches/al-shamal-vs-al-ahli/i4y106u",
+      "statusBasis": "FotMob — Al-Ahli Doha–Al-Shamal, Stars League 19.11.2026 : Full time 1-1, Expósito penalty 74', Mahrez penalty 90+10'. Score final confirmé domicile–extérieur.",
+      "score": "1-1"
     },
     "recCal20261119P76682260": {
       "status": "En cours",
