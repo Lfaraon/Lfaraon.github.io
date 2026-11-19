@@ -1428,12 +1428,14 @@
       "statusBasis": "Début réel observé sur la fiche FotMob, affichage du temps de jeu et score provisoire 0–0 ; score final non renseigné."
     },
     "recCal20261119L91359": {
-      "status": "En cours",
-      "provider": "Tennis.com — statistiques de points, services et jeux réellement joués",
-      "checkedAt": "2026-11-18T23:35:37.946Z",
+      "status": "Terminé",
+      "provider": "Tennis.com — fiche dynamique Completed (Colina, 18.11.2026)",
+      "checkedAt": "2026-11-19T00:43:11.485Z",
       "observedLive": true,
       "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/a-geerlings-martinez-vs-l-samson-2026-11-18",
-      "statusBasis": "Début réel confirmé : 14 et 24 points sur première balle servis, jeux de service et balles de break dans la fiche exacte. Score provisoire non enregistré comme final."
+      "statusBasis": "Fin réelle confirmée : Laura Samson bat Ariana Geerlings Martinez 6-3, 2-6, 6-0; score exprimé en ordre Geerlings–Samson : 3-6, 6-2, 0-6.",
+      "score": "1-2",
+      "sets": "3-6, 6-2, 0-6"
     },
     "recCal20261119P66887176": {
       "status": "En cours",
@@ -1458,6 +1460,22 @@
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/matches/flamengo-vs-athletico-paranaense/3blkjw",
       "statusBasis": "Début réel confirmé sur la fiche précise : chronomètre de jeu 0:15 et 0–0 provisoire, aucun score final."
+    },
+    "recCal20261119P66887164": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "Début présumé selon calendrier 2026-11-19 00:30 UTC; pas de suivi de jeu confirmé, aucun score final.",
+      "checkedAt": "2026-11-19T00:43:11.485Z"
+    },
+    "recCal20261119P66887170": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "Début présumé selon calendrier 2026-11-19 00:30 UTC; pas de suivi de jeu confirmé, aucun score final.",
+      "checkedAt": "2026-11-19T00:43:11.485Z"
     }
   }
 }
