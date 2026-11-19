@@ -29,11 +29,19 @@ export function selectionOutcome(ticket, leg) {
   return leg.outcome ?? (ticket.legs?.length === 1 ? ticket.settlement?.outcome : null);
 }
 
+export function hasRefundedLeg(ticket) {
+  return Boolean(ticket.legs?.some((leg) => leg.outcome === "void")
+    || ticket.settlement?.leg_results?.some((result) => result?.outcome === "void"));
+}
+
 export function netAmount(ticket) {
   const { outcome, payout_odds } = ticket.settlement ?? {};
   const stake = ticketStake(ticket);
   if (stake === null) return null;
-  if (outcome === "won") return stake * ((payout_odds ?? ticket.odds) - 1);
+  if (outcome === "won") {
+    const effectiveOdds = payout_odds ?? (hasRefundedLeg(ticket) ? null : ticket.odds);
+    return Number.isFinite(effectiveOdds) ? stake * (effectiveOdds - 1) : null;
+  }
   if (outcome === "lost") return -stake;
   if (outcome === "void") return 0;
   return null;

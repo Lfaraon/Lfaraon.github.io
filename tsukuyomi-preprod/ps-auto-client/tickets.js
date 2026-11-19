@@ -1,4 +1,4 @@
-import { confirmedOutcome, formatChf, isCanonicalTicket, netAmount, outcomeLabel, ticketDate, ticketStake } from "./ledgerAccounting.js?rev=canonical-ticket";
+import { confirmedOutcome, formatChf, isCanonicalTicket, netAmount, outcomeLabel, ticketDate, ticketStake } from "./ledgerAccounting.js?rev=block-b";
 import { recalculatedSelectionProbability, recalculatedTicketProbability, selectionProbability, ticketProbability } from "./ticketForecasts.js?rev=canonical-ticket";
 
 const kinds = { simple: "Simple", combine: "Combiné", triple: "Triplé" };
@@ -275,7 +275,7 @@ function createTicketCard(doc, ticket, played, open, now = Date.now()) {
   const outcome = confirmedOutcome(ticket);
   const settled = Boolean(outcome);
   const waiting = played || isAwaitingResult(ticket, now);
-  const unpublished = ticket.withdrawn_at ? "Retiré" : "Brouillon";
+  const unpublished = ticket.duplicate_of ? "Écarté" : ticket.withdrawn_at ? "Retiré" : "Brouillon";
   const label = settled ? outcomeLabel[outcome]
     : canonical && !isPublished(ticket) ? unpublished : waiting ? "En attente" : "Publié";
   const badge = statusChip(doc, "tsukuyomi-ticket-status", label, settled ? outcome : null);

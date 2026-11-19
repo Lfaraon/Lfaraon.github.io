@@ -1,4 +1,4 @@
-import { buildLedgerSeries } from "./ledgerSeries.js?rev=canonical-ticket";
+import { buildLedgerSeries } from "./ledgerSeries.js?rev=block-b";
 
 const views = new WeakMap();
 let moduleRequest;

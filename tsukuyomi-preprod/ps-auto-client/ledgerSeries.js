@@ -1,4 +1,4 @@
-import { selectionOutcome, summarize, summarizeFunds, ticketDate } from "./ledgerAccounting.js?rev=canonical-ticket";
+import { hasRefundedLeg, selectionOutcome, summarize, summarizeFunds, ticketDate } from "./ledgerAccounting.js?rev=block-b";
 import { archivedTicketForecast, ticketProbability } from "./ticketForecasts.js?rev=brier-runner-history";
 import { selectionBrierScores } from "./selectionBrier.js?rev=canonical-ticket";
 
@@ -43,7 +43,7 @@ function addSportResults(sports, ticket) {
 
 function ticketBrier(ticket) {
   const { outcome } = ticket.settlement;
-  if (outcome !== "won" && outcome !== "lost") return null;
+  if ((outcome !== "won" && outcome !== "lost") || hasRefundedLeg(ticket)) return null;
 
   const archived = archivedTicketForecast(ticket);
   if (ticket.probability_pct == null && Number.isFinite(archived?.score)) return archived.score;
