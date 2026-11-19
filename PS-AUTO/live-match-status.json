@@ -1609,44 +1609,46 @@
       "score": "2-1"
     },
     "recCal20261119L91185": {
-      "status": "En cours",
-      "provider": "Sport News Africa — score/29e minute au direct",
-      "observedLive": true,
-      "sourceUrl": "https://sportnewsafrica.com/en/fixtures/algerian-ligue-1/",
-      "checkedAt": "2026-11-19T19:39:54.752Z",
-      "statusBasis": "19.11.2026 19h30 UTC : Sport News Africa affiche JS Kabylie 0–0 USM Alger, direct 29e minute; score provisoire, pas de résultat final."
+      "status": "Terminé",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-19T21:34:06.326Z",
+      "statusBasis": "19.11.2026 : au moins 120 minutes après le kickoff précis du calendrier. Fin PRÉSUMÉE selon règle PS-AUTO, score final NON VÉRIFIÉ et donc laissé vide. Des pages de direct antérieures ou en cache ne permettent pas d'établir un résultat final; revérifier au prochain contrôle."
     },
     "recCal20261119L91238": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-19T19:39:54.752Z",
-      "statusBasis": "19.11.2026, début prévu à 19h30 UTC dépassé; En cours PRÉSUMÉ sur calendrier, aucun score/direct réel attesté."
+      "checkedAt": "2026-11-19T21:34:06.326Z",
+      "statusBasis": "19.11.2026 : au moins 120 minutes après le kickoff précis du calendrier. Fin PRÉSUMÉE selon règle PS-AUTO, score final NON VÉRIFIÉ et donc laissé vide. Des pages de direct antérieures ou en cache ne permettent pas d'établir un résultat final; revérifier au prochain contrôle."
     },
     "recCal20261119L91240": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-19T19:39:54.752Z",
-      "statusBasis": "19.11.2026, début prévu à 19h30 UTC dépassé; En cours PRÉSUMÉ sur calendrier, aucun score/direct réel attesté."
+      "checkedAt": "2026-11-19T21:34:06.326Z",
+      "statusBasis": "19.11.2026 : au moins 120 minutes après le kickoff précis du calendrier. Fin PRÉSUMÉE selon règle PS-AUTO, score final NON VÉRIFIÉ et donc laissé vide. Des pages de direct antérieures ou en cache ne permettent pas d'établir un résultat final; revérifier au prochain contrôle."
     },
     "recCal20261119L91244": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-19T19:39:54.752Z",
-      "statusBasis": "19.11.2026, début prévu à 19h30 UTC dépassé; En cours PRÉSUMÉ sur calendrier, aucun score/direct réel attesté."
+      "checkedAt": "2026-11-19T21:34:06.326Z",
+      "statusBasis": "19.11.2026 : au moins 120 minutes après le kickoff précis du calendrier. Fin PRÉSUMÉE selon règle PS-AUTO, score final NON VÉRIFIÉ et donc laissé vide. Des pages de direct antérieures ou en cache ne permettent pas d'établir un résultat final; revérifier au prochain contrôle."
     },
     "recCal20261119P76736450": {
-      "status": "En cours",
-      "provider": "Onlajny — point par point réel",
+      "status": "Terminé",
+      "provider": "Tennis Majors — compte rendu du résultat final, ATP Finals Turin 19.11.2026",
       "observedLive": true,
-      "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/555640",
-      "checkedAt": "2026-11-19T19:47:36.128Z",
-      "statusBasis": "19.11.2026, suivi interactif Onlajny via navigateur dynamique: Zverev–Fils commencé, 1er set, Fils mène 1 jeu à 0; échanges point par point visibles. Score PROVISOIRE, aucun set terminé ni score final."
+      "sourceUrl": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/zverev-saves-his-best-for-the-tie-break-beats-fils-and-tops-group-mcenroe-unbeaten-867371.html",
+      "checkedAt": "2026-11-19T21:34:06.326Z",
+      "statusBasis": "Fin sportive confirmée par Tennis Majors (19.11.2026) : Alexander Zverev bat Arthur Fils 6-4, 7-6(8-6), score en ordre match-source, 2-0. Résultat final vérifié sur fiche du bon match, et non déduit de l'heure.",
+      "score": "2-0",
+      "sets": "6-4, 7-6(6)"
     },
     "recCal20261119L90932": {
       "status": "En cours",
