@@ -1612,11 +1612,12 @@
     },
     "recCal20261119L91185": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-19T21:34:06.326Z",
-      "statusBasis": "19.11.2026 : au moins 120 minutes après le kickoff précis du calendrier. Fin PRÉSUMÉE selon règle PS-AUTO, score final NON VÉRIFIÉ et donc laissé vide. Des pages de direct antérieures ou en cache ne permettent pas d'établir un résultat final; revérifier au prochain contrôle."
+      "provider": "AfriScores — fiche détaillée, 2-0 FT (19.11.2026)",
+      "observedLive": true,
+      "sourceUrl": "https://afriscores.com/fr/fixture/js-kabylie-vs-usm-alger/19789041/overview",
+      "checkedAt": "2026-11-19T21:38:56.037Z",
+      "statusBasis": "Résultat final PROUVÉ sur fiche détaillée AfriScores du match JS Kabylie–USM Alger du 19.11.2026 (Ligue 1 Algérie, même stade, équipes, date): affichage explicite '2 - 0 FT', deux buts Belhocini (31e et 51e), actions jusqu'à 90e. Score en ordre domicile-extérieur 2-0, pas déduit de l'horaire.",
+      "score": "2-0"
     },
     "recCal20261119L91238": {
       "status": "Terminé",
