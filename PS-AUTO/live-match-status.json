@@ -1305,12 +1305,13 @@
       "statusBasis": "Direct XScores, sets 1-1 (6-4, 1-6), 3e set Bronzetti–Monnet 1-2 en jeux au dernier contrôle. Score partiel, final absent."
     },
     "recCal20261118P76682272": {
-      "status": "Reporté",
-      "provider": "Reprogrammation le 19.11.2026 à 13:00 UTC — TenisHoy et Tennislive.net",
+      "status": "À venir",
+      "provider": "TenisHoy + ScoreMondo — nouveau créneau du 19.11.2026",
       "observedLive": false,
       "sourceUrl": "https://www.tenishoy.net/partido/zolotareva-a-burillo-escorihuela-i-2026-11-19-gllkimwp",
-      "checkedAt": "2026-11-18T17:45:26.008Z",
-      "rescheduledKickoff": "2026-11-19T13:00:00.000Z"
+      "checkedAt": "2026-11-19T16:39:31.373Z",
+      "rescheduledKickoff": "2026-11-19T18:30:00.000Z",
+      "statusBasis": "Nouveau créneau confirmé le 19 novembre à 19h30 CET (18h30 UTC). Ancien horaire de 14h00 CET périmé; aucun début réel ni score observé."
     },
     "recCal20261118L90906": {
       "status": "Terminé",
