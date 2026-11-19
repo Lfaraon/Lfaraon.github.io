@@ -144,7 +144,7 @@ export async function startPsAutoDashboard(document = globalThis.document) {
 
   let reportRendered;
   try {
-    const bridge = await import("./bridge.js?rev=canonical-ticket");
+    const bridge = await import("./bridge.js?rev=ticket-layout");
     reportRendered = bridge.markDashboardRendered;
     await Promise.all(release.styles.map((href) => {
       const link = document.createElement("link");

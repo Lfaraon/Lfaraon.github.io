@@ -63,6 +63,12 @@
   font-variant-numeric: tabular-nums;
 }
 
+.tsukuyomi-tickets-group-title {
+  margin: 14px 0 8px;
+  color: var(--tsukuyomi-ink);
+  font: 700 18px/1.2 var(--tsukuyomi-display);
+}
+
 .tsukuyomi-ticket-notice {
   color: var(--colors-foregroundMuted);
   font-size: 14px;
@@ -431,7 +437,7 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 }
 
 .tsukuyomi-ticket-metric dd {
-  margin-top: 2px;
+  margin: 2px 0 0;
   font-size: 16px;
   font-weight: 700;
 }

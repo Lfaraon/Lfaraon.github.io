@@ -1,4 +1,4 @@
-import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=canonical-ticket";
+import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=ticket-layout";
 import { createTicketFilters } from "./ticketFilters.js?rev=stats-auto";
 import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
 import { renderLedger } from "./ledger.js?rev=canonical-ticket";
@@ -244,7 +244,7 @@ function connectDashboard(window, nonce, destination) {
     const current = showPlayed ? ledger : data;
     const render = showPlayed ? renderPlayedTickets : renderTickets;
     render(tickets, {
-      ...current, now, tickets: filters.apply(current.tickets), filtered: filters.isActive(),
+      ...current, now, tickets: filters.apply(current.tickets), filtered: filters.isActive(), includePending: showPlayed,
       onRetry: showPlayed ? retryLedger : onRetry,
     });
   }
@@ -303,7 +303,7 @@ function connectDashboard(window, nonce, destination) {
       if (lastTicketsRender?.current !== current || lastTicketsRender.showPlayed !== showPlayed) {
         const now = Date.now();
         const view = showPlayed ? "played" : "upcoming";
-        filters.refresh(view, ticketsForView(current.tickets, { view, now }), current.status);
+        filters.refresh(view, ticketsForView(current.tickets, { view, now, includePending: showPlayed }), current.status);
         drawTickets(now);
         lastTicketsRender = { current, showPlayed };
       }
@@ -385,6 +385,7 @@ function connectDashboard(window, nonce, destination) {
     if (!Number.isFinite(kickoff)) return;
     kickoffTimer = window.setTimeout(() => {
       lastTicketsRender = undefined;
+      lastLatestRender = undefined;
       syncDashboard();
       scheduleUpcomingRefresh();
     }, Math.min(maxTimeout, kickoff - now));

@@ -188,14 +188,15 @@ function metric(doc, label, value, outcome, exact) {
 
 function createTicketCard(doc, ticket, played, open, now = Date.now()) {
   const canonical = isCanonicalTicket(ticket);
+  const collapsible = played || (canonical && isPublished(ticket));
   const card = element(doc, "article", "tsukuyomi-ticket");
-  const header = element(doc, played ? "summary" : "header", "tsukuyomi-ticket-header");
-  const heading = element(doc, played ? "span" : "div", "tsukuyomi-ticket-heading");
+  const header = element(doc, collapsible ? "summary" : "header", "tsukuyomi-ticket-header");
+  const heading = element(doc, collapsible ? "span" : "div", "tsukuyomi-ticket-heading");
   const sports = typeof ticket.sport === "string" ? ticket.sport.trim() : "";
   const sport = sports ? sports[0].toLocaleUpperCase("fr") + (canonical ? sports.slice(1).toLocaleLowerCase("fr") : sports.slice(1)) : "";
   const title = [kinds[ticket.kind] || "Ticket", sport].filter(Boolean).join(" · ");
   const legs = Array.isArray(ticket.legs) ? ticket.legs.filter(Boolean) : [];
-  const metadata = element(doc, played ? "span" : "p", "tsukuyomi-ticket-meta");
+  const metadata = element(doc, collapsible ? "span" : "p", "tsukuyomi-ticket-meta");
   const published = time(doc, ticketDate(ticket), shortDate);
   const selections = legs.length === 1 ? "1 sélection" : legs.length + " sélections";
 
@@ -204,15 +205,16 @@ function createTicketCard(doc, ticket, played, open, now = Date.now()) {
     metadata.append(published, " · ");
   }
   metadata.append(selections);
-  heading.append(element(doc, played ? "span" : "h3", "tsukuyomi-ticket-title", title), metadata);
+  heading.append(element(doc, collapsible ? "span" : "h3", "tsukuyomi-ticket-title", title), metadata);
   const outcome = confirmedOutcome(ticket);
   const settled = Boolean(outcome);
-  const waiting = played || (canonical && !Number.isFinite(upcomingTicketKickoff(ticket, now)));
-  const label = settled ? outcomeLabel[outcome] : waiting ? "En attente" : "Publié";
+  const waiting = played || isAwaitingResult(ticket, now);
+  const label = settled ? outcomeLabel[outcome]
+    : canonical && !isPublished(ticket) ? "Brouillon" : waiting ? "En attente" : "Publié";
   const badge = statusChip(doc, "tsukuyomi-ticket-status", label, settled ? outcome : null);
   header.append(heading);
   let content = card;
-  if (played) {
+  if (collapsible) {
     const details = element(doc, "details", "tsukuyomi-ticket-disclosure");
     if (ticket.id) details.dataset.ticketId = ticket.id;
     details.open = open;
@@ -268,6 +270,11 @@ function isPublished(ticket) {
   return typeof ticket?.published_at === "string" && Number.isFinite(Date.parse(ticket.published_at));
 }
 
+function isAwaitingResult(ticket, now) {
+  return isCanonicalTicket(ticket) && isPublished(ticket) && !confirmedOutcome(ticket)
+    && Array.isArray(ticket.legs) && ticket.legs.some((leg) => Date.parse(leg?.starts_at) <= now);
+}
+
 export function upcomingTicketKickoff(ticket, now = Date.now()) {
   if (!Array.isArray(ticket.legs) || !ticket.legs.length) return Infinity;
   let firstKickoff = Infinity;
@@ -287,11 +294,14 @@ export function nextTicketKickoff(tickets, now = Date.now()) {
   return next;
 }
 
-export function ticketsForView(tickets, { view = "upcoming", now = Date.now() } = {}) {
+export function ticketsForView(tickets, { view = "upcoming", now = Date.now(), includePending = false } = {}) {
   const played = view === "played";
   const ordered = tickets.filter((ticket) => {
     if (isCanonicalTicket(ticket)) {
-      if (played) return Boolean(confirmedOutcome(ticket)) && (Boolean(ticket.placed_at) || isPublished(ticket));
+      if (played) {
+        return (Boolean(confirmedOutcome(ticket)) && (Boolean(ticket.placed_at) || isPublished(ticket)))
+          || (includePending && isAwaitingResult(ticket, now));
+      }
       if (!isPublished(ticket)) return false;
       return view === "latest" || (!confirmedOutcome(ticket) && Number.isFinite(upcomingTicketKickoff(ticket, now)));
     }
@@ -308,20 +318,22 @@ export function ticketsForView(tickets, { view = "upcoming", now = Date.now() } 
   return ordered;
 }
 
-function renderFeed(mount, { tickets = [], status, onRetry, filtered, now }, { view, onViewAll }) {
+function renderFeed(mount, { tickets = [], status, onRetry, filtered, now = Date.now(), includePending = false }, { view, onViewAll }) {
   const doc = mount.ownerDocument;
   const feed = element(doc, "div", onViewAll ? "tsukuyomi-tickets-latest" : "tsukuyomi-tickets-page");
   const played = view === "played";
-  const openTickets = new Set(played ? Array.from(
-    mount.querySelectorAll(".tsukuyomi-ticket-disclosure[open][data-ticket-id]"),
-    (details) => details.dataset.ticketId,
+  feed.dataset.ticketView = view;
+  const sameView = mount.firstElementChild?.dataset.ticketView === view;
+  const openTickets = new Map(sameView ? Array.from(
+    mount.querySelectorAll(".tsukuyomi-ticket-disclosure[data-ticket-id]"),
+    (details) => [details.dataset.ticketId, details.open],
   ) : []);
   const active = doc.activeElement;
-  const focusedTicket = played && mount.contains(active) && active.matches(".tsukuyomi-ticket-disclosure > summary")
+  const focusedTicket = sameView && mount.contains(active) && active.matches(".tsukuyomi-ticket-disclosure > summary")
     ? active.parentElement.dataset.ticketId
     : null;
   let nextFocus;
-  const rows = status === "ready" ? ticketsForView(tickets, { view, now }) : [];
+  const rows = status === "ready" ? ticketsForView(tickets, { view, now, includePending }) : [];
   if (!rows.length) {
     let message = view === "upcoming" ? "Aucun ticket à jouer pour le moment." : "Aucun ticket dans cet historique.";
     if (filtered) message = "Aucun ticket ne correspond à ces filtres.";
@@ -342,15 +354,24 @@ function renderFeed(mount, { tickets = [], status, onRetry, filtered, now }, { v
       const count = rows.length === 1 ? "1 pronostic" : rows.length + " pronostics";
       feed.append(element(doc, "p", "tsukuyomi-ticket-count", count));
     }
-    const list = element(doc, "ul", "tsukuyomi-ticket-list");
     const shown = onViewAll ? rows.slice(0, 4) : rows;
-    for (const ticket of shown) {
-      const item = element(doc, "li", "tsukuyomi-ticket-item");
-      item.append(createTicketCard(doc, ticket, played, openTickets.has(ticket.id), now));
-      if (focusedTicket && focusedTicket === ticket.id) nextFocus = item.querySelector("summary");
-      list.append(item);
+    const pending = played && includePending ? shown.filter((ticket) => isAwaitingResult(ticket, now)) : [];
+    const groups = pending.length ? [
+      ["En attente de résultat", pending],
+      ["Historique", shown.filter((ticket) => !isAwaitingResult(ticket, now))],
+    ] : [[null, shown]];
+    for (const [title, group] of groups) {
+      if (!group.length) continue;
+      if (title) feed.append(element(doc, "h3", "tsukuyomi-tickets-group-title", title));
+      const list = element(doc, "ul", "tsukuyomi-ticket-list");
+      for (const ticket of group) {
+        const item = element(doc, "li", "tsukuyomi-ticket-item");
+        item.append(createTicketCard(doc, ticket, played, openTickets.get(ticket.id) ?? !played, now));
+        if (focusedTicket && focusedTicket === ticket.id) nextFocus = item.querySelector("summary");
+        list.append(item);
+      }
+      feed.append(list);
     }
-    feed.append(list);
   }
   if (onViewAll) {
     const button = element(doc, "button", "tsukuyomi-tickets-button tsukuyomi-tickets-view-all", "Voir tous les pronostics");
@@ -372,6 +393,10 @@ export function renderPlayedTickets(mount, data) {
 
 export function renderFeaturedTicket(mount, ticket) {
   mount.replaceChildren(createTicketCard(mount.ownerDocument, ticket, true, true));
+}
+
+export function renderPublicationTicket(mount, ticket) {
+  mount.replaceChildren(createTicketCard(mount.ownerDocument, ticket, false, true));
 }
 
 export function renderLatestTickets(mount, { tickets, status, onRetry, onViewAll }) {
