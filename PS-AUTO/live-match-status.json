@@ -1307,13 +1307,15 @@
       "sets": "6-4, 1-6, 7-6(4)"
     },
     "recCal20261118P76682272": {
-      "status": "En cours",
-      "provider": "Sofascore — flux interactif réellement actif",
+      "status": "Terminé",
+      "provider": "TennisTemple — match Colina du 19.11.2026, score final et deux manches complètes",
       "observedLive": true,
-      "sourceUrl": "https://www.sofascore.com/tennis/match/anastasia-zolotareva-irene-burillo/IzOsdQnc",
-      "checkedAt": "2026-11-19T19:42:37.101Z",
+      "sourceUrl": "https://en.tennistemple.com/match/zolotareva-burillo-colina-2026/9570581/",
+      "checkedAt": "2026-11-19T21:37:04.350Z",
       "rescheduledKickoff": "2026-11-19T18:30:00.000Z",
-      "statusBasis": "19.11.2026 : contrôle interactif Sofascore via navigateur dynamique; match réellement EN COURS, premier set 4–6, deuxième set 1–0, point observé 15–0; minuterie set 2 de 17 à 18 min entre observations. Score PROVISOIRE, aucun résultat final."
+      "statusBasis": "Résultat final TennisTemple, fiche précise du 19.11.2026 à Colina : Irene Burillo bat Anastasia Zolotareva 6-4, 6-4, durée 1h50. Ordre de match-source Zolotareva puis Burillo : score 0-2, sets 4-6, 4-6. Page de match présente deux manches complètes et le résultat dans H2H; ce ne sont pas des scores provisoires.",
+      "score": "0-2",
+      "sets": "4-6, 4-6"
     },
     "recCal20261118L90906": {
       "status": "Terminé",
