@@ -1559,44 +1559,80 @@
       "statusBasis": "19.11.2026, fiche dynamique TennisTemple; Strakhova mène 6-3, 2-1 dans le 2e set. Résultat provisoire, pas de score final."
     },
     "recCal20261119P76736494": {
-      "status": "En cours",
-      "provider": "Onlajny — direct 2e set, score provisoire",
+      "status": "Terminé",
+      "provider": "Nitto ATP Finals — score officiel",
       "observedLive": true,
-      "checkedAt": "2026-11-19T18:38:23.102Z",
-      "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/555660",
-      "statusBasis": "19.11.2026 vers 19h35 Suisse, Onlajny suit les points; 1er set 6-7(5) pour Arribagé/Olivetti, 2e set Heliövaara/Patten 5-6; jeu de service détaillé. En cours, score final NON vérifié."
+      "checkedAt": "2026-11-19T19:39:54.752Z",
+      "sourceUrl": "https://www.nittoatpfinals.com/en/scores-centre/schedule",
+      "statusBasis": "19.11.2026 : ATP Finals confirme Arribagé/Olivetti vainqueurs 7–6(5), 7–6(3); ordre du calendrier Heliövaara/Patten puis Arribagé/Olivetti: 0–2, 6–7(5), 6–7(3).",
+      "score": "0-2",
+      "sets": "6-7(5), 6-7(3)"
     },
     "recCal20261119L91249": {
-      "status": "En cours",
-      "provider": "Sport News Africa — direct minute et score observés",
+      "status": "Terminé",
+      "provider": "Live-Result — Full Time et but de Salem",
       "observedLive": true,
-      "checkedAt": "2026-11-19T18:38:23.102Z",
-      "sourceUrl": "https://sportnewsafrica.com/en/fixtures/algerian-ligue-1/",
-      "statusBasis": "19.11.2026 18h30 UTC: suivi de Ligue 1 Algérie affiche live 86e minute MB Rouisset 1-0 CR Belouizdad. Score provisoire, aucune preuve de fin."
+      "checkedAt": "2026-11-19T19:39:54.752Z",
+      "sourceUrl": "https://www.live-result.com/football/matches/match1774989_MB_Rouissat-CR_Belouizdad-online/lineups",
+      "statusBasis": "19.11.2026 : match terminé, MB Rouissat 1–0 CR Belouizdad, but à la 60e; résultat final prouvé sur la fiche Live-Result.",
+      "score": "1-0"
     },
     "recCal20261119L91184": {
-      "status": "En cours",
-      "provider": "FotMob — but en direct confirmé",
+      "status": "Terminé",
+      "provider": "FotMob — Full time, but de Sediri",
       "observedLive": true,
-      "checkedAt": "2026-11-19T18:38:23.102Z",
+      "checkedAt": "2026-11-19T19:39:54.752Z",
       "sourceUrl": "https://www.fotmob.com/en-GB/matches/mc-alger-vs-olympique-akbou/hqcsd3v8",
-      "statusBasis": "19.11.2026: fiche FotMob confirme but Sediri 22e, 0-1; Sport News Africa indique live 84e minute 0-1 à 18h30 UTC. Score provisoire, pas de résultat final."
+      "statusBasis": "19.11.2026 : Full time confirmé par FotMob, MC Alger 0–1 Olympique Akbou; but Sediri 22e.",
+      "score": "0-1"
     },
     "recCal20261119L90933": {
       "status": "En cours",
-      "provider": "Dailysports — direct UEFA féminin, score provisoire",
+      "provider": "BeSoccer — direct 77e minute",
       "observedLive": true,
-      "sourceUrl": "https://dailysports.net/predictions/the-germans-are-after-another-win-austria-vienna-vs-bayern-munich-womens-champions-league-prediction/",
-      "checkedAt": "2026-11-19T18:38:23.102Z",
-      "statusBasis": "19.11.2026: flux score affiche Austria Wien F 0-2 Bayern Munich F à 45+1 minute. Début réel confirmé par score et minute, pas de résultat final."
+      "sourceUrl": "https://www.besoccer.com/match/austria-vienna-femenino/bayern-munchen-femenino/2027227202",
+      "checkedAt": "2026-11-19T19:39:54.752Z",
+      "statusBasis": "19.11.2026 : direct BeSoccer 77e minute, Austria Wien F 0–3 Bayern München F. Provisoire, pas de score final."
     },
     "recCal20261119L90935": {
       "status": "En cours",
-      "provider": "BeSoccer — direct UEFA féminin, but et minute",
+      "provider": "BeSoccer — direct 84e minute",
       "observedLive": true,
       "sourceUrl": "https://www.besoccer.com/match/paris-fc-femenino/hb-koge-femenino/2027227244",
-      "checkedAt": "2026-11-19T18:38:23.102Z",
-      "statusBasis": "19.11.2026: fiche BeSoccer affiche Paris FC F 0-1 HB Køge F, but à la 12e minute, match au moins à la 21e minute. Direct réel observé, score final non établi."
+      "checkedAt": "2026-11-19T19:39:54.752Z",
+      "statusBasis": "19.11.2026 : direct BeSoccer 84e minute, Paris FC F 1–1 HB Køge F. Provisoire, pas de score final."
+    },
+    "recCal20261119L91185": {
+      "status": "En cours",
+      "provider": "Sport News Africa — score/29e minute au direct",
+      "observedLive": true,
+      "sourceUrl": "https://sportnewsafrica.com/en/fixtures/algerian-ligue-1/",
+      "checkedAt": "2026-11-19T19:39:54.752Z",
+      "statusBasis": "19.11.2026 19h30 UTC : Sport News Africa affiche JS Kabylie 0–0 USM Alger, direct 29e minute; score provisoire, pas de résultat final."
+    },
+    "recCal20261119L91238": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-19T19:39:54.752Z",
+      "statusBasis": "19.11.2026, début prévu à 19h30 UTC dépassé; En cours PRÉSUMÉ sur calendrier, aucun score/direct réel attesté."
+    },
+    "recCal20261119L91240": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-19T19:39:54.752Z",
+      "statusBasis": "19.11.2026, début prévu à 19h30 UTC dépassé; En cours PRÉSUMÉ sur calendrier, aucun score/direct réel attesté."
+    },
+    "recCal20261119L91244": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-19T19:39:54.752Z",
+      "statusBasis": "19.11.2026, début prévu à 19h30 UTC dépassé; En cours PRÉSUMÉ sur calendrier, aucun score/direct réel attesté."
     }
   }
 }
