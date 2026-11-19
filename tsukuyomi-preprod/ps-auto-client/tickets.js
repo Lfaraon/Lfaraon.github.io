@@ -33,8 +33,12 @@ export function formatExactDecimal(value) {
   return String(value).replace(".", ",");
 }
 
-function formatProbability(value, canonical) {
-  return value === null ? "—" : (canonical ? formatExactDecimal(value) : percentage.format(value)) + "\u00a0%";
+export function formatTicketProbability(value) {
+  return Number.isFinite(value) ? percentage.format(value) + "\u00a0%" : "";
+}
+
+export function formatExactProbability(value) {
+  return Number.isFinite(value) ? formatExactDecimal(value) + "\u00a0%" : undefined;
 }
 
 function element(doc, tag, className, text) {
@@ -100,15 +104,74 @@ function selectionParts(leg, sport) {
   return ["", decimalComma(pick) || "Sélection non renseignée"];
 }
 
+function sentenceCase(text) {
+  const value = text.trim();
+  return value === value.toLocaleUpperCase("fr") ? value.toLocaleLowerCase("fr") : value;
+}
+
+function canonicalParticipantLabel(name, sport) {
+  if (!/^tennis$/i.test(sport)) return name;
+  return name.split(/\s*\/\s*/).map((player) => {
+    const parts = /^([^,]+),\s*([^,]+)$/.exec(player);
+    return parts ? `${parts[2].trim()} ${parts[1].trim()}` : player;
+  }).join(" / ");
+}
+
+export function canonicalEventLabel(leg) {
+  if (!/^tennis$/i.test(leg.sport) || !Array.isArray(leg.participants)) return leg.event;
+  return leg.participants.reduce((event, name) => (
+    event.replace(name, canonicalParticipantLabel(name, leg.sport))
+  ), leg.event);
+}
+
+function lineKey(value) {
+  return decimalComma(value).replace(/^\+/, "").replace(/^−/, "-");
+}
+
+function canonicalTotalPick(pick, participant, line, unit) {
+  const total = /^(?:(.+?)\s+)?(under|over|moins\s+de|plus\s+de)(?:\s*(\d+(?:[.,]\d+)?))?(?:\s*(?:buts?|goals?|jeux|games?))?$/i.exec(pick);
+  if (!total || (total[1] && fixtureKey(total[1]) !== fixtureKey(participant))) return "";
+  const threshold = total[3] ? decimalComma(total[3]) : line;
+  if (!/^\d+(,\d+)?$/.test(threshold)) return "";
+  const direction = /^(?:under|moins)/i.test(total[2]) ? "Moins" : "Plus";
+  const quantity = unit === "buts" && Number(threshold.replace(",", ".")) <= 1 ? "but" : unit;
+  return `${direction} de ${threshold} ${quantity}`;
+}
+
 export function canonicalSelectionParts(leg) {
-  const market = leg.market || "";
-  const choice = leg.selection || "Sélection non renseignée";
-  const labels = [market, choice].join(" ").toLocaleLowerCase("fr");
-  const details = [market];
-  if (leg.participant && !labels.includes(leg.participant.toLocaleLowerCase("fr"))) details.push(leg.participant);
+  const sourceMarket = leg.market?.trim() ?? "";
+  const sourcePick = leg.selection?.trim() || "Sélection non renseignée";
+  const participant = leg.participant ? canonicalParticipantLabel(leg.participant, leg.sport) : "";
   const line = leg.line == null ? "" : decimalComma(String(leg.line));
-  if (line && !decimalComma(labels).match(/[+−-]?\d+(?:,\d+)?/g)?.includes(line)) details.push(`Ligne ${line}`);
-  if (leg.period && !labels.includes(leg.period.toLocaleLowerCase("fr"))) details.push(leg.period);
+  let market = sentenceCase(sourceMarket);
+  let choice = decimalComma(sourcePick);
+  const teamGoals = /^total de buts (?:par équipe|de l[’']équipe (?:à domicile|à l[’']extérieur))$/i.test(sourceMarket);
+  const matchGoals = /^total de buts(?: du match)?$/i.test(sourceMarket);
+  const matchGames = /^total de jeux(?: du match)?$/i.test(sourceMarket);
+  const setHandicap = /^handicap (?:de|en) sets?$/i.test(sourceMarket);
+  const period = sentenceCase(leg.period ?? "");
+  const perMatch = /^(?:match|temps réglementaire)$/i.test(period);
+
+  if (teamGoals || matchGoals || matchGames) {
+    if (teamGoals && participant) market = "Buts de " + participant;
+    if (matchGoals) market = "Total de buts";
+    if (matchGames) market = "Total de jeux";
+    if ((matchGoals || matchGames) && (!period || perMatch)) market += " · match";
+    choice = canonicalTotalPick(sourcePick, leg.participant, line, matchGames ? "jeux" : "buts") || choice;
+  } else if (setHandicap) {
+    market = "Handicap en sets";
+    const handicap = /^(.+?)\s+([+−-])\s*(\d+(?:[.,]\d+)?)\s*(?:sets?)?$/i.exec(sourcePick);
+    if (handicap) choice = `${canonicalParticipantLabel(handicap[1], leg.sport)} ${handicap[2]}${decimalComma(handicap[3])}`;
+  }
+  if (participant && leg.participant && participant !== leg.participant) choice = choice.replace(leg.participant, participant);
+
+  const details = [market];
+  const labels = [market, choice].join(" ").toLocaleLowerCase("fr");
+  if (participant && !labels.includes(participant.toLocaleLowerCase("fr"))) details.push(participant);
+  const choiceNumbers = choice.match(/[+−-]?\d+(?:,\d+)?/g) ?? [];
+  if (line && !choiceNumbers.some((shown) => lineKey(shown) === lineKey(line))) details.push(`Ligne ${line}`);
+  if (period && !(perMatch && (teamGoals || matchGoals || matchGames || setHandicap))
+      && !labels.includes(period.toLocaleLowerCase("fr"))) details.push(period);
   return [details.filter(Boolean).join(" · "), choice];
 }
 
@@ -126,11 +189,12 @@ function renderLeg(doc, leg, index, ticket, played, settled) {
   number.setAttribute("aria-hidden", "true");
   item.append(number, content);
   const fixture = element(doc, "div", "tsukuyomi-ticket-fixture");
-  fixture.append(element(doc, "span", "tsukuyomi-ticket-event", leg.event));
+  fixture.append(element(doc, "span", "tsukuyomi-ticket-event", canonical ? canonicalEventLabel(leg) : leg.event));
   const kickoff = time(doc, leg.starts_at, kickoffDate);
   if (kickoff) fixture.append(" ", kickoff);
   if (canonical && ticket.sport === "MULTISPORT" && leg.sport) {
-    fixture.append(" ", element(doc, "span", "tsukuyomi-ticket-market", leg.sport));
+    const sport = sentenceCase(leg.sport);
+    if (sport) fixture.append(" ", element(doc, "span", "tsukuyomi-ticket-market", sport[0].toLocaleUpperCase("fr") + sport.slice(1)));
   }
   content.append(fixture);
 
@@ -144,7 +208,9 @@ function renderLeg(doc, leg, index, ticket, played, settled) {
   const measurements = [];
   if (Number.isFinite(leg.odds)) measurements.push(["Cote", decimal.format(leg.odds), canonical ? formatExactDecimal(leg.odds) : null]);
   const estimate = selectionProbability(ticket, leg) ?? recalculatedSelectionProbability(ticket, leg);
-  if (!canonical || estimate !== null) measurements.push(["Prob. estimée", formatProbability(estimate, canonical)]);
+  if (!canonical || estimate !== null) {
+    measurements.push(["Prob. estimée", formatTicketProbability(estimate) || "—", canonical ? formatExactProbability(estimate) : null]);
+  }
   const metrics = element(doc, "p", "tsukuyomi-ticket-measurement");
   for (const [label, value, exact] of measurements) {
     const pair = element(doc, "span", "", label + " ");
@@ -246,7 +312,13 @@ function createTicketCard(doc, ticket, played, open, now = Date.now()) {
   content.append(header, legList);
   if (!canonical || estimate !== null) {
     const probability = element(doc, "p", "tsukuyomi-ticket-probability", "Probabilité du ticket · ");
-    probability.append(element(doc, "strong", "", formatProbability(estimate, canonical)));
+    const amount = element(doc, "strong", "", formatTicketProbability(estimate) || "—");
+    const exact = canonical && formatExactProbability(estimate);
+    if (exact && exact !== amount.textContent) {
+      amount.title = exact;
+      amount.setAttribute("aria-label", exact);
+    }
+    probability.append(amount);
     content.append(probability);
   }
 
