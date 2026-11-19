@@ -1420,12 +1420,13 @@
       "statusBasis": "Résultat final UEFA 2–0, buts Serturini et Pavan ; confirmé par compte rendu officiel de la 5e journée."
     },
     "recCal20261118P66887172": {
-      "status": "En cours",
-      "provider": "FotMob — chrono réel 0:48 et score provisoire observés 18.11.2026",
-      "checkedAt": "2026-11-18T22:38:18.011Z",
+      "status": "Terminé",
+      "provider": "FotMob — fiche dynamique Full time 18.11.2026",
+      "checkedAt": "2026-11-19T00:44:51.060Z",
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/en-GB/matches/santos-vs-coritiba/2rhvtw",
-      "statusBasis": "Début réel observé sur la fiche FotMob, affichage du temps de jeu et score provisoire 0–0 ; score final non renseigné."
+      "statusBasis": "Fin réelle confirmée sur fiche FotMob Coritiba–Santos 18.11.2026 (FT 0-1, but Gabriel Barbosa 90+2), non présumée.",
+      "score": "0-1"
     },
     "recCal20261119L91359": {
       "status": "Terminé",
