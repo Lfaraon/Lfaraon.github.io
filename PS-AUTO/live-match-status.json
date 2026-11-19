@@ -1497,6 +1497,13 @@
       "observedLive": true,
       "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/555657",
       "reversed": false
+    },
+    "recCal20261119L90724": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-19T12:35:36.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     }
   }
 }
