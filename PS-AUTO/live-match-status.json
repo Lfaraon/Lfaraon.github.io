@@ -1492,7 +1492,7 @@
     "recCal20261119P76736486": {
       "status": "Terminé",
       "provider": "Onlajny — fiche dynamique finale ATP Finals Turin 19.11.2026, 6-3 6-4",
-      "statusBasis": "Flux vivant avec jeux, points et service consultables — match réellement en cours",
+      "statusBasis": "Résultat final explicitement confirmé sur la fiche dynamique du match (Onlajny, 19.11.2026 12:57:22 CET), sets 6-3 6-4",
       "checkedAt": "2026-11-19T12:38:00.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/555657",
