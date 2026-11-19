@@ -1490,13 +1490,15 @@
       "score": "0-0"
     },
     "recCal20261119P76736486": {
-      "status": "En cours",
-      "provider": "Onlajny — flux dynamique actualisé : 1re manche Arévalo/Pavić 6-3, 2e manche 3-2 à 12:33:24 CET; points et jeux observés, non définitifs",
+      "status": "Terminé",
+      "provider": "Onlajny — fiche dynamique finale ATP Finals Turin 19.11.2026, 6-3 6-4",
       "statusBasis": "Flux vivant avec jeux, points et service consultables — match réellement en cours",
-      "checkedAt": "2026-11-19T11:34:48.178Z",
+      "checkedAt": "2026-11-19T12:38:00.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/555657",
-      "reversed": false
+      "reversed": false,
+      "score": "2-0",
+      "sets": "6-3, 6-4"
     },
     "recCal20261119L90724": {
       "status": "En cours",
