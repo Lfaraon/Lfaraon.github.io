@@ -137,13 +137,13 @@ export function createFilterMenu(doc, { name, label, all, onChange, openMenu, sc
   });
 
   function update(options, value) {
-    const next = [["", all], ...options];
+    const next = all === undefined ? options : [["", all], ...options];
     if (value === selection && next.length === entries.length
         && next.every(([key, text], index) => key === entries[index][0] && text === entries[index][1])) return;
     const activeValue = entries[active]?.[0];
     entries = next;
     selection = value;
-    const labelText = entries.find(([option]) => option === value)?.[1] || all;
+    const labelText = entries.find(([option]) => option === value)?.[1] ?? all ?? "";
     mobileValue.textContent = labelText;
     desktop.textContent = labelText;
     trigger.setAttribute("aria-label", label + " : " + labelText);
