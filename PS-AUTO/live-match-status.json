@@ -1637,6 +1637,14 @@
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "checkedAt": "2026-11-19T19:39:54.752Z",
       "statusBasis": "19.11.2026, début prévu à 19h30 UTC dépassé; En cours PRÉSUMÉ sur calendrier, aucun score/direct réel attesté."
+    },
+    "recCal20261119P76736450": {
+      "status": "En cours",
+      "provider": "Onlajny — point par point réel",
+      "observedLive": true,
+      "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/555640",
+      "checkedAt": "2026-11-19T19:47:36.128Z",
+      "statusBasis": "19.11.2026, suivi interactif Onlajny via navigateur dynamique: Zverev–Fils commencé, 1er set, Fils mène 1 jeu à 0; échanges point par point visibles. Score PROVISOIRE, aucun set terminé ni score final."
     }
   }
 }
