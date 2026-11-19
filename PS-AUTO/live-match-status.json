@@ -1510,20 +1510,23 @@
       "statusBasis": "Fin sportive confirmée par la fiche dynamique exacte à 15:00:11 heure suisse ; Zvolen–Košice 2-2 après 90 minutes et Košice gagne tirs au but 4-2 (Zvolen–Košice 2-4). Score final 2-2 = buts, non tirs au but."
     },
     "recCal20261119L90245": {
-      "status": "En cours",
-      "provider": "TNT Sports — Al-Wasl–Hatta, 2-0 à 87e (score provisoire)",
+      "status": "Terminé",
+      "provider": "FotMob — fiche dynamique Full time Al-Wasl–Hatta 19.11.2026, 2-1",
       "statusBasis": "Live confirmé sur fiche TNT Sports du 19.11.2026 : Al-Wasl 2–0 Hatta à la 87e, Taremi 17e, Malheiro 63e. Aucun score final prouvé.",
       "observedLive": true,
-      "checkedAt": "2026-11-19T14:37:22.000Z",
-      "sourceUrl": "https://www.tntsports.co.uk/football/uae-premier-league/2026-2027/al-wasl-hatta_mtc21898331/live.shtml"
+      "checkedAt": "2026-11-19T15:35:00.062Z",
+      "sourceUrl": "https://www.fotmob.com/matches/al-wasl-vs-hatta/9kvvzr5",
+      "score": "2-1"
     },
     "recCal20261119P76736432": {
-      "status": "En cours",
-      "provider": "Onlajny — suivi point par point Shelton–Jódar, 2e set, 19.11.2026",
+      "status": "Terminé",
+      "provider": "Onlajny — fiche dynamique finale ATP Finals 19.11.2026 ; 7-6(10-8), 7-5 ; fin 16:27:50 CET",
       "statusBasis": "Direct confirmé à 15:32:40 heure suisse : Shelton mène 1-0 en sets (7–6, tie-break 10–8), Jódar 1–0 au deuxième set, 30–0 sur service Shelton. Aucun score final prouvé.",
       "observedLive": true,
-      "checkedAt": "2026-11-19T14:37:22.000Z",
-      "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/555639"
+      "checkedAt": "2026-11-19T15:35:00.062Z",
+      "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/555639",
+      "score": "2-0",
+      "sets": "7-6(10-8), 7-5"
     },
     "recCal20261119L90291": {
       "status": "En cours",
