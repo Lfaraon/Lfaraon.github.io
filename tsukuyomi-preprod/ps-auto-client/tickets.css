@@ -13,26 +13,27 @@
   flex: 1 1 0;
   min-height: 44px;
   padding: 8px 12px;
-  border: 1px solid var(--colors-border);
-  border-radius: var(--tsukuyomi-control-radius);
-  background: transparent;
-  color: var(--colors-foregroundMuted);
+  border: 1px solid var(--tsukuyomi-button-border);
+  border-radius: var(--tsukuyomi-button-radius);
+  background: var(--tsukuyomi-button-bg);
+  color: var(--tsukuyomi-button-ink);
   cursor: pointer;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: var(--tsukuyomi-button-weight);
   line-height: 1.3;
 }
 
 .tsukuyomi-pronostic-views button[aria-pressed="true"] {
-  border-color: var(--tsukuyomi-accent-border);
-  background: var(--tsukuyomi-panel);
-  color: var(--tsukuyomi-accent);
+  background: var(--tsukuyomi-button-active-bg);
+  border-color: var(--tsukuyomi-button-active-border);
+  color: var(--tsukuyomi-button-active-ink);
 }
 
 @media (hover: hover) {
   .tsukuyomi-pronostic-views button[aria-pressed="false"]:hover {
-    border-color: var(--tsukuyomi-accent);
-    color: var(--colors-foreground);
+    background: var(--tsukuyomi-button-active-bg);
+    border-color: var(--tsukuyomi-button-active-border);
+    color: var(--tsukuyomi-button-active-ink);
   }
 }
 
@@ -155,9 +156,10 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 
 .tsukuyomi-ticket-chevron {
   align-items: center;
-  border: 1px solid var(--tsukuyomi-border);
-  border-radius: var(--tsukuyomi-control-radius);
-  color: var(--tsukuyomi-accent);
+  background: var(--tsukuyomi-button-bg);
+  border: 1px solid var(--tsukuyomi-button-border);
+  border-radius: var(--tsukuyomi-button-radius);
+  color: var(--tsukuyomi-button-ink);
   display: flex;
   height: 24px;
   justify-content: center;
@@ -173,12 +175,22 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
   width: 7px;
 }
 
+.tsukuyomi-ticket-disclosure[open] .tsukuyomi-ticket-chevron {
+  background: var(--tsukuyomi-button-active-bg);
+  border-color: var(--tsukuyomi-button-active-border);
+  color: var(--tsukuyomi-button-active-ink);
+}
+
 .tsukuyomi-ticket-disclosure[open] .tsukuyomi-ticket-chevron::before {
   transform: translateY(2px) rotate(225deg);
 }
 
 @media (hover: hover) {
-  .tsukuyomi-ticket--played:hover .tsukuyomi-ticket-chevron { border-color: var(--tsukuyomi-accent-border); }
+  .tsukuyomi-ticket--played:hover .tsukuyomi-ticket-chevron {
+    background: var(--tsukuyomi-button-active-bg);
+    border-color: var(--tsukuyomi-button-active-border);
+    color: var(--tsukuyomi-button-active-ink);
+  }
 }
 
 .tsukuyomi-ledger {
@@ -227,16 +239,24 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
   align-items: center;
   gap: 9px;
   min-height: 44px;
-  border-top: 1px solid var(--tsukuyomi-border);
-  color: var(--tsukuyomi-accent);
+  padding-inline: 10px;
+  background: var(--tsukuyomi-button-bg);
+  border: 1px solid var(--tsukuyomi-button-border);
+  border-radius: var(--tsukuyomi-button-radius);
+  color: var(--tsukuyomi-button-ink);
   cursor: pointer;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: var(--tsukuyomi-button-weight);
   list-style: none;
 }
 
 .tsukuyomi-ledger-detail-toggle::-webkit-details-marker { display: none; }
-.tsukuyomi-ledger-detail-toggle:hover { color: var(--tsukuyomi-accent-hover); }
+.tsukuyomi-ledger-detail-toggle:hover,
+.tsukuyomi-ledger-details[open] > summary {
+  background: var(--tsukuyomi-button-active-bg);
+  border-color: var(--tsukuyomi-button-active-border);
+  color: var(--tsukuyomi-button-active-ink);
+}
 
 .tsukuyomi-ledger-detail-toggle::after {
   width: 7px;
@@ -423,10 +443,11 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 .tsukuyomi-tickets-button {
   min-height: 44px;
   margin-top: 8px;
-  border: 1px solid var(--colors-border);
-  border-radius: var(--tsukuyomi-control-radius);
-  color: var(--tsukuyomi-ink);
-  font: 700 13px/1.2 var(--tsukuyomi-body);
+  background: var(--tsukuyomi-button-bg);
+  border: 1px solid var(--tsukuyomi-button-border);
+  border-radius: var(--tsukuyomi-button-radius);
+  color: var(--tsukuyomi-button-ink);
+  font: var(--tsukuyomi-button-weight) 13px/1.2 var(--tsukuyomi-body);
 }
 
 .tsukuyomi-tickets-view-all {
@@ -438,8 +459,9 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 }
 
 .tsukuyomi-tickets-button:hover {
-  background: var(--colors-surface);
-  border-color: var(--tsukuyomi-accent);
+  background: var(--tsukuyomi-button-active-bg);
+  border-color: var(--tsukuyomi-button-active-border);
+  color: var(--tsukuyomi-button-active-ink);
 }
 
 .tsukuyomi-tickets-button:focus-visible {

@@ -6,10 +6,10 @@
     <meta name="theme-color" content="#101010" />
     <meta name="color-scheme" content="dark" />
     <title>Tsukuyomi · Centre de commande</title>
-    <link id="tsukuyomi-theme" rel="stylesheet" href="../tsukuyomi-theme.css?rev=scroll-reveal" />
-    <link rel="stylesheet" href="./tickets.css?rev=played-ticket-details" />
+    <link id="tsukuyomi-theme" rel="stylesheet" href="../tsukuyomi-theme.css?rev=shared-buttons" />
+    <link rel="stylesheet" href="./tickets.css?rev=shared-buttons" />
     <link rel="stylesheet" href="./ticketFilters.css?rev=landing-unified" />
-    <link rel="stylesheet" href="./theme.css?rev=mobile-dashboard-header" />
+    <link rel="stylesheet" href="./theme.css?rev=shared-buttons" />
     <script type="module">
       import { startPsAutoDashboard } from "./source.js?rev=scroll-reveal";
       startPsAutoDashboard();
@@ -23,14 +23,20 @@
         padding: 12px 16px;
       }
       #ps-auto-status button {
-        background: var(--tsukuyomi-bg, #101010);
-        border: 1px solid var(--tsukuyomi-border, #505050);
-        border-radius: var(--tsukuyomi-control-radius, 6px);
-        color: inherit;
+        background: var(--tsukuyomi-button-bg, #101010);
+        border: 1px solid var(--tsukuyomi-button-border, #505050);
+        border-radius: var(--tsukuyomi-button-radius, 6px);
+        color: var(--tsukuyomi-button-ink, #d0d0d0);
+        font-weight: var(--tsukuyomi-button-weight, 600);
         cursor: pointer;
         margin-inline-start: 10px;
         min-height: 40px;
         padding-inline: 12px;
+      }
+      #ps-auto-status button:hover {
+        background: var(--tsukuyomi-button-active-bg);
+        border-color: var(--tsukuyomi-button-active-border);
+        color: var(--tsukuyomi-button-active-ink);
       }
       #ps-auto-status button:hover { border-color: var(--tsukuyomi-accent); }
       #ps-auto-status button:focus-visible { outline: 2px solid var(--tsukuyomi-accent); outline-offset: 2px; }
