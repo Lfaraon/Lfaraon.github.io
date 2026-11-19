@@ -1296,12 +1296,13 @@
       "sets": "7-6(7-4), 1-6, 5-10"
     },
     "recCal20261118P76682274": {
-      "status": "Reporté",
-      "provider": "Reprogrammation le 19.11.2026 à 13:00 UTC — Tennislive.net",
-      "observedLive": false,
-      "sourceUrl": "https://www.tennislive.net/wta/match/lucia-bronzetti-VS-carole-monnet/lp-open-by-ind-colina-2026/",
-      "checkedAt": "2026-11-18T17:45:26.008Z",
-      "rescheduledKickoff": "2026-11-19T13:00:00.000Z"
+      "status": "En cours",
+      "provider": "XScores — fiche dynamique de match Colina 19.11.2026, début réel (2e set 0-0, premier 6-4)",
+      "observedLive": true,
+      "sourceUrl": "https://www.xscores.com/tennis/match/Lucia-Bronzetti-vs-Carole-Monnet/19-11-2026/3024708",
+      "checkedAt": "2026-11-19T15:36:29.907Z",
+      "rescheduledKickoff": "2026-11-19T13:00:00.000Z",
+      "statusBasis": "Direct observé : 2e set en cours sur fiche XScores (1er set Bronzetti 6-4), score provisoire non final."
     },
     "recCal20261118P76682272": {
       "status": "Reporté",
@@ -1512,7 +1513,7 @@
     "recCal20261119L90245": {
       "status": "Terminé",
       "provider": "FotMob — fiche dynamique Full time Al-Wasl–Hatta 19.11.2026, 2-1",
-      "statusBasis": "Live confirmé sur fiche TNT Sports du 19.11.2026 : Al-Wasl 2–0 Hatta à la 87e, Taremi 17e, Malheiro 63e. Aucun score final prouvé.",
+      "statusBasis": "Résultat final vérifié sur fiche dynamique actuelle ; score final confirmé (non présumé à l'horaire).",
       "observedLive": true,
       "checkedAt": "2026-11-19T15:35:00.062Z",
       "sourceUrl": "https://www.fotmob.com/matches/al-wasl-vs-hatta/9kvvzr5",
@@ -1521,7 +1522,7 @@
     "recCal20261119P76736432": {
       "status": "Terminé",
       "provider": "Onlajny — fiche dynamique finale ATP Finals 19.11.2026 ; 7-6(10-8), 7-5 ; fin 16:27:50 CET",
-      "statusBasis": "Direct confirmé à 15:32:40 heure suisse : Shelton mène 1-0 en sets (7–6, tie-break 10–8), Jódar 1–0 au deuxième set, 30–0 sur service Shelton. Aucun score final prouvé.",
+      "statusBasis": "Résultat final vérifié sur fiche dynamique actuelle ; score final confirmé (non présumé à l'horaire).",
       "observedLive": true,
       "checkedAt": "2026-11-19T15:35:00.062Z",
       "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/555639",
