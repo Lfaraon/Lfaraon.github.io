@@ -1581,6 +1581,22 @@
       "checkedAt": "2026-11-19T17:43:09.654Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "statusBasis": "Kickoff source 19.11.2026 16:45 UTC dépassé; démarrage présumé selon règle football 0 à +120 min. Aucune observation live fiable. Aucun score final."
+    },
+    "recCal20261119L90933": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-19T17:45:17.230Z",
+      "statusBasis": "UEFA Women's Champions League 19.11.2026. Coup d'envoi source 2026-11-19T17:45:00.000Z atteint ; En cours présumé par règle horaire PS-AUTO, sans observation de score ni preuve de direct."
+    },
+    "recCal20261119L90935": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-19T17:45:17.230Z",
+      "statusBasis": "UEFA Women's Champions League 19.11.2026. Coup d'envoi source 2026-11-19T17:45:00.000Z atteint ; En cours présumé par règle horaire PS-AUTO, sans observation de score ni preuve de direct."
     }
   }
 }
