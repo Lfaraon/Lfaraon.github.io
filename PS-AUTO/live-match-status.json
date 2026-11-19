@@ -1524,6 +1524,20 @@
       "observedLive": true,
       "checkedAt": "2026-11-19T14:37:22.000Z",
       "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/555639"
+    },
+    "recCal20261119L90291": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-19T15:33:03.127Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261119L90900": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-19T15:33:03.127Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     }
   }
 }
