@@ -1590,21 +1590,23 @@
     },
     "recCal20261119L90933": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-19T19:46:02.020Z",
-      "statusBasis": "19.11.2026 : à +120 min depuis kickoff 17h45 UTC, Terminé PRÉSUMÉ par règle horaire. Score FINAL inconnu; dernier direct BeSoccer Austria Wien F 0–3 Bayern F à 77e (score PROVISOIRE, ne pas enregistrer).",
-      "lastLiveSourceUrl": "https://www.besoccer.com/match/austria-vienna-femenino/bayern-munchen-femenino/2027227202"
+      "provider": "FotMob — score final Full time, confirmé par UEFA",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/matches/bayern-munchen-vs-austria-wien/12ail7g21",
+      "checkedAt": "2026-11-19T20:33:27.713Z",
+      "statusBasis": "Résultat final confirmé pour Austria Wien F – Bayern München F le 19.11.2026 (0-4, FT); score non présumé",
+      "lastLiveSourceUrl": "https://www.besoccer.com/match/austria-vienna-femenino/bayern-munchen-femenino/2027227202",
+      "score": "0-4"
     },
     "recCal20261119L90935": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-19T19:46:02.020Z",
-      "statusBasis": "19.11.2026 : à +120 min depuis kickoff 17h45 UTC, Terminé PRÉSUMÉ par règle horaire. Score FINAL inconnu; dernier direct BeSoccer Paris FC F 1–1 Køge F à 84e (score PROVISOIRE, ne pas enregistrer).",
-      "lastLiveSourceUrl": "https://www.besoccer.com/match/paris-fc-femenino/hb-koge-femenino/2027227244"
+      "provider": "Paris FC — fiche officielle, fin du match; confirmé par UEFA",
+      "observedLive": true,
+      "sourceUrl": "https://parisfc.fr/match-center/women/126598/2026-11-19/paris-fc-vs-koge-uefa-womens-champions-league/",
+      "checkedAt": "2026-11-19T20:33:27.713Z",
+      "statusBasis": "Résultat final Paris FC F – HB Køge F (2-1) confirmé par le club, fin du match 90+7; score non présumé",
+      "lastLiveSourceUrl": "https://www.besoccer.com/match/paris-fc-femenino/hb-koge-femenino/2027227244",
+      "score": "2-1"
     },
     "recCal20261119L91185": {
       "status": "En cours",
@@ -1645,6 +1647,30 @@
       "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/555640",
       "checkedAt": "2026-11-19T19:47:36.128Z",
       "statusBasis": "19.11.2026, suivi interactif Onlajny via navigateur dynamique: Zverev–Fils commencé, 1er set, Fils mène 1 jeu à 0; échanges point par point visibles. Score PROVISOIRE, aucun set terminé ni score final."
+    },
+    "recCal20261119L90932": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-19T20:33:27.713Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "19.11.2026 : kickoff 20h00 UTC atteint. En cours présumé à l'horaire ; aucun début réel vérifié."
+    },
+    "recCal20261119L90936": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-19T20:33:27.713Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "19.11.2026 : kickoff 20h00 UTC atteint. En cours présumé à l'horaire ; aucun début réel vérifié."
+    },
+    "recCal20261119L90884": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-19T20:33:27.713Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "19.11.2026 : kickoff 20h00 UTC atteint. En cours présumé à l'horaire ; aucun début réel vérifié."
     }
   }
 }
