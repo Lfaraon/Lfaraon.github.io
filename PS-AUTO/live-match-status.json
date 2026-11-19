@@ -1621,27 +1621,30 @@
     },
     "recCal20261119L91238": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "DSPORTS — résultat final Peñarol–Cerro Largo",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-19T21:34:06.326Z",
-      "statusBasis": "19.11.2026 : au moins 120 minutes après le kickoff précis du calendrier. Fin PRÉSUMÉE selon règle PS-AUTO, score final NON VÉRIFIÉ et donc laissé vide. Des pages de direct antérieures ou en cache ne permettent pas d'établir un résultat final; revérifier au prochain contrôle."
+      "sourceUrl": "https://www.directvsports.com/futbol/penarol-goleo-a-cerro-largo-gano-la-tabla-anual-y-va-por-el-titulo-uruguayo-20261119-0013.html",
+      "checkedAt": "2026-11-19T22:39:57.372Z",
+      "statusBasis": "19.11.2026 : Peñarol–Cerro Largo 3-0, compte-rendu de match final DSPORTS ; score prouvé, contrairement à la clôture précédemment présumée.",
+      "score": "3-0"
     },
     "recCal20261119L91240": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "DSPORTS — résultat final Progreso–Montevideo City Torque",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-19T21:34:06.326Z",
-      "statusBasis": "19.11.2026 : au moins 120 minutes après le kickoff précis du calendrier. Fin PRÉSUMÉE selon règle PS-AUTO, score final NON VÉRIFIÉ et donc laissé vide. Des pages de direct antérieures ou en cache ne permettent pas d'établir un résultat final; revérifier au prochain contrôle."
+      "sourceUrl": "https://www.directvsports.com/amp/futbol/en-un-partidazo-progreso-y-montevideo-city-torque-empataron-por-la-liga-auf-uruguaya-20261119-0015.html",
+      "checkedAt": "2026-11-19T22:39:57.372Z",
+      "statusBasis": "19.11.2026 : Progreso–Montevideo City Torque 1-1, compte-rendu final DSPORTS ; score prouvé, contrairement à la clôture précédemment présumée.",
+      "score": "1-1"
     },
     "recCal20261119L91244": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "DSPORTS — résultat final Boston River–Deportivo Maldonado",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-19T21:34:06.326Z",
-      "statusBasis": "19.11.2026 : au moins 120 minutes après le kickoff précis du calendrier. Fin PRÉSUMÉE selon règle PS-AUTO, score final NON VÉRIFIÉ et donc laissé vide. Des pages de direct antérieures ou en cache ne permettent pas d'établir un résultat final; revérifier au prochain contrôle."
+      "sourceUrl": "https://www.directvsports.com/futbol/con-uno-menos-boston-river-vencio-a-deportivo-maldonado-por-la-liga-auf-uruguaya-20261119-0018.html",
+      "checkedAt": "2026-11-19T22:39:57.372Z",
+      "statusBasis": "19.11.2026 : Boston River–Deportivo Maldonado 1-0, compte-rendu final DSPORTS ; score prouvé, contrairement à la clôture précédemment présumée.",
+      "score": "1-0"
     },
     "recCal20261119P76736450": {
       "status": "Terminé",
@@ -1654,28 +1657,55 @@
       "sets": "6-4, 7-6(6)"
     },
     "recCal20261119L90932": {
-      "status": "En cours",
-      "provider": "The Guardian — direct minute par minute, Arsenal–Lyon WCL",
+      "status": "Terminé",
+      "provider": "The Guardian — résultat final Arsenal–OL Lyonnes",
       "observedLive": true,
-      "checkedAt": "2026-11-19T21:40:06.338Z",
+      "checkedAt": "2026-11-19T22:39:57.372Z",
       "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/19/arsenal-v-ol-lyonnes-womens-champions-league-live",
-      "statusBasis": "19.11.2026: The Guardian publie un direct réellement actif avec les actions jusqu'à la 74e minute, OL Lyonnes mène alors 2-0 (Brand 24e, Dumornay 57e). En cours OBSERVÉ, score PROVISOIRE non enregistré dans le champ score final."
+      "statusBasis": "19.11.2026 : OL Lyonnes a battu Arsenal 2-0 ; fin confirmée par le reportage final The Guardian, pas déduite de l'horaire.",
+      "score": "0-2"
     },
     "recCal20261119L90936": {
-      "status": "En cours",
-      "provider": "MatchPal / Reddit r/WomensSoccer — suivi des événements Benfica–Roma WCL",
+      "status": "Terminé",
+      "provider": "Diário Coimbra — compte-rendu final Benfica–Roma",
       "observedLive": true,
-      "checkedAt": "2026-11-19T21:40:06.338Z",
-      "sourceUrl": "https://www.reddit.com/r/WomensSoccer/comments/1y0hmdg/match_thread_sl_benfica_w_vs_roma_w_uefa_womens/",
-      "statusBasis": "19.11.2026: match thread dynamique alimenté par MatchPal indique Benfica–Roma 2-2, buts aux 18e, 40e, 54e, 66e minutes, changements à 65e; direct effectif OBSERVÉ, score PROVISOIRE non enregistré comme final."
+      "checkedAt": "2026-11-19T22:39:57.372Z",
+      "sourceUrl": "https://www.diariocoimbra.pt/2026/11/19/assistencia-de-catarina-amado-foi-insuficiente-para-o-benfica-vencer-na-liga-dos-campeoes/",
+      "statusBasis": "19.11.2026 : Benfica 2-3 Roma, troisième but romain en arrêts de jeu ; compte-rendu définitif du match, pas score provisoire.",
+      "score": "2-3"
     },
     "recCal20261119L90884": {
-      "status": "En cours",
-      "provider": "MatchPal / Reddit r/WomensSoccer — suivi des événements Barcelone–Servette WCL",
+      "status": "Terminé",
+      "provider": "MatchPal / Reddit r/WomensSoccer — fiche match FT Barcelona–Servette",
       "observedLive": true,
-      "checkedAt": "2026-11-19T21:40:06.338Z",
+      "checkedAt": "2026-11-19T22:39:57.372Z",
       "sourceUrl": "https://www.reddit.com/r/WomensSoccer/comments/1y0hmhv/match_thread_barcelona_w_vs_servette_ch%C3%AAnois_w/",
-      "statusBasis": "19.11.2026 : match thread dynamique MatchPal donne Barcelone–Servette 5-0 en cours, buts à 19e 26e 32e 63e 77e. Direct OBSERVÉ, score de match PROVISOIRE non inscrit au champ final."
+      "statusBasis": "19.11.2026 : Barcelone 6-0 Servette, résultat FT affiché sur la fiche du match MatchPal; compte-rendu Barça Blaugranes confirme.",
+      "score": "6-0"
+    },
+    "recCal20261119P76682266": {
+      "status": "En cours",
+      "provider": "Sofascore — fiche tennis interactive vérifiée par navigateur dynamique",
+      "sourceUrl": "https://www.sofascore.com/tennis/match/fernanda-labrana-andrea-lazaro-garcia/HyAsmizb",
+      "observedLive": true,
+      "statusBasis": "19.11.2026 : début réel OBSERVÉ en navigateur dynamique sur la fiche précise du tournoi WTA 125 Colina ; jeux 2-3 dans le 1er set et points de jeu en évolution. Score provisoire NON enregistré comme score final.",
+      "checkedAt": "2026-11-19T22:39:57.372Z"
+    },
+    "recCal20261119P66887160": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "19.11.2026 : coup d'envoi publié à 22h30 UTC, contrôle à 22h39 UTC (+9 min). Statut En cours PRÉSUMÉ par règle horaire football, aucun résultat réel de match ni score final déduit.",
+      "checkedAt": "2026-11-19T22:39:57.372Z"
+    },
+    "recCal20261119P66887174": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "19.11.2026 : coup d'envoi publié à 22h30 UTC, contrôle à 22h39 UTC (+9 min). Statut En cours PRÉSUMÉ par règle horaire football, aucun résultat réel de match ni score final déduit.",
+      "checkedAt": "2026-11-19T22:39:57.372Z"
     }
   }
 }
