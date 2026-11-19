@@ -233,33 +233,39 @@
     },
     "recCal20261116P76812394": {
       "status": "Terminé",
-      "provider": "Live Tennis API",
+      "provider": "Tennislive.it — fiche finale et manches (ordre de match-source.json inversé par rapport à la fiche)",
       "providerId": "220401",
-      "checkedAt": "2026-11-16T21:55:38.252Z",
+      "checkedAt": "2026-11-19T09:37:39.002Z",
       "observedLive": false,
       "reversed": true,
       "score": "1-2",
-      "sourceUrl": "https://www.tennislive.it/wta/incontro/carole-monnet-VS-victoria-jimenez-kasintseva/lp-open-by-ind-colina-2026/"
+      "sourceUrl": "https://www.tennislive.it/wta/incontro/carole-monnet-VS-victoria-jimenez-kasintseva/lp-open-by-ind-colina-2026/",
+      "sets": "5-7, 6-3, 0-6",
+      "statusBasis": "Résultat et manches complets confirmés sur fiche finale du 16.11.2026"
     },
     "recCal20261116P76812404": {
       "status": "Terminé",
-      "provider": "Live Tennis API",
+      "provider": "Tennislive.net — fiche finale et manches",
       "providerId": "220405",
-      "checkedAt": "2026-11-16T21:55:38.252Z",
+      "checkedAt": "2026-11-19T09:37:39.002Z",
       "observedLive": false,
       "reversed": false,
       "score": "2-1",
-      "sourceUrl": "https://www.mykhel.com/tennis/lp-open-by-ind-2026-womens-singles-1-32-final-live-scoreboard-441542/"
+      "sourceUrl": "https://www.tennislive.net/wta/match/leyre-romero-gormaz-VS-ipek-oz/lp-open-by-ind-colina-2026/",
+      "sets": "2-6, 7-5, 6-1",
+      "statusBasis": "Résultat et manches complets confirmés sur fiche finale du 16.11.2026"
     },
     "recCal20261116P76736460": {
       "status": "Terminé",
-      "provider": "Live Tennis API",
+      "provider": "Tennis.com — Completed, manches finales vérifiées",
       "providerId": "219747",
-      "checkedAt": "2026-11-16T21:55:38.252Z",
+      "checkedAt": "2026-11-19T09:37:39.002Z",
       "observedLive": false,
       "reversed": false,
       "score": "2-0",
-      "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/d-medvedev-vs-f-cobolli-2026-11-16"
+      "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/d-medvedev-vs-f-cobolli-2026-11-16",
+      "sets": "7-6(4), 6-3",
+      "statusBasis": "Résultat et manches complets confirmés sur fiche finale du 16.11.2026"
     },
     "recCal20261116P76841662": {
       "status": "Terminé",
