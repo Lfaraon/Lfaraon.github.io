@@ -12,6 +12,8 @@ const dateLabel = new Intl.DateTimeFormat("fr-CH", { day: "numeric", month: "sho
 const focusClasses = "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary";
 const pressedClasses = "border-primary bg-primary text-primaryForeground";
 const unpressedClasses = "border-border bg-background text-foreground hover:bg-surfaceAlt";
+export const filterGlyph = "M3 5h14M6 10h8M8 15h4";
+export const filterChevron = "M3 6l5 5 5-5";
 
 function swissDay(timestamp) {
   if (!Number.isFinite(timestamp)) return "";
@@ -57,16 +59,16 @@ function icon(doc, className, viewBox, line, strokeWidth) {
 }
 
 function createMenu(doc, { name, label, all, onChange, openMenu }) {
-  const wrap = element(doc, "div", "relative w-full md:w-fit");
+  const wrap = element(doc, "div", "tsukuyomi-ticket-filter-menu relative w-full md:w-fit");
   const trigger = button(doc, "inline-flex min-h-[58px] w-full items-center justify-between gap-2 rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground hover:bg-surfaceAlt md:min-h-0 md:w-auto md:rounded-none md:bg-surface md:py-1.5 " + focusClasses);
   trigger.dataset.ticketFilter = name;
   trigger.setAttribute("role", "combobox");
   trigger.setAttribute("aria-haspopup", "listbox");
   trigger.setAttribute("aria-expanded", "false");
-  const mobile = element(doc, "span", "min-w-0 flex-1 text-left md:hidden");
+  const mobile = element(doc, "span", "tsukuyomi-ticket-filter-value min-w-0 flex-1 text-left md:hidden");
   const mobileValue = element(doc, "span", "mt-0.5 block truncate text-sm font-semibold text-foreground");
   mobile.append(element(doc, "span", "block truncate text-[11px] font-medium uppercase tracking-wide text-foregroundMuted", label), mobileValue);
-  const desktop = element(doc, "span", "hidden min-w-0 break-words text-left md:block md:whitespace-nowrap");
+  const desktop = element(doc, "span", "tsukuyomi-ticket-filter-desktop-value hidden min-w-0 break-words text-left md:block md:whitespace-nowrap");
   trigger.append(mobile, desktop, icon(doc, "h-4 w-4 shrink-0 text-foregroundMuted", "0 0 16 16", "M4 6l4 4 4-4", "1.5"));
   const list = element(doc, "ul", "absolute z-50 mt-1 max-h-64 min-w-full overflow-auto border border-border bg-surfaceAlt py-1");
   list.id = "tsukuyomi-ticket-filter-" + name;
@@ -160,21 +162,21 @@ function createMenu(doc, { name, label, all, onChange, openMenu }) {
 function createPills(doc, label, gridClasses) {
   const fieldset = doc.createElement("fieldset");
   fieldset.append(element(doc, "legend", "mb-2 text-xs font-semibold uppercase tracking-wide text-foregroundMuted", label));
-  const grid = element(doc, "div", gridClasses);
+  const grid = element(doc, "div", "tsukuyomi-ticket-filter-choices " + gridClasses);
   fieldset.append(grid);
   return { fieldset, grid };
 }
 
-export function createTicketFilters(doc, onChange) {
+export function createTicketFilters(doc, onChange, { includePending = true } = {}) {
   const section = element(doc, "section", "tsukuyomi-ticket-filters");
   section.setAttribute("aria-label", "Filtres des pronostics");
   const toggle = button(doc, "flex min-h-[48px] w-full items-center justify-between rounded-xl border border-border bg-surface px-3.5 py-2 text-sm font-medium md:min-h-[44px] " + focusClasses);
   toggle.setAttribute("aria-expanded", "false");
   toggle.setAttribute("aria-controls", "tsukuyomi-ticket-filter-options");
-  const toggleContent = element(doc, "span", "flex items-center gap-2");
-  const badge = element(doc, "span", "rounded-full bg-primary px-2 py-0.5 text-xs font-semibold tabular-nums text-primaryForeground");
-  toggleContent.append(icon(doc, "h-4 w-4 text-primary", "0 0 20 20", "M3 5h14M6 10h8M8 15h4", "1.7"), doc.createTextNode("Filtres"), badge);
-  const toggleArrow = icon(doc, "h-4 w-4 shrink-0 text-foregroundMuted transition-transform", "0 0 16 16", "M3 6l5 5 5-5", "1.5");
+  const toggleContent = element(doc, "span", "tsukuyomi-ticket-filter-label flex items-center gap-2");
+  const badge = element(doc, "span", "tsukuyomi-ticket-filter-count rounded-full bg-primary px-2 py-0.5 text-xs font-semibold tabular-nums text-primaryForeground");
+  toggleContent.append(icon(doc, "h-4 w-4 text-primary", "0 0 20 20", filterGlyph, "1.7"), doc.createTextNode("Filtres"), badge);
+  const toggleArrow = icon(doc, "h-4 w-4 shrink-0 text-foregroundMuted transition-transform", "0 0 16 16", filterChevron, "1.5");
   toggle.append(toggleContent, toggleArrow);
   const panel = element(doc, "div", "mt-3 space-y-3 rounded-xl border border-border bg-surface p-3");
   panel.id = "tsukuyomi-ticket-filter-options";
@@ -206,7 +208,7 @@ export function createTicketFilters(doc, onChange) {
     onChange();
   }
 
-  const fields = element(doc, "div", "grid grid-cols-2 gap-2");
+  const fields = element(doc, "div", "tsukuyomi-ticket-filter-fields grid grid-cols-2 gap-2");
   const sportMenu = createMenu(doc, { name: "sport", label: "Sport", all: "Tous les sports", openMenu, onChange: (value) => setFilter("sport", value) });
   const kindMenu = createMenu(doc, { name: "kind", label: "Format", all: "Tous les formats", openMenu, onChange: (value) => setFilter("kind", value) });
   fields.append(sportMenu.wrap, kindMenu.wrap);
@@ -224,7 +226,7 @@ export function createTicketFilters(doc, onChange) {
   dateField.fieldset.append(dateMenu.wrap);
 
   const resultField = createPills(doc, "Résultat du ticket", "grid grid-cols-2 gap-2 sm:grid-cols-3");
-  const resultButtons = [...outcomes].map(([key, label]) => {
+  const resultButtons = [...outcomes].filter(([key]) => includePending || key !== "pending").map(([key, label]) => {
     const counter = element(doc, "span", "shrink-0 tabular-nums opacity-80");
     const node = button(doc, "");
     node.dataset.ticketOutcome = key;
@@ -317,5 +319,11 @@ export function createTicketFilters(doc, onChange) {
       && (!state.outcomes.size || state.outcomes.has(outcomeOf(ticket))));
   }
 
-  return { element: section, refresh, apply, isActive };
+  function destroy() {
+    doc.removeEventListener("pointerdown", closeOutsideMenu);
+    doc.removeEventListener("focusin", closeOutsideMenu);
+    section.remove();
+  }
+
+  return { element: section, refresh, apply, isActive, destroy };
 }
