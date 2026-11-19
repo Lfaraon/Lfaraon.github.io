@@ -58,10 +58,10 @@ function icon(doc, className, viewBox, line, strokeWidth) {
   return svg;
 }
 
-function createMenu(doc, { name, label, all, onChange, openMenu }) {
+export function createFilterMenu(doc, { name, label, all, onChange, openMenu, scope = "ticket" }) {
   const wrap = element(doc, "div", "tsukuyomi-ticket-filter-menu relative w-full md:w-fit");
   const trigger = button(doc, "inline-flex min-h-[58px] w-full items-center justify-between gap-2 rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground hover:bg-surfaceAlt md:min-h-0 md:w-auto md:rounded-none md:bg-surface md:py-1.5 " + focusClasses);
-  trigger.dataset.ticketFilter = name;
+  trigger.dataset[scope + "Filter"] = name;
   trigger.setAttribute("role", "combobox");
   trigger.setAttribute("aria-haspopup", "listbox");
   trigger.setAttribute("aria-expanded", "false");
@@ -71,7 +71,7 @@ function createMenu(doc, { name, label, all, onChange, openMenu }) {
   const desktop = element(doc, "span", "tsukuyomi-ticket-filter-desktop-value hidden min-w-0 break-words text-left md:block md:whitespace-nowrap");
   trigger.append(mobile, desktop, icon(doc, "h-4 w-4 shrink-0 text-foregroundMuted", "0 0 16 16", "M4 6l4 4 4-4", "1.5"));
   const list = element(doc, "ul", "absolute z-50 mt-1 max-h-64 min-w-full overflow-auto border border-border bg-surfaceAlt py-1");
-  list.id = "tsukuyomi-ticket-filter-" + name;
+  list.id = `tsukuyomi-${scope}-filter-${name}`;
   list.hidden = true;
   list.setAttribute("role", "listbox");
   list.setAttribute("aria-label", label);
@@ -132,8 +132,11 @@ function createMenu(doc, { name, label, all, onChange, openMenu }) {
   });
 
   function update(options, value) {
+    const next = [["", all], ...options];
+    if (value === selection && next.length === entries.length
+        && next.every(([key, text], index) => key === entries[index][0] && text === entries[index][1])) return;
     const activeValue = entries[active]?.[0];
-    entries = [["", all], ...options];
+    entries = next;
     selection = value;
     const labelText = entries.find(([option]) => option === value)?.[1] || all;
     mobileValue.textContent = labelText;
@@ -209,8 +212,8 @@ export function createTicketFilters(doc, onChange, { includePending = true } = {
   }
 
   const fields = element(doc, "div", "tsukuyomi-ticket-filter-fields grid grid-cols-2 gap-2");
-  const sportMenu = createMenu(doc, { name: "sport", label: "Sport", all: "Tous les sports", openMenu, onChange: (value) => setFilter("sport", value) });
-  const kindMenu = createMenu(doc, { name: "kind", label: "Format", all: "Tous les formats", openMenu, onChange: (value) => setFilter("kind", value) });
+  const sportMenu = createFilterMenu(doc, { name: "sport", label: "Sport", all: "Tous les sports", openMenu, onChange: (value) => setFilter("sport", value) });
+  const kindMenu = createFilterMenu(doc, { name: "kind", label: "Format", all: "Tous les formats", openMenu, onChange: (value) => setFilter("kind", value) });
   fields.append(sportMenu.wrap, kindMenu.wrap);
 
   const dateField = createPills(doc, "Date du ticket", "grid grid-cols-2 gap-2 sm:grid-cols-4");
@@ -221,7 +224,7 @@ export function createTicketFilters(doc, onChange, { includePending = true } = {
     dateField.grid.append(node);
     return [key, node];
   });
-  const dateMenu = createMenu(doc, { name: "date", label: "Date précise", all: "Choisir une date", openMenu, onChange: (value) => setFilter("date", value) });
+  const dateMenu = createFilterMenu(doc, { name: "date", label: "Date précise", all: "Choisir une date", openMenu, onChange: (value) => setFilter("date", value) });
   dateMenu.wrap.classList.add("mt-2");
   dateField.fieldset.append(dateMenu.wrap);
 

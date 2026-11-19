@@ -144,7 +144,7 @@ export async function startPsAutoDashboard(document = globalThis.document) {
 
   let reportRendered;
   try {
-    const bridge = await import("./bridge.js?rev=chart-grid");
+    const bridge = await import("./bridge.js?rev=calendar-filters");
     reportRendered = bridge.markDashboardRendered;
     await Promise.all(release.styles.map((href) => {
       const link = document.createElement("link");

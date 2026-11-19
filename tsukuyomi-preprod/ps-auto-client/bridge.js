@@ -1,5 +1,5 @@
 import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=ticket-style";
-import { createTicketFilters } from "./ticketFilters.js?rev=stats-auto";
+import { createTicketFilters } from "./ticketFilters.js?rev=calendar-filters";
 import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
 import { renderLedger } from "./ledger.js?rev=chart-grid";
 import { clearLedgerCharts } from "./ledgerCharts.js?rev=chart-grid";
@@ -128,7 +128,7 @@ function connectDashboard(window, nonce, destination) {
     native.before(host);
     const mount = { native, host };
     calendarMount = mount;
-    import("./calendarRuntime.js?rev=calendar-sync").then(({ mountCalendar }) => {
+    import("./calendarRuntime.js?rev=calendar-filters").then(({ mountCalendar }) => {
       if (calendarMount !== mount || !native.isConnected) return;
       mount.dispose = mountCalendar(host);
       host.hidden = false;

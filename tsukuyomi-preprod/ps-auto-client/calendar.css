@@ -26,6 +26,7 @@
 .tsu-calendar-filters { margin-block-end: 14px; }
 
 .tsu-calendar-filters summary,
+.tsu-calendar-menu button[role="combobox"],
 .tsu-public-calendar button.tsu-calendar-button {
   min-height: 44px;
   padding: 8px 14px;
@@ -39,6 +40,7 @@
 
 .tsu-calendar-filters summary:is(:hover, :focus-visible),
 .tsu-calendar-filters[open] summary,
+.tsu-calendar-menu button[role="combobox"]:is(:hover, [aria-expanded="true"]),
 .tsu-public-calendar button.tsu-calendar-button:is(:hover, [aria-pressed="true"]) {
   border-color: var(--tsukuyomi-button-active-border);
   background: var(--tsukuyomi-button-active-bg);
@@ -50,7 +52,7 @@
   outline-offset: 2px;
 }
 
-.tsu-calendar-filters summary { display: flex; align-items: center; gap: 8px; list-style: none; }
+.tsu-calendar-filters summary { display: flex; align-items: center; gap: 8px; min-height: 48px; list-style: none; }
 .tsu-calendar-filters summary::-webkit-details-marker { display: none; }
 .tsu-calendar-filters summary svg { width: 16px; height: 16px; flex: none; }
 .tsu-calendar-filter-icon { color: var(--tsukuyomi-accent); }
@@ -58,32 +60,136 @@
 .tsu-calendar-filters[open] .tsu-calendar-filter-chevron { transform: rotate(180deg); }
 
 .tsu-calendar-filter-fields {
+  position: relative;
+  z-index: 2;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr));
   gap: 10px;
-  margin-top: 6px;
-  padding: 10px;
+  margin-top: 10px;
+  padding: 12px;
   border: 1px solid var(--tsukuyomi-accent-border);
   border-radius: var(--tsukuyomi-card-radius);
   background: var(--tsukuyomi-panel);
 }
 
-.tsu-calendar-filter-fields label {
+.tsu-calendar-primary-fields,
+.tsu-calendar-date-choices {
   display: grid;
-  gap: 4px;
-  min-width: 0;
-  color: var(--tsukuyomi-muted);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
 }
 
-.tsu-calendar-filter-fields select {
+.tsu-calendar-menu { min-width: 0; }
+
+.tsu-calendar-menu .tsukuyomi-ticket-filter-menu {
+  position: relative;
+  width: 100%;
   min-width: 0;
-  min-height: 44px;
-  padding: 5px 9px;
+}
+
+.tsu-calendar-menu button[role="combobox"] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  min-width: 0;
+  min-height: 58px;
+  padding-inline: 12px;
+  text-align: start;
+}
+
+.tsu-calendar-menu .tsukuyomi-ticket-filter-value {
+  display: grid;
+  flex: 1;
+  gap: 3px;
+  min-width: 0;
+}
+
+.tsu-calendar-menu .tsukuyomi-ticket-filter-value > span {
+  display: block;
+  overflow: hidden;
+  color: inherit;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tsu-calendar-menu .tsukuyomi-ticket-filter-value > span:first-child {
+  color: var(--tsukuyomi-muted);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .035em;
+  text-transform: uppercase;
+}
+
+.tsu-calendar-menu .tsukuyomi-ticket-filter-desktop-value { display: none; }
+.tsu-calendar-menu svg { flex: none; width: 16px; height: 16px; }
+.tsu-calendar-menu [role="combobox"] > svg { color: var(--tsukuyomi-muted); }
+.tsu-calendar-menu [role="combobox"][aria-expanded="true"] > svg { transform: rotate(180deg); }
+
+.tsu-calendar-menu [role="listbox"] {
+  position: absolute;
+  z-index: 3;
+  inset-inline: 0;
+  inset-block-start: 100%;
+  max-height: 16rem;
+  margin: 4px 0 0;
+  padding: 4px 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  list-style: none;
   border: 1px solid var(--tsukuyomi-button-border);
   border-radius: var(--tsukuyomi-button-radius);
-  background: var(--tsukuyomi-button-bg);
+  background: var(--tsukuyomi-surface-raised);
+  box-shadow: 0 8px 20px rgb(0 0 0 / .4);
+}
+
+.tsu-calendar-menu [role="listbox"][hidden] { display: none; }
+
+.tsu-calendar-menu [role="option"] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 44px;
+  padding: 8px 12px;
+  overflow-wrap: anywhere;
+  white-space: normal;
   color: var(--tsukuyomi-ink);
-  font: inherit;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.tsu-calendar-menu [role="option"].bg-primary {
+  background: var(--tsukuyomi-button-active-bg);
+  color: var(--tsukuyomi-button-active-ink);
+  box-shadow: inset 2px 0 var(--tsukuyomi-button-active-border);
+}
+
+.tsu-calendar-menu [role="option"][aria-selected="true"] > svg { color: var(--tsukuyomi-accent); }
+
+.tsu-calendar-filter-fields :is(.tsu-calendar-date-filter, .tsu-calendar-status-filter) {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.tsu-calendar-filter-fields legend {
+  margin-bottom: 6px;
+  padding: 0;
+  color: var(--tsukuyomi-muted);
+  font-size: 12px;
+}
+
+.tsu-calendar-date-filter > .tsu-calendar-menu { margin-top: 8px; }
+
+.tsu-calendar-date-choices button.tsu-calendar-button {
+  min-width: 0;
+  padding-inline: 6px;
+}
+
+@media (min-width: 640px) {
+  .tsu-calendar-date-choices { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 
 .tsu-calendar-days { display: grid; gap: 14px; }
@@ -134,9 +240,6 @@
 
 .tsu-calendar-notice button { margin-top: 8px; }
 
-.tsu-calendar-reset { grid-column: 1 / -1; }
-.tsu-calendar-status-filter { grid-column: 1 / -1; min-width: 0; margin: 0; padding: 0; border: 0; }
-.tsu-calendar-status-filter legend { margin-bottom: 4px; padding: 0; color: var(--tsukuyomi-muted); }
 .tsu-calendar-status-filter > div { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 130px), 1fr)); gap: 8px; }
 .tsu-calendar-more { width: 100%; margin-top: 10px; }
 
