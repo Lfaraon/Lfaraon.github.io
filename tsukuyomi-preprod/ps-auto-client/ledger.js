@@ -1,5 +1,5 @@
 import { confirmedOutcome, formatChf, isCanonicalTicket, outcomeLabel, referenceStake, summarize, summarizeFunds } from "./ledgerAccounting.js?rev=canonical-ticket";
-import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=canonical-ticket";
+import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=chart-grid";
 
 const rate = new Intl.NumberFormat("fr-CH", { style: "percent", maximumFractionDigits: 1 });
 const formatLabels = new Map([["simple", "Simples"], ["combine", "Combinés"], ["triple", "Triplés"]]);

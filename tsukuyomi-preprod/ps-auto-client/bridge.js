@@ -1,8 +1,8 @@
 import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=ticket-style";
 import { createTicketFilters } from "./ticketFilters.js?rev=stats-auto";
 import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
-import { renderLedger } from "./ledger.js?rev=canonical-ticket";
-import { clearLedgerCharts } from "./ledgerCharts.js?rev=canonical-ticket";
+import { renderLedger } from "./ledger.js?rev=chart-grid";
+import { clearLedgerCharts } from "./ledgerCharts.js?rev=chart-grid";
 import { createScrollReveal } from "../tsukuyomi-scroll-reveal.js?rev=scroll-reveal";
 
 const tabsSelector = '[role="tablist"][aria-label="Navigation principale"] [role="tab"]';
