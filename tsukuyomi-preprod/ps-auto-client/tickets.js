@@ -275,8 +275,9 @@ function createTicketCard(doc, ticket, played, open, now = Date.now()) {
   const outcome = confirmedOutcome(ticket);
   const settled = Boolean(outcome);
   const waiting = played || isAwaitingResult(ticket, now);
+  const unpublished = ticket.withdrawn_at ? "Retiré" : "Brouillon";
   const label = settled ? outcomeLabel[outcome]
-    : canonical && !isPublished(ticket) ? "Brouillon" : waiting ? "En attente" : "Publié";
+    : canonical && !isPublished(ticket) ? unpublished : waiting ? "En attente" : "Publié";
   const badge = statusChip(doc, "tsukuyomi-ticket-status", label, settled ? outcome : null);
   header.append(heading);
   let content = card;
