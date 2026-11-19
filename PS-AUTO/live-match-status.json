@@ -1307,13 +1307,13 @@
       "sets": "6-4, 1-6, 7-6(4)"
     },
     "recCal20261118P76682272": {
-      "status": "À venir",
-      "provider": "TenisHoy + ScoreMondo — nouveau créneau du 19.11.2026",
-      "observedLive": false,
-      "sourceUrl": "https://www.tenishoy.net/partido/zolotareva-a-burillo-escorihuela-i-2026-11-19-gllkimwp",
-      "checkedAt": "2026-11-19T16:39:31.373Z",
+      "status": "En cours",
+      "provider": "Sofascore — flux interactif réellement actif",
+      "observedLive": true,
+      "sourceUrl": "https://www.sofascore.com/tennis/match/anastasia-zolotareva-irene-burillo/IzOsdQnc",
+      "checkedAt": "2026-11-19T19:42:37.101Z",
       "rescheduledKickoff": "2026-11-19T18:30:00.000Z",
-      "statusBasis": "Nouveau créneau confirmé le 19 novembre à 19h30 CET (18h30 UTC). Ancien horaire de 14h00 CET périmé; aucun début réel ni score observé."
+      "statusBasis": "19.11.2026 : contrôle interactif Sofascore via navigateur dynamique; match réellement EN COURS, premier set 4–6, deuxième set 1–0, point observé 15–0; minuterie set 2 de 17 à 18 min entre observations. Score PROVISOIRE, aucun résultat final."
     },
     "recCal20261118L90906": {
       "status": "Terminé",
