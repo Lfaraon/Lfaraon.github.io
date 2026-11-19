@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "snapshotAt": "2026-11-18T22:00:06.355Z",
+  "snapshotAt": "2026-11-19T13:52:05.705Z",
   "matches": [
     {
       "id": "rec1ybDU0vG4J8E0m",
@@ -1457,6 +1457,545 @@
       "kickoff": "2026-11-19T22:30:00.000Z",
       "snapshotStatus": "À venir",
       "competition": "Brazil - Brasileiro Serie A"
+    },
+    {
+      "id": "recCal20261120P76573128",
+      "name": "Orlando City SC – FC Cincinnati",
+      "sport": "Football",
+      "kickoff": "2026-11-20T00:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P66887162",
+      "name": "Sao Paulo – Fluminense",
+      "sport": "Football",
+      "kickoff": "2026-11-20T00:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P76573130",
+      "name": "Seattle Sounders FC – Real Salt Lake",
+      "sport": "Football",
+      "kickoff": "2026-11-20T03:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L87825",
+      "name": "Western Sydney Wanderers FC – Adelaide United FC",
+      "sport": "Football",
+      "kickoff": "2026-11-20T08:40:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90467",
+      "name": "Kashima Antlers – Shimizu S-Pulse",
+      "sport": "Football",
+      "kickoff": "2026-11-20T10:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90469",
+      "name": "Kashiwa Reysol – Jef United Ichihara Chiba",
+      "sport": "Football",
+      "kickoff": "2026-11-20T10:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90468",
+      "name": "Vissel Kobe – Mito Hollyhock",
+      "sport": "Football",
+      "kickoff": "2026-11-20T10:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P76736476",
+      "name": "Harrison C / Skupski N – Granollers M / Zeballos H",
+      "sport": "Tennis",
+      "kickoff": "2026-11-20T10:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90565",
+      "name": "Al Ittihad Kalba – Sharjah FC",
+      "sport": "Football",
+      "kickoff": "2026-11-20T12:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L91106",
+      "name": "Al Duhail SC – Qatar SC",
+      "sport": "Football",
+      "kickoff": "2026-11-20T13:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90901",
+      "name": "Al-Sadd SC – Lusail City",
+      "sport": "Football",
+      "kickoff": "2026-11-20T13:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P76736454",
+      "name": "Carlos Alcaraz – Flavio Cobolli",
+      "sport": "Tennis",
+      "kickoff": "2026-11-20T13:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P76682394",
+      "name": "McGiffin T / Osborne A – Erjavec V / Kulambayeva Z",
+      "sport": "Tennis",
+      "kickoff": "2026-11-20T15:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P76682244",
+      "name": "Rebeka Masarova – Laura Samson",
+      "sport": "Tennis",
+      "kickoff": "2026-11-20T15:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90520",
+      "name": "Shabab Al Ahli Dubai Club – Ajman Club",
+      "sport": "Football",
+      "kickoff": "2026-11-20T15:25:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L91105",
+      "name": "Al-Gharafa SC – Al-Arabi Doha",
+      "sport": "Football",
+      "kickoff": "2026-11-20T15:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L87731",
+      "name": "FC Botosani – FC Voluntari",
+      "sport": "Football",
+      "kickoff": "2026-11-20T15:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L91188",
+      "name": "Aso Chlef – USM Khenchela",
+      "sport": "Football",
+      "kickoff": "2026-11-20T16:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L91189",
+      "name": "ES Setif – US Biskra",
+      "sport": "Football",
+      "kickoff": "2026-11-20T16:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90941",
+      "name": "FC Dinamo Tbilisi – FC Torpedo Kutaisi",
+      "sport": "Football",
+      "kickoff": "2026-11-20T16:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L89509",
+      "name": "FK Septemvri Sofia – PFC Lokomotiv Plovdiv",
+      "sport": "Football",
+      "kickoff": "2026-11-20T16:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P76736472",
+      "name": "Bolelli S / Vavassori A – Krawietz K / Puetz T",
+      "sport": "Tennis",
+      "kickoff": "2026-11-20T17:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L89557",
+      "name": "GKS Piast Gliwice – Korona Kielce",
+      "sport": "Football",
+      "kickoff": "2026-11-20T17:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90391",
+      "name": "Al Ahli SC – Al Nassr",
+      "sport": "Football",
+      "kickoff": "2026-11-20T17:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72513992",
+      "name": "Arminia Bielefeld – Magdebourg",
+      "sport": "Football",
+      "kickoff": "2026-11-20T17:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72513984",
+      "name": "Darmstadt – Heidenheim",
+      "sport": "Football",
+      "kickoff": "2026-11-20T17:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L91253",
+      "name": "Union Berlin F – Bayer Leverkusen F",
+      "sport": "Football",
+      "kickoff": "2026-11-20T17:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L89487",
+      "name": "Aarhus – Lyngby BK",
+      "sport": "Football",
+      "kickoff": "2026-11-20T18:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L91580",
+      "name": "Grasshopper F – Bâle F",
+      "sport": "Football",
+      "kickoff": "2026-11-20T18:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72680302",
+      "name": "Havelse – Viktoria Köln",
+      "sport": "Football",
+      "kickoff": "2026-11-20T18:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P67015472",
+      "name": "Molde FK – Bodo/Glimt",
+      "sport": "Football",
+      "kickoff": "2026-11-20T18:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L87730",
+      "name": "Farul Constanta – FC Universitatea Cluj",
+      "sport": "Football",
+      "kickoff": "2026-11-20T18:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90338",
+      "name": "Lausanne-Ouchy – Kriens",
+      "sport": "Football",
+      "kickoff": "2026-11-20T18:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90342",
+      "name": "Rapperswil-Jona – Aarau",
+      "sport": "Football",
+      "kickoff": "2026-11-20T18:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90344",
+      "name": "Stade Nyonnais – Wil",
+      "sport": "Football",
+      "kickoff": "2026-11-20T18:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90345",
+      "name": "Xamax – Etoile Carouge",
+      "sport": "Football",
+      "kickoff": "2026-11-20T18:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72044830",
+      "name": "Almere City FC – NAC Breda",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72037452",
+      "name": "Annecy – Clermont",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90570",
+      "name": "Club NXT – Royal Excelsior Virton",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72044832",
+      "name": "De Graafschap – MVV Maastricht",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72044834",
+      "name": "FC Den Bosch – VVV Venlo",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72044836",
+      "name": "FC Volendam – Jong Ajax Amsterdam",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72037454",
+      "name": "Guingamp – Rodez",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72044838",
+      "name": "Helmond Sport – FC Dordrecht",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72044840",
+      "name": "Heracles Almelo – Jong PSV Eindhoven",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72044842",
+      "name": "Jong FC Utrecht – FC Emmen",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90569",
+      "name": "Lierse Kempenzonen – KSC Lokeren",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L91190",
+      "name": "MC Oran – JS Saoura",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72037458",
+      "name": "Metz – Boulogne",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72037460",
+      "name": "Nancy – Dijon",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72037464",
+      "name": "Red Star – Pau",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72044844",
+      "name": "TOP Oss – Roda JC Kerkrade",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72044846",
+      "name": "Vitesse Arnhem – Jong AZ Alkmaar",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90341",
+      "name": "Yverdon – Winterthur",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:15:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P76123232",
+      "name": "Andorra – Leganes",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72513310",
+      "name": "Bayern Munich – FC Cologne",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L91242",
+      "name": "CA Cerro – Club Nacional De Football",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P76736456",
+      "name": "Daniil Medvedev – Frances Tiafoe",
+      "sport": "Tennis",
+      "kickoff": "2026-11-20T19:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P73093090",
+      "name": "Hellas Vérone – Cesena",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L91239",
+      "name": "Liverpool Montevideo – Montevideo Wanderers",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L89558",
+      "name": "MKS Pogon Szczecin – WKS Slask Wroclaw",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L91241",
+      "name": "Racing Club Montevideo – Central Espanol",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:30:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90974",
+      "name": "Airbus Uk Broughton FC – Colwyn Bay",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90977",
+      "name": "Briton Ferry Llansawel – Holywell Town",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L91147",
+      "name": "Caernarfon Town FC – Connahs Quay Nomads FC",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90979",
+      "name": "Cardiff Metropolitan University FC – Ammanford",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L89496",
+      "name": "Cercle Bruges – Westerlo",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90980",
+      "name": "Flint Town United FC – Cambrian United FC",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90978",
+      "name": "Llandudno FC – Barry Town United FC",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L90976",
+      "name": "Penybont – Haverfordwest County",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L91315",
+      "name": "The New Saints FC – Trefelin FC",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L87719",
+      "name": "Troyes – Le Havre",
+      "sport": "Football",
+      "kickoff": "2026-11-20T19:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72478708",
+      "name": "Athletic Bilbao – Espanyol",
+      "sport": "Football",
+      "kickoff": "2026-11-20T20:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P72341382",
+      "name": "Barnsley FC – Sheffield Wednesday",
+      "sport": "Football",
+      "kickoff": "2026-11-20T20:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120L91559",
+      "name": "Toulouse F – Marseille F",
+      "sport": "Football",
+      "kickoff": "2026-11-20T20:00:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P76080462",
+      "name": "FC Porto – Uniao SC Paredes",
+      "sport": "Football",
+      "kickoff": "2026-11-20T20:45:00.000Z",
+      "snapshotStatus": "À venir"
+    },
+    {
+      "id": "recCal20261120P67682108",
+      "name": "Cobresal – Audax Italiano",
+      "sport": "Football",
+      "kickoff": "2026-11-20T21:00:00.000Z",
+      "snapshotStatus": "À venir"
     }
   ]
 }
