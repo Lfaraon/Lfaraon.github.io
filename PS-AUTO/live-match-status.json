@@ -1466,20 +1466,22 @@
       "score": "2-1"
     },
     "recCal20261119P66887164": {
-      "status": "En cours",
-      "provider": "FotMob — fiche dynamique Corinthians–Botafogo, événements 28e/34e",
-      "sourceUrl": "https://www.fotmob.com/pt-BR/matches/botafogo-vs-corinthians/2rz59z",
+      "status": "Terminé",
+      "provider": "UOL Esporte — compte rendu final 18.11.2026, Corinthians 4-0 Botafogo",
+      "sourceUrl": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/18/corinthians-botafogo-brasileirao-2026-35-rodada-como-foi.ghtm",
       "observedLive": true,
-      "statusBasis": "Début réel confirmé : buts à 28e et 34e et 2–0 à la pause observés sur FotMob. Score provisoire non enregistré comme score final.",
-      "checkedAt": "2026-11-19T01:39:06.000Z"
+      "statusBasis": "Résultat final prouvé par compte rendu UOL du match du 18.11.2026, score à la fin du temps réglementaire. N'est pas une clôture horaire présumée.",
+      "checkedAt": "2026-11-19T02:34:11.798Z",
+      "score": "4-0"
     },
     "recCal20261119P66887170": {
-      "status": "En cours",
-      "provider": "FotMob — fiche dynamique Grêmio–Bahia, 49e minute",
-      "sourceUrl": "https://www.fotmob.com/cs/matches/bahia-vs-gremio/2kpe0y",
+      "status": "Terminé",
+      "provider": "UOL Esporte — compte rendu final 18.11.2026, Grêmio 0-0 Bahia",
+      "sourceUrl": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/18/brasileirao-gremio-x-bahia.ghtm",
       "observedLive": true,
-      "statusBasis": "Début réel confirmé sur FotMob : chrono 49:38, événements de match, 0–0 provisoire. Aucun score final établi.",
-      "checkedAt": "2026-11-19T01:39:06.000Z"
+      "statusBasis": "Résultat final prouvé par compte rendu UOL du match du 18.11.2026, score à la fin du temps réglementaire. N'est pas une clôture horaire présumée.",
+      "checkedAt": "2026-11-19T02:34:11.798Z",
+      "score": "0-0"
     }
   }
 }
