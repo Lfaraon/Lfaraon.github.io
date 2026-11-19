@@ -1296,13 +1296,15 @@
       "sets": "7-6(7-4), 1-6, 5-10"
     },
     "recCal20261118P76682274": {
-      "status": "En cours",
-      "provider": "XScores — score vivant 19.11.2026, 3e manche en jeu",
+      "status": "Terminé",
+      "provider": "TennisTemple — résultat final, Colina 19.11.2026",
       "observedLive": true,
-      "sourceUrl": "https://www.xscores.com/tennis/match/Lucia-Bronzetti-vs-Carole-Monnet/19-11-2026/3024708",
-      "checkedAt": "2026-11-19T16:38:06.690Z",
+      "sourceUrl": "https://en.tennistemple.com/match/bronzetti-monnet-colina-2026/9570702/",
+      "checkedAt": "2026-11-19T17:43:09.654Z",
       "rescheduledKickoff": "2026-11-19T14:30:00.000Z",
-      "statusBasis": "Direct XScores, sets 1-1 (6-4, 1-6), 3e set Bronzetti–Monnet 1-2 en jeux au dernier contrôle. Score partiel, final absent."
+      "statusBasis": "Fiche détaillée TennisTemple, trois manches complètes: Bronzetti bat Monnet 6-4, 1-6, 7-6(4). Résultat final confirmé par score complet.",
+      "score": "2-1",
+      "sets": "6-4, 1-6, 7-6(4)"
     },
     "recCal20261118P76682272": {
       "status": "À venir",
@@ -1531,12 +1533,13 @@
       "sets": "7-6(10-8), 7-5"
     },
     "recCal20261119L90291": {
-      "status": "En cours",
-      "provider": "TNT Sports — suivi en direct confirmé",
+      "status": "Terminé",
+      "provider": "TNT Sports — Finished 2-1 (UAE Premier League)",
       "observedLive": true,
-      "checkedAt": "2026-11-19T16:38:06.690Z",
+      "checkedAt": "2026-11-19T17:43:09.654Z",
       "sourceUrl": "https://www.tntsports.co.uk/football/uae-premier-league/2026-2027/al-ain-al-dhafra_mtc21898423/live.shtml",
-      "statusBasis": "Direct TNT Sports, Al Ain–Al Dhafra 1-0 à la 51e min au dernier relevé. Score partiel, aucun résultat final."
+      "statusBasis": "TNT Sports fiche Al Ain–Al Dhafra 19.11.2026, Finished 2-1, buteurs Maia 44', Rahimi 55', Alkarbi 68'.",
+      "score": "2-1"
     },
     "recCal20261119L90900": {
       "status": "En cours",
@@ -1545,6 +1548,38 @@
       "checkedAt": "2026-11-19T16:38:06.690Z",
       "sourceUrl": "https://www.tntsports.co.uk/football/doha-bank-stars-league/2026-2027/al-ahli-al-shamal_mtc21915883/live.shtml",
       "statusBasis": "Direct TNT Sports, Al-Ahli Doha–Al-Shamal 0-0 à la 49e min au dernier relevé. Score partiel, aucun résultat final."
+    },
+    "recCal20261119P76682260": {
+      "status": "En cours",
+      "provider": "TennisTemple — point 15-0 observé sur fiche de match",
+      "observedLive": true,
+      "checkedAt": "2026-11-19T17:43:09.654Z",
+      "sourceUrl": "https://en.tennistemple.com/match/strakhova-erjavec-colina-2026/9570753/",
+      "statusBasis": "TennisTemple fiche dynamique du 19.11.2026, première manche 0-0 en jeux, 15-0 en points pour Strakhova. Début réel confirmé, score final absent."
+    },
+    "recCal20261119P76736494": {
+      "status": "En cours",
+      "provider": "Onlajny — direct point par point 19.11.2026",
+      "observedLive": true,
+      "checkedAt": "2026-11-19T17:43:09.654Z",
+      "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/555660",
+      "statusBasis": "Fiche Onlajny dynamique: Heliovaara/Patten–Arribage/Olivetti 5-4 dans le premier set à 18:41:32 heure suisse, points et service effectivement suivis. Score provisoire seulement."
+    },
+    "recCal20261119L91249": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-19T17:43:09.654Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Kickoff source 19.11.2026 16:45 UTC dépassé; démarrage présumé selon règle football 0 à +120 min. Aucune observation live fiable. Aucun score final."
+    },
+    "recCal20261119L91184": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-19T17:43:09.654Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Kickoff source 19.11.2026 16:45 UTC dépassé; démarrage présumé selon règle football 0 à +120 min. Aucune observation live fiable. Aucun score final."
     }
   }
 }
