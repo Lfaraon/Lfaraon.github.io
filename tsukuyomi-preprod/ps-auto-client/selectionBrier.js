@@ -1,5 +1,5 @@
-import { selectionProbability } from "./ticketForecasts.js?rev=probability-replay";
-import { selectionOutcome } from "./ledgerAccounting.js?rev=stats-auto";
+import { selectionProbability } from "./ticketForecasts.js?rev=canonical-ticket";
+import { selectionOutcome } from "./ledgerAccounting.js?rev=canonical-ticket";
 
 export function selectionBrierScores(ticket) {
   const scores = [];

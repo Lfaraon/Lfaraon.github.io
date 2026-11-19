@@ -6,6 +6,20 @@ const signedAmount = new Intl.NumberFormat("fr-CH", {
 export const referenceStake = 100;
 export const outcomeLabel = { won: "Gagné", lost: "Perdu", void: "Remboursé" };
 
+export function isCanonicalTicket(ticket) {
+  return ticket?.schema_version === "TSUKUYOMI_TICKET_V1";
+}
+
+export function ticketStake(ticket) {
+  if (!isCanonicalTicket(ticket)) return referenceStake;
+  return Number.isFinite(ticket.stake_chf) && ticket.stake_chf > 0 ? ticket.stake_chf : null;
+}
+
+export function confirmedOutcome(ticket) {
+  const outcome = ticket.settlement?.outcome;
+  return Object.hasOwn(outcomeLabel, outcome) ? outcome : null;
+}
+
 export function ticketDate(ticket) {
   return ticket.placed_at || ticket.published_at;
 }
@@ -17,8 +31,10 @@ export function selectionOutcome(ticket, leg) {
 
 export function netAmount(ticket) {
   const { outcome, payout_odds } = ticket.settlement ?? {};
-  if (outcome === "won") return referenceStake * ((payout_odds ?? ticket.odds) - 1);
-  if (outcome === "lost") return -referenceStake;
+  const stake = ticketStake(ticket);
+  if (stake === null) return null;
+  if (outcome === "won") return stake * ((payout_odds ?? ticket.odds) - 1);
+  if (outcome === "lost") return -stake;
   if (outcome === "void") return 0;
   return null;
 }
@@ -27,22 +43,31 @@ export function formatChf(value, signed = false) {
   return Number.isFinite(value) ? (signed ? signedAmount : amount).format(value) + "\u00a0CHF" : "—";
 }
 
-export function summarize(tickets) {
-  const totals = { won: 0, lost: 0, void: 0, pending: 0, net: 0, roi: null, winRate: null };
+export function summarizeFunds(tickets) {
+  const funds = { net: 0, wonStake: 0, lostStake: 0, pendingStake: 0, hasNet: false };
   for (const ticket of tickets) {
-    const outcome = ticket.settlement?.outcome;
-    const net = netAmount(ticket);
-    if (!Number.isFinite(net)) {
-      totals.pending += 1;
+    const stake = ticketStake(ticket);
+    if (stake === null) continue;
+    const outcome = confirmedOutcome(ticket);
+    if (!outcome) {
+      funds.pendingStake += stake;
       continue;
     }
-    totals[outcome] += 1;
-    totals.net += net;
+    const net = netAmount(ticket);
+    if (!Number.isFinite(net)) continue;
+    funds.net += net;
+    funds.hasNet = true;
+    if (outcome === "won") funds.wonStake += stake;
+    if (outcome === "lost") funds.lostStake += stake;
   }
-  const staked = totals.won + totals.lost;
-  if (staked) {
-    totals.roi = totals.net / (referenceStake * staked);
-    totals.winRate = totals.won / staked;
-  }
+  return funds;
+}
+
+export function summarize(tickets, funds = summarizeFunds(tickets)) {
+  const stake = funds.wonStake + funds.lostStake;
+  const totals = { won: 0, lost: 0, void: 0, pending: 0, net: funds.net, roi: stake ? funds.net / stake : null, winRate: null };
+  for (const ticket of tickets) totals[confirmedOutcome(ticket) ?? "pending"] += 1;
+  const counted = totals.won + totals.lost;
+  if (counted) totals.winRate = totals.won / counted;
   return totals;
 }

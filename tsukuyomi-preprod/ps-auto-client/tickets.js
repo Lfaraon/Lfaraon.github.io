@@ -1,5 +1,5 @@
-import { formatChf, netAmount, outcomeLabel, referenceStake, ticketDate } from "./ledgerAccounting.js?rev=chf-charts";
-import { recalculatedSelectionProbability, recalculatedTicketProbability, selectionProbability, ticketProbability } from "./ticketForecasts.js?rev=probability-replay";
+import { confirmedOutcome, formatChf, isCanonicalTicket, netAmount, outcomeLabel, ticketDate, ticketStake } from "./ledgerAccounting.js?rev=canonical-ticket";
+import { recalculatedSelectionProbability, recalculatedTicketProbability, selectionProbability, ticketProbability } from "./ticketForecasts.js?rev=canonical-ticket";
 
 const kinds = { simple: "Simple", combine: "Combiné", triple: "Triplé" };
 const hiddenPlayedTicketId = "LORO-2026-11-12-T002";
@@ -29,8 +29,12 @@ const kickoffDate = new Intl.DateTimeFormat("fr-CH", {
   timeZone: "Europe/Zurich",
 });
 
-function formatProbability(value) {
-  return value === null ? "—" : percentage.format(value) + "\u00a0%";
+export function formatExactDecimal(value) {
+  return String(value).replace(".", ",");
+}
+
+function formatProbability(value, canonical) {
+  return value === null ? "—" : (canonical ? formatExactDecimal(value) : percentage.format(value)) + "\u00a0%";
 }
 
 function element(doc, tag, className, text) {
@@ -96,6 +100,18 @@ function selectionParts(leg, sport) {
   return ["", decimalComma(pick) || "Sélection non renseignée"];
 }
 
+export function canonicalSelectionParts(leg) {
+  const market = leg.market || "";
+  const choice = leg.selection || "Sélection non renseignée";
+  const labels = [market, choice].join(" ").toLocaleLowerCase("fr");
+  const details = [market];
+  if (leg.participant && !labels.includes(leg.participant.toLocaleLowerCase("fr"))) details.push(leg.participant);
+  const line = leg.line == null ? "" : decimalComma(String(leg.line));
+  if (line && !decimalComma(labels).match(/[+−-]?\d+(?:,\d+)?/g)?.includes(line)) details.push(`Ligne ${line}`);
+  if (leg.period && !labels.includes(leg.period.toLocaleLowerCase("fr"))) details.push(leg.period);
+  return [details.filter(Boolean).join(" · "), choice];
+}
+
 function statusChip(doc, className, label, outcome) {
   const badge = element(doc, "span", className, label);
   if (outcome) badge.dataset.outcome = outcome;
@@ -103,6 +119,7 @@ function statusChip(doc, className, label, outcome) {
 }
 
 function renderLeg(doc, leg, index, ticket, played, settled) {
+  const canonical = isCanonicalTicket(ticket);
   const item = element(doc, "li", "tsukuyomi-ticket-leg");
   const content = element(doc, "div", "tsukuyomi-ticket-leg-content");
   const number = element(doc, "span", "tsukuyomi-ticket-leg-number", index + 1);
@@ -112,9 +129,12 @@ function renderLeg(doc, leg, index, ticket, played, settled) {
   fixture.append(element(doc, "span", "tsukuyomi-ticket-event", leg.event));
   const kickoff = time(doc, leg.starts_at, kickoffDate);
   if (kickoff) fixture.append(" ", kickoff);
+  if (canonical && ticket.sport === "MULTISPORT" && leg.sport) {
+    fixture.append(" ", element(doc, "span", "tsukuyomi-ticket-market", leg.sport));
+  }
   content.append(fixture);
 
-  const [market, choice] = selectionParts(leg, ticket.sport);
+  const [market, choice] = canonical ? canonicalSelectionParts(leg) : selectionParts(leg, ticket.sport);
   const selection = element(doc, "p", "tsukuyomi-ticket-selection");
   selection.append(element(doc, "span", "tsukuyomi-ticket-choice", choice));
   if (market) selection.append(" ", element(doc, "span", "tsukuyomi-ticket-market", market));
@@ -122,22 +142,28 @@ function renderLeg(doc, leg, index, ticket, played, settled) {
 
   const facts = element(doc, "div", "tsukuyomi-ticket-leg-facts");
   const measurements = [];
-  if (Number.isFinite(leg.odds)) measurements.push(["Cote", decimal.format(leg.odds)]);
+  if (Number.isFinite(leg.odds)) measurements.push(["Cote", decimal.format(leg.odds), canonical ? formatExactDecimal(leg.odds) : null]);
   const estimate = selectionProbability(ticket, leg) ?? recalculatedSelectionProbability(ticket, leg);
-  measurements.push(["Prob. estimée", formatProbability(estimate)]);
+  if (!canonical || estimate !== null) measurements.push(["Prob. estimée", formatProbability(estimate, canonical)]);
   const metrics = element(doc, "p", "tsukuyomi-ticket-measurement");
-  for (const [label, value] of measurements) {
+  for (const [label, value, exact] of measurements) {
     const pair = element(doc, "span", "", label + " ");
-    pair.append(element(doc, "strong", "", value));
+    const number = element(doc, "strong", "", value);
+    if (exact && exact !== value) {
+      number.title = exact;
+      number.setAttribute("aria-label", exact);
+    }
+    pair.append(number);
     metrics.append(pair, " ");
   }
   facts.append(metrics);
   const outcome = Object.hasOwn(selectionOutcomes, leg.outcome) ? leg.outcome : null;
   const score = typeof leg.score === "string" && leg.score.trim();
-  if (outcome || score || played || settled) {
+  const showPlaceholder = !canonical && (played || settled);
+  if (outcome || score || showPlaceholder) {
     if (outcome) item.dataset.outcome = outcome;
     const result = element(doc, "p", "tsukuyomi-ticket-leg-result");
-    if (outcome || played || settled) {
+    if (outcome || showPlaceholder) {
       const label = outcome ? selectionOutcomes[outcome] : settled ? "Non vérifiée" : "En attente";
       result.append(statusChip(doc, "tsukuyomi-ticket-leg-status", label, outcome));
     }
@@ -148,19 +174,25 @@ function renderLeg(doc, leg, index, ticket, played, settled) {
   return item;
 }
 
-function metric(doc, label, value, outcome) {
+function metric(doc, label, value, outcome, exact) {
   const item = element(doc, "div", "tsukuyomi-ticket-metric");
   if (outcome) item.dataset.outcome = outcome;
-  item.append(element(doc, "dt", "", label), element(doc, "dd", "", value));
+  const number = element(doc, "dd", "", value);
+  if (exact && exact !== value) {
+    number.title = exact;
+    number.setAttribute("aria-label", exact);
+  }
+  item.append(element(doc, "dt", "", label), number);
   return item;
 }
 
-function createTicketCard(doc, ticket, played, open) {
+function createTicketCard(doc, ticket, played, open, now = Date.now()) {
+  const canonical = isCanonicalTicket(ticket);
   const card = element(doc, "article", "tsukuyomi-ticket");
   const header = element(doc, played ? "summary" : "header", "tsukuyomi-ticket-header");
   const heading = element(doc, played ? "span" : "div", "tsukuyomi-ticket-heading");
   const sports = typeof ticket.sport === "string" ? ticket.sport.trim() : "";
-  const sport = sports ? sports[0].toLocaleUpperCase("fr") + sports.slice(1) : "";
+  const sport = sports ? sports[0].toLocaleUpperCase("fr") + (canonical ? sports.slice(1).toLocaleLowerCase("fr") : sports.slice(1)) : "";
   const title = [kinds[ticket.kind] || "Ticket", sport].filter(Boolean).join(" · ");
   const legs = Array.isArray(ticket.legs) ? ticket.legs.filter(Boolean) : [];
   const metadata = element(doc, played ? "span" : "p", "tsukuyomi-ticket-meta");
@@ -173,9 +205,10 @@ function createTicketCard(doc, ticket, played, open) {
   }
   metadata.append(selections);
   heading.append(element(doc, played ? "span" : "h3", "tsukuyomi-ticket-title", title), metadata);
-  const outcome = ticket.settlement?.outcome;
-  const settled = Object.hasOwn(outcomeLabel, outcome);
-  const label = settled ? outcomeLabel[outcome] : played ? "En attente" : "Publié";
+  const outcome = confirmedOutcome(ticket);
+  const settled = Boolean(outcome);
+  const waiting = played || (canonical && !Number.isFinite(upcomingTicketKickoff(ticket, now)));
+  const label = settled ? outcomeLabel[outcome] : waiting ? "En attente" : "Publié";
   const badge = statusChip(doc, "tsukuyomi-ticket-status", label, settled ? outcome : null);
   header.append(heading);
   let content = card;
@@ -208,18 +241,23 @@ function createTicketCard(doc, ticket, played, open) {
   if (!legs.length) legList.append(element(doc, "li", "tsukuyomi-ticket-meta", "Sélections non renseignées"));
 
   const estimate = ticketProbability(ticket) ?? recalculatedTicketProbability(ticket);
-  const probability = element(doc, "p", "tsukuyomi-ticket-probability", "Probabilité du ticket · ");
-  probability.append(element(doc, "strong", "", formatProbability(estimate)));
-  content.append(header, legList, probability);
+  content.append(header, legList);
+  if (!canonical || estimate !== null) {
+    const probability = element(doc, "p", "tsukuyomi-ticket-probability", "Probabilité du ticket · ");
+    probability.append(element(doc, "strong", "", formatProbability(estimate, canonical)));
+    content.append(probability);
+  }
 
   const metrics = element(doc, "dl", "tsukuyomi-ticket-odds");
   const odds = Number.isFinite(ticket.odds) ? decimal.format(ticket.odds) : "—";
-  metrics.append(metric(doc, "Cote totale", odds));
+  const exactOdds = canonical && Number.isFinite(ticket.odds) ? formatExactDecimal(ticket.odds) : null;
+  metrics.append(metric(doc, "Cote totale", odds, null, exactOdds));
   const payoutOdds = ticket.settlement?.payout_odds;
   if (outcome === "won" && Number.isFinite(payoutOdds) && payoutOdds >= 1 && decimal.format(payoutOdds) !== odds) {
     metrics.append(metric(doc, "Cote réglée", decimal.format(payoutOdds)));
   }
-  metrics.append(metric(doc, "Mise de référence", formatChf(referenceStake)));
+  const stake = ticketStake(ticket);
+  if (stake !== null) metrics.append(metric(doc, canonical ? "Mise" : "Mise de référence", formatChf(stake)));
   const net = netAmount(ticket);
   if (Number.isFinite(net)) metrics.append(metric(doc, net < 0 ? "Perte nette" : "Gain net", formatChf(net, true), outcome));
   card.append(metrics);
@@ -252,6 +290,11 @@ export function nextTicketKickoff(tickets, now = Date.now()) {
 export function ticketsForView(tickets, { view = "upcoming", now = Date.now() } = {}) {
   const played = view === "played";
   const ordered = tickets.filter((ticket) => {
+    if (isCanonicalTicket(ticket)) {
+      if (played) return Boolean(confirmedOutcome(ticket)) && (Boolean(ticket.placed_at) || isPublished(ticket));
+      if (!isPublished(ticket)) return false;
+      return view === "latest" || (!confirmedOutcome(ticket) && Number.isFinite(upcomingTicketKickoff(ticket, now)));
+    }
     if (played && ticket.placed_at) return ticket.id !== hiddenPlayedTicketId;
     if (!isPublished(ticket)) return false;
     if (view === "latest") return true;
@@ -303,7 +346,7 @@ function renderFeed(mount, { tickets = [], status, onRetry, filtered, now }, { v
     const shown = onViewAll ? rows.slice(0, 4) : rows;
     for (const ticket of shown) {
       const item = element(doc, "li", "tsukuyomi-ticket-item");
-      item.append(createTicketCard(doc, ticket, played, openTickets.has(ticket.id)));
+      item.append(createTicketCard(doc, ticket, played, openTickets.has(ticket.id), now));
       if (focusedTicket && focusedTicket === ticket.id) nextFocus = item.querySelector("summary");
       list.append(item);
     }

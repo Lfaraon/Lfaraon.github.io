@@ -1,6 +1,7 @@
 import { archivedForecasts } from "./archivedForecasts.js?rev=probability-display";
 import { archivedSelectionForecasts } from "./archivedSelectionForecasts.js?rev=probability-replay";
 import { recalculatedSelectionForecasts } from "./recalculatedSelectionForecasts.js?rev=probability-replay";
+import { isCanonicalTicket } from "./ledgerAccounting.js?rev=canonical-ticket";
 
 function validProbability(value) {
   return Number.isFinite(value) && value >= 0 && value <= 100 ? value : null;
@@ -32,22 +33,24 @@ function recordedSelectionProbability(ticket, leg) {
 }
 
 export function ticketProbability(ticket) {
+  if (isCanonicalTicket(ticket)) return validProbability(ticket.probability_pct);
   return validProbability(ticket.probability_pct)
     ?? validProbability(archivedTicketForecast(ticket)?.probability)
     ?? (ticket.legs?.length === 1 ? recordedSelectionProbability(ticket, ticket.legs[0]) : null);
 }
 
 export function selectionProbability(ticket, leg) {
+  if (isCanonicalTicket(ticket)) return validProbability(leg?.probability_pct);
   return recordedSelectionProbability(ticket, leg)
     ?? (ticket.legs?.length === 1 ? ticketProbability(ticket) : null);
 }
 
 export function recalculatedSelectionProbability(ticket, leg) {
-  return historicalSelectionProbability(ticket, leg, recalculatedSelectionForecasts);
+  return isCanonicalTicket(ticket) ? null : historicalSelectionProbability(ticket, leg, recalculatedSelectionForecasts);
 }
 
 export function recalculatedTicketProbability(ticket) {
-  if (!Array.isArray(ticket.legs) || !ticket.legs.length) return null;
+  if (isCanonicalTicket(ticket) || !Array.isArray(ticket.legs) || !ticket.legs.length) return null;
   if (ticket.legs.length === 1) return recalculatedSelectionProbability(ticket, ticket.legs[0]);
   const fixtures = new Set();
   const fixtureIds = new Set();

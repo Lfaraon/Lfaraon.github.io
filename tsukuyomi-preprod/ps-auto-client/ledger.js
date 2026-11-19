@@ -1,5 +1,5 @@
-import { formatChf, netAmount, outcomeLabel, referenceStake, summarize } from "./ledgerAccounting.js?rev=chf-charts";
-import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=admin-brier";
+import { confirmedOutcome, formatChf, isCanonicalTicket, outcomeLabel, referenceStake, summarize, summarizeFunds } from "./ledgerAccounting.js?rev=canonical-ticket";
+import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=canonical-ticket";
 
 const rate = new Intl.NumberFormat("fr-CH", { style: "percent", maximumFractionDigits: 1 });
 const formatLabels = new Map([["simple", "Simples"], ["combine", "Combinés"], ["triple", "Triplés"]]);
@@ -11,17 +11,20 @@ function element(doc, tag, className, text) {
   return node;
 }
 
-function ledgerMetrics(tickets, totals) {
+function ledgerMetrics(tickets, totals, funds) {
   const { won, lost, pending, net, roi, winRate } = totals;
   const counted = won + lost;
-  const losingStakes = lost * referenceStake;
-  const stakeRow = ["Mises réglées", formatChf(counted * referenceStake)];
+  const { wonStake, lostStake, pendingStake, hasNet } = funds;
+  const historical = tickets.every((ticket) => !isCanonicalTicket(ticket));
+  const stakeRow = ["Mises réglées", formatChf(historical || wonStake + lostStake ? wonStake + lostStake : null)];
+  const netLabel = formatChf(historical || hasNet ? net : null, true);
   const byFormat = new Map();
   let noResults = 0;
   let partialResults = 0;
   let allResults = 0;
   for (const ticket of tickets) {
-    if (!Number.isFinite(netAmount(ticket))) {
+    const outcome = confirmedOutcome(ticket);
+    if (!outcome) {
       const legs = ticket.legs ?? [];
       const verified = legs.filter((leg) => Object.hasOwn(outcomeLabel, leg?.outcome)).length;
       if (!verified) noResults += 1;
@@ -29,7 +32,6 @@ function ledgerMetrics(tickets, totals) {
       else allResults += 1;
       continue;
     }
-    const outcome = ticket.settlement.outcome;
     if (outcome !== "won" && outcome !== "lost") continue;
     const label = formatLabels.get(ticket.kind) ?? "Autres formats";
     if (!byFormat.has(label)) byFormat.set(label, { won: 0, counted: 0 });
@@ -46,31 +48,31 @@ function ledgerMetrics(tickets, totals) {
     ["Résultats partiels", partialResults],
     ["Toutes les sélections réglées", allResults],
   ].filter(([, count]) => count > 0);
-  pendingRows.push(["Mises en attente", formatChf(pending * referenceStake)]);
+  if (historical || pendingStake) pendingRows.push(["Mises en attente", formatChf(pendingStake)]);
 
-  const roiRows = [["Bilan net", formatChf(net, true)], stakeRow];
-  if (roi != null) roiRows.push([`Pour ${referenceStake} CHF misés`, formatChf(roi * referenceStake, true)]);
+  const roiRows = [["Bilan net", netLabel], stakeRow];
+  if (historical && roi != null) roiRows.push([`Pour ${referenceStake} CHF misés`, formatChf(roi * referenceStake, true)]);
 
   return [
-    ["net", "Bilan net", formatChf(net, true), [
-      ["Gains nets des tickets gagnés", formatChf(net + losingStakes, true)],
-      ["Mises perdues", formatChf(-losingStakes, true)],
-    ]],
+    ["net", "Bilan net", netLabel, historical || hasNet ? [
+      ["Gains nets des tickets gagnés", formatChf(net + lostStake, true)],
+      ["Mises perdues", formatChf(-lostStake, true)],
+    ] : []],
     ["roi", "ROI", roi == null ? "—" : rate.format(roi), roiRows],
     ["won", "Tickets gagnés", won + " / " + counted, winRows],
     ["win-rate", "Taux de réussite", winRate == null ? "—" : rate.format(winRate), [
       ["Tickets gagnés", won], ["Tickets gagnés ou perdus", counted],
     ]],
     ["stake", "Mises réglées", stakeRow[1], [
-      ["Mise par ticket", formatChf(referenceStake)],
-      ["Sur les tickets gagnés", formatChf(won * referenceStake)],
-      ["Sur les tickets perdus", formatChf(losingStakes)],
+      ...(historical ? [["Mise par ticket", formatChf(referenceStake)]] : []),
+      ...(historical || wonStake ? [["Sur les tickets gagnés", formatChf(wonStake)]] : []),
+      ...(historical || lostStake ? [["Sur les tickets perdus", formatChf(lostStake)]] : []),
     ]],
     ["pending", "Tickets en attente", pending, pendingRows],
   ];
 }
 
-function addMetrics(section, tickets, totals) {
+function addMetrics(section, tickets, totals, funds) {
   const doc = section.ownerDocument;
   const openMetrics = new Set(Array.from(section.querySelectorAll(".tsukuyomi-ledger-details[open]"),
     (details) => details.dataset.metric));
@@ -79,7 +81,7 @@ function addMetrics(section, tickets, totals) {
     ? active.parentElement.dataset.metric : null;
   let nextFocus;
   const grid = element(doc, "dl", "tsukuyomi-ledger-metrics");
-  for (const [id, label, value, rows] of ledgerMetrics(tickets, totals)) {
+  for (const [id, label, value, rows] of ledgerMetrics(tickets, totals, funds)) {
     const card = element(doc, "div", "");
     const detailValue = element(doc, "dd", "tsukuyomi-ledger-detail-value");
     const details = element(doc, "details", "tsukuyomi-ledger-details");
@@ -134,8 +136,9 @@ export function renderLedger(section, { status, tickets, onRetry }, detail = fal
     return;
   }
 
-  const totals = summarize(tickets);
-  const { grid, nextFocus } = addMetrics(section, tickets, totals);
+  const funds = summarizeFunds(tickets);
+  const totals = summarize(tickets, funds);
+  const { grid, nextFocus } = addMetrics(section, tickets, totals, funds);
   replaceLedgerContent(heading, grid);
   nextFocus?.focus({ preventScroll: true });
   if (detail) renderLedgerCharts(section, tickets, totals);

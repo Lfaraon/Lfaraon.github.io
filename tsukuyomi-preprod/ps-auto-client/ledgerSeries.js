@@ -1,6 +1,6 @@
-import { referenceStake, selectionOutcome, summarize, ticketDate } from "./ledgerAccounting.js?rev=stats-auto";
-import { archivedTicketForecast, ticketProbability } from "./ticketForecasts.js?rev=probability-replay";
-import { selectionBrierScores } from "./selectionBrier.js?rev=probability-replay";
+import { selectionOutcome, summarize, summarizeFunds, ticketDate } from "./ledgerAccounting.js?rev=canonical-ticket";
+import { archivedTicketForecast, ticketProbability } from "./ticketForecasts.js?rev=canonical-ticket";
+import { selectionBrierScores } from "./selectionBrier.js?rev=canonical-ticket";
 
 const swissCalendar = new Intl.DateTimeFormat("fr-CH", {
   year: "numeric",
@@ -84,15 +84,17 @@ export function buildLedgerSeries(tickets, { includeBrier = true } = {}) {
   let net = 0;
   let won = 0;
   let lost = 0;
+  let stake = 0;
   const timeline = [];
   const brier = [];
   for (const day of [...days.keys()].sort()) {
     const dailyTickets = days.get(day);
-    const daily = summarize(dailyTickets);
+    const funds = summarizeFunds(dailyTickets);
+    const daily = summarize(dailyTickets, funds);
     net += daily.net;
     won += daily.won;
     lost += daily.lost;
-    const stake = referenceStake * (won + lost);
+    stake += funds.wonStake + funds.lostStake;
     timeline.push({
       day, net, won, lost, roi: stake ? net / stake : null,
       dayWon: daily.won, dayLost: daily.lost, dayVoid: daily.void,
