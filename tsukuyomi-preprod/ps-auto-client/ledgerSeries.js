@@ -1,5 +1,5 @@
 import { selectionOutcome, summarize, summarizeFunds, ticketDate } from "./ledgerAccounting.js?rev=canonical-ticket";
-import { archivedTicketForecast, ticketProbability } from "./ticketForecasts.js?rev=canonical-ticket";
+import { archivedTicketForecast, ticketProbability } from "./ticketForecasts.js?rev=brier-runner-history";
 import { selectionBrierScores } from "./selectionBrier.js?rev=canonical-ticket";
 
 const swissCalendar = new Intl.DateTimeFormat("fr-CH", {

@@ -1,4 +1,4 @@
-import { archivedForecasts } from "./archivedForecasts.js?rev=probability-display";
+import { archivedForecasts } from "./archivedForecasts.js?rev=brier-runner-history";
 import { archivedSelectionForecasts } from "./archivedSelectionForecasts.js?rev=probability-replay";
 import { recalculatedSelectionForecasts } from "./recalculatedSelectionForecasts.js?rev=probability-replay";
 import { isCanonicalTicket } from "./ledgerAccounting.js?rev=canonical-ticket";
