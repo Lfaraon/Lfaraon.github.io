@@ -1506,6 +1506,22 @@
       "observedLive": false,
       "checkedAt": "2026-11-19T12:35:36.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261119L90245": {
+      "status": "En cours",
+      "provider": "TNT Sports — fiche Al-Wasl vs Hatta, live confirmé (1–0 à 30', score provisoire)",
+      "statusBasis": "En cours confirmé par fiche live TNT Sports du 19.11.2026 montrant 30e minute, 1–0 ; règle horaire PS-AUTO applicable dès 12:45 UTC. Aucun score final établi.",
+      "observedLive": true,
+      "checkedAt": "2026-11-19T13:36:05.321Z",
+      "sourceUrl": "https://www.tntsports.co.uk/football/uae-premier-league/2026-2027/al-wasl-hatta_mtc21898331/live.shtml"
+    },
+    "recCal20261119P76736432": {
+      "status": "En cours",
+      "provider": "Onlajny — suivi point par point Shelton–Jódar (ATP Finals Turin, 19.11.2026)",
+      "statusBasis": "Début réel confirmé par fiche Onlajny avec premier set 1–0 en jeux pour Shelton, score du jeu 30–30 à 14:18 (CET), commentaire de service actuel. Score et sets non finaux.",
+      "observedLive": true,
+      "checkedAt": "2026-11-19T13:36:05.321Z",
+      "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/555639"
     }
   }
 }
