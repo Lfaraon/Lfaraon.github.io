@@ -1297,12 +1297,12 @@
     },
     "recCal20261118P76682274": {
       "status": "En cours",
-      "provider": "XScores — fiche dynamique de match Colina 19.11.2026, début réel (2e set 0-0, premier 6-4)",
+      "provider": "XScores — score vivant 19.11.2026, 3e manche en jeu",
       "observedLive": true,
       "sourceUrl": "https://www.xscores.com/tennis/match/Lucia-Bronzetti-vs-Carole-Monnet/19-11-2026/3024708",
-      "checkedAt": "2026-11-19T15:36:29.907Z",
-      "rescheduledKickoff": "2026-11-19T13:00:00.000Z",
-      "statusBasis": "Direct observé : 2e set en cours sur fiche XScores (1er set Bronzetti 6-4), score provisoire non final."
+      "checkedAt": "2026-11-19T16:38:06.690Z",
+      "rescheduledKickoff": "2026-11-19T14:30:00.000Z",
+      "statusBasis": "Direct XScores, sets 1-1 (6-4, 1-6), 3e set Bronzetti–Monnet 1-2 en jeux au dernier contrôle. Score partiel, final absent."
     },
     "recCal20261118P76682272": {
       "status": "Reporté",
@@ -1531,17 +1531,19 @@
     },
     "recCal20261119L90291": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-19T15:33:03.127Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "TNT Sports — suivi en direct confirmé",
+      "observedLive": true,
+      "checkedAt": "2026-11-19T16:38:06.690Z",
+      "sourceUrl": "https://www.tntsports.co.uk/football/uae-premier-league/2026-2027/al-ain-al-dhafra_mtc21898423/live.shtml",
+      "statusBasis": "Direct TNT Sports, Al Ain–Al Dhafra 1-0 à la 51e min au dernier relevé. Score partiel, aucun résultat final."
     },
     "recCal20261119L90900": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-19T15:33:03.127Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "TNT Sports — suivi en direct confirmé",
+      "observedLive": true,
+      "checkedAt": "2026-11-19T16:38:06.690Z",
+      "sourceUrl": "https://www.tntsports.co.uk/football/doha-bank-stars-league/2026-2027/al-ahli-al-shamal_mtc21915883/live.shtml",
+      "statusBasis": "Direct TNT Sports, Al-Ahli Doha–Al-Shamal 0-0 à la 49e min au dernier relevé. Score partiel, aucun résultat final."
     }
   }
 }
