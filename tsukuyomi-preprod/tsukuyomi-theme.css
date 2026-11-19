@@ -33,12 +33,15 @@
   --tsukuyomi-button-active-ink: var(--tsukuyomi-accent);
   --tsukuyomi-button-radius: var(--tsukuyomi-control-radius);
   --tsukuyomi-button-weight: 600;
-  --tsukuyomi-hero-panel:
-    linear-gradient(90deg, var(--tsukuyomi-bg) 4%, color-mix(in srgb, var(--tsukuyomi-bg) 72%, transparent) 42%, transparent 84%),
-    repeating-linear-gradient(90deg, transparent 0 43px, color-mix(in srgb, var(--tsukuyomi-border) 36%, transparent) 43px 44px),
-    repeating-linear-gradient(0deg, transparent 0 43px, color-mix(in srgb, var(--tsukuyomi-border) 36%, transparent) 43px 44px),
+  --tsukuyomi-hero-scrim: linear-gradient(90deg, var(--tsukuyomi-bg) 4%, color-mix(in srgb, var(--tsukuyomi-bg) 72%, transparent) 42%, transparent 84%);
+  --tsukuyomi-hero-light:
     radial-gradient(ellipse at 82% 12%, color-mix(in srgb, var(--tsukuyomi-accent) 15%, var(--tsukuyomi-bg)), transparent 68%),
     linear-gradient(145deg, var(--tsukuyomi-bg), var(--tsukuyomi-surface));
+  --tsukuyomi-hero-panel:
+    var(--tsukuyomi-hero-scrim),
+    repeating-linear-gradient(90deg, transparent 0 43px, color-mix(in srgb, var(--tsukuyomi-border) 36%, transparent) 43px 44px),
+    repeating-linear-gradient(0deg, transparent 0 43px, color-mix(in srgb, var(--tsukuyomi-border) 36%, transparent) 43px 44px),
+    var(--tsukuyomi-hero-light);
 }
 
 @media (max-width: 670px) {

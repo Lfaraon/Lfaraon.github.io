@@ -45,7 +45,7 @@ body {
   padding: clamp(16px, 2.25vw, 32px);
   border: 1px solid var(--tsukuyomi-border);
   border-radius: var(--tsukuyomi-radius);
-  background: var(--tsukuyomi-hero-panel);
+  background: var(--tsukuyomi-hero-scrim), var(--tsukuyomi-hero-light);
 }
 
 #root > div > header.psa-app-header .psa-app-header-title {
