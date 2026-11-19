@@ -1488,6 +1488,15 @@
       "statusBasis": "Résultat final prouvé par compte rendu UOL du match du 18.11.2026, score à la fin du temps réglementaire. N'est pas une clôture horaire présumée.",
       "checkedAt": "2026-11-19T02:34:11.798Z",
       "score": "0-0"
+    },
+    "recCal20261119P76736486": {
+      "status": "En cours",
+      "provider": "Onlajny — début réel annoncé en direct à 11:41:10 (Zurich), Arévalo au service; aucun jeu/point vérifié à l'observation",
+      "statusBasis": "début réel confirmé par commentaire sportif dynamique horodaté",
+      "checkedAt": "2026-11-19T10:42:38.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.onlajny.com/match/index/date/2026-11-19/id/555657",
+      "reversed": false
     }
   }
 }
