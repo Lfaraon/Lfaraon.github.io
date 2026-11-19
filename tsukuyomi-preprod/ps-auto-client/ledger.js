@@ -1,5 +1,5 @@
-import { confirmedOutcome, formatChf, isCanonicalTicket, outcomeLabel, referenceStake, summarize, summarizeFunds } from "./ledgerAccounting.js?rev=block-b";
-import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=block-b";
+import { confirmedOutcome, formatChf, isCanonicalTicket, outcomeLabel, referenceStake, summarize, summarizeFunds, ticketStake } from "./ledgerAccounting.js?rev=reference-stake";
+import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=reference-stake";
 
 const rate = new Intl.NumberFormat("fr-CH", { style: "percent", maximumFractionDigits: 1 });
 const formatLabels = new Map([["simple", "Simples"], ["combine", "Combinés"], ["triple", "Triplés"]]);
@@ -16,6 +16,7 @@ function ledgerMetrics(tickets, totals, funds) {
   const counted = won + lost;
   const { wonStake, lostStake, pendingStake, hasNet } = funds;
   const historical = tickets.every((ticket) => !isCanonicalTicket(ticket));
+  const standardStakeOnly = tickets.every((ticket) => ticketStake(ticket) === referenceStake);
   const stakeRow = ["Mises réglées", formatChf(historical || wonStake + lostStake ? wonStake + lostStake : null)];
   const netLabel = formatChf(historical || hasNet ? net : null, true);
   const byFormat = new Map();
@@ -51,7 +52,7 @@ function ledgerMetrics(tickets, totals, funds) {
   if (historical || pendingStake) pendingRows.push(["Mises en attente", formatChf(pendingStake)]);
 
   const roiRows = [["Bilan net", netLabel], stakeRow];
-  if (historical && roi != null) roiRows.push([`Pour ${referenceStake} CHF misés`, formatChf(roi * referenceStake, true)]);
+  if (standardStakeOnly && roi != null) roiRows.push([`Pour ${referenceStake} CHF misés`, formatChf(roi * referenceStake, true)]);
 
   return [
     ["net", "Bilan net", netLabel, historical || hasNet ? [
@@ -64,7 +65,7 @@ function ledgerMetrics(tickets, totals, funds) {
       ["Tickets gagnés", won], ["Tickets gagnés ou perdus", counted],
     ]],
     ["stake", "Mises réglées", stakeRow[1], [
-      ...(historical ? [["Mise par ticket", formatChf(referenceStake)]] : []),
+      ...(standardStakeOnly ? [["Mise par ticket", formatChf(referenceStake)]] : []),
       ...(historical || wonStake ? [["Sur les tickets gagnés", formatChf(wonStake)]] : []),
       ...(historical || lostStake ? [["Sur les tickets perdus", formatChf(lostStake)]] : []),
     ]],

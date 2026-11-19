@@ -1,8 +1,8 @@
-import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=block-b";
+import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=reference-stake";
 import { createTicketFilters } from "./ticketFilters.js?rev=calendar-filter-focus";
 import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
-import { renderLedger } from "./ledger.js?rev=block-b";
-import { clearLedgerCharts } from "./ledgerCharts.js?rev=block-b";
+import { renderLedger } from "./ledger.js?rev=reference-stake";
+import { clearLedgerCharts } from "./ledgerCharts.js?rev=reference-stake";
 import { createScrollReveal } from "../tsukuyomi-scroll-reveal.js?rev=scroll-reveal";
 
 const tabsSelector = '[role="tablist"][aria-label="Navigation principale"] [role="tab"]';

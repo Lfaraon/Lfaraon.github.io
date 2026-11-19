@@ -11,8 +11,8 @@ export function isCanonicalTicket(ticket) {
 }
 
 export function ticketStake(ticket) {
-  if (!isCanonicalTicket(ticket)) return referenceStake;
-  return Number.isFinite(ticket.stake_chf) && ticket.stake_chf > 0 ? ticket.stake_chf : null;
+  const declared = ticket?.settlement?.reference_stake_chf;
+  return Number.isFinite(declared) && declared > 0 ? declared : referenceStake;
 }
 
 export function confirmedOutcome(ticket) {
@@ -37,10 +37,9 @@ export function hasRefundedLeg(ticket) {
 export function netAmount(ticket) {
   const { outcome, payout_odds } = ticket.settlement ?? {};
   const stake = ticketStake(ticket);
-  if (stake === null) return null;
   if (outcome === "won") {
     const effectiveOdds = payout_odds ?? (hasRefundedLeg(ticket) ? null : ticket.odds);
-    return Number.isFinite(effectiveOdds) ? stake * (effectiveOdds - 1) : null;
+    return Number.isFinite(effectiveOdds) && effectiveOdds >= 1 ? stake * (effectiveOdds - 1) : null;
   }
   if (outcome === "lost") return -stake;
   if (outcome === "void") return 0;
@@ -55,7 +54,6 @@ export function summarizeFunds(tickets) {
   const funds = { net: 0, wonStake: 0, lostStake: 0, pendingStake: 0, hasNet: false };
   for (const ticket of tickets) {
     const stake = ticketStake(ticket);
-    if (stake === null) continue;
     const outcome = confirmedOutcome(ticket);
     if (!outcome) {
       funds.pendingStake += stake;

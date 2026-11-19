@@ -1,4 +1,4 @@
-import { hasRefundedLeg, selectionOutcome, summarize, summarizeFunds, ticketDate } from "./ledgerAccounting.js?rev=block-b";
+import { hasRefundedLeg, selectionOutcome, summarize, summarizeFunds, ticketDate } from "./ledgerAccounting.js?rev=reference-stake";
 import { archivedTicketForecast, ticketProbability } from "./ticketForecasts.js?rev=brier-runner-history";
 import { selectionBrierScores } from "./selectionBrier.js?rev=canonical-ticket";
 

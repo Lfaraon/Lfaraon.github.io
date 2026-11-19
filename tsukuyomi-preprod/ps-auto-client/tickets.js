@@ -1,4 +1,4 @@
-import { confirmedOutcome, formatChf, isCanonicalTicket, netAmount, outcomeLabel, ticketDate, ticketStake } from "./ledgerAccounting.js?rev=block-b";
+import { confirmedOutcome, formatChf, isCanonicalTicket, netAmount, outcomeLabel, ticketDate, ticketStake } from "./ledgerAccounting.js?rev=reference-stake";
 import { recalculatedSelectionProbability, recalculatedTicketProbability, selectionProbability, ticketProbability } from "./ticketForecasts.js?rev=canonical-ticket";
 
 const kinds = { simple: "Simple", combine: "Combiné", triple: "Triplé" };
@@ -252,7 +252,7 @@ function metric(doc, label, value, outcome, exact) {
   return item;
 }
 
-function createTicketCard(doc, ticket, played, open, now = Date.now()) {
+function createTicketCard(doc, ticket, played, open, now = Date.now(), showImportedStake = false) {
   const canonical = isCanonicalTicket(ticket);
   const collapsible = played || (canonical && isPublished(ticket));
   const card = element(doc, "article", "tsukuyomi-ticket");
@@ -332,7 +332,11 @@ function createTicketCard(doc, ticket, played, open, now = Date.now()) {
     metrics.append(metric(doc, "Cote réglée", decimal.format(payoutOdds)));
   }
   const stake = ticketStake(ticket);
-  if (stake !== null) metrics.append(metric(doc, canonical ? "Mise" : "Mise de référence", formatChf(stake)));
+  metrics.append(metric(doc, "Mise de référence", formatChf(stake)));
+  if (showImportedStake && canonical && !isPublished(ticket) && !ticket.withdrawn_at && !settled
+      && Number.isFinite(ticket.stake_chf) && ticket.stake_chf > 0 && ticket.stake_chf !== stake) {
+    metrics.append(metric(doc, "Mise transmise", formatChf(ticket.stake_chf)));
+  }
   const net = netAmount(ticket);
   if (Number.isFinite(net)) metrics.append(metric(doc, net < 0 ? "Perte nette" : "Gain net", formatChf(net, true), outcome));
   card.append(metrics);
@@ -469,7 +473,7 @@ export function renderFeaturedTicket(mount, ticket) {
 }
 
 export function renderPublicationTicket(mount, ticket) {
-  mount.replaceChildren(createTicketCard(mount.ownerDocument, ticket, false, true));
+  mount.replaceChildren(createTicketCard(mount.ownerDocument, ticket, false, true, Date.now(), true));
 }
 
 export function renderLatestTickets(mount, { tickets, status, onRetry, onViewAll }) {
