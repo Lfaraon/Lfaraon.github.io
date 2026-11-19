@@ -90,7 +90,12 @@ export function createFilterMenu(doc, { name, label, all, onChange, openMenu, sc
     if (!option) return;
     option.className = optionClass + "bg-primary text-primaryForeground";
     if (!list.hidden) trigger.setAttribute("aria-activedescendant", option.id);
-    if (scroll) option.scrollIntoView?.({ block: "nearest" });
+    if (scroll && list.clientHeight) {
+      const top = option.offsetTop;
+      const bottom = top + option.offsetHeight;
+      if (top < list.scrollTop) list.scrollTop = top;
+      else if (bottom > list.scrollTop + list.clientHeight) list.scrollTop = bottom - list.clientHeight;
+    }
   }
 
   function close() {
@@ -103,7 +108,7 @@ export function createFilterMenu(doc, { name, label, all, onChange, openMenu, sc
     openMenu(menu);
     list.hidden = false;
     trigger.setAttribute("aria-expanded", "true");
-    activate(entries.findIndex(([value]) => value === selection));
+    activate(entries.findIndex(([value]) => value === selection), true);
   }
 
   function choose(index) {
