@@ -2138,11 +2138,12 @@
     },
     "recCal20261120L91190": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "ScoreMondo — fiche de match finale Fine (YSScores concordant)",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T21:34:45.000Z",
-      "statusBasis": "Fin présumée à +120 min du coup d’envoi publié ; aucun résultat final confirmé."
+      "sourceUrl": "https://scoremondo.com/it/partita/mc-oran-js-saoura-31602796",
+      "checkedAt": "2026-11-20T21:46:20.000Z",
+      "statusBasis": "Résultat final prouvé par la fiche détaillée marquée End/Fin/Final du 20 novembre 2026; non déduit de l'horaire.",
+      "score": "3-1"
     },
     "recCal20261120P72037458": {
       "status": "Terminé",
@@ -2218,11 +2219,12 @@
     },
     "recCal20261120L91242": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Sportytrader — fiche de match finale End",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T21:34:45.000Z",
-      "statusBasis": "Fin présumée à +120 min du coup d’envoi publié ; aucun résultat final confirmé."
+      "sourceUrl": "https://www.sportytrader.com/en/results-live/ca-cerro-nacional-montevideo-9014554/",
+      "checkedAt": "2026-11-20T21:46:20.000Z",
+      "statusBasis": "Résultat final prouvé par la fiche détaillée marquée End/Fin/Final du 20 novembre 2026; non déduit de l'horaire.",
+      "score": "2-0"
     },
     "recCal20261120P73093090": {
       "status": "Terminé",
@@ -2244,19 +2246,21 @@
     },
     "recCal20261120L89558": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "ScoreMondo — fiche de match finale Fine",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T21:34:45.000Z",
-      "statusBasis": "Fin présumée à +120 min du coup d’envoi publié ; aucun résultat final confirmé."
+      "sourceUrl": "https://scoremondo.com/it/partita/pogon-szczecin-slask-wroclaw-31474489",
+      "checkedAt": "2026-11-20T21:46:20.000Z",
+      "statusBasis": "Résultat final prouvé par la fiche détaillée marquée End/Fin/Final du 20 novembre 2026; non déduit de l'horaire.",
+      "score": "1-2"
     },
     "recCal20261120L91241": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "ScoreMondo — fiche de match finale Final",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T21:34:45.000Z",
-      "statusBasis": "Fin présumée à +120 min du coup d’envoi publié ; aucun résultat final confirmé."
+      "sourceUrl": "https://scoremondo.com/es/partido/racing-club-montevideo-central-espanol-fc-31588819",
+      "checkedAt": "2026-11-20T21:46:20.000Z",
+      "statusBasis": "Résultat final prouvé par la fiche détaillée marquée End/Fin/Final du 20 novembre 2026; non déduit de l'horaire.",
+      "score": "1-0"
     },
     "recCal20261120L90974": {
       "status": "En cours",
