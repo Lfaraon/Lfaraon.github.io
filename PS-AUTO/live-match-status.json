@@ -1880,14 +1880,14 @@
       "score": "0-0"
     },
     "recCal20261120P76682394": {
-      "status": "À venir",
-      "provider": "Tennisora (nouveau créneau 18:30 UTC) ; Tennis.com dynamique (Upcoming, aucun jeu/point)",
-      "checkedAt": "2026-11-20T16:48:53.707Z",
-      "observedLive": false,
+      "status": "En cours",
+      "provider": "Tennis.com — fiche dynamique avec jeu et points réellement observés",
+      "checkedAt": "2026-11-20T18:42:53.207Z",
+      "observedLive": true,
       "reversed": false,
-      "sourceUrl": "https://www.tennisora.com/matches/12181366-20261120-111550-89767",
+      "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/mcgiffin-t-osborne-a-vs-erjavec-v-kulambayeva-z-2026-11-20",
       "scheduledKickoff": "2026-11-20T18:30:00.000Z",
-      "statusBasis": "Début non observé : fiche Tennis.com du 20.11.2026 ouverte dans navigateur dynamique, toujours UPCOMING sans jeux/points. Nouvel horaire 18:30 UTC (19:30 suisse) confirmé par Tennisora et Betfair ; ancien 15:00 UTC du snapshot périmé. Ne pas déclencher seuils +4h/+5h depuis horaire initial."
+      "statusBasis": "Début RÉEL confirmé sur fiche interactive Tennis.com du 20.11.2026 via navigateur dynamique : LIVE, 1er set 0-0 jeux, points 15-15, service McGiffin/Osborne ; aucune manche achevée. Ne pas enregistrer de score final."
     },
     "recCal20261120P76682244": {
       "status": "À venir",
