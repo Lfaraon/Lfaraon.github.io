@@ -1892,14 +1892,14 @@
       "sets": "6-7(7-9), 6-3, 4-10"
     },
     "recCal20261120P76682244": {
-      "status": "À venir",
-      "provider": "Sofascore — nouveau créneau annoncé ; absence de suivi live confirmé",
-      "checkedAt": "2026-11-20T22:40:45.356Z",
-      "observedLive": false,
+      "status": "En cours",
+      "provider": "Tennis.com — fiche dynamique, jeux et points observés en direct",
+      "checkedAt": "2026-11-20T23:41:38.073Z",
+      "observedLive": true,
       "reversed": false,
-      "sourceUrl": "https://www.sofascore.com/tennis/match/laura-samson-rebeka-masarova/eWZsNDQd",
+      "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/r-masarova-vs-l-samson-2026-11-20",
       "scheduledKickoff": "2026-11-20T22:40:00.000Z",
-      "statusBasis": "Nouvel horaire annoncé à 22:40 UTC (23:40 Suisse) par Sofascore ; Tennis.com consulté en navigateur dynamique affiche Upcoming, aucun jeu ni point visible."
+      "statusBasis": "Début réel observé sur fiche Tennis.com : 1er set, 0-0 jeu, Masarova sert à 40-0 ; score provisoire, pas de résultat final."
     },
     "recCal20261120P76736472": {
       "status": "Terminé",
