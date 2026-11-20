@@ -1748,24 +1748,24 @@
     },
     "recCal20261120L90467": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-20T10:42:00.988Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "J.LEAGUE officiel — LIVE, 2e mi-temps (~15e) ; 0-0 provisoire, score final non vérifié",
+      "observedLive": true,
+      "checkedAt": "2026-11-20T11:41:13.974Z",
+      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112002/"
     },
     "recCal20261120L90469": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-20T10:42:00.988Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "J.LEAGUE officiel — LIVE, 2e mi-temps (~7e) ; 0-0 provisoire, score final non vérifié",
+      "observedLive": true,
+      "checkedAt": "2026-11-20T11:41:13.974Z",
+      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112001/"
     },
     "recCal20261120L90468": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-20T10:42:00.988Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "J.LEAGUE officiel — LIVE, 2e mi-temps (~12e) ; 1-1 provisoire, score final non vérifié",
+      "observedLive": true,
+      "checkedAt": "2026-11-20T11:41:13.974Z",
+      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112003/"
     },
     "recCal20261120P76736476": {
       "status": "En cours",
