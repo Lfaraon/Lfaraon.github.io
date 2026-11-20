@@ -2282,43 +2282,48 @@
     },
     "recCal20261120L91147": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Reddit Soccer Scoreboard — Full-time, Cymru Premier",
       "observedLive": false,
-      "checkedAt": "2026-11-20T22:39:38.919Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Clôture football présumée à +120 minutes du coup d'envoi, score final non vérifié."
+      "checkedAt": "2026-11-20T22:40:18.665Z",
+      "sourceUrl": "https://www.reddit.com/r/cymruleagues/comments/1y1be2t/match_thread_caernarfon_town_fc_vs_connahs_quay/",
+      "statusBasis": "Résultat final confirmé, score dans l’ordre domicile–extérieur.",
+      "score": "1-0"
     },
     "recCal20261120L90979": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Reddit Soccer Scoreboard — Full-time, Cymru Premier",
       "observedLive": false,
-      "checkedAt": "2026-11-20T22:39:38.919Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Clôture football présumée à +120 minutes du coup d'envoi, score final non vérifié."
+      "checkedAt": "2026-11-20T22:40:18.665Z",
+      "sourceUrl": "https://www.reddit.com/r/cymruleagues/comments/1y1be2q/match_thread_cardiff_metropolitan_university_fc/",
+      "statusBasis": "Résultat final confirmé, score dans l’ordre domicile–extérieur.",
+      "score": "4-2"
     },
     "recCal20261120L89496": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "VoetbalNieuws — compte rendu final Jupiler Pro League 20/11/2026",
       "observedLive": false,
-      "checkedAt": "2026-11-20T22:39:38.919Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Clôture football présumée à +120 minutes du coup d'envoi, score final non vérifié."
+      "checkedAt": "2026-11-20T22:40:18.665Z",
+      "sourceUrl": "https://www.voetbalnieuws.be/news/936156/cercle-brugge-boekt-knappe-zege-kompany-baalt-enorm",
+      "statusBasis": "Résultat final confirmé, score dans l’ordre domicile–extérieur.",
+      "score": "1-0"
     },
     "recCal20261120L90980": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Reddit Soccer Scoreboard — Full-time, Cymru Premier",
       "observedLive": false,
-      "checkedAt": "2026-11-20T22:39:38.919Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Clôture football présumée à +120 minutes du coup d'envoi, score final non vérifié."
+      "checkedAt": "2026-11-20T22:40:18.665Z",
+      "sourceUrl": "https://www.reddit.com/r/cymruleagues/comments/1y1be2o/match_thread_flint_town_united_vs_cambrian_united/",
+      "statusBasis": "Résultat final confirmé, score dans l’ordre domicile–extérieur.",
+      "score": "0-2"
     },
     "recCal20261120L90978": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Reddit Soccer Scoreboard — Full-time, Cymru Premier",
       "observedLive": false,
-      "checkedAt": "2026-11-20T22:39:38.919Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Clôture football présumée à +120 minutes du coup d'envoi, score final non vérifié."
+      "checkedAt": "2026-11-20T22:40:18.665Z",
+      "sourceUrl": "https://www.reddit.com/r/cymruleagues/comments/1y1be2n/match_thread_llandudno_fc_vs_barry_town_united_fc/",
+      "statusBasis": "Résultat final confirmé, score dans l’ordre domicile–extérieur.",
+      "score": "1-1"
     },
     "recCal20261120L90976": {
       "status": "Terminé",
@@ -2331,11 +2336,12 @@
     },
     "recCal20261120L91315": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Reddit Soccer Scoreboard — Full-time, Cymru Premier",
       "observedLive": false,
-      "checkedAt": "2026-11-20T22:39:38.919Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Clôture football présumée à +120 minutes du coup d'envoi, score final non vérifié."
+      "checkedAt": "2026-11-20T22:40:18.665Z",
+      "sourceUrl": "https://www.reddit.com/r/cymruleagues/comments/1y1be2r/match_thread_the_new_saints_fc_vs_trefelin_bgc/",
+      "statusBasis": "Résultat final confirmé, score dans l’ordre domicile–extérieur.",
+      "score": "3-0"
     },
     "recCal20261120L87719": {
       "status": "Terminé",
