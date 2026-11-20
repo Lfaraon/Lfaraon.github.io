@@ -2101,27 +2101,30 @@
     },
     "recCal20261120P72044838": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "ScoreMondo — fiche exacte affichant Fine/résultat final du 20.11.2026",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T21:34:45.000Z",
-      "statusBasis": "Fin présumée à +120 min du coup d’envoi publié ; aucun résultat final confirmé."
+      "sourceUrl": "https://scoremondo.com/it/partita/helmond-sport-fc-dordrecht-31474484",
+      "checkedAt": "2026-11-20T21:42:20.000Z",
+      "statusBasis": "Résultat final prouvé par la fiche du match marquée Fine (20.11.2026) ; non déduit de l'horaire.",
+      "score": "5-1"
     },
     "recCal20261120P72044840": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "ScoreMondo — fiche exacte affichant Fine/résultat final du 20.11.2026",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T21:34:45.000Z",
-      "statusBasis": "Fin présumée à +120 min du coup d’envoi publié ; aucun résultat final confirmé."
+      "sourceUrl": "https://scoremondo.com/it/partita/heracles-almelo-jong-psv-eindhoven-31474485",
+      "checkedAt": "2026-11-20T21:42:20.000Z",
+      "statusBasis": "Résultat final prouvé par la fiche du match marquée Fine (20.11.2026) ; non déduit de l'horaire.",
+      "score": "2-1"
     },
     "recCal20261120P72044842": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "ScoreMondo — fiche exacte affichant Fine/résultat final du 20.11.2026",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T21:34:45.000Z",
-      "statusBasis": "Fin présumée à +120 min du coup d’envoi publié ; aucun résultat final confirmé."
+      "sourceUrl": "https://scoremondo.com/it/partita/jong-fc-utrecht-emmen-31474486",
+      "checkedAt": "2026-11-20T21:42:20.000Z",
+      "statusBasis": "Résultat final prouvé par la fiche du match marquée Fine (20.11.2026) ; non déduit de l'horaire.",
+      "score": "1-0"
     },
     "recCal20261120L90569": {
       "status": "Terminé",
@@ -2159,27 +2162,30 @@
     },
     "recCal20261120P72037464": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "ScoreMondo — fiche exacte affichant Fine/résultat final du 20.11.2026",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T21:34:45.000Z",
-      "statusBasis": "Fin présumée à +120 min du coup d’envoi publié ; aucun résultat final confirmé."
+      "sourceUrl": "https://scoremondo.com/it/partita/red-star-fc-pau-fc-31474464",
+      "checkedAt": "2026-11-20T21:42:20.000Z",
+      "statusBasis": "Résultat final prouvé par la fiche du match marquée Fine (20.11.2026) ; non déduit de l'horaire.",
+      "score": "2-1"
     },
     "recCal20261120P72044844": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "ScoreMondo — fiche exacte affichant Fine/résultat final du 20.11.2026",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T21:34:45.000Z",
-      "statusBasis": "Fin présumée à +120 min du coup d’envoi publié ; aucun résultat final confirmé."
+      "sourceUrl": "https://scoremondo.com/it/partita/top-oss-roda-jc-kerkrade-31474487",
+      "checkedAt": "2026-11-20T21:42:20.000Z",
+      "statusBasis": "Résultat final prouvé par la fiche du match marquée Fine (20.11.2026) ; non déduit de l'horaire.",
+      "score": "1-0"
     },
     "recCal20261120P72044846": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "ScoreMondo — fiche exacte affichant Fine/résultat final du 20.11.2026",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T21:34:45.000Z",
-      "statusBasis": "Fin présumée à +120 min du coup d’envoi publié ; aucun résultat final confirmé."
+      "sourceUrl": "https://scoremondo.com/it/partita/vitesse-arnhem-jong-az-alkmaar-31474488",
+      "checkedAt": "2026-11-20T21:42:20.000Z",
+      "statusBasis": "Résultat final prouvé par la fiche du match marquée Fine (20.11.2026) ; non déduit de l'horaire.",
+      "score": "0-3"
     },
     "recCal20261120L90341": {
       "status": "Terminé",
