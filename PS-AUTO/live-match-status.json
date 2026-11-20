@@ -2263,108 +2263,115 @@
       "score": "1-0"
     },
     "recCal20261120L90974": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "provider": "Reddit Soccer Scoreboard — Full-time, Cymru Premier",
       "observedLive": false,
-      "checkedAt": "2026-11-20T20:38:19.030Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+      "checkedAt": "2026-11-20T22:39:38.919Z",
+      "sourceUrl": "https://www.reddit.com/r/cymruleagues/comments/1y1be2s/match_thread_airbus_uk_broughton_vs_colwyn_bay/",
+      "statusBasis": "Résultat final documenté, score dans l'ordre domicile–extérieur.",
+      "score": "3-4"
     },
     "recCal20261120L90977": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "provider": "Reddit Soccer Scoreboard — Full-time, Cymru Premier",
       "observedLive": false,
-      "checkedAt": "2026-11-20T20:38:19.030Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+      "checkedAt": "2026-11-20T22:39:38.919Z",
+      "sourceUrl": "https://www.reddit.com/r/cymruleagues/comments/1y1be2p/match_thread_briton_ferry_vs_holywell_town_live/",
+      "statusBasis": "Résultat final documenté, score dans l'ordre domicile–extérieur.",
+      "score": "1-0"
     },
     "recCal20261120L91147": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
-      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "checkedAt": "2026-11-20T22:39:38.919Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+      "statusBasis": "Clôture football présumée à +120 minutes du coup d'envoi, score final non vérifié."
     },
     "recCal20261120L90979": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
-      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "checkedAt": "2026-11-20T22:39:38.919Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+      "statusBasis": "Clôture football présumée à +120 minutes du coup d'envoi, score final non vérifié."
     },
     "recCal20261120L89496": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
-      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "checkedAt": "2026-11-20T22:39:38.919Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+      "statusBasis": "Clôture football présumée à +120 minutes du coup d'envoi, score final non vérifié."
     },
     "recCal20261120L90980": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
-      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "checkedAt": "2026-11-20T22:39:38.919Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+      "statusBasis": "Clôture football présumée à +120 minutes du coup d'envoi, score final non vérifié."
     },
     "recCal20261120L90978": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
-      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "checkedAt": "2026-11-20T22:39:38.919Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+      "statusBasis": "Clôture football présumée à +120 minutes du coup d'envoi, score final non vérifié."
     },
     "recCal20261120L90976": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "provider": "Reddit Soccer Scoreboard — Full-time, Cymru Premier",
       "observedLive": false,
-      "checkedAt": "2026-11-20T20:38:19.030Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+      "checkedAt": "2026-11-20T22:39:38.919Z",
+      "sourceUrl": "https://www.reddit.com/r/cymruleagues/comments/1y1be2w/match_thread_penybont_fc_vs_haverfordwest_county/",
+      "statusBasis": "Résultat final documenté, score dans l'ordre domicile–extérieur.",
+      "score": "2-0"
     },
     "recCal20261120L91315": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
-      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "checkedAt": "2026-11-20T22:39:38.919Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+      "statusBasis": "Clôture football présumée à +120 minutes du coup d'envoi, score final non vérifié."
     },
     "recCal20261120L87719": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "provider": "Sofascore News — résumé final Ligue 1 (20/11/2026)",
       "observedLive": false,
-      "checkedAt": "2026-11-20T20:38:19.030Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+      "checkedAt": "2026-11-20T22:39:38.919Z",
+      "sourceUrl": "https://www.sofascore.com/news/troyes-3-1-le-havre-milles-brace-flips-the-script",
+      "statusBasis": "Résultat final documenté, score dans l'ordre domicile–extérieur.",
+      "score": "3-1"
     },
     "recCal20261120P72478708": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "provider": "Mundo Deportivo — Final Liga 20/11/2026",
       "observedLive": false,
-      "checkedAt": "2026-11-20T20:38:19.030Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+      "checkedAt": "2026-11-20T22:39:38.919Z",
+      "sourceUrl": "https://www.mundodeportivo.com/futbol/athletic-bilbao/20261120/1004253520/athletic-partido.html",
+      "statusBasis": "Résultat final documenté, score dans l'ordre domicile–extérieur.",
+      "score": "0-1"
     },
     "recCal20261120P72341382": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "provider": "Barnsley FC 2026–27 match register — résultat final documenté",
       "observedLive": false,
-      "checkedAt": "2026-11-20T20:38:19.030Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+      "checkedAt": "2026-11-20T22:39:38.919Z",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Barnsley_F.C._season",
+      "statusBasis": "Résultat final documenté, score dans l'ordre domicile–extérieur.",
+      "score": "1-2"
     },
     "recCal20261120L91559": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "provider": "ScoreMondo — compte rendu final Première Ligue féminine 20/11/2026",
       "observedLive": false,
-      "checkedAt": "2026-11-20T20:38:19.030Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+      "checkedAt": "2026-11-20T22:39:38.919Z",
+      "sourceUrl": "https://scoremondo.com/it/partita/toulouse-wom-olympique-de-marseille-femminile-31561017",
+      "statusBasis": "Résultat final documenté, score dans l'ordre domicile–extérieur.",
+      "score": "1-1"
     },
     "recCal20261120P76736456": {
       "status": "Terminé",
