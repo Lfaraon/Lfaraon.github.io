@@ -2047,11 +2047,12 @@
     },
     "recCal20261120P72037452": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Eurosport — fiche du match 20.11.2026, Terminé 4–2",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T21:34:45.000Z",
-      "statusBasis": "Fin présumée à +120 min du coup d’envoi publié ; aucun résultat final confirmé."
+      "sourceUrl": "https://www.eurosport.fr/football/ligue-2/2026-2027/fc-annecy-clermont-foot_mtc21875305/live.shtml",
+      "checkedAt": "2026-11-20T21:38:50.000Z",
+      "statusBasis": "Score final prouvé par la fiche/compte rendu exact du 20 novembre, non déduit de l'horaire.",
+      "score": "4-2"
     },
     "recCal20261120L90570": {
       "status": "Terminé",
@@ -2191,11 +2192,12 @@
     },
     "recCal20261120P72513310": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Die Welt — compte rendu final Bayern–Cologne du 20.11.2026, 1–1",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T21:34:45.000Z",
-      "statusBasis": "Fin présumée à +120 min du coup d’envoi publié ; aucun résultat final confirmé."
+      "sourceUrl": "https://www.welt.de/article6b00bad662829c37c43ebe5c",
+      "checkedAt": "2026-11-20T21:38:50.000Z",
+      "statusBasis": "Score final prouvé par la fiche/compte rendu exact du 20 novembre, non déduit de l'horaire.",
+      "score": "1-1"
     },
     "recCal20261120L91242": {
       "status": "Terminé",
