@@ -1844,36 +1844,38 @@
       "score": "3-3"
     },
     "recCal20261120L91188": {
-      "status": "En cours",
-      "provider": "Foot Mercato — fiche live ASO Chlef–Khenchela",
-      "observedLive": true,
-      "checkedAt": "2026-11-20T17:40:59.050Z",
-      "sourceUrl": "https://www.footmercato.net/live/4111901453832786536-aso-chlef-vs-usm-khenchela",
-      "statusBasis": "Live confirmé : 79e minute, 1-0 provisoire, but A. Feddal 75e ; ce n'est pas un score final."
+      "status": "Terminé",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T18:38:58.840Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Fin présumée à +120 min depuis 16:00 UTC. Score final non vérifié : Foot Mercato affichait 1-0 à 90', ScoreMondo 2-0 à 90+2, sans preuve explicite FT ; ne pas enregistrer de score provisoire."
     },
     "recCal20261120L91189": {
-      "status": "En cours",
-      "provider": "FotMob — fiche dynamique du match (activité réelle observée)",
-      "observedLive": true,
-      "checkedAt": "2026-11-20T17:55:29.957Z",
-      "sourceUrl": "https://www.fotmob.com/matches/es-setif-vs-us-biskra/u401bsv",
-      "statusBasis": "FotMob — 90e minute (+2:20), direct 1-1 provisoire, pas FT ; score provisoire non stocké"
+      "status": "Terminé",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T18:38:58.840Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Fin présumée à +120 min depuis 16:00 UTC. Score final non vérifié : dernière fiche FotMob consultable repassée en Preview, SoccerPunter montrait 1-1 à 70' sans FT ; score absent."
     },
     "recCal20261120L90941": {
-      "status": "En cours",
-      "provider": "FotMob — fiche dynamique du match (activité réelle observée)",
+      "status": "Terminé",
+      "provider": "FotMob — fiche du 20.11.2026, Full time confirmé",
       "observedLive": true,
-      "checkedAt": "2026-11-20T17:55:29.957Z",
+      "checkedAt": "2026-11-20T18:38:58.840Z",
       "sourceUrl": "https://www.fotmob.com/matches/torpedo-kutaisi-vs-dinamo-tbilisi/tlqmx",
-      "statusBasis": "FotMob — 90e minute (+1:07), direct 1-1 provisoire, pas FT ; score provisoire non stocké"
+      "statusBasis": "Résultat final prouvé sur la fiche précise FotMob : Dinamo Tbilisi 1-1 Torpedo Kutaisi, Full time ; but Skorup 8e, Doltmurziev 76e.",
+      "score": "1-1"
     },
     "recCal20261120L89509": {
-      "status": "En cours",
-      "provider": "FotMob — fiche live Septemvri–Lokomotiv",
+      "status": "Terminé",
+      "provider": "FotMob — fiche du 20.11.2026, Full time confirmé",
       "observedLive": true,
-      "checkedAt": "2026-11-20T17:40:59.050Z",
+      "checkedAt": "2026-11-20T18:38:58.840Z",
       "sourceUrl": "https://www.fotmob.com/en-GB/matches/lokomotiv-plovdiv-vs-septemvri-sofia/nz9vh6p",
-      "statusBasis": "Direct confirmé par événements précis dans la fiche : remplacements 77e, 72e, 63e. Aucun score final publié."
+      "statusBasis": "Résultat final prouvé sur la fiche précise FotMob : Septemvri Sofia 0-0 Lokomotiv Plovdiv, Full time ; carton rouge Iliev 90e.",
+      "score": "0-0"
     },
     "recCal20261120P76682394": {
       "status": "À venir",
@@ -1942,6 +1944,78 @@
       "observedLive": false,
       "statusBasis": "Kickoff prévu 17:30 UTC atteint le 20/11 ; statut déduit de l'heure, aucun score final vérifié.",
       "checkedAt": "2026-11-20T17:40:59.050Z"
+    },
+    "recCal20261120L89487": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
+      "checkedAt": "2026-11-20T18:38:58.840Z"
+    },
+    "recCal20261120L91580": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
+      "checkedAt": "2026-11-20T18:38:58.840Z"
+    },
+    "recCal20261120P72680302": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
+      "checkedAt": "2026-11-20T18:38:58.840Z"
+    },
+    "recCal20261120P67015472": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
+      "checkedAt": "2026-11-20T18:38:58.840Z"
+    },
+    "recCal20261120L87730": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
+      "checkedAt": "2026-11-20T18:38:58.840Z"
+    },
+    "recCal20261120L90338": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
+      "checkedAt": "2026-11-20T18:38:58.840Z"
+    },
+    "recCal20261120L90342": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
+      "checkedAt": "2026-11-20T18:38:58.840Z"
+    },
+    "recCal20261120L90344": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
+      "checkedAt": "2026-11-20T18:38:58.840Z"
+    },
+    "recCal20261120L90345": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
+      "checkedAt": "2026-11-20T18:38:58.840Z"
     }
   }
 }
