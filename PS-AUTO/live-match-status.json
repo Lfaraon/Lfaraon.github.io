@@ -1684,28 +1684,47 @@
       "score": "6-0"
     },
     "recCal20261119P76682266": {
-      "status": "En cours",
-      "provider": "Sofascore — fiche tennis interactive (navigateur dynamique)",
-      "sourceUrl": "https://www.sofascore.com/tennis/match/fernanda-labrana-andrea-lazaro-garcia/HyAsmizb",
+      "status": "Terminé",
+      "provider": "TennisTemple — fiche Colina 2026 / Flashscore — résultat 1-2",
+      "sourceUrl": "https://en.tennistemple.com/match/labrana-lazaro-garcia-colina-2026/9570893/",
       "observedLive": true,
-      "statusBasis": "20.11.2026 00h39 CET : match EN COURS prouvé sur fiche Sofascore dynamique. Fernanda Labraña–Andrea Lázaro García : 2-6, 6-3, troisième set 0-1 et 0-30 en points observés ; score provisoire, pas un résultat final.",
-      "checkedAt": "2026-11-19T23:39:41.489Z"
+      "statusBasis": "20.11.2026 : fin confirmée par Flashscore (1-2) et sets détaillés sur TennisTemple : Labraña–Lázaro García 2-6, 6-3, 0-6. Ancien direct Sofascore remplacé par résultat final.",
+      "checkedAt": "2026-11-20T00:37:16.142Z",
+      "score": "1-2",
+      "sets": "2-6, 6-3, 0-6"
     },
     "recCal20261119P66887160": {
-      "status": "En cours",
-      "provider": "ge.globo — suivi du match en direct, navigateur dynamique",
-      "sourceUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/19-11-2026/vasco-internacional.ghtml",
+      "status": "Terminé",
+      "provider": "Placar — résultat final Vasco–Internacional 19.11.2026",
+      "sourceUrl": "https://placar.com.br/rio-de-janeiro-rio-de-janeiro/futebol/brasileiro-serie-a-2026/jogo/11-2026/147492/vasco-internacional/",
       "observedLive": true,
-      "statusBasis": "20.11.2026 00h39 CET : direct réel confirmé, Vasco da Gama 1-0 Internacional à la 10e de la 2e mi-temps (but Thiago Mendes 25e). Score provisoire, pas de résultat final.",
-      "checkedAt": "2026-11-19T23:39:41.489Z"
+      "statusBasis": "20.11.2026 : fiche Placar actualisée annonçant explicitement résultat final Vasco da Gama 2-1 Internacional (buts 26e, 52e, 63e).",
+      "checkedAt": "2026-11-20T00:37:16.142Z",
+      "score": "2-1"
     },
     "recCal20261119P66887174": {
+      "status": "Terminé",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "20.11.2026 : +120 min depuis kickoff 19.11 22:30 UTC, fin présumée. Dernière fiche FotMob/Placar affichait provisoire 2-1 jusqu'à 90+6, sans preuve explicite de score FT; laisser score absent et poursuivre recherche.",
+      "checkedAt": "2026-11-20T00:37:16.142Z"
+    },
+    "recCal20261120P76573128": {
       "status": "En cours",
-      "provider": "Placar — fiche en direct Brasileirão, navigateur dynamique",
-      "sourceUrl": "https://placar.com.br/salvador-bahia/futebol/brasileiro-serie-a-2026/jogo/11-2026/147499/vitoria-rb-bragantino/",
-      "observedLive": true,
-      "statusBasis": "20.11.2026 00h39 CET : direct réel confirmé, Vitória 2-0 RB Bragantino, 45+4 de la 1re mi-temps (Britez 4e, Renê 24e). Score provisoire, pas de résultat final.",
-      "checkedAt": "2026-11-19T23:39:41.489Z"
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "20.11.2026 00:30 UTC : kickoff atteint, En cours présumé selon match-source; heure aussi publiée par FC Cincinnati (19.11 19:30 ET). Pas de direct réel ni score final attesté.",
+      "checkedAt": "2026-11-20T00:37:16.142Z"
+    },
+    "recCal20261120P66887162": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "20.11.2026 00:30 UTC : kickoff atteint, En cours présumé selon match-source; fiche ge.globo était encore pré-match à la vérification. Pas de score final attesté.",
+      "checkedAt": "2026-11-20T00:37:16.142Z"
     }
   }
 }
