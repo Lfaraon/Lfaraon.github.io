@@ -1738,12 +1738,13 @@
       "score": "1-1"
     },
     "recCal20261120L87825": {
-      "status": "En cours",
-      "provider": "A-Leagues — score dynamique en direct observé 95:01 (+6), match encore en cours",
+      "status": "Terminé",
+      "provider": "A-Leagues — centre de match officiel dynamique, Full Time confirmé 20.11.2026",
       "observedLive": true,
-      "statusBasis": "Coup d'envoi prévu le 20.11.2026 à 08:40 UTC (09:40 suisse), dépassé au contrôle 10:33:57 suisse. Début présumé sur horaire, pas de flux vivant ni de score observés; aucune annulation ou modification d'horaire confirmée.",
-      "checkedAt": "2026-11-20T10:44:01.065Z",
-      "sourceUrl": "https://aleagues.com.au/match/a-league-men/western-sydney-wanderers-vs-adelaide-united-20-11-2026/"
+      "statusBasis": "FT confirmé par fiche officielle A-Leagues, résultat final 4-2; non présumé par horaire.",
+      "checkedAt": "2026-11-20T10:47:27.713Z",
+      "sourceUrl": "https://aleagues.com.au/match/a-league-men/western-sydney-wanderers-vs-adelaide-united-20-11-2026/",
+      "score": "4-2"
     },
     "recCal20261120L90467": {
       "status": "En cours",
