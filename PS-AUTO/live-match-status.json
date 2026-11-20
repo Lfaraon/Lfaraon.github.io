@@ -1728,6 +1728,13 @@
       "statusBasis": "Résultat FT prouvé par compte-rendu UOL du 19.11.2026 : São Paulo 0–1 Fluminense (Hércules 31e).",
       "checkedAt": "2026-11-20T02:38:43.341Z",
       "score": "0-1"
+    },
+    "recCal20261120P76573130": {
+      "status": "En cours",
+      "provider": "Bleacher Report — fiche du match et actions directes confirmées (18e–19e min)",
+      "checkedAt": "2026-11-20T03:33:57.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://bleacherreport.com/game/seattle-sounders-fc-vs-real-salt-lake-2026-11-19-19-00"
     }
   }
 }
