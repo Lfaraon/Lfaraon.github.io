@@ -1712,12 +1712,13 @@
       "score": "2-1"
     },
     "recCal20261120P76573128": {
-      "status": "En cours",
-      "provider": "Reddit r/OCLions — bot de suivi match Orlando–Cincinnati (actions et buts)",
-      "sourceUrl": "https://www.reddit.com/r/OCLions/comments/1y0o6k2/match_thread_orlando_city_sc_vs_fc_cincinnati/",
+      "status": "Terminé",
+      "provider": "Sofascore — fiche dynamique, résultat FT confirmé Orlando City–FC Cincinnati",
+      "sourceUrl": "https://www.sofascore.com/football/match/fc-cincinnati-orlando-city-sc/MUvsrdLb",
       "observedLive": true,
-      "statusBasis": "20.11.2026 01:37 UTC : vrai début prouvé, 1-1 PROVISOIRE au dernier suivi du match 19.11 EST (Ojeda 26', Evander 43' penalty, action 45+3). Pas de score final vérifié.",
-      "checkedAt": "2026-11-20T01:37:10.000Z"
+      "statusBasis": "Résultat final 1–3 publié par Sofascore (Finished/FT), observation dynamique du 20.11.2026 ; les scores 1–1 et 1–3 avant FT étaient provisoires.",
+      "checkedAt": "2026-11-20T02:39:38.466Z",
+      "score": "1-3"
     },
     "recCal20261120P66887162": {
       "status": "Terminé",
