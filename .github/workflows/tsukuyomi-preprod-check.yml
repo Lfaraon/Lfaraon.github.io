@@ -1,0 +1,26 @@
+name: Tsukuyomi — Contrôle préprod
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/check-tsukuyomi-preprod*.mjs'
+      - '.github/workflows/tsukuyomi-preprod-check.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Tester le contrôle
+        run: node --test .github/scripts/check-tsukuyomi-preprod.test.mjs
+      - name: Vérifier le build et le calendrier effectivement servis
+        run: node .github/scripts/check-tsukuyomi-preprod.mjs
