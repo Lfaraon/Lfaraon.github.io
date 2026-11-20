@@ -1867,6 +1867,26 @@
       "observedLive": false,
       "checkedAt": "2026-11-20T16:39:12.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261120P76682394": {
+      "status": "À venir",
+      "provider": "Tennisora (nouveau créneau 18:30 UTC) ; Tennis.com dynamique (Upcoming, aucun jeu/point)",
+      "checkedAt": "2026-11-20T16:48:53.707Z",
+      "observedLive": false,
+      "reversed": false,
+      "sourceUrl": "https://www.tennisora.com/matches/12181366-20261120-111550-89767",
+      "scheduledKickoff": "2026-11-20T18:30:00.000Z",
+      "statusBasis": "Début non observé : fiche Tennis.com du 20.11.2026 ouverte dans navigateur dynamique, toujours UPCOMING sans jeux/points. Nouvel horaire 18:30 UTC (19:30 suisse) confirmé par Tennisora et Betfair ; ancien 15:00 UTC du snapshot périmé. Ne pas déclencher seuils +4h/+5h depuis horaire initial."
+    },
+    "recCal20261120P76682244": {
+      "status": "À venir",
+      "provider": "TennisTemple (ordre de jeu 22:00 UTC) ; Tennis.com dynamique (Upcoming, aucun jeu/point)",
+      "checkedAt": "2026-11-20T16:48:53.707Z",
+      "observedLive": false,
+      "reversed": false,
+      "sourceUrl": "https://en.tennistemple.com/match/masarova-samson-colina-2026/9570955/comments",
+      "scheduledKickoff": "2026-11-20T22:00:00.000Z",
+      "statusBasis": "Début non observé : Tennis.com (navigateur dynamique) affiche Upcoming et aucun jeu/point. Ordre de jeu Colina TennisTemple reporte le quart après d'autres matchs à 22:00 UTC (~23:00 suisse), heure indicative car 'followed by'. Ancien horaire 15:00 UTC du snapshot périmé ; ne pas déclencher les seuils de clôture à partir de celui-ci."
     }
   }
 }
