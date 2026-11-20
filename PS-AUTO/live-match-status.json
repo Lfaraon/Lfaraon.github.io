@@ -1893,13 +1893,13 @@
     },
     "recCal20261120P76682244": {
       "status": "À venir",
-      "provider": "TennisTemple (ordre de jeu 22:00 UTC) ; Tennis.com dynamique (Upcoming, aucun jeu/point)",
-      "checkedAt": "2026-11-20T16:48:53.707Z",
+      "provider": "Sofascore — nouveau créneau annoncé ; absence de suivi live confirmé",
+      "checkedAt": "2026-11-20T22:40:45.356Z",
       "observedLive": false,
       "reversed": false,
-      "sourceUrl": "https://en.tennistemple.com/match/masarova-samson-colina-2026/9570955/comments",
-      "scheduledKickoff": "2026-11-20T22:00:00.000Z",
-      "statusBasis": "Début non observé : Tennis.com (navigateur dynamique) affiche Upcoming et aucun jeu/point. Ordre de jeu Colina TennisTemple reporte le quart après d'autres matchs à 22:00 UTC (~23:00 suisse), heure indicative car 'followed by'. Ancien horaire 15:00 UTC du snapshot périmé ; ne pas déclencher les seuils de clôture à partir de celui-ci."
+      "sourceUrl": "https://www.sofascore.com/tennis/match/laura-samson-rebeka-masarova/eWZsNDQd",
+      "scheduledKickoff": "2026-11-20T22:40:00.000Z",
+      "statusBasis": "Nouvel horaire annoncé à 22:40 UTC (23:40 Suisse) par Sofascore ; Tennis.com consulté en navigateur dynamique affiche Upcoming, aucun jeu ni point visible."
     },
     "recCal20261120P76736472": {
       "status": "Terminé",
