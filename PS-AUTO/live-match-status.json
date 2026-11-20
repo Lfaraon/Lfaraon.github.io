@@ -1880,14 +1880,16 @@
       "score": "0-0"
     },
     "recCal20261120P76682394": {
-      "status": "En cours",
-      "provider": "Tennis.com — fiche interactive dynamique avec jeux et service réels",
-      "checkedAt": "2026-11-20T19:38:25.929Z",
+      "status": "Terminé",
+      "provider": "Tennis.com — fiche dynamique Completed (20.11.2026), trois manches dont super tie-break",
+      "checkedAt": "2026-11-20T20:38:19.030Z",
       "observedLive": true,
       "reversed": false,
       "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/mcgiffin-t-osborne-a-vs-erjavec-v-kulambayeva-z-2026-11-20",
       "scheduledKickoff": "2026-11-20T18:30:00.000Z",
-      "statusBasis": "Direct réellement observé le 20.11.2026 : deux manches à 6-6 affichées, troisième manche/super jeu en cours et service McGiffin/Osborne ; aucune fin confirmée, aucun score final enregistré."
+      "statusBasis": "Fiche exacte actualisée : McGiffin/Osborne 6-7(7-9), 6-3, 4-10 contre Erjavec/Kulambayeva ; victoire de la deuxième paire 1-2 en ordre match-source. Résultat final confirmé, non déduit de l'heure.",
+      "score": "1-2",
+      "sets": "6-7(7-9), 6-3, 4-10"
     },
     "recCal20261120P76682244": {
       "status": "À venir",
@@ -1955,76 +1957,76 @@
       "score": "0-3"
     },
     "recCal20261120L89487": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
-      "checkedAt": "2026-11-20T18:38:58.840Z"
+      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
+      "checkedAt": "2026-11-20T20:38:19.030Z"
     },
     "recCal20261120L91580": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
-      "checkedAt": "2026-11-20T18:38:58.840Z"
+      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
+      "checkedAt": "2026-11-20T20:38:19.030Z"
     },
     "recCal20261120P72680302": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
-      "checkedAt": "2026-11-20T18:38:58.840Z"
+      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
+      "checkedAt": "2026-11-20T20:38:19.030Z"
     },
     "recCal20261120P67015472": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
-      "checkedAt": "2026-11-20T18:38:58.840Z"
+      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
+      "checkedAt": "2026-11-20T20:38:19.030Z"
     },
     "recCal20261120L87730": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
-      "checkedAt": "2026-11-20T18:38:58.840Z"
+      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
+      "checkedAt": "2026-11-20T20:38:19.030Z"
     },
     "recCal20261120L90338": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
-      "checkedAt": "2026-11-20T18:38:58.840Z"
+      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
+      "checkedAt": "2026-11-20T20:38:19.030Z"
     },
     "recCal20261120L90342": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
-      "checkedAt": "2026-11-20T18:38:58.840Z"
+      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
+      "checkedAt": "2026-11-20T20:38:19.030Z"
     },
     "recCal20261120L90344": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
-      "checkedAt": "2026-11-20T18:38:58.840Z"
+      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
+      "checkedAt": "2026-11-20T20:38:19.030Z"
     },
     "recCal20261120L90345": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé par l'heure programmée dans match-source.json (20.11.2026) ; aucun flux live confirmé, aucun score final.",
-      "checkedAt": "2026-11-20T18:38:58.840Z"
+      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
+      "checkedAt": "2026-11-20T20:38:19.030Z"
     },
     "recCal20261120P72044830": {
       "status": "En cours",
@@ -2225,6 +2227,118 @@
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "checkedAt": "2026-11-20T19:33:58.462Z",
       "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+    },
+    "recCal20261120L90974": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+    },
+    "recCal20261120L90977": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+    },
+    "recCal20261120L91147": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+    },
+    "recCal20261120L90979": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+    },
+    "recCal20261120L89496": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+    },
+    "recCal20261120L90980": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+    },
+    "recCal20261120L90978": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+    },
+    "recCal20261120L90976": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+    },
+    "recCal20261120L91315": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+    },
+    "recCal20261120L87719": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+    },
+    "recCal20261120P72478708": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+    },
+    "recCal20261120P72341382": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+    },
+    "recCal20261120L91559": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+    },
+    "recCal20261120P76736456": {
+      "status": "En cours",
+      "provider": "Tennis.com — fiche match ATP Finals dynamique, statistiques de service et jeux actualisées",
+      "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/d-medvedev-vs-f-tiafoe-2026-11-20",
+      "observedLive": true,
+      "checkedAt": "2026-11-20T20:38:19.030Z",
+      "statusBasis": "Début réel confirmé : fiche exacte montre des jeux de service disputés (Medvedev 7/7, Tiafoe 5/6) et statistiques de points ; aucun score final affirmé."
     }
   }
 }
