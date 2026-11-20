@@ -1799,6 +1799,13 @@
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "checkedAt": "2026-11-20T13:38:41.000Z"
+    },
+    "recCal20261120P76736454": {
+      "status": "En cours",
+      "provider": "Sky Sport — flux de jeux en direct confirmé",
+      "observedLive": true,
+      "sourceUrl": "https://sport.sky.it/tennis/2026/11/20/cobolli-alcaraz-atp-finals-risultato",
+      "checkedAt": "2026-11-20T13:42:05.903Z"
     }
   }
 }
