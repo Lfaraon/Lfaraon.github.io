@@ -1854,11 +1854,12 @@
     },
     "recCal20261120L91189": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-20T18:38:58.840Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Fin présumée à +120 min depuis 16:00 UTC. Score final non vérifié : dernière fiche FotMob consultable repassée en Preview, SoccerPunter montrait 1-1 à 70' sans FT ; score absent."
+      "provider": "ScoreMondo — fiche du match, Full Time confirmé",
+      "observedLive": true,
+      "checkedAt": "2026-11-20T18:40:37.744Z",
+      "sourceUrl": "https://scoremondo.com/en/match/es-setif-us-biskra-31601632",
+      "statusBasis": "Score final confirmé par la fiche précise ScoreMondo du 20.11.2026 : FT, ES Sétif 1-1 US Biskra (Belkhadem 32e, Zerrouki 55e) ; coup de sifflet final explicitement indiqué.",
+      "score": "1-1"
     },
     "recCal20261120L90941": {
       "status": "Terminé",
