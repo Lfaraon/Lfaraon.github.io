@@ -4,12 +4,18 @@ import { checkPreproduction, entryAsset } from "./check-tsukuyomi-preprod.mjs";
 
 const asset = "/tsukuyomi-preprod/assets/index-build-1.js";
 const html = `<script type="module" crossorigin src="${asset}"></script>`;
-const bundle = "console.log('Tsukuyomi');\n";
+const supabaseOrigin = "https://suudtatpapkmrrmlffvk.supabase.co";
+const publishableKey = "sb_publishable_fake-for-regression-tests";
+const bundle = `createClient("${supabaseOrigin}", "${publishableKey}");\n`;
 
-function mockFetch({ deployedHtml = html, deployedBundle = bundle, source, status } = {}) {
-  return async (url) => {
+function mockFetch({ deployedHtml = html, deployedBundle = bundle, authStatus = 200, source, status } = {}) {
+  return async (url, options) => {
     if (url.endsWith("/tsukuyomi-preprod/")) return new Response(deployedHtml);
     if (url.endsWith(asset)) return new Response(deployedBundle);
+    if (url === `${supabaseOrigin}/auth/v1/settings`) {
+      assert.equal(options.headers.apikey, publishableKey);
+      return new Response(null, { status: authStatus });
+    }
     if (url.endsWith("/match-source.json")) return Response.json(source ?? { matches: [{}], snapshotAt: "2026-11-19T14:00:00Z" });
     if (url.endsWith("/live-match-status.json")) {
       return Response.json(status ?? { checkedAt: "2026-11-17T22:15:00Z", matches: {
@@ -40,4 +46,15 @@ test("refuse un bundle externe, ancien ou différent du fichier versionné", asy
 
 test("signale un calendrier dont le format est incompatible", async () => {
   await assert.rejects(checkPreproduction({ checkedInHtml: html, checkedInBundle: bundle, fetcher: mockFetch({ status: { matches: [] } }) }), /dictionnaire de matchs/);
+});
+
+test("refuse un bundle à la clé publique tronquée même lorsque son empreinte est correcte", async () => {
+  const truncatedBundle = bundle.replace(publishableKey, "s");
+  const fetcher = mockFetch({ deployedBundle: truncatedBundle });
+  await assert.rejects(checkPreproduction({ checkedInHtml: html, checkedInBundle: truncatedBundle, fetcher }), /clé publique Supabase/);
+});
+
+test("signale une clé refusée par l’API de connexion", async () => {
+  const fetcher = mockFetch({ authStatus: 401 });
+  await assert.rejects(checkPreproduction({ checkedInHtml: html, checkedInBundle: bundle, fetcher }), /HTTP 401/);
 });

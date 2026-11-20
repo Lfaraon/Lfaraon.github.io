@@ -4,6 +4,7 @@ import { pathToFileURL } from "node:url";
 
 const site = new URL("https://lfaraon.github.io/tsukuyomi-preprod/");
 const calendar = new URL("https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/");
+const supabase = new URL("https://suudtatpapkmrrmlffvk.supabase.co");
 
 export function entryAsset(html) {
   const entries = [...html.matchAll(/<script\b[^>]*\ssrc=["']([^"']+)["']/gi)]
@@ -14,11 +15,12 @@ export function entryAsset(html) {
   return entries[0].href;
 }
 
-async function load(fetcher, url, label) {
+async function load(fetcher, url, label, headers) {
   const response = await fetcher(url.toString(), {
     cache: "no-store",
     redirect: "error",
     signal: AbortSignal.timeout(15_000),
+    headers,
   });
   if (!response.ok) throw new Error(`${label} répond HTTP ${response.status}.`);
   return response;
@@ -32,6 +34,15 @@ function lastTimestamp(values) {
 
 function bundleDigest(contents) {
   return createHash("sha256").update(contents.replace(/\r\n/g, "\n")).digest("hex");
+}
+
+async function checkAuth(bundle, fetcher) {
+  const keys = new Set(Array.from(bundle.matchAll(/["'](sb_publishable_[\w-]+)["']/g), ([, key]) => key));
+  const [key] = keys;
+  if (keys.size !== 1 || !bundle.includes(supabase.origin)) {
+    throw new Error("Le bundle doit contenir une seule clé publique Supabase pour la préprod.");
+  }
+  await load(fetcher, new URL("/auth/v1/settings", supabase), "L’API de connexion Supabase", { apikey: key });
 }
 
 export async function checkPreproduction({ checkedInHtml, checkedInBundle, fetcher = fetch }) {
@@ -51,9 +62,11 @@ export async function checkPreproduction({ checkedInHtml, checkedInBundle, fetch
     matchSource.json(),
     matchStatus.json(),
   ]);
-  if (bundleDigest(await bundle.text()) !== bundleDigest(checkedInBundle)) {
+  const deployedBundle = await bundle.text();
+  if (bundleDigest(deployedBundle) !== bundleDigest(checkedInBundle)) {
     throw new Error("L’empreinte du bundle en ligne diffère de celle du dépôt.");
   }
+  await checkAuth(deployedBundle, fetcher);
   if (!Array.isArray(source?.matches)) throw new Error("Le flux des rencontres ne contient pas de liste de matchs.");
   if (!status?.matches || typeof status.matches !== "object" || Array.isArray(status.matches)) {
     throw new Error("Le flux des statuts ne contient pas de dictionnaire de matchs.");
@@ -74,7 +87,7 @@ async function main() {
   const assetPath = new URL(entryAsset(checkedInHtml)).pathname;
   const checkedInBundle = await readFile(new URL(`../..${assetPath}`, import.meta.url), "utf8");
   const result = await checkPreproduction({ checkedInHtml, checkedInBundle });
-  console.log(`Préprod Tsukuyomi · bundle vérifié (${result.asset})`);
+  console.log(`Préprod Tsukuyomi · bundle vérifié (${result.asset}) · API de connexion accessible`);
   console.log(`${result.matches} rencontres · ${result.statusEntries} statuts`);
   console.log(`Source du calendrier (UTC) ${result.calendarSnapshotAt ?? "horodatage indisponible"}`);
   console.log(`Dernier contrôle individuel (UTC) ${result.lastMatchCheckAt ?? "horodatage indisponible"}`);
