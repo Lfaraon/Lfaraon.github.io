@@ -1704,27 +1704,28 @@
     },
     "recCal20261119P66887174": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "UOL / Agência Estado — compte-rendu après match, score final vérifié",
+      "sourceUrl": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/11/19/vitoria-supera-o-red-bull-bragantino-no-barradao-e-fica-fora-da-zona-de-rebaixamento.htm",
       "observedLive": false,
-      "statusBasis": "20.11.2026 : +120 min depuis kickoff 19.11 22:30 UTC, fin présumée. Dernière fiche FotMob/Placar affichait provisoire 2-1 jusqu'à 90+6, sans preuve explicite de score FT; laisser score absent et poursuivre recherche.",
-      "checkedAt": "2026-11-20T00:37:16.142Z"
+      "statusBasis": "19.11.2026 : Vitória 2-1 RB Bragantino confirmé explicitement après-match dans article 21h47 BRT; résultat final prouvé et non déduit de l'heure. Ignore le 2-0 d'anciens extraits live.",
+      "checkedAt": "2026-11-20T01:37:10.000Z",
+      "score": "2-1"
     },
     "recCal20261120P76573128": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "statusBasis": "20.11.2026 00:30 UTC : kickoff atteint, En cours présumé selon match-source; heure aussi publiée par FC Cincinnati (19.11 19:30 ET). Pas de direct réel ni score final attesté.",
-      "checkedAt": "2026-11-20T00:37:16.142Z"
+      "provider": "Reddit r/OCLions — bot de suivi match Orlando–Cincinnati (actions et buts)",
+      "sourceUrl": "https://www.reddit.com/r/OCLions/comments/1y0o6k2/match_thread_orlando_city_sc_vs_fc_cincinnati/",
+      "observedLive": true,
+      "statusBasis": "20.11.2026 01:37 UTC : vrai début prouvé, 1-1 PROVISOIRE au dernier suivi du match 19.11 EST (Ojeda 26', Evander 43' penalty, action 45+3). Pas de score final vérifié.",
+      "checkedAt": "2026-11-20T01:37:10.000Z"
     },
     "recCal20261120P66887162": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "statusBasis": "20.11.2026 00:30 UTC : kickoff atteint, En cours présumé selon match-source; fiche ge.globo était encore pré-match à la vérification. Pas de score final attesté.",
-      "checkedAt": "2026-11-20T00:37:16.142Z"
+      "provider": "Reddit r/futebol — match thread São Paulo–Fluminense (mi-temps); but aussi sur UOL",
+      "sourceUrl": "https://www.reddit.com/r/futebol/comments/1y0o68n/match_thread_campeonato_brasileiro_s%C3%A3o_paulo_x/",
+      "observedLive": true,
+      "statusBasis": "20.11.2026 01:37 UTC : vrai début prouvé, 0-1 à la mi-temps (Hércules 31') selon match thread daté 19.11; but confirmé par vidéo UOL. Score provisoire, pas de score final.",
+      "checkedAt": "2026-11-20T01:37:10.000Z"
     }
   }
 }
