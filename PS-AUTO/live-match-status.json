@@ -1781,24 +1781,24 @@
     },
     "recCal20261120L90565": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T13:38:41.000Z"
+      "provider": "GoalBot — suivi live à la mi-temps",
+      "observedLive": true,
+      "sourceUrl": "https://scoreboard.goalbot.dev/m/2026-11-20-al-ittihad-kalba-united-arab-emirates-sharjah-fc-united-arab-emirates-pro-league-united-arab-emirates",
+      "checkedAt": "2026-11-20T13:43:14.891Z"
     },
     "recCal20261120L91106": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T13:38:41.000Z"
+      "provider": "beIN SPORTS — suivi direct à la 42e minute",
+      "observedLive": true,
+      "sourceUrl": "https://www.beinsports.com/en-us/soccer/stars-league/al-duhail-vs-qatar-sc-2026-11-27",
+      "checkedAt": "2026-11-20T13:43:14.891Z"
     },
     "recCal20261120L90901": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T13:38:41.000Z"
+      "provider": "beIN SPORTS — suivi direct à la 43e minute",
+      "observedLive": true,
+      "sourceUrl": "https://www.beinsports.com/en-us/soccer/stars-league/al-sadd-vs-lusail-city-2026-11-27",
+      "checkedAt": "2026-11-20T13:43:14.891Z"
     },
     "recCal20261120P76736454": {
       "status": "En cours",
