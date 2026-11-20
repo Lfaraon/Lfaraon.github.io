@@ -1720,12 +1720,13 @@
       "checkedAt": "2026-11-20T01:37:10.000Z"
     },
     "recCal20261120P66887162": {
-      "status": "En cours",
-      "provider": "Reddit r/futebol — match thread São Paulo–Fluminense (mi-temps); but aussi sur UOL",
-      "sourceUrl": "https://www.reddit.com/r/futebol/comments/1y0o68n/match_thread_campeonato_brasileiro_s%C3%A3o_paulo_x/",
+      "status": "Terminé",
+      "provider": "UOL Esporte — compte-rendu final vérifié São Paulo–Fluminense, 19.11.2026",
+      "sourceUrl": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/19/sao-paulo-x-fluminense-como-foi-o-jogo-pelo-brasileirao-2026.ghtm",
       "observedLive": true,
-      "statusBasis": "20.11.2026 01:37 UTC : vrai début prouvé, 0-1 à la mi-temps (Hércules 31') selon match thread daté 19.11; but confirmé par vidéo UOL. Score provisoire, pas de score final.",
-      "checkedAt": "2026-11-20T01:37:10.000Z"
+      "statusBasis": "Résultat FT prouvé par compte-rendu UOL du 19.11.2026 : São Paulo 0–1 Fluminense (Hércules 31e).",
+      "checkedAt": "2026-11-20T02:38:43.341Z",
+      "score": "0-1"
     }
   }
 }
