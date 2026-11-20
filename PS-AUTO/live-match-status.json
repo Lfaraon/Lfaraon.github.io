@@ -1853,17 +1853,19 @@
     },
     "recCal20261120L91189": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-20T16:39:12.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "FotMob — fiche dynamique du match (activité réelle observée)",
+      "observedLive": true,
+      "checkedAt": "2026-11-20T17:55:29.957Z",
+      "sourceUrl": "https://www.fotmob.com/matches/es-setif-vs-us-biskra/u401bsv",
+      "statusBasis": "FotMob — 90e minute (+2:20), direct 1-1 provisoire, pas FT ; score provisoire non stocké"
     },
     "recCal20261120L90941": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-20T16:39:12.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "FotMob — fiche dynamique du match (activité réelle observée)",
+      "observedLive": true,
+      "checkedAt": "2026-11-20T17:55:29.957Z",
+      "sourceUrl": "https://www.fotmob.com/matches/torpedo-kutaisi-vs-dinamo-tbilisi/tlqmx",
+      "statusBasis": "FotMob — 90e minute (+1:07), direct 1-1 provisoire, pas FT ; score provisoire non stocké"
     },
     "recCal20261120L89509": {
       "status": "En cours",
@@ -1903,11 +1905,11 @@
     },
     "recCal20261120L89557": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "statusBasis": "Kickoff prévu 17:00 UTC atteint le 20/11 ; statut déduit de l'heure, aucun score final vérifié.",
-      "checkedAt": "2026-11-20T17:40:59.050Z"
+      "provider": "FotMob — fiche dynamique du match (activité réelle observée)",
+      "sourceUrl": "https://www.fotmob.com/matches/piast-gliwice-vs-korona-kielce/26u972",
+      "observedLive": true,
+      "statusBasis": "FotMob — mi-temps HT, direct 1-0 provisoire, pas FT ; score provisoire non stocké",
+      "checkedAt": "2026-11-20T17:55:29.957Z"
     },
     "recCal20261120L90391": {
       "status": "En cours",
