@@ -1881,13 +1881,13 @@
     },
     "recCal20261120P76682394": {
       "status": "En cours",
-      "provider": "Tennis.com — fiche dynamique avec jeu et points réellement observés",
-      "checkedAt": "2026-11-20T18:42:53.207Z",
+      "provider": "Tennis.com — fiche interactive dynamique avec jeux et service réels",
+      "checkedAt": "2026-11-20T19:38:25.929Z",
       "observedLive": true,
       "reversed": false,
       "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/mcgiffin-t-osborne-a-vs-erjavec-v-kulambayeva-z-2026-11-20",
       "scheduledKickoff": "2026-11-20T18:30:00.000Z",
-      "statusBasis": "Début RÉEL confirmé sur fiche interactive Tennis.com du 20.11.2026 via navigateur dynamique : LIVE, 1er set 0-0 jeux, points 15-15, service McGiffin/Osborne ; aucune manche achevée. Ne pas enregistrer de score final."
+      "statusBasis": "Direct réellement observé le 20.11.2026 : deux manches à 6-6 affichées, troisième manche/super jeu en cours et service McGiffin/Osborne ; aucune fin confirmée, aucun score final enregistré."
     },
     "recCal20261120P76682244": {
       "status": "À venir",
@@ -1920,11 +1920,12 @@
     },
     "recCal20261120L90391": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Flashscore — fiche dynamique Full Time du 20.11.2026",
+      "sourceUrl": "https://www.flashscore.info/match/football/al-ahli-sc-0MHmoCY0/al-nassr-h4I89ZuE/",
       "observedLive": false,
-      "statusBasis": "Fin présumée à +120 minutes depuis le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-20T19:33:58.462Z"
+      "statusBasis": "FT confirmé : Al Ahli SC bat Al Nassr 3-1, match du 20.11.2026 ; score dans l'ordre domicile-extérieur.",
+      "checkedAt": "2026-11-20T19:38:25.929Z",
+      "score": "3-1"
     },
     "recCal20261120P72513992": {
       "status": "Terminé",
@@ -1946,11 +1947,12 @@
     },
     "recCal20261120L91253": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Sportschau — fiche dynamique Spielende/FT du 20.11.2026",
+      "sourceUrl": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306319/1-fc-union-berlin_bayer-leverkusen/liveticker",
       "observedLive": false,
-      "statusBasis": "Fin présumée à +120 minutes depuis le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-20T19:33:58.462Z"
+      "statusBasis": "Spielende confirmé : Union Berlin F 0-3 Bayer Leverkusen F, Frauen-Bundesliga 20.11.2026.",
+      "checkedAt": "2026-11-20T19:38:25.929Z",
+      "score": "0-3"
     },
     "recCal20261120L89487": {
       "status": "En cours",
