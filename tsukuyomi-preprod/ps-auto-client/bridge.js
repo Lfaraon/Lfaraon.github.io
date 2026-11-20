@@ -1,4 +1,4 @@
-import { nextTicketKickoff, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=reference-stake";
+import { nextTicketKickoff, recentPlayedTicketIds, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=ticket-reasoning";
 import { createTicketFilters } from "./ticketFilters.js?rev=calendar-filter-focus";
 import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
 import { renderLedger } from "./ledger.js?rev=reference-stake";
@@ -243,8 +243,10 @@ function connectDashboard(window, nonce, destination) {
   function drawTickets(now = Date.now()) {
     const current = showPlayed ? ledger : data;
     const render = showPlayed ? renderPlayedTickets : renderTickets;
+    const recent = showPlayed ? recentPlayedTicketIds(current.tickets, { now, includePending: true }) : null;
     render(tickets, {
       ...current, now, tickets: filters.apply(current.tickets), filtered: filters.isActive(), includePending: showPlayed,
+      showReasoning: recent ? (ticket) => recent.has(ticket.id) : true,
       onRetry: showPlayed ? retryLedger : onRetry,
     });
   }
@@ -342,9 +344,12 @@ function connectDashboard(window, nonce, destination) {
       if (originalLatest.getAttribute("aria-label") !== "Derniers pronostics") {
         originalLatest.setAttribute("aria-label", "Derniers pronostics");
       }
-      if (lastLatestRender !== data) {
-        renderLatestTickets(latest, { ...data, onViewAll, onRetry });
-        lastLatestRender = data;
+      if (lastLatestRender?.data !== data || lastLatestRender.ledger !== ledger) {
+        const now = Date.now();
+        const eligible = recentPlayedTicketIds(ledger.tickets, { now, includePending: true });
+        for (const ticket of ticketsForView(data.tickets, { now })) eligible.add(ticket.id);
+        renderLatestTickets(latest, { ...data, onViewAll, onRetry, showReasoning: (ticket) => eligible.has(ticket.id) });
+        lastLatestRender = { data, ledger };
       }
     }
 

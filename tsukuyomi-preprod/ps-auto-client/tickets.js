@@ -252,10 +252,14 @@ function metric(doc, label, value, outcome, exact) {
   return item;
 }
 
-function createTicketCard(doc, ticket, played, open, now = Date.now(), showImportedStake = false) {
+function createTicketCard(doc, ticket, played, open, {
+  now = Date.now(), showImportedStake = false, showReasoning = false, reasoningOpen = false,
+} = {}) {
   const canonical = isCanonicalTicket(ticket);
   const collapsible = played || (canonical && isPublished(ticket));
   const card = element(doc, "article", "tsukuyomi-ticket");
+  const reasoningText = showReasoning && typeof ticket.reasoning === "string" ? ticket.reasoning.trim() : "";
+  const reasoning = reasoningText ? element(doc, "details", "tsukuyomi-ticket-reasoning") : null;
   const header = element(doc, collapsible ? "summary" : "header", "tsukuyomi-ticket-header");
   const heading = element(doc, collapsible ? "span" : "div", "tsukuyomi-ticket-heading");
   const sports = typeof ticket.sport === "string" ? ticket.sport.trim() : "";
@@ -294,8 +298,8 @@ function createTicketCard(doc, ticket, played, open, now = Date.now(), showImpor
     card.append(details);
     content = details;
     card.addEventListener("click", ({ target }) => {
-      // The native summary handles clicks and keyboard events inside the details.
-      if (details.contains(target)) return;
+      // Both native disclosures handle their own clicks and keyboard events.
+      if (details.contains(target) || reasoning?.contains(target)) return;
       const selection = doc.getSelection();
       if (selection?.toString() && card.contains(selection.anchorNode)) return;
       details.open = !details.open;
@@ -340,6 +344,13 @@ function createTicketCard(doc, ticket, played, open, now = Date.now(), showImpor
   const net = netAmount(ticket);
   if (Number.isFinite(net)) metrics.append(metric(doc, net < 0 ? "Perte nette" : "Gain net", formatChf(net, true), outcome));
   card.append(metrics);
+  if (reasoning) {
+    if (ticket.id) reasoning.dataset.ticketId = ticket.id;
+    reasoning.open = reasoningOpen;
+    reasoning.append(element(doc, "summary", "tsukuyomi-ticket-reasoning-toggle", "Raisonnement"),
+      element(doc, "p", "tsukuyomi-ticket-reasoning-text", reasoningText));
+    card.append(reasoning);
+  }
   return card;
 }
 
@@ -395,18 +406,28 @@ export function ticketsForView(tickets, { view = "upcoming", now = Date.now(), i
   return ordered;
 }
 
-function renderFeed(mount, { tickets = [], status, onRetry, filtered, now = Date.now(), includePending = false }, { view, onViewAll }) {
+export function recentPlayedTicketIds(tickets, options) {
+  return new Set(ticketsForView(tickets, { ...options, view: "played" }).slice(0, 2).map((ticket) => ticket.id));
+}
+
+function renderFeed(mount, {
+  tickets = [], status, onRetry, filtered, now = Date.now(), includePending = false, showReasoning = false,
+}, { view, onViewAll }) {
   const doc = mount.ownerDocument;
   const feed = element(doc, "div", onViewAll ? "tsukuyomi-tickets-latest" : "tsukuyomi-tickets-page");
   const played = view === "played";
   feed.dataset.ticketView = view;
   const sameView = mount.firstElementChild?.dataset.ticketView === view;
-  const openTickets = new Map(sameView ? Array.from(
-    mount.querySelectorAll(".tsukuyomi-ticket-disclosure[data-ticket-id]"),
+  const disclosureStates = (className) => new Map(sameView ? Array.from(
+    mount.querySelectorAll(`.${className}[data-ticket-id]`),
     (details) => [details.dataset.ticketId, details.open],
   ) : []);
+  const openTickets = disclosureStates("tsukuyomi-ticket-disclosure");
+  const openReasoning = disclosureStates("tsukuyomi-ticket-reasoning");
   const active = doc.activeElement;
-  const focusedTicket = sameView && mount.contains(active) && active.matches(".tsukuyomi-ticket-disclosure > summary")
+  const focusSelector = active?.matches(".tsukuyomi-ticket-reasoning-toggle")
+    ? ".tsukuyomi-ticket-reasoning-toggle" : ".tsukuyomi-ticket-disclosure > summary";
+  const focusedTicket = sameView && mount.contains(active) && active.matches(focusSelector)
     ? active.parentElement.dataset.ticketId
     : null;
   let nextFocus;
@@ -443,8 +464,12 @@ function renderFeed(mount, { tickets = [], status, onRetry, filtered, now = Date
       const list = element(doc, "ul", "tsukuyomi-ticket-list");
       for (const ticket of group) {
         const item = element(doc, "li", "tsukuyomi-ticket-item");
-        item.append(createTicketCard(doc, ticket, played, openTickets.get(ticket.id) ?? !played, now));
-        if (focusedTicket && focusedTicket === ticket.id) nextFocus = item.querySelector("summary");
+        item.append(createTicketCard(doc, ticket, played, openTickets.get(ticket.id) ?? !played, {
+          now,
+          showReasoning: typeof showReasoning === "function" ? showReasoning(ticket) : showReasoning,
+          reasoningOpen: openReasoning.get(ticket.id),
+        }));
+        if (focusedTicket && focusedTicket === ticket.id) nextFocus = item.querySelector(focusSelector);
         list.append(item);
       }
       feed.append(list);
@@ -472,10 +497,10 @@ export function renderFeaturedTicket(mount, ticket) {
   mount.replaceChildren(createTicketCard(mount.ownerDocument, ticket, true, true));
 }
 
-export function renderPublicationTicket(mount, ticket) {
-  mount.replaceChildren(createTicketCard(mount.ownerDocument, ticket, false, true, Date.now(), true));
+export function renderPublicationTicket(mount, ticket, { showReasoning = false } = {}) {
+  mount.replaceChildren(createTicketCard(mount.ownerDocument, ticket, false, true, { showImportedStake: true, showReasoning }));
 }
 
-export function renderLatestTickets(mount, { tickets, status, onRetry, onViewAll }) {
-  renderFeed(mount, { tickets, status, onRetry }, { view: "latest", onViewAll });
+export function renderLatestTickets(mount, { tickets, status, onRetry, onViewAll, showReasoning }) {
+  renderFeed(mount, { tickets, status, onRetry, showReasoning }, { view: "latest", onViewAll });
 }
