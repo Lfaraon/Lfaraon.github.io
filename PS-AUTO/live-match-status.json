@@ -2390,20 +2390,38 @@
       "sets": "6-3, 6-4"
     },
     "recCal20261120P76080462": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "provider": "Flashscore Portugal — score final : 1-1 après prolongation, FC Porto vainqueur 3-1 aux tirs au but",
       "observedLive": false,
-      "checkedAt": "2026-11-20T21:34:45.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+      "checkedAt": "2026-11-20T23:42:10.575Z",
+      "sourceUrl": "https://www.flashscore.pt/noticias/futebol-taca-de-portugal-jornada-ao-vivo-fc-porto-paredes-e-jogo-grande-na-arabia-saudita/K05tVgyR/",
+      "statusBasis": "Score prouvé par compte rendu Flashscore du 20.11.2026 : FC Porto–Paredes 1-1 après prolongation, qualification Porto aux tirs au but (3-1).",
+      "score": "1-1"
     },
     "recCal20261120P67682108": {
+      "status": "Terminé",
+      "provider": "La Hora de King Kong — compte rendu du résultat final Cobresal–Audax Italiano",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T23:42:10.575Z",
+      "sourceUrl": "https://lahoradekingkong.cl/noticias/cobresal-tomo-aire-ante-un-zombie-audax-que-coquetea-con-el-descenso",
+      "statusBasis": "Score final prouvé : 3-2, match du 20.11.2026.",
+      "score": "3-2"
+    },
+    "recCal20261121L89684": {
       "status": "En cours",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
-      "checkedAt": "2026-11-20T21:34:45.000Z",
+      "checkedAt": "2026-11-20T23:42:10.575Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé à l'heure du kickoff publié ; aucun direct confirmé, aucun score final."
+      "statusBasis": "Début présumé depuis le kickoff publié 2026-11-20T23:00:00Z ; pas de score final."
+    },
+    "recCal20261121P67682114": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-20T23:42:10.575Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Début présumé depuis le kickoff publié 2026-11-20T23:30:00Z ; pas de score final."
     }
   }
 }
