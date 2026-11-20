@@ -1789,20 +1789,22 @@
       "statusBasis": "Final confirmé sur fiche dynamique FotMob : Kalba FC 0-3 Sharjah Cultural Club, but Doumbia 11', Laba 82' et 87'. Score final prouvé (pas estimé de l'horaire)."
     },
     "recCal20261120L91106": {
-      "status": "En cours",
-      "provider": "Flashscore — suivi 2e période 20.11.2026, vers 79e, 1-1 provisoire",
+      "status": "Terminé",
+      "provider": "FotMob — fiche du match 20.11.2026, Full Time 1-2",
       "observedLive": true,
-      "sourceUrl": "https://www.flashscore.com/match/football/al-duhail-WYZnRzI1/qatar-sc-YglhkXAP/",
-      "checkedAt": "2026-11-20T14:46:44.129Z",
-      "statusBasis": "Fiche précise du match de 20.11.2026, suivi en 2e période vers 79e, score 1-1 PROVISOIRE, sans score final. Ancien lien beIN portait par erreur la date 27.11."
+      "sourceUrl": "https://www.fotmob.com/en-GB/matches/qatar-sc-vs-al-duhail-sc/lgwjlqr",
+      "checkedAt": "2026-11-20T15:38:42.381Z",
+      "statusBasis": "Résultat final vérifié sur FotMob : Al-Duhail SC 1–2 Qatar SC, buts Diouf csc 71', Pedro 19', Saoudi 90' (domicile–extérieur).",
+      "score": "1-2"
     },
     "recCal20261120L90901": {
-      "status": "En cours",
-      "provider": "TNT Sports / Flashscore — suivi 2e période 20.11.2026, vers 82e, 3-2 provisoire",
+      "status": "Terminé",
+      "provider": "FotMob — fiche du match 20.11.2026, Full Time 3-2",
       "observedLive": true,
-      "sourceUrl": "https://www.tntsports.co.uk/football/doha-bank-stars-league/2026-2027/al-sadd-lusail_mtc21915927/live.shtml",
-      "checkedAt": "2026-11-20T14:46:44.129Z",
-      "statusBasis": "Fiche précise du match de 20.11.2026, en cours vers 82e, score 3-2 PROVISOIRE. Ancien lien beIN portait par erreur la date 27.11."
+      "sourceUrl": "https://www.fotmob.com/en-GB/matches/al-sadd-vs-lusail-sc/n5j00q4h",
+      "checkedAt": "2026-11-20T15:38:42.381Z",
+      "statusBasis": "Résultat final vérifié sur FotMob : Al-Sadd SC 3–2 Lusail City (domicile–extérieur).",
+      "score": "3-2"
     },
     "recCal20261120P76736454": {
       "status": "Terminé",
@@ -1813,6 +1815,30 @@
       "score": "2-0",
       "sets": "6-4, 6-1",
       "statusBasis": "Final explicite : Alcaraz bat Cobolli 6-4, 6-1 (ATP Finals, 20.11.2026). Ordre des joueurs conforme à match-source.json. Source actualisée à 15h32 CET."
+    },
+    "recCal20261120L90520": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-20T15:38:42.381Z",
+      "statusBasis": "Coup d'envoi publié atteint le 20.11.2026 ; statut présumé selon l'heure de match-source.json, aucun flux vivant observé, aucun score final établi."
+    },
+    "recCal20261120L91105": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-20T15:38:42.381Z",
+      "statusBasis": "Coup d'envoi publié atteint le 20.11.2026 ; statut présumé selon l'heure de match-source.json, aucun flux vivant observé, aucun score final établi."
+    },
+    "recCal20261120L87731": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-20T15:38:42.381Z",
+      "statusBasis": "Coup d'envoi publié atteint le 20.11.2026 ; statut présumé selon l'heure de match-source.json, aucun flux vivant observé, aucun score final établi."
     }
   }
 }
