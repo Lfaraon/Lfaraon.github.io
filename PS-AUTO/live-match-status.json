@@ -1738,12 +1738,12 @@
       "score": "1-1"
     },
     "recCal20261120L87825": {
-      "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
+      "status": "En cours",
+      "provider": "A-Leagues — score dynamique en direct observé 95:01 (+6), match encore en cours",
+      "observedLive": true,
       "statusBasis": "Coup d'envoi prévu le 20.11.2026 à 08:40 UTC (09:40 suisse), dépassé au contrôle 10:33:57 suisse. Début présumé sur horaire, pas de flux vivant ni de score observés; aucune annulation ou modification d'horaire confirmée.",
-      "checkedAt": "2026-11-20T10:42:00.988Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-20T10:44:01.065Z",
+      "sourceUrl": "https://aleagues.com.au/match/a-league-men/western-sydney-wanderers-vs-adelaide-united-20-11-2026/"
     },
     "recCal20261120L90467": {
       "status": "En cours",
@@ -1765,6 +1765,13 @@
       "observedLive": false,
       "checkedAt": "2026-11-20T10:42:00.988Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261120P76736476": {
+      "status": "En cours",
+      "observedLive": true,
+      "checkedAt": "2026-11-20T10:44:01.065Z",
+      "provider": "Tennis.com — 1er set en direct, jeux 2-0 et points 40-30, service constaté via navigateur dynamique",
+      "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/harrison-c-skupski-n-vs-granollers-m-zeballos-h-2026-11-20"
     }
   }
 }
