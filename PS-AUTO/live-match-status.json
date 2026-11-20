@@ -1958,75 +1958,84 @@
     },
     "recCal20261120L89487": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
-      "checkedAt": "2026-11-20T20:38:19.030Z"
+      "provider": "TV2 Østjylland — compte rendu du 20.11.2026, victoire confirmée d'AGF Aarhus 2-1 face à Lyngby",
+      "observedLive": true,
+      "sourceUrl": "https://tv2ostjylland.dk/aarhus/agf-tager-ny-sejr-og-har-en-fod-i-top-6-b8710",
+      "statusBasis": "Score final prouvé sur fiche détaillée du 20.11.2026, même équipes / compétition / date. Résultat sportif vérifié, non présumé à l'horaire.",
+      "checkedAt": "2026-11-20T20:40:07.231Z",
+      "score": "2-1"
     },
     "recCal20261120L91580": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
-      "checkedAt": "2026-11-20T20:38:19.030Z"
+      "provider": "SportyTV — fiche Super League féminine, FT Grasshopper Zurich 3-0 FC Basel",
+      "observedLive": true,
+      "sourceUrl": "https://sporty.com/football/super-league-women/match/grasshopper-zurich-vs-fc-basel/sr:match:72652102",
+      "statusBasis": "Score final prouvé sur fiche détaillée du 20.11.2026, même équipes / compétition / date. Résultat sportif vérifié, non présumé à l'horaire.",
+      "checkedAt": "2026-11-20T20:40:07.231Z",
+      "score": "3-0"
     },
     "recCal20261120P72680302": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
-      "checkedAt": "2026-11-20T20:38:19.030Z"
+      "provider": "Footlive — résultat final Finished, Havelse 1-6 Viktoria Köln, 20.11.2026",
+      "observedLive": true,
+      "sourceUrl": "https://footlive.com/score/tsv-havelse-vs-viktoria-koln-2026-11-20",
+      "statusBasis": "Score final prouvé sur fiche détaillée du 20.11.2026, même équipes / compétition / date. Résultat sportif vérifié, non présumé à l'horaire.",
+      "checkedAt": "2026-11-20T20:40:07.231Z",
+      "score": "1-6"
     },
     "recCal20261120P67015472": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
-      "checkedAt": "2026-11-20T20:38:19.030Z"
+      "provider": "Footlive — résultat final Finished, Molde 2-4 Bodø/Glimt, 20.11.2026",
+      "observedLive": true,
+      "sourceUrl": "https://footlive.com/score/molde-fk-vs-bodo-glimt-2026-11-20",
+      "statusBasis": "Score final prouvé sur fiche détaillée du 20.11.2026, même équipes / compétition / date. Résultat sportif vérifié, non présumé à l'horaire.",
+      "checkedAt": "2026-11-20T20:40:07.231Z",
+      "score": "2-4"
     },
     "recCal20261120L87730": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
-      "checkedAt": "2026-11-20T20:38:19.030Z"
+      "provider": "Footlive — résultat final Finished, Farul 2-3 Universitatea Cluj, 20.11.2026",
+      "observedLive": true,
+      "sourceUrl": "https://footlive.com/score/farul-constanta-vs-universitatea-cluj-2026-11-20",
+      "statusBasis": "Score final prouvé sur fiche détaillée du 20.11.2026, même équipes / compétition / date. Résultat sportif vérifié, non présumé à l'horaire.",
+      "checkedAt": "2026-11-20T20:40:07.231Z",
+      "score": "2-3"
     },
     "recCal20261120L90338": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
-      "checkedAt": "2026-11-20T20:38:19.030Z"
+      "provider": "Sportradar StatsHub — Ended FT, Stade Lausanne-Ouchy 3-1 Kriens, 20.11.2026",
+      "observedLive": true,
+      "sourceUrl": "https://scores.sir.sportradar.com/en/match/72176648/report",
+      "statusBasis": "Score final prouvé sur fiche détaillée du 20.11.2026, même équipes / compétition / date. Résultat sportif vérifié, non présumé à l'horaire.",
+      "checkedAt": "2026-11-20T20:40:07.231Z",
+      "score": "3-1"
     },
     "recCal20261120L90342": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
-      "checkedAt": "2026-11-20T20:38:19.030Z"
+      "provider": "Footlive — résultat final Finished, Rapperswil-Jona 2-1 Aarau, 20.11.2026",
+      "observedLive": true,
+      "sourceUrl": "https://footlive.com/score/fc-rapperswil-jona-vs-fc-aarau-2026-11-20",
+      "statusBasis": "Score final prouvé sur fiche détaillée du 20.11.2026, même équipes / compétition / date. Résultat sportif vérifié, non présumé à l'horaire.",
+      "checkedAt": "2026-11-20T20:40:07.231Z",
+      "score": "2-1"
     },
     "recCal20261120L90344": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
-      "checkedAt": "2026-11-20T20:38:19.030Z"
+      "provider": "Footlive — résultat final Finished, Stade Nyonnais 0-1 Wil, 20.11.2026",
+      "observedLive": true,
+      "sourceUrl": "https://footlive.com/score/stade-nyonnais-vs-fc-wil-2026-11-20",
+      "statusBasis": "Score final prouvé sur fiche détaillée du 20.11.2026, même équipes / compétition / date. Résultat sportif vérifié, non présumé à l'horaire.",
+      "checkedAt": "2026-11-20T20:40:07.231Z",
+      "score": "0-1"
     },
     "recCal20261120L90345": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Clôture présumée au seuil de +120 minutes depuis le coup d'envoi publié ; score final non vérifié.",
-      "checkedAt": "2026-11-20T20:38:19.030Z"
+      "provider": "Footlive — résultat final Finished, Neuchâtel Xamax 1-0 Etoile Carouge, 20.11.2026",
+      "observedLive": true,
+      "sourceUrl": "https://www.footlive.com/score/neuchatel-xamax-vs-etoile-carouge-2026-11-20",
+      "statusBasis": "Score final prouvé sur fiche détaillée du 20.11.2026, même équipes / compétition / date. Résultat sportif vérifié, non présumé à l'horaire.",
+      "checkedAt": "2026-11-20T20:40:07.231Z",
+      "score": "1-0"
     },
     "recCal20261120P72044830": {
       "status": "En cours",
