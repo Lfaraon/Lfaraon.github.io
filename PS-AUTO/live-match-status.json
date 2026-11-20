@@ -1836,11 +1836,12 @@
     },
     "recCal20261120L87731": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "FotMob — résultat final 3-3 confirmé (Full time)",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T17:40:59.050Z",
-      "statusBasis": "Statut clôturé à plus de 120 min du kickoff publié (15:30 UTC) ; FotMob indique des buts jusqu'à 74e mais n'affiche pas explicitement Full Time. Score final non vérifié, laissé vide."
+      "sourceUrl": "https://www.fotmob.com/matches/botosani-vs-fc-voluntari/28wyikiq",
+      "checkedAt": "2026-11-20T17:48:08.399Z",
+      "statusBasis": "Résultat final confirmé sur la fiche précise du 20.11.2026 (Full time/FT)",
+      "score": "3-3"
     },
     "recCal20261120L91188": {
       "status": "En cours",
