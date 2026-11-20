@@ -1780,32 +1780,39 @@
       "sets": "7-6(7-5), 6-4"
     },
     "recCal20261120L90565": {
-      "status": "En cours",
-      "provider": "GoalBot — suivi live à la mi-temps",
+      "status": "Terminé",
+      "provider": "FotMob — fiche dynamique, Full Time du 20.11.2026",
       "observedLive": true,
-      "sourceUrl": "https://scoreboard.goalbot.dev/m/2026-11-20-al-ittihad-kalba-united-arab-emirates-sharjah-fc-united-arab-emirates-pro-league-united-arab-emirates",
-      "checkedAt": "2026-11-20T13:43:14.891Z"
+      "sourceUrl": "https://www.fotmob.com/matches/sharjah-cultural-club-vs-kalba-fc/m9ezahd",
+      "checkedAt": "2026-11-20T14:46:17.750Z",
+      "score": "0-3",
+      "statusBasis": "Final confirmé sur fiche dynamique FotMob : Kalba FC 0-3 Sharjah Cultural Club, but Doumbia 11', Laba 82' et 87'. Score final prouvé (pas estimé de l'horaire)."
     },
     "recCal20261120L91106": {
       "status": "En cours",
-      "provider": "beIN SPORTS — suivi direct à la 42e minute",
+      "provider": "Flashscore — suivi 2e période 20.11.2026, vers 79e, 1-1 provisoire",
       "observedLive": true,
-      "sourceUrl": "https://www.beinsports.com/en-us/soccer/stars-league/al-duhail-vs-qatar-sc-2026-11-27",
-      "checkedAt": "2026-11-20T13:43:14.891Z"
+      "sourceUrl": "https://www.flashscore.com/match/football/al-duhail-WYZnRzI1/qatar-sc-YglhkXAP/",
+      "checkedAt": "2026-11-20T14:46:44.129Z",
+      "statusBasis": "Fiche précise du match de 20.11.2026, suivi en 2e période vers 79e, score 1-1 PROVISOIRE, sans score final. Ancien lien beIN portait par erreur la date 27.11."
     },
     "recCal20261120L90901": {
       "status": "En cours",
-      "provider": "beIN SPORTS — suivi direct à la 43e minute",
+      "provider": "TNT Sports / Flashscore — suivi 2e période 20.11.2026, vers 82e, 3-2 provisoire",
       "observedLive": true,
-      "sourceUrl": "https://www.beinsports.com/en-us/soccer/stars-league/al-sadd-vs-lusail-city-2026-11-27",
-      "checkedAt": "2026-11-20T13:43:14.891Z"
+      "sourceUrl": "https://www.tntsports.co.uk/football/doha-bank-stars-league/2026-2027/al-sadd-lusail_mtc21915927/live.shtml",
+      "checkedAt": "2026-11-20T14:46:44.129Z",
+      "statusBasis": "Fiche précise du match de 20.11.2026, en cours vers 82e, score 3-2 PROVISOIRE. Ancien lien beIN portait par erreur la date 27.11."
     },
     "recCal20261120P76736454": {
-      "status": "En cours",
-      "provider": "Sky Sport — flux de jeux en direct confirmé",
+      "status": "Terminé",
+      "provider": "The Guardian — compte-rendu du direct, résultat final du 20.11.2026 15h22 CET",
       "observedLive": true,
-      "sourceUrl": "https://sport.sky.it/tennis/2026/11/20/cobolli-alcaraz-atp-finals-risultato",
-      "checkedAt": "2026-11-20T13:42:05.903Z"
+      "sourceUrl": "https://www.theguardian.com/sport/live/2026/nov/20/carlos-alcaraz-v-flavio-cobolli-atp-finals-tennis-group-stage-live",
+      "checkedAt": "2026-11-20T14:46:17.750Z",
+      "score": "2-0",
+      "sets": "6-4, 6-1",
+      "statusBasis": "Final explicite : Alcaraz bat Cobolli 6-4, 6-1 (ATP Finals, 20.11.2026). Ordre des joueurs conforme à match-source.json. Source actualisée à 15h32 CET."
     }
   }
 }
