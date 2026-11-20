@@ -1778,6 +1778,27 @@
       "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/harrison-c-skupski-n-vs-granollers-m-zeballos-h-2026-11-20",
       "score": "2-0",
       "sets": "7-6(7-5), 6-4"
+    },
+    "recCal20261120L90565": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-20T13:38:41.000Z"
+    },
+    "recCal20261120L91106": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-20T13:38:41.000Z"
+    },
+    "recCal20261120L90901": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-20T13:38:41.000Z"
     }
   }
 }
