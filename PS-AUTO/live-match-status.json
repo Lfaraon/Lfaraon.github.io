@@ -1747,32 +1747,37 @@
       "score": "4-2"
     },
     "recCal20261120L90467": {
-      "status": "En cours",
-      "provider": "J.LEAGUE officiel — LIVE, 2e mi-temps (~15e) ; 0-0 provisoire, score final non vérifié",
+      "status": "Terminé",
+      "provider": "J.LEAGUE officiel — Full Time, Kashima Antlers 1–1 Shimizu S-Pulse (20.11.2026)",
       "observedLive": true,
-      "checkedAt": "2026-11-20T11:41:13.974Z",
-      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112002/"
+      "checkedAt": "2026-11-20T12:33:59.734Z",
+      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112002/",
+      "score": "1-1"
     },
     "recCal20261120L90469": {
-      "status": "En cours",
-      "provider": "J.LEAGUE officiel — LIVE, 2e mi-temps (~7e) ; 0-0 provisoire, score final non vérifié",
+      "status": "Terminé",
+      "provider": "J.LEAGUE officiel — Full Time, Kashiwa Reysol 0–1 JEF United Chiba (20.11.2026)",
       "observedLive": true,
-      "checkedAt": "2026-11-20T11:41:13.974Z",
-      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112001/"
+      "checkedAt": "2026-11-20T12:33:59.734Z",
+      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112001/",
+      "score": "0-1"
     },
     "recCal20261120L90468": {
-      "status": "En cours",
-      "provider": "J.LEAGUE officiel — LIVE, 2e mi-temps (~12e) ; 1-1 provisoire, score final non vérifié",
+      "status": "Terminé",
+      "provider": "J.LEAGUE officiel — Full Time, Vissel Kobe 1–2 Mito Hollyhock (20.11.2026)",
       "observedLive": true,
-      "checkedAt": "2026-11-20T11:41:13.974Z",
-      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112003/"
+      "checkedAt": "2026-11-20T12:33:59.734Z",
+      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112003/",
+      "score": "1-2"
     },
     "recCal20261120P76736476": {
-      "status": "En cours",
+      "status": "Terminé",
       "observedLive": true,
-      "checkedAt": "2026-11-20T10:44:01.065Z",
-      "provider": "Tennis.com — 1er set en direct, jeux 2-0 et points 40-30, service constaté via navigateur dynamique",
-      "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/harrison-c-skupski-n-vs-granollers-m-zeballos-h-2026-11-20"
+      "checkedAt": "2026-11-20T12:33:59.734Z",
+      "provider": "Tennis.com — Completed, Harrison/Skupski bat Granollers/Zeballos 7–6(7–5), 6–4 (20.11.2026)",
+      "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/harrison-c-skupski-n-vs-granollers-m-zeballos-h-2026-11-20",
+      "score": "2-0",
+      "sets": "7-6(7-5), 6-4"
     }
   }
 }
