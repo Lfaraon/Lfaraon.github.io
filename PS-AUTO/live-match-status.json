@@ -1845,11 +1845,12 @@
     },
     "recCal20261120L91188": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-20T18:38:58.840Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Fin présumée à +120 min depuis 16:00 UTC. Score final non vérifié : Foot Mercato affichait 1-0 à 90', ScoreMondo 2-0 à 90+2, sans preuve explicite FT ; ne pas enregistrer de score provisoire."
+      "provider": "Foot Mercato — fiche précise, résultat final confirmé",
+      "observedLive": true,
+      "checkedAt": "2026-11-20T18:39:55.147Z",
+      "sourceUrl": "https://www.footmercato.net/live/4111901453832786536-aso-chlef-vs-usm-khenchela",
+      "statusBasis": "Résultat final prouvé sur la fiche exacte Foot Mercato du 20.11.2026 : « terminé », ASO Chlef 2-0 USM Khenchela ; buts Feddal 75e, Debbari 87e. Non déduit de l'horaire.",
+      "score": "2-0"
     },
     "recCal20261120L91189": {
       "status": "Terminé",
