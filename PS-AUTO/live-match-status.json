@@ -1937,11 +1937,12 @@
     },
     "recCal20261120P72513984": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "FotMob — fiche dynamique Full time vérifiée le 20.11.2026",
+      "sourceUrl": "https://www.fotmob.com/matches/darmstadt-vs-fc-heidenheim/2g2gqbt",
       "observedLive": false,
-      "statusBasis": "Fin présumée à +120 minutes depuis le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-20T19:33:58.462Z"
+      "statusBasis": "Résultat final 3-1 explicitement affiché 'Full time' sur la fiche FotMob du 20.11.2026.",
+      "checkedAt": "2026-11-20T19:35:54.377Z",
+      "score": "3-1"
     },
     "recCal20261120L91253": {
       "status": "Terminé",
