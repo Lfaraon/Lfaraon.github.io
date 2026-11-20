@@ -1736,6 +1736,14 @@
       "observedLive": true,
       "sourceUrl": "https://bleacherreport.com/game/seattle-sounders-fc-vs-real-salt-lake-2026-11-19-19-00",
       "score": "1-1"
+    },
+    "recCal20261120L87825": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "statusBasis": "Coup d'envoi prévu le 20.11.2026 à 08:40 UTC (09:40 suisse), dépassé au contrôle 10:33:57 suisse. Début présumé sur horaire, pas de flux vivant ni de score observés; aucune annulation ou modification d'horaire confirmée.",
+      "checkedAt": "2026-11-20T09:33:57.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     }
   }
 }
