@@ -1730,11 +1730,12 @@
       "score": "0-1"
     },
     "recCal20261120P76573130": {
-      "status": "En cours",
-      "provider": "Bleacher Report — direct 1–1 à la 66e minute (19.11.2026)",
-      "checkedAt": "2026-11-20T04:41:23.754Z",
+      "status": "Terminé",
+      "provider": "Bleacher Report — résultat Final vérifié 1–1, Real Salt Lake vainqueur aux tirs au but 4–2 (19.11.2026)",
+      "checkedAt": "2026-11-20T05:37:26.859Z",
       "observedLive": true,
-      "sourceUrl": "https://bleacherreport.com/game/seattle-sounders-fc-vs-real-salt-lake-2026-11-19-19-00"
+      "sourceUrl": "https://bleacherreport.com/game/seattle-sounders-fc-vs-real-salt-lake-2026-11-19-19-00",
+      "score": "1-1"
     }
   }
 }
