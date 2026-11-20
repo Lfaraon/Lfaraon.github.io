@@ -423,8 +423,8 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 .tsukuyomi-ticket-probability { color: var(--tsukuyomi-muted); }
 
 .tsukuyomi-ticket-odds {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 90px), 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 8px 10px;
   margin: 6px 0 0;
   padding: 9px 10px;
@@ -435,6 +435,10 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 }
 
 .tsukuyomi-ticket-metric { min-width: 0; overflow-wrap: anywhere; }
+.tsukuyomi-ticket-odds > .tsukuyomi-ticket-metric {
+  flex: 1 1 auto;
+  max-inline-size: 100%;
+}
 .tsukuyomi-ticket-metric[data-outcome="won"] dd { color: var(--ticket-won); }
 .tsukuyomi-ticket-metric[data-outcome="lost"] dd { color: var(--ticket-lost); }
 
@@ -447,6 +451,12 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
   margin: 2px 0 0;
   font-size: 16px;
   font-weight: 700;
+}
+
+.tsukuyomi-ticket-odds dd {
+  overflow-x: auto;
+  overflow-wrap: normal;
+  white-space: nowrap;
 }
 
 .tsukuyomi-ticket-reasoning {
