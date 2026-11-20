@@ -1817,35 +1817,38 @@
       "statusBasis": "Final explicite : Alcaraz bat Cobolli 6-4, 6-1 (ATP Finals, 20.11.2026). Ordre des joueurs conforme à match-source.json. Source actualisée à 15h32 CET."
     },
     "recCal20261120L90520": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T15:38:42.381Z",
-      "statusBasis": "Coup d'envoi publié atteint le 20.11.2026 ; statut présumé selon l'heure de match-source.json, aucun flux vivant observé, aucun score final établi."
+      "status": "Terminé",
+      "provider": "YSScores — résultat final, événements et buts",
+      "observedLive": true,
+      "sourceUrl": "https://www.ysscores.com/en/match/6366057/Shabab-Al-Ahli-Club-vs-Ajman-Club-statics",
+      "checkedAt": "2026-11-20T17:40:59.050Z",
+      "statusBasis": "Score final 3-1 établi sur fiche du match du 20/11/2026 : YSScores indique 'Ended' et 4 buteurs (15e, 27e, 72e, 98e).",
+      "score": "3-1"
     },
     "recCal20261120L91105": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T15:38:42.381Z",
-      "statusBasis": "Coup d'envoi publié atteint le 20.11.2026 ; statut présumé selon l'heure de match-source.json, aucun flux vivant observé, aucun score final établi."
+      "status": "Terminé",
+      "provider": "ScoreMondo — fiche match, Final et chronologie",
+      "observedLive": true,
+      "sourceUrl": "https://scoremondo.com/es/partido/al-gharafa-sc-al-arabi-sc-doha-31587619",
+      "checkedAt": "2026-11-20T17:40:59.050Z",
+      "statusBasis": "Score final 3-2 vérifié sur fiche 20/11/2026, 'Final', dernier but à 90e et coup de sifflet 90+12.",
+      "score": "3-2"
     },
     "recCal20261120L87731": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-20T15:38:42.381Z",
-      "statusBasis": "Coup d'envoi publié atteint le 20.11.2026 ; statut présumé selon l'heure de match-source.json, aucun flux vivant observé, aucun score final établi."
+      "checkedAt": "2026-11-20T17:40:59.050Z",
+      "statusBasis": "Statut clôturé à plus de 120 min du kickoff publié (15:30 UTC) ; FotMob indique des buts jusqu'à 74e mais n'affiche pas explicitement Full Time. Score final non vérifié, laissé vide."
     },
     "recCal20261120L91188": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-20T16:39:12.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "Foot Mercato — fiche live ASO Chlef–Khenchela",
+      "observedLive": true,
+      "checkedAt": "2026-11-20T17:40:59.050Z",
+      "sourceUrl": "https://www.footmercato.net/live/4111901453832786536-aso-chlef-vs-usm-khenchela",
+      "statusBasis": "Live confirmé : 79e minute, 1-0 provisoire, but A. Feddal 75e ; ce n'est pas un score final."
     },
     "recCal20261120L91189": {
       "status": "En cours",
@@ -1863,10 +1866,11 @@
     },
     "recCal20261120L89509": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-20T16:39:12.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "FotMob — fiche live Septemvri–Lokomotiv",
+      "observedLive": true,
+      "checkedAt": "2026-11-20T17:40:59.050Z",
+      "sourceUrl": "https://www.fotmob.com/en-GB/matches/lokomotiv-plovdiv-vs-septemvri-sofia/nz9vh6p",
+      "statusBasis": "Direct confirmé par événements précis dans la fiche : remplacements 77e, 72e, 63e. Aucun score final publié."
     },
     "recCal20261120P76682394": {
       "status": "À venir",
@@ -1887,6 +1891,54 @@
       "sourceUrl": "https://en.tennistemple.com/match/masarova-samson-colina-2026/9570955/comments",
       "scheduledKickoff": "2026-11-20T22:00:00.000Z",
       "statusBasis": "Début non observé : Tennis.com (navigateur dynamique) affiche Upcoming et aucun jeu/point. Ordre de jeu Colina TennisTemple reporte le quart après d'autres matchs à 22:00 UTC (~23:00 suisse), heure indicative car 'followed by'. Ancien horaire 15:00 UTC du snapshot périmé ; ne pas déclencher les seuils de clôture à partir de celui-ci."
+    },
+    "recCal20261120P76736472": {
+      "status": "En cours",
+      "provider": "Tennis.com — fiche interactive ATP Finals, statistiques de jeux/services",
+      "sourceUrl": "https://www.tennis.com/tournaments/nitto-atp-finals/matches/bolelli-s-vavassori-a-vs-krawietz-k-puetz-t-2026-11-20",
+      "observedLive": true,
+      "statusBasis": "Début réel confirmé : 3 jeux de service remportés Bolelli/Vavassori et 4 Krawietz/Pütz, 3 aces et 1 ace sur la fiche mise à jour ; score final non enregistré.",
+      "checkedAt": "2026-11-20T17:40:59.050Z"
+    },
+    "recCal20261120L89557": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "Kickoff prévu 17:00 UTC atteint le 20/11 ; statut déduit de l'heure, aucun score final vérifié.",
+      "checkedAt": "2026-11-20T17:40:59.050Z"
+    },
+    "recCal20261120L90391": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "Kickoff prévu 17:30 UTC atteint le 20/11 ; statut déduit de l'heure, aucun score final vérifié.",
+      "checkedAt": "2026-11-20T17:40:59.050Z"
+    },
+    "recCal20261120P72513992": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "Kickoff prévu 17:30 UTC atteint le 20/11 ; statut déduit de l'heure, aucun score final vérifié.",
+      "checkedAt": "2026-11-20T17:40:59.050Z"
+    },
+    "recCal20261120P72513984": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "Kickoff prévu 17:30 UTC atteint le 20/11 ; statut déduit de l'heure, aucun score final vérifié.",
+      "checkedAt": "2026-11-20T17:40:59.050Z"
+    },
+    "recCal20261120L91253": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "Kickoff prévu 17:30 UTC atteint le 20/11 ; statut déduit de l'heure, aucun score final vérifié.",
+      "checkedAt": "2026-11-20T17:40:59.050Z"
     }
   }
 }
