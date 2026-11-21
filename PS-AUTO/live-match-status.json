@@ -3921,11 +3921,12 @@
     },
     "recCal20261121P76080480": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut Terminé présumé à +120 min depuis 2026-11-21T17:00:00.000Z; score final non vérifié",
+      "provider": "Flashscore.pt — fin après prolongation, qualification TAB",
+      "statusBasis": "0-0 après 120 minutes; Marítimo vainqueur aux tirs au but 3-2, ne pas confondre tirs au but et buts du match",
       "observedLive": false,
-      "checkedAt": "2026-11-21T19:33:53.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T20:33:30.000Z",
+      "sourceUrl": "https://www.flashscore.pt/noticias/castigo-maximo-para-tanto-desperdicio-maritimo-vence-chaves-nos-penaltis-3-2/0ldhopGt/",
+      "score": "0-0"
     },
     "recCal20261121L89525": {
       "status": "Terminé",
@@ -4062,11 +4063,12 @@
     },
     "recCal20261121L87349": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Edinburgh News — compte rendu final 21.11.2026",
       "observedLive": false,
       "checkedAt": "2026-11-21T20:33:30.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut Terminé présumé depuis le kickoff 2026-11-21T17:45:00.000Z (168 min écoulées), score final non vérifié"
+      "sourceUrl": "https://www.edinburghnews.scotsman.com/sport/football/hearts/dundee-0-8-hearts-player-ratings-first-since-1957-vrancken-takes-devlins-song-red-card-fans-anger-9365709",
+      "statusBasis": "Dundee 0-8 Hearts confirmé en fin de rencontre",
+      "score": "0-8"
     },
     "recCal20261121P72041254": {
       "status": "Terminé",
