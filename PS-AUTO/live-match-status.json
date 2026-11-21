@@ -3256,11 +3256,12 @@
     },
     "recCal20261121P76080486": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:40:44.693Z",
+      "provider": "ScoreMondo — fiche AVS–Tondela indiquant Fin",
+      "sourceUrl": "https://scoremondo.com/fr/match/avs-vila-das-aves-tondela-31486315",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Score final vérifié via ScoreMondo — fiche AVS–Tondela indiquant Fin; aucun score provisoire ni déduction horaire",
+      "score": "1-5"
     },
     "recCal20261121P72342384": {
       "status": "Terminé",
@@ -3791,11 +3792,12 @@
     },
     "recCal20261121P76080484": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T16:00:00.000Z, 151 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure",
+      "provider": "r/PrimeiraLiga — post FT et 5 buts Estoril–Felgueiras, source communautaire",
+      "statusBasis": "Score final vérifié via r/PrimeiraLiga — post FT et 5 buts Estoril–Felgueiras, source communautaire; aucun score provisoire ni déduction horaire",
       "observedLive": false,
-      "checkedAt": "2026-11-21T18:31:16.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T18:40:44.693Z",
+      "sourceUrl": "https://www.reddit.com/r/PrimeiraLiga/comments/1y1zyjo/match_thread_estoril_vs_felgueiras_1932_ta%C3%A7a_de/",
+      "score": "2-3"
     },
     "recCal20261121L89458": {
       "status": "Terminé",
@@ -3808,11 +3810,12 @@
     },
     "recCal20261121L87712": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T16:00:00.000Z, 151 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure",
+      "provider": "FootballCritic — fiche LASK–Hartberg FT (score MT et final 2-1)",
+      "statusBasis": "Score final vérifié via FootballCritic — fiche LASK–Hartberg FT (score MT et final 2-1); aucun score provisoire ni déduction horaire",
       "observedLive": false,
-      "checkedAt": "2026-11-21T18:31:16.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T18:40:44.693Z",
+      "sourceUrl": "https://www.footballcritic.com/bundesliga-lask-linz-tsv-egger-glas-hartberg/match-stats/4350655",
+      "score": "2-1"
     },
     "recCal20261121L87715": {
       "status": "Terminé",
