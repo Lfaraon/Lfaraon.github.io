@@ -2866,10 +2866,11 @@
     },
     "recCal20261121P72680288": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Tagesschau/WDR — score définitif 21.11.2026 Düsseldorf 3–1 Grossaspach",
       "observedLive": false,
       "checkedAt": "2026-11-21T15:40:01.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/wdr-31-ueber-grossaspach-duesseldorf-beendet-sieglos-serie-in-der-3-liga-100.html",
+      "score": "3-1"
     },
     "recCal20261121L89459": {
       "status": "Terminé",
