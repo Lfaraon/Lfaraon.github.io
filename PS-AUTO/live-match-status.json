@@ -2654,45 +2654,51 @@
     },
     "recCal20261121P72513988": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "LiveScore.mobi — FT Nuremberg–Braunschweig confirmé",
+      "sourceUrl": "https://www.livescore.mobi/football/2026-11-21/",
       "observedLive": false,
-      "checkedAt": "2026-11-21T14:30:36.000Z"
+      "checkedAt": "2026-11-21T14:34:00.000Z",
+      "score": "1-2"
     },
     "recCal20261121P76612348": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "LiveScore.mobi — FT Enkopings–Orebro confirmé",
+      "sourceUrl": "https://www.livescore.mobi/football/2026-11-21/",
       "observedLive": false,
-      "checkedAt": "2026-11-21T14:30:36.000Z"
+      "checkedAt": "2026-11-21T14:34:00.000Z",
+      "score": "2-4"
     },
     "recCal20261121L91123": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "LiveScore.mobi — FT BSK Banja Luka–Zrinjski confirmé",
+      "sourceUrl": "https://www.livescore.mobi/football/2026-11-21/",
       "observedLive": false,
-      "checkedAt": "2026-11-21T14:30:36.000Z"
+      "checkedAt": "2026-11-21T14:34:00.000Z",
+      "score": "1-2"
     },
     "recCal20261121P72513982": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "LiveScore.mobi — FT Hannover–Greuther Furth confirmé",
+      "sourceUrl": "https://www.livescore.mobi/football/2026-11-21/",
       "observedLive": false,
-      "checkedAt": "2026-11-21T14:30:36.000Z"
+      "checkedAt": "2026-11-21T14:34:00.000Z",
+      "score": "2-1"
     },
     "recCal20261121P76445416": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "LiveScore.mobi — FT Ostersunds–Varbergs confirmé",
+      "sourceUrl": "https://www.livescore.mobi/football/2026-11-21/",
       "observedLive": false,
-      "checkedAt": "2026-11-21T14:30:36.000Z"
+      "checkedAt": "2026-11-21T14:34:00.000Z",
+      "score": "0-2"
     },
     "recCal20261121P72513978": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "LiveScore.mobi — FT Wolfsburg–Holstein Kiel confirmé",
+      "sourceUrl": "https://www.livescore.mobi/football/2026-11-21/",
       "observedLive": false,
-      "checkedAt": "2026-11-21T14:30:36.000Z"
+      "checkedAt": "2026-11-21T14:34:00.000Z",
+      "score": "3-0"
     },
     "recCal20261121L90722": {
       "status": "Terminé",
@@ -2710,10 +2716,11 @@
     },
     "recCal20261121P72221406": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "The Guardian — coup de sifflet final confirmé Manchester City–Fulham",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/21/manchester-city-v-fulham-premier-league-live",
       "observedLive": false,
-      "checkedAt": "2026-11-21T14:30:36.000Z"
+      "checkedAt": "2026-11-21T14:34:00.000Z",
+      "score": "1-1"
     },
     "recCal20261121P72340040": {
       "status": "Terminé",
@@ -2737,11 +2744,11 @@
       "checkedAt": "2026-11-21T14:30:36.000Z"
     },
     "recCal20261121L90720": {
-      "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "checkedAt": "2026-11-21T14:30:36.000Z"
+      "status": "En cours",
+      "provider": "ScoreMondo — jeu effectivement en cours, but et 29e minute affichés à 13h59 UTC; règle horaire écartée",
+      "sourceUrl": "https://scoremondo.com/fr/match/puskas-academy-mtk-budapest-31520505",
+      "observedLive": true,
+      "checkedAt": "2026-11-21T14:34:00.000Z"
     },
     "recCal20261121P72341404": {
       "status": "Terminé",
