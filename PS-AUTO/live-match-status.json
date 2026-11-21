@@ -4154,11 +4154,12 @@
     },
     "recCal20261121P76609948": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T21:36:23.328Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T21:37:05.808Z",
+      "provider": "Reddit r/newenglandrevolution — fil d'après-match marqué Full Time (source communautaire)",
+      "sourceUrl": "https://www.reddit.com/r/newenglandrevolution/comments/1y27jq4/postmatch_thread_new_england_revolution_vs/",
       "observedLive": false,
-      "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:00:00.000Z; sans flux direct confirmé"
+      "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:00:00.000Z; sans flux direct confirmé",
+      "score": "2-0"
     },
     "recCal20261121L90815": {
       "status": "Terminé",
@@ -4170,11 +4171,12 @@
     },
     "recCal20261121P72037466": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T21:36:23.328Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T21:37:05.808Z",
+      "provider": "So Foot — compte rendu final, Reims 0-1 Saint-Étienne",
+      "sourceUrl": "https://www.sofoot.com/breves/ligue-2-davitashvili-delivre-saint-etienne-a-reims",
       "observedLive": false,
-      "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:00:00.000Z; sans flux direct confirmé"
+      "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:00:00.000Z; sans flux direct confirmé",
+      "score": "0-1"
     },
     "recCal20261121L89577": {
       "status": "Terminé",
@@ -4186,19 +4188,21 @@
     },
     "recCal20261121P72513980": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T21:36:23.328Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T21:37:05.808Z",
+      "provider": "Welt — compte rendu final, St. Pauli 2-0 Bochum",
+      "sourceUrl": "https://www.welt.de/article6b020dbe39a3e8110f0e5d88",
       "observedLive": false,
-      "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:30:00.000Z; sans flux direct confirmé"
+      "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:30:00.000Z; sans flux direct confirmé",
+      "score": "2-0"
     },
     "recCal20261121P66887184": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T21:36:23.328Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T21:37:05.808Z",
+      "provider": "UOL — compte rendu final, Palmeiras 1-1 Flamengo",
+      "sourceUrl": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/21/palmeiras-x-flamengo-brasileirao-rodada-36.ghtm",
       "observedLive": false,
-      "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:30:00.000Z; sans flux direct confirmé"
+      "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:30:00.000Z; sans flux direct confirmé",
+      "score": "1-1"
     },
     "recCal20261121L89469": {
       "status": "Terminé",
