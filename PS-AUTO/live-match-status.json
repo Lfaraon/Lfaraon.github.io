@@ -2900,6 +2900,20 @@
       "observedLive": false,
       "checkedAt": "2026-11-21T13:42:00.242Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261121L91584": {
+      "status": "Annulé",
+      "provider": "Sofascore — match annulé sur fiche précise",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T13:43:31.354Z",
+      "sourceUrl": "https://www.sofascore.com/tennis/match/mischka-sinclaire-goenadi-tamara-zidansek/ZfUsPyLd"
+    },
+    "recCal20261121L91583": {
+      "status": "Annulé",
+      "provider": "Sofascore — match annulé sur fiche précise",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T13:43:31.354Z",
+      "sourceUrl": "https://www.sofascore.com/tennis/match/lulwa-naswardhani-dalila-jakupovic/IawsqtBk"
     }
   }
 }
