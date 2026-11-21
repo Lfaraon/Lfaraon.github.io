@@ -2470,46 +2470,51 @@
       "score": "1-1"
     },
     "recCal20261121L90614": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T05:38:47.884Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "observedLive": false
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T07:33:44.670Z",
+      "provider": "worldfootball.net — fiche Ended et score final",
+      "sourceUrl": "https://www--worldfootball--net.c.hs-data.com/match-report/co51/k-league-1/ma12613859/jeonbuk-fc_fc-seoul/live-commentary/",
+      "observedLive": true,
+      "score": "0-1"
     },
     "recCal20261121L90660": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T05:38:47.884Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "observedLive": false
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T07:33:44.670Z",
+      "provider": "J.LEAGUE — résultat officiel Full Time",
+      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112108/",
+      "observedLive": true,
+      "score": "2-1"
     },
     "recCal20261121L90663": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T05:38:47.884Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "observedLive": false
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T07:33:44.670Z",
+      "provider": "J.LEAGUE — résultat officiel Full Time",
+      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112102/",
+      "observedLive": true,
+      "score": "0-0"
     },
     "recCal20261121L90612": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T05:38:47.884Z",
-      "provider": "FotMob — direct réel Pohang–Anyang (22:40, 0-0 provisoire)",
-      "sourceUrl": "https://www.fotmob.com/matches/pohang-steelers-vs-fc-anyang/1uoornhf",
-      "observedLive": true
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T07:33:44.670Z",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false
     },
     "recCal20261121L90662": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T05:38:47.884Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "observedLive": false
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T07:33:44.670Z",
+      "provider": "J.LEAGUE — résultat officiel Full Time",
+      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112103/",
+      "observedLive": true,
+      "score": "2-2"
     },
     "recCal20261121L90661": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T05:38:47.884Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "observedLive": false
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T07:33:44.670Z",
+      "provider": "J.LEAGUE — résultat officiel Full Time",
+      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112101/",
+      "observedLive": true,
+      "score": "0-0"
     },
     "recCal20261121L91739": {
       "status": "En cours",
@@ -2534,17 +2539,38 @@
     },
     "recCal20261121L90685": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "checkedAt": "2026-11-21T06:39:46.060Z"
+      "provider": "J.LEAGUE — direct officiel, deuxième mi-temps observée",
+      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112105/",
+      "observedLive": true,
+      "checkedAt": "2026-11-21T07:33:44.670Z"
     },
     "recCal20261121L90686": {
       "status": "En cours",
+      "provider": "J.LEAGUE — direct officiel, deuxième mi-temps observée",
+      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112104/",
+      "observedLive": true,
+      "checkedAt": "2026-11-21T07:33:44.670Z"
+    },
+    "recCal20261121L90689": {
+      "status": "En cours",
+      "provider": "J.LEAGUE — direct officiel, première mi-temps observée",
+      "checkedAt": "2026-11-21T07:33:44.670Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112106/"
+    },
+    "recCal20261121L90627": {
+      "status": "En cours",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T07:33:44.670Z",
       "observedLive": false,
-      "checkedAt": "2026-11-21T06:39:46.060Z"
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261121L90615": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-21T07:33:44.670Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     }
   }
 }
