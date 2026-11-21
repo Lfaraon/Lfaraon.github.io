@@ -3043,7 +3043,7 @@
       "provider": "Diário de Aveiro / Lusa 21.11.26 — Mafra–Arouca résultat définitif",
       "observedLive": false,
       "sourceUrl": "https://www.diarioaveiro.pt/2026/11/21/arouca-afastado-da-taca-de-portugal-em-mafra/",
-      "checkedAt": "2026-11-21T18:39:05.000Z",
+      "checkedAt": "2026-11-21T18:36:23.430Z",
       "statusBasis": "Score final confirmé par fiche détaillée/compte rendu du 21.11.2026; aucune inférence de l'heure",
       "score": "2-1"
     },
@@ -3186,7 +3186,7 @@
       "provider": "FotMob — Ruzomberok–Slovan Bratislava Full time",
       "observedLive": false,
       "sourceUrl": "https://www.fotmob.com/matches/slovan-bratislava-vs-ruzomberok/266jem",
-      "checkedAt": "2026-11-21T18:39:05.000Z",
+      "checkedAt": "2026-11-21T18:36:23.430Z",
       "statusBasis": "Score final confirmé par fiche détaillée/compte rendu du 21.11.2026; aucune inférence de l'heure",
       "score": "0-1"
     },
@@ -3361,7 +3361,7 @@
     },
     "recCal20261121P67682110": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T18:39:05.000Z",
+      "checkedAt": "2026-11-21T18:36:23.430Z",
       "provider": "BioBioChile 21.11.26 — Coquimbo–Everton score final, penalty 90+7",
       "sourceUrl": "https://www.biobiochile.cl/noticias/deportes/futbol/futbol-nacional/2026/11/21/coquimbo-corono-titulo-de-copa-con-triunfo-agonico-ante-everton-en-liga-pratto-anoto-penal-al-96.shtml",
       "observedLive": false,
@@ -3424,7 +3424,7 @@
     },
     "recCal20261121L91122": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T18:39:05.000Z",
+      "checkedAt": "2026-11-21T18:36:23.430Z",
       "provider": "FotMob — Radnik Bijeljina–Velez Mostar Full time",
       "sourceUrl": "https://www.fotmob.com/matches/fk-velez-mostar-vs-radnik-bijeljina/3e1895",
       "observedLive": false,
@@ -3761,7 +3761,7 @@
     },
     "recCal20261121P72044848": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T18:39:05.000Z",
+      "checkedAt": "2026-11-21T18:36:23.430Z",
       "provider": "FotMob — Eindhoven–RKC Waalwijk Full time",
       "sourceUrl": "https://www.fotmob.com/matches/fc-eindhoven-vs-rkc-waalwijk/2advve",
       "observedLive": false,
@@ -3779,11 +3779,12 @@
     },
     "recCal20261121L90596": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T16:00:00.000Z, 151 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure",
+      "provider": "FotMob — Eibar F–Atletico Madrid F Full time",
+      "statusBasis": "Score final prouvé par fiche détaillée FotMob, 21 novembre 2026",
       "observedLive": false,
-      "checkedAt": "2026-11-21T18:31:16.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T18:36:23.430Z",
+      "sourceUrl": "https://www.fotmob.com/matches/atletico-madrid-vs-eibar/m13pf14x",
+      "score": "1-3"
     },
     "recCal20261121P76080484": {
       "status": "Terminé",
@@ -3795,11 +3796,12 @@
     },
     "recCal20261121L89458": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T16:00:00.000Z, 151 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure",
+      "provider": "FotMob — Kocaelispor–Fenerbahce Full time",
+      "statusBasis": "Score final prouvé par fiche détaillée FotMob, 21 novembre 2026",
       "observedLive": false,
-      "checkedAt": "2026-11-21T18:31:16.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T18:36:23.430Z",
+      "sourceUrl": "https://www.fotmob.com/matches/kocaelispor-vs-fenerbahce/vdaub",
+      "score": "2-2"
     },
     "recCal20261121L87712": {
       "status": "Terminé",
@@ -3827,11 +3829,12 @@
     },
     "recCal20261121P73093080": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T16:15:00.000Z, 136 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure",
+      "provider": "FotMob — Catanzaro–Palermo Full time",
+      "statusBasis": "Score final prouvé par fiche détaillée FotMob, 21 novembre 2026",
       "observedLive": false,
-      "checkedAt": "2026-11-21T18:31:16.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T18:36:23.430Z",
+      "sourceUrl": "https://www.fotmob.com/matches/palermo-vs-catanzaro/2w74j2",
+      "score": "3-1"
     },
     "recCal20261121P67126890": {
       "status": "Terminé",
