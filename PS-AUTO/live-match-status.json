@@ -3040,11 +3040,12 @@
     },
     "recCal20261121P76080474": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Diário de Aveiro / Lusa 21.11.26 — Mafra–Arouca résultat définitif",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 152 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://www.diarioaveiro.pt/2026/11/21/arouca-afastado-da-taca-de-portugal-em-mafra/",
+      "checkedAt": "2026-11-21T18:39:05.000Z",
+      "statusBasis": "Score final confirmé par fiche détaillée/compte rendu du 21.11.2026; aucune inférence de l'heure",
+      "score": "2-1"
     },
     "recCal20261121P71945410": {
       "status": "Terminé",
@@ -3182,11 +3183,12 @@
     },
     "recCal20261121L89561": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "FotMob — Ruzomberok–Slovan Bratislava Full time",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 122 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://www.fotmob.com/matches/slovan-bratislava-vs-ruzomberok/266jem",
+      "checkedAt": "2026-11-21T18:39:05.000Z",
+      "statusBasis": "Score final confirmé par fiche détaillée/compte rendu du 21.11.2026; aucune inférence de l'heure",
+      "score": "0-1"
     },
     "recCal20261121L89523": {
       "status": "Terminé",
@@ -3359,11 +3361,12 @@
     },
     "recCal20261121P67682110": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:39:05.000Z",
+      "provider": "BioBioChile 21.11.26 — Coquimbo–Everton score final, penalty 90+7",
+      "sourceUrl": "https://www.biobiochile.cl/noticias/deportes/futbol/futbol-nacional/2026/11/21/coquimbo-corono-titulo-de-copa-con-triunfo-agonico-ante-everton-en-liga-pratto-anoto-penal-al-96.shtml",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Score final confirmé par fiche détaillée/compte rendu du 21.11.2026; aucune inférence de l'heure",
+      "score": "2-1"
     },
     "recCal20261121P72221400": {
       "status": "Terminé",
@@ -3421,11 +3424,12 @@
     },
     "recCal20261121L91122": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:39:05.000Z",
+      "provider": "FotMob — Radnik Bijeljina–Velez Mostar Full time",
+      "sourceUrl": "https://www.fotmob.com/matches/fk-velez-mostar-vs-radnik-bijeljina/3e1895",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Score final confirmé par fiche détaillée/compte rendu du 21.11.2026; aucune inférence de l'heure",
+      "score": "1-1"
     },
     "recCal20261121L91120": {
       "status": "Terminé",
@@ -3757,11 +3761,12 @@
     },
     "recCal20261121P72044848": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:39:05.000Z",
+      "provider": "FotMob — Eindhoven–RKC Waalwijk Full time",
+      "sourceUrl": "https://www.fotmob.com/matches/fc-eindhoven-vs-rkc-waalwijk/2advve",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:30:00.000Z; score final non vérifié"
+      "statusBasis": "Score final confirmé par fiche détaillée/compte rendu du 21.11.2026; aucune inférence de l'heure",
+      "score": "3-2"
     },
     "recCal20261121L87860": {
       "status": "Terminé",
