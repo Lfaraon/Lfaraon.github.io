@@ -2566,17 +2566,17 @@
     },
     "recCal20261121L90627": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-21T07:33:44.670Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "FotMob — direct réel confirmé (2e mi-temps, 1-1 provisoire vers 49e min)",
+      "checkedAt": "2026-11-21T08:42:14.143Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/matches/daejeon-hana-citizen-vs-gangwon-fc/khglgqd"
     },
     "recCal20261121L90615": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-21T07:33:44.670Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "FotMob — direct réel confirmé (2e mi-temps, 1-0 provisoire vers 53e min)",
+      "checkedAt": "2026-11-21T08:42:14.143Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/matches/incheon-united-vs-ulsan-hd-fc/ggzwgw0"
     },
     "recCal20261121L87844": {
       "status": "En cours",
