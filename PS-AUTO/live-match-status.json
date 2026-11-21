@@ -2849,10 +2849,11 @@
     },
     "recCal20261121L91460": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "r/FrauenBuLi — compte rendu post-match détaillé (Köln F 2–2 Werder Brême F, 21.11.2026)",
       "observedLive": false,
       "checkedAt": "2026-11-21T15:40:01.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.reddit.com/r/FrauenBuLi/comments/1y1zduu/zweimal_gef%C3%BChrt_und_doch_nicht_gewonnen_1_fc_k%C3%B6ln/",
+      "score": "2-2"
     },
     "recCal20261121L87738": {
       "status": "Terminé",
