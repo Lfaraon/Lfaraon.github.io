@@ -2438,23 +2438,23 @@
     },
     "recCal20261121L89594": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-21T03:39:15.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "Sofascore — fiche dynamique Liga MX hommes, direct 74e (1-1 provisoire)",
+      "observedLive": true,
+      "checkedAt": "2026-11-21T04:39:46.675Z",
+      "sourceUrl": "https://www.sofascore.com/football/match/fc-juarez-atlas-fc/ZNszHFb"
     },
     "recCal20261121L89597": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-21T03:39:15.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "Sofascore — fiche dynamique Liga MX hommes, direct 69e (0-0 provisoire)",
+      "observedLive": true,
+      "checkedAt": "2026-11-21T04:39:46.675Z",
+      "sourceUrl": "https://www.sofascore.com/football/match/club-tijuana-atlante-fc/TNsAFo"
     },
     "recCal20261121L91738": {
       "status": "En cours",
-      "provider": "Flashscore — fiche interactive tennis (jeux, points, service)",
+      "provider": "Flashscore — fiche interactive BJK Cup, 1er set 6-6, tie-break 5-2 provisoire",
       "observedLive": true,
-      "checkedAt": "2026-11-21T03:42:28.459Z",
+      "checkedAt": "2026-11-21T04:39:46.675Z",
       "sourceUrl": "https://www.flashscore.com/match/tennis/gonzalez-daniele-justina-maria-4hs3jvgb/hontama-mai-S0E8uMT2/",
       "statusBasis": "Flashscore en direct : 1er set, Hontama 3-1 en jeux, 40-0 au service ; 23 min de jeu. Début réel observé ; score provisoire non final."
     },
