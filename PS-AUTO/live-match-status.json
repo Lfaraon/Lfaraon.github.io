@@ -3323,11 +3323,12 @@
     },
     "recCal20261121L89498": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:33:34.000Z",
+      "provider": "FotMob — fiche du match Full Time (Charleroi–St.Truiden)",
+      "sourceUrl": "https://www.fotmob.com/en-GB/matches/sporting-charleroi-vs-sttruiden/3avu6d",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Score final 2-2 confirmé par la fiche liée",
+      "score": "2-2"
     },
     "recCal20261121L87508": {
       "status": "Terminé",
@@ -3691,19 +3692,21 @@
     },
     "recCal20261121P72478720": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:33:34.000Z",
+      "provider": "FotMob — fiche match LaLiga Full Time (Rayo–Valencia)",
+      "sourceUrl": "https://www.fotmob.com/matches/rayo-vallecano-vs-valencia/2vepf1",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:15:00.000Z; score final non vérifié"
+      "statusBasis": "Score final 0-1 confirmé par la fiche liée",
+      "score": "0-1"
     },
     "recCal20261121P72477618": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:33:34.000Z",
+      "provider": "Cadena SER / Radio Cádiz — compte rendu final, buts Cordero Izeta Vázquez",
+      "sourceUrl": "https://cadenaser.com/andalucia/2026/11/21/el-cadiz-cf-se-desquita-ante-la-real-sociedad-b-radio-cadiz/",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:15:00.000Z; score final non vérifié"
+      "statusBasis": "Score final 0-3 confirmé par la fiche liée",
+      "score": "0-3"
     },
     "recCal20261121L89505": {
       "status": "Terminé",
@@ -3731,11 +3734,12 @@
     },
     "recCal20261121P72680292": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:33:34.000Z",
+      "provider": "FotMob — fiche match 3. Liga Full Time (Aachen–Mannheim)",
+      "sourceUrl": "https://www.fotmob.com/matches/alemannia-aachen-vs-waldhof-mannheim/2pygix",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:30:00.000Z; score final non vérifié"
+      "statusBasis": "Score final 3-0 confirmé par la fiche liée",
+      "score": "3-0"
     },
     "recCal20261121L87734": {
       "status": "Terminé",
