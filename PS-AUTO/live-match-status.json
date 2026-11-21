@@ -4387,11 +4387,12 @@
     },
     "recCal20261121P76609134": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "MLS — résumé officiel du match, FC Dallas 3-0 Portland (21.11.2026)",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T23:38:40.725Z",
-      "statusBasis": "Statut Terminé présumé d'après coup d'envoi 2026-11-21T21:00:00.000Z (158 min écoulées au contrôle); score final non vérifié"
+      "sourceUrl": "https://www.mlssoccer.com/competitions/mls-cup-playoffs/2026/matches/dalvspor-11-21-2026/",
+      "checkedAt": "2026-11-21T23:39:12.033Z",
+      "statusBasis": "Score final officiel MLS 3-0 du 21.11.2026, troisième but à 90+4; non déduit de l'horaire",
+      "score": "3-0"
     },
     "recCal20261121L90023": {
       "status": "Terminé",
