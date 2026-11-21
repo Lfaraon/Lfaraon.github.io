@@ -2582,32 +2582,61 @@
       "score": "2-1"
     },
     "recCal20261121L87844": {
-      "status": "En cours",
-      "provider": "FotMob — direct réel confirmé (0-0 provisoire à 86e minute)",
-      "sourceUrl": "https://www.fotmob.com/matches/brisbane-roar-fc-vs-sydney-fc/2ri8nx",
+      "status": "Terminé",
+      "provider": "news.com.au — compte rendu du 21.11.2026 (score final 0-0)",
+      "sourceUrl": "https://www.news.com.au/sport/football/brisbane-roar-stays-unbeaten-after-teenage-goalkeeper-george-plusnin-denies-sydney-fc/news-story/bdf87ca46f4d7c6b08cff2512622e2df",
       "observedLive": true,
-      "checkedAt": "2026-11-21T10:36:02.722Z"
+      "checkedAt": "2026-11-21T11:39:01.753Z",
+      "score": "0-0"
     },
     "recCal20261121L91438": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-21T10:36:02.722Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "playmakerstats — début réel confirmé, 16e minute observée",
+      "observedLive": true,
+      "checkedAt": "2026-11-21T11:39:01.753Z",
+      "sourceUrl": "https://www.playmakerstats.com/live/2026-11-21-samgurali-tskhaltubo-fc-iberia-1999/12011557"
     },
     "recCal20261121L89461": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-21T10:36:02.722Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "FotMob — direct réel confirmé (événements jusqu'à la 46e minute)",
+      "observedLive": true,
+      "checkedAt": "2026-11-21T11:39:01.753Z",
+      "sourceUrl": "https://www.fotmob.com/matches/gaziantep-fk-vs-genclerbirligi/1611rp"
     },
     "recCal20261121L91718": {
       "status": "En cours",
-      "provider": "TennisTemple — direct réel confirmé (1-6, 3-2 provisoire)",
+      "provider": "TennisTemple — direct réel confirmé (3e set en cours, 1-6, 6-4, 2-3 provisoire)",
       "sourceUrl": "https://it.tennistemple.com/match/tararudee-teichmann-thailand-switzerland-2026/9571099/",
       "observedLive": true,
-      "checkedAt": "2026-11-21T10:36:36.163Z"
+      "checkedAt": "2026-11-21T11:39:01.753Z"
+    },
+    "recCal20261121L91439": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T11:39:01.753Z"
+    },
+    "recCal20261121L90593": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T11:39:01.753Z"
+    },
+    "recCal20261121L91463": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T11:39:01.753Z"
+    },
+    "recCal20261121L91413": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T11:39:01.753Z"
     }
   }
 }
