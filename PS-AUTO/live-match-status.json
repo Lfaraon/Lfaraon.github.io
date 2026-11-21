@@ -2610,11 +2610,13 @@
       "sourceUrl": "https://www.fotmob.com/matches/gaziantep-fk-vs-genclerbirligi/1611rp"
     },
     "recCal20261121L91718": {
-      "status": "En cours",
-      "provider": "TennisTemple — direct réel confirmé (3e set en cours, 1-6, 6-4, 2-3 provisoire)",
+      "status": "Terminé",
+      "provider": "TennisTemple — résultat final et manches confirmés",
       "sourceUrl": "https://it.tennistemple.com/match/tararudee-teichmann-thailand-switzerland-2026/9571099/",
       "observedLive": true,
-      "checkedAt": "2026-11-21T11:39:01.753Z"
+      "checkedAt": "2026-11-21T12:34:34.125Z",
+      "score": "2-1",
+      "sets": "1-6, 6-4, 6-4"
     },
     "recCal20261121L91439": {
       "status": "En cours",
