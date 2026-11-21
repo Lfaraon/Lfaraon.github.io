@@ -3385,11 +3385,12 @@
     },
     "recCal20261121L90737": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:36:20.000Z",
+      "provider": "FotMob — Eupen–Sporting Hasselt FT",
+      "sourceUrl": "https://www.fotmob.com/matches/sporting-hasselt-vs-eupen/m3f5g",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Score final confirmé par fiche détaillée du 21.11.2026; aucune inférence de l'heure",
+      "score": "1-1"
     },
     "recCal20261121L87351": {
       "status": "Terminé",
@@ -3402,11 +3403,12 @@
     },
     "recCal20261121L91741": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:36:20.000Z",
+      "provider": "FotMob — Dinamo Batumi–FC Rustavi FT",
+      "sourceUrl": "https://www.fotmob.com/matches/dinamo-batumi-vs-fc-rustavi/oph733k",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Score final confirmé par fiche détaillée du 21.11.2026; aucune inférence de l'heure",
+      "score": "2-1"
     },
     "recCal20261121P72740824": {
       "status": "Terminé",
@@ -3453,11 +3455,12 @@
     },
     "recCal20261121P67015466": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:36:20.000Z",
+      "provider": "Kickly — HamKam–Fredrikstad FT",
+      "sourceUrl": "https://kicklyapp.com/en/match/ham-kam-fredrikstad-WplLTEhL",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Score final confirmé par fiche détaillée du 21.11.2026; aucune inférence de l'heure",
+      "score": "0-0"
     },
     "recCal20261121L87350": {
       "status": "Terminé",
@@ -3648,11 +3651,12 @@
     },
     "recCal20261121L90747": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:36:20.000Z",
+      "provider": "FotMob — Ujpest–Kisvarda FT",
+      "sourceUrl": "https://www.fotmob.com/matches/ujpest-vs-kisvarda/1fhd4b1g",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Score final confirmé par fiche détaillée du 21.11.2026; aucune inférence de l'heure",
+      "score": "0-0"
     },
     "recCal20261121P72340052": {
       "status": "Terminé",
@@ -3710,11 +3714,12 @@
     },
     "recCal20261121L89505": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:36:20.000Z",
+      "provider": "FotMob — Spartak Varna–Cherno More FT",
+      "sourceUrl": "https://www.fotmob.com/matches/cherno-more-varna-vs-spartak-varna/3eils2",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:15:00.000Z; score final non vérifié"
+      "statusBasis": "Score final confirmé par fiche détaillée du 21.11.2026; aucune inférence de l'heure",
+      "score": "0-0"
     },
     "recCal20261121L90766": {
       "status": "Terminé",
@@ -3743,11 +3748,12 @@
     },
     "recCal20261121L87734": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:36:20.000Z",
+      "provider": "FotMob — CFR Cluj–Otelul Galati FT",
+      "sourceUrl": "https://www.fotmob.com/matches/cfr-cluj-vs-otelul-galati/34toay",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:30:00.000Z; score final non vérifié"
+      "statusBasis": "Score final confirmé par fiche détaillée du 21.11.2026; aucune inférence de l'heure",
+      "score": "3-2"
     },
     "recCal20261121P72044848": {
       "status": "Terminé",
@@ -3759,11 +3765,12 @@
     },
     "recCal20261121L87860": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:36:20.000Z",
+      "provider": "Sky Sports — NEC–PSV FT et chronologie buts",
+      "sourceUrl": "https://www.skysports.com/football/nec-nijmegen-vs-psv-eindhoven/live/556804",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:30:00.000Z; score final non vérifié"
+      "statusBasis": "Score final confirmé par fiche détaillée du 21.11.2026; aucune inférence de l'heure",
+      "score": "1-4"
     },
     "recCal20261121L90596": {
       "status": "Terminé",
