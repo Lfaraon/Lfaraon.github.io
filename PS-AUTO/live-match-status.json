@@ -4146,11 +4146,12 @@
     },
     "recCal20261121L89615": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T21:36:23.328Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
+      "provider": "ScoreInPlay — résultat final confirmé",
+      "sourceUrl": "https://scoreinplay.com/es/match/real-tomayapo-vs-nacional-potosi-2026-11-21-1645542",
       "observedLive": false,
-      "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:00:00.000Z; sans flux direct confirmé"
+      "statusBasis": "Score final confirmé par la fiche de résultat du match (pas de déduction horaire)",
+      "score": "1-5"
     },
     "recCal20261121P76609948": {
       "status": "Terminé",
@@ -4180,11 +4181,12 @@
     },
     "recCal20261121L89577": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T21:36:23.328Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
+      "provider": "ScoreInPlay — résultat final confirmé",
+      "sourceUrl": "https://scoreinplay.com/pl/match/radomiak-radom-vs-wisla-krakow-2026-11-21-1553231",
       "observedLive": false,
-      "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:15:00.000Z; sans flux direct confirmé"
+      "statusBasis": "Score final confirmé par la fiche de résultat du match (pas de déduction horaire)",
+      "score": "0-0"
     },
     "recCal20261121P72513980": {
       "status": "Terminé",
@@ -4213,140 +4215,145 @@
       "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:30:00.000Z; sans flux direct confirmé"
     },
     "recCal20261121P72036300": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T19:45:00.000Z (48 min écoulées), score final non vérifié"
+      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T19:45:00.000Z; score final non vérifié"
     },
     "recCal20261121P72036294": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
+      "provider": "Radarfoot — résultat final confirmé",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T19:45:00.000Z (48 min écoulées), score final non vérifié"
+      "sourceUrl": "https://www.radarfoot.fr/matchs/lille-lyon-1552820",
+      "statusBasis": "Score final confirmé par la fiche de résultat du match (pas de déduction horaire)",
+      "score": "0-1"
     },
     "recCal20261121L89502": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T19:45:00.000Z (48 min écoulées), score final non vérifié"
+      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T19:45:00.000Z; score final non vérifié"
     },
     "recCal20261121P72036292": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T19:45:00.000Z (48 min écoulées), score final non vérifié"
+      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T19:45:00.000Z; score final non vérifié"
     },
     "recCal20261121P71945420": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
+      "provider": "Sky Sport — résultat final confirmé",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T19:45:00.000Z (48 min écoulées), score final non vérifié"
+      "sourceUrl": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-12/napoli-torino/video-highlights",
+      "statusBasis": "Score final confirmé par la fiche de résultat du match (pas de déduction horaire)",
+      "score": "1-0"
     },
     "recCal20261121P72036306": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
+      "provider": "Morning Foot — résultat final confirmé",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T19:45:00.000Z (48 min écoulées), score final non vérifié"
+      "sourceUrl": "https://morning-foot.com/ligue-1/brest/strasbourg-brest-0-1-selvik-edjouma-ligue-1/",
+      "statusBasis": "Score final confirmé par la fiche de résultat du match (pas de déduction horaire)",
+      "score": "0-1"
     },
     "recCal20261121L89497": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
+      "provider": "ScoreInPlay — résultat final confirmé",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T19:45:00.000Z (48 min écoulées), score final non vérifié"
+      "sourceUrl": "https://scoreinplay.com/pl/match/zulte-waregem-vs-antwerp-2026-11-21-1558688",
+      "statusBasis": "Score final confirmé par la fiche de résultat du match (pas de déduction horaire)",
+      "score": "2-2"
     },
     "recCal20261121L89690": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T20:00:00.000Z (33 min écoulées), score final non vérifié"
+      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T20:00:00.000Z; score final non vérifié"
     },
     "recCal20261121P76565500": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T20:00:00.000Z (33 min écoulées), score final non vérifié"
+      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T20:00:00.000Z; score final non vérifié"
     },
     "recCal20261121P72041250": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T20:00:00.000Z (33 min écoulées), score final non vérifié"
+      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T20:00:00.000Z; score final non vérifié"
     },
     "recCal20261121L87365": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T20:00:00.000Z (33 min écoulées), score final non vérifié"
+      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T20:00:00.000Z; score final non vérifié"
     },
     "recCal20261121L91556": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T20:00:00.000Z (33 min écoulées), score final non vérifié"
+      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T20:00:00.000Z; score final non vérifié"
     },
     "recCal20261121P72478722": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T20:00:00.000Z (33 min écoulées), score final non vérifié"
+      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T20:00:00.000Z; score final non vérifié"
     },
     "recCal20261121P72041264": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
+      "provider": "LeaguePages — résultat final confirmé",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T20:00:00.000Z (33 min écoulées), score final non vérifié"
+      "sourceUrl": "https://leaguepages.com/match/35a0832c-ba4b-4010-ab55-822916fef7f8",
+      "statusBasis": "Score final confirmé par la fiche de résultat du match (pas de déduction horaire)",
+      "score": "1-3"
     },
     "recCal20261121P72477624": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T20:00:00.000Z (33 min écoulées), score final non vérifié"
+      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T20:00:00.000Z; score final non vérifié"
     },
     "recCal20261121P66887194": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T20:30:00.000Z (3 min écoulées), score final non vérifié"
+      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T20:30:00.000Z; score final non vérifié"
     },
     "recCal20261121P76080458": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T20:33:30.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T20:30:00.000Z (3 min écoulées), score final non vérifié"
+      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T20:30:00.000Z; score final non vérifié"
     },
     "recCal20261121L91723": {
       "status": "Annulé",
@@ -4376,6 +4383,14 @@
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "checkedAt": "2026-11-21T21:36:23.328Z"
+    },
+    "recCal20261121L84974": {
+      "status": "En cours",
+      "checkedAt": "2026-11-21T22:34:51.218Z",
+      "observedLive": false,
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Statut En cours présumé depuis le coup d'envoi 2026-11-21T22:30:00.000Z; sans suivi direct confirmé"
     }
   }
 }
