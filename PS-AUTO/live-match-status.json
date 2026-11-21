@@ -3976,19 +3976,21 @@
     },
     "recCal20261121L89500": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut Terminé présumé à +120 min depuis 2026-11-21T17:15:00.000Z; score final non vérifié",
+      "provider": "YSscores — terminé 3-0",
+      "statusBasis": "Score final explicitement confirmé sur la fiche spécifique du match",
       "observedLive": false,
-      "checkedAt": "2026-11-21T19:33:53.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T19:44:00.000Z",
+      "sourceUrl": "https://www.ysscores.com/fr/match/5811813/KRC-Genk-vs-RAAL-La-Louvi%C3%A8re-events",
+      "score": "3-0"
     },
     "recCal20261121L90967": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut Terminé présumé à +120 min depuis 2026-11-21T17:15:00.000Z; score final non vérifié",
+      "provider": "Sky Sports — récapitulatif final 6-2",
+      "statusBasis": "Score final explicitement confirmé sur la fiche spécifique du match",
       "observedLive": false,
-      "checkedAt": "2026-11-21T19:33:53.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T19:44:00.000Z",
+      "sourceUrl": "https://www.skysports.com/football/video/13614991/london-city-lionesses-6-2-crystal-palace-womens-super-league-highlights",
+      "score": "6-2"
     },
     "recCal20261121P72477608": {
       "status": "Terminé",
