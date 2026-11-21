@@ -2816,10 +2816,12 @@
     },
     "recCal20261121L89503": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Kickly — FT 21.11.2026",
       "observedLive": false,
-      "checkedAt": "2026-11-21T15:40:01.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T17:38:16.162Z",
+      "sourceUrl": "https://kicklyapp.com/en/match/slavia-sofia-arda-2VrHrpMk",
+      "score": "1-1",
+      "statusBasis": "FT vérifié 21 novembre 2026"
     },
     "recCal20261121L90903": {
       "status": "Terminé",
@@ -2838,10 +2840,12 @@
     },
     "recCal20261121P72477620": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "BeSoccer — FIN 21.11.2026",
       "observedLive": false,
-      "checkedAt": "2026-11-21T15:40:01.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T17:38:16.162Z",
+      "sourceUrl": "https://es.besoccer.com/noticia/cronica-sabadell-granada-jornada-15-segunda-division-2026-27-1442633",
+      "score": "1-1",
+      "statusBasis": "FT vérifié 21 novembre 2026"
     },
     "recCal20261121P72478706": {
       "status": "Terminé",
@@ -3093,11 +3097,12 @@
     },
     "recCal20261121L90581": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "České Noviny — match terminé 21.11.2026",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 152 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://www.ceskenoviny.cz/zpravy/fotbaliste-m-boleslavi-zdolali-zlin-a-doma-v-ligove-sezone-vyhrali-i-sedmy-duel/2904838",
+      "checkedAt": "2026-11-21T17:38:16.162Z",
+      "statusBasis": "FT vérifié 21 novembre 2026",
+      "score": "1-0"
     },
     "recCal20261121P73093084": {
       "status": "Terminé",
