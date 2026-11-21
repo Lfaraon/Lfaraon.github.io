@@ -3908,11 +3908,12 @@
     },
     "recCal20261121L89474": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut Terminé présumé à +120 min depuis 2026-11-21T17:00:00.000Z; score final non vérifié",
+      "provider": "YSscores — résultat final explicite",
+      "statusBasis": "Score final confirmé sur fiche du match; domicile-extérieur",
       "observedLive": false,
-      "checkedAt": "2026-11-21T19:33:53.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T19:38:00.000Z",
+      "sourceUrl": "https://www.ysscores.com/es/match/5804300/FC-Lugano-vs-Grasshopper-Club-Zurich-events",
+      "score": "2-1"
     },
     "recCal20261121P76080480": {
       "status": "Terminé",
@@ -3932,11 +3933,12 @@
     },
     "recCal20261121P71945422": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut Terminé présumé à +120 min depuis 2026-11-21T17:00:00.000Z; score final non vérifié",
+      "provider": "DH Les Sports — score final confirmé",
+      "statusBasis": "Score final confirmé sur fiche du match; domicile-extérieur",
       "observedLive": false,
-      "checkedAt": "2026-11-21T19:33:53.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T19:38:00.000Z",
+      "sourceUrl": "https://infosports.dhnet.be/football/serie-a/match/546306/parme-as-roma",
+      "score": "1-5"
     },
     "recCal20261121L89778": {
       "status": "Terminé",
@@ -4005,11 +4007,12 @@
     },
     "recCal20261121P72221408": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut Terminé présumé à +120 min depuis 2026-11-21T17:30:00.000Z; score final non vérifié",
+      "provider": "The Guardian — fin du match, 2-2",
+      "statusBasis": "Score final confirmé sur fiche du match; domicile-extérieur",
       "observedLive": false,
-      "checkedAt": "2026-11-21T19:33:53.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T19:38:00.000Z",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/21/newcastle-united-v-arsenal-premier-league-live",
+      "score": "2-2"
     },
     "recCal20261121L87710": {
       "status": "Terminé",
