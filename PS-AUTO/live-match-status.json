@@ -2997,11 +2997,12 @@
     },
     "recCal20261121L90591": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "FotMob — Full time",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 152 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://www.fotmob.com/matches/jablonec-vs-artis-brno/2zd6lvs",
+      "checkedAt": "2026-11-21T17:37:50.078Z",
+      "statusBasis": "Match terminé et score final prouvés par la fiche sportive spécifique",
+      "score": "3-1"
     },
     "recCal20261121P73093074": {
       "status": "Terminé",
@@ -3014,11 +3015,12 @@
     },
     "recCal20261121L90589": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Onlajny — konec (fin du match)",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 152 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://m.onlajny.com/match/index/id/533895",
+      "checkedAt": "2026-11-21T17:37:50.078Z",
+      "statusBasis": "Match terminé et score final prouvés par la fiche sportive spécifique",
+      "score": "1-2"
     },
     "recCal20261121P73093078": {
       "status": "Terminé",
