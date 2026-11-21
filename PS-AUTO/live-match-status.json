@@ -2429,11 +2429,11 @@
     },
     "recCal20261121L89595": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-21T01:35:33.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "21 novembre 2026 02:35 CET : kickoff Puebla–Atlético San Luis 01:00 UTC, +35min, statut En cours présumé selon horaire; aucun direct observé ni score final."
+      "provider": "FotMob — fiche interactive, début réel confirmé",
+      "observedLive": true,
+      "checkedAt": "2026-11-21T02:38:15.294Z",
+      "sourceUrl": "https://www.fotmob.com/matches/atletico-de-san-luis-vs-puebla/1o2rje",
+      "statusBasis": "FotMob — fiche interactive du match Puebla FC–Atlético de San Luis (Liga MX, 21.11.2026) : LIVE à 77'13, 1–1 provisoire ; événements aux 67e, 68e, 74e et 75e minutes. Début réel confirmé, observedLive=true. Aucun score final établi."
     }
   }
 }
