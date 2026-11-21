@@ -2601,6 +2601,13 @@
       "observedLive": false,
       "checkedAt": "2026-11-21T10:36:02.722Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261121L91718": {
+      "status": "En cours",
+      "provider": "TennisTemple — direct réel confirmé (1-6, 3-2 provisoire)",
+      "sourceUrl": "https://it.tennistemple.com/match/tararudee-teichmann-thailand-switzerland-2026/9571099/",
+      "observedLive": true,
+      "checkedAt": "2026-11-21T10:36:36.163Z"
     }
   }
 }
