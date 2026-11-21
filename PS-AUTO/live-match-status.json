@@ -2920,10 +2920,12 @@
     },
     "recCal20261121P72037456": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "SweetFootball — Full Time 21.11.2026",
       "observedLive": false,
-      "checkedAt": "2026-11-21T15:40:01.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T17:34:21.971Z",
+      "sourceUrl": "https://sweetfootball.com/match/laval-vs-montpellier-2026-11-21",
+      "score": "1-0",
+      "statusBasis": "Résultat sportif final prouvé par fiche exacte du 21.11.2026; score domicile–extérieur"
     },
     "recCal20261121P67015476": {
       "status": "Terminé",
@@ -3018,11 +3020,12 @@
     },
     "recCal20261121P73093078": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "FOOTY.iD — Selesai (FT) 21.11.2026",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 152 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://footy.id/laga/carrarese-vs-virtus-entella/21112026",
+      "checkedAt": "2026-11-21T17:34:21.971Z",
+      "statusBasis": "Résultat sportif final prouvé par fiche exacte du 21.11.2026; score domicile–extérieur",
+      "score": "1-0"
     },
     "recCal20261121P76080474": {
       "status": "Terminé",
@@ -3043,11 +3046,12 @@
     },
     "recCal20261121P73093088": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "CremonaSera — cronaca finale 21.11.2026",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 152 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://cremonasera.it/sport/sudtirol-cremonese-1-0-anche-un-arbitraggio-imbarazzante-condanna-la-cremonese",
+      "checkedAt": "2026-11-21T17:34:21.971Z",
+      "statusBasis": "Résultat sportif final prouvé par fiche exacte du 21.11.2026; score domicile–extérieur",
+      "score": "1-0"
     },
     "recCal20261121P71945414": {
       "status": "Terminé",
@@ -3092,35 +3096,39 @@
     },
     "recCal20261121P73093084": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Virgilio Sport — partita finita 21.11.2026",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 152 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://www.virgilio.it/sport/dirette/live/serie-b/21-11-2026/modena-juve-stabia/2670786/",
+      "checkedAt": "2026-11-21T17:34:21.971Z",
+      "statusBasis": "Résultat sportif final prouvé par fiche exacte du 21.11.2026; score domicile–extérieur",
+      "score": "2-0"
     },
     "recCal20261121L89822": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "TheFishy — Match Finished FT 21.11.2026",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 152 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://www.thefishy.net/livematch2/olimpija-ljubljana-v-nk-radomlje-1558048",
+      "checkedAt": "2026-11-21T17:34:21.971Z",
+      "statusBasis": "Résultat sportif final prouvé par fiche exacte du 21.11.2026; score domicile–extérieur",
+      "score": "1-0"
     },
     "recCal20261121P73093086": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "FOOTY.iD — Selesai (FT) 21.11.2026",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 152 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://footy.id/laga/sampdoria-vs-benevento/21112026",
+      "checkedAt": "2026-11-21T17:34:21.971Z",
+      "statusBasis": "Résultat sportif final prouvé par fiche exacte du 21.11.2026; score domicile–extérieur",
+      "score": "3-1"
     },
     "recCal20261121L90580": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "TotalOdds — Full time 21.11.2026",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 152 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://totalodds.co.uk/matches/sigma-olomouc-vs-slavia-prague-8950261",
+      "checkedAt": "2026-11-21T17:34:21.971Z",
+      "statusBasis": "Résultat sportif final prouvé par fiche exacte du 21.11.2026; score domicile–extérieur",
+      "score": "0-2"
     },
     "recCal20261121L89522": {
       "status": "Terminé",
@@ -3785,11 +3793,11 @@
     },
     "recCal20261121L91721": {
       "status": "À venir",
-      "provider": "Lajfy — fiche spécifique, nouvel horaire 18h15 CET",
-      "statusBasis": "Lajfy — fiche précise et actualisée du 21.11.2026 : Feistel–Hennemann est toujours 'przed meczem' (avant match), points 0–0, horaire affiché corrigé à 18h15 heure polonaise/CET, soit 17h15 UTC. Début réel non observé; match précédent Kubka–Lisa Zaar toujours au 3e set. Ne pas appliquer seuils +4h/+5h à l'ancien horaire.",
-      "rescheduledKickoff": "2026-11-21T17:15:00.000Z",
+      "provider": "Lajfy — fiche dynamique, nouvel horaire 19h00 CET",
+      "statusBasis": "Lajfy fiche dynamique du 21.11.2026 : horaire affiché 19h00 CET (18h00 UTC), après ancien horaire 18h15 CET. Avant match, 0 jeu/point, début réel NON observé. Nouvel horaire prioritaire.",
+      "rescheduledKickoff": "2026-11-21T18:00:00.000Z",
       "observedLive": false,
-      "checkedAt": "2026-11-21T16:39:33.403Z",
+      "checkedAt": "2026-11-21T17:34:21.971Z",
       "sourceUrl": "https://m.lajfy.com/match/index/date/2026-11-21/id/556325"
     },
     "recCal20261121L89947": {
