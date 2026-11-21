@@ -2535,10 +2535,11 @@
     },
     "recCal20261121L87837": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Perth Glory — compte rendu officiel A-League, résultat final 0–0",
+      "sourceUrl": "https://perthglory.com.au/news/alm-match-report-hard-earned-point-in-gosford-sends-glory-third/",
       "observedLive": false,
-      "checkedAt": "2026-11-21T08:41:22.240Z"
+      "checkedAt": "2026-11-21T08:41:53.247Z",
+      "score": "0-0"
     },
     "recCal20261121L90685": {
       "status": "Terminé",
