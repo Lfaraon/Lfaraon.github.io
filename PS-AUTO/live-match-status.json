@@ -2495,10 +2495,11 @@
     },
     "recCal20261121L90612": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T07:33:44.670Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "observedLive": false
+      "checkedAt": "2026-11-21T08:41:22.240Z",
+      "provider": "FotMob — Full time, Pohang–Anyang",
+      "sourceUrl": "https://www.fotmob.com/matches/pohang-steelers-vs-fc-anyang/1uoornhf",
+      "observedLive": false,
+      "score": "1-1"
     },
     "recCal20261121L90662": {
       "status": "Terminé",
@@ -2517,11 +2518,13 @@
       "score": "0-0"
     },
     "recCal20261121L91739": {
-      "status": "En cours",
-      "provider": "Flashscore — début réel confirmé : Sakatsume–Urrutia (2e set, 6-0 puis 3-0 ; 15-30 en cours)",
-      "sourceUrl": "https://www.flashscore.fr/match/tennis/sakatsume-himeno-zZoU3kJa/urrutia-maria-florencia-tETmgtIB/",
+      "status": "Terminé",
+      "provider": "Tennistonic — match terminé, résultat final et jeux par set confirmés",
+      "sourceUrl": "https://tennistonic.com/stat-tournaments/wta/17532/48220-42068/himeno-sakatsume-vs-maria-florencia-urrutia/",
       "observedLive": true,
-      "checkedAt": "2026-11-21T06:39:46.060Z"
+      "checkedAt": "2026-11-21T08:41:22.240Z",
+      "score": "2-0",
+      "sets": "6-0, 6-4"
     },
     "recCal20261121L91740": {
       "status": "Annulé",
@@ -2531,25 +2534,27 @@
       "checkedAt": "2026-11-21T06:39:46.060Z"
     },
     "recCal20261121L87837": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-21T06:39:46.060Z"
+      "checkedAt": "2026-11-21T08:41:22.240Z"
     },
     "recCal20261121L90685": {
-      "status": "En cours",
-      "provider": "J.LEAGUE — direct officiel, deuxième mi-temps observée",
+      "status": "Terminé",
+      "provider": "J.LEAGUE officiel — Full Time Cerezo–FC Tokyo",
       "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112105/",
       "observedLive": true,
-      "checkedAt": "2026-11-21T07:33:44.670Z"
+      "checkedAt": "2026-11-21T08:41:22.240Z",
+      "score": "0-3"
     },
     "recCal20261121L90686": {
-      "status": "En cours",
-      "provider": "J.LEAGUE — direct officiel, deuxième mi-temps observée",
+      "status": "Terminé",
+      "provider": "J.LEAGUE officiel — Full Time Kawasaki–Avispa",
       "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112104/",
       "observedLive": true,
-      "checkedAt": "2026-11-21T07:33:44.670Z"
+      "checkedAt": "2026-11-21T08:41:22.240Z",
+      "score": "1-0"
     },
     "recCal20261121L90689": {
       "status": "En cours",
@@ -2571,6 +2576,13 @@
       "checkedAt": "2026-11-21T07:33:44.670Z",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261121L87844": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T08:41:22.240Z"
     }
   }
 }
