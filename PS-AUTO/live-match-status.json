@@ -3957,11 +3957,12 @@
     },
     "recCal20261121P76905478": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Fox Sports — résultat final 1-1, Sacramento vainqueur 4-3 aux tirs au but",
       "statusBasis": "Statut Terminé présumé à +120 min depuis 2026-11-21T17:00:00.000Z; score final non vérifié",
       "observedLive": false,
-      "checkedAt": "2026-11-21T19:33:53.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T21:36:23.328Z",
+      "sourceUrl": "https://www.foxsports.com/soccer/usl-championship-sacramento-republic-vs-louisville-city-fc-nov-21-2026-game-boxscore-1111910",
+      "score": "1-1"
     },
     "recCal20261121P67015478": {
       "status": "Terminé",
@@ -4010,11 +4011,12 @@
     },
     "recCal20261121L90775": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "NB1.hu — compte rendu final Ferencváros 1-3 Győr",
       "statusBasis": "Statut Terminé présumé à +120 min depuis 2026-11-21T17:30:00.000Z; score final non vérifié",
       "observedLive": false,
-      "checkedAt": "2026-11-21T19:33:53.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T21:36:23.328Z",
+      "sourceUrl": "https://nb1.hu/hir/fradi-eto-1-3-nb1-14-fordulo-2026-2027/",
+      "score": "1-3"
     },
     "recCal20261121P72221408": {
       "status": "Terminé",
@@ -4072,11 +4074,12 @@
     },
     "recCal20261121P72041254": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Fox Sports — boxscore final Utrecht 2-3 Cambuur",
       "observedLive": false,
-      "checkedAt": "2026-11-21T20:33:30.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut Terminé présumé depuis le kickoff 2026-11-21T17:45:00.000Z (168 min écoulées), score final non vérifié"
+      "checkedAt": "2026-11-21T21:36:23.328Z",
+      "sourceUrl": "https://www.foxsports.com/soccer/eredivisie-fc-utrecht-vs-cambuur-nov-21-2026-game-boxscore-878341",
+      "statusBasis": "Statut Terminé présumé depuis le kickoff 2026-11-21T17:45:00.000Z (168 min écoulées), score final non vérifié",
+      "score": "2-3"
     },
     "recCal20261121P72041256": {
       "status": "Terminé",
@@ -4098,11 +4101,12 @@
     },
     "recCal20261121L90733": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Spotip — résultat FT confirmé Logroño F 3-1 Alavés F",
       "observedLive": false,
-      "checkedAt": "2026-11-21T20:33:30.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut Terminé présumé depuis le kickoff 2026-11-21T18:00:00.000Z (153 min écoulées), score final non vérifié"
+      "checkedAt": "2026-11-21T21:36:23.328Z",
+      "sourceUrl": "https://www.spotip.app/match/logrono-united-women-vs-cd-alaves-women-l7oqdehg5oewr51",
+      "statusBasis": "Statut Terminé présumé depuis le kickoff 2026-11-21T18:00:00.000Z (153 min écoulées), score final non vérifié",
+      "score": "3-1"
     },
     "recCal20261121P76080464": {
       "status": "Terminé",
@@ -4115,19 +4119,21 @@
     },
     "recCal20261121P73093082": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "TNT Sports — Finished, Empoli 0-1 Pisa",
       "observedLive": false,
-      "checkedAt": "2026-11-21T20:33:30.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut Terminé présumé depuis le kickoff 2026-11-21T18:30:00.000Z (123 min écoulées), score final non vérifié"
+      "checkedAt": "2026-11-21T21:36:23.328Z",
+      "sourceUrl": "https://www.tntsports.co.uk/football/serie-b/2026-2027/empoli-pisa_mtc21920504/live.shtml",
+      "statusBasis": "Statut Terminé présumé depuis le kickoff 2026-11-21T18:30:00.000Z (123 min écoulées), score final non vérifié",
+      "score": "0-1"
     },
     "recCal20261121L87733": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Gazeta Sporturilor — FINAL Dinamo 0-1 Petrolul",
       "observedLive": false,
-      "checkedAt": "2026-11-21T20:33:30.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut Terminé présumé depuis le kickoff 2026-11-21T18:30:00.000Z (123 min écoulées), score final non vérifié"
+      "checkedAt": "2026-11-21T21:36:23.328Z",
+      "sourceUrl": "https://www.gsp.ro/fotbal/liga-1/live-dinamo-petrolul-superliga-etapa-16-1001146.html",
+      "statusBasis": "Statut Terminé présumé depuis le kickoff 2026-11-21T18:30:00.000Z (123 min écoulées), score final non vérifié",
+      "score": "0-1"
     },
     "recCal20261121L87713": {
       "status": "Terminé",
@@ -4139,64 +4145,64 @@
       "score": "0-1"
     },
     "recCal20261121L89615": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T19:33:53.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T21:36:23.328Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
       "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:00:00.000Z; sans flux direct confirmé"
     },
     "recCal20261121P76609948": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T19:33:53.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T21:36:23.328Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
       "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:00:00.000Z; sans flux direct confirmé"
     },
     "recCal20261121L90815": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T19:33:53.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T21:36:23.328Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
       "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:00:00.000Z; sans flux direct confirmé"
     },
     "recCal20261121P72037466": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T19:33:53.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T21:36:23.328Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
       "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:00:00.000Z; sans flux direct confirmé"
     },
     "recCal20261121L89577": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T19:33:53.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T21:36:23.328Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
       "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:15:00.000Z; sans flux direct confirmé"
     },
     "recCal20261121P72513980": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T19:33:53.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T21:36:23.328Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
       "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:30:00.000Z; sans flux direct confirmé"
     },
     "recCal20261121P66887184": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T19:33:53.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T21:36:23.328Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
       "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:30:00.000Z; sans flux direct confirmé"
     },
     "recCal20261121L89469": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T19:33:53.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-21T21:36:23.328Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
@@ -4345,6 +4351,27 @@
       "observedLive": false,
       "sourceUrl": "https://www.tenniscanada.com/news/pro-tennis/2026/billie-jean-king-cup-play-offs-canada-brazil-saturday",
       "statusBasis": "Tennis Canada confirme Leme Da Silva–Clémence Mercier ; affiche Leme Da Silva–Kayla Cross remplacée, sans score"
+    },
+    "recCal20261121P67682116": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T21:36:23.328Z"
+    },
+    "recCal20261121P76609134": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T21:36:23.328Z"
+    },
+    "recCal20261121L90023": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T21:36:23.328Z"
     }
   }
 }
