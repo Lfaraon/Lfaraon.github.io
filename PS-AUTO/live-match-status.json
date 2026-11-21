@@ -2438,10 +2438,11 @@
     },
     "recCal20261121L89594": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "El Horizonte — compte rendu du résultat définitif FC Juárez–Atlas, 20/11/2026",
       "observedLive": false,
-      "checkedAt": "2026-11-21T05:38:47.884Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T06:39:46.060Z",
+      "sourceUrl": "https://www.elhorizonte.mx/deportes/igualan-fc-juarez-y-atlas-3-3-tras-cierre-de-goles-en-liga-mx/2396095332",
+      "score": "3-3"
     },
     "recCal20261121L89597": {
       "status": "Terminé",
@@ -2461,11 +2462,12 @@
       "score": "2-0"
     },
     "recCal20261121L87836": {
-      "status": "En cours",
-      "provider": "FotMob — direct réel Auckland–Melbourne Victory (60:06, 0-1 provisoire)",
-      "checkedAt": "2026-11-21T05:38:47.884Z",
-      "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/melbourne-victory-vs-auckland-fc/hc26gye5"
+      "status": "Terminé",
+      "provider": "Melbourne Victory FC — compte rendu officiel, 21/11/2026",
+      "checkedAt": "2026-11-21T06:39:46.060Z",
+      "observedLive": false,
+      "sourceUrl": "https://melbournevictory.com.au/news/victory-share-points-away-to-auckland/",
+      "score": "1-1"
     },
     "recCal20261121L90614": {
       "status": "En cours",
@@ -2508,6 +2510,41 @@
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false
+    },
+    "recCal20261121L91739": {
+      "status": "En cours",
+      "provider": "Flashscore — début réel confirmé : Sakatsume–Urrutia (2e set, 6-0 puis 3-0 ; 15-30 en cours)",
+      "sourceUrl": "https://www.flashscore.fr/match/tennis/sakatsume-himeno-zZoU3kJa/urrutia-maria-florencia-tETmgtIB/",
+      "observedLive": true,
+      "checkedAt": "2026-11-21T06:39:46.060Z"
+    },
+    "recCal20261121L91740": {
+      "status": "Annulé",
+      "provider": "Sofascore — rencontre Sawangkaew–Golubic explicitement Cancelled ; Sawangkaew–Waltert en remplacement",
+      "sourceUrl": "https://www.sofascore.com/tennis/match/mananchaya-sawangkaew-viktorija-golubic/fuusApVb",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T06:39:46.060Z"
+    },
+    "recCal20261121L87837": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T06:39:46.060Z"
+    },
+    "recCal20261121L90685": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T06:39:46.060Z"
+    },
+    "recCal20261121L90686": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T06:39:46.060Z"
     }
   }
 }
