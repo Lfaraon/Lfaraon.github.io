@@ -2937,11 +2937,13 @@
       "sourceUrl": "https://www.sofascore.com/tennis/match/lulwa-naswardhani-dalila-jakupovic/IawsqtBk"
     },
     "recCal20261121P76999548": {
-      "status": "En cours",
-      "provider": "The Guardian — direct actualisé, manches et jeux observés (Shelton 6-3, 1-1 dans le 2e set à 15h26 CET)",
+      "status": "Terminé",
+      "provider": "The Guardian — ATP Finals semifinal 21.11.2026, match terminé, Alcaraz gagne le tie-break décisif",
       "sourceUrl": "https://www.theguardian.com/sport/live/2026/nov/21/atp-finals-tennis-carlos-alcaraz-v-ben-shelton-live-semi-final-updates",
       "observedLive": true,
-      "checkedAt": "2026-11-21T14:30:36.000Z"
+      "checkedAt": "2026-11-21T15:40:01.000Z",
+      "score": "2-1",
+      "sets": "3-6, 6-3, 7-6"
     },
     "recCal20261121L89576": {
       "status": "En cours",
