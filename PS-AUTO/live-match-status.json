@@ -2428,12 +2428,13 @@
       "score": "0-1"
     },
     "recCal20261121L89595": {
-      "status": "En cours",
-      "provider": "FotMob — fiche interactive, début réel confirmé",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (fiche interactive, Full Time)",
       "observedLive": true,
-      "checkedAt": "2026-11-21T02:38:15.294Z",
+      "checkedAt": "2026-11-21T03:41:18.660Z",
       "sourceUrl": "https://www.fotmob.com/matches/atletico-de-san-luis-vs-puebla/1o2rje",
-      "statusBasis": "FotMob — fiche interactive du match Puebla FC–Atlético de San Luis (Liga MX, 21.11.2026) : LIVE à 77'13, 1–1 provisoire ; événements aux 67e, 68e, 74e et 75e minutes. Début réel confirmé, observedLive=true. Aucun score final établi."
+      "statusBasis": "FotMob — fiche interactive actuelle, Full Time, Puebla 1-1 Atlético de San Luis, buts Mathías Tomás 4e, Felipe Mora 48e ; score final prouvé.",
+      "score": "1-1"
     },
     "recCal20261121L89594": {
       "status": "En cours",
