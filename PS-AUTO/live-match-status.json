@@ -2724,10 +2724,11 @@
     },
     "recCal20261121P72340040": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Reddit r/Championship — tableau de résultats du 21 novembre marqué FT",
+      "sourceUrl": "https://www.reddit.com/r/Championship/comments/1y1vvdg/match_thread_saturday_21_november/",
       "observedLive": false,
-      "checkedAt": "2026-11-21T14:30:36.000Z"
+      "checkedAt": "2026-11-21T14:39:00.000Z",
+      "score": "0-1"
     },
     "recCal20261121P72342396": {
       "status": "Terminé",
@@ -2738,10 +2739,11 @@
     },
     "recCal20261121P72340042": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Norwich City F.C. 2026-27 — résultat du 21 novembre dans tableau saison (final)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Norwich_City_F.C._season",
       "observedLive": false,
-      "checkedAt": "2026-11-21T14:30:36.000Z"
+      "checkedAt": "2026-11-21T14:39:00.000Z",
+      "score": "2-1"
     },
     "recCal20261121L90720": {
       "status": "En cours",
@@ -2752,10 +2754,11 @@
     },
     "recCal20261121P72341404": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Reddit r/Urz — fiche de rencontre Reading–Bromley, FT explicitement indiqué",
+      "sourceUrl": "https://www.reddit.com/r/Urz/comments/1y1uxji/match_thread_reading_fc_vs_bromley_fc_live_score/",
       "observedLive": false,
-      "checkedAt": "2026-11-21T14:30:36.000Z"
+      "checkedAt": "2026-11-21T14:39:00.000Z",
+      "score": "0-1"
     },
     "recCal20261121P72740816": {
       "status": "Terminé",
@@ -2766,10 +2769,11 @@
     },
     "recCal20261121P72340046": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Reddit r/Championship — tableau de résultats du 21 novembre marqué FT",
+      "sourceUrl": "https://www.reddit.com/r/Championship/comments/1y1vvdg/match_thread_saturday_21_november/",
       "observedLive": false,
-      "checkedAt": "2026-11-21T14:30:36.000Z"
+      "checkedAt": "2026-11-21T14:39:00.000Z",
+      "score": "2-0"
     },
     "recCal20261121P72740818": {
       "status": "Terminé",
