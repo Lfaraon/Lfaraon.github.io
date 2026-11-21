@@ -1892,14 +1892,16 @@
       "sets": "6-7(7-9), 6-3, 4-10"
     },
     "recCal20261120P76682244": {
-      "status": "En cours",
-      "provider": "Tennis.com — fiche dynamique, échanges et points actualisés en direct",
-      "checkedAt": "2026-11-21T00:36:34.000Z",
+      "status": "Terminé",
+      "provider": "Tennis.com — fiche dynamique, Completed, score final confirmé",
+      "checkedAt": "2026-11-21T01:35:33.000Z",
       "observedLive": true,
       "reversed": false,
       "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/r-masarova-vs-l-samson-2026-11-20",
       "scheduledKickoff": "2026-11-20T22:40:00.000Z",
-      "statusBasis": "Tennis.com ouvert en navigateur dynamique : badge LIVE, jeux/points en progression lors de rechargements, première manche 6-2 affichée ; aucun résultat final validé."
+      "statusBasis": "21 novembre 2026 02:35 CET : fiche Tennis.com interactive indique Completed; Masarova bat Samson 6-2, 6-3, sans abandon; 2-0 en manches vérifié.",
+      "score": "2-0",
+      "sets": "6-2, 6-3"
     },
     "recCal20261120P76736472": {
       "status": "Terminé",
@@ -2408,20 +2410,30 @@
       "score": "3-2"
     },
     "recCal20261121L89684": {
-      "status": "En cours",
-      "provider": "FotMob — minute et événements de match observés en direct",
+      "status": "Terminé",
+      "provider": "FotMob — FT après prolongation, résultat confirmé",
       "observedLive": true,
-      "checkedAt": "2026-11-21T00:36:34.000Z",
+      "checkedAt": "2026-11-21T01:35:33.000Z",
       "sourceUrl": "https://www.fotmob.com/matches/velez-sarsfield-vs-belgrano/3d4qq6",
-      "statusBasis": "21 novembre 2026 01:36 CET: fiche du match du 20/11 à ~71e min, 1-1 provisoire, événements détaillés actualisés ; pas de score final."
+      "statusBasis": "21 novembre 2026 02:35 CET : FT après prolongation, Vélez 2-2 Belgrano; 1-1 à 90min et buts aux 100e/110e, tirs au but non établis.",
+      "score": "2-2"
     },
     "recCal20261121P67682114": {
-      "status": "En cours",
-      "provider": "FOX Sports — minute et événements de match observés en direct",
+      "status": "Terminé",
+      "provider": "FotMob — fiche dynamique, résultat final confirmé",
       "observedLive": true,
-      "checkedAt": "2026-11-21T00:36:34.000Z",
-      "sourceUrl": "https://www.foxsports.com/soccer/chilean-primera-division-palestino-vs-deportes-union-la-calera-nov-20-2026-game-boxscore-651104",
-      "statusBasis": "21 novembre 2026 01:36 CET: fiche du match du 20/11 ~44e min, score provisoire 0-0, événements du direct affichés ; pas de score final."
+      "checkedAt": "2026-11-21T01:35:33.000Z",
+      "sourceUrl": "https://www.fotmob.com/matches/palestino-vs-union-la-calera/933qnj2",
+      "statusBasis": "21 novembre 2026 02:35 CET : match terminé Palestino 0-1 Unión La Calera, but Matías Campos à 90+1'.",
+      "score": "0-1"
+    },
+    "recCal20261121L89595": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T01:35:33.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "21 novembre 2026 02:35 CET : kickoff Puebla–Atlético San Luis 01:00 UTC, +35min, statut En cours présumé selon horaire; aucun direct observé ni score final."
     }
   }
 }
