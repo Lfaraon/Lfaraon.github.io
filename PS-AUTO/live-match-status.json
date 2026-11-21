@@ -4208,11 +4208,12 @@
     },
     "recCal20261121L89469": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T21:36:23.328Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T22:36:04.129Z",
+      "provider": "FootballCritic — résultat final confirmé",
+      "sourceUrl": "https://www.footballcritic.com/super-league-fc-sion-servette-fc/match-report/4329542",
       "observedLive": false,
-      "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T19:30:00.000Z; sans flux direct confirmé"
+      "statusBasis": "Score final confirmé par fiche du match, sans inférence horaire",
+      "score": "2-0"
     },
     "recCal20261121P72036300": {
       "status": "Terminé",
