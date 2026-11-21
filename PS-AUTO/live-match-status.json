@@ -2801,10 +2801,11 @@
     },
     "recCal20261121L90773": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Reuters — match terminé WSL (21.11.2026)",
       "observedLive": false,
       "checkedAt": "2026-11-21T15:40:01.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.reuters.com/sports/soccer/leaders-chelsea-held-scoreless-wsl-draw-by-liverpool-2026-11-21/",
+      "score": "0-0"
     },
     "recCal20261121L89503": {
       "status": "Terminé",
@@ -2836,10 +2837,11 @@
     },
     "recCal20261121P72478706": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Cadena SER — compte rendu final Liga du 21.11.2026",
       "observedLive": false,
       "checkedAt": "2026-11-21T15:40:01.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://cadenaser.com/nacional/2026/11/21/deportivo-alaves-3-1-deportivo-de-a-coruna-resumen-resultado-y-goles-del-partido-de-la-jornada-13-de-laliga-cadena-ser/?outputType=amp",
+      "score": "3-1"
     },
     "recCal20261121L91460": {
       "status": "Terminé",
@@ -2871,10 +2873,11 @@
     },
     "recCal20261121L89459": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "DHA Turquie — compte rendu de fin de match (21.11.2026)",
       "observedLive": false,
       "checkedAt": "2026-11-21T15:40:01.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.dha.com.tr/yerel-haberler/istanbul/galatasaray-samsunspor-2-1-2986167",
+      "score": "2-1"
     },
     "recCal20261121P72680294": {
       "status": "Terminé",
@@ -2906,10 +2909,11 @@
     },
     "recCal20261121P67015476": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "VG / OddAlerts — résultat définitif 21.11.2026",
       "observedLive": false,
       "checkedAt": "2026-11-21T15:40:01.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.oddalerts.com/livescores/tromso-vs-viking/5269-8661",
+      "score": "3-2"
     },
     "recCal20261121P72680300": {
       "status": "Terminé",
