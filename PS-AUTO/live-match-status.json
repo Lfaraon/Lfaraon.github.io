@@ -2437,33 +2437,77 @@
       "score": "1-1"
     },
     "recCal20261121L89594": {
-      "status": "En cours",
-      "provider": "Sofascore — fiche dynamique Liga MX hommes, direct 74e (1-1 provisoire)",
-      "observedLive": true,
-      "checkedAt": "2026-11-21T04:39:46.675Z",
-      "sourceUrl": "https://www.sofascore.com/football/match/fc-juarez-atlas-fc/ZNszHFb"
+      "status": "Terminé",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T05:38:47.884Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261121L89597": {
-      "status": "En cours",
-      "provider": "Sofascore — fiche dynamique Liga MX hommes, direct 69e (0-0 provisoire)",
+      "status": "Terminé",
+      "provider": "RÉCORD México — fiche Liga MX, Finalizado 1-0 (Gilberto Mora 77e)",
       "observedLive": true,
-      "checkedAt": "2026-11-21T04:39:46.675Z",
-      "sourceUrl": "https://www.sofascore.com/football/match/club-tijuana-atlante-fc/TNsAFo"
+      "checkedAt": "2026-11-21T05:38:47.884Z",
+      "sourceUrl": "https://www.record.com.mx/futbol/partido/tijuana-atlante-11162229/cobertura-en-vivo",
+      "score": "1-0"
     },
     "recCal20261121L91738": {
-      "status": "En cours",
-      "provider": "Flashscore — fiche interactive BJK Cup, 1er set 6-6, tie-break 5-2 provisoire",
+      "status": "Terminé",
+      "provider": "Flashscore — résultat final en manches confirmé (2-0) ; sets détaillés non publiés",
       "observedLive": true,
-      "checkedAt": "2026-11-21T04:39:46.675Z",
+      "checkedAt": "2026-11-21T05:38:47.884Z",
       "sourceUrl": "https://www.flashscore.com/match/tennis/gonzalez-daniele-justina-maria-4hs3jvgb/hontama-mai-S0E8uMT2/",
-      "statusBasis": "Flashscore en direct : 1er set à 6-6, jeu décisif 5-2 pour Hontama (score provisoire) ; points et service affichés, observedLive=true. Aucun set final vérifié."
+      "statusBasis": "Flashscore en direct : 1er set à 6-6, jeu décisif 5-2 pour Hontama (score provisoire) ; points et service affichés, observedLive=true. Aucun set final vérifié.",
+      "score": "2-0"
     },
     "recCal20261121L87836": {
       "status": "En cours",
+      "provider": "FotMob — direct réel Auckland–Melbourne Victory (60:06, 0-1 provisoire)",
+      "checkedAt": "2026-11-21T05:38:47.884Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/matches/melbourne-victory-vs-auckland-fc/hc26gye5"
+    },
+    "recCal20261121L90614": {
+      "status": "En cours",
+      "checkedAt": "2026-11-21T05:38:47.884Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-21T04:36:56.283Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false
+    },
+    "recCal20261121L90660": {
+      "status": "En cours",
+      "checkedAt": "2026-11-21T05:38:47.884Z",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false
+    },
+    "recCal20261121L90663": {
+      "status": "En cours",
+      "checkedAt": "2026-11-21T05:38:47.884Z",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false
+    },
+    "recCal20261121L90612": {
+      "status": "En cours",
+      "checkedAt": "2026-11-21T05:38:47.884Z",
+      "provider": "FotMob — direct réel Pohang–Anyang (22:40, 0-0 provisoire)",
+      "sourceUrl": "https://www.fotmob.com/matches/pohang-steelers-vs-fc-anyang/1uoornhf",
+      "observedLive": true
+    },
+    "recCal20261121L90662": {
+      "status": "En cours",
+      "checkedAt": "2026-11-21T05:38:47.884Z",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false
+    },
+    "recCal20261121L90661": {
+      "status": "En cours",
+      "checkedAt": "2026-11-21T05:38:47.884Z",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false
     }
   }
 }
