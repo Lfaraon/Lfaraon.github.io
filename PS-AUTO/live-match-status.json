@@ -3436,11 +3436,12 @@
     },
     "recCal20261121L91120": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:41:28.723Z",
+      "provider": "SportDC — compte rendu du derby Grbavica, 4–0 à Borac",
+      "sourceUrl": "https://sportdc.net/vest/muskarci/180339-rapsodija-borca-na-grbavici-banjalucani-sa-cetiri-gola-utisali-plave-",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Résultat final documenté dans le compte rendu du 21 novembre 2026",
+      "score": "0-4"
     },
     "recCal20261121P72740826": {
       "status": "Terminé",
@@ -3730,11 +3731,12 @@
     },
     "recCal20261121L90766": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T18:41:28.723Z",
+      "provider": "Kooora UAE — compte rendu final du 21.11.2026 Dubai United–Al Wahda, égalisation 87e",
+      "sourceUrl": "https://kooora.ae/en/article/dubai-united-1-1-al-wahda-al-chadli-ghorbani-adnoc-pro-league-round-9-report/",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:25:00.000Z; score final non vérifié"
+      "statusBasis": "Résultat final documenté dans le compte rendu du 21 novembre 2026",
+      "score": "1-1"
     },
     "recCal20261121L90902": {
       "status": "Terminé",
