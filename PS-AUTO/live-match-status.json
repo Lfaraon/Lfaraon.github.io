@@ -2825,10 +2825,12 @@
     },
     "recCal20261121L90903": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "YSscores — vidéo highlights et score final Qatar Stars League",
       "observedLive": false,
-      "checkedAt": "2026-11-21T15:40:01.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T18:31:16.000Z",
+      "sourceUrl": "https://www.ysscores.com/en/video/393353",
+      "score": "2-3",
+      "statusBasis": "Résultat final prouvé par vidéo highlights, publiée le 21.11.2026 à 18h19; Al Wakrah 2–3 Al Sailiya"
     },
     "recCal20261121L89457": {
       "status": "Terminé",
@@ -2984,11 +2986,12 @@
     },
     "recCal20261121L91446": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "SempreMilan — compte rendu final du 21.11.2026 17h30",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 152 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://sempremilan.com/ac-milan-women-3-2-sassuolo-grimshaw-crucial",
+      "checkedAt": "2026-11-21T18:31:16.000Z",
+      "statusBasis": "Résultat final prouvé par compte rendu du 21.11.2026 (3-2, cinq buts première période)",
+      "score": "3-2"
     },
     "recCal20261121P67126886": {
       "status": "Terminé",
@@ -3759,83 +3762,83 @@
       "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:30:00.000Z; score final non vérifié"
     },
     "recCal20261121L90596": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 32 minutes écoulées ; score final non vérifié",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T16:00:00.000Z, 151 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure",
       "observedLive": false,
-      "checkedAt": "2026-11-21T16:32:57.880Z",
+      "checkedAt": "2026-11-21T18:31:16.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261121P76080484": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 32 minutes écoulées ; score final non vérifié",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T16:00:00.000Z, 151 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure",
       "observedLive": false,
-      "checkedAt": "2026-11-21T16:32:57.880Z",
+      "checkedAt": "2026-11-21T18:31:16.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261121L89458": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 32 minutes écoulées ; score final non vérifié",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T16:00:00.000Z, 151 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure",
       "observedLive": false,
-      "checkedAt": "2026-11-21T16:32:57.880Z",
+      "checkedAt": "2026-11-21T18:31:16.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261121L87712": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 32 minutes écoulées ; score final non vérifié",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T16:00:00.000Z, 151 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure",
       "observedLive": false,
-      "checkedAt": "2026-11-21T16:32:57.880Z",
+      "checkedAt": "2026-11-21T18:31:16.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261121L87715": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 32 minutes écoulées ; score final non vérifié",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T16:00:00.000Z, 151 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure",
       "observedLive": false,
-      "checkedAt": "2026-11-21T16:32:57.880Z",
+      "checkedAt": "2026-11-21T18:31:16.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261121P72036302": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 17 minutes écoulées ; score final non vérifié",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T16:15:00.000Z, 136 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure",
       "observedLive": false,
-      "checkedAt": "2026-11-21T16:32:57.880Z",
+      "checkedAt": "2026-11-21T18:31:16.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261121P73093080": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 17 minutes écoulées ; score final non vérifié",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T16:15:00.000Z, 136 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure",
       "observedLive": false,
-      "checkedAt": "2026-11-21T16:32:57.880Z",
+      "checkedAt": "2026-11-21T18:31:16.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261121P67126890": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 2 minutes écoulées ; score final non vérifié",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T16:30:00.000Z, 121 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure",
       "observedLive": false,
-      "checkedAt": "2026-11-21T16:32:57.880Z",
+      "checkedAt": "2026-11-21T18:31:16.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261121L89689": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 2 minutes écoulées ; score final non vérifié",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T16:30:00.000Z, 121 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure",
       "observedLive": false,
-      "checkedAt": "2026-11-21T16:32:57.880Z",
+      "checkedAt": "2026-11-21T18:31:16.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261121L89821": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 2 minutes écoulées ; score final non vérifié",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T16:30:00.000Z, 121 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure",
       "observedLive": false,
-      "checkedAt": "2026-11-21T16:32:57.880Z",
+      "checkedAt": "2026-11-21T18:31:16.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261121L91720": {
@@ -4006,6 +4009,78 @@
       "observedLive": false,
       "checkedAt": "2026-11-21T17:30:05.000Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261121L87349": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T18:31:16.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T17:45:00.000Z, 46 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure"
+    },
+    "recCal20261121P72041254": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T18:31:16.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T17:45:00.000Z, 46 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure"
+    },
+    "recCal20261121P72041256": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T18:31:16.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T17:45:00.000Z, 46 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure"
+    },
+    "recCal20261121L89685": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T18:31:16.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T18:00:00.000Z, 31 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure"
+    },
+    "recCal20261121L90733": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T18:31:16.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T18:00:00.000Z, 31 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure"
+    },
+    "recCal20261121P76080464": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T18:31:16.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T18:00:00.000Z, 31 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure"
+    },
+    "recCal20261121P73093082": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T18:31:16.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T18:30:00.000Z, 1 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure"
+    },
+    "recCal20261121L87733": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T18:31:16.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T18:30:00.000Z, 1 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure"
+    },
+    "recCal20261121L87713": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T18:31:16.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T18:30:00.000Z, 1 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure"
     }
   }
 }
