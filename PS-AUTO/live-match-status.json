@@ -2591,16 +2591,17 @@
     },
     "recCal20261121L91438": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-21T12:33:09.714Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "FotMob — résultat final 0-1 confirmé",
+      "observedLive": true,
+      "checkedAt": "2026-11-21T12:35:10.168Z",
+      "sourceUrl": "https://www.fotmob.com/it/matches/fc-samgurali-tskhaltubo-vs-iberia-1999/41symhqp",
       "previousLiveEvidence": {
         "provider": "playmakerstats — début réel confirmé, 16e minute observée",
         "checkedAt": "2026-11-21T11:39:01.753Z",
         "sourceUrl": "https://www.playmakerstats.com/live/2026-11-21-samgurali-tskhaltubo-fc-iberia-1999/12011557",
         "observedLive": true
-      }
+      },
+      "score": "0-1"
     },
     "recCal20261121L89461": {
       "status": "En cours",
