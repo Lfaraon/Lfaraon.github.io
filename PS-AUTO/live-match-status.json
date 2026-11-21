@@ -3072,19 +3072,21 @@
     },
     "recCal20261121L89777": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "HNK Hajduk Split — compte rendu officiel, fin du match",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 152 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://hajduk.hr/vijest/zagreb-lokomotiva--hajduk-1-2/18709",
+      "checkedAt": "2026-11-21T17:38:42.745Z",
+      "statusBasis": "Fin et résultat prouvés par compte rendu du 21.11.2026",
+      "score": "1-2"
     },
     "recCal20261121P76582214": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Aftonbladet — compte rendu qualification Superettan",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 152 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://www.aftonbladet.se/sportbladet/fotboll/a/aGwBvA/orebro-vann-mot-enkoping-i-kvalet-till-superettan",
+      "checkedAt": "2026-11-21T17:38:42.745Z",
+      "statusBasis": "Fin et résultat prouvés par compte rendu du 21.11.2026",
+      "score": "1-1"
     },
     "recCal20261121P67126896": {
       "status": "Terminé",
