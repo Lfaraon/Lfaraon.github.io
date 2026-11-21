@@ -4027,11 +4027,12 @@
     },
     "recCal20261121P72513324": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut Terminé présumé à +120 min depuis 2026-11-21T17:30:00.000Z; score final non vérifié",
+      "provider": "Welt — compte rendu final 0-0",
+      "statusBasis": "Score final confirmé dans compte rendu après match",
       "observedLive": false,
-      "checkedAt": "2026-11-21T19:33:53.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T19:46:00.000Z",
+      "sourceUrl": "https://www.welt.de/article6b01f12639a3e8110f0e5c3a",
+      "score": "0-0"
     },
     "recCal20261121P72478724": {
       "status": "Terminé",
