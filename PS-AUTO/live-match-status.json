@@ -3842,11 +3842,12 @@
     },
     "recCal20261121P67126890": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Transition horaire présumée : kickoff 2026-11-21T16:30:00.000Z, 121 min écoulées au 2026-11-21T18:31:16.000Z; aucun score final déduit de l'heure",
+      "provider": "Aftonbladet — compte rendu final GAIS–Västerås 21.11.2026",
+      "statusBasis": "Résultat final prouvé par compte rendu du 21 novembre 2026, distinct de l'inférence horaire",
       "observedLive": false,
-      "checkedAt": "2026-11-21T18:31:16.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T18:39:44.194Z",
+      "sourceUrl": "https://www.aftonbladet.se/sportbladet/fotboll/a/7P0gE8/gustav-lundgren-matchhjalte-igen",
+      "score": "3-1"
     },
     "recCal20261121L89689": {
       "status": "Terminé",
