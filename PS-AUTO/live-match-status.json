@@ -3148,11 +3148,12 @@
     },
     "recCal20261121L89522": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "FlashSport — Trencin–Podbrezova FT, buts 35/45/52/76",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 122 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://flashsportapp.com/en/football/match/as-trencin-podbrezova-2026-11-21-1551603/",
+      "checkedAt": "2026-11-21T18:38:12.898Z",
+      "statusBasis": "Score final prouvé par fiche détaillée du match",
+      "score": "2-2"
     },
     "recCal20261121P72513312": {
       "status": "Terminé",
@@ -3192,11 +3193,12 @@
     },
     "recCal20261121L89523": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Kickly — Zilina–Banska Bystrica FT, buts 55 et 74",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 122 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://kicklyapp.com/it/partita/zilina-banska-bystrica-ITD7hPUO",
+      "checkedAt": "2026-11-21T18:38:12.898Z",
+      "statusBasis": "Score final prouvé par fiche détaillée du match",
+      "score": "2-0"
     },
     "recCal20261121P72513326": {
       "status": "Terminé",
