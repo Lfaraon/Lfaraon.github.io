@@ -2558,25 +2558,26 @@
       "score": "1-0"
     },
     "recCal20261121L90689": {
-      "status": "En cours",
-      "provider": "J.LEAGUE — direct officiel, première mi-temps observée",
-      "checkedAt": "2026-11-21T07:33:44.670Z",
+      "status": "Terminé",
+      "provider": "J.LEAGUE — résultat final officiel (Full Time)",
+      "checkedAt": "2026-11-21T09:30:35.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112106/"
+      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112106/",
+      "score": "0-1"
     },
     "recCal20261121L90627": {
-      "status": "En cours",
-      "provider": "FotMob — direct réel confirmé (2e mi-temps, 1-1 provisoire vers 49e min)",
-      "checkedAt": "2026-11-21T08:42:14.143Z",
-      "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/daejeon-hana-citizen-vs-gangwon-fc/khglgqd"
+      "status": "Terminé",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-21T09:30:35.000Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261121L90615": {
-      "status": "En cours",
-      "provider": "FotMob — direct réel confirmé (2e mi-temps, 1-0 provisoire vers 53e min)",
-      "checkedAt": "2026-11-21T08:42:14.143Z",
-      "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/incheon-united-vs-ulsan-hd-fc/ggzwgw0"
+      "status": "Terminé",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-21T09:30:35.000Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261121L87844": {
       "status": "En cours",
