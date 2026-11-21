@@ -2861,10 +2861,12 @@
     },
     "recCal20261121L87738": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Antena Sport — compte rendu final 21.11.2026",
       "observedLive": false,
-      "checkedAt": "2026-11-21T15:40:01.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T17:36:59.791Z",
+      "sourceUrl": "https://as.ro/fotbal/liga-1/csikszereda-corvinul-0-4-hunedorenii-isi-continua-sezonul-remarcabil-si-urca-pe-loc-de-play-off-710742.html",
+      "score": "0-4",
+      "statusBasis": "Résultat final officiel ou FT du 21 novembre 2026, et non simple clôture horaire"
     },
     "recCal20261121P72680304": {
       "status": "Terminé",
@@ -3080,11 +3082,12 @@
     },
     "recCal20261121P67126896": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Aftonbladet Sportbladet — match terminé 21.11.2026",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T16:32:57.880Z",
-      "statusBasis": "Statut présumé selon kickoff du calendrier : 152 minutes écoulées ; score final non vérifié"
+      "sourceUrl": "https://www.aftonbladet.se/sportbladet/fotboll/a/QroBzA/mayckel-lahdo-hjalte-for-malmo-ff-med-sasongens-forsta-mal",
+      "checkedAt": "2026-11-21T17:36:59.791Z",
+      "statusBasis": "Résultat final officiel ou FT du 21 novembre 2026, et non simple clôture horaire",
+      "score": "1-1"
     },
     "recCal20261121L90581": {
       "status": "Terminé",
@@ -3272,35 +3275,39 @@
     },
     "recCal20261121P72341386": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T17:36:59.791Z",
+      "provider": "Football Web Pages — FT 21.11.2026",
+      "sourceUrl": "https://www.footballwebpages.co.uk/league-one/fixtures-results/november",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Résultat final officiel ou FT du 21 novembre 2026, et non simple clôture horaire",
+      "score": "2-2"
     },
     "recCal20261121P72341388": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T17:36:59.791Z",
+      "provider": "Football Web Pages — FT 21.11.2026",
+      "sourceUrl": "https://www.footballwebpages.co.uk/league-one/fixtures-results/november",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Résultat final officiel ou FT du 21 novembre 2026, et non simple clôture horaire",
+      "score": "1-2"
     },
     "recCal20261121P72341390": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T17:36:59.791Z",
+      "provider": "Football Web Pages — FT 21.11.2026",
+      "sourceUrl": "https://www.footballwebpages.co.uk/league-one/fixtures-results/november",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Résultat final officiel ou FT du 21 novembre 2026, et non simple clôture horaire",
+      "score": "0-3"
     },
     "recCal20261121L87352": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T17:36:59.791Z",
+      "provider": "Football Web Pages — FT 21.11.2026",
+      "sourceUrl": "https://www.footballwebpages.co.uk/scottish-premiership/fixtures-results/november",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Résultat final officiel ou FT du 21 novembre 2026, et non simple clôture horaire",
+      "score": "4-1"
     },
     "recCal20261121L89498": {
       "status": "Terminé",
@@ -3373,11 +3380,12 @@
     },
     "recCal20261121L87351": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T17:36:59.791Z",
+      "provider": "Football Web Pages — FT 21.11.2026",
+      "sourceUrl": "https://www.footballwebpages.co.uk/scottish-premiership/fixtures-results/november",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Résultat final officiel ou FT du 21 novembre 2026, et non simple clôture horaire",
+      "score": "2-1"
     },
     "recCal20261121L91741": {
       "status": "Terminé",
@@ -3440,19 +3448,21 @@
     },
     "recCal20261121L87350": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T17:36:59.791Z",
+      "provider": "Football Web Pages — FT 21.11.2026",
+      "sourceUrl": "https://www.footballwebpages.co.uk/scottish-premiership/fixtures-results/november",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Résultat final officiel ou FT du 21 novembre 2026, et non simple clôture horaire",
+      "score": "0-4"
     },
     "recCal20261121L90751": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T17:36:59.791Z",
+      "provider": "Football Web Pages — FT 21.11.2026",
+      "sourceUrl": "https://www.footballwebpages.co.uk/league-one/fixtures-results/november",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Résultat final officiel ou FT du 21 novembre 2026, et non simple clôture horaire",
+      "score": "0-1"
     },
     "recCal20261121P72740828": {
       "status": "Terminé",
@@ -3465,11 +3475,12 @@
     },
     "recCal20261121L87355": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T17:36:59.791Z",
+      "provider": "Football Web Pages — FT 21.11.2026",
+      "sourceUrl": "https://www.footballwebpages.co.uk/scottish-premiership/fixtures-results/november",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Résultat final officiel ou FT du 21 novembre 2026, et non simple clôture horaire",
+      "score": "2-4"
     },
     "recCal20261121L91569": {
       "status": "Terminé",
@@ -3481,11 +3492,12 @@
     },
     "recCal20261121P72341394": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T17:36:59.791Z",
+      "provider": "Football Web Pages — FT 21.11.2026",
+      "sourceUrl": "https://www.footballwebpages.co.uk/league-one/fixtures-results/november",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Résultat final officiel ou FT du 21 novembre 2026, et non simple clôture horaire",
+      "score": "4-1"
     },
     "recCal20261121L89091": {
       "status": "Terminé",
@@ -3498,11 +3510,12 @@
     },
     "recCal20261121P72341396": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T17:36:59.791Z",
+      "provider": "Football Web Pages — FT 21.11.2026",
+      "sourceUrl": "https://www.footballwebpages.co.uk/league-one/fixtures-results/november",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Résultat final officiel ou FT du 21 novembre 2026, et non simple clôture horaire",
+      "score": "1-1"
     },
     "recCal20261121P72340038": {
       "status": "Terminé",
@@ -3524,11 +3537,12 @@
     },
     "recCal20261121P72341398": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T17:36:59.791Z",
+      "provider": "Football Web Pages — FT 21.11.2026",
+      "sourceUrl": "https://www.footballwebpages.co.uk/league-one/fixtures-results/november",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Résultat final officiel ou FT du 21 novembre 2026, et non simple clôture horaire",
+      "score": "0-1"
     },
     "recCal20261121P72342400": {
       "status": "Terminé",
@@ -3550,11 +3564,12 @@
     },
     "recCal20261121L90734": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T17:30:05.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-21T17:36:59.791Z",
+      "provider": "Football Web Pages — FT 21.11.2026",
+      "sourceUrl": "https://www.footballwebpages.co.uk/league-one/fixtures-results/november",
       "observedLive": false,
-      "statusBasis": "Statut Terminé présumé par règle horaire depuis 2026-11-21T15:00:00.000Z; score final non vérifié"
+      "statusBasis": "Résultat final officiel ou FT du 21 novembre 2026, et non simple clôture horaire",
+      "score": "0-2"
     },
     "recCal20261121L90763": {
       "status": "Terminé",
