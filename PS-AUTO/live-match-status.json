@@ -2434,6 +2434,20 @@
       "checkedAt": "2026-11-21T02:38:15.294Z",
       "sourceUrl": "https://www.fotmob.com/matches/atletico-de-san-luis-vs-puebla/1o2rje",
       "statusBasis": "FotMob — fiche interactive du match Puebla FC–Atlético de San Luis (Liga MX, 21.11.2026) : LIVE à 77'13, 1–1 provisoire ; événements aux 67e, 68e, 74e et 75e minutes. Début réel confirmé, observedLive=true. Aucun score final établi."
+    },
+    "recCal20261121L89594": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T03:39:15.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261121L89597": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "checkedAt": "2026-11-21T03:39:15.000Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     }
   }
 }
