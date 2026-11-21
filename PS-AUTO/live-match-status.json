@@ -2604,11 +2604,12 @@
       "score": "0-1"
     },
     "recCal20261121L89461": {
-      "status": "En cours",
-      "provider": "FotMob — direct réel confirmé (événements jusqu'à la 46e minute)",
+      "status": "Terminé",
+      "provider": "FotMob — score final FT confirmé",
       "observedLive": true,
-      "checkedAt": "2026-11-21T11:39:01.753Z",
-      "sourceUrl": "https://www.fotmob.com/matches/gaziantep-fk-vs-genclerbirligi/1611rp"
+      "checkedAt": "2026-11-21T12:35:43.805Z",
+      "sourceUrl": "https://www.fotmob.com/matches/gaziantep-fk-vs-genclerbirligi/1611rp",
+      "score": "1-0"
     },
     "recCal20261121L91718": {
       "status": "Terminé",
