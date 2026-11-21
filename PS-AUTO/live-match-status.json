@@ -2456,7 +2456,7 @@
       "observedLive": true,
       "checkedAt": "2026-11-21T04:39:46.675Z",
       "sourceUrl": "https://www.flashscore.com/match/tennis/gonzalez-daniele-justina-maria-4hs3jvgb/hontama-mai-S0E8uMT2/",
-      "statusBasis": "Flashscore en direct : 1er set, Hontama 3-1 en jeux, 40-0 au service ; 23 min de jeu. Début réel observé ; score provisoire non final."
+      "statusBasis": "Flashscore en direct : 1er set à 6-6, jeu décisif 5-2 pour Hontama (score provisoire) ; points et service affichés, observedLive=true. Aucun set final vérifié."
     },
     "recCal20261121L87836": {
       "status": "En cours",
