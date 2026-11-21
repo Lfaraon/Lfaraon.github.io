@@ -4217,11 +4217,12 @@
     },
     "recCal20261121P72036300": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T22:34:51.218Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-21T22:37:19.165Z",
+      "provider": "ScoreInPlay — fiche match, terminé",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T19:45:00.000Z; score final non vérifié"
+      "sourceUrl": "https://scoreinplay.com/fr/match/monaco-vs-auxerre-2026-11-21-1552823",
+      "statusBasis": "Score final confirmé sur fiche du match ou compte rendu après-match, pas déduit de l'horaire",
+      "score": "1-1"
     },
     "recCal20261121P72036294": {
       "status": "Terminé",
@@ -4234,19 +4235,21 @@
     },
     "recCal20261121L89502": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T22:34:51.218Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-21T22:37:19.165Z",
+      "provider": "Sporza — compte rendu final",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T19:45:00.000Z; score final non vérifié"
+      "sourceUrl": "https://www.headliner.nl/item/live-diouf-bezorgt-kv-mechelen-een-eerredder-tijdens-oplawaai-van-oppermachtig-club-brugge-sporza-230952",
+      "statusBasis": "Score final confirmé sur fiche du match ou compte rendu après-match, pas déduit de l'horaire",
+      "score": "1-5"
     },
     "recCal20261121P72036292": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T22:34:51.218Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-21T22:37:19.165Z",
+      "provider": "The Guardian — résultats FT",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T19:45:00.000Z; score final non vérifié"
+      "sourceUrl": "https://www.theguardian.com/football/lens/results",
+      "statusBasis": "Score final confirmé sur fiche du match ou compte rendu après-match, pas déduit de l'horaire",
+      "score": "1-1"
     },
     "recCal20261121P71945420": {
       "status": "Terminé",
@@ -4285,11 +4288,12 @@
     },
     "recCal20261121P76565500": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T22:34:51.218Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-21T22:37:19.165Z",
+      "provider": "CanadianPL — fil d'après-match FT et chronologie",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T20:00:00.000Z; score final non vérifié"
+      "sourceUrl": "https://www.reddit.com/r/CanadianPL/comments/1y297pv/postmatch_discussion_thread_2026_cpl_final_nov_21/",
+      "statusBasis": "Score final confirmé sur fiche du match ou compte rendu après-match, pas déduit de l'horaire",
+      "score": "3-2"
     },
     "recCal20261121P72041250": {
       "status": "Terminé",
@@ -4319,11 +4323,12 @@
     },
     "recCal20261121P72478722": {
       "status": "Terminé",
-      "checkedAt": "2026-11-21T22:34:51.218Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-21T22:37:19.165Z",
+      "provider": "UOL Esporte — compte rendu final",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut Terminé présumé à +120 minutes du coup d'envoi 2026-11-21T20:00:00.000Z; score final non vérifié"
+      "sourceUrl": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/21/real-madrid-x-celta-de-vigo.ghtm",
+      "statusBasis": "Score final confirmé sur fiche du match ou compte rendu après-match, pas déduit de l'horaire",
+      "score": "2-1"
     },
     "recCal20261121P72041264": {
       "status": "Terminé",
