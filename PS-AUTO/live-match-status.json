@@ -1893,13 +1893,13 @@
     },
     "recCal20261120P76682244": {
       "status": "En cours",
-      "provider": "Tennis.com — fiche dynamique, jeux et points observés en direct",
-      "checkedAt": "2026-11-20T23:41:38.073Z",
+      "provider": "Tennis.com — fiche dynamique, échanges et points actualisés en direct",
+      "checkedAt": "2026-11-21T00:36:34.000Z",
       "observedLive": true,
       "reversed": false,
       "sourceUrl": "https://www.tennis.com/tournaments/lp-open-by-ind/matches/r-masarova-vs-l-samson-2026-11-20",
       "scheduledKickoff": "2026-11-20T22:40:00.000Z",
-      "statusBasis": "Début réel observé sur fiche Tennis.com : 1er set, 0-0 jeu, Masarova sert à 40-0 ; score provisoire, pas de résultat final."
+      "statusBasis": "Tennis.com ouvert en navigateur dynamique : badge LIVE, jeux/points en progression lors de rechargements, première manche 6-2 affichée ; aucun résultat final validé."
     },
     "recCal20261120P76736472": {
       "status": "Terminé",
@@ -2409,19 +2409,19 @@
     },
     "recCal20261121L89684": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-20T23:42:10.575Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé depuis le kickoff publié 2026-11-20T23:00:00Z ; pas de score final."
+      "provider": "FotMob — minute et événements de match observés en direct",
+      "observedLive": true,
+      "checkedAt": "2026-11-21T00:36:34.000Z",
+      "sourceUrl": "https://www.fotmob.com/matches/velez-sarsfield-vs-belgrano/3d4qq6",
+      "statusBasis": "21 novembre 2026 01:36 CET: fiche du match du 20/11 à ~71e min, 1-1 provisoire, événements détaillés actualisés ; pas de score final."
     },
     "recCal20261121P67682114": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "checkedAt": "2026-11-20T23:42:10.575Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Début présumé depuis le kickoff publié 2026-11-20T23:30:00Z ; pas de score final."
+      "provider": "FOX Sports — minute et événements de match observés en direct",
+      "observedLive": true,
+      "checkedAt": "2026-11-21T00:36:34.000Z",
+      "sourceUrl": "https://www.foxsports.com/soccer/chilean-primera-division-palestino-vs-deportes-union-la-calera-nov-20-2026-game-boxscore-651104",
+      "statusBasis": "21 novembre 2026 01:36 CET: fiche du match du 20/11 ~44e min, score provisoire 0-0, événements du direct affichés ; pas de score final."
     }
   }
 }
