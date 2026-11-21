@@ -3850,12 +3850,12 @@
       "sourceUrl": "https://m.lajfy.com/match/index/date/2026-11-21/id/556324"
     },
     "recCal20261121L91721": {
-      "status": "À venir",
-      "provider": "Lajfy — fiche dynamique, nouvel horaire 19h00 CET",
-      "statusBasis": "Lajfy fiche dynamique du 21.11.2026 : horaire affiché 19h00 CET (18h00 UTC), après ancien horaire 18h15 CET. Avant match, 0 jeu/point, début réel NON observé. Nouvel horaire prioritaire.",
+      "status": "Annulé",
+      "provider": "Lajfy — adversaire remplacée (Feistel → Klimovicova), fiche dynamique",
+      "statusBasis": "Lajfy fiche dynamique du 21.11.2026 : l'adversaire de Caijsa Wilda Hennemann est Linda Klimovicova (et non Gina Feistel). Score live de ce match DIFFERENT : 1er set 2–3, service Klimovicova, jeu à 19:32:20. Ancienne affiche Feistel–Hennemann remplacée, ne pas lui attribuer les jeux/score.",
       "rescheduledKickoff": "2026-11-21T18:00:00.000Z",
       "observedLive": false,
-      "checkedAt": "2026-11-21T17:34:21.971Z",
+      "checkedAt": "2026-11-21T18:33:30.000Z",
       "sourceUrl": "https://m.lajfy.com/match/index/date/2026-11-21/id/556325"
     },
     "recCal20261121L89947": {
