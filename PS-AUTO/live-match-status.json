@@ -2823,10 +2823,11 @@
     },
     "recCal20261121L89457": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Anadolu Ajansı / Haberler — fin confirmée Amedspor 0–2 Rizespor, 21.11.2026",
       "observedLive": false,
       "checkedAt": "2026-11-21T15:40:01.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.haberler.com/spor/caykur-rizespor-amed-sportif-faaliyetler-i-sowe-20449469-haberi/",
+      "score": "0-2"
     },
     "recCal20261121P72477620": {
       "status": "Terminé",
