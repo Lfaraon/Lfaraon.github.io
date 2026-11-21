@@ -3892,11 +3892,12 @@
     },
     "recCal20261121L89947": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Statut Terminé présumé à +120 min depuis 2026-11-21T17:00:00.000Z; score final non vérifié",
+      "provider": "YSscores — résultat final 1-2",
+      "statusBasis": "Score final Ended sur fiche exacte; ordre domicile-extérieur",
       "observedLive": false,
-      "checkedAt": "2026-11-21T19:33:53.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-21T19:41:00.000Z",
+      "sourceUrl": "https://www.ysscores.com/en/match/5831221/Bohemians-Prague-1905-vs-FC-Viktoria-Plzen-statics",
+      "score": "1-2"
     },
     "recCal20261121L91555": {
       "status": "Terminé",
