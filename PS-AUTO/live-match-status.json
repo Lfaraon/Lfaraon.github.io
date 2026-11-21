@@ -4337,6 +4337,14 @@
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "statusBasis": "Statut En cours présumé depuis le kickoff 2026-11-21T20:30:00.000Z (3 min écoulées), score final non vérifié"
+    },
+    "recCal20261121L91723": {
+      "status": "Annulé",
+      "provider": "Tennis Canada — adversaire remplacée pour le cinquième match",
+      "checkedAt": "2026-11-21T20:34:30.000Z",
+      "observedLive": false,
+      "sourceUrl": "https://www.tenniscanada.com/news/pro-tennis/2026/billie-jean-king-cup-play-offs-canada-brazil-saturday",
+      "statusBasis": "Tennis Canada confirme Leme Da Silva–Clémence Mercier ; affiche Leme Da Silva–Kayla Cross remplacée, sans score"
     }
   }
 }
