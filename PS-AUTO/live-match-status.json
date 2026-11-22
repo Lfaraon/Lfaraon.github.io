@@ -5165,12 +5165,12 @@
       "statusBasis": "horaire prévu de match-source.json"
     },
     "recCal20261122P67126898": {
-      "status": "Terminé",
-      "checkedAt": "2026-11-22T17:36:19.864Z",
-      "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "horaire prévu de match-source.json"
+      "status": "En cours",
+      "checkedAt": "2026-11-22T17:44:27.208Z",
+      "observedLive": true,
+      "provider": "FotMob — suivi live match 77e minute (0-3 provisoire), non final",
+      "sourceUrl": "https://www.fotmob.com/en-GB/matches/halmstads-bk-vs-brommapojkarna/2c50kn",
+      "statusBasis": "activité live effective observée > règle horaire"
     },
     "recCal20261122L89612": {
       "status": "Terminé",
@@ -5181,12 +5181,12 @@
       "statusBasis": "horaire prévu de match-source.json"
     },
     "recCal20261122L87706": {
-      "status": "Terminé",
-      "checkedAt": "2026-11-22T17:36:19.864Z",
-      "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "horaire prévu de match-source.json"
+      "status": "En cours",
+      "checkedAt": "2026-11-22T17:44:27.208Z",
+      "observedLive": true,
+      "provider": "FotMob — suivi live temps additionnel 90e minute (2-0 provisoire), non final",
+      "sourceUrl": "https://www.fotmob.com/matches/ofi-crete-vs-panathinaikos/2nygze",
+      "statusBasis": "activité live effective observée > règle horaire"
     },
     "recCal20261122P72041258": {
       "status": "En cours",
