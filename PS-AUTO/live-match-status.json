@@ -5480,11 +5480,12 @@
     },
     "recCal20261122P67015474": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Score final confirmé (TNT Sports)",
+      "sourceUrl": "https://www.tntsports.co.uk/football/eliteserien/2026/sarpsborg-08-lillestrom-sk_mtc1659604/live.shtml",
       "observedLive": false,
-      "checkedAt": "2026-11-22T20:30:53.000Z",
-      "statusBasis": "horaire prévu de match-source.json (+120 min), score non vérifié"
+      "checkedAt": "2026-11-22T21:37:11.000Z",
+      "statusBasis": "horaire prévu de match-source.json (+120 min), score non vérifié",
+      "score": "0-2"
     },
     "recCal20261122L87736": {
       "status": "Terminé",
