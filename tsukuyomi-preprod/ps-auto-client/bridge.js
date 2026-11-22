@@ -1,4 +1,4 @@
-import { nextTicketKickoff, renderFollowedTickets, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=progressive-results";
+import { nextTicketKickoff, renderFollowedTickets, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=account-display";
 import { readFollowingState } from "./following.js?rev=member-following";
 import { createTicketFilters } from "./ticketFilters.js?rev=followed-matches-search";
 import { buildFollowedMatches } from "./followedMatches.js?rev=followed-matches-search";
@@ -122,6 +122,7 @@ function connectDashboard(window, nonce, destination) {
 
   let port;
   let data = { status: "loading", tickets: [] };
+  let displayPreferences;
   let publications = [];
   let history = { status: "loading", tickets: [] };
   let ledger = history;
@@ -338,7 +339,7 @@ function connectDashboard(window, nonce, destination) {
   }
 
   function drawTickets(now = Date.now()) {
-    const options = followOptions();
+    const options = { ...followOptions(), displayPreferences };
     if (ticketView === "following") {
       renderFollowedTickets(tickets, {
         ...followedCatalogue(now), ...options, now, showReasoning: true,
@@ -492,7 +493,7 @@ function connectDashboard(window, nonce, destination) {
         originalLatest.setAttribute("aria-label", "Derniers pronostics");
       }
       if (lastLatestRender?.data !== data || lastLatestRender.following !== following) {
-        renderLatestTickets(latest, { ...data, ...followOptions(), onViewAll, onRetry, showReasoning: true });
+        renderLatestTickets(latest, { ...data, ...followOptions(), displayPreferences, onViewAll, onRetry, showReasoning: true });
         lastLatestRender = { data, following };
       }
     }
@@ -559,6 +560,13 @@ function connectDashboard(window, nonce, destination) {
         const state = readFollowingState(message);
         if (!state) return;
         following = state;
+        syncDashboard();
+        return;
+      }
+      if (message?.type === "tsukuyomi:display-preferences") {
+        displayPreferences = message.preferences;
+        lastTicketsRender = undefined;
+        lastLatestRender = undefined;
         syncDashboard();
         return;
       }

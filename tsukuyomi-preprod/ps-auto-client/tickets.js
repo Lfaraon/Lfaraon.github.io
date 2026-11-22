@@ -1,6 +1,7 @@
 import { confirmedOutcome, formatChf, isCanonicalTicket, netAmount, outcomeLabel, selectionOutcome, ticketDate, ticketStake } from "./ledgerAccounting.js?rev=reference-stake";
 import { recalculatedSelectionProbability, recalculatedTicketProbability, selectionProbability, ticketProbability } from "./ticketForecasts.js?rev=canonical-ticket";
 import { isFollowableTicketId } from "./following.js?rev=member-following";
+import { createDisplayDateFormatter, formatPreferredOdds } from "./ticketDisplayPreferences.js?rev=member-display";
 
 const kinds = { simple: "Simple", combine: "Combiné", triple: "Triplé" };
 const hiddenPlayedTicketId = "LORO-2026-11-12-T002";
@@ -29,6 +30,26 @@ const kickoffDate = new Intl.DateTimeFormat("fr-CH", {
   minute: "2-digit",
   timeZone: "Europe/Zurich",
 });
+const legacyDisplay = {
+  publication: (timestamp) => shortDate.format(timestamp),
+  publicationTitle: (timestamp) => publicationDate.format(timestamp),
+  kickoff: (timestamp) => kickoffDate.format(timestamp),
+};
+
+function ticketDisplay(preferences) {
+  if (!preferences) return legacyDisplay;
+  const { oddsFormat, dateFormat, timeZone } = preferences;
+  if (!dateFormat && !timeZone) return { ...legacyDisplay, oddsFormat };
+  const format = createDisplayDateFormatter(preferences);
+  const fullTime = (timestamp) => format(timestamp, { time: true, year: true, zone: true });
+  return {
+    oddsFormat,
+    publication: format,
+    publicationTitle: fullTime,
+    kickoff: (timestamp) => format(timestamp, { time: true }),
+    kickoffTitle: fullTime,
+  };
+}
 
 export function formatExactDecimal(value) {
   return String(value).replace(".", ",");
@@ -49,12 +70,30 @@ function element(doc, tag, className, text) {
   return node;
 }
 
-function time(doc, value, formatter) {
+function time(doc, value, formatter, titleFormatter) {
   const timestamp = Date.parse(value);
   if (!Number.isFinite(timestamp)) return null;
-  const node = element(doc, "time", "", formatter.format(timestamp));
+  const node = element(doc, "time", "", formatter(timestamp));
   node.dateTime = value;
+  if (titleFormatter) node.title = titleFormatter(timestamp);
   return node;
+}
+
+function oddsDisplay(value, oddsFormat, showExact) {
+  if (!Number.isFinite(value)) return { text: "—" };
+  const alternative = formatPreferredOdds(value, oddsFormat);
+  if (alternative) {
+    const exact = "Cote décimale exacte : " + formatExactDecimal(value);
+    return { text: alternative, title: exact, ariaLabel: alternative + " · " + exact };
+  }
+  return { text: decimal.format(value), title: showExact ? formatExactDecimal(value) : undefined };
+}
+
+function numberNotation(number, { title, ariaLabel = title }) {
+  if (title && title !== number.textContent) {
+    number.title = title;
+    number.setAttribute("aria-label", ariaLabel);
+  }
 }
 
 function decimalComma(text) {
@@ -182,7 +221,7 @@ function statusChip(doc, className, label, outcome) {
   return badge;
 }
 
-function renderLeg(doc, leg, index, ticket, played, settled) {
+function renderLeg(doc, leg, index, ticket, played, settled, display) {
   const canonical = isCanonicalTicket(ticket);
   const item = element(doc, "li", "tsukuyomi-ticket-leg");
   const content = element(doc, "div", "tsukuyomi-ticket-leg-content");
@@ -191,7 +230,7 @@ function renderLeg(doc, leg, index, ticket, played, settled) {
   item.append(number, content);
   const fixture = element(doc, "div", "tsukuyomi-ticket-fixture");
   fixture.append(element(doc, "span", "tsukuyomi-ticket-event", canonical ? canonicalEventLabel(leg) : leg.event));
-  const kickoff = time(doc, leg.starts_at, kickoffDate);
+  const kickoff = time(doc, leg.starts_at, display.kickoff, display.kickoffTitle);
   if (kickoff) fixture.append(" ", kickoff);
   if (canonical && ticket.sport === "MULTISPORT" && leg.sport) {
     const sport = sentenceCase(leg.sport);
@@ -207,19 +246,20 @@ function renderLeg(doc, leg, index, ticket, played, settled) {
 
   const facts = element(doc, "div", "tsukuyomi-ticket-leg-facts");
   const measurements = [];
-  if (Number.isFinite(leg.odds)) measurements.push(["Cote", decimal.format(leg.odds), canonical ? formatExactDecimal(leg.odds) : null]);
+  if (Number.isFinite(leg.odds)) measurements.push({ label: "Cote", ...oddsDisplay(leg.odds, display.oddsFormat, canonical) });
   const estimate = selectionProbability(ticket, leg) ?? recalculatedSelectionProbability(ticket, leg);
   if (!canonical || estimate !== null) {
-    measurements.push(["Prob. estimée", formatTicketProbability(estimate) || "—", canonical ? formatExactProbability(estimate) : null]);
+    measurements.push({
+      label: "Prob. estimée",
+      text: formatTicketProbability(estimate) || "—",
+      title: canonical ? formatExactProbability(estimate) : null,
+    });
   }
   const metrics = element(doc, "p", "tsukuyomi-ticket-measurement");
-  for (const [label, value, exact] of measurements) {
+  for (const { label, text, title, ariaLabel } of measurements) {
     const pair = element(doc, "span", "", label + " ");
-    const number = element(doc, "strong", "", value);
-    if (exact && exact !== value) {
-      number.title = exact;
-      number.setAttribute("aria-label", exact);
-    }
+    const number = element(doc, "strong", "", text);
+    numberNotation(number, { title, ariaLabel });
     pair.append(number);
     metrics.append(pair, " ");
   }
@@ -241,20 +281,17 @@ function renderLeg(doc, leg, index, ticket, played, settled) {
   return item;
 }
 
-function metric(doc, label, value, outcome, exact) {
+function metric(doc, label, value, outcome, notation = {}) {
   const item = element(doc, "div", "tsukuyomi-ticket-metric");
   if (outcome) item.dataset.outcome = outcome;
   const number = element(doc, "dd", "", value);
-  if (exact && exact !== value) {
-    number.title = exact;
-    number.setAttribute("aria-label", exact);
-  }
+  numberNotation(number, notation);
   item.append(element(doc, "dt", "", label), number);
   return item;
 }
 
 function createTicketCard(doc, ticket, played, open, {
-  now = Date.now(), showImportedStake = false, showReasoning = false, reasoningOpen = false, following,
+  now = Date.now(), showImportedStake = false, showReasoning = false, reasoningOpen = false, following, display = legacyDisplay,
 } = {}) {
   const canonical = isCanonicalTicket(ticket);
   const collapsible = played || (canonical && isPublished(ticket));
@@ -271,11 +308,10 @@ function createTicketCard(doc, ticket, played, open, {
   const legs = Array.isArray(ticket.legs) ? ticket.legs.filter(Boolean) : [];
   const outcome = confirmedOutcome(ticket);
   const metadata = element(doc, collapsible ? "span" : "p", "tsukuyomi-ticket-meta");
-  const published = time(doc, ticketDate(ticket), shortDate);
+  const published = time(doc, ticketDate(ticket), display.publication, display.publicationTitle);
   const selections = legs.length === 1 ? "1 sélection" : legs.length + " sélections";
 
   if (published) {
-    published.title = publicationDate.format(Date.parse(published.dateTime));
     metadata.append(published, " · ");
   }
   metadata.append(selections);
@@ -323,7 +359,7 @@ function createTicketCard(doc, ticket, played, open, {
 
   const legList = element(doc, "ol", "tsukuyomi-ticket-legs");
   legList.setAttribute("role", "list");
-  legs.forEach((leg, index) => legList.append(renderLeg(doc, leg, index, ticket, played, settled)));
+  legs.forEach((leg, index) => legList.append(renderLeg(doc, leg, index, ticket, played, settled, display)));
   if (!legs.length) legList.append(element(doc, "li", "tsukuyomi-ticket-meta", "Sélections non renseignées"));
 
   const estimate = ticketProbability(ticket) ?? recalculatedTicketProbability(ticket);
@@ -341,12 +377,15 @@ function createTicketCard(doc, ticket, played, open, {
   }
 
   const metrics = element(doc, "dl", "tsukuyomi-ticket-odds");
-  const odds = Number.isFinite(ticket.odds) ? decimal.format(ticket.odds) : "—";
-  const exactOdds = canonical && Number.isFinite(ticket.odds) ? formatExactDecimal(ticket.odds) : null;
-  metrics.append(metric(doc, "Cote totale", odds, null, exactOdds));
+  const odds = oddsDisplay(ticket.odds, display.oddsFormat, canonical);
+  metrics.append(metric(doc, "Cote totale", odds.text, null, odds));
   const payoutOdds = ticket.settlement?.payout_odds;
-  if (outcome === "won" && Number.isFinite(payoutOdds) && payoutOdds >= 1 && decimal.format(payoutOdds) !== odds) {
-    metrics.append(metric(doc, "Cote réglée", decimal.format(payoutOdds)));
+  if (outcome === "won" && Number.isFinite(payoutOdds) && payoutOdds >= 1) {
+    const decimalOdds = Number.isFinite(ticket.odds) ? decimal.format(ticket.odds) : "—";
+    if (decimal.format(payoutOdds) !== decimalOdds) {
+      const payout = oddsDisplay(payoutOdds, display.oddsFormat, false);
+      metrics.append(metric(doc, "Cote réglée", payout.text, null, payout));
+    }
   }
   const stake = ticketStake(ticket);
   metrics.append(metric(doc, "Mise de référence", formatChf(stake)));
@@ -450,7 +489,7 @@ export function recentPlayedTicketIds(tickets, options) {
 
 function renderFeed(mount, {
   tickets = [], status, onRetry, filtered, now = Date.now(), includePending = false, showReasoning = false,
-  following, followingError, focusFallback,
+  following, followingError, focusFallback, displayPreferences,
 }, { view, onViewAll }) {
   const doc = mount.ownerDocument;
   const feed = element(doc, "div", onViewAll ? "tsukuyomi-tickets-latest" : "tsukuyomi-tickets-page");
@@ -498,6 +537,7 @@ function renderFeed(mount, {
       feed.append(retry);
     }
   } else {
+    const display = ticketDisplay(displayPreferences);
     if (!onViewAll) {
       const count = rows.length === 1 ? "1 pronostic" + (followed ? " suivi" : "")
         : rows.length + " pronostics" + (followed ? " suivis" : "");
@@ -521,6 +561,7 @@ function renderFeed(mount, {
           showReasoning: typeof showReasoning === "function" ? showReasoning(ticket) : showReasoning,
           reasoningOpen: openReasoning.get(ticket.id),
           following,
+          display,
         }));
         if (focusedTicket && focusedTicket === ticket.id) nextFocus = item.querySelector(focusSelector);
         list.append(item);
