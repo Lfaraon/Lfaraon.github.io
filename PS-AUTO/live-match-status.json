@@ -4869,10 +4869,12 @@
     },
     "recCal20261122P71945408": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Sky Sport Italia — Fine; résultat final 22.11.2026",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:40:59.992Z",
+      "sourceUrl": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-12/bologna-udinese/video-highlights",
+      "score": "1-1",
+      "statusBasis": "score final vérifié"
     },
     "recCal20261122L90937": {
       "status": "Terminé",
