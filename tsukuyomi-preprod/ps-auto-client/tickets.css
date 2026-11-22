@@ -12,7 +12,8 @@
 .tsukuyomi-pronostic-views button {
   flex: 1 1 0;
   min-height: 44px;
-  padding: 8px 12px;
+  min-width: 0;
+  padding: 8px clamp(4px, 2vw, 12px);
   border: 1px solid var(--tsukuyomi-button-border);
   border-radius: var(--tsukuyomi-button-radius);
   background: var(--tsukuyomi-button-bg);
@@ -497,6 +498,40 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 
 .tsukuyomi-tickets-retry {
   padding-inline: 12px;
+}
+
+.tsukuyomi-ticket-follow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-inline-start: auto;
+  padding-inline: 12px;
+}
+
+.tsukuyomi-ticket-follow[aria-pressed="true"] {
+  background: var(--tsukuyomi-button-active-bg);
+  border-color: var(--tsukuyomi-button-active-border);
+  color: var(--tsukuyomi-button-active-ink);
+}
+
+.tsukuyomi-ticket-follow[aria-pressed="true"]::before {
+  width: 6px;
+  height: 10px;
+  border: solid currentColor;
+  border-width: 0 2px 2px 0;
+  content: "";
+  transform: translateY(-1px) rotate(45deg);
+}
+
+.tsukuyomi-ticket-follow[aria-disabled="true"] {
+  cursor: wait;
+  opacity: .7;
+}
+
+.tsukuyomi-ticket-follow-error {
+  margin: 0 0 12px;
+  color: var(--tsukuyomi-warning);
+  font-size: 14px;
 }
 
 .tsukuyomi-tickets-button:hover {

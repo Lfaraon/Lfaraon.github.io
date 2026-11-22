@@ -1,5 +1,6 @@
 import { confirmedOutcome, formatChf, isCanonicalTicket, netAmount, outcomeLabel, ticketDate, ticketStake } from "./ledgerAccounting.js?rev=reference-stake";
 import { recalculatedSelectionProbability, recalculatedTicketProbability, selectionProbability, ticketProbability } from "./ticketForecasts.js?rev=canonical-ticket";
+import { isFollowableTicketId } from "./following.js?rev=member-following";
 
 const kinds = { simple: "Simple", combine: "Combiné", triple: "Triplé" };
 const hiddenPlayedTicketId = "LORO-2026-11-12-T002";
@@ -253,7 +254,7 @@ function metric(doc, label, value, outcome, exact) {
 }
 
 function createTicketCard(doc, ticket, played, open, {
-  now = Date.now(), showImportedStake = false, showReasoning = false, reasoningOpen = false,
+  now = Date.now(), showImportedStake = false, showReasoning = false, reasoningOpen = false, following,
 } = {}) {
   const canonical = isCanonicalTicket(ticket);
   const collapsible = played || (canonical && isPublished(ticket));
@@ -351,6 +352,23 @@ function createTicketCard(doc, ticket, played, open, {
       element(doc, "p", "tsukuyomi-ticket-reasoning-text", reasoningText));
     card.append(reasoning);
   }
+  if (following && isFollowableTicketId(ticket.id)) {
+    const isFollowing = following.ids.has(ticket.id);
+    const button = element(doc, "button", "tsukuyomi-tickets-button tsukuyomi-ticket-follow", "Suivre");
+    button.type = "button";
+    button.dataset.ticketId = ticket.id;
+    button.title = isFollowing ? "Retirer de Mon suivi" : "Ajouter à Mon suivi";
+    if (legs[0]?.event) button.setAttribute("aria-label", "Suivre le pronostic · " + legs[0].event);
+    button.setAttribute("aria-pressed", String(isFollowing));
+    if (following.pending.has(ticket.id)) button.setAttribute("aria-disabled", "true");
+    button.addEventListener("click", (event) => {
+      event.stopPropagation();
+      if (button.getAttribute("aria-disabled") === "true") return;
+      button.setAttribute("aria-disabled", "true");
+      following.onSet(ticket.id, !isFollowing);
+    });
+    card.append(button);
+  }
   return card;
 }
 
@@ -383,6 +401,12 @@ export function nextTicketKickoff(tickets, now = Date.now()) {
 }
 
 export function ticketsForView(tickets, { view = "upcoming", now = Date.now(), includePending = false } = {}) {
+  if (view === "following") {
+    const played = ticketsForView(tickets, { view: "played", now, includePending: true });
+    const published = ticketsForView(tickets, { view: "latest", now });
+    const byId = new Map([...played, ...published].map((ticket) => [ticket.id, ticket]));
+    return [...byId.values()].sort((a, b) => Date.parse(ticketDate(b)) - Date.parse(ticketDate(a)));
+  }
   const played = view === "played";
   const ordered = tickets.filter((ticket) => {
     if (isCanonicalTicket(ticket)) {
@@ -412,10 +436,12 @@ export function recentPlayedTicketIds(tickets, options) {
 
 function renderFeed(mount, {
   tickets = [], status, onRetry, filtered, now = Date.now(), includePending = false, showReasoning = false,
+  following, followingError, focusFallback,
 }, { view, onViewAll }) {
   const doc = mount.ownerDocument;
   const feed = element(doc, "div", onViewAll ? "tsukuyomi-tickets-latest" : "tsukuyomi-tickets-page");
   const played = view === "played";
+  const followed = view === "following";
   feed.dataset.ticketView = view;
   const sameView = mount.firstElementChild?.dataset.ticketView === view;
   const disclosureStates = (className) => new Map(sameView ? Array.from(
@@ -425,19 +451,29 @@ function renderFeed(mount, {
   const openTickets = disclosureStates("tsukuyomi-ticket-disclosure");
   const openReasoning = disclosureStates("tsukuyomi-ticket-reasoning");
   const active = doc.activeElement;
-  const focusSelector = active?.matches(".tsukuyomi-ticket-reasoning-toggle")
-    ? ".tsukuyomi-ticket-reasoning-toggle" : ".tsukuyomi-ticket-disclosure > summary";
-  const focusedTicket = sameView && mount.contains(active) && active.matches(focusSelector)
-    ? active.parentElement.dataset.ticketId
+  const focusSelector = [".tsukuyomi-ticket-follow", ".tsukuyomi-ticket-reasoning-toggle", ".tsukuyomi-ticket-disclosure > summary"]
+    .find((selector) => active?.matches(selector));
+  const focusedTicket = sameView && focusSelector && mount.contains(active)
+    ? active.dataset.ticketId || active.parentElement.dataset.ticketId
     : null;
   let nextFocus;
   const rows = status === "ready" ? ticketsForView(tickets, { view, now, includePending }) : [];
+  if (followingError) {
+    const notice = element(doc, "p", "tsukuyomi-ticket-follow-error", followingError);
+    notice.setAttribute("role", "status");
+    feed.append(notice);
+  }
   if (!rows.length) {
     let message = view === "upcoming" ? "Aucun ticket à jouer pour le moment." : "Aucun ticket dans cet historique.";
     if (filtered) message = "Aucun ticket ne correspond à ces filtres.";
     if (view === "latest") message = "Aucun pronostic publié pour le moment.";
     if (status === "loading") message = played ? "Chargement de l’historique…" : "Chargement des pronostics…";
     if (status === "error") message = played ? "L’historique est momentanément indisponible." : "Les pronostics sont momentanément indisponibles.";
+    if (followed) {
+      message = status === "loading" ? "Chargement de ton suivi…"
+        : status === "error" ? "Ton suivi est momentanément indisponible."
+          : "Aucun pronostic suivi. Utilise « Suivre » sur les tickets que tu souhaites retrouver ici.";
+    }
     const notice = element(doc, "p", "tsukuyomi-ticket-notice", message);
     notice.setAttribute("role", "status");
     feed.append(notice);
@@ -449,7 +485,8 @@ function renderFeed(mount, {
     }
   } else {
     if (!onViewAll) {
-      const count = rows.length === 1 ? "1 pronostic" : rows.length + " pronostics";
+      const count = rows.length === 1 ? "1 pronostic" + (followed ? " suivi" : "")
+        : rows.length + " pronostics" + (followed ? " suivis" : "");
       feed.append(element(doc, "p", "tsukuyomi-ticket-count", count));
     }
     const shown = onViewAll ? rows.slice(0, 4) : rows;
@@ -464,10 +501,12 @@ function renderFeed(mount, {
       const list = element(doc, "ul", "tsukuyomi-ticket-list");
       for (const ticket of group) {
         const item = element(doc, "li", "tsukuyomi-ticket-item");
-        item.append(createTicketCard(doc, ticket, played, openTickets.get(ticket.id) ?? !played, {
+        const playedCard = played || (followed && (Boolean(ticket.placed_at || confirmedOutcome(ticket)) || isAwaitingResult(ticket, now)));
+        item.append(createTicketCard(doc, ticket, playedCard, openTickets.get(ticket.id) ?? !playedCard, {
           now,
           showReasoning: typeof showReasoning === "function" ? showReasoning(ticket) : showReasoning,
           reasoningOpen: openReasoning.get(ticket.id),
+          following,
         }));
         if (focusedTicket && focusedTicket === ticket.id) nextFocus = item.querySelector(focusSelector);
         list.append(item);
@@ -482,7 +521,7 @@ function renderFeed(mount, {
     feed.append(button);
   }
   mount.replaceChildren(feed);
-  nextFocus?.focus({ preventScroll: true });
+  (nextFocus || (focusedTicket && focusFallback))?.focus?.({ preventScroll: true });
 }
 
 export function renderTickets(mount, data) {
@@ -493,6 +532,10 @@ export function renderPlayedTickets(mount, data) {
   renderFeed(mount, data, { view: "played" });
 }
 
+export function renderFollowedTickets(mount, data) {
+  renderFeed(mount, data, { view: "following" });
+}
+
 export function renderFeaturedTicket(mount, ticket) {
   mount.replaceChildren(createTicketCard(mount.ownerDocument, ticket, true, true));
 }
@@ -501,6 +544,6 @@ export function renderPublicationTicket(mount, ticket, { showReasoning = false }
   mount.replaceChildren(createTicketCard(mount.ownerDocument, ticket, false, true, { showImportedStake: true, showReasoning }));
 }
 
-export function renderLatestTickets(mount, { tickets, status, onRetry, onViewAll, showReasoning }) {
-  renderFeed(mount, { tickets, status, onRetry, showReasoning }, { view: "latest", onViewAll });
+export function renderLatestTickets(mount, { onViewAll, ...data }) {
+  renderFeed(mount, data, { view: "latest", onViewAll });
 }

@@ -1,4 +1,5 @@
-import { nextTicketKickoff, recentPlayedTicketIds, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=ticket-reasoning";
+import { nextTicketKickoff, recentPlayedTicketIds, renderFollowedTickets, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=member-following";
+import { readFollowingState } from "./following.js?rev=member-following";
 import { createTicketFilters } from "./ticketFilters.js?rev=calendar-filter-focus";
 import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
 import { renderLedger } from "./ledger.js?rev=reference-stake";
@@ -16,6 +17,7 @@ const scrollRevealSelectors = {
   home: `${ledgerCards}, ${calendarRows}, [data-tsukuyomi-latest] ${ticketCards}`,
   upcoming: ticketCards,
   played: ticketCards,
+  following: ticketCards,
   statistics: `${ledgerCards}, [data-tsukuyomi-native-charts] .chart-panel`,
 };
 const historyUrl = new URL("./history.json?rev=ticket-review", import.meta.url);
@@ -27,6 +29,7 @@ const initialTabs = new Map([
 ]);
 const states = new Set(["loading", "ready", "error"]);
 const maxTimeout = 2 ** 31 - 1;
+const ticketViews = new Set(["upcoming", "played", "following"]);
 
 function removePlatforms(section) {
   const document = section.ownerDocument;
@@ -87,6 +90,9 @@ function connectDashboard(window, nonce, destination) {
   const playedButton = document.createElement("button");
   playedButton.type = "button";
   playedButton.textContent = "Tickets joués";
+  const followingButton = document.createElement("button");
+  followingButton.type = "button";
+  followingButton.textContent = "Mon suivi";
   views.append(upcomingButton, playedButton);
 
   let port;
@@ -94,6 +100,7 @@ function connectDashboard(window, nonce, destination) {
   let publications = [];
   let history = { status: "loading", tickets: [] };
   let ledger = history;
+  let following = { status: "hidden" };
   let lastTicketsRender;
   let lastLatestRender;
   let lastSummaryRender;
@@ -107,7 +114,7 @@ function connectDashboard(window, nonce, destination) {
   let revealingTitle;
   let dashboardRendered = false;
   let renderReport = "idle";
-  let showPlayed = false;
+  let ticketView = "upcoming";
   let pendingTab = initialTabs.get(destination);
   let scrollToCalendar = destination === "calendrier";
   let calendarMount;
@@ -182,8 +189,7 @@ function connectDashboard(window, nonce, destination) {
     stopTransitions();
     if (!previousView || reducedMotion?.matches) return;
     if (renderReport === "sent") revealLedgerHeading(element);
-    const switchingTicketView = (previousView === "upcoming" && view === "played")
-      || (previousView === "played" && view === "upcoming");
+    const switchingTicketView = ticketViews.has(previousView) && ticketViews.has(view);
     const content = switchingTicketView ? tickets : element;
     viewTransition = content.animate?.([
       { opacity: 0.65, transform: "translateY(5px)" },
@@ -240,24 +246,46 @@ function connectDashboard(window, nonce, destination) {
     if (history.status === "error") loadHistory();
     if (data.status === "error") onRetry();
   }
+  function retryFollowing() {
+    if (following.status === "error") port?.postMessage({ type: "tsukuyomi:following-retry" });
+    if (ledger.status === "error") retryLedger();
+  }
+  function setFollowing(ticketId, isFollowing) {
+    port?.postMessage({ type: "tsukuyomi:following-set", ticketId, following: isFollowing });
+  }
+  function followOptions() {
+    if (following.status !== "ready") return {};
+    return { following: { ...following, onSet: setFollowing }, followingError: following.error };
+  }
   function drawTickets(now = Date.now()) {
+    const options = followOptions();
+    if (ticketView === "following") {
+      const status = following.status === "ready" && following.ids.size ? ledger.status : following.status;
+      const selected = status === "ready"
+        ? [...selectTsukuyomiPortfolio(history.tickets), ...publications].filter((ticket) => following.ids.has(ticket.id))
+        : [];
+      renderFollowedTickets(tickets, {
+        ...options, status, now, tickets: selected, showReasoning: true,
+        onRetry: retryFollowing, focusFallback: followingButton,
+      });
+      return;
+    }
+    const showPlayed = ticketView === "played";
     const current = showPlayed ? ledger : data;
     const render = showPlayed ? renderPlayedTickets : renderTickets;
     const recent = showPlayed ? recentPlayedTicketIds(current.tickets, { now, includePending: true }) : null;
     render(tickets, {
-      ...current, now, tickets: filters.apply(current.tickets), filtered: filters.isActive(), includePending: showPlayed,
+      ...current, ...options, now, tickets: filters.apply(current.tickets), filtered: filters.isActive(), includePending: showPlayed,
       showReasoning: recent ? (ticket) => recent.has(ticket.id) : true,
       onRetry: showPlayed ? retryLedger : onRetry,
     });
   }
-  upcomingButton.addEventListener("click", () => {
-    showPlayed = false;
-    syncDashboard();
-  });
-  playedButton.addEventListener("click", () => {
-    showPlayed = true;
-    syncDashboard();
-  });
+  for (const [view, button] of [["upcoming", upcomingButton], ["played", playedButton], ["following", followingButton]]) {
+    button.addEventListener("click", () => {
+      ticketView = view;
+      syncDashboard();
+    });
+  }
 
   function syncDashboard() {
     if (!root.isConnected) return;
@@ -281,7 +309,7 @@ function connectDashboard(window, nonce, destination) {
       pendingTab = undefined;
       if (requestedTab.getAttribute("aria-selected") !== "true") requestedTab.click();
     } else if (sourcePronostics.getAttribute("aria-selected") === "true") {
-      showPlayed = false;
+      ticketView = "upcoming";
       publicationTab.click();
     }
 
@@ -293,21 +321,31 @@ function connectDashboard(window, nonce, destination) {
     originalMain.toggleAttribute("data-tsukuyomi-native-feed", hideNative);
     if (inPronostics) {
       if (navigation.nextElementSibling !== views) navigation.after(views);
-      upcomingButton.setAttribute("aria-pressed", String(!showPlayed));
-      playedButton.setAttribute("aria-pressed", String(showPlayed));
+      if (following.status !== "hidden") {
+        if (followingButton.parentElement !== views) views.append(followingButton);
+      } else {
+        followingButton.remove();
+        if (ticketView === "following") ticketView = "upcoming";
+      }
+      upcomingButton.setAttribute("aria-pressed", String(ticketView === "upcoming"));
+      playedButton.setAttribute("aria-pressed", String(ticketView === "played"));
+      followingButton.setAttribute("aria-pressed", String(ticketView === "following"));
     } else {
       views.remove();
-      showPlayed = false;
+      ticketView = "upcoming";
     }
     if (inPronostics) {
       if (originalMain.nextElementSibling !== page) originalMain.after(page);
-      const current = showPlayed ? ledger : data;
-      if (lastTicketsRender?.current !== current || lastTicketsRender.showPlayed !== showPlayed) {
+      const current = ticketView === "upcoming" ? data : ledger;
+      if (lastTicketsRender?.current !== current || lastTicketsRender.view !== ticketView
+          || lastTicketsRender.following !== following) {
         const now = Date.now();
-        const view = showPlayed ? "played" : "upcoming";
-        filters.refresh(view, ticketsForView(current.tickets, { view, now, includePending: showPlayed }), current.status);
+        if (ticketView === "following") filters.element.hidden = true;
+        else filters.refresh(ticketView, ticketsForView(current.tickets, {
+          view: ticketView, now, includePending: ticketView === "played",
+        }), current.status);
         drawTickets(now);
-        lastTicketsRender = { current, showPlayed };
+        lastTicketsRender = { current, view: ticketView, following };
       }
     } else {
       page.remove();
@@ -344,12 +382,12 @@ function connectDashboard(window, nonce, destination) {
       if (originalLatest.getAttribute("aria-label") !== "Derniers pronostics") {
         originalLatest.setAttribute("aria-label", "Derniers pronostics");
       }
-      if (lastLatestRender?.data !== data || lastLatestRender.ledger !== ledger) {
+      if (lastLatestRender?.data !== data || lastLatestRender.ledger !== ledger || lastLatestRender.following !== following) {
         const now = Date.now();
         const eligible = recentPlayedTicketIds(ledger.tickets, { now, includePending: true });
         for (const ticket of ticketsForView(data.tickets, { now })) eligible.add(ticket.id);
-        renderLatestTickets(latest, { ...data, onViewAll, onRetry, showReasoning: (ticket) => eligible.has(ticket.id) });
-        lastLatestRender = { data, ledger };
+        renderLatestTickets(latest, { ...data, ...followOptions(), onViewAll, onRetry, showReasoning: (ticket) => eligible.has(ticket.id) });
+        lastLatestRender = { data, ledger, following };
       }
     }
 
@@ -361,7 +399,7 @@ function connectDashboard(window, nonce, destination) {
     for (const dialog of document.querySelectorAll('[role="dialog"][aria-modal="true"]')) removePlatforms(dialog);
     if (root.hidden) root.hidden = false;
 
-    if (inPronostics) transitionTo(showPlayed ? "played" : "upcoming", page);
+    if (inPronostics) transitionTo(ticketView, page);
     else if (inStatistics) transitionTo("statistics", statistics);
     else if (inHome) transitionTo("home", originalMain);
 
@@ -409,6 +447,13 @@ function connectDashboard(window, nonce, destination) {
           scrollReveal = createScrollReveal(root);
           scheduleScrollReveal();
         }
+        return;
+      }
+      if (message?.type === "tsukuyomi:following") {
+        const state = readFollowingState(message);
+        if (!state) return;
+        following = state;
+        syncDashboard();
         return;
       }
       if (message?.type !== "tsukuyomi:tickets" || !states.has(message.status) || !Array.isArray(message.tickets)) return;
