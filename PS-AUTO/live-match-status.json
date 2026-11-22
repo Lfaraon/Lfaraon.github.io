@@ -4522,11 +4522,11 @@
     },
     "recCal20261122L91751": {
       "status": "Terminé",
-      "provider": "Sportschau — tableau dynamique THA–SUI, Beendet, score final complet vérifié",
-      "statusBasis": "Données réellement actualisées de Sportschau (fetch JavaScript ttl=0) : la ligne précise Naklo/Plipuech – Karamoko/Waltert est marquée Beendet avec THA 2 sets (3,7 [tie-break 9-7],6) contre SUI 1 set (6,6,3). Une vue web indexée antérieure restée au 2e set était périmée; ne pas réouvrir un match terminé sur cette base.",
+      "provider": "SRF Sport — compte rendu final du double Thaïlande–Suisse (22.11.2026)",
+      "statusBasis": "SRF Sport 22.11.2026 10h40 : résultat final du bon double confirmé, score et sets dans l'ordre thaïlandais de match-source.json",
       "observedLive": true,
-      "checkedAt": "2026-11-22T10:40:09.004Z",
-      "sourceUrl": "https://www.sportschau.de/live-und-ergebnisse/tennis/bjk-cup-playoffs/ma12654656/mananchaya-sawangkaew_jil-teichmann/spiel-spiele-und-ergebnisse",
+      "checkedAt": "2026-11-22T13:36:52.783Z",
+      "sourceUrl": "https://www.srf.ch/sport/tennis/billie-jean-king-cup/billie-jean-king-cup-waltert-karamoko-verlieren-doppel-die-schweiz-steigt-ab",
       "score": "2-1",
       "sets": "3-6, 7-6 (9-7), 6-3"
     },
