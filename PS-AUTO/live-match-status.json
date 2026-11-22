@@ -5609,12 +5609,12 @@
       "score": "0-1"
     },
     "recCal20261122L89618": {
-      "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T23:41:00.533Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Règle horaire PS-AUTO (statut présumé)"
+      "status": "En cours",
+      "provider": "ceroacero — fiche précise The Strongest-Blooming, 3-0 à la 86e minute (score provisoire)",
+      "checkedAt": "2026-11-22T23:41:46.062Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.ceroacero.es/en-vivo/2026-11-22-the-strongest-blooming/12756618",
+      "statusBasis": "direct observé à la 86e minute (provisoire, non clôturé)"
     },
     "recCal20261122P76848806": {
       "status": "Terminé",
