@@ -5114,11 +5114,12 @@
     },
     "recCal20261122L89485": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T17:36:19.864Z",
+      "checkedAt": "2026-11-22T18:49:00.000Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "horaire prévu de match-source.json"
+      "provider": "Campo.dk — compte rendu final Sønderjyske 1–2 OB Odense du 22.11.2026",
+      "sourceUrl": "https://campo.dk/2026/11/22/derfor-er-han-obs-talisman/",
+      "statusBasis": "horaire prévu de match-source.json",
+      "score": "1-2"
     },
     "recCal20261122P72478718": {
       "status": "Terminé",
