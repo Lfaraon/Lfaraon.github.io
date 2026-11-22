@@ -4712,11 +4712,12 @@
     },
     "recCal20261122L90919": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:30:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
+      "provider": "FotMob — Full time",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026",
       "observedLive": false,
-      "checkedAt": "2026-11-22T14:37:09.000Z",
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:38:07.539Z",
+      "sourceUrl": "https://www.fotmob.com/matches/vasas-budapest-vs-zalaegerszeg/36lde",
+      "score": "0-0"
     },
     "recCal20261122L89486": {
       "status": "Terminé",
@@ -4736,10 +4737,12 @@
     },
     "recCal20261122P72477614": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T15:32:27.000Z",
+      "provider": "FotMob — Full time",
+      "checkedAt": "2026-11-22T17:38:07.539Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.fotmob.com/matches/cordoba-vs-real-oviedo/29fswo",
+      "score": "3-0",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026"
     },
     "recCal20261122P72478710": {
       "status": "Terminé",
@@ -4839,17 +4842,21 @@
     },
     "recCal20261122L89580": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Eurosport — Zakończone",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:38:07.539Z",
+      "sourceUrl": "https://eurosport.tvn24.pl/pilka-nozna/pko-bp-ekstraklasa/2026-2027/gks-katowice-lech-poznan_mtc21879754/live.shtml",
+      "score": "0-1",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026"
     },
     "recCal20261122L89945": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "iDNES — compte rendu final 22/11",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:38:07.539Z",
+      "sourceUrl": "https://www.idnes.cz/fotbal/prvni-liga/chance-liga-15-kolo-slovacko-hradec-kralove-online-vysledek.A261120_120954_fotbal_voti",
+      "score": "4-2",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026"
     },
     "recCal20261122L87705": {
       "status": "Terminé",
@@ -4867,24 +4874,30 @@
     },
     "recCal20261122L90937": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "TNT Sports — Finished",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:38:07.539Z",
+      "sourceUrl": "https://www.tntsports.co.uk/football/barclays-wsl/2026-2027/charlton-athletic-aston-villa_mtc21927025/live.shtml",
+      "score": "1-1",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026"
     },
     "recCal20261122L89782": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Sofascore — Finished",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:38:07.539Z",
+      "sourceUrl": "https://www.sofascore.com/football/match/nk-istra-1961-gnk-dinamo-zagreb/HPsEkk",
+      "score": "3-2",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026"
     },
     "recCal20261122L90938": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "The Guardian — compte rendu WSL terminé",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:38:07.539Z",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/22/wsl-manchester-city-tottenham-birmingham-manchester-united-arsenal-west-ham-live",
+      "score": "0-1",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026"
     },
     "recCal20261122P76536152": {
       "status": "Terminé",
@@ -4916,10 +4929,12 @@
     },
     "recCal20261122P72221402": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "TNT Sports — Finished",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:38:07.539Z",
+      "sourceUrl": "https://www.tntsports.co.uk/football/premier-league/2026-2027/hull-city-brighton-hove-albion_mtc21883006/live.shtml",
+      "score": "2-0",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026"
     },
     "recCal20261122L91969": {
       "status": "Terminé",
@@ -4944,10 +4959,12 @@
     },
     "recCal20261122P72036304": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Sofascore — compte rendu final",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:38:07.539Z",
+      "sourceUrl": "https://www.sofascore.com/news/paris-fc-4-0-angers-coppolas-10-lifts-ligue-1-rout",
+      "score": "4-0",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026"
     },
     "recCal20261122L91970": {
       "status": "Terminé",
@@ -4958,10 +4975,12 @@
     },
     "recCal20261122P71945424": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Sofascore — compte rendu final",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:38:07.539Z",
+      "sourceUrl": "https://www.sofascore.com/news/sassuolo-0-2-genoa-osmajic-brace-and-bijlow-brilliance",
+      "score": "0-2",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026"
     },
     "recCal20261122P76080470": {
       "status": "Terminé",
@@ -4979,10 +4998,12 @@
     },
     "recCal20261122L90965": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "The Guardian — compte rendu WSL terminé",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:38:07.539Z",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/22/wsl-manchester-city-tottenham-birmingham-manchester-united-arsenal-west-ham-live",
+      "score": "0-0",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026"
     },
     "recCal20261122P72513316": {
       "status": "Terminé",
