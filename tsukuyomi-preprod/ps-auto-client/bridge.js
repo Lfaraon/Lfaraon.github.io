@@ -1,4 +1,4 @@
-import { nextTicketKickoff, recentPlayedTicketIds, renderFollowedTickets, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=progressive-results";
+import { nextTicketKickoff, renderFollowedTickets, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=progressive-results";
 import { readFollowingState } from "./following.js?rev=member-following";
 import { createTicketFilters } from "./ticketFilters.js?rev=calendar-filter-focus";
 import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
@@ -302,10 +302,9 @@ function connectDashboard(window, nonce, destination) {
     const showPlayed = ticketView === "played";
     const current = showPlayed ? ledger : data;
     const render = showPlayed ? renderPlayedTickets : renderTickets;
-    const recent = showPlayed ? recentPlayedTicketIds(current.tickets, { now, includePending: true }) : null;
     render(tickets, {
       ...current, ...options, now, tickets: filters.apply(current.tickets), filtered: filters.isActive(), includePending: showPlayed,
-      showReasoning: recent ? (ticket) => recent.has(ticket.id) : true,
+      showReasoning: true,
       onRetry: showPlayed ? retryLedger : onRetry,
     });
   }
@@ -442,12 +441,9 @@ function connectDashboard(window, nonce, destination) {
       if (originalLatest.getAttribute("aria-label") !== "Derniers pronostics") {
         originalLatest.setAttribute("aria-label", "Derniers pronostics");
       }
-      if (lastLatestRender?.data !== data || lastLatestRender.ledger !== ledger || lastLatestRender.following !== following) {
-        const now = Date.now();
-        const eligible = recentPlayedTicketIds(ledger.tickets, { now, includePending: true });
-        for (const ticket of ticketsForView(data.tickets, { now })) eligible.add(ticket.id);
-        renderLatestTickets(latest, { ...data, ...followOptions(), onViewAll, onRetry, showReasoning: (ticket) => eligible.has(ticket.id) });
-        lastLatestRender = { data, ledger, following };
+      if (lastLatestRender?.data !== data || lastLatestRender.following !== following) {
+        renderLatestTickets(latest, { ...data, ...followOptions(), onViewAll, onRetry, showReasoning: true });
+        lastLatestRender = { data, following };
       }
     }
 
