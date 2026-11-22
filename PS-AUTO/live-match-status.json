@@ -4379,11 +4379,12 @@
     },
     "recCal20261121P67682116": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Universidad de Chile — fiche officielle du match, résultat final",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T23:38:40.725Z",
-      "statusBasis": "Statut Terminé présumé d'après coup d'envoi 2026-11-21T21:00:00.000Z (158 min écoulées au contrôle); score final non vérifié"
+      "sourceUrl": "https://www.udechile.cl/noticias/ficha-tecnica-del-duelo-frente-a-ohiggins-por-la-fecha-28-del-campeonato-nacional",
+      "checkedAt": "2026-11-22T00:40:56.718Z",
+      "statusBasis": "Résultat final 0-1 confirmé par le club Universidad de Chile (21 novembre 2026).",
+      "score": "0-1"
     },
     "recCal20261121P76609134": {
       "status": "Terminé",
@@ -4403,12 +4404,13 @@
       "statusBasis": "Statut Terminé présumé d'après coup d'envoi 2026-11-21T21:15:00.000Z (143 min écoulées au contrôle); score final non vérifié"
     },
     "recCal20261121L84974": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T22:34:51.218Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-22T00:40:56.718Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé depuis le coup d'envoi 2026-11-21T22:30:00.000Z; sans suivi direct confirmé"
+      "provider": "UOL Esporte — compte rendu de la finale Copa Sudamericana, résultat final",
+      "sourceUrl": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/21/atletico-mg-x-boca-juniors-final-sul-americana.ghtm",
+      "statusBasis": "Résultat final Atlético Mineiro 0-2 Boca Juniors confirmé par compte rendu du 21 novembre 2026.",
+      "score": "0-2"
     },
     "recCal20261121L89596": {
       "status": "En cours",
@@ -4449,6 +4451,14 @@
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T23:30:00.000Z (8 min écoulées au contrôle); score final non vérifié"
+    },
+    "recCal20261122P66887196": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-22T00:40:56.718Z",
+      "statusBasis": "Statut En cours présumé depuis le coup d'envoi 2026-11-22T00:00:00.000Z; sans suivi direct confirmé ni score final."
     }
   }
 }
