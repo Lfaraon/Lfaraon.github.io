@@ -4559,11 +4559,12 @@
     },
     "recCal20261122L89504": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Futbol24 — FT confirmé, Botev Vratsa–CSKA 1948",
       "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:00:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
       "observedLive": false,
-      "checkedAt": "2026-11-22T13:35:46.901Z",
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T15:37:16.109Z",
+      "sourceUrl": "https://www.futbol24.com/fr/match/2026/11/22/national/Bulgaria/Parva-Liga/2026-2027/Regular-Season/Botev-Vratsa/vs/CSKA-1948Sofia",
+      "score": "1-1"
     },
     "recCal20261122L90834": {
       "status": "Terminé",
@@ -4748,10 +4749,11 @@
     },
     "recCal20261122L89467": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T15:32:27.000Z",
+      "provider": "Nau.ch — compte rendu final FC Zürich–St. Gallen 22.11.2026",
+      "checkedAt": "2026-11-22T15:37:16.109Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.nau.ch/sport/fussball/fc-stgallen-verspielt-auswartssieg-in-zurich-in-letzter-minute-67205347",
+      "score": "2-2"
     },
     "recCal20261122L91560": {
       "status": "Terminé",
