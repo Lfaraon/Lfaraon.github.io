@@ -5538,43 +5538,47 @@
       "score": "3-1"
     },
     "recCal20261122P76080478": {
-      "status": "En cours",
-      "provider": "FotMob - suivi direct confirme 89:10 (2-2 provisoire)",
-      "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/leca-vs-uniao-de-leiria/224li9",
-      "checkedAt": "2026-11-22T21:37:11.000Z"
+      "status": "Terminé",
+      "provider": "zerozero.pt — résultat final après prolongation confirmé",
+      "observedLive": false,
+      "sourceUrl": "https://www.zerozero.pt/noticias/ud-leiria-garante-passagem-e-marca-encontro-com-o-fc-porto-est-amadora-segue-em-frente-na-reboleira/1266208",
+      "checkedAt": "2026-11-22T22:37:58.271Z",
+      "score": "4-2"
     },
     "recCal20261122P71945406": {
-      "status": "En cours",
-      "checkedAt": "2026-11-22T20:30:53.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "checkedAt": "2026-11-22T22:37:58.271Z",
+      "provider": "Atalanta BC (site officiel) — résultat final confirmé",
       "statusBasis": "horaire prévu de match-source.json (début présumé)",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.atalanta.it/news/un-cuore-infinito-rimontata-l-inter-4-4",
+      "score": "4-4"
     },
     "recCal20261122P72036298": {
-      "status": "En cours",
-      "checkedAt": "2026-11-22T20:30:53.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "checkedAt": "2026-11-22T22:37:58.271Z",
+      "provider": "Flashscore — fiche Ligue 1, match Finished",
       "statusBasis": "horaire prévu de match-source.json (début présumé)",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.flashscore.com/news/soccer-ligue-1-marseille-le-mans-report-22-11-2026/MF4qoDDd/",
+      "score": "2-3"
     },
     "recCal20261122P72477606": {
-      "status": "En cours",
-      "checkedAt": "2026-11-22T20:30:53.000Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-22T22:37:58.271Z",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "statusBasis": "horaire prévu de match-source.json (début présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     },
     "recCal20261122P72478712": {
-      "status": "En cours",
-      "checkedAt": "2026-11-22T20:30:53.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "checkedAt": "2026-11-22T22:37:58.271Z",
+      "provider": "BeSoccer — compte rendu et résultat FIN",
       "statusBasis": "horaire prévu de match-source.json (début présumé)",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://es.besoccer.com/noticia/cronica-getafe-atletico-madrid-laliga-jornada13-1442908",
+      "score": "0-3"
     },
     "recCal20261122P76080460": {
       "status": "En cours",
