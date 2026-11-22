@@ -5538,10 +5538,10 @@
       "score": "3-1"
     },
     "recCal20261122P76080478": {
-      "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "status": "En cours",
+      "provider": "FotMob - suivi direct confirme 89:10 (2-2 provisoire)",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/matches/leca-vs-uniao-de-leiria/224li9",
       "checkedAt": "2026-11-22T21:37:11.000Z"
     },
     "recCal20261122P71945406": {
