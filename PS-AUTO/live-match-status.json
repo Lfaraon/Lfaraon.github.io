@@ -5088,7 +5088,7 @@
     },
     "recCal20261122L91461": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T18:44:30.000Z",
+      "checkedAt": "2026-11-22T18:43:24.539Z",
       "observedLive": false,
       "provider": "MDR Sport — 22.11.2026 match fini Leipzig F 1–2 Wolfsburg F",
       "sourceUrl": "https://www.mdr.de/sport/fussball/fussball_blf/spielbericht-rb-leipzig-vfl-wolfsburg%2Crbl-vfl-108.html",
@@ -5114,7 +5114,7 @@
     },
     "recCal20261122L89485": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T18:49:00.000Z",
+      "checkedAt": "2026-11-22T18:43:24.539Z",
       "observedLive": false,
       "provider": "Campo.dk — compte rendu final Sønderjyske 1–2 OB Odense du 22.11.2026",
       "sourceUrl": "https://campo.dk/2026/11/22/derfor-er-han-obs-talisman/",
@@ -5150,7 +5150,7 @@
     },
     "recCal20261122L89471": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T18:44:30.000Z",
+      "checkedAt": "2026-11-22T18:43:24.539Z",
       "observedLive": false,
       "provider": "FC Basel — compte rendu officiel FCB 0–2 FC Lucerne",
       "sourceUrl": "https://fcb.ch/pages/news/mathcbericht-fcb-fc-luzern-platzhalter",
@@ -5205,7 +5205,7 @@
       "status": "Terminé",
       "provider": "Salland1 — compte rendu Go Ahead Eagles 0–1 Fortuna Sittard du 22.11.2026",
       "observedLive": false,
-      "checkedAt": "2026-11-22T18:44:30.000Z",
+      "checkedAt": "2026-11-22T18:43:24.539Z",
       "sourceUrl": "https://www.salland1.nl/go-ahead-eagles-vergeet-zichzelf-te-belonen-en-verliest-van-fortuna-sittard/",
       "score": "0-1"
     },
@@ -5255,7 +5255,7 @@
       "status": "Terminé",
       "provider": "HaberciTV — match terminé Trabzonspor 1–0 Eyüpspor, compte rendu du 22.11.2026",
       "observedLive": false,
-      "checkedAt": "2026-11-22T18:47:00.000Z",
+      "checkedAt": "2026-11-22T18:43:24.539Z",
       "sourceUrl": "https://www.habercitv.com.tr/trabzonspor-eyupspor-maci-kac-kac-bitti-1-0",
       "score": "1-0"
     },
@@ -5263,7 +5263,7 @@
       "status": "Terminé",
       "provider": "MadeInFoot — match terminé Lorient 1–1 Rennes, article 22.11.2026",
       "observedLive": false,
-      "checkedAt": "2026-11-22T18:47:00.000Z",
+      "checkedAt": "2026-11-22T18:43:24.539Z",
       "sourceUrl": "https://infra-of.madeinfoot.com/infos/article-ligue-1-les-notes-de-fc-lorient-stade-rennais-lorient-et-rennes-se-quittent-dos-a-dos-dans-le-derby-breton-546651.html",
       "score": "1-1"
     },
@@ -5300,7 +5300,7 @@
       "status": "Terminé",
       "provider": "Welt Sport — compte rendu du Nordderby 22.11.2026 Werder Bremen 4–0 Hamburger SV",
       "observedLive": false,
-      "checkedAt": "2026-11-22T18:44:30.000Z",
+      "checkedAt": "2026-11-22T18:43:24.539Z",
       "sourceUrl": "https://www.welt.de/article6b03354a25b618a0b5d5c2aa",
       "score": "4-0"
     },
