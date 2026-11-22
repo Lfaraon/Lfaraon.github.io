@@ -4505,18 +4505,20 @@
       "score": "1-0"
     },
     "recCal20261122L90851": {
-      "status": "En cours",
-      "checkedAt": "2026-11-22T05:37:12.000Z",
-      "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "status": "Terminé",
+      "checkedAt": "2026-11-22T07:40:18.387Z",
+      "observedLive": true,
+      "provider": "FotMob — résultat final Full time confirmé",
+      "sourceUrl": "https://www.fotmob.com/matches/jeju-sk-vs-gimcheon-sangmu/gh16dy9",
+      "score": "0-1"
     },
     "recCal20261122L90883": {
-      "status": "En cours",
-      "checkedAt": "2026-11-22T05:37:12.000Z",
-      "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "status": "Terminé",
+      "checkedAt": "2026-11-22T07:40:18.387Z",
+      "observedLive": true,
+      "provider": "FotMob — résultat final Full time confirmé",
+      "sourceUrl": "https://www.fotmob.com/matches/gwangju-fc-vs-bucheon-fc-1995/2wrh80fg",
+      "score": "4-2"
     },
     "recCal20261122L91751": {
       "status": "En cours",
