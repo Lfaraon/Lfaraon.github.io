@@ -5252,17 +5252,19 @@
     },
     "recCal20261122L89466": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "HaberciTV — match terminé Trabzonspor 1–0 Eyüpspor, compte rendu du 22.11.2026",
       "observedLive": false,
-      "checkedAt": "2026-11-22T18:37:55.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T18:47:00.000Z",
+      "sourceUrl": "https://www.habercitv.com.tr/trabzonspor-eyupspor-maci-kac-kac-bitti-1-0",
+      "score": "1-0"
     },
     "recCal20261122P72036296": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "MadeInFoot — match terminé Lorient 1–1 Rennes, article 22.11.2026",
       "observedLive": false,
-      "checkedAt": "2026-11-22T18:37:55.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T18:47:00.000Z",
+      "sourceUrl": "https://infra-of.madeinfoot.com/infos/article-ligue-1-les-notes-de-fc-lorient-stade-rennais-lorient-et-rennes-se-quittent-dos-a-dos-dans-le-derby-breton-546651.html",
+      "score": "1-1"
     },
     "recCal20261122P73093072": {
       "status": "Terminé",
