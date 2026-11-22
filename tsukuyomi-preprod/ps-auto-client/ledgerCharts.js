@@ -1,4 +1,4 @@
-import { buildLedgerSeries } from "./ledgerSeries.js?rev=reference-stake";
+import { buildLedgerSeries } from "./ledgerSeries.js?rev=publication-date";
 
 const views = new WeakMap();
 let moduleRequest;

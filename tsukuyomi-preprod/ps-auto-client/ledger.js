@@ -1,5 +1,5 @@
 import { confirmedOutcome, formatChf, isCanonicalTicket, outcomeLabel, referenceStake, summarize, summarizeFunds, ticketStake } from "./ledgerAccounting.js?rev=reference-stake";
-import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=reference-stake";
+import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=publication-date";
 
 const rate = new Intl.NumberFormat("fr-CH", { style: "percent", maximumFractionDigits: 1 });
 const followingRate = new Intl.NumberFormat("fr-FR", { style: "percent", maximumFractionDigits: 1 });

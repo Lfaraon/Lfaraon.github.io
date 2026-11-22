@@ -9,6 +9,7 @@ const swissCalendar = new Intl.DateTimeFormat("fr-CH", {
   timeZone: "Europe/Zurich",
 });
 const settled = new Set(["won", "lost", "void"]);
+const calendarDate = /^\d{4}-\d{2}-\d{2}$/;
 const kinds = ["simple", "combine", "triple"];
 const mixedSports = new Set(["multiple", "multi", "multisport", "multisports", "multi-sport",
   "multi-sports", "mixte", "mixed", "all", "tous sports", "tous les sports", "sport non renseigné"]);
@@ -74,7 +75,8 @@ export function buildLedgerSeries(tickets, { includeBrier = true } = {}) {
     addSportResults(sports, ticket);
     const timestamp = Date.parse(ticketDate(ticket));
     if (!Number.isFinite(timestamp)) continue;
-    const day = dayOf(timestamp);
+    const { statistics_date: override } = ticket;
+    const day = typeof override === "string" && calendarDate.test(override) ? override : dayOf(timestamp);
     if (settled.has(ticket.settlement?.outcome)) addTo(days, day, ticket);
     if (includeBrier) {
       for (const score of selectionBrierScores(ticket)) addTo(selectionScores, day, score);

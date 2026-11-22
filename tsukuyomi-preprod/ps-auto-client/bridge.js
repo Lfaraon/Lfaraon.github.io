@@ -2,8 +2,8 @@ import { nextTicketKickoff, recentPlayedTicketIds, renderFollowedTickets, render
 import { readFollowingState } from "./following.js?rev=member-following";
 import { createTicketFilters } from "./ticketFilters.js?rev=calendar-filter-focus";
 import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
-import { renderFollowingLedger, renderLedger } from "./ledger.js?rev=following-mobile";
-import { clearLedgerCharts } from "./ledgerCharts.js?rev=reference-stake";
+import { renderFollowingLedger, renderLedger } from "./ledger.js?rev=publication-date";
+import { clearLedgerCharts } from "./ledgerCharts.js?rev=publication-date";
 import { createScrollReveal } from "../tsukuyomi-scroll-reveal.js?rev=scroll-reveal";
 
 const tabsSelector = '[role="tablist"][aria-label="Navigation principale"] [role="tab"]';
