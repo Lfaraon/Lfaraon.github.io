@@ -4484,13 +4484,12 @@
       "statusBasis": "En cours présumé dès kickoff 02:00 UTC; direct non observé, score non vérifié."
     },
     "recCal20261122L91750": {
-      "status": "À venir",
-      "provider": "Tennisora — fiche précise: double annoncé 07:30 UTC, UP NEXT",
-      "checkedAt": "2026-11-22T02:43:18.351Z",
-      "observedLive": false,
-      "sourceUrl": "https://www.tennisora.com/matches/12181655-20261122-34463-91066",
-      "statusBasis": "02:00 UTC est le début de la rencontre Japon–Argentine; double affiché 07:30 UTC (ordre différé), aucun jeu/point observé.",
-      "rescheduledKickoff": "2026-11-22T07:30:00.000Z"
+      "status": "En cours",
+      "provider": "Livetenis.ro — flux vivant point-par-point, Billie Jean King Cup 22.11.2026",
+      "checkedAt": "2026-11-22T03:42:18.880Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.livetenis.ro/wta/meci/shuko-aoyama-eri-hozumi-VS-justina-maria-gonzalez-daniele-luciana-moyano/billie-jean-king-cup-po-jpn-arg-2026/",
+      "statusBasis": "Début réel prouvé : premier set, Aoyama/Hozumi 2 jeux à 1, points 15-15 au service ; Livetenis.ro présente le point par point et un break, preuve plus récente que Tennisora UP NEXT 07:30 UTC"
     },
     "recCal20261122L89599": {
       "status": "En cours",
