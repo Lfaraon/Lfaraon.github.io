@@ -154,6 +154,16 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
   outline-offset: 3px;
 }
 
+.tsukuyomi-ticket-leg-wins {
+  display: inline-block;
+  margin-inline-start: 4px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.tsukuyomi-ticket-leg-wins[data-wins] { color: var(--ticket-won); }
+.tsukuyomi-ticket-disclosure[open] .tsukuyomi-ticket-leg-wins { display: none; }
+
 .tsukuyomi-ticket-summary-end {
   align-items: center;
   display: flex;

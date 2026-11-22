@@ -174,7 +174,7 @@ export function renderFollowingLedger(section, { status, tickets, onRetry }) {
   for (const [label, value] of [
     ["Tickets suivis", tickets.length],
     ["Taux de réussite", winRate == null ? "—" : followingRate.format(winRate)],
-    ["Sans résultat", pending],
+    ["En attente", pending],
   ]) {
     const card = element(doc, "div", "");
     card.append(element(doc, "dt", "tsukuyomi-ledger-label", label),

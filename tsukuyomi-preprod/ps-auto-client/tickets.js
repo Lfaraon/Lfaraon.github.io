@@ -1,4 +1,4 @@
-import { confirmedOutcome, formatChf, isCanonicalTicket, netAmount, outcomeLabel, ticketDate, ticketStake } from "./ledgerAccounting.js?rev=reference-stake";
+import { confirmedOutcome, formatChf, isCanonicalTicket, netAmount, outcomeLabel, selectionOutcome, ticketDate, ticketStake } from "./ledgerAccounting.js?rev=reference-stake";
 import { recalculatedSelectionProbability, recalculatedTicketProbability, selectionProbability, ticketProbability } from "./ticketForecasts.js?rev=canonical-ticket";
 import { isFollowableTicketId } from "./following.js?rev=member-following";
 
@@ -269,6 +269,7 @@ function createTicketCard(doc, ticket, played, open, {
   const sport = sports ? sports[0].toLocaleUpperCase("fr") + (canonical ? sports.slice(1).toLocaleLowerCase("fr") : sports.slice(1)) : "";
   const title = [kinds[ticket.kind] || "Ticket", sport].filter(Boolean).join(" · ");
   const legs = Array.isArray(ticket.legs) ? ticket.legs.filter(Boolean) : [];
+  const outcome = confirmedOutcome(ticket);
   const metadata = element(doc, collapsible ? "span" : "p", "tsukuyomi-ticket-meta");
   const published = time(doc, ticketDate(ticket), shortDate);
   const selections = legs.length === 1 ? "1 sélection" : legs.length + " sélections";
@@ -278,8 +279,17 @@ function createTicketCard(doc, ticket, played, open, {
     metadata.append(published, " · ");
   }
   metadata.append(selections);
+  if (collapsible && legs.length) {
+    const outcomes = legs.map((leg) => selectionOutcome(ticket, leg));
+    if (!outcome || outcomes.some((selection) => Object.hasOwn(selectionOutcomes, selection))) {
+      const wins = outcomes.filter((selection) => selection === "won").length;
+      const summary = wins + "/" + legs.length + (wins === 1 ? " gagnée" : " gagnées");
+      const progress = element(doc, "span", "tsukuyomi-ticket-leg-wins", summary);
+      progress.toggleAttribute("data-wins", wins > 0);
+      metadata.append(" ", progress);
+    }
+  }
   heading.append(element(doc, collapsible ? "span" : "h3", "tsukuyomi-ticket-title", title), metadata);
-  const outcome = confirmedOutcome(ticket);
   const settled = Boolean(outcome);
   const waiting = played || isAwaitingResult(ticket, now);
   const unpublished = ticket.duplicate_of ? "Écarté" : ticket.withdrawn_at ? "Retiré" : "Brouillon";
@@ -380,8 +390,9 @@ function isPublished(ticket) {
 }
 
 function isAwaitingResult(ticket, now) {
-  return isCanonicalTicket(ticket) && isPublished(ticket) && !confirmedOutcome(ticket)
-    && Array.isArray(ticket.legs) && ticket.legs.some((leg) => Date.parse(leg?.starts_at) <= now);
+  if (!isPublished(ticket) || confirmedOutcome(ticket) || !Array.isArray(ticket.legs)) return false;
+  if (ticket.legs.some((leg) => Object.hasOwn(selectionOutcomes, leg?.outcome))) return true;
+  return isCanonicalTicket(ticket) && ticket.legs.some((leg) => Date.parse(leg?.starts_at) <= now);
 }
 
 export function upcomingTicketKickoff(ticket, now = Date.now()) {
