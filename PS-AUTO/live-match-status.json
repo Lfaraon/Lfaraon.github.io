@@ -4397,11 +4397,12 @@
     },
     "recCal20261121L90023": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "HalaScore — résultat final FT du 21/11/2026",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-21T23:38:40.725Z",
-      "statusBasis": "Statut Terminé présumé d'après coup d'envoi 2026-11-21T21:15:00.000Z (143 min écoulées au contrôle); score final non vérifié"
+      "sourceUrl": "https://halascore.com/en/games/v/abb-vs-aurora-1645543/",
+      "checkedAt": "2026-11-22T01:33:19.863Z",
+      "statusBasis": "FT confirmé, ABB 1-2 Aurora (HalaScore), score non déduit de l'horaire.",
+      "score": "1-2"
     },
     "recCal20261121L84974": {
       "status": "Terminé",
@@ -4413,44 +4414,45 @@
       "score": "0-2"
     },
     "recCal20261121L89596": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T23:38:40.725Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-22T01:33:19.863Z",
       "observedLive": false,
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T23:00:00.000Z (38 min écoulées au contrôle); score final non vérifié"
+      "statusBasis": "+120 min dépassées au contrôle; dernier score 1-0 à 60e sur AS Mexique, non final. Aucun score final vérifié."
     },
     "recCal20261122L89571": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T23:38:40.725Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-22T01:33:19.863Z",
       "observedLive": false,
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T23:00:00.000Z (38 min écoulées au contrôle); score final non vérifié"
+      "statusBasis": "+120 min dépassées; fiche Ceroacero encore à 45+ (0-1), sans FT. Aucun score final vérifié."
     },
     "recCal20261122P76609136": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T23:38:40.725Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-22T01:33:19.863Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T23:00:00.000Z (38 min écoulées au contrôle); score final non vérifié"
+      "provider": "Résultat FT confirmé — match thread r/MLS",
+      "sourceUrl": "https://www.reddit.com/r/MLS/comments/1y29edk/match_thread_inter_miami_cf_vs_columbus_crew_mls/",
+      "statusBasis": "Full Time 0-3; buts Tapia (9e, 58e), Habroune (52e). Résultat final, non déduit de l'horaire.",
+      "score": "0-3"
     },
     "recCal20261122L89616": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T23:38:40.725Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-22T01:33:19.863Z",
       "observedLive": false,
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T23:30:00.000Z (8 min écoulées au contrôle); score final non vérifié"
+      "statusBasis": "+120 min dépassées; fiche Ceroacero encore à 45+ (1-1), résultat final non vérifié."
     },
     "recCal20261122P67682120": {
-      "status": "En cours",
-      "checkedAt": "2026-11-21T23:38:40.725Z",
+      "status": "Terminé",
+      "checkedAt": "2026-11-22T01:33:19.863Z",
       "observedLive": false,
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Statut En cours présumé d'après coup d'envoi 2026-11-21T23:30:00.000Z (8 min écoulées au contrôle); score final non vérifié"
+      "statusBasis": "+120 min dépassées; suivi LiveSporty périmé à 29e (1-2), résultat final non vérifié."
     },
     "recCal20261122P66887196": {
       "status": "En cours",
@@ -4459,6 +4461,14 @@
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "checkedAt": "2026-11-22T00:40:56.718Z",
       "statusBasis": "Statut En cours présumé depuis le coup d'envoi 2026-11-22T00:00:00.000Z; sans suivi direct confirmé ni score final."
+    },
+    "recCal20261122L89572": {
+      "status": "En cours",
+      "observedLive": false,
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-22T01:33:19.863Z",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "En cours présumé dès le coup d'envoi 01:00Z de match-source.json; AS México indique 19h10 CST soit 01h10Z. Aucun direct ni score final confirmé."
     }
   }
 }
