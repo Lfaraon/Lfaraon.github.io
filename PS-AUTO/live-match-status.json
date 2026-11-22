@@ -4759,24 +4759,27 @@
     },
     "recCal20261122L91560": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T15:32:27.000Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "Stuttgarter Zeitung — compte rendu de la rencontre",
+      "checkedAt": "2026-11-22T16:33:19.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.stuttgarter-zeitung.de/sport/vfb-stuttgart/frauen-des-vfb-stuttgart-spaeter-doppelschlag-vfb-frauen-stecken-in-der-roten-zone-fest-79768118.html",
+      "score": "2-0"
     },
     "recCal20261122P67126900": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T15:32:27.000Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "YSscores — résultat final confirmé",
+      "checkedAt": "2026-11-22T16:33:19.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.ysscores.com/es/match/5107668/IK-Sirius-vs-Djurg%C3%A5rdens-IF-events",
+      "score": "1-0"
     },
     "recCal20261122L89465": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T15:32:27.000Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "YSscores — résultat final confirmé",
+      "checkedAt": "2026-11-22T16:33:19.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.ysscores.com/es/match/5904804/Kasimpasa-vs-Alanyaspor-events",
+      "score": "2-1"
     },
     "recCal20261122L89464": {
       "status": "Terminé",
@@ -4820,10 +4823,11 @@
     },
     "recCal20261122P72041262": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T15:32:27.000Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "YSscores — résultat final confirmé",
+      "checkedAt": "2026-11-22T16:33:19.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.ysscores.com/es/match/5781810/Sparta-Rotterdam-vs-AZ-Alkmaar-events",
+      "score": "1-5"
     },
     "recCal20261122L87717": {
       "status": "Terminé",
