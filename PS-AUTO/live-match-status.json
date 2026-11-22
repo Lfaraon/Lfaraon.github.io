@@ -5621,6 +5621,20 @@
       "checkedAt": "2026-11-22T21:37:11.000Z",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122L89686": {
+      "status": "En cours",
+      "observedLive": false,
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-22T22:38:19.941Z"
+    },
+    "recCal20261122P66887186": {
+      "status": "En cours",
+      "observedLive": false,
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-22T22:38:19.941Z"
     }
   }
 }
