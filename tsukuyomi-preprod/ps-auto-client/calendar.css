@@ -282,3 +282,29 @@
 .tsu-calendar-match-detail dt { color: var(--tsukuyomi-muted); }
 .tsu-calendar-match-detail dd { margin: 0; overflow-wrap: anywhere; }
 .tsu-calendar-detail-actions { display: flex; justify-content: flex-end; }
+
+.tsu-calendar-view-switch {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.tsu-calendar-view-switch button { overflow-wrap: anywhere; }
+
+.tsu-calendar-followed-list { margin: 4px 0 0; padding: 0; list-style: none; }
+.tsu-calendar-match.tsu-calendar-followed-match { grid-template-columns: 48px minmax(0, 1fr); }
+.tsu-calendar-followed-tickets { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.tsu-calendar-followed-tickets button { text-align: start; overflow-wrap: anywhere; }
+
+.tsu-calendar-followed-past {
+  border-top: 1px solid var(--tsukuyomi-border);
+}
+
+.tsu-calendar-followed-past summary {
+  min-height: 44px;
+  padding: 10px 0;
+  color: var(--tsukuyomi-muted);
+  cursor: pointer;
+  font-weight: 600;
+}

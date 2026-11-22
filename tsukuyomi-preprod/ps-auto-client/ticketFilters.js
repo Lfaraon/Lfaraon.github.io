@@ -175,7 +175,59 @@ function createPills(doc, label, gridClasses) {
   return { fieldset, grid };
 }
 
-export function createTicketFilters(doc, onChange, { includePending = true } = {}) {
+function searchText(value) {
+  return typeof value === "string" ? value.normalize("NFKD")
+    .replace(/\p{M}/gu, "").toLowerCase()
+    .replace(/['‘’]/gu, "").replaceAll("œ", "oe").replaceAll("æ", "ae")
+    .replace(/[^\p{L}\p{N}]+/gu, " ").trim() : "";
+}
+
+function ticketNames(ticket) {
+  const legs = Array.isArray(ticket.legs) ? ticket.legs : [];
+  return legs.flatMap((leg) => [
+    leg?.event,
+    leg?.participant,
+    ...(Array.isArray(leg?.participants) ? leg.participants : []),
+  ]).map(searchText).filter(Boolean).join(" ");
+}
+
+function createPlayedSearch(doc, onChange) {
+  const wrap = element(doc, "div", "tsukuyomi-played-search");
+  wrap.hidden = true;
+  const input = element(doc, "input", "tsukuyomi-played-search-input");
+  input.id = "tsukuyomi-played-ticket-search";
+  input.type = "search";
+  input.autocomplete = "off";
+  input.spellcheck = false;
+  input.setAttribute("autocapitalize", "none");
+  const label = element(doc, "label", "", "Rechercher une équipe ou un joueur");
+  label.htmlFor = input.id;
+  const clear = button(doc, "tsukuyomi-played-search-clear", "Effacer");
+  clear.setAttribute("aria-label", "Effacer la recherche");
+  clear.hidden = true;
+  const row = element(doc, "div", "tsukuyomi-played-search-row");
+  row.append(input, clear);
+  const status = element(doc, "p", "tsukuyomi-played-search-status");
+  status.setAttribute("role", "status");
+  wrap.append(label, row, status);
+  function reset() {
+    onChange("");
+    input.focus();
+  }
+  clear.addEventListener("click", reset);
+  input.addEventListener("input", (event) => {
+    if (!event.isComposing) onChange(input.value);
+  });
+  input.addEventListener("compositionend", () => onChange(input.value));
+  input.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || event.isComposing || !input.value) return;
+    event.preventDefault();
+    reset();
+  });
+  return { wrap, input, clear, status };
+}
+
+export function createTicketFilters(doc, onChange, { includePending = true, searchPlayed = false } = {}) {
   const section = element(doc, "section", "tsukuyomi-ticket-filters");
   section.setAttribute("aria-label", "Filtres des pronostics");
   const toggle = button(doc, "flex min-h-[48px] w-full items-center justify-between rounded-xl border border-border bg-surface px-3.5 py-2 text-sm font-medium md:min-h-[44px] " + focusClasses);
@@ -195,6 +247,11 @@ export function createTicketFilters(doc, onChange, { includePending = true } = {
   const preferences = { upcoming: initial(), played: initial() };
   let view = "upcoming";
   let eligible = [];
+  let playedQuery = "";
+  let searchTerms = [];
+  const indexedNames = new WeakMap();
+  const search = searchPlayed ? createPlayedSearch(doc, changeSearch) : null;
+  if (search) section.prepend(search.wrap);
   let activeMenu;
   function closeMenu() {
     activeMenu?.close();
@@ -212,6 +269,15 @@ export function createTicketFilters(doc, onChange, { includePending = true } = {
 
   function setFilter(name, value) {
     preferences[view][name] = value;
+    updatePanel();
+    onChange();
+  }
+
+  function changeSearch(value) {
+    if (view !== "played" || playedQuery === value) return;
+    playedQuery = value;
+    const normalized = searchText(value);
+    searchTerms = normalized ? normalized.split(" ") : [];
     updatePanel();
     onChange();
   }
@@ -269,7 +335,18 @@ export function createTicketFilters(doc, onChange, { includePending = true } = {
   function matches(ticket, state, day) {
     return (!state.sport || sportOf(ticket) === state.sport)
       && (!state.kind || ticket.kind === state.kind)
-      && (!day || swissDay(Date.parse(ticketDate(ticket))) === day);
+      && (!day || swissDay(Date.parse(ticketDate(ticket))) === day)
+      && matchesSearch(ticket);
+  }
+
+  function matchesSearch(ticket) {
+    if (view !== "played" || !searchTerms.length) return true;
+    let names = indexedNames.get(ticket);
+    if (names === undefined) {
+      names = ticketNames(ticket);
+      indexedNames.set(ticket, names);
+    }
+    return searchTerms.every((term) => names.includes(term));
   }
 
   function updatePanel() {
@@ -298,6 +375,16 @@ export function createTicketFilters(doc, onChange, { includePending = true } = {
 
     const day = selectedDay(state.date);
     const matching = eligible.filter((ticket) => matches(ticket, state, day));
+    if (search) {
+      const searching = view === "played" && searchTerms.length > 0;
+      search.wrap.hidden = view !== "played";
+      if (search.input.value !== playedQuery) search.input.value = playedQuery;
+      search.clear.hidden = !playedQuery;
+      const count = searching
+        ? matching.filter((ticket) => !state.outcomes.size || state.outcomes.has(outcomeOf(ticket))).length : 0;
+      const message = searching ? `${count} ${count === 1 ? "ticket trouvé" : "tickets trouvés"}.` : "";
+      if (search.status.textContent !== message) search.status.textContent = message;
+    }
     for (const [key, node, counter] of resultButtons) {
       const pressed = state.outcomes.has(key);
       node.setAttribute("aria-pressed", String(pressed));
@@ -308,7 +395,7 @@ export function createTicketFilters(doc, onChange, { includePending = true } = {
 
   function isActive() {
     const state = preferences[view];
-    return Boolean(state.sport || state.kind || state.date || state.outcomes.size);
+    return Boolean(state.sport || state.kind || state.date || state.outcomes.size || (view === "played" && searchTerms.length));
   }
 
   function refresh(nextView, tickets, status) {

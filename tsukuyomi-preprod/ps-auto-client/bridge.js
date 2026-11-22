@@ -1,6 +1,7 @@
 import { nextTicketKickoff, renderFollowedTickets, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=progressive-results";
 import { readFollowingState } from "./following.js?rev=member-following";
-import { createTicketFilters } from "./ticketFilters.js?rev=calendar-filter-focus";
+import { createTicketFilters } from "./ticketFilters.js?rev=followed-matches-search";
+import { buildFollowedMatches } from "./followedMatches.js?rev=followed-matches-search";
 import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
 import { renderFollowingLedger, renderLedger } from "./ledger.js?rev=progressive-results";
 import { clearLedgerCharts } from "./ledgerCharts.js?rev=chart-ticks";
@@ -80,7 +81,7 @@ function connectDashboard(window, nonce, destination) {
   statistics.className = "tsukuyomi-ledger";
   statistics.id = "tsukuyomi-statistics";
   statistics.dataset.tsukuyomiStatistics = "";
-  const filters = createTicketFilters(document, () => drawTickets());
+  const filters = createTicketFilters(document, () => drawTickets(), { searchPlayed: true });
   page.append(filters.element, tickets);
 
   const views = document.createElement("div");
@@ -143,9 +144,27 @@ function connectDashboard(window, nonce, destination) {
   let pendingTab = initialTabs.get(destination);
   let scrollToCalendar = destination === "calendrier";
   let calendarMount;
+  let calendarView = "all";
+  let pendingFollowedTicket;
+
+  function calendarFollowing() {
+    if (following.status === "hidden") return undefined;
+    const { tickets: saved, status } = followedCatalogue();
+    return {
+      status, matches: buildFollowedMatches(saved), view: calendarView,
+      onViewChange(view) { calendarView = view; },
+      onOpenTicket: openFollowedTicket, onRetry: retryFollowing,
+    };
+  }
 
   function syncCalendar(native) {
-    if (calendarMount?.native === native) return;
+    if (calendarMount?.native === native) {
+      if (calendarMount?.dispose && (calendarMount.following !== following || calendarMount.ledger !== ledger)) {
+        Object.assign(calendarMount, { following, ledger });
+        calendarMount.dispose.updateFollowing(calendarFollowing());
+      }
+      return;
+    }
     if (calendarMount) {
       calendarMount.dispose?.();
       calendarMount.host.remove();
@@ -160,9 +179,10 @@ function connectDashboard(window, nonce, destination) {
     native.before(host);
     const mount = { native, host };
     calendarMount = mount;
-    import("./calendarRuntime.js?rev=calendar-filter-focus").then(({ mountCalendar }) => {
+    import("./calendarRuntime.js?rev=followed-matches-search").then(({ mountCalendar }) => {
       if (calendarMount !== mount || !native.isConnected) return;
-      mount.dispose = mountCalendar(host);
+      Object.assign(mount, { following, ledger });
+      mount.dispose = mountCalendar(host, { followed: calendarFollowing() });
       host.hidden = false;
       native.hidden = true;
       scheduleScrollReveal();
@@ -290,6 +310,33 @@ function connectDashboard(window, nonce, destination) {
       .filter((ticket) => following.ids.has(ticket.id));
     return { status, tickets: ticketsForView(candidates, { view: "following", now }) };
   }
+
+  function openFollowedTicket(ticketId) {
+    if (following.status !== "ready" || !following.ids.has(ticketId)) return;
+    pendingFollowedTicket = ticketId;
+    pendingTab = "Pronostics";
+    syncDashboard();
+  }
+
+  function showFollowedTicket(navigation) {
+    const ticketId = pendingFollowedTicket;
+    pendingFollowedTicket = undefined;
+    const control = Array.from(tickets.querySelectorAll(".tsukuyomi-ticket-follow"))
+      .find((button) => button.dataset.ticketId === ticketId);
+    const card = control?.closest("article");
+    if (!card) return;
+    const details = card.querySelector(".tsukuyomi-ticket-disclosure");
+    if (details) details.open = true;
+    const focus = details?.querySelector("summary") ?? card;
+    if (focus === card) card.tabIndex = -1;
+    window.requestAnimationFrame(() => {
+      if (!card.isConnected) return;
+      card.style.scrollMarginTop = `${navigation.getBoundingClientRect().height + 12}px`;
+      focus.focus({ preventScroll: true });
+      card.scrollIntoView({ block: "start" });
+    });
+  }
+
   function drawTickets(now = Date.now()) {
     const options = followOptions();
     if (ticketView === "following") {
@@ -383,9 +430,11 @@ function connectDashboard(window, nonce, destination) {
       if (navigation.nextElementSibling !== views) navigation.after(views);
       if (following.status !== "hidden") {
         if (followingButton.parentElement !== views) views.append(followingButton);
+        if (pendingFollowedTicket) ticketView = "following";
       } else {
         followingButton.remove();
         if (ticketView === "following") ticketView = "upcoming";
+        pendingFollowedTicket = undefined;
       }
       upcomingButton.setAttribute("aria-pressed", String(ticketView === "upcoming"));
       playedButton.setAttribute("aria-pressed", String(ticketView === "played"));
@@ -407,6 +456,7 @@ function connectDashboard(window, nonce, destination) {
         drawTickets(now);
         lastTicketsRender = { current, view: ticketView, following };
       }
+      if (pendingFollowedTicket) showFollowedTicket(navigation);
     } else {
       page.remove();
     }
