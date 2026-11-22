@@ -4521,12 +4521,14 @@
       "score": "4-2"
     },
     "recCal20261122L91751": {
-      "status": "En cours",
-      "provider": "Tennislive.it / Sportschau — jeux et points du 2e set vérifiés (correction faux score final)",
-      "statusBasis": "Correction d'une clôture erronée à 09:40 UTC : le prétendu score final 2-1, sets 3-6, 7-6, 6-3 provenait d'une mauvaise lecture du tableau THA–SUI. La ligne spécifique Naklo/Plipuech – Karamoko/Waltert est En cours en 2e set (1er set 3-6 ; 2e set 3-5 à 15-15 sur Sportschau). Score final indéterminé, retrait immédiat du résultat précédemment publié.",
+      "status": "Terminé",
+      "provider": "Sportschau — tableau dynamique THA–SUI, Beendet, score final complet vérifié",
+      "statusBasis": "Données réellement actualisées de Sportschau (fetch JavaScript ttl=0) : la ligne précise Naklo/Plipuech – Karamoko/Waltert est marquée Beendet avec THA 2 sets (3,7 [tie-break 9-7],6) contre SUI 1 set (6,6,3). Une vue web indexée antérieure restée au 2e set était périmée; ne pas réouvrir un match terminé sur cette base.",
       "observedLive": true,
-      "checkedAt": "2026-11-22T10:39:25.949Z",
-      "sourceUrl": "https://www.tennislive.it/wta/incontro/thasaporn-naklo-peangtarn-plipuech-VS-naima-karamoko-simona-waltert/billie-jean-king-cup-po-tha-sui-2026/"
+      "checkedAt": "2026-11-22T10:40:09.004Z",
+      "sourceUrl": "https://www.sportschau.de/live-und-ergebnisse/tennis/bjk-cup-playoffs/ma12654656/mananchaya-sawangkaew_jil-teichmann/spiel-spiele-und-ergebnisse",
+      "score": "2-1",
+      "sets": "3-6, 7-6 (9-7), 6-3"
     },
     "recCal20261122L89462": {
       "status": "En cours",
