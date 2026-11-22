@@ -4983,10 +4983,11 @@
     },
     "recCal20261122L91970": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "So Foot — compte rendu final Paris FC F 2–1 Fleury 91 F",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T18:40:00.000Z",
+      "sourceUrl": "https://www.sofoot.com/breves/premiere-ligue-le-paris-fc-sadjuge-le-derby-face-a-fleury-lyon-domine-strasbourg",
+      "score": "2-1"
     },
     "recCal20261122P71945424": {
       "status": "Terminé",
@@ -5008,10 +5009,11 @@
     },
     "recCal20261122P73093076": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "OddsOcean — Serie B 22.11.2026, résultat final Avellino 4–1 Mantova",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T18:40:00.000Z",
+      "sourceUrl": "https://oddsocean.com/en/football/avellino-mantova",
+      "score": "4-1"
     },
     "recCal20261122L90965": {
       "status": "Terminé",
@@ -5033,10 +5035,11 @@
     },
     "recCal20261122L89524": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Sportnet — fiche officielle FC Košice–Skalica terminée 1–1",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T18:40:00.000Z",
+      "sourceUrl": "https://sportnet.sme.sk/futbalnet/z/ulk.futbalnet.sk/zapas/6a22d282233cdeb1e76d9998/",
+      "score": "1-1"
     },
     "recCal20261122L90940": {
       "status": "Terminé",
@@ -5076,11 +5079,12 @@
     },
     "recCal20261122L87709": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T17:36:19.864Z",
+      "checkedAt": "2026-11-22T18:40:00.000Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "horaire prévu de match-source.json"
+      "provider": "Fosonline — compte rendu final Panaitolikos 1–0 Volos",
+      "sourceUrl": "https://www.fosonline.gr/podosfairo/superleague/article/397057/panaitolikos-volos-1-0-megali-niki-me-mpregkoy-sto-ntempoyto-petraki",
+      "statusBasis": "horaire prévu de match-source.json",
+      "score": "1-0"
     },
     "recCal20261122L91461": {
       "status": "Terminé",
@@ -5126,11 +5130,12 @@
     },
     "recCal20261122P72477622": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T17:36:19.864Z",
+      "checkedAt": "2026-11-22T18:40:00.000Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "horaire prévu de match-source.json"
+      "provider": "La Voz de Asturias — compte rendu final Sporting Gijón 0–2 Las Palmas",
+      "sourceUrl": "https://www.lavozdeasturias.es/noticia/sporting1905/2026/11/22/cronica-sporting-0-2-palmasdescalabro-sportinguista-molinon/00031795363605253453426.htm",
+      "statusBasis": "horaire prévu de match-source.json",
+      "score": "0-2"
     },
     "recCal20261122P72680298": {
       "status": "Terminé",
@@ -5151,11 +5156,12 @@
     },
     "recCal20261122L87732": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T17:36:19.864Z",
+      "checkedAt": "2026-11-22T18:40:00.000Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "horaire prévu de match-source.json"
+      "provider": "Digi Sport — compte rendu final UTA Arad 2–6 Universitatea Craiova",
+      "sourceUrl": "https://www.digisport.ro/fotbal/liga-1/anuntul-facut-de-stefan-baiaram-dupa-ce-a-marcat-o-dubla-in-uta-arad-universitatea-craiova-2-6-4619701",
+      "statusBasis": "horaire prévu de match-source.json",
+      "score": "2-6"
     },
     "recCal20261122L91415": {
       "status": "Terminé",
@@ -5278,10 +5284,11 @@
     },
     "recCal20261122P72221404": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "The Guardian — compte rendu final Liverpool 4–0 Manchester United",
       "observedLive": false,
-      "checkedAt": "2026-11-22T18:37:55.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T18:40:00.000Z",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-premier-league-live",
+      "score": "4-0"
     },
     "recCal20261122P72513322": {
       "status": "Terminé",
