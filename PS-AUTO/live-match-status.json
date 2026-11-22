@@ -5565,11 +5565,12 @@
     },
     "recCal20261122P72477606": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T22:37:58.271Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "horaire prévu de match-source.json (début présumé)",
+      "checkedAt": "2026-11-22T23:41:00.533Z",
+      "provider": "FotMob — Full time, résultat final vérifié Burgos 1-0 Albacete",
+      "statusBasis": "résultat final vérifié",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.fotmob.com/matches/burgos-cf-vs-albacete/26sv38",
+      "score": "1-0"
     },
     "recCal20261122P72478712": {
       "status": "Terminé",
@@ -5581,46 +5582,57 @@
       "score": "0-3"
     },
     "recCal20261122P76080460": {
-      "status": "En cours",
-      "provider": "r/soccer — match thread actualisé, Torreense-Benfica 1-3 à 90' (provisoire)",
-      "checkedAt": "2026-11-22T22:39:02.484Z",
+      "status": "Terminé",
+      "provider": "Agência Lusa / DNotícias — résultat final Torreense 1-3 Benfica (22.11.2026)",
+      "checkedAt": "2026-11-22T23:41:00.533Z",
       "observedLive": true,
-      "sourceUrl": "https://www.reddit.com/r/soccer/comments/1y2z56m/match_thread_torreense_vs_benfica_taca_de_portugal/"
+      "sourceUrl": "https://www.dnoticias.pt/2026/11/22/513972-benfica-elimina-detentor-do-titulo-torreense-na-quarta-ronda-da-taca-de-portugal/",
+      "statusBasis": "résultat final vérifié",
+      "score": "1-3"
     },
     "recCal20261122P67682106": {
-      "status": "En cours",
-      "provider": "r/Cruzados — match thread actualisé, Colo-Colo-Universidad Católica 2-0 à 68' (provisoire)",
-      "checkedAt": "2026-11-22T22:39:02.484Z",
+      "status": "Terminé",
+      "provider": "Cooperativa — résultat final Colo-Colo 3-0 Universidad Católica",
+      "checkedAt": "2026-11-22T23:41:00.533Z",
       "observedLive": true,
-      "sourceUrl": "https://www.reddit.com/r/Cruzados/comments/1y2u3pf/match_thread_colo_colo_vs_universidad_cat%C3%B3lica/"
+      "sourceUrl": "https://www.cooperativa.cl/noticias/deportes/futbol/liga-de-primera/radio-en-vivo-colo-colo-vencio-a-universidad-catolica-con-triplete-de/2026-11-22/100506.html",
+      "statusBasis": "résultat final vérifié",
+      "score": "3-0"
     },
     "recCal20261122P76907548": {
-      "status": "En cours",
-      "provider": "r/MLS — match thread actualisé, Nashville-Cincinnati 0-1 à 49' (provisoire)",
-      "checkedAt": "2026-11-22T22:39:02.484Z",
+      "status": "Terminé",
+      "provider": "MLS — compte rendu officiel, Cincinnati bat Nashville 1-0",
+      "checkedAt": "2026-11-22T23:41:00.533Z",
       "observedLive": true,
-      "sourceUrl": "https://www.reddit.com/r/MLS/comments/1y2z5n1/match_thread_nashville_sc_vs_fc_cincinnati_mls/"
+      "sourceUrl": "https://www.mlssoccer.com/competitions/mls-cup-playoffs/2026/matches/nshvscin-11-22-2026/",
+      "statusBasis": "résultat final vérifié",
+      "score": "0-1"
     },
     "recCal20261122L89618": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T21:37:11.000Z",
+      "checkedAt": "2026-11-22T23:41:00.533Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Règle horaire PS-AUTO (statut présumé)"
     },
     "recCal20261122P76848806": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T21:37:11.000Z",
+      "status": "Terminé",
+      "provider": "UOL — score final Atlético Goianiense 1-1 Vila Nova",
+      "checkedAt": "2026-11-22T23:41:00.533Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/22/atletico-go-vila-nova-serie-b-playoff-de-acesso-ida.ghtm",
+      "statusBasis": "résultat final vérifié",
+      "score": "1-1"
     },
     "recCal20261122P66887178": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T21:37:11.000Z",
+      "status": "Terminé",
+      "provider": "UOL — résultat final Fluminense 1-0 Mirassol",
+      "checkedAt": "2026-11-22T23:41:00.533Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/22/fluminense-x-mirassol.ghtm",
+      "statusBasis": "résultat final vérifié",
+      "score": "1-0"
     },
     "recCal20261122L89686": {
       "status": "En cours",
@@ -5635,6 +5647,38 @@
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "checkedAt": "2026-11-22T22:38:19.941Z"
+    },
+    "recCal20261123L89600": {
+      "status": "En cours",
+      "provider": "r/LigaMX — 27e minute, Guadalajara 1-0 Cruz Azul, match thread actuel (score provisoire)",
+      "checkedAt": "2026-11-22T23:41:00.533Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.reddit.com/r/LigaMX/comments/1y31ezr/match_thread_guadalajara_vs_cruz_azul_liga_mx_nov/",
+      "statusBasis": "suivi vivant 27e minute (score provisoire)"
+    },
+    "recCal20261123P76609138": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-22T23:41:00.533Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Règle horaire PS-AUTO (statut présumé)"
+    },
+    "recCal20261123P71577574": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-22T23:41:00.533Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Règle horaire PS-AUTO (statut présumé)"
+    },
+    "recCal20261123L89619": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-22T23:41:00.533Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Règle horaire PS-AUTO (statut présumé)"
     }
   }
 }
