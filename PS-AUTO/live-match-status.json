@@ -4541,19 +4541,21 @@
     },
     "recCal20261122P76080482": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Diadejogo — compte rendu définitif",
       "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:00:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
       "observedLive": false,
-      "checkedAt": "2026-11-22T13:35:46.901Z",
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T14:42:00.000Z",
+      "sourceUrl": "https://diadejogo.pt/noticias/academica-da-a-volta-e-elimina-sanjoanense-2026-11-22",
+      "score": "1-2"
     },
     "recCal20261122L91417": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Real Madrid CF — compte rendu officiel",
       "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:00:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
       "observedLive": false,
-      "checkedAt": "2026-11-22T13:35:46.901Z",
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T14:42:00.000Z",
+      "sourceUrl": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/cronicas/cronica-granada-real-madrid-j12-liga-f-22-11-2026",
+      "score": "1-5"
     },
     "recCal20261122L89504": {
       "status": "Terminé",
@@ -4565,11 +4567,12 @@
     },
     "recCal20261122L90834": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "LaLiga — résultats officiels Liga F",
       "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:00:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
       "observedLive": false,
-      "checkedAt": "2026-11-22T13:35:46.901Z",
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T14:42:00.000Z",
+      "sourceUrl": "https://www.laliga.com/en-ES/clubs/r-sociedad-femenino/results",
+      "score": "1-0"
     },
     "recCal20261122P72041252": {
       "status": "Terminé",
@@ -4581,59 +4584,66 @@
     },
     "recCal20261122L89578": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "SweetFootball — Full Time 22 novembre",
       "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:15:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
       "observedLive": false,
-      "checkedAt": "2026-11-22T13:35:46.901Z",
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T14:42:00.000Z",
+      "sourceUrl": "https://sweetfootball.com/match/rakow-czestochowa-vs-widzew-lodz-2026-11-22",
+      "score": "3-1"
     },
     "recCal20261122L91418": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Roma saison 2026-27 — compte rendu daté et buteuses",
       "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:30:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
       "observedLive": false,
-      "checkedAt": "2026-11-22T13:35:46.901Z",
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T14:42:00.000Z",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Associazione_Sportiva_Roma_2026-2027_(femminile)",
+      "score": "0-2"
     },
     "recCal20261122P71945412": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Adnkronos — compte rendu définitif 22 novembre",
       "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:30:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
       "observedLive": false,
-      "checkedAt": "2026-11-22T13:35:46.901Z",
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T14:42:00.000Z",
+      "sourceUrl": "https://www.adnkronos.com/sport/juve-venezia-oggi-serie-a-4-0_4USL95axNzKKgMLdzfcVGo",
+      "score": "4-0"
     },
     "recCal20261122L91419": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Inter Women 2026-27 — résultat et buteuses",
       "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:30:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
       "observedLive": false,
-      "checkedAt": "2026-11-22T13:35:46.901Z",
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T14:42:00.000Z",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Football_Club_Internazionale_Milano_2026-2027_(femminile)",
+      "score": "0-4"
     },
     "recCal20261122L90934": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Reuters — victoire finale Manchester United Women",
       "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:00:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
       "observedLive": false,
-      "checkedAt": "2026-11-22T14:37:09.000Z",
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T14:42:00.000Z",
+      "sourceUrl": "https://www.reuters.com/sports/soccer/man-city-miss-chance-go-top-wsl-with-shock-loss-spurs-2026-11-22/",
+      "score": "1-2"
     },
     "recCal20261122P72340034": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Reddit r/soccer — match thread Full Time détaillé",
       "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:00:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
       "observedLive": false,
-      "checkedAt": "2026-11-22T14:37:09.000Z",
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T14:42:00.000Z",
+      "sourceUrl": "https://www.reddit.com/r/soccer/comments/1y2nxsf/match_thread_burnley_vs_blackburn_rovers_english/",
+      "score": "2-2"
     },
     "recCal20261122L90918": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Reuters — victoire finale Tottenham Women",
       "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:00:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
       "observedLive": false,
-      "checkedAt": "2026-11-22T14:37:09.000Z",
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T14:42:00.000Z",
+      "sourceUrl": "https://www.reuters.com/sports/soccer/man-city-miss-chance-go-top-wsl-with-shock-loss-spurs-2026-11-22/",
+      "score": "1-3"
     },
     "recCal20261122L89946": {
       "status": "Terminé",
