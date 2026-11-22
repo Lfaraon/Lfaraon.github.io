@@ -5435,19 +5435,21 @@
     },
     "recCal20261122P72477610": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Score final vérifié (Mundo Deportivo)",
       "statusBasis": "horaire prévu de match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-22T19:38:09.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T21:37:11.000Z",
+      "sourceUrl": "https://www.mundodeportivo.com/futbol/liga-segunda-division/20261122/1004252403/celta-vigo-b-real-valladolid-directo-laliga-hypermotion-segunda-division.html",
+      "score": "1-1"
     },
     "recCal20261122P76080488": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Score final vérifié (SPORT TV Portugal)",
+      "sourceUrl": "https://www.sporttv.pt/noticias/885890/estrela-sofre-mas-carimba-passaporte-para-os-oitavos",
       "observedLive": false,
-      "checkedAt": "2026-11-22T20:30:53.000Z",
-      "statusBasis": "horaire prévu de match-source.json (+120 min), score non vérifié"
+      "checkedAt": "2026-11-22T21:37:11.000Z",
+      "statusBasis": "horaire prévu de match-source.json (+120 min), score non vérifié",
+      "score": "1-0"
     },
     "recCal20261122L90836": {
       "status": "Terminé",
@@ -5460,19 +5462,21 @@
     },
     "recCal20261122L90970": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Score final vérifié (Foot.be - match terminé)",
+      "sourceUrl": "https://foot.be/match/1b-pro-league/2026/795093/",
       "observedLive": false,
-      "checkedAt": "2026-11-22T20:30:53.000Z",
-      "statusBasis": "horaire prévu de match-source.json (+120 min), score non vérifié"
+      "checkedAt": "2026-11-22T21:37:11.000Z",
+      "statusBasis": "horaire prévu de match-source.json (+120 min), score non vérifié",
+      "score": "2-0"
     },
     "recCal20261122L89512": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Score final vérifié (Walfoot - compte rendu final)",
+      "sourceUrl": "https://www.walfoot.be/belgique/jupiler-pro-league/2026-2027/calendrier/journee-12/lommel-sk/standard/le-standard-dompte-et-double-lommel",
       "observedLive": false,
-      "checkedAt": "2026-11-22T20:30:53.000Z",
-      "statusBasis": "horaire prévu de match-source.json (+120 min), score non vérifié"
+      "checkedAt": "2026-11-22T21:37:11.000Z",
+      "statusBasis": "horaire prévu de match-source.json (+120 min), score non vérifié",
+      "score": "1-2"
     },
     "recCal20261122P67015474": {
       "status": "Terminé",
@@ -5484,26 +5488,29 @@
     },
     "recCal20261122L87736": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Score final vérifié (DigiSport - compte rendu final)",
+      "sourceUrl": "https://www.digisport.ro/fotbal/liga-1/omul-meciului-in-fc-arges-fcsb-0-0-a-tras-concluzia-a-fost-foarte-greu-pentru-noi-4620097",
       "observedLive": false,
-      "checkedAt": "2026-11-22T20:30:53.000Z",
-      "statusBasis": "horaire prévu de match-source.json (+120 min), score non vérifié"
+      "checkedAt": "2026-11-22T21:37:11.000Z",
+      "statusBasis": "horaire prévu de match-source.json (+120 min), score non vérifié",
+      "score": "0-0"
     },
     "recCal20261122P72680290": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "provider": "Score final vérifié (Sportschau - compte rendu final)",
+      "sourceUrl": "https://www.sportschau.de/regional/wdr/wdr-duisburg-schliesst-zur-tabellenspitze-auf-100.html",
       "observedLive": false,
-      "checkedAt": "2026-11-22T20:30:53.000Z",
-      "statusBasis": "horaire prévu de match-source.json (+120 min), score non vérifié"
+      "checkedAt": "2026-11-22T21:37:11.000Z",
+      "statusBasis": "horaire prévu de match-source.json (+120 min), score non vérifié",
+      "score": "2-0"
     },
     "recCal20261122P66887192": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Score final vérifié (UOL Esporte - compte rendu final)",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-22T21:37:11.000Z"
+      "sourceUrl": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/22/athletico-pr-x-remo-brasileirao-como-foi.ghtm",
+      "checkedAt": "2026-11-22T21:37:11.000Z",
+      "score": "4-2"
     },
     "recCal20261122L89617": {
       "status": "Terminé",
@@ -5514,17 +5521,19 @@
     },
     "recCal20261122P76848804": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Score final vérifié (UOL Esporte - compte rendu final)",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-22T21:37:11.000Z"
+      "sourceUrl": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/22/criciuma-fortaleza-serie-b-playoffs-acesso-ida.ghtm",
+      "checkedAt": "2026-11-22T21:37:11.000Z",
+      "score": "1-0"
     },
     "recCal20261122L89688": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Score final vérifié (Clarín - fin du match)",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-22T21:37:11.000Z"
+      "sourceUrl": "https://www.clarin.com/deportes/rosario-central-vs-gimnasia-mendoza-vivo-hora-formaciones-ver-partido-octavos-final-torneo-clausura_0_gobGFAwNy6.html",
+      "checkedAt": "2026-11-22T21:37:11.000Z",
+      "score": "3-1"
     },
     "recCal20261122P76080478": {
       "status": "Terminé",
