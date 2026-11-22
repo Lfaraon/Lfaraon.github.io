@@ -4531,12 +4531,13 @@
       "sets": "3-6, 7-6 (9-7), 6-3"
     },
     "recCal20261122L89462": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Coup d'envoi prévu le 22.11.2026 à 10:30 UTC selon match-source.json, statut En cours présumé, sans score ni preuve d'activité.",
-      "observedLive": false,
-      "checkedAt": "2026-11-22T10:39:25.949Z",
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "status": "Terminé",
+      "provider": "FotMob — résultat final vérifié",
+      "statusBasis": "FotMob, rencontre Erzurumspor FK - Göztepe du 22.11.2026, Full time 0-1.",
+      "observedLive": true,
+      "checkedAt": "2026-11-22T12:38:31.000Z",
+      "sourceUrl": "https://www.fotmob.com/matches/goztepe-vs-erzurumspor-fk/ig3t2ij",
+      "score": "0-1"
     },
     "recCal20261122P76080482": {
       "status": "En cours",
@@ -4608,6 +4609,94 @@
       "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:30:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
       "observedLive": false,
       "checkedAt": "2026-11-22T11:36:43.806Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122L90934": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:00:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T12:38:31.000Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122P72340034": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:00:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T12:38:31.000Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122L90918": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:00:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T12:38:31.000Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122L89946": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:00:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T12:38:31.000Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122P72513986": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:30:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T12:38:31.000Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122L89501": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:30:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T12:38:31.000Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122P72513994": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:30:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T12:38:31.000Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122P72513990": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:30:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T12:38:31.000Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122P76665538": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:30:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T12:38:31.000Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122P72680296": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:30:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T12:38:31.000Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122L90919": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:30:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T12:38:31.000Z",
       "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
     }
   }
