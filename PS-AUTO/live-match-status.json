@@ -5088,11 +5088,12 @@
     },
     "recCal20261122L91461": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T17:36:19.864Z",
+      "checkedAt": "2026-11-22T18:44:30.000Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "horaire prévu de match-source.json"
+      "provider": "MDR Sport — 22.11.2026 match fini Leipzig F 1–2 Wolfsburg F",
+      "sourceUrl": "https://www.mdr.de/sport/fussball/fussball_blf/spielbericht-rb-leipzig-vfl-wolfsburg%2Crbl-vfl-108.html",
+      "statusBasis": "horaire prévu de match-source.json",
+      "score": "1-2"
     },
     "recCal20261122P76080472": {
       "status": "Terminé",
@@ -5148,11 +5149,12 @@
     },
     "recCal20261122L89471": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T17:36:19.864Z",
+      "checkedAt": "2026-11-22T18:44:30.000Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "horaire prévu de match-source.json"
+      "provider": "FC Basel — compte rendu officiel FCB 0–2 FC Lucerne",
+      "sourceUrl": "https://fcb.ch/pages/news/mathcbericht-fcb-fc-luzern-platzhalter",
+      "statusBasis": "horaire prévu de match-source.json",
+      "score": "0-2"
     },
     "recCal20261122L87732": {
       "status": "Terminé",
@@ -5200,10 +5202,11 @@
     },
     "recCal20261122P72041258": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Salland1 — compte rendu Go Ahead Eagles 0–1 Fortuna Sittard du 22.11.2026",
       "observedLive": false,
-      "checkedAt": "2026-11-22T18:37:55.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T18:44:30.000Z",
+      "sourceUrl": "https://www.salland1.nl/go-ahead-eagles-vergeet-zichzelf-te-belonen-en-verliest-van-fortuna-sittard/",
+      "score": "0-1"
     },
     "recCal20261122P67015480": {
       "status": "Terminé",
@@ -5292,10 +5295,11 @@
     },
     "recCal20261122P72513322": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Welt Sport — compte rendu du Nordderby 22.11.2026 Werder Bremen 4–0 Hamburger SV",
       "observedLive": false,
-      "checkedAt": "2026-11-22T18:37:55.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T18:44:30.000Z",
+      "sourceUrl": "https://www.welt.de/article6b03354a25b618a0b5d5c2aa",
+      "score": "4-0"
     },
     "recCal20261122L89579": {
       "status": "Terminé",
