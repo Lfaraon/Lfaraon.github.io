@@ -261,6 +261,8 @@ function createTicketCard(doc, ticket, played, open, {
   const card = element(doc, "article", "tsukuyomi-ticket");
   const reasoningText = showReasoning && typeof ticket.reasoning === "string" ? ticket.reasoning.trim() : "";
   const reasoning = reasoningText ? element(doc, "details", "tsukuyomi-ticket-reasoning") : null;
+  const canFollow = following && isFollowableTicketId(ticket.id);
+  const actions = reasoning && canFollow ? element(doc, "div", "tsukuyomi-ticket-actions") : card;
   const header = element(doc, collapsible ? "summary" : "header", "tsukuyomi-ticket-header");
   const heading = element(doc, collapsible ? "span" : "div", "tsukuyomi-ticket-heading");
   const sports = typeof ticket.sport === "string" ? ticket.sport.trim() : "";
@@ -300,7 +302,7 @@ function createTicketCard(doc, ticket, played, open, {
     content = details;
     card.addEventListener("click", ({ target }) => {
       // Both native disclosures handle their own clicks and keyboard events.
-      if (details.contains(target) || reasoning?.contains(target)) return;
+      if (details.contains(target) || reasoning?.contains(target) || (actions !== card && actions.contains(target))) return;
       const selection = doc.getSelection();
       if (selection?.toString() && card.contains(selection.anchorNode)) return;
       details.open = !details.open;
@@ -350,16 +352,16 @@ function createTicketCard(doc, ticket, played, open, {
     reasoning.open = reasoningOpen;
     reasoning.append(element(doc, "summary", "tsukuyomi-ticket-reasoning-toggle", "Raisonnement"),
       element(doc, "p", "tsukuyomi-ticket-reasoning-text", reasoningText));
-    card.append(reasoning);
+    actions.append(reasoning);
   }
-  if (following && isFollowableTicketId(ticket.id)) {
+  if (canFollow) {
     const isFollowing = following.ids.has(ticket.id);
-    const button = element(doc, "button", "tsukuyomi-tickets-button tsukuyomi-ticket-follow", "Suivre");
+    const label = isFollowing ? "Ne plus suivre" : "Suivre";
+    const button = element(doc, "button", "tsukuyomi-tickets-button tsukuyomi-ticket-follow", label);
     button.type = "button";
     button.dataset.ticketId = ticket.id;
-    button.title = isFollowing ? "Retirer de Mon suivi" : "Ajouter à Mon suivi";
-    if (legs[0]?.event) button.setAttribute("aria-label", "Suivre le pronostic · " + legs[0].event);
-    button.setAttribute("aria-pressed", String(isFollowing));
+    if (legs[0]?.event) button.setAttribute("aria-label", label + " le pronostic · " + legs[0].event);
+    button.toggleAttribute("data-following", isFollowing);
     if (following.pending.has(ticket.id)) button.setAttribute("aria-disabled", "true");
     button.addEventListener("click", (event) => {
       event.stopPropagation();
@@ -367,8 +369,9 @@ function createTicketCard(doc, ticket, played, open, {
       button.setAttribute("aria-disabled", "true");
       following.onSet(ticket.id, !isFollowing);
     });
-    card.append(button);
+    actions.append(button);
   }
+  if (actions !== card) card.append(actions);
   return card;
 }
 

@@ -544,19 +544,50 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
   padding-inline: 12px;
 }
 
-.tsukuyomi-ticket-follow[aria-pressed="true"] {
+.tsukuyomi-ticket-follow[data-following] {
   background: var(--tsukuyomi-button-active-bg);
   border-color: var(--tsukuyomi-button-active-border);
   color: var(--tsukuyomi-button-active-ink);
 }
 
-.tsukuyomi-ticket-follow[aria-pressed="true"]::before {
+.tsukuyomi-ticket-follow[data-following]::before {
   width: 6px;
   height: 10px;
+  flex: none;
   border: solid currentColor;
   border-width: 0 2px 2px 0;
   content: "";
   transform: translateY(-1px) rotate(45deg);
+}
+
+.tsukuyomi-ticket-actions {
+  --ticket-action-gap: 8px;
+  --ticket-follow-width: clamp(7.75rem, 40%, 10.5rem);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--ticket-follow-width);
+  column-gap: var(--ticket-action-gap);
+  margin-block-start: 10px;
+}
+
+.tsukuyomi-ticket-actions > .tsukuyomi-ticket-reasoning {
+  grid-area: 1 / 1 / 2 / -1;
+  min-width: 0;
+  margin: 0;
+}
+
+.tsukuyomi-ticket-actions .tsukuyomi-ticket-reasoning-toggle {
+  /* The expanded text spans both columns, while the summary leaves room for the follow button. */
+  box-sizing: border-box;
+  inline-size: calc(100% - var(--ticket-follow-width) - var(--ticket-action-gap));
+}
+
+.tsukuyomi-ticket-actions > .tsukuyomi-ticket-follow {
+  grid-area: 1 / 2;
+  align-self: start;
+  justify-content: center;
+  min-width: 0;
+  margin: 0;
+  padding-inline: 8px;
 }
 
 .tsukuyomi-ticket-follow[aria-disabled="true"] {

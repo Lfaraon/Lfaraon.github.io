@@ -1,4 +1,4 @@
-import { nextTicketKickoff, recentPlayedTicketIds, renderFollowedTickets, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=member-following";
+import { nextTicketKickoff, recentPlayedTicketIds, renderFollowedTickets, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=ticket-actions";
 import { readFollowingState } from "./following.js?rev=member-following";
 import { createTicketFilters } from "./ticketFilters.js?rev=calendar-filter-focus";
 import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
