@@ -2,7 +2,7 @@ import { nextTicketKickoff, recentPlayedTicketIds, renderFollowedTickets, render
 import { readFollowingState } from "./following.js?rev=member-following";
 import { createTicketFilters } from "./ticketFilters.js?rev=calendar-filter-focus";
 import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
-import { renderFollowingLedger, renderLedger } from "./ledger.js?rev=following-statistics";
+import { renderFollowingLedger, renderLedger } from "./ledger.js?rev=following-mobile";
 import { clearLedgerCharts } from "./ledgerCharts.js?rev=reference-stake";
 import { createScrollReveal } from "../tsukuyomi-scroll-reveal.js?rev=scroll-reveal";
 

@@ -331,12 +331,18 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 }
 
 .tsukuyomi-following-ledger-metrics > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
   padding-inline: clamp(8px, 1.25vw, 18px);
 }
 
+.tsukuyomi-following-ledger-metrics .tsukuyomi-ledger-value {
+  margin-block-start: auto;
+}
+
 .tsukuyomi-following-ledger-copy,
-.tsukuyomi-following-ledger-reference,
-.tsukuyomi-following-ledger-detail {
+.tsukuyomi-following-ledger-notes {
   color: var(--tsukuyomi-muted);
   line-height: 1.4;
 }
@@ -346,15 +352,14 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
   font-size: 14px;
 }
 
-.tsukuyomi-following-ledger-reference {
-  margin: 12px 0 0;
+.tsukuyomi-following-ledger-notes {
+  display: grid;
+  gap: 4px;
+  margin-block-start: 12px;
   font-size: 13px;
 }
 
-.tsukuyomi-following-ledger-detail {
-  margin: 5px 0 0;
-  font-size: 12px;
-}
+.tsukuyomi-following-ledger-notes p { margin: 0; }
 
 .tsukuyomi-ticket-legs {
   margin: 12px 0 0;

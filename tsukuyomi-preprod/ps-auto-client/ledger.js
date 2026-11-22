@@ -2,6 +2,7 @@ import { confirmedOutcome, formatChf, isCanonicalTicket, outcomeLabel, reference
 import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=reference-stake";
 
 const rate = new Intl.NumberFormat("fr-CH", { style: "percent", maximumFractionDigits: 1 });
+const followingRate = new Intl.NumberFormat("fr-FR", { style: "percent", maximumFractionDigits: 1 });
 const formatLabels = new Map([["simple", "Simples"], ["combine", "Combinés"], ["triple", "Triplés"]]);
 
 function element(doc, tag, className, text) {
@@ -170,16 +171,14 @@ export function renderFollowingLedger(section, { status, tickets, onRetry }) {
   const { won, lost, pending, winRate } = totals;
   const overview = element(doc, "p", "tsukuyomi-following-ledger-copy", "Résultats des tickets enregistrés dans Mon suivi.");
   const grid = element(doc, "dl", "tsukuyomi-ledger-metrics tsukuyomi-following-ledger-metrics");
-  for (const [label, value, detail] of [
+  for (const [label, value] of [
     ["Tickets suivis", tickets.length],
-    ["Taux de réussite", winRate == null ? "—" : rate.format(winRate),
-      winRate == null ? "" : `${won} ${won === 1 ? "gagné" : "gagnés"} sur ${won + lost}, hors remboursements`],
+    ["Taux de réussite", winRate == null ? "—" : followingRate.format(winRate)],
     ["Sans résultat", pending],
   ]) {
     const card = element(doc, "div", "");
     card.append(element(doc, "dt", "tsukuyomi-ledger-label", label),
       element(doc, "dd", "tsukuyomi-ledger-value", value));
-    if (detail) card.append(element(doc, "dd", "tsukuyomi-following-ledger-detail", detail));
     grid.append(card);
   }
   if (!tickets.length) {
@@ -187,8 +186,11 @@ export function renderFollowingLedger(section, { status, tickets, onRetry }) {
       ledgerNotice(doc, "Aucun pronostic suivi. Utilise « Suivre » dans les pronostics pour afficher tes statistiques."));
     return;
   }
-  const reference = element(doc, "p", "tsukuyomi-following-ledger-reference",
-    "Gain net et ROI calculés sur les mises de référence Tsukuyomi.");
-  replaceLedgerContent(heading, overview, grid, reference);
+  const notes = element(doc, "div", "tsukuyomi-following-ledger-notes");
+  if (winRate != null) {
+    notes.append(element(doc, "p", "", `${won} ${won > 1 ? "gagnés" : "gagné"} sur ${won + lost}, hors remboursements.`));
+  }
+  notes.append(element(doc, "p", "", "Gain net et ROI calculés sur les mises de référence Tsukuyomi."));
+  replaceLedgerContent(heading, overview, grid, notes);
   renderLedgerCharts(section, tickets, totals);
 }
