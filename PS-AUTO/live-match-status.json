@@ -4521,12 +4521,14 @@
       "score": "4-2"
     },
     "recCal20261122L91751": {
-      "status": "En cours",
-      "provider": "Billie Jean King Cup — tableau officiel dynamique (jeux et points observés)",
-      "statusBasis": "début réel confirmé par jeux/points sur tableau officiel BJK Cup",
+      "status": "Terminé",
+      "provider": "Sportschau — score final du double THA–SUI, résultats dynamiques",
+      "statusBasis": "22.11.2026 : Sportschau, tableau dynamique THA–SUI consulté en navigateur interactif : Naklo/Plipuech battent Karamoko/Waltert 3-6, 7-6, 6-3. Trois sets complets dans la ligne du double (THA 3/7/6, SUI 6/6/3). Statut final établi par les trois sets achevés, sans extrapolation d'horaire; la page ne comporte pas de libellé littéral Beendet sur la vue utilisée.",
       "observedLive": true,
-      "checkedAt": "2026-11-22T06:44:02.036Z",
-      "sourceUrl": "https://www.billiejeankingcup.com/en/live-centre"
+      "checkedAt": "2026-11-22T09:40:05.181Z",
+      "sourceUrl": "https://www.sportschau.de/live-und-ergebnisse/tennis/bjk-cup-playoffs/ma12654656/mananchaya-sawangkaew_jil-teichmann/spiel-spiele-und-ergebnisse",
+      "score": "2-1",
+      "sets": "3-6, 7-6, 6-3"
     }
   }
 }
