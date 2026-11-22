@@ -4693,19 +4693,21 @@
     },
     "recCal20261122P76665538": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "VG Live / NTB — compte rendu final Odd–Bryne",
       "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:30:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
       "observedLive": false,
-      "checkedAt": "2026-11-22T14:37:09.000Z",
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T15:35:11.482Z",
+      "sourceUrl": "https://vglive.vg.no/fotball/event/odd-bryne/779134",
+      "score": "1-0"
     },
     "recCal20261122P72680296": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Promatch24 — Finished, cinq buts",
       "statusBasis": "Coup d'envoi prévu le 2026-11-22T12:30:00.000Z selon match-source.json ; passage En cours uniquement horaire, sans preuve de jeu.",
       "observedLive": false,
-      "checkedAt": "2026-11-22T14:37:09.000Z",
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T15:35:11.482Z",
+      "sourceUrl": "https://promatch24.com/match/763040/",
+      "score": "5-0"
     },
     "recCal20261122L90919": {
       "status": "Terminé",
@@ -4788,24 +4790,27 @@
     },
     "recCal20261122P72041248": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T15:32:27.000Z",
+      "provider": "FCUpdate — wedstrijd afgelopen, score final",
+      "checkedAt": "2026-11-22T15:35:11.482Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.fcupdate.nl/voetbalcompetities/nederland/eredivisie/programma-uitslagen/2026-2027/ajax-ado-22-11/live-verslag",
+      "score": "3-0"
     },
     "recCal20261122L87714": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T15:32:27.000Z",
+      "provider": "Sky Sports — Match ends Altach–Sturm Graz",
+      "checkedAt": "2026-11-22T15:35:11.482Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.skysports.com/football/altach-vs-sturm-graz/562287",
+      "score": "1-0"
     },
     "recCal20261122L89506": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T15:32:27.000Z",
+      "provider": "GioScore — résultat match Levski–Lokomotiv",
+      "checkedAt": "2026-11-22T15:35:11.482Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://gioscore.com/football/match/levski-sofia-lokomotiv-sofia-1929/19714217",
+      "score": "4-1"
     },
     "recCal20261122P72041262": {
       "status": "Terminé",
