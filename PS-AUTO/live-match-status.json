@@ -4860,10 +4860,12 @@
     },
     "recCal20261122L87705": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "FotMob — Full time",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:40:28.871Z",
+      "sourceUrl": "https://www.fotmob.com/matches/levadiakos-vs-atromitos/1s5qhl",
+      "score": "1-1",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026"
     },
     "recCal20261122P71945408": {
       "status": "Terminé",
@@ -4901,10 +4903,12 @@
     },
     "recCal20261122P76536152": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Dia de Jogo — résultat final",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:40:28.871Z",
+      "sourceUrl": "https://diadejogo.pt/noticias/fundo-feirense-lidera-duas-vezes-e-continua-ultimo-2026-11-22",
+      "score": "2-2",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026"
     },
     "recCal20261122L91416": {
       "status": "Terminé",
@@ -4915,17 +4919,21 @@
     },
     "recCal20261122P76080476": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Flashscore — Taca de Portugal résultats finaux",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:40:28.871Z",
+      "sourceUrl": "https://www.flashscore.pt/noticias/futebol-taca-de-portugal-taca-de-portugal-farense-1-0-e-lourosa-0-1-seguem-em-frente-0-1-academica-da-a-volta-a-sanjoanense-1-2/dpPo6lP9/",
+      "score": "0-1",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026"
     },
     "recCal20261122P76080468": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Lusa/Correio da Manha — résultat final",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:40:28.871Z",
+      "sourceUrl": "https://www.correiodamanhacanada.com/gil-vicente-sofre-para-bater-olhanense-mas-esta-nos-oitavos-da-taca-de-portugal/",
+      "score": "3-1",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026"
     },
     "recCal20261122P72221402": {
       "status": "Terminé",
@@ -4984,10 +4992,12 @@
     },
     "recCal20261122P76080470": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "RTP Portugal — résultat final",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:40:28.871Z",
+      "sourceUrl": "https://www.rtp.pt/noticias/taca-de-portugal/vianense-avanca-na-taca-de-portugal-ao-vencer-rio-ave_d1780937",
+      "score": "1-0",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026"
     },
     "recCal20261122P73093076": {
       "status": "Terminé",
@@ -5007,10 +5017,12 @@
     },
     "recCal20261122P72513316": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Sportschau — match terminé",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:40:28.871Z",
+      "sourceUrl": "https://www.sportschau.de/fussball/bundesliga/augsburger-befreiungsschlag-verschaerft-mainzer-krise%2Cspielbericht-fc-augsburg-mainz-05-100.html",
+      "score": "3-1",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026"
     },
     "recCal20261122L89524": {
       "status": "Terminé",
@@ -5021,35 +5033,39 @@
     },
     "recCal20261122L90940": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T17:36:19.864Z",
+      "checkedAt": "2026-11-22T17:40:28.871Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "horaire prévu de match-source.json"
+      "provider": "VoetbalNieuws — résultat final",
+      "sourceUrl": "https://www.voetbalnieuws.be/news/936398/beerschot-pakt-historisch-record-met-bolwassing-genkenaren",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026",
+      "score": "5-1"
     },
     "recCal20261122L89507": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T17:36:19.864Z",
+      "checkedAt": "2026-11-22T17:40:28.871Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "horaire prévu de match-source.json"
+      "provider": "FotMob — Full time",
+      "sourceUrl": "https://www.fotmob.com/matches/union-stgilloise-vs-kortrijk/29jchm",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026",
+      "score": "0-1"
     },
     "recCal20261122P67682118": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T17:36:19.864Z",
+      "checkedAt": "2026-11-22T17:40:28.871Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "horaire prévu de match-source.json"
+      "provider": "La Nacion Argentina — résultat final",
+      "sourceUrl": "https://www.lanacion.com.ar/deportes/canchallena/huachipato-empato-0-0-con-deportes-concepcion-por-la-primera-division-chile-2026-nid22112026/",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026",
+      "score": "0-0"
     },
     "recCal20261122L90939": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T17:36:19.864Z",
+      "checkedAt": "2026-11-22T17:40:28.871Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "horaire prévu de match-source.json"
+      "provider": "FotMob — Full time",
+      "sourceUrl": "https://www.fotmob.com/en-GB/matches/nyiregyhaza-spartacus-fc-vs-debrecen/w8ayz",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026",
+      "score": "2-6"
     },
     "recCal20261122L87709": {
       "status": "Terminé",
@@ -5069,11 +5085,12 @@
     },
     "recCal20261122P76080472": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T17:36:19.864Z",
+      "checkedAt": "2026-11-22T17:40:28.871Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "horaire prévu de match-source.json"
+      "provider": "Lusa/Noticias ao Minuto — résultat final",
+      "sourceUrl": "https://www.noticiasaominuto.com/desporto/3087597/em-direto-fc-porto-e-paredes-abrem-16-avos-de-final-da-taca-de-portugal",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026",
+      "score": "1-0"
     },
     "recCal20261122L92011": {
       "status": "Terminé",
@@ -5093,11 +5110,12 @@
     },
     "recCal20261122P72478718": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T17:36:19.864Z",
+      "checkedAt": "2026-11-22T17:40:28.871Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "horaire prévu de match-source.json"
+      "provider": "Cadena SER — compte rendu final",
+      "sourceUrl": "https://cadenaser.com/nacional/2026/11/22/racing-de-santander-3-2-real-sociedad-resumen-resultado-y-goles-del-partido-de-la-jornada-13-en-laliga-ea-sports-cadena-ser/",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026",
+      "score": "3-2"
     },
     "recCal20261122P72477622": {
       "status": "Terminé",
@@ -5109,11 +5127,12 @@
     },
     "recCal20261122P72680298": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T17:36:19.864Z",
+      "checkedAt": "2026-11-22T17:40:28.871Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "horaire prévu de match-source.json"
+      "provider": "News.de — résultat final",
+      "sourceUrl": "https://www.news.de/sport/860209876/1-fc-saarbruecken-vs-sv-wehen-wiesbaden-am-22-11-2026-in-der-3-liga-26-27-tv-spielbericht-tore-aufstellung-und-tabelle-in-der-zusammenfassung/1/",
+      "statusBasis": "score final vérifié sur fiche du 22.11.2026",
+      "score": "2-1"
     },
     "recCal20261122L89471": {
       "status": "Terminé",
