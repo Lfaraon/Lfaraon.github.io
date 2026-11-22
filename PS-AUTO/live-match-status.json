@@ -4517,6 +4517,14 @@
       "observedLive": false,
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122L91751": {
+      "status": "En cours",
+      "provider": "Billie Jean King Cup — tableau officiel dynamique (jeux et points observés)",
+      "statusBasis": "début réel confirmé par jeux/points sur tableau officiel BJK Cup",
+      "observedLive": true,
+      "checkedAt": "2026-11-22T06:44:02.036Z",
+      "sourceUrl": "https://www.billiejeankingcup.com/en/live-centre"
     }
   }
 }
