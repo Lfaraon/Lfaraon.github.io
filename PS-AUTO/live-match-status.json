@@ -4537,6 +4537,78 @@
       "observedLive": false,
       "checkedAt": "2026-11-22T10:39:25.949Z",
       "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122P76080482": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:00:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T11:36:43.806Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122L91417": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:00:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T11:36:43.806Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122L89504": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:00:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T11:36:43.806Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122L90834": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:00:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T11:36:43.806Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122P72041252": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:15:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T11:36:43.806Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122L89578": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:15:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T11:36:43.806Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122L91418": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:30:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T11:36:43.806Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122P71945412": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:30:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T11:36:43.806Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261122L91419": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d'envoi prévu le 2026-11-22T11:30:00.000Z selon match-source.json. Statut En cours présumé sans preuve d'activité en direct.",
+      "observedLive": false,
+      "checkedAt": "2026-11-22T11:36:43.806Z",
+      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
     }
   }
 }
