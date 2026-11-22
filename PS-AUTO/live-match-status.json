@@ -4415,19 +4415,21 @@
     },
     "recCal20261121L89596": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T01:33:19.863Z",
+      "checkedAt": "2026-11-22T02:43:18.351Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "+120 min dépassées au contrôle; dernier score 1-0 à 60e sur AS Mexique, non final. Aucun score final vérifié."
+      "provider": "Noroeste — compte rendu final Pachuca–Toluca du 21.11.2026",
+      "sourceUrl": "https://www.noroeste.com.mx/deportes/futbol/pachuca-vence-2-0-a-toluca-y-sella-su-pase-a-la-liguilla-MD27530941",
+      "statusBasis": "Résultat final vérifié (deux buts, match clos)",
+      "score": "2-0"
     },
     "recCal20261122L89571": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T01:33:19.863Z",
+      "checkedAt": "2026-11-22T02:43:18.351Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "+120 min dépassées; fiche Ceroacero encore à 45+ (0-1), sans FT. Aucun score final vérifié."
+      "provider": "365Scores — fiche du match, Finalizado, 90 min, Santos Laguna–León",
+      "sourceUrl": "https://www.365scores.com/es-mx/football/match/liga-mx-141/santos-laguna-club-leon-1254-9339-141",
+      "statusBasis": "Résultat final vérifié, León marque à 90+1",
+      "score": "1-2"
     },
     "recCal20261122P76609136": {
       "status": "Terminé",
@@ -4448,19 +4450,21 @@
     },
     "recCal20261122P67682120": {
       "status": "Terminé",
-      "checkedAt": "2026-11-22T01:33:19.863Z",
+      "checkedAt": "2026-11-22T02:43:18.351Z",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "+120 min dépassées; suivi LiveSporty périmé à 29e (1-2), résultat final non vérifié."
+      "provider": "BioBioChile — compte rendu final, Universidad de Concepción–Ñublense",
+      "sourceUrl": "https://www.biobiochile.cl/noticias/deportes/futbol/futbol-nacional/2026/11/21/nublense-vencio-a-la-udec-en-el-ester-roa-y-la-hundio-en-la-liga-de-primera-campanil-es-colista.shtml",
+      "statusBasis": "Résultat final confirmé, victoire 3-2 de Ñublense",
+      "score": "2-3"
     },
     "recCal20261122P66887196": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "provider": "Chapecoense — compte rendu officiel du 21.11.2026, 1-2",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-22T00:40:56.718Z",
-      "statusBasis": "Statut En cours présumé depuis le coup d'envoi 2026-11-22T00:00:00.000Z; sans suivi direct confirmé ni score final."
+      "sourceUrl": "https://chapecoense.com/2026/11/21/chapecoense-e-superada-pelo-cruzeiro/",
+      "checkedAt": "2026-11-22T02:43:18.351Z",
+      "statusBasis": "Résultat final confirmé par club hôte",
+      "score": "1-2"
     },
     "recCal20261122L89572": {
       "status": "En cours",
@@ -4469,6 +4473,23 @@
       "checkedAt": "2026-11-22T01:33:19.863Z",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "statusBasis": "En cours présumé dès le coup d'envoi 01:00Z de match-source.json; AS México indique 19h10 CST soit 01h10Z. Aucun direct ni score final confirmé."
+    },
+    "recCal20261122L87842": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-22T02:43:18.351Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "En cours présumé dès kickoff 02:00 UTC; direct non observé, score non vérifié."
+    },
+    "recCal20261122L91750": {
+      "status": "À venir",
+      "provider": "Tennisora — fiche précise: double annoncé 07:30 UTC, UP NEXT",
+      "checkedAt": "2026-11-22T02:43:18.351Z",
+      "observedLive": false,
+      "sourceUrl": "https://www.tennisora.com/matches/12181655-20261122-34463-91066",
+      "statusBasis": "02:00 UTC est le début de la rencontre Japon–Argentine; double affiché 07:30 UTC (ordre différé), aucun jeu/point observé.",
+      "rescheduledKickoff": "2026-11-22T07:30:00.000Z"
     }
   }
 }
