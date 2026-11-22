@@ -4720,17 +4720,19 @@
     },
     "recCal20261122L89486": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T15:32:27.000Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "YSscores — résultat final confirmé sur fiche détaillée",
+      "checkedAt": "2026-11-22T16:33:19.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.ysscores.com/en/match/5739553/AC-Horsens-vs-Silkeborg-IF-events",
+      "score": "3-1"
     },
     "recCal20261122P67126894": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T15:32:27.000Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "YSscores — résultat final confirmé sur fiche détaillée",
+      "checkedAt": "2026-11-22T16:33:19.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.ysscores.com/en/match/5107665/BK-H%C3%A4cken-vs-IF-Elfsborg-statics",
+      "score": "2-1"
     },
     "recCal20261122P72477614": {
       "status": "Terminé",
@@ -4778,17 +4780,19 @@
     },
     "recCal20261122L89464": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T15:32:27.000Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "YSscores — résultat final confirmé sur fiche détaillée",
+      "checkedAt": "2026-11-22T16:33:19.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.ysscores.com/en/match/5904808/Konyaspor-vs-Be%C5%9Fikta%C5%9F-JK-statics",
+      "score": "2-4"
     },
     "recCal20261122L89488": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T15:32:27.000Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "YSscores — résultat final confirmé sur fiche détaillée",
+      "checkedAt": "2026-11-22T16:33:19.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.ysscores.com/en/match/5739550/Viborg-FF-vs-Randers-FC",
+      "score": "0-0"
     },
     "recCal20261122P72041248": {
       "status": "Terminé",
@@ -4823,10 +4827,11 @@
     },
     "recCal20261122L87717": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T15:32:27.000Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "provider": "YSscores — résultat final confirmé sur fiche détaillée",
+      "checkedAt": "2026-11-22T16:33:19.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.ysscores.com/en/match/5846028/Wolfsberger-AC-vs-SV-Ried-statics",
+      "score": "1-2"
     },
     "recCal20261122L89580": {
       "status": "Terminé",
