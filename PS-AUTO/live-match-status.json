@@ -4470,26 +4470,30 @@
     "recCal20261122L89572": {
       "status": "Terminé",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T03:41:19.567Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "+120 min depuis le coup d'envoi prévu 01:00Z (22.11.2026) ; aucun FT/score final fiable identifié sur les fiches du match du 21.11, ne pas confondre avec confrontation de février 2026"
+      "provider": "24 Horas — compte rendu final Pumas–Monterrey 21.11.2026",
+      "checkedAt": "2026-11-22T04:30:17.000Z",
+      "sourceUrl": "https://24-horas.mx/dxt/pumas-pierde-0-2-quedo-fuera-de-liguilla-y-suma-15-anos-sin-titulo/",
+      "statusBasis": "24 Horas confirme le 0-2 final, doublé de Luca Orellano, pour la 17e journée Apertura 2026 du 21.11 (pas le match de février).",
+      "score": "0-2"
     },
     "recCal20261122L87842": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T02:43:18.351Z",
+      "status": "Terminé",
+      "provider": "FotMob — fiche précise Full time, A-League 22.11.2026",
+      "checkedAt": "2026-11-22T04:30:17.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "En cours présumé dès kickoff 02:00 UTC; direct non observé, score non vérifié."
+      "sourceUrl": "https://www.fotmob.com/matches/wellington-phoenix-vs-macarthur-fc/ali42w0e",
+      "statusBasis": "FotMob affiche 1-2 Full time pour Wellington Phoenix – Macarthur du 22.11.2026 ; buts Stamatelopoulos (6'), Bosnjak (19'), Bidois (88').",
+      "score": "1-2"
     },
     "recCal20261122L91750": {
-      "status": "En cours",
-      "provider": "Livetenis.ro — flux vivant point-par-point, Billie Jean King Cup 22.11.2026",
-      "checkedAt": "2026-11-22T03:42:18.880Z",
+      "status": "Terminé",
+      "provider": "Canal Tenis — compte rendu final BJK Cup Japon–Argentine du 22.11.2026",
+      "checkedAt": "2026-11-22T04:30:17.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.livetenis.ro/wta/meci/shuko-aoyama-eri-hozumi-VS-justina-maria-gonzalez-daniele-luciana-moyano/billie-jean-king-cup-po-jpn-arg-2026/",
-      "statusBasis": "Début réel prouvé : premier set, Aoyama/Hozumi 2 jeux à 1, points 15-15 au service ; Livetenis.ro présente le point par point et un break, preuve plus récente que Tennisora UP NEXT 07:30 UTC"
+      "sourceUrl": "https://canaltenis.com/japon-argentina-billie-jean-king-cup-2026/",
+      "statusBasis": "Canal Tenis confirme Aoyama/Hozumi – González Daniele/Moyano 6-2, 6-1 : score final vérifié dans l'ordre de match-source.json ; début réel déjà observé précédemment sur Livetenis.",
+      "score": "2-0",
+      "sets": "6-2, 6-1"
     },
     "recCal20261122L89599": {
       "status": "En cours",
