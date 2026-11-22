@@ -34,7 +34,7 @@ body {
 }
 
 #root > div > header.psa-app-header,
-#root > div > :is(.tsukuyomi-pronostic-views, [data-tsukuyomi-pronostics], [data-tsukuyomi-statistics]),
+#root > div > :is(.tsukuyomi-pronostic-views, .tsukuyomi-statistics-views, [data-tsukuyomi-pronostics], [data-tsukuyomi-statistics]),
 #root > div > main > :is(.tsukuyomi-ledger, .dashboard-home) {
   width: var(--tsukuyomi-content-width);
   margin-inline: auto;

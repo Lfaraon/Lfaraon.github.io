@@ -1,4 +1,4 @@
-.tsukuyomi-pronostic-views {
+:is(.tsukuyomi-pronostic-views, .tsukuyomi-statistics-views) {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -9,7 +9,7 @@
   display: none;
 }
 
-.tsukuyomi-pronostic-views button {
+:is(.tsukuyomi-pronostic-views, .tsukuyomi-statistics-views) button {
   flex: 1 1 0;
   min-height: 44px;
   min-width: 0;
@@ -24,21 +24,21 @@
   line-height: 1.3;
 }
 
-.tsukuyomi-pronostic-views button[aria-pressed="true"] {
+:is(.tsukuyomi-pronostic-views, .tsukuyomi-statistics-views) button[aria-pressed="true"] {
   background: var(--tsukuyomi-button-active-bg);
   border-color: var(--tsukuyomi-button-active-border);
   color: var(--tsukuyomi-button-active-ink);
 }
 
 @media (hover: hover) {
-  .tsukuyomi-pronostic-views button[aria-pressed="false"]:hover {
+  :is(.tsukuyomi-pronostic-views, .tsukuyomi-statistics-views) button[aria-pressed="false"]:hover {
     background: var(--tsukuyomi-button-active-bg);
     border-color: var(--tsukuyomi-button-active-border);
     color: var(--tsukuyomi-button-active-ink);
   }
 }
 
-.tsukuyomi-pronostic-views button:focus-visible {
+:is(.tsukuyomi-pronostic-views, .tsukuyomi-statistics-views) button:focus-visible {
   outline: 2px solid var(--colors-primary);
   outline-offset: 2px;
 }
@@ -323,6 +323,37 @@ article.tsukuyomi-ticket .tsukuyomi-ticket-title {
 
 @media (min-width: 1360px) {
   .tsukuyomi-ledger-metrics { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+}
+
+.tsukuyomi-following-ledger-metrics {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+}
+
+.tsukuyomi-following-ledger-metrics > div {
+  padding-inline: clamp(8px, 1.25vw, 18px);
+}
+
+.tsukuyomi-following-ledger-copy,
+.tsukuyomi-following-ledger-reference,
+.tsukuyomi-following-ledger-detail {
+  color: var(--tsukuyomi-muted);
+  line-height: 1.4;
+}
+
+.tsukuyomi-following-ledger-copy {
+  margin: 0 0 14px;
+  font-size: 14px;
+}
+
+.tsukuyomi-following-ledger-reference {
+  margin: 12px 0 0;
+  font-size: 13px;
+}
+
+.tsukuyomi-following-ledger-detail {
+  margin: 5px 0 0;
+  font-size: 12px;
 }
 
 .tsukuyomi-ticket-legs {

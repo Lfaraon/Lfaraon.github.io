@@ -2,7 +2,7 @@ import { nextTicketKickoff, recentPlayedTicketIds, renderFollowedTickets, render
 import { readFollowingState } from "./following.js?rev=member-following";
 import { createTicketFilters } from "./ticketFilters.js?rev=calendar-filter-focus";
 import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
-import { renderLedger } from "./ledger.js?rev=reference-stake";
+import { renderFollowingLedger, renderLedger } from "./ledger.js?rev=following-statistics";
 import { clearLedgerCharts } from "./ledgerCharts.js?rev=reference-stake";
 import { createScrollReveal } from "../tsukuyomi-scroll-reveal.js?rev=scroll-reveal";
 
@@ -11,6 +11,7 @@ const latestSelector = 'section[aria-label="Derniers tickets"], section[data-tsu
 const calendarSelector = 'section[aria-label="Calendrier des matchs"]';
 const nativeMetrics = 'section[aria-label="Indicateurs clés"]';
 const ledgerCards = ".tsukuyomi-ledger-metrics > div";
+const statisticsCards = `${ledgerCards}, [data-tsukuyomi-native-charts] .chart-panel`;
 const ticketCards = ".tsukuyomi-ticket-item";
 const calendarRows = `${calendarSelector} > .space-y-4 ul > li, [data-tsukuyomi-calendar] .tsu-calendar-match`;
 const scrollRevealSelectors = {
@@ -18,7 +19,8 @@ const scrollRevealSelectors = {
   upcoming: ticketCards,
   played: ticketCards,
   following: ticketCards,
-  statistics: `${ledgerCards}, [data-tsukuyomi-native-charts] .chart-panel`,
+  statistics: statisticsCards,
+  "statistics-following": statisticsCards,
 };
 const historyUrl = new URL("./history.json?rev=ticket-review", import.meta.url);
 const initialTabs = new Map([
@@ -76,6 +78,7 @@ function connectDashboard(window, nonce, destination) {
   summary.className = "tsukuyomi-ledger";
   const statistics = document.createElement("main");
   statistics.className = "tsukuyomi-ledger";
+  statistics.id = "tsukuyomi-statistics";
   statistics.dataset.tsukuyomiStatistics = "";
   const filters = createTicketFilters(document, () => drawTickets());
   page.append(filters.element, tickets);
@@ -94,6 +97,27 @@ function connectDashboard(window, nonce, destination) {
   followingButton.type = "button";
   followingButton.textContent = "Mon suivi";
   views.append(upcomingButton, playedButton);
+
+  const statisticsViews = document.createElement("div");
+  statisticsViews.className = "tsukuyomi-statistics-views";
+  statisticsViews.setAttribute("role", "group");
+  statisticsViews.setAttribute("aria-label", "Vue des statistiques");
+  const globalStatisticsButton = document.createElement("button");
+  globalStatisticsButton.textContent = "Statistiques Tsukuyomi";
+  const followingStatisticsButton = document.createElement("button");
+  followingStatisticsButton.textContent = "Mon suivi";
+  for (const [view, button] of [["global", globalStatisticsButton], ["following", followingStatisticsButton]]) {
+    button.type = "button";
+    button.setAttribute("aria-controls", statistics.id);
+    button.addEventListener("click", () => {
+      statisticsView = view;
+      syncDashboard();
+    });
+    statisticsViews.append(button);
+  }
+  const followingStatisticsNotice = document.createElement("p");
+  followingStatisticsNotice.className = "tsukuyomi-ticket-follow-error";
+  followingStatisticsNotice.setAttribute("role", "status");
 
   let port;
   let data = { status: "loading", tickets: [] };
@@ -115,6 +139,7 @@ function connectDashboard(window, nonce, destination) {
   let dashboardRendered = false;
   let renderReport = "idle";
   let ticketView = "upcoming";
+  let statisticsView = "global";
   let pendingTab = initialTabs.get(destination);
   let scrollToCalendar = destination === "calendrier";
   let calendarMount;
@@ -257,15 +282,19 @@ function connectDashboard(window, nonce, destination) {
     if (following.status !== "ready") return {};
     return { following: { ...following, onSet: setFollowing }, followingError: following.error };
   }
+  function followedCatalogue(now = Date.now()) {
+    const status = following.status === "ready" && following.ids.size ? ledger.status : following.status;
+    if (status !== "ready" || !following.ids.size) return { status, tickets: [] };
+    // Preserve the exact published ID even when a different archive ID describes the same selection.
+    const candidates = [...selectTsukuyomiPortfolio(history.tickets), ...publications]
+      .filter((ticket) => following.ids.has(ticket.id));
+    return { status, tickets: ticketsForView(candidates, { view: "following", now }) };
+  }
   function drawTickets(now = Date.now()) {
     const options = followOptions();
     if (ticketView === "following") {
-      const status = following.status === "ready" && following.ids.size ? ledger.status : following.status;
-      const selected = status === "ready"
-        ? [...selectTsukuyomiPortfolio(history.tickets), ...publications].filter((ticket) => following.ids.has(ticket.id))
-        : [];
       renderFollowedTickets(tickets, {
-        ...options, status, now, tickets: selected, showReasoning: true,
+        ...followedCatalogue(now), ...options, now, showReasoning: true,
         onRetry: retryFollowing, focusFallback: followingButton,
       });
       return;
@@ -285,6 +314,38 @@ function connectDashboard(window, nonce, destination) {
       ticketView = view;
       syncDashboard();
     });
+  }
+
+  function syncStatistics(navigation, originalMain) {
+    if (following.status !== "hidden") {
+      if (navigation.nextElementSibling !== statisticsViews) navigation.after(statisticsViews);
+    } else {
+      const hadFocus = statisticsViews.contains(document.activeElement);
+      statisticsViews.remove();
+      statisticsView = "global";
+      if (hadFocus) tabByName("Statistiques")?.focus({ preventScroll: true });
+    }
+    const personal = statisticsView === "following";
+    globalStatisticsButton.setAttribute("aria-pressed", String(!personal));
+    followingStatisticsButton.setAttribute("aria-pressed", String(personal));
+    if (originalMain.nextElementSibling !== statistics) originalMain.after(statistics);
+
+    const followState = personal ? following : null;
+    if (lastStatisticsRender?.view === statisticsView && lastStatisticsRender.ledger === ledger
+        && lastStatisticsRender.followState === followState) return;
+
+    const catalogue = personal ? followedCatalogue() : ledger;
+    const contentKey = JSON.stringify(catalogue);
+    if (lastStatisticsRender?.view !== statisticsView || lastStatisticsRender.contentKey !== contentKey) {
+      if (personal) renderFollowingLedger(statistics, { ...catalogue, onRetry: retryFollowing });
+      else renderLedger(statistics, { ...catalogue, onRetry: retryLedger }, true);
+    }
+    lastStatisticsRender = { view: statisticsView, ledger, followState, contentKey };
+
+    if (personal && catalogue.status === "ready" && following.error) {
+      if (followingStatisticsNotice.textContent !== following.error) followingStatisticsNotice.textContent = following.error;
+      if (!followingStatisticsNotice.isConnected) statistics.firstElementChild.after(followingStatisticsNotice);
+    } else followingStatisticsNotice.remove();
   }
 
   function syncDashboard() {
@@ -361,15 +422,14 @@ function connectDashboard(window, nonce, destination) {
       }
     } else summary.remove();
     if (inStatistics) {
-      if (originalMain.nextElementSibling !== statistics) originalMain.after(statistics);
-      if (lastStatisticsRender !== ledger) {
-        renderLedger(statistics, { ...ledger, onRetry: retryLedger }, true);
-        lastStatisticsRender = ledger;
+      syncStatistics(navigation, originalMain);
+    } else {
+      statisticsViews.remove();
+      if (lastStatisticsRender) {
+        clearLedgerCharts(statistics);
+        statistics.remove();
+        lastStatisticsRender = undefined;
       }
-    } else if (statistics.isConnected) {
-      clearLedgerCharts(statistics);
-      statistics.remove();
-      lastStatisticsRender = undefined;
     }
 
     if (inHome && originalLatest) {
@@ -400,7 +460,7 @@ function connectDashboard(window, nonce, destination) {
     if (root.hidden) root.hidden = false;
 
     if (inPronostics) transitionTo(ticketView, page);
-    else if (inStatistics) transitionTo("statistics", statistics);
+    else if (inStatistics) transitionTo(statisticsView === "following" ? "statistics-following" : "statistics", statistics);
     else if (inHome) transitionTo("home", originalMain);
 
     if (scrollToCalendar && inHome) {

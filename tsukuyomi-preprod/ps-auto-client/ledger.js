@@ -111,10 +111,8 @@ function replaceLedgerContent(heading, ...contents) {
   heading.after(...contents);
 }
 
-export function renderLedger(section, { status, tickets, onRetry }, detail = false) {
-  clearLedgerCharts(section);
+function ledgerHeading(section, label) {
   const doc = section.ownerDocument;
-  const label = detail ? "Statistiques Tsukuyomi" : "Bilan Tsukuyomi";
   let heading = section.firstElementChild;
   if (!heading?.matches("h2.tsukuyomi-ledger-heading")) {
     heading = element(doc, "h2", "tsukuyomi-ledger-heading", label);
@@ -122,19 +120,33 @@ export function renderLedger(section, { status, tickets, onRetry }, detail = fal
   } else if (heading.textContent !== label) {
     heading.textContent = label;
   }
+  return heading;
+}
+
+function ledgerNotice(doc, message) {
+  const notice = element(doc, "p", "tsukuyomi-ticket-notice", message);
+  notice.setAttribute("role", "status");
+  return notice;
+}
+
+function showLedgerStatus(heading, message, onRetry) {
+  const doc = heading.ownerDocument;
+  const contents = [ledgerNotice(doc, message)];
+  if (onRetry) {
+    const retry = element(doc, "button", "tsukuyomi-tickets-button tsukuyomi-tickets-retry", "Réessayer");
+    retry.type = "button";
+    retry.addEventListener("click", onRetry);
+    contents.push(retry);
+  }
+  replaceLedgerContent(heading, ...contents);
+}
+
+export function renderLedger(section, { status, tickets, onRetry }, detail = false) {
+  clearLedgerCharts(section);
+  const heading = ledgerHeading(section, detail ? "Statistiques Tsukuyomi" : "Bilan Tsukuyomi");
   if (status !== "ready") {
-    const message = status === "error" ? "Le bilan est momentanément indisponible." : "Chargement du bilan…";
-    const notice = element(doc, "p", "tsukuyomi-ticket-notice", message);
-    notice.setAttribute("role", "status");
-    const contents = [notice];
-    if (status === "error") {
-      const retry = element(doc, "button", "tsukuyomi-tickets-button tsukuyomi-tickets-retry", "Réessayer");
-      retry.type = "button";
-      retry.addEventListener("click", onRetry);
-      contents.push(retry);
-    }
-    replaceLedgerContent(heading, ...contents);
-    return;
+    if (status === "error") return showLedgerStatus(heading, "Le bilan est momentanément indisponible.", onRetry);
+    return showLedgerStatus(heading, "Chargement du bilan…");
   }
 
   const funds = summarizeFunds(tickets);
@@ -143,4 +155,40 @@ export function renderLedger(section, { status, tickets, onRetry }, detail = fal
   replaceLedgerContent(heading, grid);
   nextFocus?.focus({ preventScroll: true });
   if (detail) renderLedgerCharts(section, tickets, totals);
+}
+
+export function renderFollowingLedger(section, { status, tickets, onRetry }) {
+  clearLedgerCharts(section);
+  const doc = section.ownerDocument;
+  const heading = ledgerHeading(section, "Mes statistiques");
+  if (status === "loading") return showLedgerStatus(heading, "Chargement de tes statistiques de suivi…");
+  if (status === "error") {
+    return showLedgerStatus(heading, "Tes statistiques de suivi sont momentanément indisponibles.", onRetry);
+  }
+
+  const totals = summarize(tickets);
+  const { won, lost, pending, winRate } = totals;
+  const overview = element(doc, "p", "tsukuyomi-following-ledger-copy", "Résultats des tickets enregistrés dans Mon suivi.");
+  const grid = element(doc, "dl", "tsukuyomi-ledger-metrics tsukuyomi-following-ledger-metrics");
+  for (const [label, value, detail] of [
+    ["Tickets suivis", tickets.length],
+    ["Taux de réussite", winRate == null ? "—" : rate.format(winRate),
+      winRate == null ? "" : `${won} ${won === 1 ? "gagné" : "gagnés"} sur ${won + lost}, hors remboursements`],
+    ["Sans résultat", pending],
+  ]) {
+    const card = element(doc, "div", "");
+    card.append(element(doc, "dt", "tsukuyomi-ledger-label", label),
+      element(doc, "dd", "tsukuyomi-ledger-value", value));
+    if (detail) card.append(element(doc, "dd", "tsukuyomi-following-ledger-detail", detail));
+    grid.append(card);
+  }
+  if (!tickets.length) {
+    replaceLedgerContent(heading, overview, grid,
+      ledgerNotice(doc, "Aucun pronostic suivi. Utilise « Suivre » dans les pronostics pour afficher tes statistiques."));
+    return;
+  }
+  const reference = element(doc, "p", "tsukuyomi-following-ledger-reference",
+    "Gain net et ROI calculés sur les mises de référence Tsukuyomi.");
+  replaceLedgerContent(heading, overview, grid, reference);
+  renderLedgerCharts(section, tickets, totals);
 }
