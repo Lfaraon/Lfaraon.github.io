@@ -4914,10 +4914,12 @@
     },
     "recCal20261122L91416": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "FiorentinaNews — compte rendu final 22.11.2026",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:41:26.765Z",
+      "sourceUrl": "https://www.fiorentinanews.com/news/32485051910/strepitosa-vittoria-della-fiorentina-che-ribalta-il-doppio-svantaggio-e-vince-lo-scontro-al-vertice-contro-il-como-1907",
+      "score": "4-3",
+      "statusBasis": "score final vérifié sur compte rendu"
     },
     "recCal20261122P76080476": {
       "status": "Terminé",
@@ -4948,10 +4950,12 @@
     },
     "recCal20261122L91969": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Olympique et Lyonnais — compte rendu final 22.11.2026",
       "observedLive": false,
-      "checkedAt": "2026-11-22T16:33:19.000Z",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "checkedAt": "2026-11-22T17:41:26.765Z",
+      "sourceUrl": "https://www.olympique-et-lyonnais.com/face-a-un-faible-strasbourg-ol-lyonnes-finit-bien-sa-semaine%2C414436.html",
+      "score": "5-2",
+      "statusBasis": "score final vérifié sur compte rendu"
     },
     "recCal20261122L91121": {
       "status": "Terminé",
