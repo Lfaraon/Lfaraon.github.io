@@ -5514,10 +5514,11 @@
     },
     "recCal20261122L89617": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Score final confirmé (Visión 360)",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-22T21:37:11.000Z"
+      "sourceUrl": "https://www.vision360.bo/noticias/2026/11/22/78435-bolivar-tropieza-en-potosi-al-caer-ante-real-los-millonarios-pueden-igualar-mas-tarde-su-puntaje",
+      "checkedAt": "2026-11-22T21:37:11.000Z",
+      "score": "1-0"
     },
     "recCal20261122P76848804": {
       "status": "Terminé",
