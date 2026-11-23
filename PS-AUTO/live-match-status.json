@@ -5793,43 +5793,48 @@
     },
     "recCal20261123L88368": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T18:36:31.279Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T16:00:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final."
+      "provider": "Bao Ha Tinh — résultat final match terminé (Kết thúc), 23.11.2026",
+      "checkedAt": "2026-11-23T18:39:41.609Z",
+      "observedLive": true,
+      "sourceUrl": "https://baohatinh.vn/tv/al-ain-1-1-esteghlal-fc-hai-doi-chia-diem-57589.html",
+      "statusBasis": "Kickoff 2026-11-23T16:00:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final.",
+      "score": "1-1"
     },
     "recCal20261123L88343": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T18:36:31.279Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T16:00:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final."
+      "provider": "AFC officiel — compte rendu match terminé, 23.11.2026",
+      "checkedAt": "2026-11-23T18:39:41.609Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/md5-al-shamal-sc-qat-3-2-al-ahli-saudi-fc-ksa",
+      "statusBasis": "Kickoff 2026-11-23T16:00:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final.",
+      "score": "3-2"
     },
     "recCal20261123L89510": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T18:36:31.279Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T16:00:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final."
+      "provider": "FootballData — compte rendu match terminé, 23.11.2026",
+      "checkedAt": "2026-11-23T18:39:41.609Z",
+      "observedLive": true,
+      "sourceUrl": "https://footballdata.cn/news/20647-ludogorets-edge-dunav-ruse-1-0-through-hadziahmetovic-s-stoppage-time-header",
+      "statusBasis": "Kickoff 2026-11-23T16:00:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final.",
+      "score": "1-0"
     },
     "recCal20261123L88154": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T18:36:31.279Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T16:00:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final."
+      "provider": "TotalCorner — Fin de match (Tractor–Al Wasl), 23.11.2026",
+      "checkedAt": "2026-11-23T18:39:41.609Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.totalcorner.com/fr/stats/tractor-sazi-vs-al-wasl-sc/204906154",
+      "statusBasis": "Kickoff 2026-11-23T16:00:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final.",
+      "score": "1-5"
     },
     "recCal20261123L89820": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T18:36:31.279Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T16:30:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final."
+      "provider": "TaxiSports — FT 2-0 sur fiche précise Koper–Aluminij, 23.11.2026",
+      "checkedAt": "2026-11-23T18:39:41.609Z",
+      "observedLive": true,
+      "sourceUrl": "https://taxisports.com/football/match/fc-koper-vs-nk-aluminij-3005774/",
+      "statusBasis": "Kickoff 2026-11-23T16:30:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final.",
+      "score": "2-0"
     },
     "recCal20261123L91768": {
       "status": "En cours",
