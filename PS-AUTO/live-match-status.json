@@ -5864,12 +5864,14 @@
       "statusBasis": "Kickoff 2026-11-23T17:00:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
     },
     "recCal20261123P77062116": {
-      "status": "En cours",
-      "provider": "TennisTemple — jeux vivants de la première manche (4–3), fiche du 23.11.2026",
-      "checkedAt": "2026-11-23T17:37:59.039Z",
+      "status": "Terminé",
+      "provider": "Tennis Majors — résultat final vérifié (sets et point par point) ; TennisTemple confirmé",
+      "checkedAt": "2026-11-23T18:37:53.965Z",
       "observedLive": true,
-      "sourceUrl": "https://en.tennistemple.com/match/lepchenko-rencheli-buenos-aires-2026/9571417/",
-      "statusBasis": "Début réellement observé sur fiche TennisTemple : 4 jeux à 3 pour Lepchenko, match en cours ; score non définitif."
+      "sourceUrl": "https://www.tennismajors.com/matches/wta/argentina-open/varvara-lepchenko-vs-abigail-rencheli",
+      "statusBasis": "Début réellement observé sur fiche TennisTemple : 4 jeux à 3 pour Lepchenko, match en cours ; score non définitif.",
+      "score": "2-0",
+      "sets": "6-3, 6-2"
     },
     "recCal20261123L91155": {
       "status": "En cours",
