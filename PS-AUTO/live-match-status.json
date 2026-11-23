@@ -5837,36 +5837,40 @@
       "score": "2-0"
     },
     "recCal20261123L91768": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T17:37:59.039Z",
+      "status": "Terminé",
+      "provider": "Sport News Africa — résultat 23/11/2026 ; LeBallonRond — fiche détaillée",
+      "checkedAt": "2026-11-23T19:39:30.835Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T16:45:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+      "sourceUrl": "https://www.leballonrond.fr/en-direct/2026-11-23-ben-aknoun-usm-alger/12399692",
+      "statusBasis": "SNA classe Ben Aknoun 0-1 USM Alger parmi les résultats du 23/11/2026; fiche précise confirme le score (ancien direct 58' non bloquant).",
+      "score": "0-1"
     },
     "recCal20261123L91466": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T17:37:59.039Z",
+      "status": "Terminé",
+      "provider": "FC Bayern officiel — fiche de match Bundesliga féminine 23/11/2026",
+      "checkedAt": "2026-11-23T19:39:30.835Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T17:00:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+      "sourceUrl": "https://fcbayern.com/frauen/en/matches/frauen/bundesliga/2026-2027/fc-bayern-frauen-tsg-hoffenheim-21-11-2026/lineup",
+      "statusBasis": "Fiche officielle Bayern–Hoffenheim datée 23/11/2026, résultat affiché 1-0, but Imade 8'.",
+      "score": "1-0"
     },
     "recCal20261123L89463": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T17:37:59.039Z",
+      "status": "Terminé",
+      "provider": "Haberler.com — compte rendu du résultat final Basaksehir–Corum 23/11/2026",
+      "checkedAt": "2026-11-23T19:39:30.835Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T17:00:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+      "sourceUrl": "https://www.haberler.com/spor/kapanis-macinda-neler-oldu-neler-rams-basaksehir-20455274-haberi/",
+      "statusBasis": "Compte rendu daté 23/11/2026 21:57 heure turque : Basaksehir bat Corum 4-2, dernier but 90+1 ; ancien score live 3-2 écarté.",
+      "score": "4-2"
     },
     "recCal20261123L89924": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T17:37:59.039Z",
+      "status": "Terminé",
+      "provider": "ScoreMondo — fiche détaillée avec résultat final et chronologie 23/11/2026",
+      "checkedAt": "2026-11-23T19:39:30.835Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T17:00:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+      "sourceUrl": "https://scoremondo.com/it/partita/nk-slaven-belupo-nk-osijek-31486199",
+      "statusBasis": "Fiche précise indique Fine, 1-0, Alen Grgic 44', but annulé à 82'.",
+      "score": "1-0"
     },
     "recCal20261123P77062116": {
       "status": "Terminé",
@@ -5949,6 +5953,70 @@
       "score": "2-0",
       "sets": "6-1, 6-2",
       "sourceUrl": "https://www.tennismajors.com/matches/wta/argentina-open/nuria-brancaccio-vs-anastasia-zolotareva"
+    },
+    "recCal20261123L89620": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-23T19:39:30.835Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Kickoff 2026-11-23T19:00:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+    },
+    "recCal20261123L92347": {
+      "status": "En cours",
+      "provider": "Tennis Majors — jeux du 1er set visibles ; SofaScorem — point 0-15 en direct",
+      "sourceUrl": "https://www.tennismajors.com/matches/wta/argentina-open/despina-papamichail-vs-julia-riera",
+      "statusBasis": "Début réel observé sur la fiche du match le 23/11/2026, 1er set 2-3 sur Tennis Majors ; SofaScorem affiche le point 0-15 (provisoire). Aucun score final.",
+      "checkedAt": "2026-11-23T19:39:30.835Z",
+      "observedLive": true
+    },
+    "recCal20261123L90984": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-23T19:39:30.835Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Kickoff 2026-11-23T19:00:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+    },
+    "recCal20261123P72044826": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-23T19:39:30.835Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Kickoff 2026-11-23T19:00:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+    },
+    "recCal20261123P72044828": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-23T19:39:30.835Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Kickoff 2026-11-23T19:00:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+    },
+    "recCal20261123P76708934": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-23T19:39:30.835Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Kickoff 2026-11-23T19:00:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+    },
+    "recCal20261123P72477612": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-23T19:39:30.835Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Kickoff 2026-11-23T19:30:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+    },
+    "recCal20261123L91243": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-23T19:39:30.835Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Kickoff 2026-11-23T19:30:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
     }
   }
 }
