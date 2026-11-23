@@ -5792,41 +5792,41 @@
       "sets": "2-6, 2-6"
     },
     "recCal20261123L88368": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T16:43:26.136Z",
+      "checkedAt": "2026-11-23T18:36:31.279Z",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "statusBasis": "Kickoff 2026-11-23T16:00:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final."
     },
     "recCal20261123L88343": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T16:43:26.136Z",
+      "checkedAt": "2026-11-23T18:36:31.279Z",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "statusBasis": "Kickoff 2026-11-23T16:00:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final."
     },
     "recCal20261123L89510": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T16:43:26.136Z",
+      "checkedAt": "2026-11-23T18:36:31.279Z",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "statusBasis": "Kickoff 2026-11-23T16:00:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final."
     },
     "recCal20261123L88154": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T16:43:26.136Z",
+      "checkedAt": "2026-11-23T18:36:31.279Z",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "statusBasis": "Kickoff 2026-11-23T16:00:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final."
     },
     "recCal20261123L89820": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T16:43:26.136Z",
+      "checkedAt": "2026-11-23T18:36:31.279Z",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "statusBasis": "Kickoff 2026-11-23T16:30:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final."
@@ -5870,6 +5870,78 @@
       "observedLive": true,
       "sourceUrl": "https://en.tennistemple.com/match/lepchenko-rencheli-buenos-aires-2026/9571417/",
       "statusBasis": "Début réellement observé sur fiche TennisTemple : 4 jeux à 3 pour Lepchenko, match en cours ; score non définitif."
+    },
+    "recCal20261123L91155": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261123L89514": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261123P67126888": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261123L91769": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261123P67126892": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261123L87737": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261123L89556": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261123L88153": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261123L88155": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261123L92351": {
+      "status": "Terminé",
+      "provider": "Tennis Majors — score final et sets vérifiés sur fiche précise (23.11.2026)",
+      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "observedLive": true,
+      "score": "2-0",
+      "sets": "6-1, 6-2",
+      "sourceUrl": "https://www.tennismajors.com/matches/wta/argentina-open/nuria-brancaccio-vs-anastasia-zolotareva"
     }
   }
 }
