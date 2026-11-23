@@ -5911,11 +5911,12 @@
     },
     "recCal20261123L91769": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Lequipe.ma — fiche actualisée, statut terminé",
       "checkedAt": "2026-11-23T20:35:09.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T18:00:00.000Z ; fin présumée après 120 minutes ; aucun score final vérifié."
+      "sourceUrl": "https://www.lequipe.ma/sports-center/match/10035606/match-10035606",
+      "statusBasis": "Résultat final confirmé sur fiche actualisée du match du 23.11.2026.",
+      "score": "1-1"
     },
     "recCal20261123P67126892": {
       "status": "Terminé",
@@ -5928,11 +5929,12 @@
     },
     "recCal20261123L87737": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "SuperLiga Roumanie — fiche officielle, FINAL",
       "checkedAt": "2026-11-23T20:35:09.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T18:00:00.000Z ; fin présumée après 120 minutes ; aucun score final vérifié."
+      "sourceUrl": "https://www.superliga.ro/meci/superliga-26-27-regular-osk-rap",
+      "statusBasis": "Résultat final confirmé sur fiche actualisée du match du 23.11.2026.",
+      "score": "1-3"
     },
     "recCal20261123L89556": {
       "status": "Terminé",
@@ -5945,11 +5947,12 @@
     },
     "recCal20261123L88153": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Golmetra — Terminata, actualisé à 20:32 UTC ; confirmé YS Scores",
       "checkedAt": "2026-11-23T20:35:09.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T18:15:00.000Z ; fin présumée après 120 minutes ; aucun score final vérifié."
+      "sourceUrl": "https://golmetra.com/it/partite/348564",
+      "statusBasis": "Résultat final confirmé sur fiche actualisée du match du 23.11.2026.",
+      "score": "2-1"
     },
     "recCal20261123L88155": {
       "status": "Terminé",
@@ -5981,7 +5984,7 @@
       "status": "En cours",
       "provider": "Tennis Majors — deuxième set en cours, jeux affichés",
       "sourceUrl": "https://www.tennismajors.com/matches/wta/argentina-open/despina-papamichail-vs-julia-riera",
-      "statusBasis": "Progression observée depuis le contrôle précédent : premier set 2-6, deuxième set 1-2 ; score provisoire non enregistré comme résultat final.",
+      "statusBasis": "Progression observée sur fiche actualisée : premier set 2-6, deuxième set 3-4 ; aucun score final.",
       "checkedAt": "2026-11-23T20:35:09.000Z",
       "observedLive": true
     },
