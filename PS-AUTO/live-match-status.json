@@ -5793,12 +5793,14 @@
     },
     "recCal20261123L88368": {
       "status": "Terminé",
-      "provider": "Bao Ha Tinh — résultat final match terminé (Kết thúc), 23.11.2026",
-      "checkedAt": "2026-11-23T18:39:41.609Z",
+      "provider": "AFC – compte rendu officiel",
+      "checkedAt": "2026-11-23T23:24:34.668Z",
       "observedLive": true,
-      "sourceUrl": "https://baohatinh.vn/tv/al-ain-1-1-esteghlal-fc-hai-doi-chia-diem-57589.html",
-      "statusBasis": "Kickoff 2026-11-23T16:00:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final.",
-      "score": "1-1"
+      "sourceUrl": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/md5-al-ain-fc-uae-1-1-esteghlal-fc-irn",
+      "statusBasis": "Score final en temps réglementaire confirmé par le compte rendu officiel de la cinquième journée de la phase de ligue de l’AFC Champions League Elite du 23.11.2026.",
+      "score": "1-1",
+      "statusCode": "FT",
+      "regulationScore": "1-1"
     },
     "recCal20261123L88343": {
       "status": "Terminé",
@@ -5811,12 +5813,14 @@
     },
     "recCal20261123L89510": {
       "status": "Terminé",
-      "provider": "FootballData — compte rendu match terminé, 23.11.2026",
-      "checkedAt": "2026-11-23T18:39:41.609Z",
+      "provider": "PFC Ludogorets – compte rendu officiel",
+      "checkedAt": "2026-11-23T23:24:34.668Z",
       "observedLive": true,
-      "sourceUrl": "https://footballdata.cn/news/20647-ludogorets-edge-dunav-ruse-1-0-through-hadziahmetovic-s-stoppage-time-header",
-      "statusBasis": "Kickoff 2026-11-23T16:00:00.000Z atteint ; En cours présumé par l'horaire, sans preuve directe ni score final.",
-      "score": "1-0"
+      "sourceUrl": "https://ludogorets.com/news/posts/ludogorec-udari-dunav-s-debyuten-gol-na-hadzhiahmetovich",
+      "statusBasis": "Score final en temps réglementaire confirmé par le compte rendu officiel de la 15e journée du championnat bulgare du 23.11.2026.",
+      "score": "1-0",
+      "statusCode": "FT",
+      "regulationScore": "1-0"
     },
     "recCal20261123L88154": {
       "status": "Terminé",
@@ -6029,12 +6033,14 @@
     },
     "recCal20261123P72477612": {
       "status": "Terminé",
-      "provider": "Scores24 — résultat final confirmé sur fiche du 23.11.2026",
-      "checkedAt": "2026-11-23T21:31:48.000Z",
+      "provider": "UD Almería – compte rendu officiel",
+      "checkedAt": "2026-11-23T23:24:34.668Z",
       "observedLive": false,
-      "sourceUrl": "https://scores24.live/fr/soccer/m-22-11-2026-ceuta-almeria",
-      "statusBasis": "Fin et résultat confirmés : 2-3",
-      "score": "2-3"
+      "sourceUrl": "https://www.udalmeriasad.com/noticias/2-3-una-locura-total",
+      "statusBasis": "Score final en temps réglementaire confirmé par le compte rendu officiel de la 15e journée de LALIGA HYPERMOTION du 23.11.2026.",
+      "score": "2-3",
+      "statusCode": "FT",
+      "regulationScore": "2-3"
     },
     "recCal20261123L91243": {
       "status": "Terminé",
