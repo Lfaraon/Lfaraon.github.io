@@ -5691,27 +5691,27 @@
     },
     "recCal20261123L89714": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-23T01:39:20.000Z",
-      "statusBasis": "Règle horaire PS-AUTO (début présumé, non observé)"
+      "provider": "FotMob — direct réel confirmé à 74', Instituto 2-1 Huracán provisoire",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/es/matches/huracan-vs-instituto/3d4qq4",
+      "checkedAt": "2026-11-23T02:33:34.000Z",
+      "statusBasis": "Actions et buts visibles sur fiche FotMob actualisée; pas de score final"
     },
     "recCal20261123L89598": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-23T01:39:20.000Z",
-      "statusBasis": "Règle horaire PS-AUTO (début présumé, non observé)"
+      "provider": "FotMob — direct confirmé à 46', Querétaro 1-1 Necaxa provisoire",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/matches/necaxa-vs-queretaro-fc/49m1w",
+      "checkedAt": "2026-11-23T02:33:34.000Z",
+      "statusBasis": "Direct vérifié sur fiche FotMob : 1-1, but de la 33e annulé ; score final absent"
     },
     "recCal20261123P76907552": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-23T01:39:20.000Z",
-      "statusBasis": "Règle horaire PS-AUTO (début présumé, non observé)"
+      "provider": "FotMob — direct réel confirmé Vancouver–Salt Lake",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/matches/vancouver-whitecaps-vs-seattle-sounders-fcreal-salt-lake/1cvzigmow",
+      "checkedAt": "2026-11-23T02:33:34.000Z",
+      "statusBasis": "Fiche FotMob montrant chronologie de jeu à 32', fil de match à la mi-temps; score non final"
     }
   }
 }
