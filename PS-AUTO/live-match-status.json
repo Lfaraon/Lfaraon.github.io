@@ -6071,11 +6071,12 @@
     },
     "recCal20261123P75009686": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-23T22:33:31.000Z",
+      "provider": "Le Trois — compte rendu final",
+      "sourceUrl": "https://letrois.info/dossiers/fc-sochaux-montbeliard/fc-sochaux-en-zone-rouge-un-reveil-trop-tardif-face-a-dunkerque/",
+      "checkedAt": "2026-11-23T23:35:04.000Z",
       "observedLive": false,
-      "statusBasis": "Dernier score provisoire 2-3 à 90+ sur Live-Result ; fin et score non vérifiés."
+      "statusBasis": "Défaite 2-3 confirmée par le compte rendu du 23 novembre.",
+      "score": "2-3"
     },
     "recCal20261123P72221396": {
       "status": "Terminé",
@@ -6088,11 +6089,14 @@
     },
     "recCal20261123L89715": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-23T22:33:31.000Z",
+      "provider": "DSports — compte rendu final",
+      "sourceUrl": "https://www.directvsports.com/futbol/gimnasia-gano-ante-newells-y-clasifica-a-cuartos-de-final-20261120-0013.html",
+      "checkedAt": "2026-11-23T23:35:04.000Z",
       "observedLive": false,
-      "statusBasis": "Flux arrêtés à la mi-temps ou en début de seconde période ; score final non vérifié."
+      "statusBasis": "4-2 après prolongation ; 2-2 à 90 minutes (à utiliser pour les marchés temps réglementaire).",
+      "score": "4-2",
+      "score90": "2-2",
+      "scoreAfterExtraTime": "4-2"
     },
     "recCal20261123P72478714": {
       "status": "Terminé",
@@ -6104,22 +6108,22 @@
       "score": "1-1"
     },
     "recCal20261123L90024": {
-      "status": "En cours",
-      "checkedAt": "2026-11-23T22:33:31.000Z",
-      "provider": "ScoreMondo — jeu observé",
-      "observedLive": true,
-      "sourceUrl": "https://scoremondo.com/it/partita/fc-universitario-de-vinto-cd-gualberto-villarroel-san-jose-31581589",
-      "statusBasis": "Dernière observation à 22h36 suisse : 1-0 à la 24e minute ; score provisoire."
+      "status": "Terminé",
+      "checkedAt": "2026-11-23T23:35:04.000Z",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "140 minutes après kickoff ; ScoreMondo figé à 24e, The Fishy à 52e ; score final non vérifié."
     },
     "recCal20261123L91248": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Live-Result — jeu observé",
       "providerId": "1650507",
-      "checkedAt": "2026-11-23T22:33:31.000Z",
-      "observedLive": false,
+      "checkedAt": "2026-11-23T23:35:04.000Z",
+      "observedLive": true,
       "reversed": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff atteint, début présumé ; aucun direct vérifié."
+      "sourceUrl": "https://www.live-result.com/football/matches/match1822153_El_Albion-Danubio-live-online/video",
+      "statusBasis": "Dernier état disponible 0-0 à 23e, carton à 16e ; score provisoire."
     },
     "recCal20261124L91163": {
       "status": "À venir",
@@ -6159,11 +6163,19 @@
     },
     "recCal20261123P66887190": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-23T22:33:31.000Z",
-      "observedLive": false,
-      "statusBasis": "Kickoff atteint, début présumé ; aucun direct vérifié."
+      "provider": "Placar — jeu observé",
+      "sourceUrl": "https://placar.com.br/porto-alegre-rio-grande-do-sul/futebol/brasileiro-serie-a-2026/jogo/11-2026/147507/internacional-vitoria/",
+      "checkedAt": "2026-11-23T23:35:04.000Z",
+      "observedLive": true,
+      "statusBasis": "0-2 provisoire ; événements jusqu'à 31e minute."
+    },
+    "recCal20261124P66887180": {
+      "status": "En cours",
+      "provider": "Placar — jeu observé",
+      "sourceUrl": "https://placar.com.br/rio-de-janeiro-rio-de-janeiro/futebol/brasileiro-serie-a-2026/jogo/11-2026/147502/botafogo-sao-paulo/",
+      "checkedAt": "2026-11-23T23:35:04.000Z",
+      "observedLive": true,
+      "statusBasis": "0-1 provisoire, but à 28e minute."
     }
   }
 }
