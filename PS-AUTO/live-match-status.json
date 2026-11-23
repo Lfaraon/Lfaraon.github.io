@@ -5654,36 +5654,58 @@
       "statusBasis": "Lance! : 2T 53', ACABAAAA O JOGO, Bragantino 1-0 Vasco ; score final confirmé"
     },
     "recCal20261123L89600": {
-      "status": "En cours",
-      "provider": "r/LigaMX — 27e minute, Guadalajara 1-0 Cruz Azul, match thread actuel (score provisoire)",
-      "checkedAt": "2026-11-22T23:41:00.533Z",
+      "status": "Terminé",
+      "provider": "r/FutMexico — match thread du 22.11.2026, FT 1-0 (score final)",
+      "checkedAt": "2026-11-23T01:39:20.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.reddit.com/r/LigaMX/comments/1y31ezr/match_thread_guadalajara_vs_cruz_azul_liga_mx_nov/",
-      "statusBasis": "suivi vivant 27e minute (score provisoire)"
+      "sourceUrl": "https://www.reddit.com/r/FutMexico/comments/1y32iim/match_thread_guadalajara_vs_cruz_azul_liga_mx_nov/",
+      "statusBasis": "suivi vivant 27e minute (score provisoire)",
+      "score": "1-0"
     },
     "recCal20261123P76609138": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T23:41:00.533Z",
+      "checkedAt": "2026-11-23T01:39:20.000Z",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "statusBasis": "Règle horaire PS-AUTO (statut présumé)"
     },
     "recCal20261123P71577574": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T23:41:00.533Z",
+      "checkedAt": "2026-11-23T01:39:20.000Z",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "statusBasis": "Règle horaire PS-AUTO (statut présumé)"
     },
     "recCal20261123L89619": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-22T23:41:00.533Z",
+      "checkedAt": "2026-11-23T01:39:20.000Z",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "statusBasis": "Règle horaire PS-AUTO (statut présumé)"
+    },
+    "recCal20261123L89714": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-23T01:39:20.000Z"
+    },
+    "recCal20261123L89598": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-23T01:39:20.000Z"
+    },
+    "recCal20261123P76907552": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-23T01:39:20.000Z"
     }
   }
 }
