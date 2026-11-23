@@ -2454,12 +2454,13 @@
     },
     "recCal20261121L91738": {
       "status": "Terminé",
-      "provider": "Flashscore — résultat final en manches confirmé (2-0) ; sets détaillés non publiés",
+      "provider": "Sofascore — score final et sets confirmés (tie-break détaillé par TennisLive)",
       "observedLive": true,
-      "checkedAt": "2026-11-21T05:38:47.884Z",
-      "sourceUrl": "https://www.flashscore.com/match/tennis/gonzalez-daniele-justina-maria-4hs3jvgb/hontama-mai-S0E8uMT2/",
-      "statusBasis": "Flashscore en direct : 1er set à 6-6, jeu décisif 5-2 pour Hontama (score provisoire) ; points et service affichés, observedLive=true. Aucun set final vérifié.",
-      "score": "2-0"
+      "checkedAt": "2026-11-23T09:37:02.647Z",
+      "sourceUrl": "https://www.sofascore.com/fr/tennis/match/justina-maria-gonzalez-daniele-mai-hontama/KaEbsLqFd",
+      "statusBasis": "Résultat final du 21.11.2026 confirmé par fiche Sofascore : Hontama bat Gonzalez Daniele 2-0 (7-6, 6-3) ; tie-break 7-4 confirmé par TennisLive. Ancien suivi Flashscore avec points en direct observés conservé en historique, mais le score de ce suivi était provisoire.",
+      "score": "2-0",
+      "sets": "7-6 (7-4), 6-3"
     },
     "recCal20261121L87836": {
       "status": "Terminé",
