@@ -5993,11 +5993,12 @@
     },
     "recCal20261123L90984": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T21:31:48.000Z",
+      "provider": "Valencia CF — compte rendu officiel",
+      "checkedAt": "2026-11-23T22:33:31.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T19:00:00.000Z dépassé de 120 minutes ; score final non vérifié (Sofascore et autres fiches non actualisées)."
+      "sourceUrl": "https://www.valenciacf.com/cronica-dolorosa-derrota-del-valencia-cf-femenino-contra-el-rcd-espanyol-2-0",
+      "statusBasis": "Résultat final confirmé par la source.",
+      "score": "2-0"
     },
     "recCal20261123P72044826": {
       "status": "Terminé",
@@ -6045,69 +6046,74 @@
       "score": "0-1"
     },
     "recCal20261123P71945418": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-23T20:35:09.000Z",
+      "status": "Terminé",
+      "provider": "La Repubblica — compte rendu final",
+      "sourceUrl": "https://www.repubblica.it/en/sport/football/serie-a/2026/11/23/news/varela_scores_from_the_spot_and_with_a_magical_backheel_as_monza_return_to_winning_ways_with_a_30_victory_over_fiorentina-425745284/",
+      "checkedAt": "2026-11-23T22:33:31.000Z",
       "observedLive": false,
-      "statusBasis": "Kickoff 2026-11-23T19:45:00.000Z ; début présumé ; aucun score final vérifié."
+      "statusBasis": "Résultat final confirmé par la source.",
+      "score": "3-0"
     },
     "recCal20261123P76878922": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-23T20:35:09.000Z",
+      "status": "Terminé",
+      "provider": "Live-Result — Full Time",
+      "sourceUrl": "https://www.live-result.com/football/matches/match1821996_Nantes-Grenoble-online",
+      "checkedAt": "2026-11-23T22:33:31.000Z",
       "observedLive": false,
-      "statusBasis": "Kickoff 2026-11-23T19:45:00.000Z ; début présumé ; aucun score final vérifié."
+      "statusBasis": "Résultat final confirmé par la source.",
+      "score": "1-0"
     },
     "recCal20261123P75009686": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-23T20:35:09.000Z",
+      "checkedAt": "2026-11-23T22:33:31.000Z",
       "observedLive": false,
-      "statusBasis": "Kickoff 2026-11-23T19:45:00.000Z ; début présumé ; aucun score final vérifié."
+      "statusBasis": "Dernier score provisoire 2-3 à 90+ sur Live-Result ; fin et score non vérifiés."
     },
     "recCal20261123P72221396": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-23T20:35:09.000Z",
+      "status": "Terminé",
+      "provider": "The Guardian — Full Time",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/23/brentford-v-everton-premier-league-live",
+      "checkedAt": "2026-11-23T22:33:31.000Z",
       "observedLive": false,
-      "statusBasis": "Kickoff 2026-11-23T20:00:00.000Z ; début présumé ; aucun score final vérifié."
+      "statusBasis": "Résultat final confirmé par la source.",
+      "score": "4-0"
     },
     "recCal20261123L89715": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-23T20:35:09.000Z",
+      "checkedAt": "2026-11-23T22:33:31.000Z",
       "observedLive": false,
-      "statusBasis": "Kickoff 2026-11-23T20:00:00.000Z ; début présumé ; aucun score final vérifié."
+      "statusBasis": "Flux arrêtés à la mi-temps ou en début de seconde période ; score final non vérifié."
     },
     "recCal20261123P72478714": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-23T20:35:09.000Z",
+      "status": "Terminé",
+      "provider": "Europa Press — résultat final",
+      "sourceUrl": "https://www.europapress.es/deportes/estadisticas-deportivas/noticia-levante-elche-resumen-goles-resultado-partido-hoy-20261123225729.html",
+      "checkedAt": "2026-11-23T22:33:31.000Z",
       "observedLive": false,
-      "statusBasis": "Kickoff 2026-11-23T20:00:00.000Z ; début présumé ; aucun score final vérifié."
+      "statusBasis": "Résultat final confirmé par la source.",
+      "score": "1-1"
     },
     "recCal20261123L90024": {
       "status": "En cours",
-      "checkedAt": "2026-11-23T21:31:48.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T21:15:00.000Z atteint ; début présumé, aucun direct vérifié."
+      "checkedAt": "2026-11-23T22:33:31.000Z",
+      "provider": "ScoreMondo — jeu observé",
+      "observedLive": true,
+      "sourceUrl": "https://scoremondo.com/it/partita/fc-universitario-de-vinto-cd-gualberto-villarroel-san-jose-31581589",
+      "statusBasis": "Dernière observation à 22h36 suisse : 1-0 à la 24e minute ; score provisoire."
     },
     "recCal20261123L91248": {
-      "status": "À venir",
-      "provider": "API-Football",
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
       "providerId": "1650507",
-      "checkedAt": "2026-11-23T21:35:06.075Z",
+      "checkedAt": "2026-11-23T22:33:31.000Z",
       "observedLive": false,
       "reversed": false,
-      "statusCode": "NS"
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Kickoff atteint, début présumé ; aucun direct vérifié."
     },
     "recCal20261124L91163": {
       "status": "À venir",
@@ -6144,6 +6150,14 @@
       "observedLive": false,
       "reversed": false,
       "statusCode": "NS"
+    },
+    "recCal20261123P66887190": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-23T22:33:31.000Z",
+      "observedLive": false,
+      "statusBasis": "Kickoff atteint, début présumé ; aucun direct vérifié."
     }
   }
 }
