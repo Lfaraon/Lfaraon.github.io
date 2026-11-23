@@ -5973,68 +5973,76 @@
       "sourceUrl": "https://www.tennismajors.com/matches/wta/argentina-open/nuria-brancaccio-vs-anastasia-zolotareva"
     },
     "recCal20261123L89620": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T19:39:30.835Z",
+      "status": "Terminé",
+      "provider": "Scores24 — résultat final confirmé sur fiche du 23.11.2026",
+      "checkedAt": "2026-11-23T21:31:48.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T19:00:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+      "sourceUrl": "https://scores24.live/en/soccer/m-23-11-2026-cdt-real-oruro-guabira-montero",
+      "statusBasis": "Fin et résultat confirmés : 0-3",
+      "score": "0-3"
     },
     "recCal20261123L92347": {
-      "status": "En cours",
-      "provider": "Tennis Majors — deuxième set en cours, jeux affichés",
+      "status": "Terminé",
+      "provider": "Tennis Majors — résultat final confirmé sur fiche du 23.11.2026",
       "sourceUrl": "https://www.tennismajors.com/matches/wta/argentina-open/despina-papamichail-vs-julia-riera",
-      "statusBasis": "Progression observée sur fiche actualisée : premier set 2-6, deuxième set 3-4 ; aucun score final.",
-      "checkedAt": "2026-11-23T20:35:09.000Z",
-      "observedLive": true
+      "statusBasis": "Fin et résultat confirmés : 0-2 (2-6, 5-7)",
+      "checkedAt": "2026-11-23T21:31:48.000Z",
+      "observedLive": true,
+      "score": "0-2",
+      "sets": "2-6, 5-7"
     },
     "recCal20261123L90984": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T19:39:30.835Z",
+      "checkedAt": "2026-11-23T21:31:48.000Z",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T19:00:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+      "statusBasis": "Kickoff 2026-11-23T19:00:00.000Z dépassé de 120 minutes ; score final non vérifié (Sofascore et autres fiches non actualisées)."
     },
     "recCal20261123P72044826": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T19:39:30.835Z",
+      "status": "Terminé",
+      "provider": "Sofascore — résultat final confirmé sur fiche du 23.11.2026",
+      "checkedAt": "2026-11-23T21:31:48.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T19:00:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+      "sourceUrl": "https://www.sofascore.com/football/match/jong-az-alkmaar-jong-ajax/kytslyt",
+      "statusBasis": "Fin et résultat confirmés : 3-0",
+      "score": "3-0"
     },
     "recCal20261123P72044828": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T19:39:30.835Z",
+      "status": "Terminé",
+      "provider": "Scores24 — résultat final confirmé sur fiche du 23.11.2026",
+      "checkedAt": "2026-11-23T21:31:48.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T19:00:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+      "sourceUrl": "https://scores24.live/es/soccer/m-23-11-2026-jong-psv-jong-utrecht",
+      "statusBasis": "Fin et résultat confirmés : 3-2",
+      "score": "3-2"
     },
     "recCal20261123P76708934": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T19:39:30.835Z",
+      "status": "Terminé",
+      "provider": "Scores24 — résultat final confirmé sur fiche du 23.11.2026",
+      "checkedAt": "2026-11-23T21:31:48.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T19:00:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+      "sourceUrl": "https://scores24.live/en/soccer/m-08-11-2026-vitesse-arnhem-de-graafschap",
+      "statusBasis": "Fin et résultat confirmés : 0-1",
+      "score": "0-1"
     },
     "recCal20261123P72477612": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T19:39:30.835Z",
+      "status": "Terminé",
+      "provider": "Scores24 — résultat final confirmé sur fiche du 23.11.2026",
+      "checkedAt": "2026-11-23T21:31:48.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T19:30:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+      "sourceUrl": "https://scores24.live/fr/soccer/m-22-11-2026-ceuta-almeria",
+      "statusBasis": "Fin et résultat confirmés : 2-3",
+      "score": "2-3"
     },
     "recCal20261123L91243": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T19:39:30.835Z",
+      "status": "Terminé",
+      "provider": "Scores24 — résultat final confirmé sur fiche du 23.11.2026",
+      "checkedAt": "2026-11-23T21:31:48.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T19:30:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+      "sourceUrl": "https://scores24.live/en/soccer/m-23-11-2026-juventud-de-las-piedras-defensor-sporting",
+      "statusBasis": "Fin et résultat confirmés : 0-1",
+      "score": "0-1"
     },
     "recCal20261123P71945418": {
       "status": "En cours",
@@ -6083,6 +6091,14 @@
       "checkedAt": "2026-11-23T20:35:09.000Z",
       "observedLive": false,
       "statusBasis": "Kickoff 2026-11-23T20:00:00.000Z ; début présumé ; aucun score final vérifié."
+    },
+    "recCal20261123L90024": {
+      "status": "En cours",
+      "checkedAt": "2026-11-23T21:31:48.000Z",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Kickoff 2026-11-23T21:15:00.000Z atteint ; début présumé, aucun direct vérifié."
     }
   }
 }
