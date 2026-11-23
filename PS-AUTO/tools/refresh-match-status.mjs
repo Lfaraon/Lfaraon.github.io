@@ -6,7 +6,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import {
-  applyEvidence, footballCandidate, identifyMatch, missingAfterLive, tennisCandidate,
+  applyEvidence, footballCandidate, identifyMatch, isVerifiedFinal, missingAfterLive, orientObservation, tennisCandidate,
 } from './status-core.mjs';
 
 const ROOT = process.env.PS_AUTO_DATA_DIR || join(process.cwd(), 'PS-AUTO');
@@ -30,29 +30,32 @@ async function getJson(url, key, header) {
   return body;
 }
 
-function activeMatches(manifest, state) {
-  const now = Date.parse(checkedAt);
+export function activeMatches(manifest, state, now = Date.parse(checkedAt)) {
   return manifest.matches.filter((m) => {
-    const status = state.matches[m.id]?.status || m.snapshotStatus;
     const t = Date.parse(m.kickoff);
-    return status !== 'Terminé' && Number.isFinite(t) && t >= now - 4 * DAY && t <= now + 3 * DAY;
+    return Number.isFinite(t) && t >= now - 4 * DAY && t <= now + 3 * DAY
+      && !isVerifiedFinal(state.matches[m.id], m.kickoff, now);
   });
 }
 
 function observe(state, match, candidate) {
   const old = state.matches[match.id] || { status: match.snapshotStatus };
-  if (match.snapshotStatus === 'Terminé') return;
   const reversed = candidate.reversed ?? old.reversed ?? false;
-  const score = reversed && candidate.score
-    ? candidate.score.split('-').reverse().join('-') : candidate.score;
-  state.matches[match.id] = applyEvidence(old, { ...candidate, reversed, score }, checkedAt);
+  state.matches[match.id] = applyEvidence(old, orientObservation(candidate, reversed), checkedAt, match.kickoff);
+}
+
+export function footballDates(matches, now = Date.parse(checkedAt)) {
+  const today = Math.floor(now / DAY) * DAY;
+  const dates = [...new Set(matches.map(({ kickoff }) => new Date(kickoff).toISOString().slice(0, 10)))];
+  return dates.sort((a, b) => Math.abs(Date.parse(a) - today) - Math.abs(Date.parse(b) - today)
+    || a.localeCompare(b)).slice(0, 3);
 }
 
 async function football(active, state, key) {
   if (!key) return 'clé manquante';
   const items = active.filter((m) => m.sport === 'Football');
   if (!items.length) return 'aucun match à suivre';
-  const days = [...new Set(items.map((m) => m.kickoff.slice(0, 10)))].slice(0, 3);
+  const days = footballDates(items);
   const results = await Promise.all(days.map((date) => getJson(
     `https://v3.football.api-sports.io/fixtures?date=${date}`, key, 'x-apisports-key',
   )));
@@ -96,7 +99,7 @@ async function tennis(active, state, key) {
   const missing = items.filter((match) => {
     const previous = state.matches[match.id];
     return previous?.provider === 'Live Tennis API' && previous.observedLive &&
-      previous.status !== 'Terminé' && !seenIds.has(previous.providerId);
+      !seenIds.has(previous.providerId);
   });
   for (const match of missing) {
     const old = state.matches[match.id];
@@ -109,7 +112,7 @@ async function tennis(active, state, key) {
   const toCheck = items.filter((match) => {
     const previous = state.matches[match.id];
     return previous?.provider === 'Live Tennis API' && previous.providerId &&
-      previous.status !== 'Terminé' && Date.parse(match.kickoff) <= Date.parse(checkedAt) &&
+      Date.parse(match.kickoff) <= Date.parse(checkedAt) &&
       !seenIds.has(previous.providerId);
   }).sort((a, b) =>
     Number(Boolean(state.matches[b.id].observedLive)) - Number(Boolean(state.matches[a.id].observedLive)) ||

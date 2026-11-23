@@ -1,6 +1,8 @@
 name: PS-AUTO — Statuts des matchs (horaire)
 
 on:
+  schedule:
+    - cron: '17 * * * *'
   workflow_dispatch:
     inputs:
       force:
@@ -25,8 +27,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Vérifier les règles de fraîcheur
-        run: node --test PS-AUTO/tools/freshness-core.test.mjs
+      - name: Vérifier les règles de fraîcheur et de confirmation
+        run: node --test PS-AUTO/tools/freshness-core.test.mjs PS-AUTO/tools/status-core.test.mjs
       - name: Éviter les requêtes redondantes
         id: freshness
         env:
