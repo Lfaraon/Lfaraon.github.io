@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-17T22:15:39.837Z",
+  "checkedAt": "2026-11-23T21:35:06.075Z",
   "providers": {
     "football": {
       "state": "ok",
-      "detail": "1 jour(s) vérifié(s)",
-      "checkedAt": "2026-11-16T17:12:33.096Z"
+      "detail": "3 jour(s) vérifié(s)",
+      "checkedAt": "2026-11-23T21:35:06.075Z"
     },
     "tennis": {
       "state": "ok",
-      "detail": "45 directs, 129 à venir ; 2 fiche(s) revérifiée(s)",
-      "checkedAt": "2026-11-16T17:12:33.096Z"
+      "detail": "8 directs, 200 à venir ; 0 fiche(s) revérifiée(s)",
+      "checkedAt": "2026-11-23T21:35:06.075Z"
     }
   },
   "matches": {
@@ -6099,6 +6099,51 @@
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "statusBasis": "Kickoff 2026-11-23T21:15:00.000Z atteint ; début présumé, aucun direct vérifié."
+    },
+    "recCal20261123L91248": {
+      "status": "À venir",
+      "provider": "API-Football",
+      "providerId": "1650507",
+      "checkedAt": "2026-11-23T21:35:06.075Z",
+      "observedLive": false,
+      "reversed": false,
+      "statusCode": "NS"
+    },
+    "recCal20261124L91163": {
+      "status": "À venir",
+      "provider": "API-Football",
+      "providerId": "1629984",
+      "checkedAt": "2026-11-23T21:35:06.075Z",
+      "observedLive": false,
+      "reversed": false,
+      "statusCode": "NS"
+    },
+    "recCal20261124P73093158": {
+      "status": "À venir",
+      "provider": "API-Football",
+      "providerId": "1601616",
+      "checkedAt": "2026-11-23T21:35:06.075Z",
+      "observedLive": false,
+      "reversed": false,
+      "statusCode": "NS"
+    },
+    "recCal20261124P72740838": {
+      "status": "À venir",
+      "provider": "API-Football",
+      "providerId": "1585353",
+      "checkedAt": "2026-11-23T21:35:06.075Z",
+      "observedLive": false,
+      "reversed": false,
+      "statusCode": "NS"
+    },
+    "recCal20261124P74166028": {
+      "status": "À venir",
+      "provider": "API-Football",
+      "providerId": "1635715",
+      "checkedAt": "2026-11-23T21:35:06.075Z",
+      "observedLive": false,
+      "reversed": false,
+      "statusCode": "NS"
     }
   }
 }
