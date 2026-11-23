@@ -5690,20 +5690,22 @@
       "score": "0-3"
     },
     "recCal20261123L89714": {
-      "status": "En cours",
-      "provider": "FotMob — direct réel confirmé à 74', Instituto 2-1 Huracán provisoire",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé, Instituto 2-1 Huracán (23.11.2026)",
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/es/matches/huracan-vs-instituto/3d4qq4",
-      "checkedAt": "2026-11-23T02:33:34.000Z",
-      "statusBasis": "Actions et buts visibles sur fiche FotMob actualisée; pas de score final"
+      "checkedAt": "2026-11-23T03:33:40.924Z",
+      "statusBasis": "Actions et buts visibles sur fiche FotMob actualisée; pas de score final",
+      "score": "2-1"
     },
     "recCal20261123L89598": {
-      "status": "En cours",
-      "provider": "FotMob — direct confirmé à 46', Querétaro 1-1 Necaxa provisoire",
+      "status": "Terminé",
+      "provider": "FotMob — Full time confirmé, Querétaro 2-2 Necaxa (23.11.2026)",
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/matches/necaxa-vs-queretaro-fc/49m1w",
-      "checkedAt": "2026-11-23T02:33:34.000Z",
-      "statusBasis": "Direct vérifié sur fiche FotMob : 1-1, but de la 33e annulé ; score final absent"
+      "checkedAt": "2026-11-23T03:33:40.924Z",
+      "statusBasis": "Direct vérifié sur fiche FotMob : 1-1, but de la 33e annulé ; score final absent",
+      "score": "2-2"
     },
     "recCal20261123P76907552": {
       "status": "En cours",
