@@ -5708,12 +5708,13 @@
       "score": "2-2"
     },
     "recCal20261123P76907552": {
-      "status": "En cours",
-      "provider": "FotMob — direct réel confirmé Vancouver–Salt Lake",
+      "status": "Terminé",
+      "provider": "MLS officielle — résultat final confirmé Vancouver 2–0 Real Salt Lake",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/vancouver-whitecaps-vs-seattle-sounders-fcreal-salt-lake/1cvzigmow",
-      "checkedAt": "2026-11-23T02:33:34.000Z",
-      "statusBasis": "Fiche FotMob montrant chronologie de jeu à 32', fil de match à la mi-temps; score non final"
+      "sourceUrl": "https://www.mlssoccer.com/competitions/mls-cup-playoffs/2026/matches/vanvsrsl-11-22-2026/",
+      "checkedAt": "2026-11-23T04:39:29.660Z",
+      "statusBasis": "Fiche FotMob montrant chronologie de jeu à 32', fil de match à la mi-temps; score non final",
+      "score": "2-0"
     }
   }
 }
