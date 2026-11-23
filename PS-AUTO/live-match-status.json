@@ -5636,18 +5636,22 @@
       "score": "1-0"
     },
     "recCal20261122L89686": {
-      "status": "En cours",
+      "status": "Terminé",
       "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-22T22:38:19.941Z"
+      "provider": "Somos Jujuy — compte rendu final River Plate 3-1 Lanús (22.11.2026)",
+      "sourceUrl": "https://www.somosjujuy.com.ar/deportes/river-plate-le-gano-3-1-lanus-avanzo-cuartos-final-torneo-clausura-n127602",
+      "checkedAt": "2026-11-23T00:37:02.494Z",
+      "score": "3-1",
+      "statusBasis": "Résultat final confirmé par compte rendu du match ; pas d'observation directe de points/événements vivants"
     },
     "recCal20261122P66887186": {
-      "status": "En cours",
-      "observedLive": false,
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-22T22:38:19.941Z"
+      "status": "Terminé",
+      "observedLive": true,
+      "provider": "Lance! — direct minute par minute, fin de match explicitement annoncée (2T 53')",
+      "sourceUrl": "https://www.lance.com.br/vasco/ao-vivo-acompanhe-bragantino-x-vasco-pelo-brasileirao.html",
+      "checkedAt": "2026-11-23T00:37:02.494Z",
+      "score": "1-0",
+      "statusBasis": "Lance! : 2T 53', ACABAAAA O JOGO, Bragantino 1-0 Vasco ; score final confirmé"
     },
     "recCal20261123L89600": {
       "status": "En cours",
