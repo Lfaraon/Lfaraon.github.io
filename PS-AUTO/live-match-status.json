@@ -5663,12 +5663,13 @@
       "score": "1-0"
     },
     "recCal20261123P76609138": {
-      "status": "En cours",
-      "provider": "FollowSoccer — suivi dynamique réel à 103' (1-2 provisoire)",
-      "checkedAt": "2026-11-23T01:39:20.000Z",
+      "status": "Terminé",
+      "provider": "Charlotte FC — compte rendu officiel, Full-Time 22.11.2026",
+      "checkedAt": "2026-11-23T02:33:34.000Z",
       "observedLive": true,
-      "sourceUrl": "https://followsoccer.com/match/chicago-fire-fc-vs-charlotte-fc-501933730",
-      "statusBasis": "Direct réel confirmé à 103' sur la fiche dynamique FollowSoccer"
+      "sourceUrl": "https://www.charlottefootballclub.com/news/full-time-clip-pep-biel-last-minute-winner-gives-charlotte-fc-2-1-win-in-match-one",
+      "statusBasis": "Direct réel confirmé à 103' sur la fiche dynamique FollowSoccer",
+      "score": "1-2"
     },
     "recCal20261123P71577574": {
       "status": "Terminé",
