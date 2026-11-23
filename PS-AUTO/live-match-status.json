@@ -5659,7 +5659,7 @@
       "checkedAt": "2026-11-23T01:39:20.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.reddit.com/r/FutMexico/comments/1y32iim/match_thread_guadalajara_vs_cruz_azul_liga_mx_nov/",
-      "statusBasis": "suivi vivant 27e minute (score provisoire)",
+      "statusBasis": "Résultat final FT vérifié sur match thread r/FutMexico du 22.11.2026",
       "score": "1-0"
     },
     "recCal20261123P76609138": {
@@ -5668,7 +5668,7 @@
       "checkedAt": "2026-11-23T01:39:20.000Z",
       "observedLive": true,
       "sourceUrl": "https://followsoccer.com/match/chicago-fire-fc-vs-charlotte-fc-501933730",
-      "statusBasis": "Règle horaire PS-AUTO (statut présumé)"
+      "statusBasis": "Direct réel confirmé à 103' sur la fiche dynamique FollowSoccer"
     },
     "recCal20261123P71577574": {
       "status": "Terminé",
@@ -5676,7 +5676,7 @@
       "checkedAt": "2026-11-23T01:39:20.000Z",
       "observedLive": false,
       "sourceUrl": "https://www.cooperativa.cl/noticias/deportes/futbol/liga-de-primera/deportes-limache-cae-con-la-serena-en-el-cierre-de-la-fecha-28/2026-11-20/121911.html",
-      "statusBasis": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Résultat final attesté par le compte rendu Cooperativa.cl du 22.11.2026",
       "score": "1-2"
     },
     "recCal20261123L89619": {
@@ -5685,7 +5685,7 @@
       "checkedAt": "2026-11-23T01:39:20.000Z",
       "observedLive": false,
       "sourceUrl": "https://madridfutebol.com/partido/1645547-san-antonio-bulo-bulo-vs-always-ready",
-      "statusBasis": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Résultat final confirmé sur la fiche du match FutbolGratis",
       "score": "0-3"
     },
     "recCal20261123L89714": {
@@ -5693,21 +5693,24 @@
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-23T01:39:20.000Z"
+      "checkedAt": "2026-11-23T01:39:20.000Z",
+      "statusBasis": "Règle horaire PS-AUTO (début présumé, non observé)"
     },
     "recCal20261123L89598": {
       "status": "En cours",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-23T01:39:20.000Z"
+      "checkedAt": "2026-11-23T01:39:20.000Z",
+      "statusBasis": "Règle horaire PS-AUTO (début présumé, non observé)"
     },
     "recCal20261123P76907552": {
       "status": "En cours",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-23T01:39:20.000Z"
+      "checkedAt": "2026-11-23T01:39:20.000Z",
+      "statusBasis": "Règle horaire PS-AUTO (début présumé, non observé)"
     }
   }
 }
