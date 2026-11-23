@@ -5663,28 +5663,30 @@
       "score": "1-0"
     },
     "recCal20261123P76609138": {
-      "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "En cours",
+      "provider": "FollowSoccer — suivi dynamique réel à 103' (1-2 provisoire)",
       "checkedAt": "2026-11-23T01:39:20.000Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": true,
+      "sourceUrl": "https://followsoccer.com/match/chicago-fire-fc-vs-charlotte-fc-501933730",
       "statusBasis": "Règle horaire PS-AUTO (statut présumé)"
     },
     "recCal20261123P71577574": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Cooperativa.cl — compte rendu du 22.11.2026, défaite de Limache 1-2",
       "checkedAt": "2026-11-23T01:39:20.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Règle horaire PS-AUTO (statut présumé)"
+      "sourceUrl": "https://www.cooperativa.cl/noticias/deportes/futbol/liga-de-primera/deportes-limache-cae-con-la-serena-en-el-cierre-de-la-fecha-28/2026-11-20/121911.html",
+      "statusBasis": "Règle horaire PS-AUTO (statut présumé)",
+      "score": "1-2"
     },
     "recCal20261123L89619": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "FutbolGratis — résultat final confirmé 0-3",
       "checkedAt": "2026-11-23T01:39:20.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Règle horaire PS-AUTO (statut présumé)"
+      "sourceUrl": "https://madridfutebol.com/partido/1645547-san-antonio-bulo-bulo-vs-always-ready",
+      "statusBasis": "Règle horaire PS-AUTO (statut présumé)",
+      "score": "0-3"
     },
     "recCal20261123L89714": {
       "status": "En cours",
