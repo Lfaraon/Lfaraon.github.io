@@ -5748,27 +5748,30 @@
     },
     "recCal20261123L87707": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T17:37:59.039Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T15:00:00.000Z dépassé de >= 120 minutes ; fin présumée uniquement, score final non vérifié."
+      "provider": "TheFishy — fiche de match, score final FT confirmé",
+      "checkedAt": "2026-11-23T17:39:42.700Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.thefishy.uk/livematch2/asteras-tripoli-v-aris-thessaloniki-1593359",
+      "statusBasis": "Score final FT ou résultat final avec chronologie de buts vérifié sur fiche précise du 23 novembre 2026",
+      "score": "0-1"
     },
     "recCal20261123L91136": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T17:37:59.039Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T15:00:00.000Z dépassé de >= 120 minutes ; fin présumée uniquement, score final non vérifié."
+      "provider": "YS Scores — fiche détaillée, résultat final et but à la 89e",
+      "checkedAt": "2026-11-23T17:39:42.700Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.ysscores.com/en/match/5996762/El-Gouna-FC-vs-Zamalek-SC",
+      "statusBasis": "Score final FT ou résultat final avec chronologie de buts vérifié sur fiche précise du 23 novembre 2026",
+      "score": "1-2"
     },
     "recCal20261123L91017": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T17:37:59.039Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "Kickoff 2026-11-23T15:00:00.000Z dépassé de >= 120 minutes ; fin présumée uniquement, score final non vérifié."
+      "provider": "TheFishy — fiche de match, score final FT confirmé",
+      "checkedAt": "2026-11-23T17:39:42.700Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.thefishy.uk/livematch2/wadi-degla-v-al-ittihad-1612284",
+      "statusBasis": "Score final FT ou résultat final avec chronologie de buts vérifié sur fiche précise du 23 novembre 2026",
+      "score": "1-1"
     },
     "recCal20261123L92349": {
       "status": "Annulé",
