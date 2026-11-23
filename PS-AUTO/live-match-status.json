@@ -5883,67 +5883,82 @@
       "sets": "6-3, 6-2"
     },
     "recCal20261123L91155": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "status": "Terminé",
+      "provider": "Jdwel — match terminé, événements complets",
+      "checkedAt": "2026-11-23T20:35:09.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://jdwel.com/match/256857/lineup/home",
+      "score": "0-2",
+      "statusBasis": "Résultat final confirmé sur la fiche ou le compte rendu du match du 23.11.2026."
     },
     "recCal20261123L89514": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "status": "Terminé",
+      "provider": "Statz — résultat final après coup de sifflet",
+      "checkedAt": "2026-11-23T20:35:09.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://statz.ai/h2h/brndby-if-vs-midtjylland/19713853/lineups",
+      "score": "0-0",
+      "statusBasis": "Résultat final confirmé sur la fiche ou le compte rendu du match du 23.11.2026."
     },
     "recCal20261123P67126888": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "status": "Terminé",
+      "provider": "Aftonbladet — compte rendu final",
+      "checkedAt": "2026-11-23T20:35:09.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.aftonbladet.se/sportbladet/fotboll/a/JnoeW7/allsvenskan-i-fotboll-hammarby-slog-ifk-goteborg-guldet-nara",
+      "score": "3-1",
+      "statusBasis": "Résultat final confirmé sur la fiche ou le compte rendu du match du 23.11.2026."
     },
     "recCal20261123L91769": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "checkedAt": "2026-11-23T20:35:09.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Kickoff 2026-11-23T18:00:00.000Z ; fin présumée après 120 minutes ; aucun score final vérifié."
     },
     "recCal20261123P67126892": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "status": "Terminé",
+      "provider": "Aftonbladet — compte rendu final",
+      "checkedAt": "2026-11-23T20:35:09.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.aftonbladet.se/sportbladet/fotboll/a/aGw9La/ois-slog-kalmar-sent-i-bottenstriden-i-allsvenskan",
+      "score": "3-2",
+      "statusBasis": "Résultat final confirmé sur la fiche ou le compte rendu du match du 23.11.2026."
     },
     "recCal20261123L87737": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "checkedAt": "2026-11-23T20:35:09.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Kickoff 2026-11-23T18:00:00.000Z ; fin présumée après 120 minutes ; aucun score final vérifié."
     },
     "recCal20261123L89556": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "status": "Terminé",
+      "provider": "Kanał Sportowy — compte rendu final",
+      "checkedAt": "2026-11-23T20:35:09.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://kanalsportowy.pl/pilka-nozna/ekstraklasa/przelamanie-wieczystej-stalo-sie-faktem-zadzialal-efekt-nowej-miotly-wideo/",
+      "score": "2-1",
+      "statusBasis": "Résultat final confirmé sur la fiche ou le compte rendu du match du 23.11.2026."
     },
     "recCal20261123L88153": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "checkedAt": "2026-11-23T20:35:09.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "statusBasis": "Kickoff 2026-11-23T18:15:00.000Z ; fin présumée après 120 minutes ; aucun score final vérifié."
     },
     "recCal20261123L88155": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-23T18:36:31.279Z",
+      "status": "Terminé",
+      "provider": "The Fishy — Match Finished (FT)",
+      "checkedAt": "2026-11-23T20:35:09.000Z",
       "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "sourceUrl": "https://thefishy.uk/livematch2/al-ittihad-v-pakhtakor-1629979",
+      "score": "2-0",
+      "statusBasis": "Résultat final confirmé sur la fiche ou le compte rendu du match du 23.11.2026."
     },
     "recCal20261123L92351": {
       "status": "Terminé",
@@ -5964,10 +5979,10 @@
     },
     "recCal20261123L92347": {
       "status": "En cours",
-      "provider": "Tennis Majors — jeux du 1er set visibles ; SofaScorem — point 0-15 en direct",
+      "provider": "Tennis Majors — deuxième set en cours, jeux affichés",
       "sourceUrl": "https://www.tennismajors.com/matches/wta/argentina-open/despina-papamichail-vs-julia-riera",
-      "statusBasis": "Début réel observé sur la fiche du match le 23/11/2026, 1er set 2-3 sur Tennis Majors ; SofaScorem affiche le point 0-15 (provisoire). Aucun score final.",
-      "checkedAt": "2026-11-23T19:39:30.835Z",
+      "statusBasis": "Progression observée depuis le contrôle précédent : premier set 2-6, deuxième set 1-2 ; score provisoire non enregistré comme résultat final.",
+      "checkedAt": "2026-11-23T20:35:09.000Z",
       "observedLive": true
     },
     "recCal20261123L90984": {
@@ -6017,6 +6032,54 @@
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "statusBasis": "Kickoff 2026-11-23T19:30:00.000Z atteint ; match en cours présumé uniquement, aucun score/direct vérifié."
+    },
+    "recCal20261123P71945418": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-23T20:35:09.000Z",
+      "observedLive": false,
+      "statusBasis": "Kickoff 2026-11-23T19:45:00.000Z ; début présumé ; aucun score final vérifié."
+    },
+    "recCal20261123P76878922": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-23T20:35:09.000Z",
+      "observedLive": false,
+      "statusBasis": "Kickoff 2026-11-23T19:45:00.000Z ; début présumé ; aucun score final vérifié."
+    },
+    "recCal20261123P75009686": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-23T20:35:09.000Z",
+      "observedLive": false,
+      "statusBasis": "Kickoff 2026-11-23T19:45:00.000Z ; début présumé ; aucun score final vérifié."
+    },
+    "recCal20261123P72221396": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-23T20:35:09.000Z",
+      "observedLive": false,
+      "statusBasis": "Kickoff 2026-11-23T20:00:00.000Z ; début présumé ; aucun score final vérifié."
+    },
+    "recCal20261123L89715": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-23T20:35:09.000Z",
+      "observedLive": false,
+      "statusBasis": "Kickoff 2026-11-23T20:00:00.000Z ; début présumé ; aucun score final vérifié."
+    },
+    "recCal20261123P72478714": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-23T20:35:09.000Z",
+      "observedLive": false,
+      "statusBasis": "Kickoff 2026-11-23T20:00:00.000Z ; début présumé ; aucun score final vérifié."
     }
   }
 }
