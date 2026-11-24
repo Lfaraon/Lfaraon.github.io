@@ -6109,21 +6109,23 @@
     },
     "recCal20261123L90024": {
       "status": "Terminé",
-      "checkedAt": "2026-11-23T23:35:04.000Z",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "statusBasis": "140 minutes après kickoff ; ScoreMondo figé à 24e, The Fishy à 52e ; score final non vérifié."
+      "checkedAt": "2026-11-24T00:35:04.000Z",
+      "provider": "TheFootballTube — résultat final confirmé",
+      "observedLive": true,
+      "sourceUrl": "https://thefootballtube.com/pl/matches/universitario-de-vinto-vs-gualberto-villarroel-sj-179601",
+      "statusBasis": "Fin confirmée, buts à 51e, 59e et 90+4e.",
+      "score": "3-0"
     },
     "recCal20261123L91248": {
-      "status": "En cours",
-      "provider": "Live-Result — jeu observé",
+      "status": "Terminé",
+      "provider": "El País Uruguay — compte rendu final",
       "providerId": "1650507",
-      "checkedAt": "2026-11-23T23:35:04.000Z",
+      "checkedAt": "2026-11-24T00:35:04.000Z",
       "observedLive": true,
       "reversed": false,
-      "sourceUrl": "https://www.live-result.com/football/matches/match1822153_El_Albion-Danubio-live-online/video",
-      "statusBasis": "Dernier état disponible 0-0 à 23e, carton à 16e ; score provisoire."
+      "sourceUrl": "https://www.elpais.com.uy/ovacion/futbol/albion-vs-danubio-en-vivo-por-el-torneo-clausura-la-franja-juega-su-ultimo-partido-en-primera-tras-su-descenso",
+      "statusBasis": "Match nul final confirmé ; anciennes fiches live dépassées.",
+      "score": "1-1"
     },
     "recCal20261124L91163": {
       "status": "À venir",
@@ -6162,20 +6164,29 @@
       "statusCode": "NS"
     },
     "recCal20261123P66887190": {
-      "status": "En cours",
-      "provider": "Placar — jeu observé",
+      "status": "Terminé",
+      "provider": "Placar — résultat final confirmé",
       "sourceUrl": "https://placar.com.br/porto-alegre-rio-grande-do-sul/futebol/brasileiro-serie-a-2026/jogo/11-2026/147507/internacional-vitoria/",
-      "checkedAt": "2026-11-23T23:35:04.000Z",
+      "checkedAt": "2026-11-24T00:35:04.000Z",
       "observedLive": true,
-      "statusBasis": "0-2 provisoire ; événements jusqu'à 31e minute."
+      "statusBasis": "Encerrado ; 2-5, chronologie complète des sept buts.",
+      "score": "2-5"
     },
     "recCal20261124P66887180": {
       "status": "En cours",
       "provider": "Placar — jeu observé",
       "sourceUrl": "https://placar.com.br/rio-de-janeiro-rio-de-janeiro/futebol/brasileiro-serie-a-2026/jogo/11-2026/147502/botafogo-sao-paulo/",
-      "checkedAt": "2026-11-23T23:35:04.000Z",
+      "checkedAt": "2026-11-24T00:35:04.000Z",
       "observedLive": true,
-      "statusBasis": "0-1 provisoire, but à 28e minute."
+      "statusBasis": "0-1 provisoire ; événements jusqu'à 67e minute."
+    },
+    "recCal20261124P66887182": {
+      "status": "En cours",
+      "provider": "Lance — début réel confirmé",
+      "sourceUrl": "https://www.lance.com.br/santos/veja-gol-em-santos-x-gremio-amuzu-abre-o-placar-para-os-visitantes.html",
+      "statusBasis": "But de Grêmio à 14e ; score provisoire, non final.",
+      "checkedAt": "2026-11-24T00:35:04.000Z",
+      "observedLive": true
     }
   }
 }
