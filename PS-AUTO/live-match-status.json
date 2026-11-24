@@ -6431,11 +6431,11 @@
       "score": "5-1"
     },
     "recCal20261124P73661560": {
-      "status": "Reporté",
-      "provider": "Leeds United — report officiel au 25.11.2026 à 20h00 suisse (pluie)",
+      "status": "À venir",
+      "provider": "Leeds United — report officiel au 25.11.2026 à 20h00 suisse, horaire confirmé sur PSF",
       "sourceUrl": "https://www.leedsunited.com/en/news/match-postponed-u21s-efl-trophy-tie-at-fleetwood-moved-back-24-hours",
       "observedLive": false,
-      "checkedAt": "2026-11-24T19:35:03.000Z",
+      "checkedAt": "2026-11-24T22:05:02.759Z",
       "reversed": false,
       "rescheduledKickoff": "2026-11-25T19:00:00.000Z"
     },
