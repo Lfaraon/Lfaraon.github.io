@@ -1,5 +1,5 @@
-import { confirmedOutcome, formatChf, isCanonicalTicket, outcomeLabel, referenceStake, summarize, summarizeFunds, ticketStake } from "./ledgerAccounting.js?rev=reference-stake";
-import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=chart-ticks";
+import { confirmedOutcome, formatChf, isCanonicalTicket, outcomeLabel, referenceStake, summarize, summarizeFunds, ticketStake } from "./ledgerAccounting.js?rev=personal-stakes";
+import { clearLedgerCharts, renderLedgerCharts } from "./ledgerCharts.js?rev=personal-stakes";
 
 const rate = new Intl.NumberFormat("fr-CH", { style: "percent", maximumFractionDigits: 1 });
 const followingRate = new Intl.NumberFormat("fr-FR", { style: "percent", maximumFractionDigits: 1 });
@@ -167,14 +167,21 @@ export function renderFollowingLedger(section, { status, tickets, onRetry }) {
     return showLedgerStatus(heading, "Tes statistiques de suivi sont momentanément indisponibles.", onRetry);
   }
 
-  const totals = summarize(tickets);
-  const { won, lost, pending, winRate } = totals;
+  const funds = summarizeFunds(tickets, { personal: true });
+  const totals = summarize(tickets, funds);
+  const { won, lost, pending, winRate, net, roi } = totals;
+  const resolvedStake = funds.wonStake + funds.lostStake;
   const overview = element(doc, "p", "tsukuyomi-following-ledger-copy", "Résultats des tickets enregistrés dans Mon suivi.");
   const grid = element(doc, "dl", "tsukuyomi-ledger-metrics tsukuyomi-following-ledger-metrics");
   for (const [label, value] of [
     ["Tickets suivis", tickets.length],
     ["Taux de réussite", winRate == null ? "—" : followingRate.format(winRate)],
     ["En attente", pending],
+    ...(tickets.length ? [
+      ["Mises réglées", formatChf(resolvedStake || null)],
+      ["Bilan net", formatChf(funds.hasNet ? net : null, true)],
+      ["ROI", roi == null ? "—" : followingRate.format(roi)],
+    ] : []),
   ]) {
     const card = element(doc, "div", "");
     card.append(element(doc, "dt", "tsukuyomi-ledger-label", label),
@@ -190,7 +197,9 @@ export function renderFollowingLedger(section, { status, tickets, onRetry }) {
   if (winRate != null) {
     notes.append(element(doc, "p", "", `${won} ${won > 1 ? "gagnés" : "gagné"} sur ${won + lost}, hors remboursements.`));
   }
-  notes.append(element(doc, "p", "", "Gain net et ROI calculés sur les mises de référence Tsukuyomi."));
+  notes.append(element(doc, "p", "", tickets.some((ticket) => ticket.personalStakeCents)
+    ? "Le bilan net et le ROI utilisent tes mises personnelles."
+    : "Ajoute une mise dans Mon suivi pour calculer ton bilan net et ton ROI."));
   replaceLedgerContent(heading, overview, grid, notes);
-  renderLedgerCharts(section, tickets, totals);
+  renderLedgerCharts(section, tickets, totals, { personal: true });
 }

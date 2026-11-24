@@ -1,3 +1,5 @@
+import { isPersonalStakeCents } from "./following.js?rev=personal-stakes";
+
 const amount = new Intl.NumberFormat("fr-CH", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 const signedAmount = new Intl.NumberFormat("fr-CH", {
   minimumFractionDigits: 2, maximumFractionDigits: 2, signDisplay: "exceptZero",
@@ -13,6 +15,11 @@ export function isCanonicalTicket(ticket) {
 export function ticketStake(ticket) {
   const declared = ticket?.settlement?.reference_stake_chf;
   return Number.isFinite(declared) && declared > 0 ? declared : referenceStake;
+}
+
+function personalStake(ticket) {
+  const cents = ticket.personalStakeCents;
+  return isPersonalStakeCents(cents) ? cents / 100 : null;
 }
 
 export function confirmedOutcome(ticket) {
@@ -34,9 +41,8 @@ export function hasRefundedLeg(ticket) {
     || ticket.settlement?.leg_results?.some((result) => result?.outcome === "void"));
 }
 
-export function netAmount(ticket) {
+export function netAmount(ticket, stake = ticketStake(ticket)) {
   const { outcome, payout_odds } = ticket.settlement ?? {};
-  const stake = ticketStake(ticket);
   if (outcome === "won") {
     const effectiveOdds = payout_odds ?? (hasRefundedLeg(ticket) ? null : ticket.odds);
     return Number.isFinite(effectiveOdds) && effectiveOdds >= 1 ? stake * (effectiveOdds - 1) : null;
@@ -46,20 +52,30 @@ export function netAmount(ticket) {
   return null;
 }
 
+export function personalNetAmount(ticket) {
+  if (personalStake(ticket) === null) return null;
+  const stakeCents = ticket.personalStakeCents;
+  const netCents = netAmount(ticket, stakeCents);
+  if (!Number.isFinite(netCents)) return null;
+  // Round each ticket to cents, with tolerance for decimal odds represented as floats.
+  return Math.round(netCents + Number.EPSILON * Math.max(stakeCents, netCents) * 2) / 100;
+}
+
 export function formatChf(value, signed = false) {
   return Number.isFinite(value) ? (signed ? signedAmount : amount).format(value) + "\u00a0CHF" : "—";
 }
 
-export function summarizeFunds(tickets) {
+export function summarizeFunds(tickets, { personal = false } = {}) {
   const funds = { net: 0, wonStake: 0, lostStake: 0, pendingStake: 0, hasNet: false };
   for (const ticket of tickets) {
-    const stake = ticketStake(ticket);
+    const stake = personal ? personalStake(ticket) : ticketStake(ticket);
+    if (stake === null) continue;
     const outcome = confirmedOutcome(ticket);
     if (!outcome) {
       funds.pendingStake += stake;
       continue;
     }
-    const net = netAmount(ticket);
+    const net = personal ? personalNetAmount(ticket) : netAmount(ticket, stake);
     if (!Number.isFinite(net)) continue;
     funds.net += net;
     funds.hasNet = true;

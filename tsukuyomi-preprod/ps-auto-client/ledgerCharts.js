@@ -1,4 +1,4 @@
-import { buildLedgerSeries } from "./ledgerSeries.js?rev=publication-date";
+import { buildLedgerSeries } from "./ledgerSeries.js?rev=personal-stakes";
 
 const views = new WeakMap();
 let moduleRequest;
@@ -6,7 +6,7 @@ let loadAttempts = 0;
 
 function loadNativeCharts() {
   if (!moduleRequest) {
-    const url = new URL("./nativeChartsRuntime.js?rev=chart-ticks", import.meta.url);
+    const url = new URL("./nativeChartsRuntime.js?rev=personal-stakes", import.meta.url);
     if (loadAttempts) url.searchParams.set("retry", String(loadAttempts));
     moduleRequest = import(url.href).catch((error) => {
       moduleRequest = undefined;
@@ -23,12 +23,12 @@ export function clearLedgerCharts(section) {
   view?.dispose?.();
 }
 
-export function renderLedgerCharts(section, tickets, totals) {
+export function renderLedgerCharts(section, tickets, totals, { personal = false } = {}) {
   const doc = section.ownerDocument;
   const host = doc.createElement("div");
   host.dataset.tsukuyomiNativeCharts = "";
   const view = {};
-  const model = buildLedgerSeries(tickets, { includeBrier: false });
+  const model = buildLedgerSeries(tickets, { includeBrier: false, personal });
   views.set(section, view);
   section.append(host);
 
@@ -42,7 +42,7 @@ export function renderLedgerCharts(section, tickets, totals) {
       const { mountNativeCharts } = await loadNativeCharts();
       if (views.get(section) !== view) return;
       host.replaceChildren();
-      view.dispose = mountNativeCharts(host, model, totals);
+      view.dispose = mountNativeCharts(host, model, totals, { personal });
     } catch {
       if (views.get(section) !== view) return;
       notice.textContent = "Les graphiques sont momentanément indisponibles.";

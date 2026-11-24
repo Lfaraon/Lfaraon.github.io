@@ -1,4 +1,4 @@
-import { hasRefundedLeg, selectionOutcome, summarize, summarizeFunds, ticketDate } from "./ledgerAccounting.js?rev=reference-stake";
+import { hasRefundedLeg, selectionOutcome, summarize, summarizeFunds, ticketDate } from "./ledgerAccounting.js?rev=personal-stakes";
 import { archivedTicketForecast, ticketProbability } from "./ticketForecasts.js?rev=brier-runner-history";
 import { selectionBrierScores } from "./selectionBrier.js?rev=canonical-ticket";
 
@@ -66,11 +66,14 @@ function brierFor(tickets) {
   return { count, score: count ? total / count : null };
 }
 
-export function buildLedgerSeries(tickets, { includeBrier = true } = {}) {
+export function buildLedgerSeries(tickets, { includeBrier = true, personal = false } = {}) {
   const days = new Map();
   const sports = new Map();
   const selectionScores = new Map();
-  const byKind = kinds.map((kind) => ({ kind, ...summarize(tickets.filter((ticket) => ticket.kind === kind)) }));
+  const byKind = kinds.map((kind) => {
+    const formatTickets = tickets.filter((ticket) => ticket.kind === kind);
+    return { kind, ...summarize(formatTickets, summarizeFunds(formatTickets, { personal })) };
+  });
   for (const ticket of tickets) {
     addSportResults(sports, ticket);
     const timestamp = Date.parse(ticketDate(ticket));
@@ -84,6 +87,7 @@ export function buildLedgerSeries(tickets, { includeBrier = true } = {}) {
   }
 
   let net = 0;
+  let hasNet = false;
   let won = 0;
   let lost = 0;
   let stake = 0;
@@ -91,14 +95,15 @@ export function buildLedgerSeries(tickets, { includeBrier = true } = {}) {
   const brier = [];
   for (const day of [...days.keys()].sort()) {
     const dailyTickets = days.get(day);
-    const funds = summarizeFunds(dailyTickets);
+    const funds = summarizeFunds(dailyTickets, { personal });
     const daily = summarize(dailyTickets, funds);
     net += daily.net;
+    hasNet ||= funds.hasNet;
     won += daily.won;
     lost += daily.lost;
     stake += funds.wonStake + funds.lostStake;
     timeline.push({
-      day, net, won, lost, roi: stake ? net / stake : null,
+      day, net: personal && !hasNet ? null : net, won, lost, roi: stake ? net / stake : null,
       dayWon: daily.won, dayLost: daily.lost, dayVoid: daily.void,
     });
     if (includeBrier) {

@@ -1,6 +1,6 @@
-import { confirmedOutcome, formatChf, isCanonicalTicket, netAmount, outcomeLabel, selectionOutcome, ticketDate, ticketStake } from "./ledgerAccounting.js?rev=reference-stake";
+import { confirmedOutcome, formatChf, isCanonicalTicket, netAmount, outcomeLabel, personalNetAmount, selectionOutcome, ticketDate, ticketStake } from "./ledgerAccounting.js?rev=personal-stakes";
 import { recalculatedSelectionProbability, recalculatedTicketProbability, selectionProbability, ticketProbability } from "./ticketForecasts.js?rev=canonical-ticket";
-import { isFollowableTicketId } from "./following.js?rev=member-following";
+import { isFollowableTicketId, parsePersonalStake } from "./following.js?rev=personal-stakes";
 import { createDisplayDateFormatter, formatPreferredOdds } from "./ticketDisplayPreferences.js?rev=member-display";
 
 const kinds = { simple: "Simple", combine: "Combiné", triple: "Triplé" };
@@ -290,8 +290,61 @@ function metric(doc, label, value, outcome, notation = {}) {
   return item;
 }
 
+function createPersonalStakeEditor(doc, ticket, following, draft) {
+  const saved = ticket.personalStakeCents ?? null;
+  const pending = following.pending.has(ticket.id);
+  const editor = element(doc, "div", "tsukuyomi-ticket-stake");
+  const label = element(doc, "label", "tsukuyomi-ticket-stake-label");
+  const input = element(doc, "input", "tsukuyomi-ticket-stake-input");
+  input.dataset.ticketId = ticket.id;
+  input.type = "text";
+  input.inputMode = "decimal";
+  input.autocomplete = "off";
+  input.placeholder = "Ex. 25,00";
+  input.readOnly = pending;
+  input.defaultValue = saved === null ? "" : (saved / 100).toFixed(2).replace(".", ",");
+  if (draft !== undefined && parsePersonalStake(draft) !== saved) input.value = draft;
+
+  const save = element(doc, "button", "tsukuyomi-tickets-button tsukuyomi-ticket-stake-save");
+  save.type = "button";
+  save.dataset.ticketId = ticket.id;
+  function syncSave() {
+    const unchanged = parsePersonalStake(input.value) === saved;
+    save.setAttribute("aria-disabled", String(pending || unchanged));
+    save.textContent = pending ? "En cours…" : unchanged && saved !== null ? "Enregistré" : "Enregistrer";
+  }
+  input.addEventListener("input", () => {
+    input.setCustomValidity("");
+    syncSave();
+  });
+  function saveStake() {
+    if (save.getAttribute("aria-disabled") === "true") return;
+    const cents = parsePersonalStake(input.value);
+    if (cents === undefined) {
+      input.setCustomValidity("Saisis un montant positif en CHF avec deux décimales au maximum.");
+      input.reportValidity();
+      return;
+    }
+    save.setAttribute("aria-disabled", "true");
+    following.onSetStake(ticket.id, cents);
+  }
+  // The subscriber dashboard runs in a sandbox that disables native form submission.
+  save.addEventListener("click", saveStake);
+  input.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" && !event.isComposing) {
+      event.preventDefault();
+      saveStake();
+    }
+  });
+  syncSave();
+  label.append(element(doc, "span", "", "Mise personnelle (CHF)"), input);
+  editor.append(label, save);
+  return editor;
+}
+
 function createTicketCard(doc, ticket, played, open, {
-  now = Date.now(), showImportedStake = false, showReasoning = false, reasoningOpen = false, following, display = legacyDisplay,
+  now = Date.now(), showImportedStake = false, showReasoning = false, reasoningOpen = false,
+  following, personal = false, stakeDraft, display = legacyDisplay,
 } = {}) {
   const canonical = isCanonicalTicket(ticket);
   const collapsible = played || (canonical && isPublished(ticket));
@@ -299,6 +352,8 @@ function createTicketCard(doc, ticket, played, open, {
   const reasoningText = showReasoning && typeof ticket.reasoning === "string" ? ticket.reasoning.trim() : "";
   const reasoning = reasoningText ? element(doc, "details", "tsukuyomi-ticket-reasoning") : null;
   const canFollow = following && isFollowableTicketId(ticket.id);
+  const stakeEditor = personal && canFollow && following.onSetStake
+    ? createPersonalStakeEditor(doc, ticket, following, stakeDraft) : null;
   const actions = reasoning && canFollow ? element(doc, "div", "tsukuyomi-ticket-actions") : card;
   const header = element(doc, collapsible ? "summary" : "header", "tsukuyomi-ticket-header");
   const heading = element(doc, collapsible ? "span" : "div", "tsukuyomi-ticket-heading");
@@ -348,7 +403,8 @@ function createTicketCard(doc, ticket, played, open, {
     content = details;
     card.addEventListener("click", ({ target }) => {
       // Both native disclosures handle their own clicks and keyboard events.
-      if (details.contains(target) || reasoning?.contains(target) || (actions !== card && actions.contains(target))) return;
+      if (details.contains(target) || reasoning?.contains(target) || stakeEditor?.contains(target)
+          || (actions !== card && actions.contains(target))) return;
       const selection = doc.getSelection();
       if (selection?.toString() && card.contains(selection.anchorNode)) return;
       details.open = !details.open;
@@ -388,14 +444,15 @@ function createTicketCard(doc, ticket, played, open, {
     }
   }
   const stake = ticketStake(ticket);
-  metrics.append(metric(doc, "Mise de référence", formatChf(stake)));
+  if (!stakeEditor) metrics.append(metric(doc, "Mise de référence", formatChf(stake)));
   if (showImportedStake && canonical && !isPublished(ticket) && !ticket.withdrawn_at && !settled
       && Number.isFinite(ticket.stake_chf) && ticket.stake_chf > 0 && ticket.stake_chf !== stake) {
     metrics.append(metric(doc, "Mise transmise", formatChf(ticket.stake_chf)));
   }
-  const net = netAmount(ticket);
+  const net = stakeEditor ? personalNetAmount(ticket) : netAmount(ticket);
   if (Number.isFinite(net)) metrics.append(metric(doc, net < 0 ? "Perte nette" : "Gain net", formatChf(net, true), outcome));
   card.append(metrics);
+  if (stakeEditor) card.append(stakeEditor);
   if (reasoning) {
     if (ticket.id) reasoning.dataset.ticketId = ticket.id;
     reasoning.open = reasoningOpen;
@@ -503,9 +560,17 @@ function renderFeed(mount, {
   ) : []);
   const openTickets = disclosureStates("tsukuyomi-ticket-disclosure");
   const openReasoning = disclosureStates("tsukuyomi-ticket-reasoning");
+  const stakeDrafts = new Map();
+  if (sameView && followed) {
+    for (const input of mount.querySelectorAll(".tsukuyomi-ticket-stake-input")) {
+      if (input.value !== input.defaultValue) stakeDrafts.set(input.dataset.ticketId, input.value);
+    }
+  }
   const active = doc.activeElement;
-  const focusSelector = [".tsukuyomi-ticket-follow", ".tsukuyomi-ticket-reasoning-toggle", ".tsukuyomi-ticket-disclosure > summary"]
-    .find((selector) => active?.matches(selector));
+  const focusSelector = [
+    ".tsukuyomi-ticket-follow", ".tsukuyomi-ticket-reasoning-toggle", ".tsukuyomi-ticket-disclosure > summary",
+    ".tsukuyomi-ticket-stake-input", ".tsukuyomi-ticket-stake-save",
+  ].find((selector) => active?.matches(selector));
   const focusedTicket = sameView && focusSelector && mount.contains(active)
     ? active.dataset.ticketId || active.parentElement.dataset.ticketId
     : null;
@@ -561,6 +626,8 @@ function renderFeed(mount, {
           showReasoning: typeof showReasoning === "function" ? showReasoning(ticket) : showReasoning,
           reasoningOpen: openReasoning.get(ticket.id),
           following,
+          personal: followed,
+          stakeDraft: stakeDrafts.get(ticket.id),
           display,
         }));
         if (focusedTicket && focusedTicket === ticket.id) nextFocus = item.querySelector(focusSelector);
@@ -577,6 +644,9 @@ function renderFeed(mount, {
   }
   mount.replaceChildren(feed);
   (nextFocus || (focusedTicket && focusFallback))?.focus?.({ preventScroll: true });
+  if (focusSelector === ".tsukuyomi-ticket-stake-input" && nextFocus?.value === active.value) {
+    nextFocus.setSelectionRange(active.selectionStart, active.selectionEnd);
+  }
 }
 
 export function renderTickets(mount, data) {

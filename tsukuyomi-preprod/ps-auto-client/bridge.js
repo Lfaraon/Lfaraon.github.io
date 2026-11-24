@@ -1,10 +1,10 @@
-import { nextTicketKickoff, renderFollowedTickets, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=account-display";
-import { readFollowingState } from "./following.js?rev=member-following";
+import { nextTicketKickoff, renderFollowedTickets, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=personal-stakes";
+import { readFollowingState } from "./following.js?rev=personal-stakes";
 import { createTicketFilters } from "./ticketFilters.js?rev=followed-matches-search";
 import { buildFollowedMatches } from "./followedMatches.js?rev=followed-matches-search";
 import { deduplicateTickets, selectTsukuyomiPortfolio } from "./ticketIdentity.js?rev=archive-ticket-selection";
-import { renderFollowingLedger, renderLedger } from "./ledger.js?rev=progressive-results";
-import { clearLedgerCharts } from "./ledgerCharts.js?rev=chart-ticks";
+import { renderFollowingLedger, renderLedger } from "./ledger.js?rev=personal-stakes";
+import { clearLedgerCharts } from "./ledgerCharts.js?rev=personal-stakes";
 import { createScrollReveal } from "../tsukuyomi-scroll-reveal.js?rev=scroll-reveal";
 
 const tabsSelector = '[role="tablist"][aria-label="Navigation principale"] [role="tab"]';
@@ -299,9 +299,15 @@ function connectDashboard(window, nonce, destination) {
   function setFollowing(ticketId, isFollowing) {
     port?.postMessage({ type: "tsukuyomi:following-set", ticketId, following: isFollowing });
   }
+  function setFollowingStake(ticketId, stakeCents) {
+    port?.postMessage({ type: "tsukuyomi:following-stake", ticketId, stakeCents });
+  }
   function followOptions() {
     if (following.status !== "ready") return {};
-    return { following: { ...following, onSet: setFollowing }, followingError: following.error };
+    return {
+      following: { ...following, onSet: setFollowing, onSetStake: following.stakes ? setFollowingStake : undefined },
+      followingError: following.error,
+    };
   }
   function followedCatalogue(now = Date.now()) {
     const status = following.status === "ready" && following.ids.size ? ledger.status : following.status;
@@ -309,7 +315,10 @@ function connectDashboard(window, nonce, destination) {
     // Preserve the exact published ID even when a different archive ID describes the same selection.
     const candidates = [...selectTsukuyomiPortfolio(history.tickets), ...publications]
       .filter((ticket) => following.ids.has(ticket.id));
-    return { status, tickets: ticketsForView(candidates, { view: "following", now }) };
+    const tickets = ticketsForView(candidates, { view: "following", now }).map((ticket) => ({
+      ...ticket, personalStakeCents: following.stakes?.get(ticket.id) ?? null,
+    }));
+    return { status, tickets };
   }
 
   function openFollowedTicket(ticketId) {
