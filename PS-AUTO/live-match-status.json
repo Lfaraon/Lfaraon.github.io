@@ -6173,20 +6173,29 @@
       "score": "2-5"
     },
     "recCal20261124P66887180": {
-      "status": "En cours",
-      "provider": "Placar — jeu observé",
-      "sourceUrl": "https://placar.com.br/rio-de-janeiro-rio-de-janeiro/futebol/brasileiro-serie-a-2026/jogo/11-2026/147502/botafogo-sao-paulo/",
-      "checkedAt": "2026-11-24T00:35:04.000Z",
+      "status": "Terminé",
+      "provider": "UOL — compte rendu final confirmé",
+      "sourceUrl": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/23/botafogo-x-sao-paulo-como-foi-o-jogo-pelo-brasileirao-2026.ghtm",
+      "checkedAt": "2026-11-24T01:35:03.000Z",
       "observedLive": true,
-      "statusBasis": "0-1 provisoire ; événements jusqu'à 67e minute."
+      "statusBasis": "Résultat final 1-1 confirmé.",
+      "score": "1-1"
     },
     "recCal20261124P66887182": {
       "status": "En cours",
-      "provider": "Lance — début réel confirmé",
-      "sourceUrl": "https://www.lance.com.br/santos/veja-gol-em-santos-x-gremio-amuzu-abre-o-placar-para-os-visitantes.html",
-      "statusBasis": "But de Grêmio à 14e ; score provisoire, non final.",
-      "checkedAt": "2026-11-24T00:35:04.000Z",
+      "provider": "UOL — jeu observé",
+      "sourceUrl": "https://placar.uol.com.br/esporte/futebol/brasileirao/2026/11/23/santos-x-gremio.htm",
+      "statusBasis": "0-1 à la pause, reprise confirmée ; score non final.",
+      "checkedAt": "2026-11-24T01:35:03.000Z",
       "observedLive": true
+    },
+    "recCal20261124P76609950": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "Horaire dépassé de 35 min ; aucun jeu observé.",
+      "checkedAt": "2026-11-24T01:35:03.000Z"
     }
   }
 }
