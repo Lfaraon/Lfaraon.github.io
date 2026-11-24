@@ -6391,11 +6391,12 @@
     },
     "recCal20261124L91218": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "YSscores — score final du 24 novembre, vidéo des buts",
+      "sourceUrl": "https://www.ysscores.com/fr/video/395812",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z",
-      "reversed": false
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "reversed": false,
+      "score": "2-1"
     },
     "recCal20261124L91322": {
       "status": "Terminé",
@@ -6521,10 +6522,11 @@
     },
     "recCal20261124P75152324": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "ScoreMondo — Final, coup de sifflet et résultat vérifié",
+      "sourceUrl": "https://scoremondo.com/es/partido/bradford-city-barnsley-31516688",
       "observedLive": false,
-      "checkedAt": "2026-11-24T22:35:03.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "3-0"
     },
     "recCal20261124P72340056": {
       "status": "Terminé",
