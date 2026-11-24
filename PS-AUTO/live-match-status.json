@@ -6200,12 +6200,29 @@
       "score": "3-2"
     },
     "recCal20261124L88505": {
-      "status": "En cours",
-      "provider": "DailySports — direct confirmé, 1-2 à 90+1 (score provisoire)",
-      "checkedAt": "2026-11-24T09:35:02.000Z",
+      "status": "Terminé",
+      "provider": "AFC — résultat final officiel 1-2",
+      "checkedAt": "2026-11-24T10:35:04.000Z",
       "observedLive": true,
       "reversed": false,
-      "sourceUrl": "https://dailysports.net/stat/football/kashiwa-reysol-vs-newcastle-jets-2/"
+      "sourceUrl": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/md5-newcastle-jets-fc-aus-1-2-kashiwa-reysol-jpn",
+      "score": "1-2"
+    },
+    "recCal20261124L91162": {
+      "status": "En cours",
+      "provider": "FotMob — début réel confirmé, 0-0 à 12:19 (score provisoire)",
+      "checkedAt": "2026-11-24T10:35:04.000Z",
+      "observedLive": true,
+      "reversed": false,
+      "sourceUrl": "https://www.fotmob.com/matches/beijing-guoan-vs-daejeon-hana-citizen/4dniw2s"
+    },
+    "recCal20261124L91164": {
+      "status": "En cours",
+      "provider": "FotMob — début réel confirmé, 0-0 à 23:59 (score provisoire)",
+      "checkedAt": "2026-11-24T10:35:04.000Z",
+      "observedLive": true,
+      "reversed": false,
+      "sourceUrl": "https://www.fotmob.com/matches/kyoto-sanga-fc-vs-pohang-steelers/36z2d94"
     }
   }
 }
