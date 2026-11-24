@@ -6256,26 +6256,60 @@
       "sets": "4-6, 2-6"
     },
     "recCal20261124L92444": {
-      "status": "En cours",
-      "provider": "TennisTemple — direct observé, 1er set 2-6, 2e set 4-4, avantage-40 (provisoire)",
+      "status": "Terminé",
+      "provider": "TennisTemple — résultat final confirmé",
       "sourceUrl": "https://en.tennistemple.com/match/kulambayeva-erjavec-buenos-aires-2026/9571407/",
-      "checkedAt": "2026-11-24T15:35:03.000Z",
+      "checkedAt": "2026-11-24T16:35:02.000Z",
       "observedLive": true,
-      "reversed": false
+      "reversed": false,
+      "score": "0-2",
+      "sets": "2-6, 4-6"
     },
     "recCal20261124L91314": {
       "status": "En cours",
-      "provider": "FotMob — direct observé 0-0, 33e (provisoire)",
+      "provider": "FotMob — dernier direct affiché 0-0, mi-temps (provisoire)",
       "sourceUrl": "https://www.fotmob.com/matches/smouha-sc-vs-national-bank/538azdom",
-      "checkedAt": "2026-11-24T15:35:03.000Z",
+      "checkedAt": "2026-11-24T16:35:02.000Z",
       "observedLive": true,
       "reversed": false
     },
     "recCal20261124L91206": {
       "status": "En cours",
-      "provider": "FotMob — direct observé 0-0, 32e (provisoire)",
+      "provider": "FotMob — direct observé 0-0, 66:57 (provisoire)",
       "sourceUrl": "https://www.fotmob.com/matches/abo-qir-semad-vs-zed-fc/56y96gmz",
-      "checkedAt": "2026-11-24T15:35:03.000Z",
+      "checkedAt": "2026-11-24T16:35:02.000Z",
+      "observedLive": true,
+      "reversed": false
+    },
+    "recCal20261124P77061040": {
+      "status": "En cours",
+      "provider": "TennisTemple — début réel confirmé, 1er set 1-6, 2e set 1-0 (provisoire)",
+      "sourceUrl": "https://en.tennistemple.com/match/bronzetti-herrero-linana-buenos-aires-2026/9571408/",
+      "checkedAt": "2026-11-24T16:35:02.000Z",
+      "observedLive": true,
+      "reversed": false
+    },
+    "recCal20261124P77061034": {
+      "status": "En cours",
+      "provider": "TennisTemple — début réel confirmé, 1er set 6-1, 2e set 1-0 (provisoire)",
+      "sourceUrl": "https://en.tennistemple.com/match/maristany-zuleta-de-reales-cinalli-buenos-aires-2026/9571412/",
+      "checkedAt": "2026-11-24T16:35:02.000Z",
+      "observedLive": true,
+      "reversed": false
+    },
+    "recCal20261124L91703": {
+      "status": "En cours",
+      "provider": "FotMob — direct observé 0-0, 27:16 (provisoire)",
+      "sourceUrl": "https://www.fotmob.com/matches/zilina-vs-ruzomberok/267kxa",
+      "checkedAt": "2026-11-24T16:35:02.000Z",
+      "observedLive": true,
+      "reversed": false
+    },
+    "recCal20261124L88501": {
+      "status": "En cours",
+      "provider": "Sofascore — début réel confirmé, dernier score fiche 0-1 à 12:07 (provisoire, autre flux plus avancé)",
+      "sourceUrl": "https://www.sofascore.com/football/match/shabab-al-ahli-dubai-al-qadsiah/CvxslHfc",
+      "checkedAt": "2026-11-24T16:35:02.000Z",
       "observedLive": true,
       "reversed": false
     }
