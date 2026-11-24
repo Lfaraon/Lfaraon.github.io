@@ -6138,13 +6138,13 @@
       "score": "3-1"
     },
     "recCal20261124P73093158": {
-      "status": "À venir",
-      "provider": "API-Football",
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
       "providerId": "1601616",
-      "checkedAt": "2026-11-23T21:35:06.075Z",
+      "checkedAt": "2026-11-24T19:35:03.000Z",
       "observedLive": false,
       "reversed": false,
-      "statusCode": "NS"
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json"
     },
     "recCal20261124P72740838": {
       "status": "À venir",
@@ -6322,19 +6322,19 @@
       "score": "1-5"
     },
     "recCal20261124L91409": {
-      "status": "En cours",
-      "provider": "ScoreInPlay — direct observé 1-0, 33e (provisoire)",
-      "sourceUrl": "https://scoreinplay.com/fr/match/durban-city-vs-polokwane-city-2026-11-24-1600377",
-      "observedLive": true,
-      "checkedAt": "2026-11-24T18:35:04.000Z",
-      "reversed": false
-    },
-    "recCal20261124L92503": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-24T17:35:02.000Z",
+      "checkedAt": "2026-11-24T19:35:03.000Z",
+      "reversed": false
+    },
+    "recCal20261124L92503": {
+      "status": "Terminé",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T19:35:03.000Z",
       "reversed": false
     },
     "recCal20261124L92543": {
@@ -6347,34 +6347,34 @@
     },
     "recCal20261124P77061046": {
       "status": "En cours",
-      "provider": "TennisTemple — premier jeu 30-30 (provisoire)",
+      "provider": "TennisTemple — direct observé 1-6, 5-5 (provisoire)",
       "sourceUrl": "https://en.tennistemple.com/match/sierra-jimenez-kasintseva-buenos-aires-2026/9571404/",
       "observedLive": true,
-      "checkedAt": "2026-11-24T18:35:04.000Z",
+      "checkedAt": "2026-11-24T19:35:03.000Z",
       "reversed": false
     },
     "recCal20261124P74166014": {
       "status": "En cours",
-      "provider": "FotMob — direct observé 0-0, 32:22 (provisoire)",
+      "provider": "FotMob — direct observé 0-0, 81:45 (provisoire)",
       "sourceUrl": "https://www.fotmob.com/matches/bodoglimt-vs-lask/2ske3f",
       "observedLive": true,
-      "checkedAt": "2026-11-24T18:35:04.000Z",
+      "checkedAt": "2026-11-24T19:35:03.000Z",
       "reversed": false
     },
     "recCal20261124P74166016": {
       "status": "En cours",
-      "provider": "FotMob — direct observé 0-0, 42:42 (provisoire)",
+      "provider": "FotMob — direct observé 1-0, 78:47 (provisoire)",
       "sourceUrl": "https://www.fotmob.com/matches/galatasaray-vs-aston-villa/2y822y",
       "observedLive": true,
-      "checkedAt": "2026-11-24T18:35:04.000Z",
+      "checkedAt": "2026-11-24T19:35:03.000Z",
       "reversed": false
     },
     "recCal20261124L88502": {
       "status": "En cours",
-      "provider": "Sofascore — direct observé 0-0, 11:45 (provisoire)",
+      "provider": "Sofascore — direct observé 2-1, 53:17 (provisoire)",
       "sourceUrl": "https://www.sofascore.com/football/match/al-sadd-al-nassr/atjsIUp",
       "observedLive": true,
-      "checkedAt": "2026-11-24T18:35:04.000Z",
+      "checkedAt": "2026-11-24T19:35:03.000Z",
       "reversed": false
     },
     "recCal20261124L91218": {
@@ -6387,10 +6387,10 @@
     },
     "recCal20261124L91322": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "checkedAt": "2026-11-24T18:35:04.000Z",
+      "provider": "FotMob — dernier score observé 1-0 à la mi-temps (provisoire)",
+      "sourceUrl": "https://www.fotmob.com/es/matches/al-masry-sc-vs-asyut-petroleum/ddfgtii",
+      "observedLive": true,
+      "checkedAt": "2026-11-24T19:35:03.000Z",
       "reversed": false
     },
     "recCal20261124P73093146": {
@@ -6399,6 +6399,78 @@
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
       "checkedAt": "2026-11-24T18:35:04.000Z",
+      "reversed": false
+    },
+    "recCal20261124P73093092": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T19:35:03.000Z",
+      "reversed": false
+    },
+    "recCal20261124P73093094": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T19:35:03.000Z",
+      "reversed": false
+    },
+    "recCal20261124P73661560": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T19:35:03.000Z",
+      "reversed": false
+    },
+    "recCal20261124P73093148": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T19:35:03.000Z",
+      "reversed": false
+    },
+    "recCal20261124P73661256": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T19:35:03.000Z",
+      "reversed": false
+    },
+    "recCal20261124P73093154": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T19:35:03.000Z",
+      "reversed": false
+    },
+    "recCal20261124P73701308": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T19:35:03.000Z",
+      "reversed": false
+    },
+    "recCal20261124P73661202": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T19:35:03.000Z",
+      "reversed": false
+    },
+    "recCal20261124L92445": {
+      "status": "En cours",
+      "provider": "TennisTemple — direct observé 2-6, 2-5 (provisoire)",
+      "sourceUrl": "https://en.tennistemple.com/match/ayala-burillo-buenos-aires-2026/9571418/",
+      "observedLive": true,
+      "checkedAt": "2026-11-24T19:35:03.000Z",
       "reversed": false
     }
   }
