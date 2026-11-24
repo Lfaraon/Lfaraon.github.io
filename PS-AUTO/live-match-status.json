@@ -6147,22 +6147,22 @@
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json"
     },
     "recCal20261124P72740838": {
-      "status": "À venir",
-      "provider": "API-Football",
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
       "providerId": "1585353",
-      "checkedAt": "2026-11-23T21:35:06.075Z",
+      "checkedAt": "2026-11-24T20:35:14.000Z",
       "observedLive": false,
       "reversed": false,
-      "statusCode": "NS"
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json"
     },
     "recCal20261124P74166028": {
-      "status": "À venir",
-      "provider": "API-Football",
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
       "providerId": "1635715",
-      "checkedAt": "2026-11-23T21:35:06.075Z",
+      "checkedAt": "2026-11-24T20:35:14.000Z",
       "observedLive": false,
       "reversed": false,
-      "statusCode": "NS"
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json"
     },
     "recCal20261123P66887190": {
       "status": "Terminé",
@@ -6322,84 +6322,94 @@
       "score": "1-5"
     },
     "recCal20261124L91409": {
-      "status": "En cours",
-      "provider": "FotMob — direct observé 2-1, 75:05 (provisoire)",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé",
       "sourceUrl": "https://www.fotmob.com/matches/durban-city-vs-polokwane-city/kk94zy8",
       "observedLive": true,
-      "checkedAt": "2026-11-24T19:35:03.000Z",
-      "reversed": false
+      "checkedAt": "2026-11-24T20:35:14.000Z",
+      "reversed": false,
+      "score": "3-1"
     },
     "recCal20261124L92503": {
-      "status": "En cours",
-      "provider": "FotMob — direct observé 0-0, 85:55 (provisoire)",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé",
       "sourceUrl": "https://www.fotmob.com/matches/orlando-pirates-vs-lamontville-golden-arrows/2rzmmgs",
       "observedLive": true,
-      "checkedAt": "2026-11-24T19:35:03.000Z",
-      "reversed": false
+      "checkedAt": "2026-11-24T20:35:14.000Z",
+      "reversed": false,
+      "score": "2-0"
     },
     "recCal20261124L92543": {
-      "status": "À venir",
-      "provider": "Live Tennis API",
+      "status": "En cours",
+      "provider": "TennisTemple — direct observé 2-5, 30-40 (provisoire)",
       "providerId": "224526",
-      "checkedAt": "2026-11-24T17:46:07.971Z",
-      "observedLive": false,
-      "reversed": false
+      "checkedAt": "2026-11-24T20:35:14.000Z",
+      "observedLive": true,
+      "reversed": false,
+      "sourceUrl": "https://en.tennistemple.com/match/hercog-costoulas-buenos-aires-2026/9571416/"
     },
     "recCal20261124P77061046": {
-      "status": "En cours",
-      "provider": "TennisTemple — direct observé 1-6, 5-5 (provisoire)",
+      "status": "Terminé",
+      "provider": "TennisTemple — abandon de Jimenez Kasintseva, Sierra qualifiée ; manches complètes 1-1, troisième set interrompu",
       "sourceUrl": "https://en.tennistemple.com/match/sierra-jimenez-kasintseva-buenos-aires-2026/9571404/",
       "observedLive": true,
-      "checkedAt": "2026-11-24T19:35:03.000Z",
-      "reversed": false
+      "checkedAt": "2026-11-24T20:35:14.000Z",
+      "reversed": false,
+      "score": "1-1 (ab.)",
+      "sets": "1-6, 7-6, 2-0 (ab.)"
     },
     "recCal20261124P74166014": {
-      "status": "En cours",
-      "provider": "FotMob — direct observé 0-0, 81:45 (provisoire)",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé",
       "sourceUrl": "https://www.fotmob.com/matches/bodoglimt-vs-lask/2ske3f",
       "observedLive": true,
-      "checkedAt": "2026-11-24T19:35:03.000Z",
-      "reversed": false
+      "checkedAt": "2026-11-24T20:35:14.000Z",
+      "reversed": false,
+      "score": "1-0"
     },
     "recCal20261124P74166016": {
-      "status": "En cours",
-      "provider": "FotMob — direct observé 1-0, 78:47 (provisoire)",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé",
       "sourceUrl": "https://www.fotmob.com/matches/galatasaray-vs-aston-villa/2y822y",
       "observedLive": true,
-      "checkedAt": "2026-11-24T19:35:03.000Z",
-      "reversed": false
+      "checkedAt": "2026-11-24T20:35:14.000Z",
+      "reversed": false,
+      "score": "1-0"
     },
     "recCal20261124L88502": {
-      "status": "En cours",
-      "provider": "Sofascore — direct observé 2-1, 53:17 (provisoire)",
+      "status": "Terminé",
+      "provider": "Sofascore — résultat final confirmé",
       "sourceUrl": "https://www.sofascore.com/football/match/al-sadd-al-nassr/atjsIUp",
       "observedLive": true,
-      "checkedAt": "2026-11-24T19:35:03.000Z",
-      "reversed": false
+      "checkedAt": "2026-11-24T20:35:14.000Z",
+      "reversed": false,
+      "score": "2-1"
     },
     "recCal20261124L91218": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-24T18:35:04.000Z",
+      "checkedAt": "2026-11-24T20:35:14.000Z",
       "reversed": false
     },
     "recCal20261124L91322": {
-      "status": "En cours",
-      "provider": "FotMob — dernier score observé 1-0 à la mi-temps (provisoire)",
-      "sourceUrl": "https://www.fotmob.com/es/matches/al-masry-sc-vs-asyut-petroleum/ddfgtii",
+      "status": "Terminé",
+      "provider": "Scores24 — résultat final confirmé",
+      "sourceUrl": "https://scores24.live/en/soccer/m-24-11-2026-al-masry-club-asyut-petroleum",
       "observedLive": true,
-      "checkedAt": "2026-11-24T19:35:03.000Z",
-      "reversed": false
+      "checkedAt": "2026-11-24T20:35:14.000Z",
+      "reversed": false,
+      "score": "2-0"
     },
     "recCal20261124P73093146": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "checkedAt": "2026-11-24T18:35:04.000Z",
-      "reversed": false
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/juve-stabia-vs-catanzaro/stats/574019",
+      "observedLive": true,
+      "checkedAt": "2026-11-24T20:35:14.000Z",
+      "reversed": false,
+      "score": "1-3"
     },
     "recCal20261124P73093092": {
       "status": "En cours",
@@ -6460,19 +6470,245 @@
     },
     "recCal20261124P73661202": {
       "status": "En cours",
-      "provider": "FotMob — direct observé 0-0, 8:12 (provisoire)",
+      "provider": "FotMob — direct observé 1-1, 49:29 (provisoire)",
       "sourceUrl": "https://www.fotmob.com/matches/tranmere-rovers-vs-everton-u21/3wgb7i8y",
       "observedLive": true,
-      "checkedAt": "2026-11-24T19:35:03.000Z",
+      "checkedAt": "2026-11-24T20:35:14.000Z",
       "reversed": false
     },
     "recCal20261124L92445": {
-      "status": "En cours",
-      "provider": "TennisTemple — direct observé 2-6, 2-5 (provisoire)",
+      "status": "Terminé",
+      "provider": "TennisTemple — résultat final confirmé",
       "sourceUrl": "https://en.tennistemple.com/match/ayala-burillo-buenos-aires-2026/9571418/",
       "observedLive": true,
-      "checkedAt": "2026-11-24T19:35:03.000Z",
-      "reversed": false
+      "checkedAt": "2026-11-24T20:35:14.000Z",
+      "reversed": false,
+      "score": "0-2",
+      "sets": "2-6, 2-6"
+    },
+    "recCal20261124P72740840": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P75078274": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P72740842": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P75152324": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P72340056": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P76396374": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P72340058": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P72740844": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P72340060": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P75152506": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P72740846": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P72740848": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124L89071": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124L91640": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P72740850": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P72340062": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P72340064": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P75464906": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P72340066": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P72740852": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P72340068": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P75094672": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P72740854": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P74166018": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P74166020": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P74166022": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124L89093": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P74166024": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P74166026": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P74166030": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P72340070": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
+    },
+    "recCal20261124P77061028": {
+      "status": "En cours",
+      "provider": "TennisTemple — tableau actualisé, points 30-15 (premier jeu provisoire)",
+      "sourceUrl": "https://en.tennistemple.com/competitions/buenos-aires/ladies/draw",
+      "observedLive": true,
+      "checkedAt": "2026-11-24T20:35:14.000Z"
     }
   }
 }
