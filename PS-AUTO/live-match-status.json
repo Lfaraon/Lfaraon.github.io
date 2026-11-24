@@ -6322,18 +6322,18 @@
       "score": "1-5"
     },
     "recCal20261124L91409": {
-      "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
-      "observedLive": false,
+      "status": "En cours",
+      "provider": "FotMob — direct observé 2-1, 75:05 (provisoire)",
+      "sourceUrl": "https://www.fotmob.com/matches/durban-city-vs-polokwane-city/kk94zy8",
+      "observedLive": true,
       "checkedAt": "2026-11-24T19:35:03.000Z",
       "reversed": false
     },
     "recCal20261124L92503": {
-      "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
-      "observedLive": false,
+      "status": "En cours",
+      "provider": "FotMob — direct observé 0-0, 85:55 (provisoire)",
+      "sourceUrl": "https://www.fotmob.com/matches/orlando-pirates-vs-lamontville-golden-arrows/2rzmmgs",
+      "observedLive": true,
       "checkedAt": "2026-11-24T19:35:03.000Z",
       "reversed": false
     },
@@ -6418,12 +6418,13 @@
       "reversed": false
     },
     "recCal20261124P73661560": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Reporté",
+      "provider": "Leeds United — report officiel au 25.11.2026 à 20h00 suisse (pluie)",
+      "sourceUrl": "https://www.leedsunited.com/en/news/match-postponed-u21s-efl-trophy-tie-at-fleetwood-moved-back-24-hours",
       "observedLive": false,
       "checkedAt": "2026-11-24T19:35:03.000Z",
-      "reversed": false
+      "reversed": false,
+      "rescheduledKickoff": "2026-11-25T19:00:00.000Z"
     },
     "recCal20261124P73093148": {
       "status": "En cours",
@@ -6451,17 +6452,17 @@
     },
     "recCal20261124P73701308": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
-      "observedLive": false,
+      "provider": "The Fishy — direct observé 1-0, 12e (provisoire)",
+      "sourceUrl": "https://www.thefishy.co.uk/livematch2/salford-v-sunderland-u21-1588819",
+      "observedLive": true,
       "checkedAt": "2026-11-24T19:35:03.000Z",
       "reversed": false
     },
     "recCal20261124P73661202": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
-      "observedLive": false,
+      "provider": "FotMob — direct observé 0-0, 8:12 (provisoire)",
+      "sourceUrl": "https://www.fotmob.com/matches/tranmere-rovers-vs-everton-u21/3wgb7i8y",
+      "observedLive": true,
       "checkedAt": "2026-11-24T19:35:03.000Z",
       "reversed": false
     },
