@@ -6148,22 +6148,23 @@
       "score": "2-1"
     },
     "recCal20261124P72740838": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "providerId": "1585353",
-      "checkedAt": "2026-11-24T20:35:14.000Z",
+      "checkedAt": "2026-11-24T22:35:03.000Z",
       "observedLive": false,
       "reversed": false,
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json"
     },
     "recCal20261124P74166028": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "status": "Terminé",
+      "provider": "UEFA — résultat vérifié",
       "providerId": "1635715",
-      "checkedAt": "2026-11-24T20:35:14.000Z",
+      "checkedAt": "2026-11-24T22:35:03.000Z",
       "observedLive": false,
       "reversed": false,
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.uefa.com/uefachampionsleague/match/2049625--real-madrid-vs-psv/",
+      "score": "5-1"
     },
     "recCal20261123P66887190": {
       "status": "Terminé",
@@ -6341,13 +6342,15 @@
       "score": "2-0"
     },
     "recCal20261124L92543": {
-      "status": "En cours",
-      "provider": "TennisTemple — dernier direct observé 2-6, 2-4, 0-15 (provisoire; fiche 18:05 locale)",
+      "status": "Terminé",
+      "provider": "TennisTemple — Costoulas qualifiée, deuxième set incomplet, motif non précisé — résultat vérifié",
       "providerId": "224526",
-      "checkedAt": "2026-11-24T21:35:02.000Z",
-      "observedLive": true,
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "observedLive": false,
       "reversed": false,
-      "sourceUrl": "https://en.tennistemple.com/match/hercog-costoulas-buenos-aires-2026/9571416/"
+      "sourceUrl": "https://en.tennistemple.com/match/hercog-costoulas-buenos-aires-2026/9571416/draw",
+      "score": "0-1 (interrompu)",
+      "sets": "2-6, 2-4 (interrompu)"
     },
     "recCal20261124P77061046": {
       "status": "Terminé",
@@ -6450,11 +6453,12 @@
     },
     "recCal20261124P73661256": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "MatchTide FT — résultat vérifié",
+      "sourceUrl": "https://matchtide.net/matches/118273-oxford-united-vs-tottenham-hotspur-u21",
       "observedLive": false,
-      "checkedAt": "2026-11-24T21:35:02.000Z",
-      "reversed": false
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "reversed": false,
+      "score": "2-1"
     },
     "recCal20261124P73093154": {
       "status": "Terminé",
@@ -6494,235 +6498,256 @@
       "sets": "2-6, 2-6"
     },
     "recCal20261124P72740840": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z"
     },
     "recCal20261124P75078274": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Guardian FT — résultat vérifié",
+      "sourceUrl": "https://www.theguardian.com/football/live",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "1-1"
     },
     "recCal20261124P72740842": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z"
     },
     "recCal20261124P75152324": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z"
     },
     "recCal20261124P72340056": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat vérifié",
+      "sourceUrl": "https://www.skysports.com/football/bristol-city-vs-wrexham/report/560690",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "1-1"
     },
     "recCal20261124P76396374": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z"
     },
     "recCal20261124P72340058": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Guardian FT — résultat vérifié",
+      "sourceUrl": "https://www.theguardian.com/football/live",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "0-4"
     },
     "recCal20261124P72740844": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z"
     },
     "recCal20261124P72340060": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat vérifié",
+      "sourceUrl": "https://www.skysports.com/watch/video/sports/13616155/charlton-4-0-lincoln-championship-highlights",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "4-0"
     },
     "recCal20261124P75152506": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Guardian FT — résultat vérifié",
+      "sourceUrl": "https://www.theguardian.com/football/live",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "0-0"
     },
     "recCal20261124P72740846": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z"
     },
     "recCal20261124P72740848": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat vérifié",
+      "sourceUrl": "https://www.skysports.com/football/forest-green-rovers-vs-southend-united/teams/566571",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "0-2"
     },
     "recCal20261124L89071": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Guardian FT — résultat vérifié",
+      "sourceUrl": "https://www.theguardian.com/football/live",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "2-1"
     },
     "recCal20261124L91640": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z"
     },
     "recCal20261124P72740850": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z"
     },
     "recCal20261124P72340062": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat vérifié",
+      "sourceUrl": "https://www.skysports.com/football/middlesbrough-vs-swansea-city/teams/560693",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "2-1"
     },
     "recCal20261124P72340064": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat vérifié",
+      "sourceUrl": "https://www.skysports.com/football/norwich-city-vs-queens-park-rangers/report/560694",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "1-1"
     },
     "recCal20261124P75464906": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Guardian FT — résultat vérifié",
+      "sourceUrl": "https://www.theguardian.com/football/live",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "1-1"
     },
     "recCal20261124P72340066": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "West Ham FC — résultat vérifié",
+      "sourceUrl": "https://www.whufc.com/en/news/match-report-or-woodwork-and-portsmouth-frustrate-west-ham",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "1-0"
     },
     "recCal20261124P72740852": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z"
     },
     "recCal20261124P72340068": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat vérifié",
+      "sourceUrl": "https://www.skysports.com/football/news/13610524/sheffield-united-1-1-southampton-sydie-peck-strikes-again-to-earn-point-for-blades",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "1-1"
     },
     "recCal20261124P75094672": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z"
     },
     "recCal20261124P72740854": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z"
     },
     "recCal20261124P74166018": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "UEFA — résultat vérifié",
+      "sourceUrl": "https://www.uefa.com/uefachampionsleague/match/2049627--arsenal-vs-b-dortmund/",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "1-1"
     },
     "recCal20261124P74166020": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "UEFA — résultat vérifié",
+      "sourceUrl": "https://www.uefa.com/uefachampionsleague/match/2049633--como-vs-aek-athens/",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "1-0"
     },
     "recCal20261124P74166022": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "UEFA — résultat vérifié",
+      "sourceUrl": "https://www.uefa.com/uefachampionsleague/match/2049628--feyenoord-vs-porto/",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "0-1"
     },
     "recCal20261124L89093": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z"
     },
     "recCal20261124P74166024": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "UEFA — résultat vérifié",
+      "sourceUrl": "https://www.uefa.com/uefachampionsleague/match/2049626--man-city-vs-napoli/",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "2-2"
     },
     "recCal20261124P74166026": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "UEFA — résultat vérifié",
+      "sourceUrl": "https://www.uefa.com/uefachampionsleague/match/2049630--leipzig-vs-lens/",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "3-1"
     },
     "recCal20261124P74166030": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "UEFA — résultat vérifié",
+      "sourceUrl": "https://www.uefa.com/uefachampionsleague/match/2049632--s-bratislava-vs-real-betis/",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "0-2"
     },
     "recCal20261124P72340070": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat vérifié",
+      "sourceUrl": "https://www.skysports.com/football/wolverhampton-wanderers-vs-derby-county/report/560697",
       "observedLive": false,
-      "checkedAt": "2026-11-24T20:35:14.000Z"
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "3-0"
     },
     "recCal20261124P77061028": {
-      "status": "En cours",
-      "provider": "TennisTemple — points et jeux observés, dernier affichage 4-2 puis 6-6 sans fin confirmée (provisoire)",
-      "sourceUrl": "https://en.tennistemple.com/match/podoroska-romero-gormaz-buenos-aires-2026/9571415/",
-      "observedLive": true,
-      "checkedAt": "2026-11-24T21:35:02.000Z"
+      "status": "Terminé",
+      "provider": "TennisTemple — tableau final, Podoroska qualifiée — résultat vérifié",
+      "sourceUrl": "https://en.tennistemple.com/match/podoroska-romero-gormaz-buenos-aires-2026/9571415/draw",
+      "observedLive": false,
+      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "score": "2-0",
+      "sets": "7-6, 6-0"
     },
     "recCal20261124P66887216": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "checkedAt": "2026-11-24T21:35:02.000Z"
+      "provider": "RotaScore — mi-temps observée 2-0 à 22h55, score provisoire",
+      "sourceUrl": "https://www.rotascore.com/nb/match/chapecoense-palmeiras-sp/l7oqdehg8ne8r51",
+      "observedLive": true,
+      "checkedAt": "2026-11-24T22:35:03.000Z"
     }
   }
 }
