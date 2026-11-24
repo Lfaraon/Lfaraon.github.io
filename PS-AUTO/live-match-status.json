@@ -6191,12 +6191,13 @@
       "score": "0-2"
     },
     "recCal20261124P76609950": {
-      "status": "En cours",
-      "provider": "FOX Sports — jeu observé",
-      "sourceUrl": "https://www.foxsports.com/soccer/mls-saint-louis-city-sc-vs-los-angeles-fc-nov-23-2026-game-boxscore-1100326",
+      "status": "Terminé",
+      "provider": "First Alert 4 — résultat final confirmé (également Angels on Parade)",
+      "sourceUrl": "https://www.firstalert4.com/2026/11/24/city-sc-defeats-lafc-3-2-home-mls-playoffs/",
       "observedLive": true,
-      "statusBasis": "1-0 à la 45e, confirmé à la pause par Bleacher Report ; score non final.",
-      "checkedAt": "2026-11-24T02:35:02.000Z"
+      "statusBasis": "Résultat final confirmé par le compte rendu du match ; direct observé au contrôle précédent.",
+      "checkedAt": "2026-11-24T03:35:04.000Z",
+      "score": "3-2"
     }
   }
 }
