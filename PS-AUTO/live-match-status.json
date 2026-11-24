@@ -6149,12 +6149,13 @@
     },
     "recCal20261124P72740838": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Football Web Pages — résultat final confirmé",
       "providerId": "1585353",
-      "checkedAt": "2026-11-24T22:35:03.000Z",
+      "checkedAt": "2026-11-24T23:35:02.000Z",
       "observedLive": false,
       "reversed": false,
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json"
+      "sourceUrl": "https://www.footballwebpages.co.uk/match/2026-2027/national-league/afc-fylde/fc-halifax-town/572648",
+      "score": "0-2"
     },
     "recCal20261124P74166028": {
       "status": "Terminé",
@@ -6500,10 +6501,11 @@
     },
     "recCal20261124P72740840": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Football Web Pages — résultat final confirmé",
+      "sourceUrl": "https://www.footballwebpages.co.uk/match/2026-2027/national-league/altrincham/wealdstone/572643",
       "observedLive": false,
-      "checkedAt": "2026-11-24T22:35:03.000Z"
+      "checkedAt": "2026-11-24T23:35:02.000Z",
+      "score": "3-0"
     },
     "recCal20261124P75078274": {
       "status": "Terminé",
@@ -6515,10 +6517,11 @@
     },
     "recCal20261124P72740842": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/boston-united-vs-barrow/live/566568",
       "observedLive": false,
-      "checkedAt": "2026-11-24T22:35:03.000Z"
+      "checkedAt": "2026-11-24T23:35:02.000Z",
+      "score": "0-1"
     },
     "recCal20261124P75152324": {
       "status": "Terminé",
@@ -6538,10 +6541,11 @@
     },
     "recCal20261124P76396374": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/news/13610517/bromley-1-1-wycombe",
       "observedLive": false,
-      "checkedAt": "2026-11-24T22:35:03.000Z"
+      "checkedAt": "2026-11-24T23:35:02.000Z",
+      "score": "1-1"
     },
     "recCal20261124P72340058": {
       "status": "Terminé",
@@ -6553,10 +6557,11 @@
     },
     "recCal20261124P72740844": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Football Web Pages — résultat final confirmé",
+      "sourceUrl": "https://www.footballwebpages.co.uk/match/2026-2027/national-league/carlisle-united/tamworth/572645",
       "observedLive": false,
-      "checkedAt": "2026-11-24T22:35:03.000Z"
+      "checkedAt": "2026-11-24T23:35:02.000Z",
+      "score": "1-2"
     },
     "recCal20261124P72340060": {
       "status": "Terminé",
@@ -6576,10 +6581,11 @@
     },
     "recCal20261124P72740846": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Football Web Pages — résultat final confirmé",
+      "sourceUrl": "https://www.footballwebpages.co.uk/match/2026-2027/national-league/eastleigh/yeovil-town/572646",
       "observedLive": false,
-      "checkedAt": "2026-11-24T22:35:03.000Z"
+      "checkedAt": "2026-11-24T23:35:02.000Z",
+      "score": "1-3"
     },
     "recCal20261124P72740848": {
       "status": "Terminé",
@@ -6598,18 +6604,19 @@
       "score": "2-1"
     },
     "recCal20261124L91640": {
-      "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Reporté",
+      "provider": "Betting Academy — report indiqué, nouvelle date non confirmée",
+      "sourceUrl": "https://www.bettingacademyus.com/stats/match/wales/premier-league/holywell/penybont/R9yZwx621mXWe/live",
       "observedLive": false,
-      "checkedAt": "2026-11-24T22:35:03.000Z"
+      "checkedAt": "2026-11-24T23:35:02.000Z"
     },
     "recCal20261124P72740850": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Football Web Pages — résultat final confirmé",
+      "sourceUrl": "https://www.footballwebpages.co.uk/match/2026-2027/national-league/hornchurch/sutton-united/572649",
       "observedLive": false,
-      "checkedAt": "2026-11-24T22:35:03.000Z"
+      "checkedAt": "2026-11-24T23:35:02.000Z",
+      "score": "0-0"
     },
     "recCal20261124P72340062": {
       "status": "Terminé",
@@ -6645,10 +6652,11 @@
     },
     "recCal20261124P72740852": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Football Web Pages — résultat final confirmé",
+      "sourceUrl": "https://www.footballwebpages.co.uk/match/2026-2027/national-league/scunthorpe-united/gateshead/572650",
       "observedLive": false,
-      "checkedAt": "2026-11-24T22:35:03.000Z"
+      "checkedAt": "2026-11-24T23:35:02.000Z",
+      "score": "1-2"
     },
     "recCal20261124P72340068": {
       "status": "Terminé",
@@ -6660,17 +6668,19 @@
     },
     "recCal20261124P75094672": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/stevenage-vs-sheffield-wednesday/report/561695",
       "observedLive": false,
-      "checkedAt": "2026-11-24T22:35:03.000Z"
+      "checkedAt": "2026-11-24T23:35:02.000Z",
+      "score": "0-0"
     },
     "recCal20261124P72740854": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Football Web Pages — résultat final confirmé",
+      "sourceUrl": "https://www.footballwebpages.co.uk/match/2026-2027/national-league/woking/worthing/572651",
       "observedLive": false,
-      "checkedAt": "2026-11-24T22:35:03.000Z"
+      "checkedAt": "2026-11-24T23:35:02.000Z",
+      "score": "4-3"
     },
     "recCal20261124P74166018": {
       "status": "Terminé",
@@ -6698,10 +6708,11 @@
     },
     "recCal20261124L89093": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://Lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/rangers-vs-aberdeen/report/578619",
       "observedLive": false,
-      "checkedAt": "2026-11-24T22:35:03.000Z"
+      "checkedAt": "2026-11-24T23:35:02.000Z",
+      "score": "3-2"
     },
     "recCal20261124P74166024": {
       "status": "Terminé",
@@ -6745,11 +6756,12 @@
       "sets": "7-6, 6-0"
     },
     "recCal20261124P66887216": {
-      "status": "En cours",
-      "provider": "RotaScore — mi-temps observée 2-0 à 22h55, score provisoire",
-      "sourceUrl": "https://www.rotascore.com/nb/match/chapecoense-palmeiras-sp/l7oqdehg8ne8r51",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé",
+      "sourceUrl": "https://www.fotmob.com/en-GB/matches/palmeiras-vs-chapecoense/9xocb69",
       "observedLive": true,
-      "checkedAt": "2026-11-24T22:35:03.000Z"
+      "checkedAt": "2026-11-24T23:35:02.000Z",
+      "score": "3-0"
     }
   }
 }
