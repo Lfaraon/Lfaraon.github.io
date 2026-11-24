@@ -1,4 +1,4 @@
-import { nextTicketKickoff, renderFollowedTickets, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=personal-stakes";
+import { nextTicketKickoff, renderFollowedTickets, renderLatestTickets, renderPlayedTickets, renderTickets, ticketsForView } from "./tickets.js?rev=stake-label";
 import { readFollowingState } from "./following.js?rev=personal-stakes";
 import { createTicketFilters } from "./ticketFilters.js?rev=followed-matches-search";
 import { buildFollowedMatches } from "./followedMatches.js?rev=followed-matches-search";

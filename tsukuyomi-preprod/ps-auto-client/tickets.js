@@ -337,7 +337,7 @@ function createPersonalStakeEditor(doc, ticket, following, draft) {
     }
   });
   syncSave();
-  label.append(element(doc, "span", "", "Mise personnelle (CHF)"), input);
+  label.append(element(doc, "span", "", "Mise personnelle"), input);
   editor.append(label, save);
   return editor;
 }
