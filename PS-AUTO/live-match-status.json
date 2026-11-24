@@ -6128,13 +6128,13 @@
       "score": "1-1"
     },
     "recCal20261124L91163": {
-      "status": "À venir",
-      "provider": "API-Football",
+      "status": "En cours",
+      "provider": "FotMob — direct observé, 0-0 à 16:43 (score provisoire)",
       "providerId": "1629984",
-      "checkedAt": "2026-11-23T21:35:06.075Z",
-      "observedLive": false,
+      "checkedAt": "2026-11-24T12:35:05.000Z",
+      "observedLive": true,
       "reversed": false,
-      "statusCode": "NS"
+      "sourceUrl": "https://www.fotmob.com/matches/vissel-kobe-vs-cong-ha-noi/2g0u41lx"
     },
     "recCal20261124P73093158": {
       "status": "À venir",
@@ -6209,20 +6209,38 @@
       "score": "1-2"
     },
     "recCal20261124L91162": {
-      "status": "En cours",
-      "provider": "FotMob — direct observé, 3-2 à 53:25 (score provisoire)",
-      "checkedAt": "2026-11-24T11:35:04.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-24T12:35:05.000Z",
       "observedLive": true,
       "reversed": false,
-      "sourceUrl": "https://www.fotmob.com/matches/beijing-guoan-vs-daejeon-hana-citizen/4dniw2s"
+      "sourceUrl": "https://www.fotmob.com/matches/beijing-guoan-vs-daejeon-hana-citizen/4dniw2s",
+      "score": "3-2"
     },
     "recCal20261124L91164": {
-      "status": "En cours",
-      "provider": "FotMob — direct observé, 1-0 à 75:08 (score provisoire)",
-      "checkedAt": "2026-11-24T11:35:04.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-24T12:35:05.000Z",
       "observedLive": true,
       "reversed": false,
-      "sourceUrl": "https://www.fotmob.com/matches/kyoto-sanga-fc-vs-pohang-steelers/36z2d94"
+      "sourceUrl": "https://www.fotmob.com/matches/kyoto-sanga-fc-vs-pohang-steelers/36z2d94",
+      "score": "1-0"
+    },
+    "recCal20261124L91161": {
+      "status": "En cours",
+      "provider": "FotMob — direct observé, 0-0 à 13:13 (score provisoire)",
+      "checkedAt": "2026-11-24T12:35:05.000Z",
+      "observedLive": true,
+      "reversed": false,
+      "sourceUrl": "https://www.fotmob.com/matches/johor-darul-tazim-vs-ratchaburi-fc/2715cbcb"
+    },
+    "recCal20261124L91160": {
+      "status": "En cours",
+      "provider": "FotMob — direct observé, 0-0 à 8:08 (score provisoire)",
+      "checkedAt": "2026-11-24T12:35:05.000Z",
+      "observedLive": true,
+      "reversed": false,
+      "sourceUrl": "https://www.fotmob.com/matches/buriram-united-vs-shanghai-port/ues0vee"
     }
   }
 }
