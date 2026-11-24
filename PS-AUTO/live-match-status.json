@@ -6182,20 +6182,21 @@
       "score": "1-1"
     },
     "recCal20261124P66887182": {
-      "status": "En cours",
-      "provider": "UOL — jeu observé",
+      "status": "Terminé",
+      "provider": "UOL — résultat final confirmé",
       "sourceUrl": "https://placar.uol.com.br/esporte/futebol/brasileirao/2026/11/23/santos-x-gremio.htm",
-      "statusBasis": "0-1 à la pause, reprise confirmée ; score non final.",
-      "checkedAt": "2026-11-24T01:35:03.000Z",
-      "observedLive": true
+      "statusBasis": "Coup de sifflet final confirmé ; Santos 0-2 Grêmio.",
+      "checkedAt": "2026-11-24T02:35:02.000Z",
+      "observedLive": true,
+      "score": "0-2"
     },
     "recCal20261124P76609950": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "statusBasis": "Horaire dépassé de 35 min ; aucun jeu observé.",
-      "checkedAt": "2026-11-24T01:35:03.000Z"
+      "provider": "FOX Sports — jeu observé",
+      "sourceUrl": "https://www.foxsports.com/soccer/mls-saint-louis-city-sc-vs-los-angeles-fc-nov-23-2026-game-boxscore-1100326",
+      "observedLive": true,
+      "statusBasis": "1-0 à la 45e, confirmé à la pause par Bleacher Report ; score non final.",
+      "checkedAt": "2026-11-24T02:35:02.000Z"
     }
   }
 }
