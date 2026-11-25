@@ -6767,10 +6767,10 @@
     },
     "recCal20261125P76609952": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-25T03:34:39.000Z",
-      "observedLive": false,
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json"
+      "provider": "Bleacher Report — direct observé (2-0 à la 42e, score provisoire)",
+      "checkedAt": "2026-11-25T04:31:10.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://bleacherreport.com/game/san-jose-earthquakes-vs-houston-dynamo-2026-11-24-19-00"
     }
   }
 }
