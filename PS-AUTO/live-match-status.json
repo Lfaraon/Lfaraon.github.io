@@ -6879,10 +6879,10 @@
     },
     "recCal20261125L91368": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-25T15:39:49.000Z",
-      "observedLive": false,
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json"
+      "provider": "FotMob — direct confirmé par chronomètre (52:51), événements et statistiques",
+      "checkedAt": "2026-11-25T16:40:04.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/matches/talaea-el-gaish-vs-modern-sport-fc/55mhsvdg"
     }
   }
 }
