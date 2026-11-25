@@ -6437,10 +6437,10 @@
     },
     "recCal20261124P73661560": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "checkedAt": "2026-11-25T19:33:47.000Z",
+      "provider": "ScoreMondo — tableau du jour, direct observé (57e minute)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "observedLive": true,
+      "checkedAt": "2026-11-25T20:30:10.000Z",
       "reversed": false,
       "rescheduledKickoff": "2026-11-25T19:00:00.000Z"
     },
@@ -6854,30 +6854,33 @@
       "score": "2-1"
     },
     "recCal20261125L92663": {
-      "status": "En cours",
-      "provider": "news.de — liveticker du 25.11 à 19h20, jeux et points observés (début confirmé)",
+      "status": "Terminé",
+      "provider": "MyKhel — RETIRED ; Erjavec qualifiée, abandon Trevisan, une manche complète",
       "providerId": "225053",
-      "checkedAt": "2026-11-25T19:33:47.000Z",
+      "checkedAt": "2026-11-25T20:30:10.000Z",
       "observedLive": true,
       "reversed": true,
-      "sourceUrl": "https://www.news.de/sport/860208412/wta-tennis-2026-in-buenos-aires-ieb-argentina-open-ticker-ergebnisse-spielplan/1/"
+      "sourceUrl": "https://www.mykhel.com/tennis/ieb-argentina-open-2026-womens-singles-1-16-final-live-scoreboard-441597/",
+      "score": "0-1 (ab.)",
+      "sets": "0-6, 1-3 (ab.)"
     },
     "recCal20261125L92669": {
       "status": "En cours",
-      "provider": "Tennis Majors — fiche individuelle, 1er set 0-1 observé",
+      "provider": "Tennis Majors — fiche individuelle, second set en cours après 7-5",
       "providerId": "225054",
-      "checkedAt": "2026-11-25T19:33:47.000Z",
+      "checkedAt": "2026-11-25T20:30:10.000Z",
       "observedLive": true,
       "reversed": false,
       "sourceUrl": "https://www.tennismajors.com/matches/wta/argentina-open/alicia-herrero-linana-vs-ariana-geerlings"
     },
     "recCal20261125L92590": {
-      "status": "À venir",
-      "provider": "Live Tennis API",
+      "status": "En cours",
+      "provider": "news.de — liveticker WTA 21h30, premier set 7-5 puis 0-0 ; début réel confirmé",
       "providerId": "224739",
-      "checkedAt": "2026-11-25T12:56:03.379Z",
-      "observedLive": false,
-      "reversed": true
+      "checkedAt": "2026-11-25T20:30:10.000Z",
+      "observedLive": true,
+      "reversed": true,
+      "sourceUrl": "https://www.news.de/sport/860208412/wta-tennis-2026-in-buenos-aires-ieb-argentina-open-ticker-ergebnisse-spielplan/1/"
     },
     "recCal20261125L91368": {
       "status": "Terminé",
@@ -6888,74 +6891,172 @@
       "score": "0-0"
     },
     "recCal20261125P74166032": {
-      "status": "En cours",
-      "provider": "FotMob — direct confirmé",
-      "checkedAt": "2026-11-25T19:33:47.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-25T20:30:10.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/barcelona-vs-sabah-fk/5vx6ki4t"
+      "sourceUrl": "https://www.fotmob.com/matches/barcelona-vs-sabah-fk/5vx6ki4t",
+      "score": "1-4"
     },
     "recCal20261125P74166034": {
-      "status": "En cours",
-      "provider": "FotMob — direct confirmé",
-      "checkedAt": "2026-11-25T19:33:47.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-25T20:30:10.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/slavia-prague-vs-villarreal/2odhv3"
+      "sourceUrl": "https://www.fotmob.com/matches/slavia-prague-vs-villarreal/2odhv3",
+      "score": "0-1"
     },
     "recCal20261125L91471": {
-      "status": "En cours",
-      "provider": "FotMob — direct confirmé",
-      "checkedAt": "2026-11-25T19:33:47.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-25T20:30:10.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/al-sharkeyah-enppi-vs-ceramica-cleopatra/37uugjhn"
+      "sourceUrl": "https://www.fotmob.com/matches/al-sharkeyah-enppi-vs-ceramica-cleopatra/37uugjhn",
+      "score": "1-0"
     },
     "recCal20261125L91478": {
-      "status": "En cours",
-      "provider": "FotMob — direct confirmé",
-      "checkedAt": "2026-11-25T19:33:47.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-25T20:30:10.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/ghazl-al-mahalla-vs-petrojet-suez/9mq8shm"
+      "sourceUrl": "https://www.fotmob.com/matches/ghazl-al-mahalla-vs-petrojet-suez/9mq8shm",
+      "score": "2-0"
     },
     "recCal20261125P73093096": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-25T18:38:44Z",
-      "observedLive": false,
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+      "status": "Terminé",
+      "provider": "Y Avellino — compte rendu, fin de match confirmée",
+      "checkedAt": "2026-11-25T20:30:10.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://avellino.ysport.eu/cremonese-avellino-diretta-aggiornamenti-live-su-risultato-marcatori-e-azioni-salienti-serie-b-2026-27-3/",
+      "score": "0-1"
     },
     "recCal20261125P77061030": {
-      "status": "En cours",
-      "provider": "news.de — liveticker du 25.11 à 19h20, jeux et points observés (début confirmé)",
-      "sourceUrl": "https://www.news.de/sport/860208412/wta-tennis-2026-in-buenos-aires-ieb-argentina-open-ticker-ergebnisse-spielplan/1/",
-      "checkedAt": "2026-11-25T19:33:47.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "ScoreMon — FT confirmé ; sets confirmés par liveticker WTA news.de",
+      "sourceUrl": "https://scoremon.com/tennis/wta-125-buenos-aires-argentina-women-singles/carle-ml-vs-larraya-guidi-s-2026-11-25/result",
+      "checkedAt": "2026-11-25T20:30:10.000Z",
+      "observedLive": true,
+      "score": "0-2",
+      "sets": "3-6, 1-6"
     },
     "recCal20261125P73093150": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-25T19:33:47.000Z",
-      "observedLive": false
+      "provider": "ScoreMondo — tableau du jour, direct observé (52e minute)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "checkedAt": "2026-11-25T20:30:10.000Z",
+      "observedLive": true
     },
     "recCal20261125P72740856": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-25T19:33:47.000Z",
-      "observedLive": false
+      "provider": "ScoreMondo — tableau du jour, direct observé (55e minute)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "checkedAt": "2026-11-25T20:30:10.000Z",
+      "observedLive": true
     },
     "recCal20261125P73093156": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-25T19:33:47.000Z",
-      "observedLive": false
+      "provider": "ScoreMondo — tableau du jour, direct observé (56e minute)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "checkedAt": "2026-11-25T20:30:10.000Z",
+      "observedLive": true
     },
     "recCal20261125P73093152": {
       "status": "En cours",
+      "provider": "ScoreMondo — tableau du jour, direct observé (51e minute)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "checkedAt": "2026-11-25T20:30:10.000Z",
+      "observedLive": true
+    },
+    "recCal20261125P72340072": {
+      "status": "En cours",
+      "provider": "ScoreMondo — tableau du jour, direct observé (21e minute, but confirmé)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "observedLive": true,
+      "checkedAt": "2026-11-25T20:30:10.000Z"
+    },
+    "recCal20261125P72340074": {
+      "status": "En cours",
+      "provider": "ScoreMondo — tableau du jour, direct observé (27e minute)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "observedLive": true,
+      "checkedAt": "2026-11-25T20:30:10.000Z"
+    },
+    "recCal20261125P72740858": {
+      "status": "En cours",
+      "provider": "ScoreMondo — tableau du jour, direct observé (30e minute)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "observedLive": true,
+      "checkedAt": "2026-11-25T20:30:10.000Z"
+    },
+    "recCal20261125P72740860": {
+      "status": "En cours",
+      "provider": "ScoreMondo — tableau du jour, direct observé (29e minute)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "observedLive": true,
+      "checkedAt": "2026-11-25T20:30:10.000Z"
+    },
+    "recCal20261125P72340078": {
+      "status": "En cours",
+      "provider": "ScoreMondo — tableau du jour, direct observé (29e minute)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "observedLive": true,
+      "checkedAt": "2026-11-25T20:30:10.000Z"
+    },
+    "recCal20261125P72340076": {
+      "status": "En cours",
+      "provider": "ScoreMondo — tableau du jour, direct observé (14e minute)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "observedLive": true,
+      "checkedAt": "2026-11-25T20:30:10.000Z"
+    },
+    "recCal20261125P74166038": {
+      "status": "En cours",
+      "provider": "ScoreMondo — tableau du jour, direct observé (12e minute)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "observedLive": true,
+      "checkedAt": "2026-11-25T20:30:10.000Z"
+    },
+    "recCal20261125P74166042": {
+      "status": "En cours",
+      "provider": "ScoreMondo — tableau du jour, direct observé (12e minute)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "observedLive": true,
+      "checkedAt": "2026-11-25T20:30:10.000Z"
+    },
+    "recCal20261125P74166040": {
+      "status": "En cours",
+      "provider": "ScoreMondo — tableau du jour, direct observé (première période)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "observedLive": true,
+      "checkedAt": "2026-11-25T20:30:10.000Z"
+    },
+    "recCal20261125P74166044": {
+      "status": "En cours",
+      "provider": "ScoreMondo — tableau du jour, direct observé (13e minute)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "observedLive": true,
+      "checkedAt": "2026-11-25T20:30:10.000Z"
+    },
+    "recCal20261125P74166046": {
+      "status": "En cours",
+      "provider": "ScoreMondo — tableau du jour, direct observé (but à la 5e minute)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "observedLive": true,
+      "checkedAt": "2026-11-25T20:30:10.000Z"
+    },
+    "recCal20261125P74166048": {
+      "status": "En cours",
+      "provider": "ScoreMondo — tableau du jour, direct observé (14e minute)",
+      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "observedLive": true,
+      "checkedAt": "2026-11-25T20:30:10.000Z"
+    },
+    "recCal20261125P74166036": {
+      "status": "En cours",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-25T19:33:47.000Z",
-      "observedLive": false
+      "observedLive": false,
+      "checkedAt": "2026-11-25T20:30:10.000Z"
     }
   }
 }
