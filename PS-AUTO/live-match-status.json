@@ -6942,17 +6942,19 @@
     },
     "recCal20261125P73093150": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-25T21:35:27.000Z",
-      "observedLive": false
+      "provider": "QuotaGuru — score final confirmé",
+      "sourceUrl": "https://www.quotaguru.it/calcio/serie-b/mantova-arezzo-2026-11-25/",
+      "checkedAt": "2026-11-25T22:39:50.000Z",
+      "observedLive": false,
+      "score": "3-0"
     },
     "recCal20261125P72740856": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-25T21:35:27.000Z",
-      "observedLive": false
+      "provider": "FootballNation — score final confirmé",
+      "sourceUrl": "https://footballnation.eu/match/national-league/2026/803266/",
+      "checkedAt": "2026-11-25T22:39:50.000Z",
+      "observedLive": false,
+      "score": "4-1"
     },
     "recCal20261125P73093156": {
       "status": "Terminé",
@@ -6971,95 +6973,108 @@
       "score": "1-2"
     },
     "recCal20261125P72340072": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (21e minute, but confirmé)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
-      "observedLive": true,
-      "checkedAt": "2026-11-25T20:30:10.000Z"
+      "status": "Terminé",
+      "provider": "Sky Sports — score final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/bolton-wanderers-vs-west-bromwich-albion/live/560698",
+      "observedLive": false,
+      "checkedAt": "2026-11-25T22:39:50.000Z",
+      "score": "1-3"
     },
     "recCal20261125P72340074": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (27e minute)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
-      "observedLive": true,
-      "checkedAt": "2026-11-25T20:30:10.000Z"
+      "status": "Terminé",
+      "provider": "Sky Sports — score final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/video/13616591/burnley-0-2-birmingham-city-championship-highlights",
+      "observedLive": false,
+      "checkedAt": "2026-11-25T22:39:50.000Z",
+      "score": "0-2"
     },
     "recCal20261125P72740858": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (30e minute)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
-      "observedLive": true,
-      "checkedAt": "2026-11-25T20:30:10.000Z"
+      "status": "Terminé",
+      "provider": "Football Web Pages — score final confirmé",
+      "sourceUrl": "https://www.footballwebpages.co.uk/match/2026-2027/national-league/harrogate-town/kidderminster-harriers/572653",
+      "observedLive": false,
+      "checkedAt": "2026-11-25T22:39:50.000Z",
+      "score": "3-1"
     },
     "recCal20261125P72740860": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (29e minute)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
-      "observedLive": true,
-      "checkedAt": "2026-11-25T20:30:10.000Z"
+      "status": "Terminé",
+      "provider": "Football Web Pages — score final confirmé",
+      "sourceUrl": "https://www.footballwebpages.co.uk/match/2026-2027/national-league/hartlepool-united/solihull-moors/572654",
+      "observedLive": false,
+      "checkedAt": "2026-11-25T22:39:50.000Z",
+      "score": "2-0"
     },
     "recCal20261125P72340078": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (29e minute)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
-      "observedLive": true,
-      "checkedAt": "2026-11-25T20:30:10.000Z"
+      "status": "Terminé",
+      "provider": "Football Web Pages — score final confirmé",
+      "sourceUrl": "https://www.footballwebpages.co.uk/match/2026-2027/championship/watford/blackburn-rovers/568077",
+      "observedLive": false,
+      "checkedAt": "2026-11-25T22:39:50.000Z",
+      "score": "0-1"
     },
     "recCal20261125P72340076": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (14e minute)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
-      "observedLive": true,
-      "checkedAt": "2026-11-25T20:30:10.000Z"
+      "status": "Terminé",
+      "provider": "Football Web Pages — score final confirmé",
+      "sourceUrl": "https://www.footballwebpages.co.uk/match/2026-2027/championship/stoke-city/millwall/568076",
+      "observedLive": false,
+      "checkedAt": "2026-11-25T22:39:50.000Z",
+      "score": "2-1"
     },
     "recCal20261125P74166038": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (12e minute)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
-      "observedLive": true,
-      "checkedAt": "2026-11-25T20:30:10.000Z"
+      "status": "Terminé",
+      "provider": "The Guardian — résultats définitifs — score final confirmé",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
+      "observedLive": false,
+      "checkedAt": "2026-11-25T22:39:50.000Z",
+      "score": "0-3"
     },
     "recCal20261125P74166042": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (12e minute)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
-      "observedLive": true,
-      "checkedAt": "2026-11-25T20:30:10.000Z"
+      "status": "Terminé",
+      "provider": "The Guardian — résultats définitifs — score final confirmé",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
+      "observedLive": false,
+      "checkedAt": "2026-11-25T22:39:50.000Z",
+      "score": "0-1"
     },
     "recCal20261125P74166040": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (première période)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
-      "observedLive": true,
-      "checkedAt": "2026-11-25T20:30:10.000Z"
+      "status": "Terminé",
+      "provider": "Inter — fiche officielle — score final confirmé",
+      "sourceUrl": "https://www.inter.it/en/match_center/5412",
+      "observedLive": false,
+      "checkedAt": "2026-11-25T22:39:50.000Z",
+      "score": "2-0"
     },
     "recCal20261125P74166044": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (13e minute)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
-      "observedLive": true,
-      "checkedAt": "2026-11-25T20:30:10.000Z"
+      "status": "Terminé",
+      "provider": "The Guardian — résultats définitifs — score final confirmé",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
+      "observedLive": false,
+      "checkedAt": "2026-11-25T22:39:50.000Z",
+      "score": "2-1"
     },
     "recCal20261125P74166046": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (but à la 5e minute)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
-      "observedLive": true,
-      "checkedAt": "2026-11-25T20:30:10.000Z"
+      "status": "Terminé",
+      "provider": "The Guardian — résultats définitifs — score final confirmé",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
+      "observedLive": false,
+      "checkedAt": "2026-11-25T22:39:50.000Z",
+      "score": "2-2"
     },
     "recCal20261125P74166048": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (14e minute)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
-      "observedLive": true,
-      "checkedAt": "2026-11-25T20:30:10.000Z"
+      "status": "Terminé",
+      "provider": "The Guardian — résultats définitifs — score final confirmé",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
+      "observedLive": false,
+      "checkedAt": "2026-11-25T22:39:50.000Z",
+      "score": "2-2"
     },
     "recCal20261125P74166036": {
-      "status": "En cours",
-      "provider": "Zerozero — fiche individuelle, direct observé (2-0 à la 35e minute, non final)",
-      "sourceUrl": "https://www.zerozero.gr/live-ao-minuto/2026-11-25-atletico-de-madrid-viking/12624730",
-      "observedLive": true,
-      "checkedAt": "2026-11-25T21:35:27.000Z"
+      "status": "Terminé",
+      "provider": "VG — compte rendu du match — score final confirmé",
+      "sourceUrl": "https://www.vg.no/sport/i/nLadxa/viking-atletico-madrid-0-2-alexander-soerloth-scoret-saa-haltet-han-av",
+      "observedLive": false,
+      "checkedAt": "2026-11-25T22:39:50.000Z",
+      "score": "2-0"
     }
   }
 }
