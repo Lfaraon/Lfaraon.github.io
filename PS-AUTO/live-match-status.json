@@ -6436,13 +6436,14 @@
       "score": "5-1"
     },
     "recCal20261124P73661560": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (57e minute)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
+      "status": "Terminé",
+      "provider": "BeSoccer — fiche individuelle, résultat final confirmé",
+      "sourceUrl": "https://www.besoccer.com/match/fleetwood-town/leeds-united-sub-21/202719410/lineups",
       "observedLive": true,
-      "checkedAt": "2026-11-25T20:30:10.000Z",
+      "checkedAt": "2026-11-25T21:35:27.000Z",
       "reversed": false,
-      "rescheduledKickoff": "2026-11-25T19:00:00.000Z"
+      "rescheduledKickoff": "2026-11-25T19:00:00.000Z",
+      "score": "2-1"
     },
     "recCal20261124P73093148": {
       "status": "Terminé",
@@ -6875,12 +6876,12 @@
     },
     "recCal20261125L92590": {
       "status": "En cours",
-      "provider": "news.de — liveticker WTA 21h30, premier set 7-5 puis 0-0 ; début réel confirmé",
+      "provider": "ScoreMondo — fiche individuelle, jeux et points observés (7-5, 1-0, AD-40), mise à jour affichée 21h39",
       "providerId": "224739",
-      "checkedAt": "2026-11-25T20:30:10.000Z",
+      "checkedAt": "2026-11-25T21:35:27.000Z",
       "observedLive": true,
       "reversed": true,
-      "sourceUrl": "https://www.news.de/sport/860208412/wta-tennis-2026-in-buenos-aires-ieb-argentina-open-ticker-ergebnisse-spielplan/1/"
+      "sourceUrl": "https://scoremondo.com/es/partido/ipek-oz-julia-riera-31680844"
     },
     "recCal20261125L91368": {
       "status": "Terminé",
@@ -6940,32 +6941,34 @@
       "sets": "3-6, 1-6"
     },
     "recCal20261125P73093150": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (52e minute)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
-      "checkedAt": "2026-11-25T20:30:10.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-25T21:35:27.000Z",
+      "observedLive": false
     },
     "recCal20261125P72740856": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (55e minute)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
-      "checkedAt": "2026-11-25T20:30:10.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-25T21:35:27.000Z",
+      "observedLive": false
     },
     "recCal20261125P73093156": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (56e minute)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
-      "checkedAt": "2026-11-25T20:30:10.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "BetArchives — résultat explicitement FT, score corroboré par Sky Sports",
+      "sourceUrl": "https://betarchives.com/match/pisa-vs-modena-2026-11-25",
+      "checkedAt": "2026-11-25T21:35:27.000Z",
+      "observedLive": true,
+      "score": "1-1"
     },
     "recCal20261125P73093152": {
-      "status": "En cours",
-      "provider": "ScoreMondo — tableau du jour, direct observé (51e minute)",
-      "sourceUrl": "https://scoremondo.com/en/date/2026-11-25",
-      "checkedAt": "2026-11-25T20:30:10.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "Triveneto Goal — compte rendu du match, résultat final",
+      "sourceUrl": "https://www.trivenetogoal.it/2026/11/25/padova-sampdoria-1-2-la-doppietta-di-mezzotero-punisce-i-biancoscudati-il-racconto-dallo-stadio-euganeo/269588/",
+      "checkedAt": "2026-11-25T21:35:27.000Z",
+      "observedLive": true,
+      "score": "1-2"
     },
     "recCal20261125P72340072": {
       "status": "En cours",
@@ -7053,10 +7056,10 @@
     },
     "recCal20261125P74166036": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "checkedAt": "2026-11-25T20:30:10.000Z"
+      "provider": "Zerozero — fiche individuelle, direct observé (2-0 à la 35e minute, non final)",
+      "sourceUrl": "https://www.zerozero.gr/live-ao-minuto/2026-11-25-atletico-de-madrid-viking/12624730",
+      "observedLive": true,
+      "checkedAt": "2026-11-25T21:35:27.000Z"
     }
   }
 }
