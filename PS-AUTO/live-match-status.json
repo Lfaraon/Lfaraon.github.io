@@ -6764,6 +6764,13 @@
       "observedLive": true,
       "checkedAt": "2026-11-24T23:35:02.000Z",
       "score": "3-0"
+    },
+    "recCal20261125P76609952": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-25T03:34:39.000Z",
+      "observedLive": false,
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json"
     }
   }
 }
