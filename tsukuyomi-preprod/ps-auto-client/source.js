@@ -144,7 +144,7 @@ export async function startPsAutoDashboard(document = globalThis.document) {
 
   let reportRendered;
   try {
-    const bridge = await import("./bridge.js?rev=stake-label");
+    const bridge = await import("./bridge.js?rev=november25-ticket-order");
     reportRendered = bridge.markDashboardRendered;
     await Promise.all(release.styles.map((href) => {
       const link = document.createElement("link");
