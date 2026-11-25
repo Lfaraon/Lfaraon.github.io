@@ -6846,11 +6846,12 @@
       "score": "2-0"
     },
     "recCal20261125L92379": {
-      "status": "En cours",
-      "provider": "Sofascore — direct confirmé, chronomètre observé 66:16, deuxième mi-temps",
-      "checkedAt": "2026-11-25T12:39:06.000Z",
+      "status": "Terminé",
+      "provider": "Sofascore — résultat final confirmé (FT 2-1)",
+      "checkedAt": "2026-11-25T13:38:48.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.sofascore.com/football/match/polonia-sroda-wielkopolska-sokol-kleczew/yLwsUwQb"
+      "sourceUrl": "https://www.sofascore.com/football/match/polonia-sroda-wielkopolska-sokol-kleczew/yLwsUwQb",
+      "score": "2-1"
     },
     "recCal20261125L92663": {
       "status": "À venir",
