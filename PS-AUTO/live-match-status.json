@@ -6436,11 +6436,11 @@
       "score": "5-1"
     },
     "recCal20261124P73661560": {
-      "status": "À venir",
-      "provider": "Leeds United — report officiel au 25.11.2026 à 20h00 suisse, horaire confirmé sur PSF",
-      "sourceUrl": "https://www.leedsunited.com/en/news/match-postponed-u21s-efl-trophy-tie-at-fleetwood-moved-back-24-hours",
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-24T22:05:02.759Z",
+      "checkedAt": "2026-11-25T19:33:47.000Z",
       "reversed": false,
       "rescheduledKickoff": "2026-11-25T19:00:00.000Z"
     },
@@ -6854,20 +6854,22 @@
       "score": "2-1"
     },
     "recCal20261125L92663": {
-      "status": "À venir",
-      "provider": "Live Tennis API",
+      "status": "En cours",
+      "provider": "news.de — liveticker du 25.11 à 19h20, jeux et points observés (début confirmé)",
       "providerId": "225053",
-      "checkedAt": "2026-11-25T12:56:03.379Z",
-      "observedLive": false,
-      "reversed": true
+      "checkedAt": "2026-11-25T19:33:47.000Z",
+      "observedLive": true,
+      "reversed": true,
+      "sourceUrl": "https://www.news.de/sport/860208412/wta-tennis-2026-in-buenos-aires-ieb-argentina-open-ticker-ergebnisse-spielplan/1/"
     },
     "recCal20261125L92669": {
-      "status": "À venir",
-      "provider": "Live Tennis API",
+      "status": "En cours",
+      "provider": "Tennis Majors — fiche individuelle, 1er set 0-1 observé",
       "providerId": "225054",
-      "checkedAt": "2026-11-25T12:56:03.379Z",
-      "observedLive": false,
-      "reversed": false
+      "checkedAt": "2026-11-25T19:33:47.000Z",
+      "observedLive": true,
+      "reversed": false,
+      "sourceUrl": "https://www.tennismajors.com/matches/wta/argentina-open/alicia-herrero-linana-vs-ariana-geerlings"
     },
     "recCal20261125L92590": {
       "status": "À venir",
@@ -6888,28 +6890,28 @@
     "recCal20261125P74166032": {
       "status": "En cours",
       "provider": "FotMob — direct confirmé",
-      "checkedAt": "2026-11-25T18:38:44Z",
+      "checkedAt": "2026-11-25T19:33:47.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/matches/barcelona-vs-sabah-fk/5vx6ki4t"
     },
     "recCal20261125P74166034": {
       "status": "En cours",
       "provider": "FotMob — direct confirmé",
-      "checkedAt": "2026-11-25T18:38:44Z",
+      "checkedAt": "2026-11-25T19:33:47.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/matches/slavia-prague-vs-villarreal/2odhv3"
     },
     "recCal20261125L91471": {
       "status": "En cours",
       "provider": "FotMob — direct confirmé",
-      "checkedAt": "2026-11-25T18:38:44Z",
+      "checkedAt": "2026-11-25T19:33:47.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/matches/al-sharkeyah-enppi-vs-ceramica-cleopatra/37uugjhn"
     },
     "recCal20261125L91478": {
       "status": "En cours",
       "provider": "FotMob — direct confirmé",
-      "checkedAt": "2026-11-25T18:38:44Z",
+      "checkedAt": "2026-11-25T19:33:47.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/matches/ghazl-al-mahalla-vs-petrojet-suez/9mq8shm"
     },
@@ -6919,6 +6921,41 @@
       "checkedAt": "2026-11-25T18:38:44Z",
       "observedLive": false,
       "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
+    },
+    "recCal20261125P77061030": {
+      "status": "En cours",
+      "provider": "news.de — liveticker du 25.11 à 19h20, jeux et points observés (début confirmé)",
+      "sourceUrl": "https://www.news.de/sport/860208412/wta-tennis-2026-in-buenos-aires-ieb-argentina-open-ticker-ergebnisse-spielplan/1/",
+      "checkedAt": "2026-11-25T19:33:47.000Z",
+      "observedLive": true
+    },
+    "recCal20261125P73093150": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-25T19:33:47.000Z",
+      "observedLive": false
+    },
+    "recCal20261125P72740856": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-25T19:33:47.000Z",
+      "observedLive": false
+    },
+    "recCal20261125P73093156": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-25T19:33:47.000Z",
+      "observedLive": false
+    },
+    "recCal20261125P73093152": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-25T19:33:47.000Z",
+      "observedLive": false
     }
   }
 }
