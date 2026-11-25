@@ -6604,11 +6604,13 @@
       "score": "2-1"
     },
     "recCal20261124L91640": {
-      "status": "Reporté",
-      "provider": "Betting Academy — report indiqué, nouvelle date non confirmée",
-      "sourceUrl": "https://www.bettingacademyus.com/stats/match/wales/premier-league/holywell/penybont/R9yZwx621mXWe/live",
+      "status": "Terminé",
+      "provider": "Football Web Pages — résultat final confirmé (ancien report levé)",
+      "sourceUrl": "https://www.footballwebpages.co.uk/match/2026-2027/cymru-premier/holywell-town/penybont/596679",
       "observedLive": false,
-      "checkedAt": "2026-11-24T23:35:02.000Z"
+      "checkedAt": "2026-11-25T01:35:02.000Z",
+      "score": "1-4",
+      "statusBasis": "Résultat final du 24 novembre confirmé par Football Web Pages; BBC confirme que la rencontre reprogrammée a été jouée."
     },
     "recCal20261124P72740850": {
       "status": "Terminé",
