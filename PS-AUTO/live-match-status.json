@@ -6878,11 +6878,12 @@
       "reversed": true
     },
     "recCal20261125L91368": {
-      "status": "En cours",
-      "provider": "FotMob — direct confirmé par chronomètre (52:51), événements et statistiques",
-      "checkedAt": "2026-11-25T16:40:04.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-25T17:35:20.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/talaea-el-gaish-vs-modern-sport-fc/55mhsvdg"
+      "sourceUrl": "https://www.fotmob.com/matches/talaea-el-gaish-vs-modern-sport-fc/55mhsvdg",
+      "score": "0-0"
     }
   }
 }
