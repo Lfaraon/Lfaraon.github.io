@@ -6884,6 +6884,41 @@
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/matches/talaea-el-gaish-vs-modern-sport-fc/55mhsvdg",
       "score": "0-0"
+    },
+    "recCal20261125P74166032": {
+      "status": "En cours",
+      "provider": "FotMob — direct confirmé",
+      "checkedAt": "2026-11-25T18:38:44Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/matches/barcelona-vs-sabah-fk/5vx6ki4t"
+    },
+    "recCal20261125P74166034": {
+      "status": "En cours",
+      "provider": "FotMob — direct confirmé",
+      "checkedAt": "2026-11-25T18:38:44Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/matches/slavia-prague-vs-villarreal/2odhv3"
+    },
+    "recCal20261125L91471": {
+      "status": "En cours",
+      "provider": "FotMob — direct confirmé",
+      "checkedAt": "2026-11-25T18:38:44Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/matches/al-sharkeyah-enppi-vs-ceramica-cleopatra/37uugjhn"
+    },
+    "recCal20261125L91478": {
+      "status": "En cours",
+      "provider": "FotMob — direct confirmé",
+      "checkedAt": "2026-11-25T18:38:44Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/matches/ghazl-al-mahalla-vs-petrojet-suez/9mq8shm"
+    },
+    "recCal20261125P73093096": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-25T18:38:44Z",
+      "observedLive": false,
+      "sourceUrl": "https://github.com/Lfaraon/Lfaraon.github.io/blob/main/PS-AUTO/match-source.json"
     }
   }
 }
