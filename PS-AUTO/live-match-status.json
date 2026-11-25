@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-25T02:30:11.140Z",
+  "checkedAt": "2026-11-25T12:56:03.379Z",
   "providers": {
     "football": {
       "state": "erreur",
       "detail": "Source momentanément indisponible",
-      "checkedAt": "2026-11-25T02:30:11.140Z"
+      "checkedAt": "2026-11-25T12:56:03.379Z"
     },
     "tennis": {
       "state": "ok",
-      "detail": "17 directs, 200 à venir ; 0 fiche(s) revérifiée(s)",
-      "checkedAt": "2026-11-25T02:30:11.140Z"
+      "detail": "55 directs, 136 à venir ; 0 fiche(s) revérifiée(s)",
+      "checkedAt": "2026-11-25T12:56:03.379Z"
     }
   },
   "matches": {
@@ -6851,6 +6851,30 @@
       "checkedAt": "2026-11-25T12:39:06.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.sofascore.com/football/match/polonia-sroda-wielkopolska-sokol-kleczew/yLwsUwQb"
+    },
+    "recCal20261125L92663": {
+      "status": "À venir",
+      "provider": "Live Tennis API",
+      "providerId": "225053",
+      "checkedAt": "2026-11-25T12:56:03.379Z",
+      "observedLive": false,
+      "reversed": true
+    },
+    "recCal20261125L92669": {
+      "status": "À venir",
+      "provider": "Live Tennis API",
+      "providerId": "225054",
+      "checkedAt": "2026-11-25T12:56:03.379Z",
+      "observedLive": false,
+      "reversed": false
+    },
+    "recCal20261125L92590": {
+      "status": "À venir",
+      "provider": "Live Tennis API",
+      "providerId": "224739",
+      "checkedAt": "2026-11-25T12:56:03.379Z",
+      "observedLive": false,
+      "reversed": true
     }
   }
 }
