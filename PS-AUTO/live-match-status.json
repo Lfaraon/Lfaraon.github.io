@@ -6775,66 +6775,73 @@
     },
     "recCal20261125L91347": {
       "status": "En cours",
-      "provider": "FotMob — début confirmé, chronomètre observé 15:26",
-      "checkedAt": "2026-11-25T10:33:05.000Z",
+      "provider": "FotMob — direct confirmé, chronomètre observé 59:41",
+      "checkedAt": "2026-11-25T11:31:00.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/matches/gamba-osaka-vs-port-fc/6s6595l"
     },
     "recCal20261125L91348": {
       "status": "En cours",
-      "provider": "FotMob — début confirmé, chronomètre observé 14:28",
-      "checkedAt": "2026-11-25T10:33:05.000Z",
+      "provider": "FotMob — direct confirmé, chronomètre observé 58:04",
+      "checkedAt": "2026-11-25T11:31:00.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/matches/kashima-antlers-vs-jeonbuk-hyundai-motors-fc/l19kkc"
     },
     "recCal20261125L91958": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-25T10:33:05.000Z",
-      "observedLive": false,
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "provider": "FotMob — direct confirmé, chronomètre observé 45:00 +3:03",
+      "checkedAt": "2026-11-25T11:31:00.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/matches/tokyo-verdy-vs-mito-hollyhock/6iju39e"
     },
     "recCal20261125L91959": {
       "status": "En cours",
-      "provider": "FotMob — début confirmé, chronomètre observé 27:07",
-      "checkedAt": "2026-11-25T10:33:05.000Z",
+      "provider": "FotMob — direct confirmé, chronomètre observé 70:05",
+      "checkedAt": "2026-11-25T11:31:00.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/matches/nagoya-grampus-vs-jef-united-chiba/2lxeof"
     },
     "recCal20261125L91963": {
       "status": "En cours",
-      "provider": "FotMob — début confirmé, chronomètre observé 6:10",
-      "checkedAt": "2026-11-25T10:33:05.000Z",
+      "provider": "FotMob — direct confirmé, chronomètre observé 50:48",
+      "checkedAt": "2026-11-25T11:31:00.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/matches/yokohama-fmarinos-vs-avispa-fukuoka/1tnxp0"
     },
     "recCal20261125L91964": {
       "status": "En cours",
-      "provider": "FotMob — début confirmé, chronomètre observé 2:06",
-      "checkedAt": "2026-11-25T10:33:05.000Z",
+      "provider": "FotMob — direct confirmé, chronomètre observé 45:00 +3:24",
+      "checkedAt": "2026-11-25T11:31:00.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/matches/kawasaki-frontale-vs-v-varen-nagasaki/97toj4w"
     },
     "recCal20261125L91965": {
       "status": "En cours",
-      "provider": "FotMob — début confirmé, chronomètre observé 2:33",
-      "checkedAt": "2026-11-25T10:33:05.000Z",
+      "provider": "FotMob — direct confirmé, chronomètre observé mi-temps",
+      "checkedAt": "2026-11-25T11:31:00.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/matches/fc-tokyo-vs-sanfrecce-hiroshima/xllzk"
     },
     "recCal20261125L91966": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-25T10:33:05.000Z",
-      "observedLive": false,
-      "sourceUrl": "https://raw.githubusercontent.com/Lfaraon/Lfaraon.github.io/main/PS-AUTO/match-source.json"
+      "provider": "FotMob — direct confirmé, chronomètre observé 35:22",
+      "checkedAt": "2026-11-25T11:31:00.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.fotmob.com/matches/cerezo-osaka-vs-urawa-red-diamonds/zlxi8"
     },
     "recCal20261125L91968": {
       "status": "En cours",
-      "provider": "FotMob — début confirmé, chronomètre observé 8:21",
-      "checkedAt": "2026-11-25T10:33:05.000Z",
+      "provider": "FotMob — direct confirmé, chronomètre observé 54:20",
+      "checkedAt": "2026-11-25T11:31:00.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/matches/shimizu-s-pulse-vs-fagiano-okayama-fc/6kmwjph"
+    },
+    "recCal20261125L92379": {
+      "status": "En cours",
+      "provider": "Sofascore — direct confirmé, chronomètre observé 00:05, première mi-temps",
+      "checkedAt": "2026-11-25T11:31:00.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.sofascore.com/football/match/polonia-sroda-wielkopolska-sokol-kleczew/yLwsUwQb"
     }
   }
 }
