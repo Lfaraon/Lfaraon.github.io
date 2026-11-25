@@ -6774,72 +6774,81 @@
       "score": "2-1"
     },
     "recCal20261125L91347": {
-      "status": "En cours",
-      "provider": "FotMob — direct confirmé, chronomètre observé 59:41",
-      "checkedAt": "2026-11-25T11:31:00.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-25T12:39:06.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/gamba-osaka-vs-port-fc/6s6595l"
+      "sourceUrl": "https://www.fotmob.com/matches/gamba-osaka-vs-port-fc/6s6595l",
+      "score": "2-0"
     },
     "recCal20261125L91348": {
-      "status": "En cours",
-      "provider": "FotMob — direct confirmé, chronomètre observé 58:04",
-      "checkedAt": "2026-11-25T11:31:00.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-25T12:39:06.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/kashima-antlers-vs-jeonbuk-hyundai-motors-fc/l19kkc"
+      "sourceUrl": "https://www.fotmob.com/matches/kashima-antlers-vs-jeonbuk-hyundai-motors-fc/l19kkc",
+      "score": "3-0"
     },
     "recCal20261125L91958": {
-      "status": "En cours",
-      "provider": "FotMob — direct confirmé, chronomètre observé 45:00 +3:03",
-      "checkedAt": "2026-11-25T11:31:00.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-25T12:39:06.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/tokyo-verdy-vs-mito-hollyhock/6iju39e"
+      "sourceUrl": "https://www.fotmob.com/matches/tokyo-verdy-vs-mito-hollyhock/6iju39e",
+      "score": "1-0"
     },
     "recCal20261125L91959": {
-      "status": "En cours",
-      "provider": "FotMob — direct confirmé, chronomètre observé 70:05",
-      "checkedAt": "2026-11-25T11:31:00.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-25T12:39:06.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/nagoya-grampus-vs-jef-united-chiba/2lxeof"
+      "sourceUrl": "https://www.fotmob.com/matches/nagoya-grampus-vs-jef-united-chiba/2lxeof",
+      "score": "1-2"
     },
     "recCal20261125L91963": {
-      "status": "En cours",
-      "provider": "FotMob — direct confirmé, chronomètre observé 50:48",
-      "checkedAt": "2026-11-25T11:31:00.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-25T12:39:06.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/yokohama-fmarinos-vs-avispa-fukuoka/1tnxp0"
+      "sourceUrl": "https://www.fotmob.com/matches/yokohama-fmarinos-vs-avispa-fukuoka/1tnxp0",
+      "score": "1-2"
     },
     "recCal20261125L91964": {
-      "status": "En cours",
-      "provider": "FotMob — direct confirmé, chronomètre observé 45:00 +3:24",
-      "checkedAt": "2026-11-25T11:31:00.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-25T12:39:06.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/kawasaki-frontale-vs-v-varen-nagasaki/97toj4w"
+      "sourceUrl": "https://www.fotmob.com/matches/kawasaki-frontale-vs-v-varen-nagasaki/97toj4w",
+      "score": "1-2"
     },
     "recCal20261125L91965": {
-      "status": "En cours",
-      "provider": "FotMob — direct confirmé, chronomètre observé mi-temps",
-      "checkedAt": "2026-11-25T11:31:00.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-25T12:39:06.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/fc-tokyo-vs-sanfrecce-hiroshima/xllzk"
+      "sourceUrl": "https://www.fotmob.com/matches/fc-tokyo-vs-sanfrecce-hiroshima/xllzk",
+      "score": "2-2"
     },
     "recCal20261125L91966": {
-      "status": "En cours",
-      "provider": "FotMob — direct confirmé, chronomètre observé 35:22",
-      "checkedAt": "2026-11-25T11:31:00.000Z",
+      "status": "Terminé",
+      "provider": "Sofascore — résultat final confirmé (FT)",
+      "checkedAt": "2026-11-25T12:39:06.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/cerezo-osaka-vs-urawa-red-diamonds/zlxi8"
+      "sourceUrl": "https://www.sofascore.com/football/match/urawa-red-diamonds-cerezo-osaka/QmbsVmb",
+      "score": "2-2"
     },
     "recCal20261125L91968": {
-      "status": "En cours",
-      "provider": "FotMob — direct confirmé, chronomètre observé 54:20",
-      "checkedAt": "2026-11-25T11:31:00.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-25T12:39:06.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/shimizu-s-pulse-vs-fagiano-okayama-fc/6kmwjph"
+      "sourceUrl": "https://www.fotmob.com/matches/shimizu-s-pulse-vs-fagiano-okayama-fc/6kmwjph",
+      "score": "2-0"
     },
     "recCal20261125L92379": {
       "status": "En cours",
-      "provider": "Sofascore — direct confirmé, chronomètre observé 00:05, première mi-temps",
-      "checkedAt": "2026-11-25T11:31:00.000Z",
+      "provider": "Sofascore — direct confirmé, chronomètre observé 66:16, deuxième mi-temps",
+      "checkedAt": "2026-11-25T12:39:06.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.sofascore.com/football/match/polonia-sroda-wielkopolska-sokol-kleczew/yLwsUwQb"
     }
