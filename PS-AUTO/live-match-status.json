@@ -6766,11 +6766,12 @@
       "score": "3-0"
     },
     "recCal20261125P76609952": {
-      "status": "En cours",
-      "provider": "Bleacher Report — direct observé (2-0 à la 42e, score provisoire)",
-      "checkedAt": "2026-11-25T04:31:10.000Z",
+      "status": "Terminé",
+      "provider": "Bleacher Report — résultat final confirmé",
+      "checkedAt": "2026-11-25T05:39:06.000Z",
       "observedLive": true,
-      "sourceUrl": "https://bleacherreport.com/game/san-jose-earthquakes-vs-houston-dynamo-2026-11-24-19-00"
+      "sourceUrl": "https://bleacherreport.com/game/san-jose-earthquakes-vs-houston-dynamo-2026-11-24-19-00",
+      "score": "2-1"
     }
   }
 }
