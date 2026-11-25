@@ -6,11 +6,17 @@ import { createDisplayDateFormatter, formatPreferredOdds } from "./ticketDisplay
 const kinds = { simple: "Simple", combine: "Combiné", triple: "Triplé" };
 const hiddenPlayedTicketId = "LORO-2026-11-12-T002";
 const playedTicketSwap = ["PSF-2026-11-12-T002", "LORO-2026-11-12-T001"];
-const november25TicketIds = new Set([
-  "TSU-TK-20261125-7C74-LORO-D1",
-  "TSU-TK-20261125-7C74-LORO-D2",
-  "TSU-TK-20261125-7C74-LORO-T2",
-]);
+const resultDisplayGroups = [
+  new Set([
+    "TSU-TK-20261124-C4B3-T1",
+    "TSU-TK-20261124-FD4F-LORO-T1",
+  ]),
+  new Set([
+    "TSU-TK-20261125-7C74-LORO-D1",
+    "TSU-TK-20261125-7C74-LORO-D2",
+    "TSU-TK-20261125-7C74-LORO-T2",
+  ]),
+];
 const selectionOutcomes = { won: "Gagnée", lost: "Perdue", void: "Remboursée" };
 const decimal = new Intl.NumberFormat("fr-FR", {
   minimumFractionDigits: 2,
@@ -549,12 +555,12 @@ export function recentPlayedTicketIds(tickets, options) {
   return new Set(ticketsForView(tickets, { ...options, view: "played" }).slice(0, 2).map((ticket) => ticket.id));
 }
 
-function orderNovember25Results(rows) {
+function orderResultCards(rows, ticketIds) {
   const positions = [];
   const winners = [];
   const losers = [];
   for (const [index, ticket] of rows.entries()) {
-    if (!november25TicketIds.has(ticket.id)) continue;
+    if (!ticketIds.has(ticket.id)) continue;
     const outcome = confirmedOutcome(ticket);
     if (outcome !== "won" && outcome !== "lost") continue;
     positions.push(index);
@@ -596,7 +602,9 @@ function renderFeed(mount, {
     : null;
   let nextFocus;
   const rows = status === "ready" ? ticketsForView(tickets, { view, now, includePending }) : [];
-  if (played || view === "latest") orderNovember25Results(rows);
+  if (played || view === "latest") {
+    for (const ticketIds of resultDisplayGroups) orderResultCards(rows, ticketIds);
+  }
   if (followingError) {
     const notice = element(doc, "p", "tsukuyomi-ticket-follow-error", followingError);
     notice.setAttribute("role", "status");
