@@ -7097,11 +7097,19 @@
       "score": "2-0"
     },
     "recCal20261126L92558": {
-      "status": "En cours",
-      "provider": "TV Azteca Deportes — direct confirmé, deuxième but de Helinho à 20h26 locale (2-0 provisoire)",
+      "status": "Terminé",
+      "provider": "Bleacher Report — résultat final confirmé (Final)",
       "observedLive": true,
-      "sourceUrl": "https://www.tvazteca.com/aztecadeportes/hellnho-no-perdona-desde-los-once-pasos-toluca-golpea-nuevamente-y-aumenta-la-ventaja-ante-atlas/",
-      "checkedAt": "2026-11-26T02:34:43.000Z"
+      "sourceUrl": "https://bleacherreport.com/game/deportivo-toluca-vs-atlas-2026-11-25-19-00",
+      "checkedAt": "2026-11-26T03:34:38.000Z",
+      "score": "2-0"
+    },
+    "recCal20261126L92559": {
+      "status": "En cours",
+      "provider": "Infobae — début réel confirmé par le direct de première mi-temps",
+      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/11/24/monterrey-vs-america-en-vivo-donde-y-a-que-hora-ver-la-ida-de-los-cuartos-de-final-del-apertura-2026/",
+      "checkedAt": "2026-11-26T03:34:38.000Z",
+      "observedLive": true
     }
   }
 }
