@@ -7153,11 +7153,12 @@
       "score": "1-0"
     },
     "recCal20261126L91127": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Sofascore — FT 2-2, résultat final confirmé",
+      "sourceUrl": "https://www.sofascore.com/football/match/diriyah-al-faisaly/KvxszwQg",
       "observedLive": false,
-      "checkedAt": "2026-11-26T17:36:35.000Z"
+      "checkedAt": "2026-11-26T19:38:01.000Z",
+      "score": "2-2"
     },
     "recCal20261126P74173314": {
       "status": "En cours",
