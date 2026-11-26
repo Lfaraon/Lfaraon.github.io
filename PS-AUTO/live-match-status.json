@@ -7105,11 +7105,12 @@
       "score": "2-0"
     },
     "recCal20261126L92559": {
-      "status": "En cours",
-      "provider": "TUDN — reprise de la deuxième mi-temps à 04:19 UTC, action à 04:26 UTC",
-      "sourceUrl": "https://www.tudn.com/futbol/liga-mx/monterrey-vs-america-en-vivo-ida-de-cuartos-de-final-apertura-2026-de-liga-mx-minuto-a-minuto-del-partido",
-      "checkedAt": "2026-11-26T04:30:48.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "RÉCORD — fiche du match Finalizado 0-0 ; résultat final confirmé également par Reporte Índigo",
+      "sourceUrl": "https://www.record.com.mx/futbol/partido/monterrey-cf-america-12365948",
+      "checkedAt": "2026-11-26T05:30:55.000Z",
+      "observedLive": true,
+      "score": "0-0"
     }
   }
 }
