@@ -7081,18 +7081,26 @@
       "score": "2-0"
     },
     "recCal20261126P66887188": {
-      "status": "En cours",
-      "provider": "LANCE! — direct confirmé, dernière action à 49e (0-0 provisoire)",
-      "checkedAt": "2026-11-26T00:37:12.000Z",
-      "observedLive": true,
-      "sourceUrl": "https://www.lance.com.br/temporeal/partida/brasileirao-serie-a-2026-25-11-2026-atletico-mineiroxcorinthians"
+      "status": "Terminé",
+      "provider": "LANCE! — résultat final confirmé",
+      "checkedAt": "2026-11-26T01:30:05.000Z",
+      "observedLive": false,
+      "sourceUrl": "https://www.lance.com.br/temporeal/partida/brasileirao-serie-a-2026-25-11-2026-atletico-mineiroxcorinthians",
+      "score": "1-1"
     },
     "recCal20261126L91295": {
       "status": "En cours",
-      "provider": "FotMob — direct confirmé, 19:46 (1-0 provisoire)",
-      "checkedAt": "2026-11-26T00:37:12.000Z",
+      "provider": "FotMob — direct confirmé, 59:28 (2-0 provisoire)",
+      "checkedAt": "2026-11-26T01:30:05.000Z",
       "observedLive": true,
       "sourceUrl": "https://www.fotmob.com/matches/boca-juniors-vs-independiente-rivadavia/6s32exe"
+    },
+    "recCal20261126L92558": {
+      "status": "En cours",
+      "provider": "Bleacher Report — direct confirmé, 6e (0-0 provisoire)",
+      "observedLive": true,
+      "sourceUrl": "https://bleacherreport.com/game/deportivo-toluca-vs-atlas-2026-11-25-19-00",
+      "checkedAt": "2026-11-26T01:30:05.000Z"
     }
   }
 }
