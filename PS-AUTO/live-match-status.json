@@ -7136,18 +7136,27 @@
       "reversed": false
     },
     "recCal20261126L90658": {
-      "status": "En cours",
-      "provider": "FOX Sports — début réel confirmé (événements de jeu jusqu'à la 30e)",
-      "sourceUrl": "https://www.foxsports.com/soccer/saudi-pro-league-abha-club-vs-al-shabab-fc-nov-26-2026-game-boxscore-1101050",
-      "observedLive": true,
-      "checkedAt": "2026-11-26T16:38:41.000Z"
+      "status": "Terminé",
+      "provider": "Tipste — FT, résultat final vérifié",
+      "sourceUrl": "https://tipste.com/en/schedule/match/abha-vs-al-shabab",
+      "observedLive": false,
+      "checkedAt": "2026-11-26T17:36:35.000Z",
+      "score": "0-1"
     },
     "recCal20261126P74173312": {
+      "status": "Terminé",
+      "provider": "Aftonbladet — compte rendu du match terminé, résultat final vérifié",
+      "sourceUrl": "https://www.aftonbladet.se/sportbladet/fotboll/a/4Eq50V/mjallby-forlorade-mot-kairat-i-conference-league",
+      "observedLive": false,
+      "checkedAt": "2026-11-26T17:36:35.000Z",
+      "score": "1-0"
+    },
+    "recCal20261126L91127": {
       "status": "En cours",
-      "provider": "SportStats — direct confirmé (52e)",
-      "sourceUrl": "https://sportstats.ru/en/matches/2026-11-26-kairat-mjallby?tab=stats",
-      "observedLive": true,
-      "checkedAt": "2026-11-26T16:38:41.000Z"
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-26T17:36:35.000Z"
     }
   }
 }
