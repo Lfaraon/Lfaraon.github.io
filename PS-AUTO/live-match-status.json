@@ -7113,11 +7113,12 @@
       "score": "0-0"
     },
     "recCal20261126L92826": {
-      "status": "En cours",
-      "provider": "Scores24 — double décisif au deuxième set, Patten/Skupski mènent 1-0 en manches, points 30-30 ; LTA confirme 1-1 par équipes. Aucun résultat final par équipes.",
-      "checkedAt": "2026-11-26T14:33:36.000Z",
-      "observedLive": true,
-      "sourceUrl": "https://scores24.live/en/tennis/m-26-11-2026-patten-h-skupski-n-krawietz-k-puetz-t"
+      "status": "Terminé",
+      "provider": "LTA — résultat final officiel Coupe Davis 2-1 ; simples 6-3, 3-6, 6-2 et 3-6, 2-6 (ordre GBR–GER) ; double 6-2, 7-6(6).",
+      "checkedAt": "2026-11-26T15:38:42.000Z",
+      "observedLive": false,
+      "sourceUrl": "https://www.lta.org.uk/fan-zone/davis-cup/news/final-8-great-britain-vs-germany-results-updates",
+      "score": "2-1"
     },
     "recCal20261126L91119": {
       "status": "En cours",
@@ -7133,6 +7134,20 @@
       "checkedAt": "2026-11-26T15:17:57.928Z",
       "observedLive": false,
       "reversed": false
+    },
+    "recCal20261126L90658": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-26T15:38:42.000Z"
+    },
+    "recCal20261126P74173312": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-26T15:38:42.000Z"
     }
   }
 }
