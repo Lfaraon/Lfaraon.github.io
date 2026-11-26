@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-26T05:05:26.121Z",
+  "checkedAt": "2026-11-26T15:17:57.928Z",
   "providers": {
     "football": {
       "state": "erreur",
       "detail": "Source momentanément indisponible",
-      "checkedAt": "2026-11-26T05:05:26.121Z"
+      "checkedAt": "2026-11-26T15:17:57.928Z"
     },
     "tennis": {
       "state": "ok",
-      "detail": "16 directs, 200 à venir ; 0 fiche(s) revérifiée(s)",
-      "checkedAt": "2026-11-26T05:05:26.121Z"
+      "detail": "28 directs, 56 à venir ; 0 fiche(s) revérifiée(s)",
+      "checkedAt": "2026-11-26T15:17:57.928Z"
     }
   },
   "matches": {
@@ -7125,6 +7125,14 @@
       "checkedAt": "2026-11-26T14:33:36.000Z",
       "observedLive": false,
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json"
+    },
+    "recCal20261126L92840": {
+      "status": "À venir",
+      "provider": "Live Tennis API",
+      "providerId": "225458",
+      "checkedAt": "2026-11-26T15:17:57.928Z",
+      "observedLive": false,
+      "reversed": false
     }
   }
 }
