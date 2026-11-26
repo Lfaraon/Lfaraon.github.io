@@ -7315,137 +7315,155 @@
       "sets": "1-6, 6-3, 6-1"
     },
     "recCal20261126P74173078": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (2-1, but à la 82e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/crystal-palace-vs-real-sociedad/6197933923493687232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/match/2050139--crystal-palace-vs-real-sociedad/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "2-1"
     },
     "recCal20261126P72341410": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (1-3, 80e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/doncaster-rovers-vs-huddersfield-town/5176430916656391232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false
     },
     "recCal20261126P74173080": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (0-0, 79e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/ferencvaros-vs-nk-celje/6262796999607260232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/match/2050133--ferencvaros-vs-celje/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "0-0"
     },
     "recCal20261126P74173334": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (2-0, 80e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/borac-vs-atalanta/7962440018187611232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaconferenceleague/match/2050369--borac-vs-atalanta/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "2-3"
     },
     "recCal20261126P74173336": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (0-2, 76e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/hajduk-split-vs-sint-truidense-vv/6888539206186012232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaconferenceleague/match/2050373--hajduk-split-vs-sint-truidense/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "0-2"
     },
     "recCal20261126L88857": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (1-1, 79e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/tsg-hoffenheim-vs-sturm-graz/5291132096570576232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/match/2050142--hoffenheim-vs-sturm-graz/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "3-1"
     },
     "recCal20261126P74173338": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (2-0, 83e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/inter-club-descaldes-vs-fc-copenhagen/8435943456872705232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaconferenceleague/match/2050376--inter-escaldes-vs-copenhagen/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "2-0"
     },
     "recCal20261126P74173082": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (4-1, 80e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/juventus-vs-omonia-nicosia/6886549441715661232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/match/2050129--juventus-vs-omonia/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "4-1"
     },
     "recCal20261126P74173340": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (1-0, 79e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/aa-gent-vs-crvena-zvezda/5317189055867843232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaconferenceleague/match/2050366--gent-vs-crvena-zvezda/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "1-1"
     },
     "recCal20261126P74173084": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (1-1, 79e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/nec-nijmegen-vs-rennes/9081509098802671232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/match/2050145--n-e-c-vs-rennes/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "3-1"
     },
     "recCal20261126L88787": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (3-2, 82e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/fc-nordsjaelland-vs-panathinaikos/5241501636959731232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaconferenceleague/match/2050375--nordsj%C3%A6lland-vs-panathinaikos/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "3-2"
     },
     "recCal20261126P74173086": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (1-2, 81e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/ofi-vs-anderlecht/9133350001038177232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/match/2050146--ofi-crete-vs-anderlecht/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "1-3"
     },
     "recCal20261126P74173088": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (0-0, 81e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/lyon-vs-lillestrom/9061351112444814232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/match/2050130--lyon-vs-lillestrom/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "0-0"
     },
     "recCal20261126P74173342": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (1-1, 77e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/cska-sofia-vs-trabzonspor/7823864254373459232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaconferenceleague/match/2050377--cska-sofia-vs-trabzonspor/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "1-2"
     },
     "recCal20261126P74173344": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (4-0, 84e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/braga-vs-kups-kuopio/4774212490001558232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaconferenceleague/match/2050363--braga-vs-kups-kuopio/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "4-0"
     },
     "recCal20261126P74173346": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (1-1, 79e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/sc-freiburg-vs-fc-twente/6288373582588546232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaconferenceleague/match/2050365--freiburg-vs-twente/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "2-1"
     },
     "recCal20261126P74173076": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (2-3, 80e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/sparta-prague-vs-az-alkmaar/5086603095215330232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/match/2050138--sparta-praha-vs-az-alkmaar/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "2-4"
     },
     "recCal20261126P74173092": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (1-1, 81e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/sunderland-vs-jagiellonia-bialystok/7056980836392248232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/match/2050140--sunderland-vs-jagiellonia/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "1-1"
     },
     "recCal20261126L88871": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct observé (1-1, 75e ; provisoire)",
-      "sourceUrl": "https://www.skysports.com/football/torreense-vs-celtic/8521694698254623232",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "UEFA — résultat final officiel (liste des résultats et fiche liée)",
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/match/2050144--torreense-vs-celtic/",
+      "checkedAt": "2026-11-26T22:32:35.000Z",
+      "observedLive": false,
+      "score": "1-2"
     },
     "recCal20261126P76915904": {
       "status": "En cours",
