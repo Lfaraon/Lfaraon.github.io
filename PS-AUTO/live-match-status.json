@@ -7114,10 +7114,10 @@
     },
     "recCal20261126L92826": {
       "status": "En cours",
-      "provider": "Sky Sport — direct Coupe Davis à 12h10 CET : Norrie bat Struff 6-3, 3-6, 6-2 ; Grande-Bretagne mène 1-0 ; Fery–Zverev sur le court, jeux du second simple non vérifiés",
-      "checkedAt": "2026-11-26T11:39:56.000Z",
+      "provider": "LTA — suivi officiel actualisé : Norrie bat Struff 6-3, 3-6, 6-2 ; Zverev bat Fery 6-3, 6-2 ; 1-1 par équipes, double décisif Patten/Skupski–Krawietz/Puetz sans jeux vérifiés ; aucun résultat final par équipes.",
+      "checkedAt": "2026-11-26T12:37:44.000Z",
       "observedLive": true,
-      "sourceUrl": "https://sport.sky.it/tennis/2026/11/26/germania-gran-bretagna-coppa-davis-finals-risultato"
+      "sourceUrl": "https://prod.lta.org.uk/fan-zone/davis-cup/news/final-8-great-britain-vs-germany-results-updates"
     }
   }
 }
