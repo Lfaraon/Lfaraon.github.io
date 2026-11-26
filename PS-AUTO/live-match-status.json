@@ -7089,18 +7089,19 @@
       "score": "1-1"
     },
     "recCal20261126L91295": {
-      "status": "En cours",
-      "provider": "FotMob — direct confirmé, 59:28 (2-0 provisoire)",
-      "checkedAt": "2026-11-26T01:30:05.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-26T02:34:43.000Z",
       "observedLive": true,
-      "sourceUrl": "https://www.fotmob.com/matches/boca-juniors-vs-independiente-rivadavia/6s32exe"
+      "sourceUrl": "https://www.fotmob.com/matches/boca-juniors-vs-independiente-rivadavia/6s32exe",
+      "score": "2-0"
     },
     "recCal20261126L92558": {
       "status": "En cours",
-      "provider": "Bleacher Report — direct confirmé, 6e (0-0 provisoire)",
+      "provider": "TV Azteca Deportes — direct confirmé, deuxième but de Helinho à 20h26 locale (2-0 provisoire)",
       "observedLive": true,
-      "sourceUrl": "https://bleacherreport.com/game/deportivo-toluca-vs-atlas-2026-11-25-19-00",
-      "checkedAt": "2026-11-26T01:30:05.000Z"
+      "sourceUrl": "https://www.tvazteca.com/aztecadeportes/hellnho-no-perdona-desde-los-once-pasos-toluca-golpea-nuevamente-y-aumenta-la-ventaja-ante-atlas/",
+      "checkedAt": "2026-11-26T02:34:43.000Z"
     }
   }
 }
