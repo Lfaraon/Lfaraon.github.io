@@ -7106,9 +7106,9 @@
     },
     "recCal20261126L92559": {
       "status": "En cours",
-      "provider": "Infobae — début réel confirmé par le direct de première mi-temps",
-      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/11/24/monterrey-vs-america-en-vivo-donde-y-a-que-hora-ver-la-ida-de-los-cuartos-de-final-del-apertura-2026/",
-      "checkedAt": "2026-11-26T03:34:38.000Z",
+      "provider": "TUDN — reprise de la deuxième mi-temps à 04:19 UTC, action à 04:26 UTC",
+      "sourceUrl": "https://www.tudn.com/futbol/liga-mx/monterrey-vs-america-en-vivo-ida-de-cuartos-de-final-apertura-2026-de-liga-mx-minuto-a-minuto-del-partido",
+      "checkedAt": "2026-11-26T04:30:48.000Z",
       "observedLive": true
     }
   }
