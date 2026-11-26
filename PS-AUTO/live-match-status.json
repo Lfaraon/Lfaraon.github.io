@@ -7169,11 +7169,12 @@
       "score": "4-0"
     },
     "recCal20261126P74173060": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct 61e (0-0 provisoire), reprise après interruption confirmée par Reuters",
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat final confirmé par Reuters",
       "sourceUrl": "https://www.skysports.com/football/besiktas-vs-hapoel-beer-sheva/7355510083733088232",
-      "checkedAt": "2026-11-26T19:39:21.000Z",
-      "observedLive": true
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false,
+      "score": "2-1"
     },
     "recCal20261126P74173316": {
       "status": "Terminé",
@@ -7216,11 +7217,12 @@
       "score": "2-0"
     },
     "recCal20261126P74173322": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct 85e (2-0 provisoire)",
+      "status": "Terminé",
+      "provider": "Sky Sports — Match ends",
       "sourceUrl": "https://www.skysports.com/football/kauno-zalgiris-vs-riga-fc/6686649766929467232",
-      "checkedAt": "2026-11-26T19:39:21.000Z",
-      "observedLive": true
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false,
+      "score": "2-0"
     },
     "recCal20261126P74173066": {
       "status": "Terminé",
@@ -7231,11 +7233,12 @@
       "score": "0-2"
     },
     "recCal20261126P74173324": {
-      "status": "En cours",
-      "provider": "Sky Sports — direct 90+1 (2-2 provisoire)",
+      "status": "Terminé",
+      "provider": "Sky Sports — Match ends",
       "sourceUrl": "https://www.skysports.com/football/hearts-vs-monaco/7138670219728657232",
-      "checkedAt": "2026-11-26T19:39:21.000Z",
-      "observedLive": true
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false,
+      "score": "2-3"
     },
     "recCal20261126P74173326": {
       "status": "Terminé",
@@ -7246,11 +7249,12 @@
       "score": "2-1"
     },
     "recCal20261126P74173068": {
-      "status": "En cours",
-      "provider": "Sky Sport — direct 90+6 (2-4 provisoire)",
-      "sourceUrl": "https://sport.sky.it/calcio/europa-league/partite/2026/giornata-5/olympiacos-milan/risultato-gol",
-      "checkedAt": "2026-11-26T19:39:21.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "Reuters — résultat final confirmé",
+      "sourceUrl": "https://www.reuters.com/sports/soccer/bournemouth-milan-complete-comebacks-benfica-thumped-czech-nightmare-2026-11-26/",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false,
+      "score": "2-4"
     },
     "recCal20261126P74173070": {
       "status": "Terminé",
@@ -7294,17 +7298,152 @@
     },
     "recCal20261126P76915902": {
       "status": "En cours",
-      "provider": "Scores24 — 2e set, 3-6, 3-4, points 30-40 (provisoire), Tennisora actualisé",
+      "provider": "Scores24 — 3e set, 3-6, 7-6, 1-1, points 40-30 (provisoire)",
       "sourceUrl": "https://scores24.live/en/tennis/m-26-11-2026-costoulas-sofia-lepchenko-varvara",
-      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
       "observedLive": true
     },
     "recCal20261126P76915898": {
-      "status": "En cours",
-      "provider": "Scores24 — 26.11, 3e set, 1-6, 6-3, 4-0, points A-40 (provisoire), Tennisora actualisé",
+      "status": "Terminé",
+      "provider": "Scores24 — Ended, sets confirmés",
       "sourceUrl": "https://scores24.live/en/tennis/m-25-11-2026-maristany-zuleta-de-reales-guiomar-brancaccio-nuria",
-      "checkedAt": "2026-11-26T19:39:21.000Z",
-      "observedLive": true
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false,
+      "score": "2-1",
+      "sets": "1-6, 6-3, 6-1"
+    },
+    "recCal20261126P74173078": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126P72341410": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173080": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173334": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173336": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126L88857": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173338": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173082": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173340": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173084": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126L88787": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173086": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173088": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173342": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173344": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173346": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173076": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173092": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
+    },
+    "recCal20261126L88871": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T20:38:54.000Z",
+      "observedLive": false
     }
   }
 }
