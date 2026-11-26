@@ -7122,10 +7122,11 @@
     },
     "recCal20261126L91119": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-26T16:38:41.000Z",
+      "provider": "TheFishy — résultat final FT vérifié (confirmé par BeSoccer)",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
       "observedLive": false,
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json"
+      "sourceUrl": "https://thefishy.uk/livematch2/al-fateh-v-al-riyadh-1603084",
+      "score": "1-0"
     },
     "recCal20261126L92840": {
       "status": "À venir",
@@ -7157,6 +7158,139 @@
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
       "checkedAt": "2026-11-26T17:36:35.000Z"
+    },
+    "recCal20261126P74173314": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173060": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173316": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173318": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173062": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173064": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173320": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173322": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173066": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173324": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173326": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173068": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173070": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173328": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173074": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173330": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P74173072": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": false
+    },
+    "recCal20261126P76915902": {
+      "status": "En cours",
+      "provider": "Tennisora — jeux du premier set actualisés (2-3 ; statistiques reçues à 18h39 UTC)",
+      "sourceUrl": "https://www.tennisora.com/matches/12182659-20261126-2765-9248",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": true
+    },
+    "recCal20261126P76915898": {
+      "status": "En cours",
+      "provider": "Tennisora — premier set joué 1-6 (statistiques reçues à 18h32 UTC)",
+      "sourceUrl": "https://www.tennisora.com/matches/12182641-20261126-142-222",
+      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "observedLive": true
     }
   }
 }
