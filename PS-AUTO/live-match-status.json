@@ -7324,10 +7324,11 @@
     },
     "recCal20261126P72341410": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T22:32:35.000Z",
-      "observedLive": false
+      "provider": "beIN SPORTS — FT confirmé le 26 novembre 2026 (Fox Sports concordant)",
+      "sourceUrl": "https://www.beinsports.com/en-nz/football/league-one/doncaster-rovers-vs-huddersfield-town-2026-11-28",
+      "checkedAt": "2026-11-26T23:39:45.000Z",
+      "observedLive": false,
+      "score": "2-3"
     },
     "recCal20261126P74173080": {
       "status": "Terminé",
@@ -7466,11 +7467,20 @@
       "score": "1-2"
     },
     "recCal20261126P76915904": {
-      "status": "En cours",
-      "provider": "Scores24 — 2e set, 3-6, 3-5, points 30-30 (provisoire)",
+      "status": "Terminé",
+      "provider": "Scores24 — Ended, score et sets confirmés",
       "sourceUrl": "https://scores24.live/en/tennis/m-26-11-2026-burillo-escorihuela-irene-samson-laura",
-      "checkedAt": "2026-11-26T21:39:15.000Z",
-      "observedLive": true
+      "checkedAt": "2026-11-26T23:39:45.000Z",
+      "observedLive": true,
+      "score": "0-2",
+      "sets": "3-6, 3-6"
+    },
+    "recCal20261127P66887202": {
+      "status": "En cours",
+      "provider": "FotMob — direct observé, 0-0 à 10:19 (provisoire)",
+      "sourceUrl": "https://www.fotmob.com/en-GB/matches/remo-vs-sao-paulo/166ivu",
+      "observedLive": true,
+      "checkedAt": "2026-11-26T23:39:45.000Z"
     }
   }
 }
