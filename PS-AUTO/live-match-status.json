@@ -7114,10 +7114,10 @@
     },
     "recCal20261126L92826": {
       "status": "En cours",
-      "provider": "LTA — suivi officiel actualisé : Norrie bat Struff 6-3, 3-6, 6-2 ; Zverev bat Fery 6-3, 6-2 ; 1-1 par équipes, double décisif Patten/Skupski–Krawietz/Puetz sans jeux vérifiés ; aucun résultat final par équipes.",
-      "checkedAt": "2026-11-26T12:37:44.000Z",
+      "provider": "Scores24 — fiche actualisée du double décisif : Patten/Skupski 4-2 Krawietz/Puetz au premier set, points A-40 ; LTA confirme 1-1 par équipes. Début réel du double confirmé, aucun score final par équipes.",
+      "checkedAt": "2026-11-26T13:39:30.000Z",
       "observedLive": true,
-      "sourceUrl": "https://prod.lta.org.uk/fan-zone/davis-cup/news/final-8-great-britain-vs-germany-results-updates"
+      "sourceUrl": "https://scores24.live/en/tennis/m-26-11-2026-patten-h-skupski-n-krawietz-k-puetz-t"
     }
   }
 }
