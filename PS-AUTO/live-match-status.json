@@ -7114,10 +7114,17 @@
     },
     "recCal20261126L92826": {
       "status": "En cours",
-      "provider": "Scores24 — fiche actualisée du double décisif : Patten/Skupski 4-2 Krawietz/Puetz au premier set, points A-40 ; LTA confirme 1-1 par équipes. Début réel du double confirmé, aucun score final par équipes.",
-      "checkedAt": "2026-11-26T13:39:30.000Z",
+      "provider": "Scores24 — double décisif au deuxième set, Patten/Skupski mènent 1-0 en manches, points 30-30 ; LTA confirme 1-1 par équipes. Aucun résultat final par équipes.",
+      "checkedAt": "2026-11-26T14:33:36.000Z",
       "observedLive": true,
       "sourceUrl": "https://scores24.live/en/tennis/m-26-11-2026-patten-h-skupski-n-krawietz-k-puetz-t"
+    },
+    "recCal20261126L91119": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-26T14:33:36.000Z",
+      "observedLive": false,
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json"
     }
   }
 }
