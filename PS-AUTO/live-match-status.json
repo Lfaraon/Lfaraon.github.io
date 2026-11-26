@@ -7161,136 +7161,149 @@
       "score": "2-2"
     },
     "recCal20261126P74173314": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Sky Sport — fin du second temps confirmée",
+      "sourceUrl": "https://sport.sky.it/calcio/conference-league/partite/2026/giornata-4/ajax-thun/risultato-gol",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": false,
+      "score": "4-0"
     },
     "recCal20261126P74173060": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "provider": "Sky Sports — direct 61e (0-0 provisoire), reprise après interruption confirmée par Reuters",
+      "sourceUrl": "https://www.skysports.com/football/besiktas-vs-hapoel-beer-sheva/7355510083733088232",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": true
     },
     "recCal20261126P74173316": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/brighton-and-hove-albion-vs-cs-universitatea-craiova/7352051605167134232",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": false,
+      "score": "4-0"
     },
     "recCal20261126P74173318": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/fc-iberia-1999-tiflis-vs-getafe/5695971023597055232",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": false,
+      "score": "1-0"
     },
     "recCal20261126P74173062": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/red-bull-salzburg-vs-ararat-armenia/5829979441154916232",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": false,
+      "score": "2-0"
     },
     "recCal20261126P74173064": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/fc-viktoria-plzen-vs-benfica/7049540896493301232",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": false,
+      "score": "4-0"
     },
     "recCal20261126P74173320": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/fk-jablonec-vs-fc-lugano/8339147994460849232",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": false,
+      "score": "2-0"
     },
     "recCal20261126P74173322": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "provider": "Sky Sports — direct 85e (2-0 provisoire)",
+      "sourceUrl": "https://www.skysports.com/football/kauno-zalgiris-vs-riga-fc/6686649766929467232",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": true
     },
     "recCal20261126P74173066": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/dinamo-zagreb-vs-bayer-leverkusen/6229512293315758232",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": false,
+      "score": "0-2"
     },
     "recCal20261126P74173324": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "provider": "Sky Sports — direct 90+1 (2-2 provisoire)",
+      "sourceUrl": "https://www.skysports.com/football/hearts-vs-monaco/7138670219728657232",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": true
     },
     "recCal20261126P74173326": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/egnatia-vs-lincoln-red-imps/8660539055287013232",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": false,
+      "score": "2-1"
     },
     "recCal20261126P74173068": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "provider": "Sky Sport — direct 90+6 (2-4 provisoire)",
+      "sourceUrl": "https://sport.sky.it/calcio/europa-league/partite/2026/giornata-5/olympiacos-milan/risultato-gol",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": true
     },
     "recCal20261126P74173070": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/marseille-vs-levski-sofia/7259806372579881232",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": false,
+      "score": "1-0"
     },
     "recCal20261126P74173328": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/pafos-vs-fc-midtjylland/6531403538706650232",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": false,
+      "score": "0-2"
     },
     "recCal20261126P74173074": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/celta-vigo-vs-bournemouth/7704612761567502232",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": false,
+      "score": "1-2"
     },
     "recCal20261126P74173330": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/brann-vs-agf-aarhus/6637550996343109232",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": false,
+      "score": "1-4"
     },
     "recCal20261126P74173072": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Sky Sports — résultat final confirmé",
+      "sourceUrl": "https://www.skysports.com/football/union-saint-gilloise-vs-lech-poznan/6400446302586119232",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
+      "observedLive": false,
+      "score": "2-2"
     },
     "recCal20261126P76915902": {
       "status": "En cours",
-      "provider": "Tennisora — jeux du premier set actualisés (2-3 ; statistiques reçues à 18h39 UTC)",
-      "sourceUrl": "https://www.tennisora.com/matches/12182659-20261126-2765-9248",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "provider": "Scores24 — 2e set, 3-6, 3-4, points 30-40 (provisoire), Tennisora actualisé",
+      "sourceUrl": "https://scores24.live/en/tennis/m-26-11-2026-costoulas-sofia-lepchenko-varvara",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
       "observedLive": true
     },
     "recCal20261126P76915898": {
       "status": "En cours",
-      "provider": "Tennisora — premier set joué 1-6 (statistiques reçues à 18h32 UTC)",
-      "sourceUrl": "https://www.tennisora.com/matches/12182641-20261126-142-222",
-      "checkedAt": "2026-11-26T18:39:19.017Z",
+      "provider": "Scores24 — 26.11, 3e set, 1-6, 6-3, 4-0, points A-40 (provisoire), Tennisora actualisé",
+      "sourceUrl": "https://scores24.live/en/tennis/m-25-11-2026-maristany-zuleta-de-reales-guiomar-brancaccio-nuria",
+      "checkedAt": "2026-11-26T19:39:21.000Z",
       "observedLive": true
     }
   }
