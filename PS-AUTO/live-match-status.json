@@ -7529,11 +7529,12 @@
       "score": "2-1"
     },
     "recCal20261127L92537": {
-      "status": "En cours",
-      "provider": "Periódico AM — direct, reprise en deuxième mi-temps (0-2 provisoire, confirmé à la pause)",
-      "sourceUrl": "https://www.am.com.mx/superdeportivo/2026/11/26/leon-vs-cruz-azul-en-vivo-transmision-alineaciones-y-goles-en-la-ida-de-4tos-de-final-1870462.html",
-      "checkedAt": "2026-11-27T04:33:01.000Z",
-      "observedLive": true
+      "status": "Terminé",
+      "provider": "Periódico AM — résultat final confirmé (0-4)",
+      "sourceUrl": "https://www.am.com.mx/superdeportivo/2026/11/26/ahogan-a-la-fiera-leon-cae-goleado-ante-cruz-azul-en-la-ida-de-4tos-de-final-1870462.html",
+      "checkedAt": "2026-11-27T05:36:29.000Z",
+      "observedLive": true,
+      "score": "0-4"
     }
   }
 }
