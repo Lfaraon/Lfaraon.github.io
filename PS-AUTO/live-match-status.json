@@ -7582,20 +7582,36 @@
       "score": "2-1"
     },
     "recCal20261127L92546": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "observedLive": false,
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "QSL confirme 27/11 16h Doha (14h Suisse), pas de direct probant sur Diretta/Rotascore ; ancienne fiche YS Scores 03/12 contredite par QSL.",
-      "checkedAt": "2026-11-27T13:31:52.000Z"
+      "statusBasis": "+156 min ; QSL, OrcaScore et All Football affichent des directs anciens (9–35e minute), aucun résultat final ni activité récente confirmés ; score non vérifié.",
+      "checkedAt": "2026-11-27T15:36:35.000Z"
     },
     "recCal20261127L90656": {
       "status": "En cours",
+      "provider": "FotMob — mi-temps observée",
+      "sourceUrl": "https://www.fotmob.com/matches/al-qadsiah-vs-al-fayha/2zobepib",
+      "statusBasis": "0-0 à la mi-temps, statistiques et événements de première période ; score provisoire uniquement.",
+      "observedLive": true,
+      "checkedAt": "2026-11-27T15:36:35.000Z"
+    },
+    "recCal20261127L92381": {
+      "status": "En cours",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "FotMob confirme 14:20 UTC ; TNT Sports signale 3e minute dans matchs associés, fiche directe inaccessible.",
       "observedLive": false,
-      "checkedAt": "2026-11-27T14:31:30.000Z"
+      "statusBasis": "Coup d'envoi 15:30 UTC confirmé par QSL et Eurosport ; Soccerway sans score actuel.",
+      "checkedAt": "2026-11-27T15:36:35.000Z"
+    },
+    "recCal20261127L91142": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "statusBasis": "Coup d'envoi 15:30 UTC confirmé par FotMob et GSP ; fiches encore en avant-match.",
+      "checkedAt": "2026-11-27T15:36:35.000Z"
     }
   }
 }
