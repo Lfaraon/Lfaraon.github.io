@@ -7490,16 +7490,22 @@
       "score": "3-1"
     },
     "recCal20261127L93073": {
-      "status": "En cours",
-      "provider": "Tennis Majors — troisième set observé",
+      "status": "Terminé",
+      "provider": "Tennis Majors — résultat final",
       "providerId": "225707",
-      "checkedAt": "2026-11-27T20:30:48.000Z",
-      "observedLive": true,
+      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "observedLive": false,
       "reversed": false,
-      "statusCode": "live",
+      "statusCode": "finished",
       "sourceUrl": "https://www.tennismajors.com/matches/wta/argentina-open/varvara-lepchenko-vs-laura-samson",
       "rescheduledKickoff": "2026-11-27T18:00:00.000Z",
-      "statusBasis": "Fiche du 27/11 : 6-3, 6-7, 1-1 au troisième set ; score non final."
+      "statusBasis": "Résultat final confirmé sur la fiche du 27/11/2026",
+      "score": "2-1",
+      "sets": [
+        "6-3",
+        "6-7",
+        "6-4"
+      ]
     },
     "recCal20261126P77150110": {
       "status": "Terminé",
@@ -7650,11 +7656,13 @@
     },
     "recCal20261127L91677": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
+      "provider": "HINA / Slobodna Dalmacija — résultat final",
+      "sourceUrl": "https://slobodnadalmacija.hr/sport/domaci-nogomet/puljani-srusili-varazdin-rani-crveni-karton-presudio-pobjednika-1592783",
+      "statusBasis": "Résultat final confirmé sur la fiche du 27/11/2026",
       "observedLive": false,
-      "checkedAt": "2026-11-27T19:39:53.000Z"
+      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "score": "3-1",
+      "statusCode": "finished"
     },
     "recCal20261127L92533": {
       "status": "Terminé",
@@ -7700,11 +7708,13 @@
     },
     "recCal20261127L91128": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
+      "provider": "Ratingbet — fiche résultat Finished",
+      "sourceUrl": "https://ratingbet.com/football/match/al-ittihad-2-vs-neom-sc/",
+      "statusBasis": "Résultat final confirmé sur la fiche du 27/11/2026",
       "observedLive": false,
-      "checkedAt": "2026-11-27T19:39:53.000Z"
+      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "score": "1-0",
+      "statusCode": "finished"
     },
     "recCal20261127L91794": {
       "status": "Terminé",
@@ -7787,12 +7797,12 @@
       "checkedAt": "2026-11-27T20:30:48.000Z"
     },
     "recCal20261127L92557": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "checkedAt": "2026-11-27T21:31:50.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
     },
     "recCal20261127P72044850": {
       "status": "Reporté",
@@ -7804,20 +7814,20 @@
       "statusCode": "postponed"
     },
     "recCal20261127P72041270": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "checkedAt": "2026-11-27T21:31:50.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
     },
     "recCal20261127P72044852": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "checkedAt": "2026-11-27T21:31:50.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
     },
     "recCal20261127P72044854": {
       "status": "Reporté",
@@ -7838,44 +7848,44 @@
       "statusCode": "postponed"
     },
     "recCal20261127L92310": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "checkedAt": "2026-11-27T21:31:50.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
     },
     "recCal20261127P72044858": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "checkedAt": "2026-11-27T21:31:50.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
     },
     "recCal20261127P72044860": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "checkedAt": "2026-11-27T21:31:50.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
     },
     "recCal20261127L91827": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "checkedAt": "2026-11-27T21:31:50.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
     },
     "recCal20261127P76735450": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "checkedAt": "2026-11-27T21:31:50.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
     },
     "recCal20261127P72044862": {
       "status": "Reporté",
@@ -7887,44 +7897,44 @@
       "statusCode": "postponed"
     },
     "recCal20261127L91654": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "checkedAt": "2026-11-27T21:31:50.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
     },
     "recCal20261127L91662": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "checkedAt": "2026-11-27T21:31:50.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
     },
     "recCal20261127P72477638": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "checkedAt": "2026-11-27T21:31:50.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
     },
     "recCal20261127L91657": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "checkedAt": "2026-11-27T21:31:50.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
     },
     "recCal20261127P72513342": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "checkedAt": "2026-11-27T21:31:50.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
     },
     "recCal20261127L92357": {
       "status": "En cours",
