@@ -7565,18 +7565,26 @@
     },
     "recCal20261127L91760": {
       "status": "En cours",
-      "provider": "Worldfootball.net — coup d'envoi indiqué à 13:01 CET, direct 0-0 provisoire",
-      "checkedAt": "2026-11-27T12:32:20.000Z",
+      "provider": "Worldfootball.net — reprise 2e mi-temps à 14:01 CET, 1-0 provisoire (but 44e)",
+      "checkedAt": "2026-11-27T13:31:52.000Z",
       "observedLive": true,
       "sourceUrl": "https://www--worldfootball--net.c.hs-data.com/match-report/co70/israel-ligat-haal/ma12163213/maccabi-petach-tikva_hapoel-tel-aviv/live-commentary/"
     },
     "recCal20261127L90657": {
       "status": "En cours",
+      "provider": "TNT Sports — direct 2e mi-temps 48e, 1-1 provisoire",
+      "checkedAt": "2026-11-27T13:31:52.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www.tntsports.co.uk/football/saudi-arabian-premier-league/2026-2027/al-kholood-al-khaleej_mtc21923698/live.shtml",
+      "statusBasis": "Buts 8e et 37e, remplacement 47e ; report ancien contredit par le direct ; calendrier SPL confirme match en cours."
+    },
+    "recCal20261127L92546": {
+      "status": "En cours",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "checkedAt": "2026-11-27T12:32:20.000Z",
       "observedLive": false,
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "Horaire dépassé; TNT Sports affiche Live avec minute incohérente; Sofascore sans score; MatchPal/ScoreProb signalent report sans confirmation officielle."
+      "statusBasis": "QSL confirme 27/11 16h Doha (14h Suisse), pas de direct probant sur Diretta/Rotascore ; ancienne fiche YS Scores 03/12 contredite par QSL.",
+      "checkedAt": "2026-11-27T13:31:52.000Z"
     }
   }
 }
