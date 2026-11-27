@@ -7672,11 +7672,12 @@
     },
     "recCal20261127L92265": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
+      "provider": "FlashSport — résultat final vérifié",
+      "sourceUrl": "https://flashsportapp.com/en/football/match/radomlje-nafta-2026-11-27-1558053/",
+      "statusBasis": "Résultat final vérifié dans la fiche / le compte rendu daté du 27/11/2026",
       "observedLive": false,
-      "checkedAt": "2026-11-27T19:39:53.000Z"
+      "checkedAt": "2026-11-27T23:32:37.000Z",
+      "score": "1-3"
     },
     "recCal20261127L91656": {
       "status": "Terminé",
@@ -7742,27 +7743,30 @@
     },
     "recCal20261127P72531690": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
+      "provider": "Renascença — résultat final vérifié",
+      "sourceUrl": "https://rr.pt/bola-branca/noticia/futebol-nacional/2026/11/27/portimonense-ganha-em-santa-maria-da-feira/495426/",
+      "statusBasis": "Résultat final vérifié dans la fiche / le compte rendu daté du 27/11/2026",
       "observedLive": false,
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "checkedAt": "2026-11-27T23:32:37.000Z",
+      "score": "1-2"
     },
     "recCal20261127P72680312": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
+      "provider": "NDR — résultat final vérifié",
+      "sourceUrl": "https://www.ndr.de/sport/fussball/Dritte-Liga-Hansa-Rostock%2Chansa-1048.html",
+      "statusBasis": "Résultat final vérifié dans la fiche / le compte rendu daté du 27/11/2026",
       "observedLive": false,
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "checkedAt": "2026-11-27T23:32:37.000Z",
+      "score": "2-0"
     },
     "recCal20261127L91821": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
+      "provider": "Golviva — résultat final vérifié",
+      "sourceUrl": "https://golviva.com/es/matches/sonderjyske-vs-brondby-1549069",
+      "statusBasis": "Résultat final vérifié dans la fiche / le compte rendu daté du 27/11/2026",
       "observedLive": false,
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "checkedAt": "2026-11-27T23:32:37.000Z",
+      "score": "1-1"
     },
     "recCal20261127L91823": {
       "status": "Terminé",
@@ -7774,19 +7778,21 @@
     },
     "recCal20261127L91237": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
+      "provider": "StatsLook — résultat final vérifié",
+      "sourceUrl": "https://statslook.com/matches/114629/petrolul-52-vs-arges",
+      "statusBasis": "Résultat final vérifié dans la fiche / le compte rendu daté du 27/11/2026",
       "observedLive": false,
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "checkedAt": "2026-11-27T23:32:37.000Z",
+      "score": "0-1"
     },
     "recCal20261127L89209": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
+      "provider": "Foot.be — résultat final vérifié",
+      "sourceUrl": "https://foot.be/match/austrian-bundesliga/2026/789652/",
+      "statusBasis": "Résultat final vérifié dans la fiche / le compte rendu daté du 27/11/2026",
       "observedLive": false,
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "checkedAt": "2026-11-27T23:32:37.000Z",
+      "score": "2-3"
     },
     "recCal20261127L91658": {
       "status": "Terminé",
@@ -7851,11 +7857,12 @@
     },
     "recCal20261127L92310": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "provider": "Starsporttv — résultat final vérifié",
+      "sourceUrl": "https://starsporttv.be/fr/content/challenger-pro-league-le-rsca-futures-etrille-jong-genk-francs-borains-et-eupen-partagent",
+      "checkedAt": "2026-11-27T23:32:37.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
+      "statusBasis": "Résultat final vérifié dans la fiche / le compte rendu daté du 27/11/2026",
+      "score": "0-5"
     },
     "recCal20261127P72044858": {
       "status": "Terminé",
@@ -7875,11 +7882,12 @@
     },
     "recCal20261127L91827": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "provider": "Starsporttv — résultat final vérifié",
+      "sourceUrl": "https://starsporttv.be/fr/content/challenger-pro-league-le-rsca-futures-etrille-jong-genk-francs-borains-et-eupen-partagent",
+      "checkedAt": "2026-11-27T23:32:37.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
+      "statusBasis": "Résultat final vérifié dans la fiche / le compte rendu daté du 27/11/2026",
+      "score": "2-2"
     },
     "recCal20261127P76735450": {
       "status": "Terminé",
@@ -7924,131 +7932,161 @@
     },
     "recCal20261127L91657": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "provider": "StatsLook — résultat final vérifié",
+      "sourceUrl": "https://statslook.com/matches/111870/gornik-zabrze-vs-wisla-plock",
+      "checkedAt": "2026-11-27T23:32:37.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
+      "statusBasis": "Résultat final vérifié dans la fiche / le compte rendu daté du 27/11/2026",
+      "score": "2-0"
     },
     "recCal20261127P72513342": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "provider": "From the Tribune — résultat final vérifié",
+      "sourceUrl": "https://fromthetribune.com/directo/werder-bremen-vs-borussia-m-nchengladbach-1575237-b5a22b",
+      "checkedAt": "2026-11-27T23:32:37.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
+      "statusBasis": "Résultat final vérifié dans la fiche / le compte rendu daté du 27/11/2026",
+      "score": "3-3"
     },
     "recCal20261127L92357": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
+      "checkedAt": "2026-11-27T23:32:37.000Z"
     },
     "recCal20261127L92778": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
+      "checkedAt": "2026-11-27T23:32:37.000Z"
     },
     "recCal20261127L92361": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
+      "checkedAt": "2026-11-27T23:32:37.000Z"
     },
     "recCal20261127L92732": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
+      "checkedAt": "2026-11-27T23:32:37.000Z"
     },
     "recCal20261127L92358": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
+      "checkedAt": "2026-11-27T23:32:37.000Z"
     },
     "recCal20261127L92363": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
+      "checkedAt": "2026-11-27T23:32:37.000Z"
     },
     "recCal20261127L91652": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
+      "checkedAt": "2026-11-27T23:32:37.000Z"
     },
     "recCal20261127P72740862": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
+      "checkedAt": "2026-11-27T23:32:37.000Z"
     },
     "recCal20261127P72036314": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Reuters — résultat final vérifié",
+      "sourceUrl": "https://www.reuters.com/sports/soccer/brest-go-third-ligue-1-with-1-0-win-over-paris-fc-2026-11-27/",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "statusBasis": "Résultat final vérifié dans la fiche / le compte rendu daté du 27/11/2026",
+      "checkedAt": "2026-11-27T23:32:37.000Z",
+      "score": "1-0"
     },
     "recCal20261127P71945444": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "Sofascore — résultat final vérifié",
+      "sourceUrl": "https://www.sofascore.com/it/news/venezia-0-0-bologna-stankovic-resta-saldo-mentre-le-occasioni-sfumano",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "statusBasis": "Résultat final vérifié dans la fiche / le compte rendu daté du 27/11/2026",
+      "checkedAt": "2026-11-27T23:32:37.000Z",
+      "score": "0-0"
     },
     "recCal20261127P72478736": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
+      "checkedAt": "2026-11-27T23:32:37.000Z"
     },
     "recCal20261127P72221428": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "The Guardian — résultat final vérifié",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/27/nottingham-forest-v-chelsea-premier-league-live",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "statusBasis": "Résultat final vérifié dans la fiche / le compte rendu daté du 27/11/2026",
+      "checkedAt": "2026-11-27T23:32:37.000Z",
+      "score": "3-2"
     },
     "recCal20261127P72340094": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Terminé",
+      "provider": "The Guardian — résultat final vérifié",
+      "sourceUrl": "https://www.theguardian.com/football/2026/nov/27/southampton-middlesbrough-championship-match-report-spygate-finn-azaz",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "statusBasis": "Résultat final vérifié dans la fiche / le compte rendu daté du 27/11/2026",
+      "checkedAt": "2026-11-27T23:32:37.000Z",
+      "score": "2-0"
     },
     "recCal20261127P72531026": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
+      "checkedAt": "2026-11-27T23:32:37.000Z"
+    },
+    "recCal20261128P66887198": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier ; début présumé, score non vérifié",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T23:32:37.000Z"
+    },
+    "recCal20261128L92417": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier ; début présumé, score non vérifié",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T23:32:37.000Z"
+    },
+    "recCal20261128P76848808": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier ; début présumé, score non vérifié",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T23:32:37.000Z"
     }
   }
 }
