@@ -7600,28 +7600,118 @@
       "score": "2-0"
     },
     "recCal20261127L92381": {
-      "status": "En cours",
-      "provider": "FotMob — deuxième mi-temps observée",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
       "sourceUrl": "https://www.fotmob.com/matches/al-arabi-vs-lusail-sc/n5j4k1l7",
-      "observedLive": true,
-      "statusBasis": "0-0 à 47:23, événements et statistiques ; score provisoire.",
-      "checkedAt": "2026-11-27T16:38:50.000Z"
+      "observedLive": false,
+      "statusBasis": "2-0 définitif ; buts 77e et 80e.",
+      "checkedAt": "2026-11-27T17:35:12.000Z",
+      "score": "2-0"
     },
     "recCal20261127L91142": {
-      "status": "En cours",
-      "provider": "FotMob — mi-temps observée",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
       "sourceUrl": "https://www.fotmob.com/en-GB/matches/universitatea-cluj-vs-sepsi-osk/2vyaekei",
-      "observedLive": true,
-      "statusBasis": "0-0 à la mi-temps, événements et statistiques ; score provisoire.",
-      "checkedAt": "2026-11-27T16:38:50.000Z"
+      "observedLive": false,
+      "statusBasis": "0-1 définitif ; but Andrei 60e.",
+      "checkedAt": "2026-11-27T17:35:12.000Z",
+      "score": "0-1"
     },
     "recCal20261127L91701": {
       "status": "En cours",
+      "provider": "Sofascore — première mi-temps observée",
+      "sourceUrl": "https://www.sofascore.com/football/match/lokomotiv-sofia-slavia-sofia/zpbsCpb",
+      "observedLive": true,
+      "statusBasis": "0-0 à 40:16 ; score provisoire.",
+      "checkedAt": "2026-11-27T17:35:12.000Z"
+    },
+    "recCal20261127L91655": {
+      "status": "En cours",
+      "provider": "Sofascore — première mi-temps observée",
+      "sourceUrl": "https://www.sofascore.com/football/match/alanyaspor-konyaspor/KlbsmCc",
+      "statusBasis": "1-0 à 19:33 ; score provisoire.",
+      "observedLive": true,
+      "checkedAt": "2026-11-27T17:35:12.000Z"
+    },
+    "recCal20261127L91659": {
+      "status": "En cours",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier : 2026-11-27T17:00:00.000Z ; aucun direct chiffré vérifié.",
       "observedLive": false,
-      "statusBasis": "Coup d’envoi 16:30 UTC confirmé par Sofascore et Viasport ; aucun direct chiffré constaté.",
-      "checkedAt": "2026-11-27T16:38:50.000Z"
+      "checkedAt": "2026-11-27T17:35:12.000Z"
+    },
+    "recCal20261127L91677": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier : 2026-11-27T17:00:00.000Z ; aucun direct chiffré vérifié.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T17:35:12.000Z"
+    },
+    "recCal20261127L92533": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier : 2026-11-27T17:00:00.000Z ; aucun direct chiffré vérifié.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T17:35:12.000Z"
+    },
+    "recCal20261127L92265": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier : 2026-11-27T17:00:00.000Z ; aucun direct chiffré vérifié.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T17:35:12.000Z"
+    },
+    "recCal20261127L91656": {
+      "status": "En cours",
+      "provider": "FotMob — première mi-temps observée",
+      "sourceUrl": "https://www.fotmob.com/matches/rakow-czestochowa-vs-piast-gliwice/178wxa",
+      "statusBasis": "26:49 ; événements de jeu, score provisoire incohérent entre bandeau et événements, non enregistré.",
+      "observedLive": true,
+      "checkedAt": "2026-11-27T17:35:12.000Z"
+    },
+    "recCal20261127L91660": {
+      "status": "En cours",
+      "provider": "Sofascore — début observé",
+      "sourceUrl": "https://www.sofascore.com/football/match/kasimpasa-caykur-rizespor/olbsnwc",
+      "statusBasis": "0-0 à 00:10 ; chronomètre en retard, début observé.",
+      "observedLive": true,
+      "checkedAt": "2026-11-27T17:35:12.000Z"
+    },
+    "recCal20261127P72513996": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier : 2026-11-27T17:30:00.000Z ; aucun direct chiffré vérifié.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T17:35:12.000Z"
+    },
+    "recCal20261127L91128": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier : 2026-11-27T17:30:00.000Z ; aucun direct chiffré vérifié.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T17:35:12.000Z"
+    },
+    "recCal20261127L91794": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier : 2026-11-27T17:30:00.000Z ; aucun direct chiffré vérifié.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T17:35:12.000Z"
+    },
+    "recCal20261127P72514000": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier : 2026-11-27T17:30:00.000Z ; aucun direct chiffré vérifié.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T17:35:12.000Z"
     }
   }
 }
