@@ -557,6 +557,10 @@ function connectDashboard(window, nonce, destination) {
     window.removeEventListener("message", acceptChannel);
     port = event.ports[0];
     port.onmessage = ({ data: message }) => {
+      if (message?.type === "tsukuyomi:scroll-to-top") {
+        window.scrollTo({ top: 0, behavior: reducedMotion?.matches ? "instant" : "smooth" });
+        return;
+      }
       if (message?.type === "tsukuyomi:reveal-initial-title") {
         revealingTitle?.removeAttribute("data-reveal-pending");
         if (!scrollReveal) {
