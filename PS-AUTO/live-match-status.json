@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-27T18:26:05.888Z",
+  "checkedAt": "2026-11-27T18:38:43.130Z",
   "providers": {
     "football": {
       "state": "erreur",
       "detail": "Source momentanément indisponible",
-      "checkedAt": "2026-11-27T18:26:05.888Z"
+      "checkedAt": "2026-11-27T18:38:43.130Z"
     },
     "tennis": {
       "state": "ok",
       "detail": "18 directs, 21 à venir ; 0 fiche(s) revérifiée(s)",
-      "checkedAt": "2026-11-27T18:26:05.888Z"
+      "checkedAt": "2026-11-27T18:38:43.130Z"
     }
   },
   "matches": {
@@ -7491,14 +7491,11 @@
     },
     "recCal20261127L93073": {
       "status": "En cours",
-      "provider": "Tennis Majors — premier set affiché",
+      "provider": "Live Tennis API",
       "providerId": "225707",
-      "checkedAt": "2026-11-27T18:31:26.000Z",
+      "checkedAt": "2026-11-27T18:38:43.130Z",
       "observedLive": true,
-      "reversed": false,
-      "sourceUrl": "https://www.tennismajors.com/matches/wta/argentina-open/varvara-lepchenko-vs-laura-samson",
-      "statusBasis": "Premier set : jeux 1-0 affichés, score en manches 0-0 ; début observé, aucun score final. Horaire 18:00 UTC rétabli (Sofascore, Scores24).",
-      "rescheduledKickoff": "2026-11-27T18:00:00.000Z"
+      "reversed": false
     },
     "recCal20261126P77150110": {
       "status": "Terminé",
