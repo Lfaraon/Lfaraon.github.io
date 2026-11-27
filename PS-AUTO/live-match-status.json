@@ -7583,35 +7583,45 @@
     },
     "recCal20261127L92546": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "YSscores — résultat final confirmé (Ended)",
       "observedLive": false,
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "+156 min ; QSL, OrcaScore et All Football affichent des directs anciens (9–35e minute), aucun résultat final ni activité récente confirmés ; score non vérifié.",
-      "checkedAt": "2026-11-27T15:36:35.000Z"
+      "sourceUrl": "https://www.ysscores.com/en/match/5952310/Al-Sailiya-SC-vs-Al-Gharafa-SC",
+      "statusBasis": "0-2 définitif ; buts et événements complets.",
+      "checkedAt": "2026-11-27T16:38:50.000Z",
+      "score": "0-2"
     },
     "recCal20261127L90656": {
-      "status": "En cours",
-      "provider": "FotMob — mi-temps observée",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
       "sourceUrl": "https://www.fotmob.com/matches/al-qadsiah-vs-al-fayha/2zobepib",
-      "statusBasis": "0-0 à la mi-temps, statistiques et événements de première période ; score provisoire uniquement.",
-      "observedLive": true,
-      "checkedAt": "2026-11-27T15:36:35.000Z"
+      "statusBasis": "2-0 définitif ; buts à 71 et 88 minutes.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T16:38:50.000Z",
+      "score": "2-0"
     },
     "recCal20261127L92381": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "statusBasis": "Coup d'envoi 15:30 UTC confirmé par QSL et Eurosport ; Soccerway sans score actuel.",
-      "checkedAt": "2026-11-27T15:36:35.000Z"
+      "provider": "FotMob — deuxième mi-temps observée",
+      "sourceUrl": "https://www.fotmob.com/matches/al-arabi-vs-lusail-sc/n5j4k1l7",
+      "observedLive": true,
+      "statusBasis": "0-0 à 47:23, événements et statistiques ; score provisoire.",
+      "checkedAt": "2026-11-27T16:38:50.000Z"
     },
     "recCal20261127L91142": {
+      "status": "En cours",
+      "provider": "FotMob — mi-temps observée",
+      "sourceUrl": "https://www.fotmob.com/en-GB/matches/universitatea-cluj-vs-sepsi-osk/2vyaekei",
+      "observedLive": true,
+      "statusBasis": "0-0 à la mi-temps, événements et statistiques ; score provisoire.",
+      "checkedAt": "2026-11-27T16:38:50.000Z"
+    },
+    "recCal20261127L91701": {
       "status": "En cours",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "statusBasis": "Coup d'envoi 15:30 UTC confirmé par FotMob et GSP ; fiches encore en avant-match.",
-      "checkedAt": "2026-11-27T15:36:35.000Z"
+      "statusBasis": "Coup d’envoi 16:30 UTC confirmé par Sofascore et Viasport ; aucun direct chiffré constaté.",
+      "checkedAt": "2026-11-27T16:38:50.000Z"
     }
   }
 }
