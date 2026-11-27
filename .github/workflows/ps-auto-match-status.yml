@@ -7,6 +7,8 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/ps-auto-match-status.yml'
+      - 'PS-AUTO/match-source.json'
+      - 'PS-AUTO/live-match-status.json'
       - 'PS-AUTO/tools/refresh-match-status.mjs'
       - 'PS-AUTO/tools/status-core.mjs'
   workflow_dispatch:
@@ -28,6 +30,8 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    outputs:
+      published: ${{ steps.publish.outputs.published }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -47,6 +51,7 @@ jobs:
           LIVE_TENNIS_API_KEY: ${{ secrets.LIVE_TENNIS_API_KEY }}
         run: node PS-AUTO/tools/refresh-match-status.mjs
       - name: Enregistrer les changements de statuts
+        id: publish
         if: steps.freshness.outputs.run_refresh == 'true'
         run: |
           if git diff --quiet -- PS-AUTO/live-match-status.json; then
@@ -59,3 +64,48 @@ jobs:
           git commit -m 'Actualiser les états vérifiés des matchs'
           git pull --rebase origin main
           git push origin HEAD:main
+          echo 'published=true' >> "$GITHUB_OUTPUT"
+
+  settle:
+    name: Régler les tickets après publication du calendrier
+    needs: refresh
+    if: ${{ !cancelled() && github.ref == 'refs/heads/main' && (needs.refresh.outputs.published == 'true' || github.event_name == 'push') }}
+    permissions:
+      id-token: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    env:
+      SETTLEMENT_URL: https://suudtatpapkmrrmlffvk.supabase.co/functions/v1/settle-calendar-tickets
+    steps:
+      - name: Déclencher le règlement Tsukuyomi
+        run: |
+          node --input-type=module <<'JS'
+          const endpoint = process.env.SETTLEMENT_URL;
+          try {
+            const tokenUrl = new URL(process.env.ACTIONS_ID_TOKEN_REQUEST_URL);
+            tokenUrl.searchParams.set('audience', endpoint);
+            const identity = await fetch(tokenUrl, {
+              headers: { authorization: 'Bearer ' + process.env.ACTIONS_ID_TOKEN_REQUEST_TOKEN },
+              signal: AbortSignal.timeout(10_000),
+              redirect: 'error',
+            });
+            if (!identity.ok) throw new Error('Identité GitHub indisponible (HTTP ' + identity.status + ').');
+            const { value: token } = await identity.json();
+            if (typeof token !== 'string' || !token) throw new Error('Identité GitHub absente.');
+            console.log('::add-mask::' + token);
+
+            const response = await fetch(endpoint, {
+              method: 'POST',
+              headers: { authorization: 'Bearer ' + token },
+              signal: AbortSignal.timeout(45_000),
+              redirect: 'error',
+            });
+            if (!response.ok) throw new Error('Règlement Tsukuyomi indisponible (HTTP ' + response.status + ').');
+            const { settled, saved_legs } = await response.json();
+            console.log('Règlement Tsukuyomi terminé. Tickets réglés : ' + Number(settled)
+              + '. Sélections enregistrées individuellement : ' + Number(saved_legs) + '.');
+          } catch (error) {
+            console.error('::error::' + error.message + ' Le contrôle périodique reste actif.');
+            process.exitCode = 1;
+          }
+          JS
