@@ -46,7 +46,8 @@ async function getJson(url, key, header) {
       if (/headers?/i.test(body.errors.access)) kinds.push('en-têtes refusés');
       else if (/\bip\b|whitelist|allowlist/i.test(body.errors.access)) kinds.push('adresse du serveur refusée');
     }
-    throw new Error(`Erreur fournisseur (${host})${kinds.length ? ` — ${kinds.join(', ')}` : ''}`);
+    throw Object.assign(new Error(`Erreur fournisseur (${host})${kinds.length ? ` — ${kinds.join(', ')}` : ''}`),
+      { accessDenied: kinds.includes('accès') });
   }
   return body;
 }
@@ -91,7 +92,19 @@ async function football(active, state, key) {
     return body.response;
   }));
   const verified = results.filter(({ status }) => status === 'fulfilled');
-  if (!verified.length) throw results[0].reason;
+  if (!verified.length) {
+    const error = results[0].reason;
+    if (error.accessDenied) {
+      // The account status endpoint does not consume the daily fixture quota.
+      const status = await getJson('https://v3.football.api-sports.io/status', key, 'x-apisports-key').catch(() => null);
+      const active = status?.response?.subscription?.active;
+      const detail = typeof active === 'boolean'
+        ? (active ? 'abonnement actif, accès aux rencontres refusé' : 'abonnement inactif')
+        : 'statut du compte indisponible';
+      throw new Error(`${error.message} ; ${detail}`);
+    }
+    throw error;
+  }
   for (const [index, result] of results.entries()) {
     if (result.status === 'rejected') console.warn(`Vérification football du ${days[index]} échouée : ${result.reason.message}`);
   }

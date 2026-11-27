@@ -38,6 +38,20 @@ const COUNTRY_ALIASES = {
   'erythree': 'eritrea',
   'guinee': 'guinea',
 };
+const FOOTBALL_ALIASES = new Map([
+  ['brest 29', 'brest'],
+  ['stade brest 29', 'brest'],
+  ['stade brestois', 'brest'],
+  ['stade brestois 29', 'brest'],
+  ['hansa rostock', 'rostock'],
+  ['fc hansa rostock', 'rostock'],
+  ['f c hansa rostock', 'rostock'],
+  ['tsv havelse', 'havelse'],
+  ['venezia fc', 'venezia'],
+  ['bologna fc', 'bologna'],
+  ['bologna fc 1909', 'bologna'],
+  ['bologne', 'bologna'],
+]);
 
 export function normalized(value) {
   const text = String(value ?? '').toLowerCase().normalize('NFD')
@@ -86,6 +100,12 @@ function sideMatches(a, b, sport) {
   return expectedNames.every((part, i) => actualNames[i] === part || actualNames[i].endsWith(` ${part}`));
 }
 
+function footballAliasMatches(a, b) {
+  const expected = normalized(a);
+  const actual = normalized(b);
+  return Boolean(expected && actual && (FOOTBALL_ALIASES.get(expected) ?? expected) === (FOOTBALL_ALIASES.get(actual) ?? actual));
+}
+
 export function identifyMatch(match, candidates) {
   const names = splitMatch(match.name);
   if (names.length !== 2) return null;
@@ -96,12 +116,16 @@ export function identifyMatch(match, candidates) {
     const when = Date.parse(candidate.kickoff);
     // Une même affiche peut se rejouer ; on exige également la proximité horaire.
     if (!Number.isFinite(when) || Math.abs(when - kickoff) > 12 * 3600_000) return false;
-    return (sideMatches(names[0], candidate.sides[0], match.sport) && sideMatches(names[1], candidate.sides[1], match.sport)) ||
-      (match.sport === 'Tennis' && sideMatches(names[0], candidate.sides[1], match.sport) && sideMatches(names[1], candidate.sides[0], match.sport));
+    if (sideMatches(names[0], candidate.sides[0], match.sport) && sideMatches(names[1], candidate.sides[1], match.sport)) return true;
+    if (match.sport === 'Football') {
+      return when === kickoff && footballAliasMatches(names[0], candidate.sides[0]) && footballAliasMatches(names[1], candidate.sides[1]);
+    }
+    return match.sport === 'Tennis' && sideMatches(names[0], candidate.sides[1], match.sport)
+      && sideMatches(names[1], candidate.sides[0], match.sport);
   });
   if (matching.length !== 1 || !matching[0].providerId) return null; // Ambiguïté : aucun rapprochement automatique.
   const candidate = matching[0];
-  const reversed = !sideMatches(names[0], candidate.sides[0], match.sport);
+  const reversed = match.sport === 'Tennis' && !sideMatches(names[0], candidate.sides[0], match.sport);
   return { ...candidate, reversed };
 }
 

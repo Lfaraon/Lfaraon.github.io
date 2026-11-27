@@ -4,7 +4,7 @@ import { mkdtemp, readFile, rm, rmdir, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { activeMatches, footballDates } from './refresh-match-status.mjs';
-import { applyEvidence, footballCandidate, isVerifiedFinal, orientObservation, tennisCandidate } from './status-core.mjs';
+import { applyEvidence, footballCandidate, identifyMatch, isVerifiedFinal, orientObservation, tennisCandidate } from './status-core.mjs';
 
 const kickoff = '2026-11-23T17:00:00Z';
 const checkedAt = '2026-11-23T20:00:00Z';
@@ -179,8 +179,17 @@ test('une date en erreur préserve les résultats des autres dates et masque la 
   const previousDay = new Date(Date.parse(started) - 86_400_000).toISOString();
   const match = (id, at) => ({ id, kickoff: at, sport: 'Football', name: 'Alpha – Bravo', snapshotStatus: 'À venir' });
   await writeFile(input, JSON.stringify({ schema: 1, matches: [match('confirmed', started), match('unavailable', previousDay)] }));
-  const requests = t.mock.method(globalThis, 'fetch', async (url) => {
-    const date = new URL(url).searchParams.get('date');
+  let denyAccess = false;
+  const requests = t.mock.method(globalThis, 'fetch', async (url, options) => {
+    assert.deepEqual(Object.keys(options.headers), ['x-apisports-key']);
+    const endpoint = new URL(url);
+    if (denyAccess) {
+      if (endpoint.pathname === '/status') {
+        return Response.json({ response: { subscription: { active: true }, account: { email: 'sensitive@example.invalid' } } });
+      }
+      return Response.json({ errors: { access: 'private payload text' } });
+    }
+    const date = endpoint.searchParams.get('date');
     if (date === previousDay.slice(0, 10)) return Response.json({ errors: { requests: 'private payload text' } });
     assert.equal(date, started.slice(0, 10));
     return Response.json({ response: [{
@@ -200,4 +209,30 @@ test('une date en erreur préserve les résultats des autres dates et masque la 
   assert.equal(warnings.mock.callCount(), 1);
   assert.match(warnings.mock.calls[0].arguments[0], /Erreur fournisseur \(v3\.football\.api-sports\.io\) — quota$/);
   assert.doesNotMatch(warnings.mock.calls[0].arguments[0], /private payload text|mocked-key/);
+  denyAccess = true;
+  assert.equal(await run(), false);
+  assert.ok(requests.mock.calls.some(({ arguments: [url] }) => new URL(url).pathname === '/status'));
+  const lastWarning = warnings.mock.calls.at(-1).arguments[0];
+  assert.match(lastWarning, /abonnement actif, accès aux rencontres refusé/);
+  assert.doesNotMatch(lastWarning, /private payload text|sensitive@example\.invalid|mocked-key/);
+});
+
+test('les alias des clubs exigent le même coup d’envoi et le même ordre des équipes', () => {
+  for (const [name, sides] of [
+    ['Stade Brest 29 – Paris FC', ['Brest', 'Paris FC']],
+    ['Hansa Rostock – TSV Havelse', ['Rostock', 'Havelse']],
+    ['Venezia FC – Bologna FC', ['Venezia', 'Bologne']],
+  ]) {
+    const match = { sport: 'Football', kickoff, name };
+    const candidate = { sport: 'Football', kickoff: '2026-11-23T18:00:00+01:00', sides, providerId: '123' };
+    assert.deepEqual(identifyMatch(match, [candidate]), { ...candidate, reversed: false });
+    assert.equal(identifyMatch(match, [{ ...candidate, kickoff: checkedAt }]), null);
+    assert.equal(identifyMatch(match, [{ ...candidate, sides: sides.toReversed() }]), null);
+    assert.equal(identifyMatch(match, [{ ...candidate, sides: [sides[0] + ' II', sides[1]] }]), null);
+    assert.equal(identifyMatch(match, [candidate, { ...candidate, providerId: '456' }]), null);
+  }
+
+  const match = { sport: 'Football', kickoff, name: 'Venezia FC – Bologna FC' };
+  const candidate = { sport: 'Football', kickoff: checkedAt, sides: ['Venezia FC', 'Bologna FC'], providerId: '123' };
+  assert.equal(identifyMatch(match, [candidate]).providerId, candidate.providerId);
 });
