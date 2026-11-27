@@ -7564,19 +7564,22 @@
       "score": "2-0"
     },
     "recCal20261127L91760": {
-      "status": "En cours",
-      "provider": "Worldfootball.net — reprise 2e mi-temps à 14:01 CET, 1-0 provisoire (but 44e)",
-      "checkedAt": "2026-11-27T13:31:52.000Z",
-      "observedLive": true,
-      "sourceUrl": "https://www--worldfootball--net.c.hs-data.com/match-report/co70/israel-ligat-haal/ma12163213/maccabi-petach-tikva_hapoel-tel-aviv/live-commentary/"
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "checkedAt": "2026-11-27T14:31:30.000Z",
+      "observedLive": false,
+      "sourceUrl": "https://www.fotmob.com/matches/maccabi-petach-tikva-vs-hapoel-tel-aviv/2pn5ju",
+      "score": "2-0",
+      "statusBasis": "FT 2-0 le 27/11/2026 ; Hadida 44e, Spence 74e."
     },
     "recCal20261127L90657": {
-      "status": "En cours",
-      "provider": "TNT Sports — direct 2e mi-temps 48e, 1-1 provisoire",
-      "checkedAt": "2026-11-27T13:31:52.000Z",
-      "observedLive": true,
+      "status": "Terminé",
+      "provider": "TNT Sports — résultat final confirmé (Finished)",
+      "checkedAt": "2026-11-27T14:31:30.000Z",
+      "observedLive": false,
       "sourceUrl": "https://www.tntsports.co.uk/football/saudi-arabian-premier-league/2026-2027/al-kholood-al-khaleej_mtc21923698/live.shtml",
-      "statusBasis": "Buts 8e et 37e, remplacement 47e ; report ancien contredit par le direct ; calendrier SPL confirme match en cours."
+      "statusBasis": "Finished 2-1 le 27/11/2026.",
+      "score": "2-1"
     },
     "recCal20261127L92546": {
       "status": "En cours",
@@ -7585,6 +7588,14 @@
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
       "statusBasis": "QSL confirme 27/11 16h Doha (14h Suisse), pas de direct probant sur Diretta/Rotascore ; ancienne fiche YS Scores 03/12 contredite par QSL.",
       "checkedAt": "2026-11-27T13:31:52.000Z"
+    },
+    "recCal20261127L90656": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "FotMob confirme 14:20 UTC ; TNT Sports signale 3e minute dans matchs associés, fiche directe inaccessible.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T14:31:30.000Z"
     }
   }
 }
