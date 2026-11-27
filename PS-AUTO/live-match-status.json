@@ -7797,12 +7797,14 @@
       "checkedAt": "2026-11-27T20:30:48.000Z"
     },
     "recCal20261127L92557": {
-      "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "status": "À venir",
+      "provider": "LoRo — nouvel horaire de programmation, ancienne fin présumée invalidée",
+      "sourceUrl": "https://jeux.loro.ch/sports/fr/sportif/evenement/92557",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
+      "checkedAt": "2026-11-27T21:59:22.486Z",
+      "reversed": false,
+      "rescheduledKickoff": "2026-11-28T00:00:00.000Z",
+      "statusBasis": "Carte LoRo actualisée ; début réel non vérifié"
     },
     "recCal20261127P72044850": {
       "status": "Reporté",
