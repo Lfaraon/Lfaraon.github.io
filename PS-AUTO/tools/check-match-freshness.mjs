@@ -18,9 +18,9 @@ try {
   state = { checkedAt: null, providers: {} };
 }
 
-const forced = mode === 'refresh' &&
-  process.env.GITHUB_EVENT_NAME === 'workflow_dispatch' &&
-  process.env.FORCE_REFRESH !== 'false';
+const repair = process.env.GITHUB_EVENT_NAME === 'push' && state.providers?.football?.state === 'erreur';
+const manual = process.env.GITHUB_EVENT_NAME === 'workflow_dispatch' && process.env.FORCE_REFRESH !== 'false';
+const forced = mode === 'refresh' && (repair || manual);
 const decision = mode === 'refresh' ? refreshDecision(state, Date.now(), forced) : watchdogDecision(state);
 const minutes = decision.ageMinutes === null ? 'indéterminé' : Math.max(0, Math.floor(decision.ageMinutes)) + ' min';
 const label = mode === 'refresh' ? 'run_refresh' : 'needs_refresh';

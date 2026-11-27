@@ -29,8 +29,11 @@ async function readJson(path, fallback) {
 
 async function getJson(url, key, header) {
   const host = new URL(url).host;
+  const headers = { [header]: key };
+  // API-Football rejects application-supplied headers other than its API key.
+  if (host !== 'v3.football.api-sports.io') headers.accept = 'application/json';
   const response = await fetch(url, {
-    headers: { [header]: key, accept: 'application/json' }, signal: AbortSignal.timeout(15_000),
+    headers, signal: AbortSignal.timeout(15_000),
   }).catch(() => { throw new Error(`Connexion indisponible (${host})`); });
   if (!response.ok) throw new Error(`HTTP ${response.status} (${host})`);
   const body = await response.json().catch(() => null);
@@ -39,6 +42,10 @@ async function getJson(url, key, header) {
     const kinds = host === 'v3.football.api-sports.io'
       ? [...new Set(Object.keys(body.errors).map((name) => footballErrorKinds.get(name.toLowerCase())).filter(Boolean))]
       : [];
+    if (kinds.includes('accès') && typeof body.errors.access === 'string') {
+      if (/headers?/i.test(body.errors.access)) kinds.push('en-têtes refusés');
+      else if (/\bip\b|whitelist|allowlist/i.test(body.errors.access)) kinds.push('adresse du serveur refusée');
+    }
     throw new Error(`Erreur fournisseur (${host})${kinds.length ? ` — ${kinds.join(', ')}` : ''}`);
   }
   return body;
