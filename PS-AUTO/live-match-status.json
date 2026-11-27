@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-27T00:35:38.711Z",
+  "checkedAt": "2026-11-27T09:40:55.095Z",
   "providers": {
     "football": {
       "state": "erreur",
       "detail": "Source momentanément indisponible",
-      "checkedAt": "2026-11-27T00:35:38.711Z"
+      "checkedAt": "2026-11-27T09:40:55.095Z"
     },
     "tennis": {
       "state": "ok",
-      "detail": "2 directs, 161 à venir ; 1 fiche(s) revérifiée(s)",
-      "checkedAt": "2026-11-27T00:35:38.711Z"
+      "detail": "34 directs, 99 à venir ; 0 fiche(s) revérifiée(s)",
+      "checkedAt": "2026-11-27T09:40:55.095Z"
     }
   },
   "matches": {
@@ -7491,14 +7491,11 @@
     },
     "recCal20261127L93073": {
       "status": "À venir",
-      "provider": "Scores24 / Stadiro — nouvel horaire concordant 18:00 UTC (19:00 CET), match à venir",
+      "provider": "Live Tennis API",
       "providerId": "225707",
-      "checkedAt": "2026-11-27T04:33:01.000Z",
+      "checkedAt": "2026-11-27T09:40:55.095Z",
       "observedLive": false,
-      "reversed": false,
-      "statusBasis": "Calendrier PS-AUTO initial 09:00 UTC ; fiches précises Scores24, Stadiro et Tennis-France affichent 18:00 UTC / 19:00 CET. Nouveau créneau à privilégier ; ordre de jeu WTA du 27 non disponible lors du contrôle.",
-      "sourceUrl": "https://scores24.live/en/tennis/m-27-11-2026-lepchenko-varvara-samson-laura",
-      "rescheduledKickoff": "2026-11-27T18:00:00.000Z"
+      "reversed": false
     },
     "recCal20261126P77150110": {
       "status": "Terminé",
