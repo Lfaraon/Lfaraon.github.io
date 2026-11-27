@@ -7491,11 +7491,14 @@
     },
     "recCal20261127L93073": {
       "status": "À venir",
-      "provider": "Live Tennis API",
+      "provider": "Scores24 / TennisTemple / TennisMajors — horaire corrigé confirmé",
       "providerId": "225707",
-      "checkedAt": "2026-11-27T09:40:55.095Z",
+      "checkedAt": "2026-11-27T10:33:44.000Z",
       "observedLive": false,
-      "reversed": false
+      "reversed": false,
+      "sourceUrl": "https://scores24.live/en/tennis/m-27-11-2026-lepchenko-varvara-samson-laura",
+      "statusBasis": "18:00 UTC / 19:00 CET, fiches concordantes, aucun jeu observé ; restauration du créneau déjà enregistré dans Airtable après écrasement par Live Tennis API.",
+      "rescheduledKickoff": "2026-11-27T18:00:00.000Z"
     },
     "recCal20261126P77150110": {
       "status": "Terminé",
@@ -7553,11 +7556,11 @@
     },
     "recCal20261127L89205": {
       "status": "En cours",
-      "provider": "Sofascore — début réel confirmé (1-0 à 30:04, score provisoire)",
+      "provider": "Sofascore — direct confirmé (2-0 à 86:44, score provisoire)",
       "sourceUrl": "https://www.sofascore.com/football/match/macarthur-fc-melbourne-city/kUqsHIYc",
-      "checkedAt": "2026-11-27T09:39:30.000Z",
+      "checkedAt": "2026-11-27T10:33:44.000Z",
       "observedLive": true,
-      "statusBasis": "Fiche précise du 27.11.2026 : but à la 5e minute, score et minute observés ; aucun score final."
+      "statusBasis": "Fiche précise du 27.11.2026 : deuxième mi-temps, 86:44 ; score provisoire 2-0, aucun résultat final confirmé."
     }
   }
 }
