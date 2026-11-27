@@ -7491,12 +7491,15 @@
     },
     "recCal20261127L93073": {
       "status": "En cours",
-      "provider": "Live Tennis API",
+      "provider": "Tennis Majors — troisième set observé",
       "providerId": "225707",
-      "checkedAt": "2026-11-27T20:32:06.526Z",
+      "checkedAt": "2026-11-27T20:30:48.000Z",
       "observedLive": true,
       "reversed": false,
-      "statusCode": "finished"
+      "statusCode": "live",
+      "sourceUrl": "https://www.tennismajors.com/matches/wta/argentina-open/varvara-lepchenko-vs-laura-samson",
+      "rescheduledKickoff": "2026-11-27T18:00:00.000Z",
+      "statusBasis": "Fiche du 27/11 : 6-3, 6-7, 1-1 au troisième set ; score non final."
     },
     "recCal20261126P77150110": {
       "status": "Terminé",
