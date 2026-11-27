@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-26T15:17:57.928Z",
+  "checkedAt": "2026-11-27T00:35:38.711Z",
   "providers": {
     "football": {
       "state": "erreur",
       "detail": "Source momentanément indisponible",
-      "checkedAt": "2026-11-26T15:17:57.928Z"
+      "checkedAt": "2026-11-27T00:35:38.711Z"
     },
     "tennis": {
       "state": "ok",
-      "detail": "28 directs, 56 à venir ; 0 fiche(s) revérifiée(s)",
-      "checkedAt": "2026-11-26T15:17:57.928Z"
+      "detail": "2 directs, 161 à venir ; 1 fiche(s) revérifiée(s)",
+      "checkedAt": "2026-11-27T00:35:38.711Z"
     }
   },
   "matches": {
@@ -7129,12 +7129,18 @@
       "score": "1-0"
     },
     "recCal20261126L92840": {
-      "status": "À venir",
+      "status": "Terminé",
       "provider": "Live Tennis API",
       "providerId": "225458",
-      "checkedAt": "2026-11-26T15:17:57.928Z",
+      "checkedAt": "2026-11-27T00:35:38.711Z",
       "observedLive": false,
-      "reversed": false
+      "reversed": false,
+      "statusCode": "finished",
+      "outcome": "completed",
+      "score": "2-0",
+      "sourceUrl": "https://api.livetennisapi.com/api/public/v1/matches/225458",
+      "sets": "6-4, 7-6",
+      "lastDetailedAt": "2026-11-27T00:35:38.711Z"
     },
     "recCal20261126L90658": {
       "status": "Terminé",
@@ -7481,6 +7487,14 @@
       "sourceUrl": "https://www.fotmob.com/en-GB/matches/remo-vs-sao-paulo/166ivu",
       "observedLive": true,
       "checkedAt": "2026-11-26T23:39:45.000Z"
+    },
+    "recCal20261127L93073": {
+      "status": "À venir",
+      "provider": "Live Tennis API",
+      "providerId": "225707",
+      "checkedAt": "2026-11-27T00:35:38.711Z",
+      "observedLive": false,
+      "reversed": false
     }
   }
 }
