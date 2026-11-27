@@ -110,6 +110,15 @@ function scoreText(home, away) {
     ? `${home}-${away}` : undefined;
 }
 
+function canonicalScore(value) {
+  if (typeof value !== 'string' || !scorePattern.test(value.trim())) return undefined;
+  return scoreText(...value.trim().split(/\s*[-–—:]\s*/).map(Number));
+}
+
+export function hasFootballRegulationScore(observation) {
+  return canonicalScore(observation?.regulationScore) !== undefined;
+}
+
 export function footballCandidate(f) {
   const status = String(f?.fixture?.status?.short || '');
   const providerId = String(f?.fixture?.id || '');
@@ -118,7 +127,8 @@ export function footballCandidate(f) {
   const regulationScore = scoreText(f?.score?.fulltime?.home, f?.score?.fulltime?.away)
     ?? (status === 'FT' ? goals : undefined);
   const score = goals ?? (status === 'FT' ? regulationScore : undefined);
-  const final = footballFinalStatuses.has(status) && Boolean(score) && Boolean(regulationScore) && /^\d+$/.test(providerId);
+  const final = footballFinalStatuses.has(status) && Boolean(score) && Boolean(regulationScore)
+    && (status !== 'FT' || score === regulationScore) && /^\d+$/.test(providerId);
   const state = final ? 'Terminé' :
     ['1H', '2H', 'HT', 'ET', 'BT', 'P', 'LIVE'].includes(status) ? 'En cours' :
     ['SUSP', 'INT'].includes(status) ? 'Suspendu' :
@@ -187,10 +197,38 @@ export function orientObservation(observation, reversed) {
   return aligned;
 }
 
+function enrichFootballRegulationScore(previous, observation, checkedAt, kickoff, now) {
+  if (hasFootballRegulationScore(previous) || observation.sport !== 'Football' || observation.provider !== 'API-Football'
+    || !footballFinalStatuses.has(observation.statusCode) || !hasFootballRegulationScore(observation)) return previous;
+
+  // Require the same effective kickoff for an already verified result, even when the candidate
+  // passed the broader name/time matching used for live observations.
+  const effectiveKickoff = Date.parse(previous.rescheduledKickoff ?? kickoff);
+  if (!Number.isFinite(effectiveKickoff) || Date.parse(observation.kickoff) !== effectiveKickoff
+    || !isVerifiedFinal({ ...observation, checkedAt }, effectiveKickoff, now)) return previous;
+  if (previous.provider === observation.provider && previous.providerId != null
+    && String(previous.providerId) !== String(observation.providerId)) return previous;
+
+  const priorStatusCode = String(previous.statusCode ?? '').toUpperCase();
+  const priorScore = canonicalScore(previous.score);
+  if ((footballFinalStatuses.has(priorStatusCode) && priorStatusCode !== observation.statusCode)
+    || !priorScore || priorScore !== canonicalScore(observation.score)) return previous;
+
+  return {
+    ...previous,
+    statusCode: observation.statusCode,
+    regulationScore: observation.regulationScore,
+    regulationScoreSourceUrl: observation.sourceUrl,
+    regulationScoreCheckedAt: checkedAt,
+  };
+}
+
 export function applyEvidence(previous, observation, checkedAt, kickoff = observation?.kickoff) {
   if (!observation || !STATUSES.has(observation.status)) return previous;
   const now = Date.parse(checkedAt);
-  if (isVerifiedFinal(previous, kickoff, now)) return previous;
+  if (isVerifiedFinal(previous, kickoff, now)) {
+    return enrichFootballRegulationScore(previous, observation, checkedAt, kickoff, now);
+  }
   if (previous?.status === 'En cours' && observation.status === 'À venir') return previous;
   if (observation.status === 'Terminé' && !isVerifiedFinal({ ...observation, checkedAt }, kickoff, now)) return previous;
   return {

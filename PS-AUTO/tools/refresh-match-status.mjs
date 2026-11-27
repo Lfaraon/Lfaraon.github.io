@@ -6,7 +6,8 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import {
-  applyEvidence, footballCandidate, identifyMatch, isVerifiedFinal, missingAfterLive, orientObservation, tennisCandidate,
+  applyEvidence, footballCandidate, hasFootballRegulationScore, identifyMatch, isVerifiedFinal, missingAfterLive,
+  orientObservation, tennisCandidate,
 } from './status-core.mjs';
 
 const ROOT = process.env.PS_AUTO_DATA_DIR || join(process.cwd(), 'PS-AUTO');
@@ -14,6 +15,12 @@ const INPUT = join(ROOT, 'match-source.json');
 const OUTPUT = join(ROOT, 'live-match-status.json');
 const checkedAt = new Date().toISOString();
 const DAY = 86_400_000;
+const footballErrorKinds = new Map([
+  ['requests', 'quota'], ['quota', 'quota'], ['rate', 'quota'], ['rate_limit', 'quota'],
+  ['token', 'authentification'], ['key', 'authentification'], ['apikey', 'authentification'], ['api_key', 'authentification'],
+  ['authorization', 'authentification'], ['credentials', 'authentification'],
+  ['plan', 'abonnement'], ['subscription', 'abonnement'], ['access', 'accès'],
+]);
 
 async function readJson(path, fallback) {
   try { return JSON.parse(await readFile(path, 'utf8')); }
@@ -21,11 +28,18 @@ async function readJson(path, fallback) {
 }
 
 async function getJson(url, key, header) {
-  const response = await fetch(url, { headers: { [header]: key, accept: 'application/json' }, signal: AbortSignal.timeout(15_000) });
-  if (!response.ok) throw new Error(`HTTP ${response.status} (${new URL(url).host})`);
-  const body = await response.json();
+  const host = new URL(url).host;
+  const response = await fetch(url, {
+    headers: { [header]: key, accept: 'application/json' }, signal: AbortSignal.timeout(15_000),
+  }).catch(() => { throw new Error(`Connexion indisponible (${host})`); });
+  if (!response.ok) throw new Error(`HTTP ${response.status} (${host})`);
+  const body = await response.json().catch(() => null);
+  if (!body || typeof body !== 'object') throw new Error(`Réponse invalide (${host})`);
   if (body.errors && (Array.isArray(body.errors) ? body.errors.length : Object.keys(body.errors).length)) {
-    throw new Error(`Erreur fournisseur (${new URL(url).host})`);
+    const kinds = host === 'v3.football.api-sports.io'
+      ? [...new Set(Object.keys(body.errors).map((name) => footballErrorKinds.get(name.toLowerCase())).filter(Boolean))]
+      : [];
+    throw new Error(`Erreur fournisseur (${host})${kinds.length ? ` — ${kinds.join(', ')}` : ''}`);
   }
   return body;
 }
@@ -33,8 +47,10 @@ async function getJson(url, key, header) {
 export function activeMatches(manifest, state, now = Date.parse(checkedAt)) {
   return manifest.matches.filter((m) => {
     const t = Date.parse(m.kickoff);
-    return Number.isFinite(t) && t >= now - 4 * DAY && t <= now + 3 * DAY
-      && !isVerifiedFinal(state.matches[m.id], m.kickoff, now);
+    if (!Number.isFinite(t) || t < now - 4 * DAY || t > now + 3 * DAY) return false;
+    const previous = state.matches[m.id];
+    return !isVerifiedFinal(previous, m.kickoff, now)
+      || (m.sport === 'Football' && !hasFootballRegulationScore(previous));
   });
 }
 
@@ -44,10 +60,16 @@ function observe(state, match, candidate) {
   state.matches[match.id] = applyEvidence(old, orientObservation(candidate, reversed), checkedAt, match.kickoff);
 }
 
-export function footballDates(matches, now = Date.parse(checkedAt)) {
+export function footballDates(matches, now = Date.parse(checkedAt), state) {
   const today = Math.floor(now / DAY) * DAY;
-  const dates = [...new Set(matches.map(({ kickoff }) => new Date(kickoff).toISOString().slice(0, 10)))];
-  return dates.sort((a, b) => Math.abs(Date.parse(a) - today) - Math.abs(Date.parse(b) - today)
+  const dateHasOpenMatch = new Map();
+  for (const { id, kickoff } of matches) {
+    const date = new Date(kickoff).toISOString().slice(0, 10);
+    const open = !state || !isVerifiedFinal(state.matches[id], kickoff, now);
+    dateHasOpenMatch.set(date, dateHasOpenMatch.get(date) || open);
+  }
+  return [...dateHasOpenMatch.keys()].sort((a, b) => Number(dateHasOpenMatch.get(b)) - Number(dateHasOpenMatch.get(a))
+    || Math.abs(Date.parse(a) - today) - Math.abs(Date.parse(b) - today)
     || a.localeCompare(b)).slice(0, 3);
 }
 
@@ -55,11 +77,18 @@ async function football(active, state, key) {
   if (!key) return 'clé manquante';
   const items = active.filter((m) => m.sport === 'Football');
   if (!items.length) return 'aucun match à suivre';
-  const days = footballDates(items);
-  const results = await Promise.all(days.map((date) => getJson(
-    `https://v3.football.api-sports.io/fixtures?date=${date}`, key, 'x-apisports-key',
-  )));
-  const fixtures = results.flatMap((body) => Array.isArray(body.response) ? body.response : []).map(footballCandidate);
+  const days = footballDates(items, Date.parse(checkedAt), state);
+  const results = await Promise.allSettled(days.map(async (date) => {
+    const body = await getJson(`https://v3.football.api-sports.io/fixtures?date=${date}`, key, 'x-apisports-key');
+    if (!Array.isArray(body.response)) throw new Error('Réponse football incomplète');
+    return body.response;
+  }));
+  const verified = results.filter(({ status }) => status === 'fulfilled');
+  if (!verified.length) throw results[0].reason;
+  for (const [index, result] of results.entries()) {
+    if (result.status === 'rejected') console.warn(`Vérification football du ${days[index]} échouée : ${result.reason.message}`);
+  }
+  const fixtures = verified.flatMap(({ value }) => value).map(footballCandidate);
   for (const match of items) {
     const found = identifyMatch(match, fixtures);
     if (found) observe(state, match, found);
@@ -68,7 +97,8 @@ async function football(active, state, key) {
       // On ne le règle jamais sur cette seule base.
     }
   }
-  return `${days.length} jour(s) vérifié(s)`;
+  const unavailable = days.length - verified.length;
+  return `${verified.length} jour(s) vérifié(s)${unavailable ? `, ${unavailable} indisponible(s)` : ''}`;
 }
 
 async function tennis(active, state, key) {
