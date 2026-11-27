@@ -7597,7 +7597,9 @@
       "statusBasis": "2-0 définitif ; buts à 71 et 88 minutes.",
       "observedLive": false,
       "checkedAt": "2026-11-27T16:38:50.000Z",
-      "score": "2-0"
+      "score": "2-0",
+      "statusCode": "FT",
+      "regulationScore": "2-0"
     },
     "recCal20261127L92381": {
       "status": "Terminé",
