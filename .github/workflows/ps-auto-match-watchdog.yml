@@ -1,6 +1,8 @@
 name: PS-AUTO — Surveillance des actualisations
 
 on:
+  schedule:
+    - cron: '47 * * * *'
   workflow_dispatch:
 
 permissions:

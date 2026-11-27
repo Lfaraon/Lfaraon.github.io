@@ -3,6 +3,12 @@ name: PS-AUTO — Statuts des matchs (horaire)
 on:
   schedule:
     - cron: '17 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ps-auto-match-status.yml'
+      - 'PS-AUTO/tools/refresh-match-status.mjs'
+      - 'PS-AUTO/tools/status-core.mjs'
   workflow_dispatch:
     inputs:
       force:
