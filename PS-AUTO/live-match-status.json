@@ -7535,6 +7535,24 @@
       "checkedAt": "2026-11-27T05:36:29.000Z",
       "observedLive": true,
       "score": "0-4"
+    },
+    "recCal20261127P76915890": {
+      "status": "À venir",
+      "provider": "Ordre de jeu WTA du 27/11 (texte), TennisTemple / Beyond100",
+      "statusBasis": "Premier match 15h Buenos Aires / 19h Suisse ; texte du PDF WTA daté du 27/11, image en cache datée du 26/11 ; ordre corroboré par TennisTemple et Beyond100",
+      "sourceUrl": "https://wtafiles.wtatennis.com/pdf/draws/2026/2052/OP.pdf",
+      "rescheduledKickoff": "2026-11-27T18:00:00.000Z",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T05:36:29.000Z"
+    },
+    "recCal20261127P76915892": {
+      "status": "À venir",
+      "provider": "Ordre de jeu WTA du 27/11 (texte), TennisTemple / Beyond100",
+      "statusBasis": "Pas avant 18h Buenos Aires / 22h Suisse ; notBefore, dépend des matchs précédents ; texte du PDF WTA daté du 27/11, image en cache datée du 26/11 ; ordre corroboré par TennisTemple et Beyond100",
+      "sourceUrl": "https://wtafiles.wtatennis.com/pdf/draws/2026/2052/OP.pdf",
+      "rescheduledKickoff": "2026-11-27T21:00:00.000Z",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T05:36:29.000Z"
     }
   }
 }
