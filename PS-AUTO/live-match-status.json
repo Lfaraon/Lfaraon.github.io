@@ -7792,12 +7792,13 @@
       "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
     },
     "recCal20261127P72044850": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "status": "Reporté",
+      "provider": "KNVB — report officiel (gel, terrain impraticable)",
+      "sourceUrl": "https://www.knvb.nl/nieuws/betaald-voetbal/keuken-kampioen-divisie/72603/vier-vrijdagavondwedstrijden-keuken-kampioen",
+      "checkedAt": "2026-11-27T20:30:48.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Quatre matchs du 27/11 reportés par décision de la KNVB ; nouvelle date à annoncer.",
+      "statusCode": "postponed"
     },
     "recCal20261127P72041270": {
       "status": "En cours",
@@ -7816,20 +7817,22 @@
       "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
     },
     "recCal20261127P72044854": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "status": "Reporté",
+      "provider": "KNVB — report officiel (gel, terrain impraticable)",
+      "sourceUrl": "https://www.knvb.nl/nieuws/betaald-voetbal/keuken-kampioen-divisie/72603/vier-vrijdagavondwedstrijden-keuken-kampioen",
+      "checkedAt": "2026-11-27T20:30:48.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Quatre matchs du 27/11 reportés par décision de la KNVB ; nouvelle date à annoncer.",
+      "statusCode": "postponed"
     },
     "recCal20261127P72044856": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "status": "Reporté",
+      "provider": "KNVB — report officiel (gel, terrain impraticable)",
+      "sourceUrl": "https://www.knvb.nl/nieuws/betaald-voetbal/keuken-kampioen-divisie/72603/vier-vrijdagavondwedstrijden-keuken-kampioen",
+      "checkedAt": "2026-11-27T20:30:48.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Quatre matchs du 27/11 reportés par décision de la KNVB ; nouvelle date à annoncer.",
+      "statusCode": "postponed"
     },
     "recCal20261127L92310": {
       "status": "En cours",
@@ -7872,12 +7875,13 @@
       "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
     },
     "recCal20261127P72044862": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T19:39:53.000Z",
+      "status": "Reporté",
+      "provider": "KNVB — report officiel (gel, terrain impraticable)",
+      "sourceUrl": "https://www.knvb.nl/nieuws/betaald-voetbal/keuken-kampioen-divisie/72603/vier-vrijdagavondwedstrijden-keuken-kampioen",
+      "checkedAt": "2026-11-27T20:30:48.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; début présumé, aucun score final"
+      "statusBasis": "Quatre matchs du 27/11 reportés par décision de la KNVB ; nouvelle date à annoncer.",
+      "statusCode": "postponed"
     },
     "recCal20261127L91654": {
       "status": "En cours",
