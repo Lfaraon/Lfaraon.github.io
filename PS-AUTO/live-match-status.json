@@ -7718,11 +7718,13 @@
     },
     "recCal20261127L91794": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
+      "provider": "Oddsbook — résultat FT daté du 27/11",
+      "sourceUrl": "https://oddsbook.com/es/futbol/equipo/stellenbosch/",
+      "statusBasis": "Résultat final 1-0 explicitement marqué FT, corroboré par le dernier suivi SuperSport.",
       "observedLive": false,
-      "checkedAt": "2026-11-27T19:39:53.000Z"
+      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "score": "1-0",
+      "statusCode": "finished"
     },
     "recCal20261127P72514000": {
       "status": "Terminé",
@@ -7734,11 +7736,13 @@
     },
     "recCal20261127P76735482": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
+      "provider": "Elbotola / Oddsbook — fin du match, Cannes qualifié 4-3 aux tirs au but",
+      "sourceUrl": "https://oddsbook.com/fr/football/france/coupe-de-france/cannes-vs-le-puy-foot/1650265/",
+      "statusBasis": "Score final 1-1 ; Cannes vainqueur aux tirs au but 4-3, distinct du score du match.",
       "observedLive": false,
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "score": "1-1",
+      "statusCode": "finished"
     },
     "recCal20261127P72531690": {
       "status": "Terminé",
