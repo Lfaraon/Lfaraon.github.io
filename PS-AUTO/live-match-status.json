@@ -7562,6 +7562,21 @@
       "observedLive": true,
       "statusBasis": "Fiche précise du 27.11.2026 : Finished / FT 2-0 ; résultat confirmé également par AAP. Direct observé précédemment.",
       "score": "2-0"
+    },
+    "recCal20261127L91760": {
+      "status": "En cours",
+      "provider": "Worldfootball.net — coup d'envoi indiqué à 13:01 CET, direct 0-0 provisoire",
+      "checkedAt": "2026-11-27T12:32:20.000Z",
+      "observedLive": true,
+      "sourceUrl": "https://www--worldfootball--net.c.hs-data.com/match-report/co70/israel-ligat-haal/ma12163213/maccabi-petach-tikva_hapoel-tel-aviv/live-commentary/"
+    },
+    "recCal20261127L90657": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "checkedAt": "2026-11-27T12:32:20.000Z",
+      "observedLive": false,
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire dépassé; TNT Sports affiche Live avec minute incohérente; Sofascore sans score; MatchPal/ScoreProb signalent report sans confirmation officielle."
     }
   }
 }
