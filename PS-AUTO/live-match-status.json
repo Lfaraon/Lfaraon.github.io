@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-27T18:24:10.361Z",
+  "checkedAt": "2026-11-27T18:26:05.888Z",
   "providers": {
     "football": {
       "state": "erreur",
       "detail": "Source momentanément indisponible",
-      "checkedAt": "2026-11-27T18:24:10.361Z"
+      "checkedAt": "2026-11-27T18:26:05.888Z"
     },
     "tennis": {
       "state": "ok",
       "detail": "18 directs, 21 à venir ; 0 fiche(s) revérifiée(s)",
-      "checkedAt": "2026-11-27T18:24:10.361Z"
+      "checkedAt": "2026-11-27T18:26:05.888Z"
     }
   },
   "matches": {
@@ -7493,7 +7493,7 @@
       "status": "En cours",
       "provider": "Live Tennis API",
       "providerId": "225707",
-      "checkedAt": "2026-11-27T18:24:10.361Z",
+      "checkedAt": "2026-11-27T18:26:05.888Z",
       "observedLive": true,
       "reversed": false
     },
