@@ -7491,11 +7491,14 @@
     },
     "recCal20261127L93073": {
       "status": "En cours",
-      "provider": "Live Tennis API",
+      "provider": "Tennis Majors — premier set affiché",
       "providerId": "225707",
-      "checkedAt": "2026-11-27T18:26:05.888Z",
+      "checkedAt": "2026-11-27T18:31:26.000Z",
       "observedLive": true,
-      "reversed": false
+      "reversed": false,
+      "sourceUrl": "https://www.tennismajors.com/matches/wta/argentina-open/varvara-lepchenko-vs-laura-samson",
+      "statusBasis": "Premier set : jeux 1-0 affichés, score en manches 0-0 ; début observé, aucun score final. Horaire 18:00 UTC rétabli (Sofascore, Scores24).",
+      "rescheduledKickoff": "2026-11-27T18:00:00.000Z"
     },
     "recCal20261126P77150110": {
       "status": "Terminé",
@@ -7618,19 +7621,19 @@
     },
     "recCal20261127L91701": {
       "status": "En cours",
-      "provider": "Sofascore — première mi-temps observée",
+      "provider": "Sofascore — suivi en cours",
       "sourceUrl": "https://www.sofascore.com/football/match/lokomotiv-sofia-slavia-sofia/zpbsCpb",
       "observedLive": true,
-      "statusBasis": "0-0 à 40:16 ; score provisoire.",
-      "checkedAt": "2026-11-27T17:35:12.000Z"
+      "statusBasis": "0-0 à 88:51, événement 89e ; direct affiché, fin non confirmée malgré seuil horaire.",
+      "checkedAt": "2026-11-27T18:31:26.000Z"
     },
     "recCal20261127L91655": {
       "status": "En cours",
-      "provider": "Sofascore — première mi-temps observée",
+      "provider": "Sofascore — suivi en cours",
       "sourceUrl": "https://www.sofascore.com/football/match/alanyaspor-konyaspor/KlbsmCc",
-      "statusBasis": "1-0 à 19:33 ; score provisoire.",
+      "statusBasis": "1-1 à 51:36 ; provisoire.",
       "observedLive": true,
-      "checkedAt": "2026-11-27T17:35:12.000Z"
+      "checkedAt": "2026-11-27T18:31:26.000Z"
     },
     "recCal20261127L91659": {
       "status": "En cours",
@@ -7666,19 +7669,19 @@
     },
     "recCal20261127L91656": {
       "status": "En cours",
-      "provider": "FotMob — première mi-temps observée",
+      "provider": "FotMob — suivi en cours",
       "sourceUrl": "https://www.fotmob.com/matches/rakow-czestochowa-vs-piast-gliwice/178wxa",
-      "statusBasis": "26:49 ; événements de jeu, score provisoire incohérent entre bandeau et événements, non enregistré.",
+      "statusBasis": "1-2 à 71:13 ; provisoire.",
       "observedLive": true,
-      "checkedAt": "2026-11-27T17:35:12.000Z"
+      "checkedAt": "2026-11-27T18:31:26.000Z"
     },
     "recCal20261127L91660": {
       "status": "En cours",
-      "provider": "Sofascore — début observé",
+      "provider": "Sofascore — suivi en cours",
       "sourceUrl": "https://www.sofascore.com/football/match/kasimpasa-caykur-rizespor/olbsnwc",
-      "statusBasis": "0-0 à 00:10 ; chronomètre en retard, début observé.",
+      "statusBasis": "1-1 à 45:05 ; événement 46e ; provisoire.",
       "observedLive": true,
-      "checkedAt": "2026-11-27T17:35:12.000Z"
+      "checkedAt": "2026-11-27T18:31:26.000Z"
     },
     "recCal20261127P72513996": {
       "status": "En cours",
@@ -7711,6 +7714,70 @@
       "statusBasis": "Horaire du calendrier : 2026-11-27T17:30:00.000Z ; aucun direct chiffré vérifié.",
       "observedLive": false,
       "checkedAt": "2026-11-27T17:35:12.000Z"
+    },
+    "recCal20261127P76735482": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier : 2026-11-27T18:00:00.000Z ; aucun direct chiffré vérifié.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T18:31:26.000Z"
+    },
+    "recCal20261127P72531690": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier : 2026-11-27T18:00:00.000Z ; aucun direct chiffré vérifié.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T18:31:26.000Z"
+    },
+    "recCal20261127P72680312": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier : 2026-11-27T18:00:00.000Z ; aucun direct chiffré vérifié.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T18:31:26.000Z"
+    },
+    "recCal20261127L91821": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier : 2026-11-27T18:00:00.000Z ; aucun direct chiffré vérifié.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T18:31:26.000Z"
+    },
+    "recCal20261127L91823": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier : 2026-11-27T18:30:00.000Z ; aucun direct chiffré vérifié.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T18:31:26.000Z"
+    },
+    "recCal20261127L91237": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier : 2026-11-27T18:30:00.000Z ; aucun direct chiffré vérifié.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T18:31:26.000Z"
+    },
+    "recCal20261127L89209": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier : 2026-11-27T18:30:00.000Z ; aucun direct chiffré vérifié.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T18:31:26.000Z"
+    },
+    "recCal20261127L91658": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "statusBasis": "Horaire du calendrier : 2026-11-27T18:30:00.000Z ; aucun direct chiffré vérifié.",
+      "observedLive": false,
+      "checkedAt": "2026-11-27T18:31:26.000Z"
     }
   }
 }
