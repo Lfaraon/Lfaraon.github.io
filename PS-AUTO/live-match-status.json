@@ -7501,11 +7501,7 @@
       "rescheduledKickoff": "2026-11-27T18:00:00.000Z",
       "statusBasis": "Résultat final confirmé sur la fiche du 27/11/2026",
       "score": "2-1",
-      "sets": [
-        "6-3",
-        "6-7",
-        "6-4"
-      ]
+      "sets": "6-3, 6-7, 6-4"
     },
     "recCal20261126P77150110": {
       "status": "Terminé",
