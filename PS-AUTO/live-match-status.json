@@ -7555,12 +7555,13 @@
       "checkedAt": "2026-11-27T05:36:29.000Z"
     },
     "recCal20261127L89205": {
-      "status": "En cours",
-      "provider": "Sofascore — direct confirmé (2-0 à 86:44, score provisoire)",
+      "status": "Terminé",
+      "provider": "Sofascore — résultat final vérifié (Finished / FT 2-0)",
       "sourceUrl": "https://www.sofascore.com/football/match/macarthur-fc-melbourne-city/kUqsHIYc",
-      "checkedAt": "2026-11-27T10:33:44.000Z",
+      "checkedAt": "2026-11-27T11:30:34.000Z",
       "observedLive": true,
-      "statusBasis": "Fiche précise du 27.11.2026 : deuxième mi-temps, 86:44 ; score provisoire 2-0, aucun résultat final confirmé."
+      "statusBasis": "Fiche précise du 27.11.2026 : Finished / FT 2-0 ; résultat confirmé également par AAP. Direct observé précédemment.",
+      "score": "2-0"
     }
   }
 }
