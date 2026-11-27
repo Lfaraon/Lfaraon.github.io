@@ -7483,10 +7483,10 @@
     },
     "recCal20261127P66887202": {
       "status": "En cours",
-      "provider": "FotMob — direct observé, 0-0 à 10:19 (provisoire)",
+      "provider": "FotMob — direct observé, 1-1 à la 71e minute (provisoire)",
       "sourceUrl": "https://www.fotmob.com/en-GB/matches/remo-vs-sao-paulo/166ivu",
       "observedLive": true,
-      "checkedAt": "2026-11-26T23:39:45.000Z"
+      "checkedAt": "2026-11-27T00:38:24.000Z"
     },
     "recCal20261127L93073": {
       "status": "À venir",
@@ -7495,6 +7495,26 @@
       "checkedAt": "2026-11-27T00:35:38.711Z",
       "observedLive": false,
       "reversed": false
+    },
+    "recCal20261126P77150110": {
+      "status": "Terminé",
+      "provider": "OrcaScore — abandon confirmé (0-1 en jeux, aucune manche complète), score final en manches non applicable",
+      "sourceUrl": "https://orcascore.com/nl/tennis/wedstrijd/kulambayeva-z-monnet-c-brancaccio-n-oz-i-2026-11-26",
+      "checkedAt": "2026-11-27T00:38:24.000Z",
+      "observedLive": false,
+      "statusCode": "retired",
+      "outcome": "retired"
+    },
+    "recCal20261126P77150104": {
+      "status": "Terminé",
+      "provider": "OrcaScore — fiche actualisée, Beëindigd, résultat final et sets confirmés",
+      "sourceUrl": "https://orcascore.com/nl/tennis/wedstrijd/akli-a-rencheli-a-costoulas-s-papamichail-d-2026-11-27",
+      "checkedAt": "2026-11-27T00:38:24.000Z",
+      "observedLive": false,
+      "statusCode": "finished",
+      "outcome": "completed",
+      "score": "2-0",
+      "sets": "6-3, 6-4"
     }
   }
 }
