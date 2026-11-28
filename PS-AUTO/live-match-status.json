@@ -8307,10 +8307,10 @@
     },
     "recCal20261128P72514002": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Horaire prévu dépassé ; début non observé",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "observedLive": false,
+      "provider": "FotMob — direct observé",
+      "statusBasis": "0-0 à 27:02, score provisoire",
+      "sourceUrl": "https://www.fotmob.com/matches/st-pauli-vs-dynamo-dresden/2acuyk",
+      "observedLive": true,
       "statusCode": "live",
       "checkedAt": "2026-11-28T12:39:14.000Z"
     },
