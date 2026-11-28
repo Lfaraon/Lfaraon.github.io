@@ -8270,31 +8270,33 @@
       "score": "2-3"
     },
     "recCal20261128L91895": {
-      "status": "En cours",
-      "provider": "FotMob — direct observé",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé",
       "statusBasis": "1-0 à 66:27, score provisoire",
       "sourceUrl": "https://www.fotmob.com/matches/lokomotiv-plovdiv-vs-spartak-varna/3eddzw",
       "observedLive": true,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T12:39:14.000Z"
+      "checkedAt": "2026-11-28T13:32:52.000Z",
+      "score": "1-0"
     },
     "recCal20261128P72531684": {
-      "status": "En cours",
-      "provider": "FotMob — direct observé",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé",
       "statusBasis": "3-2 à 68:45, score provisoire",
       "sourceUrl": "https://www.fotmob.com/matches/avs-futebol-sad-vs-leixoes/kka6a",
       "observedLive": true,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T12:39:14.000Z"
+      "checkedAt": "2026-11-28T13:32:52.000Z",
+      "score": "3-3"
     },
     "recCal20261128L93153": {
       "status": "En cours",
-      "provider": "Tenisenvivo.mx — direct observé",
+      "provider": "Reuters — premier simple terminé : Norrie–Jodar 2-6, 5-7 ; Espagne mène 1-0, confrontation non terminée ; deuxième simple non confirmé en direct",
       "statusBasis": "Norrie–Jodar, premier simple : 2-4 en jeux, 15-30, service Norrie ; suivi point par point ; score de la confrontation non final",
-      "sourceUrl": "https://www.tenisenvivo.mx/atp/partido/cameron-norrie-VS-rafael-jodar/davis-cup-world-group-sf-gbr-esp-2026/",
-      "observedLive": true,
+      "sourceUrl": "https://www.reuters.com/sports/tennis/jodar-puts-spain-ahead-davis-cup-semi-against-britain-2026-11-28/",
+      "observedLive": false,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T12:39:14.000Z"
+      "checkedAt": "2026-11-28T13:32:52.000Z"
     },
     "recCal20261128P76806436": {
       "status": "En cours",
@@ -8307,30 +8309,30 @@
     },
     "recCal20261128P72514002": {
       "status": "En cours",
-      "provider": "FotMob — direct observé",
+      "provider": "FotMob — direct observé ; 0-0 à 70:50, score provisoire",
       "statusBasis": "0-0 à 27:02, score provisoire",
       "sourceUrl": "https://www.fotmob.com/matches/st-pauli-vs-dynamo-dresden/2acuyk",
       "observedLive": true,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T12:39:14.000Z"
+      "checkedAt": "2026-11-28T13:32:52.000Z"
     },
     "recCal20261128P72513998": {
       "status": "En cours",
-      "provider": "FotMob — direct observé",
+      "provider": "FotMob — direct observé ; 1-0 à la mi-temps, score provisoire",
       "statusBasis": "0-0 à 33:56, score provisoire",
       "sourceUrl": "https://www.fotmob.com/matches/hertha-bsc-vs-karlsruher-sc/28s3ar",
       "observedLive": true,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T12:39:14.000Z"
+      "checkedAt": "2026-11-28T13:32:52.000Z"
     },
     "recCal20261128P72514004": {
       "status": "En cours",
-      "provider": "FotMob — direct observé",
+      "provider": "FotMob — direct observé ; 1-0 à 57:25, score provisoire",
       "statusBasis": "0-0 à 16:21, score provisoire",
       "sourceUrl": "https://www.fotmob.com/matches/holstein-kiel-vs-kaiserslautern/291zj4",
       "observedLive": true,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T12:39:14.000Z"
+      "checkedAt": "2026-11-28T13:32:52.000Z"
     },
     "recCal20261128P76716210": {
       "status": "En cours",
@@ -8466,6 +8468,111 @@
       "observedLive": false,
       "statusCode": "live",
       "checkedAt": "2026-11-28T12:39:14.000Z"
+    },
+    "recCal20261128P72680322": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T13:32:52.000Z"
+    },
+    "recCal20261128L92604": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T13:32:52.000Z"
+    },
+    "recCal20261128L89346": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T13:32:52.000Z"
+    },
+    "recCal20261128L92001": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T13:32:52.000Z"
+    },
+    "recCal20261128P72680306": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T13:32:52.000Z"
+    },
+    "recCal20261128L91996": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T13:32:52.000Z"
+    },
+    "recCal20261128P72680310": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T13:32:52.000Z"
+    },
+    "recCal20261128L91846": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T13:32:52.000Z"
+    },
+    "recCal20261128P72680308": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T13:32:52.000Z"
+    },
+    "recCal20261128P72680316": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T13:32:52.000Z"
+    },
+    "recCal20261128P76735468": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T13:32:52.000Z"
+    },
+    "recCal20261128L91837": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T13:32:52.000Z"
+    },
+    "recCal20261128L91999": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T13:32:52.000Z"
+    },
+    "recCal20261128L92529": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T13:32:52.000Z"
+    },
+    "recCal20261128L92000": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T13:32:52.000Z"
     }
   }
 }
