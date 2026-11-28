@@ -7990,11 +7990,13 @@
     },
     "recCal20261127L92361": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "TheFishy — FT",
+      "sourceUrl": "https://thefishy.uk/livematch2/cardiff-metropolitan-v-broughton-1576023",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
-      "checkedAt": "2026-11-27T23:32:37.000Z"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
+      "score": "3-0",
+      "statusCode": "finished"
     },
     "recCal20261127L92732": {
       "status": "Terminé",
@@ -8028,11 +8030,13 @@
     },
     "recCal20261127L91652": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "TheFishy — FT",
+      "sourceUrl": "https://www.thefishy.uk/livematch2/leuven-v-kortrijk-1558692",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
-      "checkedAt": "2026-11-27T23:32:37.000Z"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
+      "score": "2-2",
+      "statusCode": "finished"
     },
     "recCal20261127P72740862": {
       "status": "Terminé",
@@ -8092,11 +8096,13 @@
     },
     "recCal20261127P72531026": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Zerozero — compte rendu final",
+      "sourceUrl": "https://zerozero.dk/noticias/2026-11-27-maritimo-nacional-cronica/1271792",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
-      "checkedAt": "2026-11-27T23:32:37.000Z"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
+      "score": "1-2",
+      "statusCode": "finished"
     },
     "recCal20261128P66887198": {
       "status": "En cours",
