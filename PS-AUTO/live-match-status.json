@@ -8160,56 +8160,87 @@
       "score": "0-1"
     },
     "recCal20261128L91922": {
-      "status": "En cours",
-      "provider": "The Fishy — début réel observé",
-      "statusBasis": "The Fishy — début réel attesté par statistiques de jeu à la 16e minute ; flux retardé, aucun score final.",
-      "sourceUrl": "https://www.thefishy.net/livematch2/fc-anyang-v-jeju-united-1647399",
-      "checkedAt": "2026-11-28T06:30:14.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "statusBasis": "Fiche du 28/11/2026 : Full time, score définitif.",
+      "sourceUrl": "https://www.fotmob.com/en-GB/matches/jeju-sk-vs-fc-anyang/20w7bzef",
+      "checkedAt": "2026-11-28T07:38:22.000Z",
       "observedLive": true,
-      "statusCode": "live"
+      "statusCode": "finished",
+      "score": "1-0"
     },
     "recCal20261128L91923": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Coup d’envoi prévu à 06h00 heure suisse ; début présumé, non observé.",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T05:33:50.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "statusBasis": "Fiche du 28/11/2026 : Full time, score définitif.",
+      "sourceUrl": "https://www.fotmob.com/matches/fc-seoul-vs-daejeon-hana-citizen/bsc6ozt",
+      "checkedAt": "2026-11-28T07:38:22.000Z",
       "observedLive": false,
-      "statusCode": "live"
+      "statusCode": "finished",
+      "score": "4-1"
     },
     "recCal20261128L92475": {
-      "status": "En cours",
-      "provider": "J.LEAGUE officielle — direct observé",
-      "statusBasis": "J.LEAGUE officielle — direct observé : 2-1 à la 45e minute ; score provisoire, flux retardé.",
-      "sourceUrl": "https://www.jleague.jp/en/match/j1/2026/112807/lineup/",
-      "checkedAt": "2026-11-28T06:30:14.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "statusBasis": "Fiche du 28/11/2026 : Full time, score définitif.",
+      "sourceUrl": "https://www.fotmob.com/matches/cerezo-osaka-vs-kyoto-sanga-fc/1g58nt",
+      "checkedAt": "2026-11-28T07:38:22.000Z",
       "observedLive": true,
-      "statusCode": "live"
+      "statusCode": "finished",
+      "score": "4-1"
     },
     "recCal20261128L92472": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Coup d’envoi prévu à 06h00 heure suisse ; début présumé, non observé.",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T05:33:50.000Z",
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé (Full time)",
+      "statusBasis": "Fiche du 28/11/2026 : Full time, score définitif.",
+      "sourceUrl": "https://www.fotmob.com/matches/shimizu-s-pulse-vs-urawa-red-diamonds/xwc4d",
+      "checkedAt": "2026-11-28T07:38:22.000Z",
       "observedLive": false,
-      "statusCode": "live"
+      "statusCode": "finished",
+      "score": "1-0"
     },
     "recCal20261128L92474": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Coup d’envoi prévu à 07h00 heure suisse ; début présumé, non observé.",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T06:30:14.000Z",
-      "observedLive": false,
+      "provider": "FotMob — direct observé",
+      "statusBasis": "FotMob — début réel attesté : 0-0 à 51:41 ; flux retardé, score provisoire.",
+      "sourceUrl": "https://www.fotmob.com/matches/kashima-antlers-vs-fagiano-okayama-fc/6kjzeo5",
+      "checkedAt": "2026-11-28T07:38:22.000Z",
+      "observedLive": true,
       "statusCode": "live"
     },
     "recCal20261128L92473": {
       "status": "En cours",
+      "provider": "FotMob — direct observé",
+      "statusBasis": "FotMob — début réel attesté : 1-0 à 48:15 ; flux retardé, score provisoire.",
+      "sourceUrl": "https://www.fotmob.com/matches/vissel-kobe-vs-jef-united-chiba/1q46qi",
+      "checkedAt": "2026-11-28T07:38:22.000Z",
+      "observedLive": true,
+      "statusCode": "live"
+    },
+    "recCal20261128L92478": {
+      "status": "En cours",
+      "provider": "FotMob — direct observé",
+      "statusBasis": "FotMob — début réel attesté : 0-0 à 12:57 ; flux retardé, score provisoire.",
+      "sourceUrl": "https://www.fotmob.com/matches/sanfrecce-hiroshima-vs-kashiwa-reysol/1uax3x",
+      "checkedAt": "2026-11-28T07:38:22.000Z",
+      "observedLive": true,
+      "statusCode": "live"
+    },
+    "recCal20261128L91924": {
+      "status": "En cours",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Coup d’envoi prévu à 07h00 heure suisse ; début présumé, non observé.",
+      "statusBasis": "Coup d’envoi prévu à 08h30 heure suisse ; début présumé, non observé.",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T06:30:14.000Z",
+      "checkedAt": "2026-11-28T07:38:22.000Z",
+      "observedLive": false,
+      "statusCode": "live"
+    },
+    "recCal20261128L91921": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d’envoi prévu à 08h30 heure suisse ; début présumé, non observé.",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T07:38:22.000Z",
       "observedLive": false,
       "statusCode": "live"
     }
