@@ -7932,11 +7932,11 @@
     },
     "recCal20261127L91662": {
       "status": "Terminé",
-      "provider": "JustFootball — résultat final journée 15",
-      "sourceUrl": "https://justfootball.fr/football/match/etoile-carouge-stade-lausanne-ouchy-28112026-101607/",
+      "provider": "Kickly — FIM, score final vérifié",
+      "sourceUrl": "https://kicklyapp.com/pt/jogo/winterthur-rapperswil-jona-CzgE2Lug",
       "checkedAt": "2026-11-28T00:35:00.000Z",
       "observedLive": false,
-      "statusBasis": "Score final vérifié, 27.11.2026",
+      "statusBasis": "Score final 6-1 confirmé sur la fiche exacte du 27.11.2026",
       "score": "6-1",
       "statusCode": "finished"
     },
@@ -8106,27 +8106,27 @@
     },
     "recCal20261128P66887198": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "Horaire du calendrier ; début présumé, score non vérifié",
-      "observedLive": false,
-      "checkedAt": "2026-11-27T23:32:37.000Z"
+      "provider": "Soccer Scoreboard — suivi du match",
+      "sourceUrl": "https://www.reddit.com/r/Cruzeiro/comments/1y75zyv/match_thread_fluminense_vs_cruzeiro_brazilian/",
+      "statusBasis": "0-1 à la 71e minute, score provisoire seulement",
+      "observedLive": true,
+      "checkedAt": "2026-11-28T00:35:00.000Z"
     },
     "recCal20261128L92417": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "Horaire du calendrier ; début présumé, score non vérifié",
-      "observedLive": false,
-      "checkedAt": "2026-11-27T23:32:37.000Z"
+      "provider": "TheFishy — suivi du match",
+      "sourceUrl": "https://www.thefishy.co.uk/livematch2/independiente-petrolero-v-real-oruro-1645551",
+      "statusBasis": "Buts aux 12e et 22e minutes ; score non final, flux décalé",
+      "observedLive": true,
+      "checkedAt": "2026-11-28T00:35:00.000Z"
     },
     "recCal20261128P76848808": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "Horaire du calendrier ; début présumé, score non vérifié",
-      "observedLive": false,
-      "checkedAt": "2026-11-27T23:32:37.000Z"
+      "provider": "Match Thread — suivi du match",
+      "sourceUrl": "https://www.reddit.com/r/futebol/comments/1y75b3y/match_thread_campeonato_brasileiro_s%C3%A9rie_b_vila/",
+      "statusBasis": "1-0 à la 67e minute, score provisoire seulement",
+      "observedLive": true,
+      "checkedAt": "2026-11-28T00:35:00.000Z"
     }
   }
 }
