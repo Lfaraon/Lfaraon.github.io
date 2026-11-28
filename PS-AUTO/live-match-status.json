@@ -8525,10 +8525,11 @@
     },
     "recCal20261128L91996": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "AS — compte rendu final",
+      "sourceUrl": "https://as.com/futbol/segunda/las-palmas-desactiva-a-sidibe-y-abusa-del-andorra-f202611-n/",
       "observedLive": false,
-      "checkedAt": "2026-11-28T15:39:36.000Z"
+      "checkedAt": "2026-11-28T15:39:36.000Z",
+      "score": "4-1"
     },
     "recCal20261128P72680310": {
       "status": "Terminé",
@@ -8539,10 +8540,11 @@
     },
     "recCal20261128L91846": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Fotospor — MAÇ SONUCU, compte rendu final",
+      "sourceUrl": "https://www.fotospor.com.tr/spor-toto-super-lig/samsunspor-genclerbirligi-canli-anlatim-717961",
       "observedLive": false,
-      "checkedAt": "2026-11-28T15:39:36.000Z"
+      "checkedAt": "2026-11-28T15:39:36.000Z",
+      "score": "3-1"
     },
     "recCal20261128P72680308": {
       "status": "Terminé",
