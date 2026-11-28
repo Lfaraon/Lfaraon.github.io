@@ -8617,35 +8617,39 @@
     },
     "recCal20261128L92003": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "provider": "WidzewToMy – compte rendu final",
+      "sourceUrl": "https://www.widzewtomy.net/widzew-lodz-2-0-zaglebie-lubin/",
+      "checkedAt": "2026-11-28T16:41:00.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "2-0"
     },
     "recCal20261128P73093162": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "provider": "BeneventoNews24 – compte rendu final",
+      "sourceUrl": "https://www.beneventonews24.it/2026/11/28/serie-b-14a-giornata-vincono-ascoli-e-carrarese-pari-in-empoli-verona-nelle-gare-delle-15/",
+      "checkedAt": "2026-11-28T16:41:00.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "2-0"
     },
     "recCal20261128P73093164": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "provider": "BeneventoNews24 – compte rendu final",
+      "sourceUrl": "https://www.beneventonews24.it/2026/11/28/serie-b-14a-giornata-vincono-ascoli-e-carrarese-pari-in-empoli-verona-nelle-gare-delle-15/",
+      "checkedAt": "2026-11-28T16:41:00.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "3-1"
     },
     "recCal20261128P73093168": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "provider": "BeneventoNews24 – compte rendu final",
+      "sourceUrl": "https://www.beneventonews24.it/2026/11/28/serie-b-14a-giornata-vincono-ascoli-e-carrarese-pari-in-empoli-verona-nelle-gare-delle-15/",
+      "checkedAt": "2026-11-28T16:41:00.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "2-2"
     },
     "recCal20261128P76735446": {
       "status": "Terminé",
@@ -8657,11 +8661,12 @@
     },
     "recCal20261128P71945430": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "provider": "ANSA / Il Mattino di Padova – compte rendu final",
+      "sourceUrl": "https://www.mattinopadova.it/italia/tripletta-di-bobcek-il-frosinone-affonda-il-parma-n6dnzecv",
+      "checkedAt": "2026-11-28T16:41:00.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "3-0"
     },
     "recCal20261128P72531686": {
       "status": "Terminé",
