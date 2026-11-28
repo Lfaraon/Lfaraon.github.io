@@ -7810,15 +7810,16 @@
       "statusCode": "finished"
     },
     "recCal20261127L92557": {
-      "status": "En cours",
-      "provider": "365Scores — direct observé après retard de transport",
+      "status": "Terminé",
+      "provider": "365Scores — résultat final confirmé",
       "sourceUrl": "https://www.365scores.com/es/football/match/division-profesional-5055/abb-la-paz-real-tomayapo-56887-72058-5055",
       "observedLive": true,
-      "checkedAt": "2026-11-28T03:39:39.000Z",
+      "checkedAt": "2026-11-28T04:32:41.000Z",
       "reversed": false,
       "rescheduledKickoff": "2026-11-28T02:00:00.000Z",
-      "statusBasis": "1-0 à 53:19 (score provisoire) ; début réel confirmé après report.",
-      "statusCode": "live"
+      "statusBasis": "Fin des 90 minutes confirmée, score final 1-0 après retard de transport.",
+      "statusCode": "finished",
+      "score": "1-0"
     },
     "recCal20261127P72044850": {
       "status": "Reporté",
@@ -8150,10 +8151,10 @@
     },
     "recCal20261128P76907554": {
       "status": "En cours",
-      "provider": "Bleacher Report — début réel confirmé",
-      "statusBasis": "0-0 à la 3e minute, dernier suivi disponible (score provisoire).",
+      "provider": "Bleacher Report — chronologie du direct",
+      "statusBasis": "0-0 à la 33e minute (dernier suivi disponible, provisoire ; flux possiblement retardé).",
       "sourceUrl": "https://bleacherreport.com/game/real-salt-lake-vs-vancouver-whitecaps-2026-11-27-20-00",
-      "checkedAt": "2026-11-28T03:39:39.000Z",
+      "checkedAt": "2026-11-28T04:32:41.000Z",
       "observedLive": true,
       "statusCode": "live"
     }
