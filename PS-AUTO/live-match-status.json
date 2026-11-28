@@ -8593,11 +8593,13 @@
       "score": "0-1"
     },
     "recCal20261128L91999": {
-      "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Reporté",
+      "provider": "PFC Ludogorets — annonce officielle de report de 24 heures",
+      "sourceUrl": "https://ludogorets.com/news/posts/machut-mezhdu-botev-vraca-i-ludogorec-se-otlaga-s-24-chasa",
       "observedLive": false,
-      "checkedAt": "2026-11-28T15:39:36.000Z"
+      "checkedAt": "2026-11-28T20:38:27.000Z",
+      "statusBasis": "Report confirmé au 29 novembre à 15h15 heure bulgare",
+      "rescheduledKickoff": "2026-11-29T13:15:00.000Z"
     },
     "recCal20261128L92529": {
       "status": "Reporté",
@@ -8753,11 +8755,12 @@
     },
     "recCal20261128L91871": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "provider": "Eurofotbal — rapport de match final",
+      "sourceUrl": "https://www.eurofotbal.cz/nike-liga/2026-2027/reportaz/zeleziarne-podbrezova-dac-dunajska-streda-1080237/",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "1-1"
     },
     "recCal20261128P72513336": {
       "status": "Terminé",
@@ -9299,12 +9302,14 @@
       "score": "1-2"
     },
     "recCal20261128P76944562": {
-      "status": "À venir",
-      "provider": "WTA Schedule — créneau 18:30 UTC, encore Scheduled ; extraction fraîche confirme absence de jeux ; Tennisora ne confirme pas la fiche ; OrcaScore/365Scores sans suivi",
-      "sourceUrl": "https://www.wtaschedule.com/matches/MTg2ODQ4/ayana-akli-abigail-rencheli-vs-lourdes-ayala-sol-ailin-larraya-guidi",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "status": "Terminé",
+      "provider": "Sofascore — Full-time 1h37, trois sets vérifiés",
+      "sourceUrl": "https://www.sofascore.com/tennis/match/akli-rencheli-ayala-larraya-guidia/xGbeshpqi",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire décalé indicatif, début non observé"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "1-2",
+      "sets": "3-6, 7-5, 7-10"
     },
     "recCal20261128L92039": {
       "status": "Terminé",
@@ -9388,11 +9393,12 @@
     },
     "recCal20261128P76735514": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T18:34:11.000Z",
+      "provider": "Matchcalendar — Terminé, fiche actualisée",
+      "sourceUrl": "https://matchcalendar.football/fr/competition/coupe-de-france/match/feurs-vs-annecy/",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "2-3"
     },
     "recCal20261128L91854": {
       "status": "Terminé",
@@ -9441,19 +9447,21 @@
     },
     "recCal20261128P76735460": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "Score Hub — compte rendu final actualisé",
+      "sourceUrl": "https://score-hub.live/match/chambly-vs-avranches-4894624",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "1-0"
     },
     "recCal20261128P76735518": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "TV Sports — Terminé",
+      "sourceUrl": "https://tv-sports.fr/foot/bourg-en-bresse-peronnas-thionville-coupe-de-france-e4558344/",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "3-0"
     },
     "recCal20261128L92049": {
       "status": "Terminé",
@@ -9465,19 +9473,21 @@
     },
     "recCal20261128L91859": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "FC Hradec Králové — compte rendu officiel",
+      "sourceUrl": "https://www.fchk.cz/match/5896",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "1-2"
     },
     "recCal20261128L92075": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "Betpluswin — résultat final vérifié pour le règlement du ticket",
+      "sourceUrl": "https://www.betpluswin.com/match/maccabi-tel-aviv-vs-hapoel-petah-tikva-28-11-2026",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "3-1"
     },
     "recCal20261128P76735476": {
       "status": "Terminé",
@@ -9498,11 +9508,12 @@
     },
     "recCal20261128P67015490": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "FlashSport — compte rendu actualisé",
+      "sourceUrl": "https://flashsportapp.com/en/football/match/rosenborg-molde-2026-11-28-1494816/",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "2-1"
     },
     "recCal20261128P76735474": {
       "status": "Terminé",
@@ -9514,19 +9525,21 @@
     },
     "recCal20261128L91850": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "TASR — compte rendu final",
+      "sourceUrl": "https://www.teraz.sk/sport/sk-slovan-bratislava-zvitazil-fc-kos/1011314-clanok.html",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "3-0"
     },
     "recCal20261128P71945440": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "Sofascore — compte rendu final",
+      "sourceUrl": "https://www.sofascore.com/news/torino-1-2-lazio-zaccagni-sets-up-two-goals-in-two-minutes",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "1-2"
     },
     "recCal20261128L92315": {
       "status": "Terminé",
@@ -9538,11 +9551,12 @@
     },
     "recCal20261128L91855": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "Ligatable — Endstand",
+      "sourceUrl": "https://ligatable.com/de/fussball/switzerland/challenge-league/2026-11-28/fc-wil-1900-vs-yverdon-sport-1555089",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "4-2"
     },
     "recCal20261128L91851": {
       "status": "Terminé",
@@ -9554,11 +9568,12 @@
     },
     "recCal20261128L91858": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "Het Nieuws Vandaag — compte rendu final",
+      "sourceUrl": "https://www.hetnieuwsvandaag.be/nl/nieuws/regio/cercle-brugge-won-met-3-1-cijfers-tegen-kv-mechelen/",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "3-1"
     },
     "recCal20261128L92554": {
       "status": "Reporté",
@@ -9570,11 +9585,12 @@
     },
     "recCal20261128L91129": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "YS Scores — Terminé, fiche actualisée",
+      "sourceUrl": "https://www.ysscores.com/fr/match/5970198/Al-Ahli-SFC-vs-Al-Taawoun-FC-events",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "3-1"
     },
     "recCal20261128P76735490": {
       "status": "Terminé",
@@ -9586,11 +9602,12 @@
     },
     "recCal20261128P76609142": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "YS Scores — Finalizado, match 2",
+      "sourceUrl": "https://www.ysscores.com/es/match/6580841/Charlotte-FC-vs-Chicago-Fire-FC-events",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "2-1"
     },
     "recCal20261128P72478732": {
       "status": "Terminé",
@@ -9603,11 +9620,12 @@
     },
     "recCal20261128P72740884": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "Sky Sports — Match ends, fiche actualisée",
+      "sourceUrl": "https://www.skysports.com/football/hartlepool-united-vs-southend-united/live/566588",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "1-2"
     },
     "recCal20261128P72221422": {
       "status": "Terminé",
@@ -9644,84 +9662,85 @@
       "score": "2-2"
     },
     "recCal20261128L89082": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T18:34:11.000Z",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Horaire publié, score non vérifié"
     },
     "recCal20261128P72041280": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T18:34:11.000Z",
+      "status": "Terminé",
+      "provider": "NOS — compte rendu final vérifié pour le règlement du ticket",
+      "sourceUrl": "https://nos.nl/liveblog/2641380-psv-wint-uiteindelijk-ruim-van-go-ahead-kovar-redt-keer-op-keer-voor-psv",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "4-0"
     },
     "recCal20261128P72531018": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T18:34:11.000Z",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Horaire publié, score non vérifié"
     },
     "recCal20261128L89405": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T18:34:11.000Z",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Horaire publié, score non vérifié"
     },
     "recCal20261128P76735508": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T18:34:11.000Z",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Horaire publié, score non vérifié"
     },
     "recCal20261128L91141": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T18:34:11.000Z",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Horaire publié, score non vérifié"
     },
     "recCal20261128P72531694": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T18:34:11.000Z",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Horaire publié, score non vérifié"
     },
     "recCal20261128P72531698": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T18:34:11.000Z",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Horaire publié, score non vérifié"
     },
     "recCal20261128L92089": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T18:34:11.000Z",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Horaire publié, score non vérifié"
     },
     "recCal20261128L92087": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T18:34:11.000Z",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Horaire publié, score non vérifié"
     },
     "recCal20261128L89208": {
       "status": "Terminé",
@@ -9733,12 +9752,12 @@
       "score": "2-3"
     },
     "recCal20261128P73093174": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T18:34:11.000Z",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Horaire publié, score non vérifié"
     },
     "recCal20261128L92569": {
       "status": "En cours",
@@ -9802,6 +9821,102 @@
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
       "checkedAt": "2026-11-28T19:34:00.000Z",
+      "statusBasis": "Horaire publié, score non vérifié"
+    },
+    "recCal20261128L91849": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T20:38:27.000Z",
+      "statusBasis": "Horaire publié, score non vérifié"
+    },
+    "recCal20261128P71945432": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T20:38:27.000Z",
+      "statusBasis": "Horaire publié, score non vérifié"
+    },
+    "recCal20261128P72036316": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T20:38:27.000Z",
+      "statusBasis": "Horaire publié, score non vérifié"
+    },
+    "recCal20261128P72036318": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T20:38:27.000Z",
+      "statusBasis": "Horaire publié, score non vérifié"
+    },
+    "recCal20261128L91847": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T20:38:27.000Z",
+      "statusBasis": "Horaire publié, score non vérifié"
+    },
+    "recCal20261128P72036322": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T20:38:27.000Z",
+      "statusBasis": "Horaire publié, score non vérifié"
+    },
+    "recCal20261128P72036324": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T20:38:27.000Z",
+      "statusBasis": "Horaire publié, score non vérifié"
+    },
+    "recCal20261128L85224": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T20:38:27.000Z",
+      "statusBasis": "Horaire publié, score non vérifié"
+    },
+    "recCal20261128P72478740": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T20:38:27.000Z",
+      "statusBasis": "Horaire publié, score non vérifié"
+    },
+    "recCal20261128P72477646": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T20:38:27.000Z",
+      "statusBasis": "Horaire publié, score non vérifié"
+    },
+    "recCal20261128P72041282": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T20:38:27.000Z",
+      "statusBasis": "Horaire publié, score non vérifié"
+    },
+    "recCal20261128P72531034": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "statusBasis": "Horaire publié, score non vérifié"
     }
   }
