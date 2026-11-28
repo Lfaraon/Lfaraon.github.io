@@ -8501,10 +8501,11 @@
     },
     "recCal20261128L89346": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Sofascore — compte rendu final",
+      "sourceUrl": "https://www.sofascore.com/news/de-frutos-scores-and-audero-shuts-out-betis-in-rayo-vallecano-win",
       "observedLive": false,
-      "checkedAt": "2026-11-28T15:39:36.000Z"
+      "checkedAt": "2026-11-28T15:39:36.000Z",
+      "score": "0-1"
     },
     "recCal20261128L92001": {
       "status": "Terminé",
@@ -8550,10 +8551,11 @@
     },
     "recCal20261128P72680316": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Welt/dpa — compte rendu final",
+      "sourceUrl": "https://www.welt.de/article6b0aefe2741a4ef94784b77b",
       "observedLive": false,
-      "checkedAt": "2026-11-28T15:39:36.000Z"
+      "checkedAt": "2026-11-28T15:39:36.000Z",
+      "score": "1-1"
     },
     "recCal20261128P76735468": {
       "status": "Terminé",
@@ -9121,6 +9123,14 @@
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
       "checkedAt": "2026-11-28T15:39:36.000Z",
       "observedLive": false
+    },
+    "recCal20261128P76944562": {
+      "status": "À venir",
+      "provider": "Tennisora — horaire décalé annoncé à 18:00 UTC (19h suisse) ; Betmaster 18:10 UTC, OrcaScore programmé ; aucun jeu observé, heure exacte à confirmer",
+      "sourceUrl": "https://www.tennisora.com/matches/12183082-20261128-63349-78127",
+      "checkedAt": "2026-11-28T15:39:36.000Z",
+      "observedLive": false,
+      "statusBasis": "Horaire décalé signalé par plusieurs fiches, début non observé"
     }
   }
 }
