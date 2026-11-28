@@ -7770,11 +7770,13 @@
     },
     "recCal20261127L91823": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
+      "provider": "Index — compte rendu final",
+      "sourceUrl": "https://index.hu/sport/futball/2026/11/27/labdarugo-nb-i-2026-2027-eto-fc-gyor-debreceni-vsc-osszefoglalo/",
+      "statusBasis": "Score final vérifié, 27.11.2026",
       "observedLive": false,
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "checkedAt": "2026-11-28T00:35:00.000Z",
+      "score": "2-2",
+      "statusCode": "finished"
     },
     "recCal20261127L91237": {
       "status": "Terminé",
@@ -7796,21 +7798,23 @@
     },
     "recCal20261127L91658": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "statusBasis": "Statut présumé selon le kickoff publié ; score non vérifié.",
+      "provider": "Nau Aargau — compte rendu final",
+      "sourceUrl": "https://aargau.nau.ch/sport/fussball/fc-aarau-holt-ersten-sieg-im-november-67207955",
+      "statusBasis": "Score final vérifié, 27.11.2026",
       "observedLive": false,
-      "checkedAt": "2026-11-27T20:30:48.000Z"
+      "checkedAt": "2026-11-28T00:35:00.000Z",
+      "score": "0-2",
+      "statusCode": "finished"
     },
     "recCal20261127L92557": {
-      "status": "À venir",
-      "provider": "LoRo — nouvel horaire de programmation, ancienne fin présumée invalidée",
-      "sourceUrl": "https://jeux.loro.ch/sports/fr/sportif/evenement/92557",
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
       "observedLive": false,
-      "checkedAt": "2026-11-27T21:59:22.486Z",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
       "reversed": false,
       "rescheduledKickoff": "2026-11-28T00:00:00.000Z",
-      "statusBasis": "Carte LoRo actualisée ; début réel non vérifié"
+      "statusBasis": "Nouvel horaire 28.11.2026 00:00 UTC ; début présumé, score non vérifié"
     },
     "recCal20261127P72044850": {
       "status": "Reporté",
@@ -7823,19 +7827,23 @@
     },
     "recCal20261127P72041270": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "provider": "TheFootballTube — Endstand",
+      "sourceUrl": "https://thefootballtube.com/de/matches/groningen-vs-willem-ii-8800",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "score": "1-1",
+      "statusCode": "finished"
     },
     "recCal20261127P72044852": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "provider": "OddAlerts — FT",
+      "sourceUrl": "https://www.oddalerts.com/livescores/heracles-almelo-vs-jong-ajax/3993-8118",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "score": "4-4",
+      "statusCode": "finished"
     },
     "recCal20261127P72044854": {
       "status": "Reporté",
@@ -7866,19 +7874,23 @@
     },
     "recCal20261127P72044858": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "provider": "FotMob — Einde wedstrijd",
+      "sourceUrl": "https://www.fotmob.com/nl/matches/mvv-maastricht-vs-jong-psv/1dqjhcwg",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "score": "3-2",
+      "statusCode": "finished"
     },
     "recCal20261127P72044860": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "provider": "NAC — compte rendu officiel",
+      "sourceUrl": "https://www.nac.nl/nieuws/nac-verwarmt-publiek-met-zesklapper-tegen-fc-den-bosch-2026-2027",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "score": "6-2",
+      "statusCode": "finished"
     },
     "recCal20261127L91827": {
       "status": "Terminé",
@@ -7891,11 +7903,13 @@
     },
     "recCal20261127P76735450": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "provider": "NinjaScore — Full time",
+      "sourceUrl": "https://ninjascore.com/match/le-pays-du-valois-valenciennes-116915",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "score": "1-2",
+      "statusCode": "finished"
     },
     "recCal20261127P72044862": {
       "status": "Reporté",
@@ -7908,27 +7922,33 @@
     },
     "recCal20261127L91654": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "provider": "JustFootball — Terminé",
+      "sourceUrl": "https://justfootball.fr/football/match/etoile-carouge-stade-lausanne-ouchy-28112026-101607/",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "score": "0-2",
+      "statusCode": "finished"
     },
     "recCal20261127L91662": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "provider": "JustFootball — résultat final journée 15",
+      "sourceUrl": "https://justfootball.fr/football/match/etoile-carouge-stade-lausanne-ouchy-28112026-101607/",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "score": "6-1",
+      "statusCode": "finished"
     },
     "recCal20261127P72477638": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-27T21:31:50.000Z",
+      "provider": "LaLiga — Finalizado",
+      "sourceUrl": "https://www.laliga.com/es-BR/partido/temporada-2026-2027-laliga-hypermotion-cd-leganes-ce-sabadell-16",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "score": "0-0",
+      "statusCode": "finished"
     },
     "recCal20261127L91657": {
       "status": "Terminé",
@@ -7950,19 +7970,23 @@
     },
     "recCal20261127L92357": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Soccer Scoreboard — Full-time",
+      "sourceUrl": "https://www.reddit.com/r/cymruleagues/comments/1y70sdq/match_thread_briton_ferry_vs_penybont_fc_live/",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
-      "checkedAt": "2026-11-27T23:32:37.000Z"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
+      "score": "1-2",
+      "statusCode": "finished"
     },
     "recCal20261127L92778": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Tipste — FT",
+      "sourceUrl": "https://tipste.com/en/schedule/match/cambrian-clydach-vale-vs-trefelin-fc",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
-      "checkedAt": "2026-11-27T23:32:37.000Z"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
+      "score": "2-1",
+      "statusCode": "finished"
     },
     "recCal20261127L92361": {
       "status": "Terminé",
@@ -7974,27 +7998,33 @@
     },
     "recCal20261127L92732": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "TheFishy — FT",
+      "sourceUrl": "https://www.thefishy.uk/livematch2/colwyn-bay-v-ammanford-afc-1576024",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
-      "checkedAt": "2026-11-27T23:32:37.000Z"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
+      "score": "3-0",
+      "statusCode": "finished"
     },
     "recCal20261127L92358": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "TheFishy — FT",
+      "sourceUrl": "https://www.thefishy.uk/livematch2/flint-town-united-v-the-new-saints-1576025",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
-      "checkedAt": "2026-11-27T23:32:37.000Z"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
+      "score": "0-4",
+      "statusCode": "finished"
     },
     "recCal20261127L92363": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "TheFishy — FT",
+      "sourceUrl": "https://www.thefishy.uk/livematch2/haverfordwest-county-afc-v-connahs-quay-nomads-1576026",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
-      "checkedAt": "2026-11-27T23:32:37.000Z"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
+      "score": "1-2",
+      "statusCode": "finished"
     },
     "recCal20261127L91652": {
       "status": "Terminé",
@@ -8006,11 +8036,13 @@
     },
     "recCal20261127P72740862": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "TheFishy — FT",
+      "sourceUrl": "https://www.thefishy.uk/livematch2/scunthorpe-v-wealdstone-1585365",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
-      "checkedAt": "2026-11-27T23:32:37.000Z"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
+      "score": "4-1",
+      "statusCode": "finished"
     },
     "recCal20261127P72036314": {
       "status": "Terminé",
@@ -8032,11 +8064,13 @@
     },
     "recCal20261127P72478736": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Oddsbook — FT",
+      "sourceUrl": "https://oddsbook.com/it/calcio/spagna/laliga/levante-vs-racing-santander/1570468/",
       "observedLive": false,
-      "statusBasis": "Horaire du calendrier ; fin présumée, score non vérifié",
-      "checkedAt": "2026-11-27T23:32:37.000Z"
+      "statusBasis": "Score final vérifié, 27.11.2026",
+      "checkedAt": "2026-11-28T00:35:00.000Z",
+      "score": "1-3",
+      "statusCode": "finished"
     },
     "recCal20261127P72221428": {
       "status": "Terminé",
