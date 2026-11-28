@@ -8371,12 +8371,13 @@
     },
     "recCal20261128P72740864": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Horaire prévu dépassé ; début non observé",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Press Association — compte rendu final",
+      "statusBasis": "Résultat final vérifié",
+      "sourceUrl": "https://www.shropshirestar.com/uk-sports/dan-cummings-on-target-as-aldershot-edge-out-fylde-9380171",
       "observedLive": false,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T14:32:50.000Z"
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "score": "0-1"
     },
     "recCal20261128L92525": {
       "status": "Terminé",
@@ -8496,10 +8497,12 @@
     },
     "recCal20261128L92604": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "All Football — résultat final",
+      "sourceUrl": "https://m.dongqiudi.com/en/live/4591273",
       "observedLive": false,
-      "checkedAt": "2026-11-28T15:39:36.000Z"
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "score": "1-0",
+      "statusBasis": "Résultat final vérifié"
     },
     "recCal20261128L89346": {
       "status": "Terminé",
@@ -8518,10 +8521,12 @@
     },
     "recCal20261128P72680306": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "TNT Sports — Finished",
+      "sourceUrl": "https://www.tntsports.co.uk/football/3.-liga/2026-2027/fc-wuerzburger-kickers-fortuna-duesseldorf_mtc21904107/live.shtml",
       "observedLive": false,
-      "checkedAt": "2026-11-28T15:39:36.000Z"
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "score": "3-2",
+      "statusBasis": "Résultat final vérifié"
     },
     "recCal20261128L91996": {
       "status": "Terminé",
@@ -8548,10 +8553,12 @@
     },
     "recCal20261128P72680308": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "APWin — FT",
+      "sourceUrl": "https://www.apwin.com/streams/preussen-munster-vs-verl-28-11-2026/",
       "observedLive": false,
-      "checkedAt": "2026-11-28T15:39:36.000Z"
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "score": "0-0",
+      "statusBasis": "Résultat final vérifié"
     },
     "recCal20261128P72680316": {
       "status": "Terminé",
@@ -8598,151 +8605,175 @@
       "checkedAt": "2026-11-28T15:39:36.000Z"
     },
     "recCal20261128L92003": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128P73093162": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128P73093164": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128P73093168": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128P76735446": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128P71945430": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128P72531686": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128L91916": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128L91872": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128L92530": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128P76582216": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128L91866": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128L92603": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128L91126": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128P72513340": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "r/soccer — fil post-match FT",
+      "sourceUrl": "https://www.reddit.com/r/soccer/comments/1y7q335/post_match_thread_bundesliga_saturday_konferenz/",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "score": "5-0",
+      "statusBasis": "Résultat final vérifié"
     },
     "recCal20261128L91871": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128P72513336": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "r/soccer — fil post-match FT",
+      "sourceUrl": "https://www.reddit.com/r/soccer/comments/1y7q335/post_match_thread_bundesliga_saturday_konferenz/",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "score": "2-1",
+      "statusBasis": "Résultat final vérifié"
     },
     "recCal20261128L89219": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "status": "Terminé",
+      "provider": "Die Welt — compte rendu final",
+      "sourceUrl": "https://www.welt.de/article6b0b0266741a4ef94784b95c",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "score": "0-0",
+      "statusBasis": "Résultat final vérifié"
     },
     "recCal20261128L91856": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128L91852": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128P72513344": {
-      "status": "En cours",
+      "status": "Terminé",
       "provider": "Règle horaire PS-AUTO (statut présumé)",
       "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T14:32:50.000Z",
-      "observedLive": false
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     },
     "recCal20261128L89083": {
       "status": "En cours",
@@ -9136,6 +9167,126 @@
       "checkedAt": "2026-11-28T15:39:36.000Z",
       "observedLive": false,
       "statusBasis": "Horaire décalé signalé par plusieurs fiches, début non observé"
+    },
+    "recCal20261128L92039": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+    },
+    "recCal20261128L91897": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+    },
+    "recCal20261128L89210": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+    },
+    "recCal20261128P76735436": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+    },
+    "recCal20261128L91838": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+    },
+    "recCal20261128L91873": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+    },
+    "recCal20261128L92043": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+    },
+    "recCal20261128L92555": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+    },
+    "recCal20261128L92768": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+    },
+    "recCal20261128P76735514": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+    },
+    "recCal20261128L91854": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+    },
+    "recCal20261128P72036310": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+    },
+    "recCal20261128P73093170": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+    },
+    "recCal20261128L92266": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+    },
+    "recCal20261128L91842": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "observedLive": false,
+      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
     }
   }
 }
