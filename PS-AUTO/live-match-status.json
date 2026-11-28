@@ -8260,13 +8260,41 @@
       "score": "3-1"
     },
     "recCal20261128L89204": {
+      "status": "Terminé",
+      "provider": "FotMob — résultat final confirmé",
+      "statusBasis": "Full time, 2-3, 28/11/2026",
+      "sourceUrl": "https://www.fotmob.com/en-GB/matches/central-coast-mariners-vs-auckland-fc/hdixiwbk",
+      "checkedAt": "2026-11-28T11:37:34.000Z",
+      "observedLive": false,
+      "statusCode": "finished",
+      "score": "2-3"
+    },
+    "recCal20261128L91895": {
       "status": "En cours",
       "provider": "FotMob — direct observé",
-      "statusBasis": "2-2 à 85:19 ; fil A-League signale 2-3 à 95e sans fin confirmée ; aucun score final.",
-      "sourceUrl": "https://www.fotmob.com/en-GB/matches/central-coast-mariners-vs-auckland-fc/hdixiwbk",
-      "checkedAt": "2026-11-28T10:38:07.000Z",
+      "statusBasis": "0-0 à 22:21, score provisoire",
+      "sourceUrl": "https://www.fotmob.com/matches/lokomotiv-plovdiv-vs-spartak-varna/3eddzw",
       "observedLive": true,
-      "statusCode": "live"
+      "statusCode": "live",
+      "checkedAt": "2026-11-28T11:37:34.000Z"
+    },
+    "recCal20261128P72531684": {
+      "status": "En cours",
+      "provider": "FotMob — direct observé",
+      "statusBasis": "1-0 à 26:18, score provisoire",
+      "sourceUrl": "https://www.fotmob.com/matches/avs-futebol-sad-vs-leixoes/kka6a",
+      "observedLive": true,
+      "statusCode": "live",
+      "checkedAt": "2026-11-28T11:37:34.000Z"
+    },
+    "recCal20261128L93153": {
+      "status": "En cours",
+      "provider": "Davis Cup — début de la demi-finale annoncé par l’organisation",
+      "statusBasis": "L’organisation annonce explicitement la demi-finale en cours ; jeux/points non vérifiés. TennisLive et autres flux encore programmés.",
+      "sourceUrl": "https://www.daviscup.com/en/news/great-britain-v-spain-sf-recap",
+      "observedLive": false,
+      "statusCode": "live",
+      "checkedAt": "2026-11-28T11:37:34.000Z"
     }
   }
 }
