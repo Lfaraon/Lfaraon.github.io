@@ -8594,13 +8594,13 @@
     },
     "recCal20261128L91999": {
       "status": "À venir",
-      "provider": "LoRo — nouvel horaire de programmation, ancienne fin présumée invalidée",
-      "sourceUrl": "https://jeux.loro.ch/sports/fr/sportif/evenement/91999",
+      "provider": "PFC Ludogorets — report officiel de 24h ; nouveau créneau LoRo",
+      "sourceUrl": "https://ludogorets.com/news/posts/machut-mezhdu-botev-vraca-i-ludogorec-se-otlaga-s-24-chasa",
       "observedLive": false,
-      "checkedAt": "2026-11-28T20:39:25.736Z",
+      "checkedAt": "2026-11-28T20:42:47.000Z",
       "reversed": false,
       "rescheduledKickoff": "2026-11-29T13:15:00.000Z",
-      "statusBasis": "Carte LoRo actualisée ; début réel non vérifié"
+      "statusBasis": "Report confirmé ; nouveau coup d'envoi le 29/11 à 14h15 suisse"
     },
     "recCal20261128L92529": {
       "status": "Reporté",
@@ -9341,13 +9341,13 @@
     },
     "recCal20261128P76735436": {
       "status": "À venir",
-      "provider": "PSF — nouvel horaire de programmation, ancienne fin présumée invalidée",
-      "sourceUrl": "https://primesportsfunded.com/",
+      "provider": "Plein Air — report météo ; nouveau créneau PSF",
+      "sourceUrl": "https://www.pleinair.net/actualites/item/22413-coupe-de-france-biesheim-racing-besancon-reporte",
       "observedLive": false,
-      "checkedAt": "2026-11-28T20:39:25.736Z",
+      "checkedAt": "2026-11-28T20:42:47.000Z",
       "reversed": false,
       "rescheduledKickoff": "2026-11-29T16:00:00.000Z",
-      "statusBasis": "Carte PSF actualisée ; début réel non vérifié"
+      "statusBasis": "Report confirmé ; reprogrammé selon la carte PSF au 29/11 à 17h suisse, horaire non confirmé par l'article"
     },
     "recCal20261128L91838": {
       "status": "Terminé",
