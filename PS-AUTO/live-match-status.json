@@ -8878,11 +8878,12 @@
     },
     "recCal20261128L92026": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "TKR — Full time et événements complets",
+      "sourceUrl": "https://tkr-app.com/match/603954",
+      "checkedAt": "2026-11-28T19:36:00.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Score final vérifié",
+      "score": "2-1"
     },
     "recCal20261128P72342408": {
       "status": "Terminé",
@@ -9422,11 +9423,12 @@
     },
     "recCal20261128L92266": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T18:34:11.000Z",
+      "provider": "Betora — rapport de match final (temps réglementaire)",
+      "sourceUrl": "https://betora.app/fr/resultat/slovenia-1-snl/mura-vs-maribor-2026-11-28",
+      "checkedAt": "2026-11-28T19:36:00.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Score final vérifié",
+      "score": "0-4"
     },
     "recCal20261128L91842": {
       "status": "Terminé",
