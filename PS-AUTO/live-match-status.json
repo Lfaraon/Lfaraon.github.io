@@ -8593,13 +8593,14 @@
       "score": "0-1"
     },
     "recCal20261128L91999": {
-      "status": "Reporté",
-      "provider": "PFC Ludogorets — annonce officielle de report de 24 heures",
-      "sourceUrl": "https://ludogorets.com/news/posts/machut-mezhdu-botev-vraca-i-ludogorec-se-otlaga-s-24-chasa",
+      "status": "À venir",
+      "provider": "LoRo — nouvel horaire de programmation, ancienne fin présumée invalidée",
+      "sourceUrl": "https://jeux.loro.ch/sports/fr/sportif/evenement/91999",
       "observedLive": false,
-      "checkedAt": "2026-11-28T20:38:27.000Z",
-      "statusBasis": "Report confirmé au 29 novembre à 15h15 heure bulgare",
-      "rescheduledKickoff": "2026-11-29T13:15:00.000Z"
+      "checkedAt": "2026-11-28T20:39:25.736Z",
+      "reversed": false,
+      "rescheduledKickoff": "2026-11-29T13:15:00.000Z",
+      "statusBasis": "Carte LoRo actualisée ; début réel non vérifié"
     },
     "recCal20261128L92529": {
       "status": "Reporté",
@@ -9339,12 +9340,14 @@
       "score": "4-1"
     },
     "recCal20261128P76735436": {
-      "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T18:34:11.000Z",
+      "status": "À venir",
+      "provider": "PSF — nouvel horaire de programmation, ancienne fin présumée invalidée",
+      "sourceUrl": "https://primesportsfunded.com/",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "checkedAt": "2026-11-28T20:39:25.736Z",
+      "reversed": false,
+      "rescheduledKickoff": "2026-11-29T16:00:00.000Z",
+      "statusBasis": "Carte PSF actualisée ; début réel non vérifié"
     },
     "recCal20261128L91838": {
       "status": "Terminé",
