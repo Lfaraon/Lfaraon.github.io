@@ -8380,12 +8380,13 @@
     },
     "recCal20261128L92525": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Soccer Scoreboard — fil automatisé Full-time, buts détaillés",
       "statusBasis": "Horaire prévu dépassé ; début non observé",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "sourceUrl": "https://www.reddit.com/r/cymruleagues/comments/1y7jzwa/match_thread_barry_town_united_fc_vs_caernarfon/",
       "observedLive": false,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T14:32:50.000Z"
+      "checkedAt": "2026-11-28T15:39:36.000Z",
+      "score": "2-2"
     },
     "recCal20261128P72340082": {
       "status": "Terminé",
@@ -8469,12 +8470,13 @@
     },
     "recCal20261128L91991": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Nemzeti Sport — compte rendu final",
       "statusBasis": "Horaire prévu dépassé ; début non observé",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "sourceUrl": "https://hatsofuves.nemzetisport.hu/labdarugo-nb-i/2026/11/szeptember-19-e-utan-nyert-ujra-bajnoki-merkozest-a-honvedot-legyozo-vasas",
       "observedLive": false,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T14:32:50.000Z"
+      "checkedAt": "2026-11-28T15:39:36.000Z",
+      "score": "2-1"
     },
     "recCal20261128P72740866": {
       "status": "Terminé",
@@ -8566,10 +8568,11 @@
     },
     "recCal20261128L91837": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Flashscore — Finished, CAF Champions League",
+      "sourceUrl": "https://www.flashscore.com/match/football/mc-alger-tnY2Lfcp/young-africans-dMbOiRbT/standings/?mid=M9rBDOfA",
       "observedLive": false,
-      "checkedAt": "2026-11-28T15:39:36.000Z"
+      "checkedAt": "2026-11-28T15:39:36.000Z",
+      "score": "0-1"
     },
     "recCal20261128L91999": {
       "status": "Terminé",
