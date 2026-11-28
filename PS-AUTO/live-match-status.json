@@ -8231,37 +8231,40 @@
     },
     "recCal20261128L91924": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "+120 min ; FotMob affiche 1-2 à 90+5, flux retardé sans fin confirmée ni preuve de jeu à l’heure actuelle ; score final à vérifier.",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T09:33:02.000Z",
+      "provider": "FotMob — résultat final confirmé",
+      "statusBasis": "Full time, fiche du 28/11 à 07:30 UTC.",
+      "sourceUrl": "https://www.fotmob.com/en-GB/matches/gimcheon-sangmu-vs-bucheon-fc-1995/20w8oa3u",
+      "checkedAt": "2026-11-28T10:38:07.000Z",
       "observedLive": false,
-      "statusCode": "finished"
+      "statusCode": "finished",
+      "score": "1-2"
     },
     "recCal20261128L91921": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "+120 min ; FotMob affiche 2-3 à 73:58, flux retardé sans fin confirmée ni preuve de jeu à l’heure actuelle ; score final à vérifier.",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T09:33:02.000Z",
+      "provider": "Bongda24h — résultat final confirmé",
+      "statusBasis": "Kết thúc (fin confirmée), fiche du 28/11 ; autres flux retardés.",
+      "sourceUrl": "https://bongda24h.vn/truc-tiep-ket-qua/pohang-steelers-vs-gwangju-fc-341779.html",
+      "checkedAt": "2026-11-28T10:38:07.000Z",
       "observedLive": false,
-      "statusCode": "finished"
+      "statusCode": "finished",
+      "score": "2-4"
     },
     "recCal20261128L92505": {
-      "status": "En cours",
-      "provider": "FotMob — direct observé",
-      "statusBasis": "1-1 à 28:20 ; flux retardé, score provisoire.",
-      "sourceUrl": "https://www.fotmob.com/matches/australia-vs-colombia/dv8gjs6",
-      "checkedAt": "2026-11-28T09:33:02.000Z",
+      "status": "Terminé",
+      "provider": "The Guardian — résultat final annoncé",
+      "statusBasis": "Compte rendu du 28/11 annonçant victoire 3-1 ; version live indexée retardée.",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/28/australia-matildas-v-colombia-womens-international-football-friendly-live",
+      "checkedAt": "2026-11-28T10:38:07.000Z",
       "observedLive": true,
-      "statusCode": "live"
+      "statusCode": "finished",
+      "score": "3-1"
     },
     "recCal20261128L89204": {
       "status": "En cours",
       "provider": "FotMob — direct observé",
-      "statusBasis": "1-2 à 42:23 ; flux retardé, score provisoire.",
-      "sourceUrl": "https://www.fotmob.com/matches/central-coast-mariners-vs-auckland-fc/hdixiwbk",
-      "checkedAt": "2026-11-28T09:33:02.000Z",
+      "statusBasis": "2-2 à 85:19 ; fil A-League signale 2-3 à 95e sans fin confirmée ; aucun score final.",
+      "sourceUrl": "https://www.fotmob.com/en-GB/matches/central-coast-mariners-vs-auckland-fc/hdixiwbk",
+      "checkedAt": "2026-11-28T10:38:07.000Z",
       "observedLive": true,
       "statusCode": "live"
     }
