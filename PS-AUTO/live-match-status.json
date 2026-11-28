@@ -7551,13 +7551,16 @@
       "outcome": "walkover"
     },
     "recCal20261127P76915892": {
-      "status": "À venir",
-      "provider": "Ordre de jeu WTA du 27/11 (texte), TennisTemple / Beyond100",
-      "statusBasis": "Pas avant 18h Buenos Aires / 22h Suisse ; notBefore, dépend des matchs précédents ; texte du PDF WTA daté du 27/11, image en cache datée du 26/11 ; ordre corroboré par TennisTemple et Beyond100",
-      "sourceUrl": "https://wtafiles.wtatennis.com/pdf/draws/2026/2052/OP.pdf",
+      "status": "Terminé",
+      "provider": "TennisTonic — résultat final du 27/11, ordre Herrero Linana–Riera",
+      "statusBasis": "TennisTonic — résultat final du 27/11, ordre Herrero Linana–Riera",
+      "sourceUrl": "https://tennistonic.com/stat-tournaments/wta/17383/52500-28075/alicia-herrero-linana-vs-julia-riera/",
       "rescheduledKickoff": "2026-11-27T21:00:00.000Z",
       "observedLive": false,
-      "checkedAt": "2026-11-27T05:36:29.000Z"
+      "checkedAt": "2026-11-28T01:35:00.000Z",
+      "statusCode": "finished",
+      "score": "0-2",
+      "sets": "5-7, 1-6"
     },
     "recCal20261127L89205": {
       "status": "Terminé",
@@ -8105,28 +8108,42 @@
       "statusCode": "finished"
     },
     "recCal20261128P66887198": {
-      "status": "En cours",
-      "provider": "Soccer Scoreboard — suivi du match",
-      "sourceUrl": "https://www.reddit.com/r/Cruzeiro/comments/1y75zyv/match_thread_fluminense_vs_cruzeiro_brazilian/",
-      "statusBasis": "0-1 à la 71e minute, score provisoire seulement",
-      "observedLive": true,
-      "checkedAt": "2026-11-28T00:35:00.000Z"
+      "status": "Terminé",
+      "provider": "FOX Sports — résultat final confirmé",
+      "sourceUrl": "https://www.foxsports.com/soccer/brazil-serie-a-fluminense-vs-cruzeiro-nov-27-2026-game-boxscore-648423",
+      "statusBasis": "FOX Sports — résultat final confirmé",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T01:35:00.000Z",
+      "statusCode": "finished",
+      "score": "0-1"
     },
     "recCal20261128L92417": {
-      "status": "En cours",
-      "provider": "TheFishy — suivi du match",
-      "sourceUrl": "https://www.thefishy.co.uk/livematch2/independiente-petrolero-v-real-oruro-1645551",
-      "statusBasis": "Buts aux 12e et 22e minutes ; score non final, flux décalé",
-      "observedLive": true,
-      "checkedAt": "2026-11-28T00:35:00.000Z"
+      "status": "Terminé",
+      "provider": "FotMob — Full time, résultat final confirmé",
+      "sourceUrl": "https://www.fotmob.com/matches/independiente-petrolero-vs-cdt-real-oruro/12pj2hhxf",
+      "statusBasis": "FotMob — Full time, résultat final confirmé",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T01:35:00.000Z",
+      "statusCode": "finished",
+      "score": "4-1"
     },
     "recCal20261128P76848808": {
+      "status": "Terminé",
+      "provider": "UOL — résultat final confirmé, retour des playoffs",
+      "sourceUrl": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/27/vila-nova-atletico-go-serie-b-playoffs-volta-como-foi.ghtm",
+      "statusBasis": "UOL — résultat final confirmé, retour des playoffs",
+      "observedLive": false,
+      "checkedAt": "2026-11-28T01:35:00.000Z",
+      "statusCode": "finished",
+      "score": "2-0"
+    },
+    "recCal20261128P76609140": {
       "status": "En cours",
-      "provider": "Match Thread — suivi du match",
-      "sourceUrl": "https://www.reddit.com/r/futebol/comments/1y75b3y/match_thread_campeonato_brasileiro_s%C3%A9rie_b_vila/",
-      "statusBasis": "1-0 à la 67e minute, score provisoire seulement",
-      "observedLive": true,
-      "checkedAt": "2026-11-28T00:35:00.000Z"
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d’envoi prévu passé, début présumé, score non vérifié",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T01:35:00.000Z",
+      "observedLive": false
     }
   }
 }
