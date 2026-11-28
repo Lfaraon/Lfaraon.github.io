@@ -8150,12 +8150,49 @@
       "statusCode": "finished"
     },
     "recCal20261128P76907554": {
+      "status": "Terminé",
+      "provider": "Match thread MLS — tableau FT ; score et but corroborés par Bleacher Report",
+      "statusBasis": "FT 0-1, Sabbi 58e ; source communautaire structurée, fiche officielle finale non actualisée.",
+      "sourceUrl": "https://www.reddit.com/r/MLS/comments/1y7auqa/match_thread_real_salt_lake_vs_vancouver/",
+      "checkedAt": "2026-11-28T05:33:50.000Z",
+      "observedLive": false,
+      "statusCode": "finished",
+      "score": "0-1"
+    },
+    "recCal20261128L91922": {
       "status": "En cours",
-      "provider": "Bleacher Report — chronologie du direct",
-      "statusBasis": "0-0 à la 33e minute (dernier suivi disponible, provisoire ; flux possiblement retardé).",
-      "sourceUrl": "https://bleacherreport.com/game/real-salt-lake-vs-vancouver-whitecaps-2026-11-27-20-00",
-      "checkedAt": "2026-11-28T04:32:41.000Z",
-      "observedLive": true,
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d’envoi prévu à 06h00 heure suisse ; début présumé, non observé.",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T05:33:50.000Z",
+      "observedLive": false,
+      "statusCode": "live"
+    },
+    "recCal20261128L91923": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d’envoi prévu à 06h00 heure suisse ; début présumé, non observé.",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T05:33:50.000Z",
+      "observedLive": false,
+      "statusCode": "live"
+    },
+    "recCal20261128L92475": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d’envoi prévu à 06h00 heure suisse ; début présumé, non observé.",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T05:33:50.000Z",
+      "observedLive": false,
+      "statusCode": "live"
+    },
+    "recCal20261128L92472": {
+      "status": "En cours",
+      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "statusBasis": "Coup d’envoi prévu à 06h00 heure suisse ; début présumé, non observé.",
+      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "checkedAt": "2026-11-28T05:33:50.000Z",
+      "observedLive": false,
       "statusCode": "live"
     }
   }
