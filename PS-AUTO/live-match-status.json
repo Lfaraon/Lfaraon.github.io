@@ -9468,11 +9468,12 @@
     },
     "recCal20261128L92049": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "SRF — compte rendu final",
+      "sourceUrl": "https://www.srf.ch/sport/fussball/super-league/fcb-weiter-in-der-krise-muci-schiesst-gc-in-der-nachspielzeit-zum-sieg-ueber-basel",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "2-1"
     },
     "recCal20261128L91859": {
       "status": "Terminé",
@@ -9494,11 +9495,12 @@
     },
     "recCal20261128P76735476": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "Futbol24 — FT",
+      "sourceUrl": "https://www.futbol24.com/match/2026/11/28/national/France/Coupe-de-France/2026-2027/Round-8/Nimes/vs/Grenoble",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "1-0"
     },
     "recCal20261128L91900": {
       "status": "Terminé",
@@ -9520,11 +9522,12 @@
     },
     "recCal20261128P76735474": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "La Dépêche — score final, fiche actualisée",
+      "sourceUrl": "https://www.ladepeche.fr/sports/resultats-sportifs/football/coupe-de-france/huitieme-tour/rencontre/548809/st--pryve-st--hilaire-selongey",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "3-0"
     },
     "recCal20261128L91850": {
       "status": "Terminé",
@@ -9546,11 +9549,12 @@
     },
     "recCal20261128L92315": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "SRF — compte rendu final",
+      "sourceUrl": "https://www.srf.ch/sport/fussball/super-league/2-2-im-rheinpark-der-fcz-wahrt-in-vaduz-seine-ungeschlagenheit",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "2-2"
     },
     "recCal20261128L91855": {
       "status": "Terminé",
@@ -9563,11 +9567,12 @@
     },
     "recCal20261128L91851": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "FotMob — TC 1-0, fiche actualisée",
+      "sourceUrl": "https://www.fotmob.com/es/matches/stade-nyonnais-vs-xamax/w6qh2",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "1-0"
     },
     "recCal20261128L91858": {
       "status": "Terminé",
@@ -9597,11 +9602,12 @@
     },
     "recCal20261128P76735490": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "Nouvelle République des Pyrénées — score final 0-0, TAB 4-3",
+      "sourceUrl": "https://www.nrpyrenees.fr/sports/resultats-sportifs/football/coupe-de-france/huitieme-tour/rencontre/548817/us-castanet-pau",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "0-0"
     },
     "recCal20261128P76609142": {
       "status": "Terminé",
@@ -9641,19 +9647,21 @@
     },
     "recCal20261128L92534": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "Fédération de Bosnie-Herzégovine — FT, fiche officielle actualisée",
+      "sourceUrl": "https://www.nfsbih.ba/en/stats/match/54152348-nk-siroki-brijeg-hsk-zrinjski/",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "1-2"
     },
     "recCal20261128P72477632": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "FútbolFantasy — fin du match et score actualisés",
+      "sourceUrl": "https://www.futbolfantasy.com/partidos/23374-eibar-burgos",
+      "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "3-0"
     },
     "recCal20261128P72513330": {
       "status": "Terminé",
@@ -9666,11 +9674,12 @@
     },
     "recCal20261128L89082": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "GoalSignal — Finished",
+      "sourceUrl": "https://goalsignal.com/uk/matches/motherwell-vs-hibernian",
       "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "3-0"
     },
     "recCal20261128P72041280": {
       "status": "Terminé",
@@ -9683,67 +9692,75 @@
     },
     "recCal20261128P72531018": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "FotMob — FT 1-2, fiche actualisée",
+      "sourceUrl": "https://www.fotmob.com/cs/matches/academico-viseu-vs-alverca/13txpp",
       "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "1-2"
     },
     "recCal20261128L89405": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Oddsbook — FT, fiche actualisée",
+      "sourceUrl": "https://oddsbook.com/football/greece/super-league-1/kifisia-vs-kalamata/1593370/",
       "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "2-2"
     },
     "recCal20261128P76735508": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "AS Saint-Étienne — compte rendu officiel",
+      "sourceUrl": "https://www.asse.fr/actualites/rendez-vous-en-32e-de-finale--ac41483",
       "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "5-0"
     },
     "recCal20261128L91141": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "LPF — fiche officielle, Rotascore Full-Time",
+      "sourceUrl": "https://www.rotascore.com/en/match/club-fcsb-csikszereda-miercurea-ciuc/ednm9whw40e7ryo",
       "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "2-0"
     },
     "recCal20261128P72531694": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Ligatable — Endstand, fiche actualisée",
+      "sourceUrl": "https://ligatable.com/de/fussball/portugal/segunda-liga/2026-11-28/lusitania-lourosa-vs-vizela-1576544",
       "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "2-1"
     },
     "recCal20261128P72531698": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Rotascore — Final do jogo, fiche actualisée",
+      "sourceUrl": "https://www.rotascore.com/pt-PT/match/sporting-b-amarante/3glrw7hn2j2dqdy",
       "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "2-1"
     },
     "recCal20261128L92089": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Televizia — Full time, fiche actualisée",
+      "sourceUrl": "https://televizia.online/sport/match/beitar-jerusalem-vs-hapoel-jerusalem-fc-2026-11-28",
       "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "3-1"
     },
     "recCal20261128L92087": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Footlive — Finished, fiche actualisée",
+      "sourceUrl": "https://www.footlive.com/score/varda-se-vs-nyiregyhaza-spartacus-2026-11-28/",
       "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "3-2"
     },
     "recCal20261128L89208": {
       "status": "Terminé",
@@ -9756,11 +9773,12 @@
     },
     "recCal20261128P73093174": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Sky Sport Italia — Fine, fiche actualisée",
+      "sourceUrl": "https://sport.sky.it/calcio/serie-b/partite/2026/giornata-14/palermo-benevento/tabellino-statistiche",
       "checkedAt": "2026-11-28T20:38:27.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "3-0"
     },
     "recCal20261128L92569": {
       "status": "En cours",
