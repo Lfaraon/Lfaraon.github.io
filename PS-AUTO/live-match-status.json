@@ -9782,11 +9782,11 @@
     },
     "recCal20261128L92569": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "checkedAt": "2026-11-28T19:34:00.000Z",
-      "statusBasis": "Horaire publié, score non vérifié"
+      "provider": "SokaScore",
+      "sourceUrl": "https://sokascore.com/match/gualberto-villarroel-sj-vs-real-potosi-2026-11-28/",
+      "observedLive": true,
+      "checkedAt": "2026-11-28T20:45:00.000Z",
+      "statusBasis": "Direct observé à la 73e minute ; aucun résultat final"
     },
     "recCal20261128L92309": {
       "status": "En cours",
@@ -9806,11 +9806,11 @@
     },
     "recCal20261128P76735432": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "checkedAt": "2026-11-28T19:34:00.000Z",
-      "statusBasis": "Horaire publié, score non vérifié"
+      "provider": "Footamateur / Ouest-France",
+      "sourceUrl": "https://footamateur.ouest-france.fr/coupe-de-france-8e-tour-les-resultats-du-samedi-28-novembre-2026/",
+      "observedLive": true,
+      "checkedAt": "2026-11-28T20:45:00.000Z",
+      "statusBasis": "Résultat provisoire explicitement marqué en cours ; aucun résultat final"
     },
     "recCal20261128L91875": {
       "status": "En cours",
@@ -9822,11 +9822,11 @@
     },
     "recCal20261128P76609954": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "checkedAt": "2026-11-28T19:34:00.000Z",
-      "statusBasis": "Horaire publié, score non vérifié"
+      "provider": "Bleacher Report",
+      "sourceUrl": "https://bleacherreport.com/game/houston-dynamo-vs-san-jose-earthquakes-2026-11-28-13-30",
+      "observedLive": true,
+      "checkedAt": "2026-11-28T20:45:00.000Z",
+      "statusBasis": "Fil de match et événements de première mi-temps observés ; aucun résultat final"
     },
     "recCal20261128L92095": {
       "status": "En cours",
