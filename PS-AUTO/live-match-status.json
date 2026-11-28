@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-28T11:39:05.160Z",
+  "checkedAt": "2026-11-28T12:40:42.506Z",
   "providers": {
     "football": {
       "state": "erreur",
       "detail": "Source momentanément indisponible",
-      "checkedAt": "2026-11-28T11:39:05.160Z"
+      "checkedAt": "2026-11-28T12:40:42.506Z"
     },
     "tennis": {
       "state": "ok",
-      "detail": "16 directs, 33 à venir ; 0 fiche(s) revérifiée(s)",
-      "checkedAt": "2026-11-28T11:39:05.160Z"
+      "detail": "20 directs, 26 à venir ; 0 fiche(s) revérifiée(s)",
+      "checkedAt": "2026-11-28T12:40:42.506Z"
     }
   },
   "matches": {
