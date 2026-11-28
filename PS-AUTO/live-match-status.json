@@ -9724,12 +9724,13 @@
       "statusBasis": "Statut présumé selon kickoff; score non vérifié"
     },
     "recCal20261128L89208": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T18:34:11.000Z",
+      "status": "Terminé",
+      "provider": "Soccer24 — fiche détaillée actualisée, Full-time 2-3",
+      "sourceUrl": "https://soccer24.mobi/football/austria/bundesliga/austria-lustenau-vs-rapid-vienna/1561972",
+      "checkedAt": "2026-11-28T20:32:05.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Score final vérifié sur la fiche précise",
+      "score": "2-3"
     },
     "recCal20261128P73093174": {
       "status": "En cours",
