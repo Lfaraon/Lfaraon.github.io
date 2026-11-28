@@ -7810,14 +7810,14 @@
       "statusCode": "finished"
     },
     "recCal20261127L92557": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "status": "Reporté",
+      "provider": "365Scores — retard de transport confirmé, nouveau départ conditionnel",
+      "sourceUrl": "https://www.365scores.com/es/football/match/division-profesional-5055/abb-la-paz-real-tomayapo-56887-72058-5055",
       "observedLive": false,
-      "checkedAt": "2026-11-28T00:35:00.000Z",
+      "checkedAt": "2026-11-28T02:33:30.000Z",
       "reversed": false,
-      "rescheduledKickoff": "2026-11-28T00:00:00.000Z",
-      "statusBasis": "Nouvel horaire 28.11.2026 00:00 UTC ; début présumé, score non vérifié"
+      "rescheduledKickoff": "2026-11-28T02:00:00.000Z",
+      "statusBasis": "Retards aériens ; 03h00 suisse annoncé sous réserve d’arrivée du visiteur, début non confirmé. https://www.365scores.com/es/news/demora-abb-vs-real-tomayapo-nueva-hora/"
     },
     "recCal20261127P72044850": {
       "status": "Reporté",
@@ -8139,11 +8139,11 @@
     },
     "recCal20261128P76609140": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Coup d’envoi prévu passé, début présumé, score non vérifié",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T01:35:00.000Z",
-      "observedLive": false
+      "provider": "Bleacher Report — direct observé",
+      "statusBasis": "0-0 à la 48e minute, score provisoire",
+      "sourceUrl": "https://bleacherreport.com/game/columbus-crew-vs-inter-miami-2026-11-27-20-00",
+      "checkedAt": "2026-11-28T02:33:30.000Z",
+      "observedLive": true
     }
   }
 }
