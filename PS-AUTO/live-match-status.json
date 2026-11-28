@@ -7810,14 +7810,15 @@
       "statusCode": "finished"
     },
     "recCal20261127L92557": {
-      "status": "Reporté",
-      "provider": "365Scores — retard de transport confirmé, nouveau départ conditionnel",
+      "status": "En cours",
+      "provider": "365Scores — direct observé après retard de transport",
       "sourceUrl": "https://www.365scores.com/es/football/match/division-profesional-5055/abb-la-paz-real-tomayapo-56887-72058-5055",
-      "observedLive": false,
-      "checkedAt": "2026-11-28T02:33:30.000Z",
+      "observedLive": true,
+      "checkedAt": "2026-11-28T03:39:39.000Z",
       "reversed": false,
       "rescheduledKickoff": "2026-11-28T02:00:00.000Z",
-      "statusBasis": "Retards aériens ; 03h00 suisse annoncé sous réserve d’arrivée du visiteur, début non confirmé. https://www.365scores.com/es/news/demora-abb-vs-real-tomayapo-nueva-hora/"
+      "statusBasis": "1-0 à 53:19 (score provisoire) ; début réel confirmé après report.",
+      "statusCode": "live"
     },
     "recCal20261127P72044850": {
       "status": "Reporté",
@@ -8138,12 +8139,23 @@
       "score": "2-0"
     },
     "recCal20261128P76609140": {
-      "status": "En cours",
-      "provider": "Bleacher Report — direct observé",
-      "statusBasis": "0-0 à la 48e minute, score provisoire",
+      "status": "Terminé",
+      "provider": "Bleacher Report — résultat final confirmé",
+      "statusBasis": "Score final 1-0 ; but à 90+2.",
       "sourceUrl": "https://bleacherreport.com/game/columbus-crew-vs-inter-miami-2026-11-27-20-00",
-      "checkedAt": "2026-11-28T02:33:30.000Z",
-      "observedLive": true
+      "checkedAt": "2026-11-28T03:39:39.000Z",
+      "observedLive": true,
+      "score": "1-0",
+      "statusCode": "finished"
+    },
+    "recCal20261128P76907554": {
+      "status": "En cours",
+      "provider": "Bleacher Report — début réel confirmé",
+      "statusBasis": "0-0 à la 3e minute, dernier suivi disponible (score provisoire).",
+      "sourceUrl": "https://bleacherreport.com/game/real-salt-lake-vs-vancouver-whitecaps-2026-11-27-20-00",
+      "checkedAt": "2026-11-28T03:39:39.000Z",
+      "observedLive": true,
+      "statusCode": "live"
     }
   }
 }
