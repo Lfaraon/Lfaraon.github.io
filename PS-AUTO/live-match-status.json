@@ -8481,19 +8481,22 @@
     },
     "recCal20261128P72740866": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "statusBasis": "Horaire prévu dépassé ; début non observé",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Press Association — compte rendu final",
+      "statusBasis": "Résultat final vérifié",
+      "sourceUrl": "https://www.shropshirestar.com/uk-sports/barrow-come-from-behind-to-win-at-woking-9380156",
       "observedLive": false,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T14:32:50.000Z"
+      "checkedAt": "2026-11-28T16:41:00.000Z",
+      "score": "1-2"
     },
     "recCal20261128P72680322": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "DFB Datencenter — fiche officielle avec résultat et feuille de match",
+      "sourceUrl": "https://datencenter.dfb.de/datencenter/3-liga/2026-2027/15-spieltag/1-fc-saarbruecken-alemannia-aachen-2423992",
       "observedLive": false,
-      "checkedAt": "2026-11-28T15:39:36.000Z"
+      "checkedAt": "2026-11-28T16:41:00.000Z",
+      "score": "0-1",
+      "statusBasis": "Résultat final vérifié"
     },
     "recCal20261128L92604": {
       "status": "Terminé",
@@ -8514,10 +8517,12 @@
     },
     "recCal20261128L92001": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "NetScores — Full Time (fiche actualisée)",
+      "sourceUrl": "https://www.netscores.com/football/maccabi-haifa-hapoel-bnei-sakhnin-live-81198",
       "observedLive": false,
-      "checkedAt": "2026-11-28T15:39:36.000Z"
+      "checkedAt": "2026-11-28T16:41:00.000Z",
+      "score": "1-0",
+      "statusBasis": "Résultat final vérifié"
     },
     "recCal20261128P72680306": {
       "status": "Terminé",
@@ -8538,10 +8543,12 @@
     },
     "recCal20261128P72680310": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "news.de — compte rendu après coup de sifflet",
+      "sourceUrl": "https://www.news.de/sport/860226697/rot-weiss-essen-vs-tsg-1899-hoffenheim-ii-am-28-11-2026-in-der-3-liga-26-27-tv-spielbericht-tore-aufstellung-und-tabelle-in-der-zusammenfassung/1/",
       "observedLive": false,
-      "checkedAt": "2026-11-28T15:39:36.000Z"
+      "checkedAt": "2026-11-28T16:41:00.000Z",
+      "score": "2-0",
+      "statusBasis": "Résultat final vérifié"
     },
     "recCal20261128L91846": {
       "status": "Terminé",
@@ -8570,10 +8577,12 @@
     },
     "recCal20261128P76735468": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Red Star FC — résultat affiché dans la fiche officielle",
+      "sourceUrl": "https://www.redstar.fr/match/2026-2027-8e-tour-tremblay-red-star-fc/",
       "observedLive": false,
-      "checkedAt": "2026-11-28T15:39:36.000Z"
+      "checkedAt": "2026-11-28T16:41:00.000Z",
+      "score": "0-1",
+      "statusBasis": "Résultat final vérifié"
     },
     "recCal20261128L91837": {
       "status": "Terminé",
@@ -8599,10 +8608,12 @@
     },
     "recCal20261128L92000": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "TimesLIVE — compte rendu final",
+      "sourceUrl": "https://www.timeslive.co.za/sport/soccer/2026-11-28-chiefs-slide-continues-with-1-0-loss-to-chippa/",
       "observedLive": false,
-      "checkedAt": "2026-11-28T15:39:36.000Z"
+      "checkedAt": "2026-11-28T16:41:00.000Z",
+      "score": "1-0",
+      "statusBasis": "Résultat final vérifié"
     },
     "recCal20261128L92003": {
       "status": "Terminé",
@@ -8769,11 +8780,12 @@
     },
     "recCal20261128P72513344": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "provider": "r/soccer — fil post-match FT actualisé (8e but à 90+5)",
+      "sourceUrl": "https://www.reddit.com/r/soccer/comments/1y7q335/post_match_thread_bundesliga_saturday_konferenz/",
+      "checkedAt": "2026-11-28T16:41:00.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "8-1"
     },
     "recCal20261128L89083": {
       "status": "En cours",
@@ -9162,11 +9174,11 @@
     },
     "recCal20261128P76944562": {
       "status": "À venir",
-      "provider": "Tennisora — horaire décalé annoncé à 18:00 UTC (19h suisse) ; Betmaster 18:10 UTC, OrcaScore programmé ; aucun jeu observé, heure exacte à confirmer",
-      "sourceUrl": "https://www.tennisora.com/matches/12183082-20261128-63349-78127",
-      "checkedAt": "2026-11-28T15:39:36.000Z",
+      "provider": "WTA Schedule — fiche rafraîchie : 18:30 UTC (19h30 suisse), Scheduled ; Tennisora données reçues 16:38 UTC, aucun jeu/point",
+      "sourceUrl": "https://www.wtaschedule.com/matches/MTg2ODQ4/ayana-akli-abigail-rencheli-vs-lourdes-ayala-sol-ailin-larraya-guidi",
+      "checkedAt": "2026-11-28T16:41:00.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire décalé signalé par plusieurs fiches, début non observé"
+      "statusBasis": "Nouvel horaire indicatif 19h30, début non observé"
     },
     "recCal20261128L92039": {
       "status": "En cours",
