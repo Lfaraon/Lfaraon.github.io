@@ -8698,11 +8698,12 @@
     },
     "recCal20261128L92530": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T16:39:17.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon le calendrier, score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "1-1"
     },
     "recCal20261128P76582216": {
       "status": "Terminé",
@@ -8811,59 +8812,66 @@
     },
     "recCal20261128P72341406": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "2-0"
     },
     "recCal20261128P72740868": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "2-2"
     },
     "recCal20261128L92013": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "2-4"
     },
     "recCal20261128P67015482": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "6-0"
     },
     "recCal20261128P72740870": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "3-1"
     },
     "recCal20261128P72341408": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "0-3"
     },
     "recCal20261128P72740874": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "3-0"
     },
     "recCal20261128L92026": {
       "status": "Terminé",
@@ -8875,35 +8883,39 @@
     },
     "recCal20261128P72342408": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "2-1"
     },
     "recCal20261128P72342410": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "2-3"
     },
     "recCal20261128L91140": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "2-1"
     },
     "recCal20261128L91926": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "0-0"
     },
     "recCal20261128L89085": {
       "status": "Terminé",
@@ -8924,19 +8936,21 @@
     },
     "recCal20261128P72342414": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "1-1"
     },
     "recCal20261128P72740878": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "3-1"
     },
     "recCal20261128L89087": {
       "status": "Terminé",
@@ -8949,11 +8963,12 @@
     },
     "recCal20261128L89408": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "3-0"
     },
     "recCal20261128P72221424": {
       "status": "Terminé",
@@ -8966,19 +8981,21 @@
     },
     "recCal20261128P72341412": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "1-0"
     },
     "recCal20261128P72341414": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "2-2"
     },
     "recCal20261128L89041": {
       "status": "Terminé",
@@ -8991,11 +9008,12 @@
     },
     "recCal20261128P72340088": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "0-1"
     },
     "recCal20261128L92018": {
       "status": "Terminé",
@@ -9007,59 +9025,66 @@
     },
     "recCal20261128P72342416": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "3-2"
     },
     "recCal20261128P72340092": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "1-1"
     },
     "recCal20261128P72342418": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "2-1"
     },
     "recCal20261128P72342420": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "5-0"
     },
     "recCal20261128P72342422": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "1-2"
     },
     "recCal20261128P72341420": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "1-4"
     },
     "recCal20261128P72342424": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "1-3"
     },
     "recCal20261128L89084": {
       "status": "Terminé",
@@ -9072,51 +9097,57 @@
     },
     "recCal20261128P72341422": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "0-0"
     },
     "recCal20261128P72341424": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "1-2"
     },
     "recCal20261128P72342426": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "0-2"
     },
     "recCal20261128L89404": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "0-0"
     },
     "recCal20261128P72342428": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "3-0"
     },
     "recCal20261128P72340098": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "1-0"
     },
     "recCal20261128P72340100": {
       "status": "Terminé",
@@ -9129,59 +9160,66 @@
     },
     "recCal20261128L91857": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "0-2"
     },
     "recCal20261128P72341426": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "1-1"
     },
     "recCal20261128P72340102": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "1-0"
     },
     "recCal20261128P72341428": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "2-2"
     },
     "recCal20261128P72477626": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "4-0"
     },
     "recCal20261128P72477634": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "3-2"
     },
     "recCal20261128P72478738": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "3-4"
     },
     "recCal20261128L92565": {
       "status": "Terminé",
@@ -9193,19 +9231,21 @@
     },
     "recCal20261128P72041268": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "1-0"
     },
     "recCal20261128P72531020": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "0-0"
     },
     "recCal20261128P72044864": {
       "status": "Terminé",
@@ -9217,19 +9257,21 @@
     },
     "recCal20261128L92041": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "1-0"
     },
     "recCal20261128P72531028": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "0-2"
     },
     "recCal20261128P72531688": {
       "status": "Terminé",
@@ -9257,27 +9299,30 @@
     },
     "recCal20261128L92039": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
       "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "2-3"
     },
     "recCal20261128L91897": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
       "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "4-2"
     },
     "recCal20261128L89210": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
       "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "4-1"
     },
     "recCal20261128P76735436": {
       "status": "Terminé",
@@ -9297,19 +9342,21 @@
     },
     "recCal20261128L91873": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
       "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "1-2"
     },
     "recCal20261128L92043": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
       "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "1-1"
     },
     "recCal20261128L92555": {
       "status": "Terminé",
@@ -9345,11 +9392,12 @@
     },
     "recCal20261128P72036310": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
       "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "2-5"
     },
     "recCal20261128P73093170": {
       "status": "Terminé",
@@ -9369,11 +9417,12 @@
     },
     "recCal20261128L91842": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "provider": "Soccerbase — résultat du 28 novembre confirmé dans la liste des résultats",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
       "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Résultat final vérifié",
+      "score": "0-3"
     },
     "recCal20261128P76735460": {
       "status": "En cours",
@@ -9496,12 +9545,12 @@
       "statusBasis": "Statut présumé selon kickoff; score non vérifié"
     },
     "recCal20261128L92554": {
-      "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T17:36:57.000Z",
+      "status": "Reporté",
+      "provider": "Soccerbase — report indiqué",
+      "sourceUrl": "https://www.soccerbase.com/matches/results.sd?date=2026-11-28",
+      "checkedAt": "2026-11-28T18:34:11.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Report confirmé"
     },
     "recCal20261128L91129": {
       "status": "En cours",
