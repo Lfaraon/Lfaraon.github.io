@@ -9413,11 +9413,12 @@
     },
     "recCal20261128P73093170": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T18:34:11.000Z",
+      "provider": "Calcio Vicentino — résultat final confirmé",
+      "sourceUrl": "https://www.calciovicentino.it/2026/11/28/i-risultati-di-sabato-28-novembre/",
+      "checkedAt": "2026-11-28T19:35:00.000Z",
       "observedLive": false,
-      "statusBasis": "Statut présumé selon kickoff; score non vérifié"
+      "statusBasis": "Score final vérifié",
+      "score": "0-1"
     },
     "recCal20261128L92266": {
       "status": "Terminé",
@@ -9486,11 +9487,12 @@
     },
     "recCal20261128L91900": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "Statz — résultat explicitement final — résultat final confirmé",
+      "sourceUrl": "https://statz.ai/h2h/osijek-vs-rijeka/19713863",
+      "checkedAt": "2026-11-28T19:35:00.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié",
+      "score": "0-0"
     },
     "recCal20261128P67015490": {
       "status": "Terminé",
@@ -9590,11 +9592,12 @@
     },
     "recCal20261128P72478732": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "AS — compte rendu après match — résultat final confirmé",
+      "sourceUrl": "https://as.com/futbol/primera/aprobados-y-suspensos-del-elche-redondo-lo-pone-imposible-f202611-n/",
+      "checkedAt": "2026-11-28T19:35:00.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié",
+      "score": "2-3"
     },
     "recCal20261128P72740884": {
       "status": "Terminé",
@@ -9606,11 +9609,12 @@
     },
     "recCal20261128P72221422": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "The Guardian — résultat final confirmé",
+      "sourceUrl": "https://www.theguardian.com/football/live/2026/nov/28/ipswich-town-v-aston-villa-premier-league-live",
+      "checkedAt": "2026-11-28T19:35:00.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié",
+      "score": "2-2"
     },
     "recCal20261128L92534": {
       "status": "Terminé",
@@ -9630,11 +9634,12 @@
     },
     "recCal20261128P72513330": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "checkedAt": "2026-11-28T19:34:00.000Z",
+      "provider": "Welt / dpa — résultat final confirmé",
+      "sourceUrl": "https://www.welt.de/article6b0b2af2741a4ef94784bc33",
+      "checkedAt": "2026-11-28T19:35:00.000Z",
       "observedLive": false,
-      "statusBasis": "Horaire publié, score non vérifié"
+      "statusBasis": "Score final vérifié",
+      "score": "2-2"
     },
     "recCal20261128L89082": {
       "status": "En cours",
