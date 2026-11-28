@@ -8349,12 +8349,13 @@
     },
     "recCal20261128P76445418": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Sportbladet Live — Slut (résultat final)",
       "statusBasis": "Horaire prévu dépassé ; début non observé",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "sourceUrl": "https://sportbladet-live.aftonbladet.se/fotboll/event/varbergs-bois-%C3%B6stersunds-fk/777838",
       "observedLive": false,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T14:32:50.000Z"
+      "checkedAt": "2026-11-28T14:32:50.000Z",
+      "score": "4-1"
     },
     "recCal20261128L91125": {
       "status": "Terminé",
@@ -8386,30 +8387,33 @@
     },
     "recCal20261128P72340082": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Score24hr — Full time",
       "statusBasis": "Horaire prévu dépassé ; début non observé",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "sourceUrl": "https://score24hr.com/en/match/blackburn-rovers-vs-charlton-athletic/1802588",
       "observedLive": false,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T14:32:50.000Z"
+      "checkedAt": "2026-11-28T14:32:50.000Z",
+      "score": "1-0"
     },
     "recCal20261128P72342406": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Score24hr — Full time",
       "statusBasis": "Horaire prévu dépassé ; début non observé",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "sourceUrl": "https://score24hr.com/en/match/bristol-rovers-vs-tranmere-rovers/1803669",
       "observedLive": false,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T14:32:50.000Z"
+      "checkedAt": "2026-11-28T14:32:50.000Z",
+      "score": "1-3"
     },
     "recCal20261128P72342412": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Score24hr — Full time",
       "statusBasis": "Horaire prévu dépassé ; début non observé",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "sourceUrl": "https://score24hr.com/en/match/exeter-city-vs-crawley-town/1803684",
       "observedLive": false,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T14:32:50.000Z"
+      "checkedAt": "2026-11-28T14:32:50.000Z",
+      "score": "0-0"
     },
     "recCal20261128L91234": {
       "status": "Terminé",
@@ -8422,39 +8426,43 @@
     },
     "recCal20261128P72340086": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Score24hr — Full time",
       "statusBasis": "Horaire prévu dépassé ; début non observé",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "sourceUrl": "https://score24hr.com/en/match/lincoln-city-vs-wolves/1802587",
       "observedLive": false,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T14:32:50.000Z"
+      "checkedAt": "2026-11-28T14:32:50.000Z",
+      "score": "0-0"
     },
     "recCal20261128P72341416": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Score24hr — Full time",
       "statusBasis": "Horaire prévu dépassé ; début non observé",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "sourceUrl": "https://score24hr.com/en/match/mk-dons-vs-notts-county/1803122",
       "observedLive": false,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T14:32:50.000Z"
+      "checkedAt": "2026-11-28T14:32:50.000Z",
+      "score": "0-0"
     },
     "recCal20261128P72341418": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Score24hr — Full time",
       "statusBasis": "Horaire prévu dépassé ; début non observé",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "sourceUrl": "https://score24hr.com/en/match/peterborough-united-vs-cambridge-united/1803119",
       "observedLive": false,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T14:32:50.000Z"
+      "checkedAt": "2026-11-28T14:32:50.000Z",
+      "score": "1-2"
     },
     "recCal20261128P72340090": {
       "status": "Terminé",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
+      "provider": "Score24hr — Full time",
       "statusBasis": "Horaire prévu dépassé ; début non observé",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
+      "sourceUrl": "https://score24hr.com/en/match/preston-north-end-vs-norwich-city/1802589",
       "observedLive": false,
       "statusCode": "live",
-      "checkedAt": "2026-11-28T14:32:50.000Z"
+      "checkedAt": "2026-11-28T14:32:50.000Z",
+      "score": "1-1"
     },
     "recCal20261128L91991": {
       "status": "Terminé",
@@ -8553,10 +8561,10 @@
     },
     "recCal20261128L91837": {
       "status": "En cours",
-      "provider": "Règle horaire PS-AUTO (statut présumé)",
-      "sourceUrl": "https://lfaraon.github.io/PS-AUTO/match-source.json",
-      "observedLive": false,
-      "checkedAt": "2026-11-28T13:32:52.000Z"
+      "provider": "Score24hr — direct observé : 0-0 à la 73e, score provisoire",
+      "sourceUrl": "https://score24hr.com/en/match/young-africans-vs-mc-alger/1912740",
+      "observedLive": true,
+      "checkedAt": "2026-11-28T14:32:50.000Z"
     },
     "recCal20261128L91999": {
       "status": "En cours",
